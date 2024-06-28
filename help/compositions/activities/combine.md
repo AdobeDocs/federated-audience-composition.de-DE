@@ -1,0 +1,120 @@
+---
+audience: end-user
+title: Verwenden der Aktivität Kombinieren
+description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
+source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 79%
+
+---
+
+# Kombinieren {#combine}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine"
+>title="Die Aktivität „Kombinieren“"
+>abstract="Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden."
+
+Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
+
+* Eine **Vereinigung** dient dazu, das Ergebnis mehrerer Aktivitäten zu einer einzigen Zielgruppe zusammenzufassen.
+* Eine **Schnittmenge** dient dazu, nur die Elemente zu behalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind.
+* Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
+
+
+Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang der Komposition. Jede Aktivität kann nach der **Kombinieren**.
+
+
+## Konfigurieren der Aktivität „Kombinieren“ {#combine-configuration}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_intersection_merging_options"
+>title="Optionen für die Zusammenführung von Schnittmengen"
+>abstract="Die **Schnittmenge** ermöglicht es, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemein sind. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_exclusion_merging_options"
+>title="Optionen für die Zusammenführung von Ausschlüssen"
+>abstract="Die **Ausschluss** ermöglicht den Ausschluss von Elementen aus einer Population nach bestimmten Kriterien. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_options"
+>title="Auswählen des Segmentierungstyps"
+>abstract="Wählen Sie aus, wie Zielgruppen kombiniert werden sollen: Vereinigung, Schnittmenge oder Ausschluss."
+
+Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität **Kombinieren** zu beginnen:
+
+1. Fügen Sie mehrere Aktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden.
+1. Fügen Sie die Aktivität **Kombinieren** zu einer der vorherigen Verzweigungen hinzu.
+1. Wählen Sie einen der Segmentierungstypen aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion).
+1. Klicken Sie auf **Weiter**.
+1. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten.
+
+## Union {#combine-union}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_intersection_reconciliation_options"
+>title="Abstimmoptionen für Schnittmengen"
+>abstract="Wählen Sie den Abstimmtyp aus, um den Umgang mit Duplikaten zu definieren."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_reconciliation"
+>title="Abstimmoptionen"
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Dubletten behandelt werden."
+
+In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren. Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Dubletten behandelt werden:
+
+* **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
+* **Auswahl an Spalten** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
+
+## Schnittmenge {#combine-intersection}
+
+In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfigurieren. Gehen Sie dazu wie folgt vor:
+
+1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
+1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+
+## Ausschluss  {#combine-exclusion}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_exclusion_options"
+>title="Ausschlussregeln"
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu auf **Regel hinzufügen** in der EU **Ausschlussregeln** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_sets"
+>title="Auswählen von Sets, die kombiniert werden sollen"
+>abstract="Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_exclusion"
+>title="Ausschlussregeln"
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_combine_complement"
+>title="Kombinieren von „Komplement erzeugen“"
+>abstract="Ein-/Ausschalten der **Komplement erzeugen** Option, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
+
+In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
+
+1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
+1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt.
+1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
+
+<!--
+## Examples{#combine-examples}
+
+In the following example, we are using a **Combine** activity and we add a **union** to retrieves all the profiles of the two queries: persons between 18 and 27 years old and persons between 34 and 40 years old.
+
+![](../assets/workflow-union-example.png)
+
+The following example shows the **intersection** between two query activities. It is being used here to retrieve profiles who are between 18 to 27 years old and whose email address has been provided.
+
+![](../assets/workflow-intersection-example.png)
+
+The following **exclusion** example shows two queries configured to filter profiles who are between 18 and 27 years old and have an Adobe email domain. The profiles with an Adobe email domain are then excluded from the first set. 
+
+![](../assets/workflow-exclusion-example.png)
+-->
