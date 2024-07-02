@@ -2,10 +2,10 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 4ba1a869f6519929133af566f1471a640f58f0b6
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 45%
+source-wordcount: '102'
+ht-degree: 46%
 
 ---
 
@@ -23,8 +23,10 @@ ht-degree: 45%
    + [Verwenden von Zielgruppen](customer/audiences.md)
 + Kompositionen {#compositions}
    + [Erste Schritte mit Kompositionen](compositions/gs-compositions.md)
-   + [Arbeiten mit Aktivitäten](compositions/activities/about-activities.md)
-   + Aktivitätenliste {#activities}
+   + [Erstellen einer Komposition](compositions/create-compositions.md)
+   + [Zugriff und Verwalten von Kompositionen](compositions/manage-compositions.md)
+   + Arbeiten mit Aktivitäten {#activities}
+      + [Aktivitätenliste](compositions/activities/about-activities.md)
       + [Und-Verknüpfung](compositions/activities/and-join.md)
       + [Zielgruppe erstellen](compositions/activities/build-audience.md)
       + [Dimensionsänderung](compositions/activities/change-dimension.md)
