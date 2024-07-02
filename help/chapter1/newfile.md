@@ -2,10 +2,10 @@
 title: Neue Datei
 description: Beschreibung
 keywords: neue Datei, Datei hinzufügen, Datei
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="Workflow-Eigenschaften"
->abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen des Workflows verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt ZUSÄTZLICHE OPTIONEN, um weitere Einstellungen wie den internen Namen des Workflows, seine Ordner, die Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
 
 
 >[!CONTEXTUALHELP]
