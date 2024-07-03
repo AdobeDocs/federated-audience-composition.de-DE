@@ -2,7 +2,7 @@
 audience: end-user
 title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 3%
@@ -20,7 +20,7 @@ Mit der Adobe-Datenkomposition können Sie Kompositionen erstellen, bei denen Si
 ## Zugriff auf Kompositionen {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="Kompositionen"
 >abstract="In diesem Bildschirm können Sie die vollständige Liste der Kompositionen aufrufen, ihren aktuellen Status, das letzte/nächste Ausführungsdatum überprüfen und eine neue Komposition erstellen."
 
