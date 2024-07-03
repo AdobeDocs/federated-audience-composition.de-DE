@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
-source-git-commit: 4b5173a2a0549d6535bccd07c94e521ecde8330b
+source-git-commit: fd92c280094989cb64ff5151fb00b4a8b0e650f7
 workflow-type: tm+mt
-source-wordcount: '1052'
-ht-degree: 86%
+source-wordcount: '1034'
+ht-degree: 83%
 
 ---
 
@@ -87,7 +87,7 @@ Im Feld **Bei Fehler** lassen sich mögliche Reaktionen bei Auftreten eines Fehl
 
 ### Initialisierungsskript
 
-Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Fragment ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird. Weitere Informationen finden Sie im Abschnitt zu den [Ereignisvariablen](../workflows/event-variables.md).
+Mit dem **Initialisierungsskript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Snippet ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird.
 
 ## Beispiel {#example}
 
@@ -108,4 +108,4 @@ Um dies zu bewerkstelligen, wurden die folgenden Aktivitäten hinzugefügt:
 
 Wenn Sie den Workflow abgeschlossen haben, fügen Sie am Ende des Diagramms die Aktivität **[!UICONTROL Ende]** hinzu. Diese Aktivität ermöglicht es Ihnen, das Ende eines Workflows visuell zu markieren, und hat keine funktionalen Auswirkungen.
 
-Nachdem Sie das Workflow-Diagramm erfolgreich entworfen haben, können Sie den Workflow ausführen und den Fortschritt der verschiedenen Aufgaben verfolgen. [Erfahren Sie, wie Sie einen Workflow starten und dessen Ausführung überwachen](start-monitor-workflows.md)
+Nach erfolgreicher Erstellung des Workflow-Diagramms können Sie den Workflow ausführen und den Fortschritt seiner verschiedenen Aufgaben verfolgen.
