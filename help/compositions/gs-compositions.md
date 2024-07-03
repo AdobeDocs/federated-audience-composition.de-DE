@@ -2,9 +2,9 @@
 audience: end-user
 title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
-source-git-commit: 71b3a93b7ac85605b008f7b1ec1da25a1dc84f24
+source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '262'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Auf diesem Bildschirm können Sie neue Kompositionen erstellen und auf bestehend
 
 Um die Liste zu verfeinern und die gesuchte Komposition einfach zu finden, können Sie die Liste durchsuchen und Kompositionen nach ihrem Status oder dem letzten Verarbeitungsdatum filtern.
 
-Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Klicken Sie dazu auf die Schaltfläche Spalten konfigurieren und verwalten
+Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Klicken Sie dazu auf die Schaltfläche **Spalte konfigurieren** s und fügen Sie die gewünschten Ausgabespalten hinzu oder entfernen Sie sie.
 
 ![](assets/compositions-columns.png)
 
