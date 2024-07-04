@@ -2,10 +2,10 @@
 audience: end-user
 title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
-source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '276'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ Mit der Adobe-Datenkomposition können Sie Kompositionen erstellen, bei denen Si
 
 ![](assets/composition-example.png)
 
-## Zugriff auf Kompositionen {#access}
+## Zugriff und Verwalten von Kompositionen {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -26,17 +26,15 @@ Mit der Adobe-Datenkomposition können Sie Kompositionen erstellen, bei denen Si
 
 Kompositionen können über die Adobe Experience Platform aufgerufen werden **[!UICONTROL Zielgruppen]** im Menü **Zusammengestellte Kompositionen** Registerkarte.
 
-![](assets/compositions-list.png)
+Auf diesem Bildschirm können Sie neue Kompositionen erstellen und auf bestehende zugreifen. Sie können eine vorhandene Komposition auch duplizieren oder löschen, indem Sie auf die Suchschaltfläche neben ihrem Namen klicken.
 
-Auf diesem Bildschirm können Sie neue Kompositionen erstellen und auf bestehende zugreifen.
+![](assets/compositions-list.png)
 
 Um die Liste zu verfeinern und die gesuchte Komposition einfach zu finden, können Sie die Liste durchsuchen und Kompositionen nach ihrem Status oder dem letzten Verarbeitungsdatum filtern.
 
 Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Klicken Sie dazu auf die Schaltfläche **Spalte konfigurieren** s und fügen Sie die gewünschten Ausgabespalten hinzu oder entfernen Sie sie.
 
 ![](assets/compositions-columns.png)
-
-Um eine vorhandene Komposition zu duplizieren oder zu löschen, klicken Sie auf die Suchschaltfläche neben ihrem Namen und wählen Sie den gewünschten Vorgang aus.
 
 ## Status von Kompositionen {#status}
 
@@ -47,3 +45,5 @@ Kompositionen können mehrere Status aufweisen:
 * **[!UICONTROL Angehalten]**: Die Ausführung der Komposition wurde angehalten.
 * **[!UICONTROL Angehalten]**: Die Ausführung der Komposition wurde angehalten.
 * **[!UICONTROL Fehlerhaft]**: Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Öffnen Sie die Komposition und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben.
+
+Ausführliche Informationen zum Starten und Überwachen einer Komposition finden Sie unter [diesem Abschnitt](../compositions/start-monitor-composition.md).
