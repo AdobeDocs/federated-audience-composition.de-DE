@@ -2,9 +2,9 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '117'
 ht-degree: 38%
 
 ---
@@ -37,9 +37,9 @@ ht-degree: 38%
       + [Deduplizierung](compositions/activities/deduplication.md)
       + [Anreicherung](compositions/activities/enrichment.md)
       + [Verzweigung ](compositions/activities/fork.md)
-      + [Inkrementelle Abfrage](compositions/activities/incremental-query.md)
       + [Abstimmung](compositions/activities/reconciliation.md)
       + [Zielgruppe speichern](compositions/activities/save-audience.md)
+      + [Planung](compositions/activities/scheduler.md)
       + [Aufspalten](compositions/activities/split.md)
       + [Warten](compositions/activities/wait.md)
 + Abfragen der Datenbank {#query-database}
