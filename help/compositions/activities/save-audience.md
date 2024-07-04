@@ -1,13 +1,14 @@
 ---
 audience: end-user
 title: Verwenden der Aktivität Audience-Speicherung
-description: Erfahren Sie, wie Sie die Aktivität Verzweigung verwenden
-source-git-commit: 05a023a7f7aab719f3771030a7ac8bba57e5bee3
+description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
+source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 67%
+source-wordcount: '358'
+ht-degree: 30%
 
 ---
+
 
 # Zielgruppe speichern {#save-audience}
 
@@ -27,14 +28,11 @@ ht-degree: 67%
 >abstract="Wählen Sie die primäre Identität für Profile aus."
 >additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Weitere Informationen finden Sie in der Experience Platform-Dokumentation ."
 
-
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Identity-Namespace"
 >abstract="Wählen Sie den Namespace aus, der für Profile verwendet werden soll."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces" text="Weitere Informationen finden Sie in der Experience Platform-Dokumentation ."
-
-
 
 Die **Audience-Speicherung** ermöglicht die Aktualisierung einer existierenden Audience oder die Erstellung einer neuen Audience aus der zuvor erstellten Population. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
 
@@ -46,21 +44,23 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
 
 1. Hinzufügen einer **Audience-Speicherung** Aktivität zu Ihrer Komposition hinzufügen.
 
-1. Wählen Sie im Dropdown-Menü **Modus** die Aktion aus, die Sie ausführen möchten:
+   ![](../assets/save-audience.png)
 
-   * **Erstellen oder Aktualisieren einer vorhandenen Zielgruppe**: Definieren Sie eine **Zielgruppenbezeichnung**. Wenn die Zielgruppe bereits existiert, wird sie aktualisiert, andernfalls wird eine neue Zielgruppe erstellt.
+1. Geben Sie den Titel der zu erstellenden Audience an.
 
-   * **Vorhandene Zielgruppe aktualisieren**: Wählen Sie die **Zielgruppe**, die Sie aktualisieren möchten, in der Liste der vorhandenen Zielgruppen aus.
+1. Klicks **Zielgruppenzuordnung hinzufügen** Wählen Sie dann die Quell- und Zielgruppenfelder aus:
 
-1. Wählen Sie den **Aktualisierungsmodus** aus, der für vorhandene Zielgruppen gelten soll:
+   * **Source-Zielgruppenfeld**:
+   * **Zielgruppenfeld**:
 
-   * **Zielgruppeninhalt durch neue Daten ersetzen**: Der gesamte Inhalt der Zielgruppe wird ersetzt. Die zuvor enthaltenen Daten gehen dabei verloren. Nur die in der eingehenden Transition der Aktivität „Zielgruppe speichern“ übermittelten Daten werden beibehalten. Bei dieser Option werden Zielgruppendimension und -typ der aktualisierten Zielgruppe gelöscht.
+   Wiederholen Sie den Vorgang, um beliebig viele Zielgruppen-Mappings hinzuzufügen.
 
-   * **Zielgruppeninhalt mit den neuen Daten ergänzen**: Der alte Zielgruppeninhalt wird beibehalten und die Daten der eingehenden Transition der Aktivität „Zielgruppe speichern“ wird hinzugefügt.
+1. Wählen Sie die primäre Identität und den Namespace aus, die zur Identifizierung der Zielprofile in der Datenbank verwendet werden sollen:
 
-1. Markieren Sie die Option **Ausgehende Transition erzeugen**, wenn Sie eine Transition nach der Aktivität **Zielgruppe speichern** hinzufügen möchten.
+   * **Primäres Identitätsfeld**: Wählen Sie das Feld aus, das zur Identifizierung der Profile verwendet werden soll. Beispielsweise die E-Mail-Adresse oder Telefonnummer.
+   * **Identitäts-Namespace**: Wählen Sie den Namespace aus, der zur Identifizierung der Profile verwendet werden soll, d. h. den Datentyp, der als Identifizierungsschlüssel verwendet werden soll. Wenn beispielsweise die E-Mail-Adresse als primäres Identitätsfeld ausgewählt wurde, wird der Identitäts-Namespace **Email** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
-Der Inhalt der gespeicherten Zielgruppe ist anschließend in der Detailansicht der Zielgruppe verfügbar, auf die Sie im Menü **Zielgruppen** zugreifen können. Die in dieser Ansicht verfügbaren Spalten entsprechen den Spalten der eingehenden Transition der **Audience-Speicherung** -Aktivität.
+Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform gespeichert und im **Zielgruppen** Menü.
 
 <!--
 
