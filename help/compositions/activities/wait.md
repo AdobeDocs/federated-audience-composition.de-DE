@@ -2,7 +2,7 @@
 audience: end-user
 title: Verwenden Sie die Warten -Aktivität
 description: Erfahren Sie, wie Sie die Warten -Aktivität verwenden
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 70%
@@ -27,4 +27,5 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Warten** zu konfigurieren:
 1. Geben Sie die **Dauer** der Wartezeit zwischen der eingehenden und der ausgehenden Transition an.
 
 1. Wählen Sie die Zeiteinheit im Feld **Zeiträume** aus: Sekunden, Minuten, Stunden, Tage.
+
 

@@ -2,12 +2,13 @@
 audience: end-user
 title: Verwenden der Aktivität Kombinieren
 description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 79%
 
 ---
+
 
 # Kombinieren {#combine}
 
@@ -22,9 +23,7 @@ Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden P
 * Eine **Schnittmenge** dient dazu, nur die Elemente zu behalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind.
 * Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
 
-
 Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang der Komposition. Jede Aktivität kann nach der **Kombinieren**.
-
 
 ## Konfigurieren der Aktivität „Kombinieren“ {#combine-configuration}
 
