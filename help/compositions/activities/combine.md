@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Kombinieren
 description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 79%
+source-wordcount: '757'
+ht-degree: 73%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 79%
 >title="Die Aktivität „Kombinieren“"
 >abstract="Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden."
 
-Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden. Im Folgenden finden Sie die verfügbaren Segmentierungstypen:
-
-* Eine **Vereinigung** dient dazu, das Ergebnis mehrerer Aktivitäten zu einer einzigen Zielgruppe zusammenzufassen.
-* Eine **Schnittmenge** dient dazu, nur die Elemente zu behalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind.
-* Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen.
+Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in jeder der Populationen enthaltenen Datensätze verwenden.
 
 Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang der Komposition. Jede Aktivität kann nach der **Kombinieren**.
 
@@ -46,7 +42,10 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 
 1. Fügen Sie mehrere Aktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden.
 1. Fügen Sie die Aktivität **Kombinieren** zu einer der vorherigen Verzweigungen hinzu.
-1. Wählen Sie einen der Segmentierungstypen aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion).
+1. Wählen Sie den Segmenttyp aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion).
+
+   ![](../assets/combine.png)
+
 1. Klicken Sie auf **Weiter**.
 1. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten.
 
@@ -67,12 +66,16 @@ In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren
 * **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
 * **Auswahl an Spalten** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
 
+![](../assets/combine-union.png)
+
 ## Schnittmenge {#combine-intersection}
 
 In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfigurieren. Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
-1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+1. Sie können die **Komplement erzeugen** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+
+![](../assets/combine-intersection.png)
 
 ## Ausschluss  {#combine-exclusion}
 
@@ -99,8 +102,10 @@ In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfiguriere
 In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
 1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
-1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt.
+1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
 1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
+
+![](../assets/combine-exclusion.png)
 
 <!--
 ## Examples{#combine-examples}

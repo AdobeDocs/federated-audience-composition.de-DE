@@ -2,7 +2,7 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 38%

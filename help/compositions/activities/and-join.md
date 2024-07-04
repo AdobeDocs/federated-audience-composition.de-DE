@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Und-Verknüpfung
 description: Erfahren Sie, wie Sie die Und-Verknüpfung verwenden.
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 66%
+source-wordcount: '224'
+ht-degree: 57%
 
 ---
 
@@ -29,8 +29,10 @@ Bei dieser Aktivität wird die ausgehende Transition erst aktiviert, wenn alle e
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Und-Verknüpfung** zu konfigurieren:
 
-1. Fügen Sie mehrere Aktivitäten wie z. B. Kanalaktivitäten hinzu, um mindestens zwei verschiedene Ausführungsverzweigungen zu bilden.
+1. Fügen Sie mehrere Aktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden.
 1. Fügen Sie die Aktivität **Und-Verknüpfung** zu einer der Verzweigungen hinzu.
-1. Aktivieren Sie im Abschnitt **Zusammenführungsoptionen** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
-1. Wählen Sie in der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition aus, die Sie beibehalten möchten. Die ausgehende Transition darf nur eine der Populationen der eingehenden Transition enthalten.
 
+   ![](../assets/and-join.png)
+
+1. Im **Zusammenführungsoptionen** aktivieren Sie alle vorherigen Aktivitäten, die Sie synchronisieren möchten.
+1. Wählen Sie in der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition aus, die Sie beibehalten möchten. Die ausgehende Transition kann nur eine der eingehenden Populationen enthalten. Wenn die Hauptmenge nicht bestimmt wurde, wird die an die ausgehende Transition übermittelte Population zufällig ausgewählt.

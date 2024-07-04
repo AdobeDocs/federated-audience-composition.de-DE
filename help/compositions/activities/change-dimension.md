@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Dimensionsänderung
 description: Erfahren Sie, wie Sie die Aktivität der Dimensionsänderung verwenden
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 56%
+source-wordcount: '185'
+ht-degree: 44%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Aktivität „Dimensionsänderung“"
->abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension beim Erstellen einer Zielgruppe ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
+>abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension, d. h. das Schema, während Sie eine Audience erstellen, ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
 
-Die **Dimensionsänderung** ermöglicht es Ihnen, die Zielgruppendimension während der Erstellung Ihrer Audience zu ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
-
+Die **Dimensionsänderung** ermöglicht es, die Zielgruppendimension, d. h. das Schema, während der Audience-Erstellung zu ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
@@ -31,7 +30,9 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konf
 
 1. Hinzufügen einer **Dimensionsänderung** Aktivität zu Ihrer Komposition hinzufügen.
 
-1. Definieren Sie die **neue Zielgruppendimension**. Bei Dimensionsänderung werden alle Datensätze beibehalten.
+   ![](../assets/change-dimension.png)
+
+1. Definieren Sie die **Neues Schema**. Während der Schemaänderung werden alle Datensätze beibehalten.
 
 1. Führen Sie die Komposition aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität Dimensionsänderung und vergleichen Sie die Struktur der Kompositionstabellen.
 
@@ -42,3 +43,7 @@ In this example, we want to send an SMS delivery to all the profiles who have ma
 
 We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
 -->
+
+
+
+<!-- on parle de dimension, mais dans UI "schema", va rester comme ça ?-->
