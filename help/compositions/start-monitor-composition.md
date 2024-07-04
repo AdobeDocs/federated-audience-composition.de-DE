@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
-source-git-commit: b946f8821d965fb00f79f6f5557adcfff1ee2387
+source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 47%
+source-wordcount: '612'
+ht-degree: 31%
 
 ---
 
@@ -16,11 +16,11 @@ Nachdem Sie Ihre Komposition erstellt und die Aufgaben entworfen haben, die auf 
 
 ## Komposition starten {#start}
 
-Um die Komposition zu starten, navigieren Sie zum **[!UICONTROL Kompositionen]** oder der zugehörigen Kampagne und klicken Sie auf **[!UICONTROL Starten]** in der oberen rechten Ecke der Arbeitsfläche.
-
-Sobald die Komposition ausgeführt wird, wird jede Aktivität auf der Arbeitsfläche in einer sequenziellen Reihenfolge ausgeführt, bis das Ende der Komposition erreicht ist.
+Um eine Komposition zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** in der oberen rechten Ecke des Bildschirms. Wenn die Komposition ausgeführt wird, wird jede Aktivität auf der Arbeitsfläche in einer sequenziellen Reihenfolge ausgeführt, bis das Ende der Komposition erreicht ist.
 
 Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofilen in Echtzeit verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
+
+![](assets/composition-visual-flow.png)
 
 ## Kompositionsübergänge {#transitions}
 
@@ -29,36 +29,53 @@ In Kompositionen werden Daten, die von einer Aktivität zur anderen über Transi
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
 * Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
 
+![](assets/transition-preview.png)
+
 ## Überwachen der Aktivitätsausführung {#activities}
 
 Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes ermöglichen es, die Ausführung zu überprüfen:
 
 | Visueller Indikator | Beschreibung |
 |-----|------------|
-|  | Die Aktivität wird derzeit ausgeführt. |
-|  | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
-|  | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Kompositionsprotokolle , um weitere Informationen zu erhalten. |
-|  | Die Aktivität wurde erfolgreich ausgeführt. |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | Die Aktivität wird derzeit ausgeführt. |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | Die Aktivität erfordert Ihre Aufmerksamkeit. Dies kann die Bestätigung eines Versands oder die Ergreifung einer notwendigen Maßnahme beinhalten. |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | Bei der Aktivität ist ein Fehler aufgetreten. Um das Problem zu beheben, öffnen Sie die Kompositionsprotokolle , um weitere Informationen zu erhalten. |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | Die Aktivität wurde erfolgreich ausgeführt. |
 
 ## Überwachen der Protokolle und Aufgaben {#logs-tasks}
 
-Das Überwachen von Kompositionsprotokollen und -aufgaben ist ein wichtiger Schritt, um Ihre Kompositionen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über das Symbol **[!UICONTROL Protokolle]** in der Aktionssymbolleiste und im Eigenschaftenbereich jeder Aktivität aufgerufen werden.
+Das Überwachen von Kompositionsprotokollen und -aufgaben ist ein wichtiger Schritt, um Ihre Kompositionen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über die **[!UICONTROL Protokolle]** -Schaltfläche in der Symbolleiste der Aktion und im Eigenschaftenbereich jeder Aktivität verfügbar.
 
-Die **[!UICONTROL Protokolle und Aufgaben]** zeigt einen Verlauf der Ausführung der Komposition an und zeichnet alle Benutzeraktionen und aufgetretenen Fehler auf. Dieser Verlauf wird für die in der Komposition angegebene Dauer gespeichert. [Ausführungsoptionen](composition-settings.md). Während dieser Dauer werden alle Nachrichten gespeichert, auch nach einem Neustart der Komposition. Wenn Sie die Nachrichten einer früheren Ausführung nicht speichern möchten, klicken Sie auf die Schaltfläche **[!UICONTROL Verlauf bereinigen]**.
+![](assets/logs-button.png)
 
-Es stehen zwei Arten von Informationen zur Verfügung:
+Die **[!UICONTROL Kompositionsprotokolle und Aufgaben]** zeigt einen Verlauf der Ausführung der Komposition an, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden.
 
-* Die **[!UICONTROL Protokoll]** enthält den Ausführungsverlauf aller Kompositionsaktivitäten. Sie zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
-* Die Registerkarte **[!UICONTROL Aufgaben]** liefert Details zur Ausführungsabfolge der Aktivitäten.
+<!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
 
-In beiden Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.
+Der Verlauf ist in verschiedene Tabs unterteilt, die nachfolgend beschrieben werden:
+
+* Die **[!UICONTROL Protokoll]** enthält den Ausführungsverlauf aller Kompositionsaktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
+* Der **[!UICONTROL Aufgaben]**-Tab liefert Details zur Ausführungsabfolge der Aktivitäten. Die Schaltfläche am Ende jeder Aufgabe ermöglicht die Auflistung der Ereignisvariablen, die durch die Aktivität übergeben werden.
+* Die **[!UICONTROL Variablen]** -Tab listet alle in der Komposition übergebenen Variablen auf. Sie ist nur verfügbar, wenn Sie auf die Protokolle und Aufgaben von der Arbeitsfläche der Komposition aus zugreifen. Sie ist jetzt beim Zugriff auf die Protokolle im Eigenschaftenbereich einer Aktivität verfügbar.  <!-- à confirmer-->
+
+![](assets/logs-tasks.png)
+
+In allen Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.
 
 ## Ausführungsbefehle von Kompositionen {#execution-commands}
 
-Die Aktionsleiste in der oberen rechten Ecke enthält Befehle, mit denen Sie die Ausführung der Komposition verwalten können. Sie haben folgende Möglichkeiten:
+Die Aktionsleiste in der oberen rechten Ecke enthält Befehle, mit denen Sie die Ausführung der Komposition verwalten können.
 
-* **[!UICONTROL Starten]** / **[!UICONTROL Fortsetzen]** die Ausführung der Komposition, die dann den Status Gestartet annimmt. Wenn die Komposition angehalten wurde, wird sie fortgesetzt. Andernfalls wird sie gestartet und die ersten Aktivitäten werden aktiviert.
+![](assets/execution-actions.png)
 
-* **[!UICONTROL Anhalten]** die Ausführung der Komposition, die dann den Status Ausgesetzt annimmt. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
+Die verfügbaren Aktionen sind:
 
-* **[!UICONTROL Anhalten]** eine Komposition, die ausgeführt wird und dann den Status Abgeschlossen annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle wiederaufnehmen, an der sie gestoppt wurde.
+* **Starten**: Startet die Ausführung der Komposition, die dann die **Gestartet** -Status. Die Komposition wird gestartet und die ersten Aktivitäten werden aktiviert.
+
+* **[!UICONTROL Fortsetzen]**: Setzt die Ausführung der ausgesetzten Komposition fort. Die Komposition übernimmt die **Gestartet** -Status.
+
+* **[!UICONTROL Anhalten]** die Ausführung der Komposition, die dann die **Angehalten** -Status. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
+
+* **[!UICONTROL Anhalten]** eine Komposition, die ausgeführt wird, die dann die **Abgeschlossen** -Status. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle wiederaufnehmen, an der sie gestoppt wurde.
+
+* **Neu starten**: Hält die Komposition an und startet sie neu. In den meisten Fällen können Sie so einen schnelleren Neustart durchführen, da das Anhalten eines Workflows eine gewisse Zeit in Anspruch nimmt und die **Starten** -Schaltfläche nur verfügbar, wenn der Stopp effektiv ist.
