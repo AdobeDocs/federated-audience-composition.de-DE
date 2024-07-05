@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aufspaltung
 description: Erfahren Sie, wie Sie die Aktivität Aufspaltung verwenden
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 83%
+source-wordcount: '919'
+ht-degree: 79%
 
 ---
 
@@ -59,7 +59,7 @@ Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Überlappen von Ausgabepopulationen ermöglichen"
->abstract="Überlappen von Ausgabepopulationen ermöglichen"
+>abstract="Die **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** verwaltet die Populationen, die zu mehreren Teilmengen gehören. Wenn das Kästchen nicht markiert wird, stellt die Aufspaltungsaktivität sicher, dass ein Empfänger nicht in mehreren ausgehenden Transitionen vorhanden sein kann, selbst wenn es die Kriterien mehrerer Teilmengen erfüllt. Sie befinden sich in der Zielgruppe des ersten Tabs mit entsprechenden Kriterien. Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Kriterien sie erfüllen. Es wird jedoch empfohlen, keine Überlappungen zuzulassen."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
@@ -75,9 +75,13 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
 1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Beschriftung jeder Teilmenge zu ändern, um sie auf der Arbeitsfläche der Komposition leicht zu identifizieren.
 
+   ![](../assets/split.png)
+
 1. Konfigurieren Sie, wie jede Teilmenge die eingehende Population filtern soll. Gehen Sie dazu wie folgt vor:
 
-   1. Öffnen Sie die Teilmenge, um ihre Eigenschaften anzuzeigen.
+   1. Erweitern Sie die Teilmenge, um ihre Eigenschaften anzuzeigen.
+
+      ![](../assets/split-subset.png)
 
    1. Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modelers. Schließen Sie beispielsweise Profile aus der eingehenden Population ein, deren E-Mail-Adresse in der Datenbank vorhanden ist. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    >[!NOTE]
    >
    >Die Option **[!UICONTROL Alle Teilmengen in derselben Tabelle generieren]** ermöglicht die Gruppierung aller Teilmengen in einer ausgehenden Transition.
+
+1. Die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind:
+
+   * Wenn diese Option deaktiviert ist, stellt die Aufspaltung sicher, dass ein Profil nur in einer Ergebnismenge enthalten ist, auch wenn es den Kriterien anderer Teilmengen entspricht. Das Profil ist in der ersten Teilmenge enthalten, dessen Kriterien es entspricht.
+   * Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Kriterien sie erfüllen. Es wird jedoch empfohlen, keine Überlappungen zuzulassen.
 
 Der Aktivität ist jetzt konfiguriert. Bei der Ausführung wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der sie der Aktivität hinzugefügt wurde.
 
