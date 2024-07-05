@@ -2,10 +2,10 @@
 audience: end-user
 title: Anreicherung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Anreicherung verwenden.
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 47%
+source-wordcount: '395'
+ht-degree: 35%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Anreicherungsdaten"
->abstract="Wählen Sie die Daten aus, die zur Anreicherung Ihrer Komposition verwendet werden sollen. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus der Zieldimension oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
+>abstract="Wählen Sie die Daten aus, die zur Anreicherung Ihrer Komposition verwendet werden sollen. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, das auch als Zielgruppendimension bezeichnet wird, oder eine Kollektionsrelation, bei der es sich um eine 1:n-Kardinalität zwischen Tabellen handelt."
 
 Die **Anreicherung** Mithilfe dieser Aktivität können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird häufig in Kompositionen nach Segmentierungsaktivitäten verwendet.
 
@@ -84,7 +84,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburtsdatum. Führen Sie folgende Schritte aus:
 
 1. Klicken Sie in das Feld **Attribut**.
-1. Wählen Sie ein einfaches Feld aus der Zielgruppendimension aus, in unserem Beispiel das Geburtsdatum.
+1. Wählen Sie ein einfaches Feld aus dem Schema aus, das in unserem Beispiel als Zielgruppendimension bezeichnet wird.
 1. Klicken Sie auf **Bestätigen**.
 
 <!--### Collection link {#collection-link}

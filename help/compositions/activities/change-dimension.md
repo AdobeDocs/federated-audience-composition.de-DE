@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Dimensionsänderung
 description: Erfahren Sie, wie Sie die Aktivität der Dimensionsänderung verwenden
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 44%
+source-wordcount: '187'
+ht-degree: 29%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Aktivität „Dimensionsänderung“"
->abstract="Mithilfe dieser Aktivität können Sie die Zielgruppendimension, d. h. das Schema, während Sie eine Audience erstellen, ändern. Diese Aktivität verschiebt die Achse je nach Datenvorlage und der Eingabedimension. Beispielsweise können Sie von der Dimension „Verträge“ zur Dimension „Kundinnen und Kunden“ wechseln."
+>abstract="Diese Aktivität ermöglicht es Ihnen, das Schema, die Zielgruppendimension, während der Erstellung einer Audience zu ändern. Die Achse wird je nach Datenvorlage und Eingabeschema verschoben. Sie können beispielsweise vom Schema &quot;Verträge&quot;zum Schema &quot;Kunden&quot;wechseln."
 
-Die **Dimensionsänderung** ermöglicht es, die Zielgruppendimension, d. h. das Schema, während der Audience-Erstellung zu ändern. Die Achse wird entsprechend der Datenvorlage und der Eingabedimension verschoben. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+Die **Dimensionsänderung** Aktivität ermöglicht Ihnen, das Schema, die Zielgruppendimension, während der Erstellung Ihrer Audience zu ändern. Die Achse wird je nach Datenvorlage und Eingabeschema verschoben.
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
@@ -34,7 +34,7 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konf
 
 1. Definieren Sie die **Neues Schema**. Während der Schemaänderung werden alle Datensätze beibehalten.
 
-1. Führen Sie die Komposition aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität Dimensionsänderung und vergleichen Sie die Struktur der Kompositionstabellen.
+1. Führen Sie die Komposition aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach dem **Dimensionsänderung** und die Struktur der Kompositionstabellen vergleichen.
 
 <!--
 ## Example {#example}

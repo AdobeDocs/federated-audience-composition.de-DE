@@ -2,9 +2,9 @@
 audience: end-user
 title: Arbeiten mit Aktivitäten
 description: Erfahren Sie, wie Sie mit Aktivitäten arbeiten.
-source-git-commit: 13e7e75fe1dc175fce9464fa58c7a50b5e6107d4
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '278'
 ht-degree: 45%
 
 ---
@@ -20,7 +20,7 @@ In Federated Audience Komposition können Sie Kompositionen mit zwei Arten von A
 ## Zielgruppenbestimmungs-Aktivitäten
 
 * [Erstellen der Zielgruppenaktivität](build-audience.md): Definieren Sie Ihre Zielpopulation. Sie können entweder eine vorhandene Zielgruppe auswählen oder den Abfrage-Modeler verwenden, um Ihre eigene Abfrage zu definieren.
-* [Dimensionsänderung](change-dimension.md): Ändern Sie die Zielgruppendimension beim Erstellen der Komposition.
+* [Dimensionsänderung](change-dimension.md): Ändern Sie das Schema (auch als Zielgruppendimension bezeichnet) während Sie Ihre Komposition erstellen.
 * [Kombinieren](combine.md): Mit dieser Aktivität segmentieren Sie Ihre eingehende Population. Sie können eine Vereinigung, eine Schnittmenge oder einen Ausschluss verwenden.
 * [Deduplizierung](deduplication.md): Mit dieser Aktivität löschen Sie Dubletten in Ergebnissen aus eingehenden Aktivitäten.
 * [Anreicherung](enrichment.md): Definieren Sie zusätzliche Daten zur Verarbeitung in Ihrer Komposition. Mit dieser Aktivität können Sie die eingehende Transition nutzen und entsprechend der Konfiguration der Aktivität die ausgehende Transition mit Zusatzdaten ergänzen.

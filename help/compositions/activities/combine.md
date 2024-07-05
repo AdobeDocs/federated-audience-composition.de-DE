@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Kombinieren
 description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 69%
+source-wordcount: '765'
+ht-degree: 55%
 
 ---
 
@@ -87,7 +87,7 @@ Gehen Sie dazu wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu auf **Regel hinzufügen** in der EU **Ausschlussregeln** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** in der EU **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ Gehen Sie dazu wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
 1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
 
-1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
+1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
 1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
 
 <!--

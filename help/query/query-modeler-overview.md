@@ -2,10 +2,10 @@
 audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: So arbeiten Sie mit dem Abfrage-Modeler.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Abfrage-Modeler"
->abstract="Definieren Sie Filterkriterien für Empfänger oder eine beliebige andere Zielgruppendimension aus der Datenbank."
+>abstract="Definieren Sie Filterkriterien für Empfänger oder ein anderes Schema, das auch als Zielgruppendimension bezeichnet wird, aus der Datenbank."
 
 Das Abfragemodell vereinfacht die Filterung der Datenbank anhand verschiedener Kriterien. Außerdem kann der Abfrage-Modeler sehr komplexe und lange Abfragen effizient verwalten – und das bei höherer Flexibilität und Genauigkeit. Darüber hinaus werden vordefinierte Filter in Bedingungen unterstützt, sodass Sie Ihre Abfragen mühelos verfeinern und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppenbestimmung und Segmentierungsstrategien nutzen können.
 

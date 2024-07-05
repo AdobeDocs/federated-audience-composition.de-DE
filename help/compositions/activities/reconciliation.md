@@ -2,10 +2,10 @@
 audience: end-user
 title: Die Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Abstimmung verwenden.
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 45%
+source-wordcount: '518'
+ht-degree: 42%
 
 ---
 
@@ -43,7 +43,7 @@ Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw. Standardmäßig ist die aktuelle Zielgruppendimension der Komposition ausgewählt."
+>abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten etc. Standardmäßig ist das aktuelle Kompositionsschema ausgewählt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Auswählen der Zielgruppendimension"
->abstract="Wählen Sie die Zielgruppendimension für Ihre eingehenden Daten zum Abstimmen aus."
+>abstract="Wählen Sie das Schema aus, das als Zielgruppendimension bezeichnet wird und mit dem Ihre eingehenden Daten abgestimmt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
 1. Hinzufügen einer **Abstimmung** Aktivität in Ihre Komposition ein.
 
-1. Wählen Sie die **Neues Schema**. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw.
+1. Wählen Sie die **Neues Schema**. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten etc.
 
 1. Wählen Sie die für Abstimmung zu verwendenden Felder aus. Es können mehrere Abstimmkriterien definiert werden.
 
