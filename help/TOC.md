@@ -2,10 +2,10 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 38%
+source-wordcount: '121'
+ht-degree: 37%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 38%
 + Konfigurationsschritte {#config}
    + [Verbinden von AEP mit Federated Audience Komposition](connections/destinations.md)
    + [Federated-Datenbanken konfigurieren](connections/federated-db.md)
+   + [Verbindungen erstellen und verwalten](connections/connections.md)
    + Datenmodelle und -schemata{#datamodel}
       + [Datenmodelle konfigurieren](data-management/gs-models.md)
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
