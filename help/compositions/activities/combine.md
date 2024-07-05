@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Kombinieren
 description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 73%
+source-wordcount: '758'
+ht-degree: 69%
 
 ---
 
@@ -41,12 +41,13 @@ Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert wer
 Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität **Kombinieren** zu beginnen:
 
 1. Fügen Sie mehrere Aktivitäten hinzu, um mindestens zwei verschiedene Ausführungszweige zu bilden.
+
 1. Fügen Sie die Aktivität **Kombinieren** zu einer der vorherigen Verzweigungen hinzu.
-1. Wählen Sie den Segmenttyp aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion).
+
+1. Wählen Sie den Segmenttyp aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion)und klicken Sie auf **Weiter**.
 
    ![](../assets/combine.png)
 
-1. Klicken Sie auf **Weiter**.
 1. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten.
 
 ## Union {#combine-union}
@@ -61,21 +62,25 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >title="Abstimmoptionen"
 >abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Dubletten behandelt werden."
 
-In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren. Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Dubletten behandelt werden:
+Im **Kombinieren** -Aktivität, können Sie eine **Vereinigung**.
+
+![](../assets/combine-union.png)
+
+Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Dubletten behandelt werden:
 
 * **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
 * **Auswahl an Spalten** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
 
-![](../assets/combine-union.png)
-
 ## Schnittmenge {#combine-intersection}
 
-In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfigurieren. Gehen Sie dazu wie folgt vor:
+Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**.
+
+![](../assets/combine-intersection.png)
+
+Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Sie können die **Komplement erzeugen** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
-
-![](../assets/combine-intersection.png)
 
 ## Ausschluss  {#combine-exclusion}
 
@@ -99,13 +104,16 @@ In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfiguriere
 >title="Kombinieren von „Komplement erzeugen“"
 >abstract="Ein-/Ausschalten der **Komplement erzeugen** Option, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
 
-In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren. Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
-
-1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
-1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
-1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
+Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**.
 
 ![](../assets/combine-exclusion.png)
+
+Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
+
+1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
+
+1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einer anderen Dimension auszuschließen, muss diese Zielgruppe tatsächlich auf dieselbe Zielgruppendimension wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Dimensionsänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
+1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
 
 <!--
 ## Examples{#combine-examples}
