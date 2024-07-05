@@ -2,7 +2,7 @@
 audience: end-user
 title: Verwenden der Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 30%
@@ -60,7 +60,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
    * **Primäres Identitätsfeld**: Wählen Sie das Feld aus, das zur Identifizierung der Profile verwendet werden soll. Beispielsweise die E-Mail-Adresse oder Telefonnummer.
    * **Identitäts-Namespace**: Wählen Sie den Namespace aus, der zur Identifizierung der Profile verwendet werden soll, d. h. den Datentyp, der als Identifizierungsschlüssel verwendet werden soll. Wenn beispielsweise die E-Mail-Adresse als primäres Identitätsfeld ausgewählt wurde, wird der Identitäts-Namespace **Email** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
-Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform gespeichert und im **Zielgruppen** Menü.
+Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform gespeichert <!-- to check-->und in der **Zielgruppen** Menü.
 
 <!--
 
