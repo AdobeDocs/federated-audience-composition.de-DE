@@ -2,10 +2,10 @@
 audience: end-user
 title: Die Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Abstimmung verwenden.
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 69%
+source-wordcount: '515'
+ht-degree: 45%
 
 ---
 
@@ -36,19 +36,14 @@ Die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten in
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-## Best Practices {#reconciliation-best-practices}
-
-Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten definieren, die in Ihrer Komposition verarbeitet werden sollen (Sie können eine **Anreicherung** -Aktivität, um Daten aus mehreren Sätzen zu kombinieren oder Links zu einer temporären Ressource zu erstellen), wird die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit vorhandenen Ressourcen.
-
->[!NOTE]
->Der Abstimmungsvorgang setzt voraus, dass die Daten der verknüpften Dimensionen bereits in der Datenbank vorhanden sind. Wenn Sie beispielsweise eine Datei mit Kaufdaten importieren möchten, in der verzeichnet ist, welches Produkt wann von welcher Kundin und welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch die Person bereits in der Datenbank angelegt sein.
+Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit vorhandenen Ressourcen. Der Abstimmvorgang bedeutet, dass die Daten, denen Sie beitreten, bereits in der Datenbank vorhanden sind. Wenn Sie z. B. Kaufinformationen abstimmen möchten, die zeigen, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank vorhanden sein.
 
 ## Konfigurieren der Abstimmungsaktivität {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
->title="Zielgruppendimension"
->abstract="Wählen Sie die neue Zielgruppendimension aus. Mit einer Dimension können Sie die Zielgruppen definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig ist die aktuelle Zielgruppendimension ausgewählt."
+>title="Schema"
+>abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw. Standardmäßig ist die aktuelle Zielgruppendimension der Komposition ausgewählt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -72,21 +67,26 @@ Während **Anreicherung** Mithilfe der Aktivität können Sie zusätzliche Daten
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
-1. Hinzufügen einer **Abstimmung** Aktivität in Ihre Komposition ein. <!--This activity should be added following a transition containing a population whose targeting dimension does not directly come from Adobe Campaign. -->
+1. Hinzufügen einer **Abstimmung** Aktivität in Ihre Komposition ein.
 
-1. Wählen Sie die neue Zielgruppendimension aus. Eine Dimension ermöglicht die Bestimmung der Zielpopulation: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions).-->
+1. Wählen Sie die **Neues Schema**. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten usw.
 
 1. Wählen Sie die für Abstimmung zu verwendenden Felder aus. Es können mehrere Abstimmkriterien definiert werden.
 
-   1. Um Datenabstimmungsattribute zu verwenden, wählen Sie die Option **Einfache Attribute**. Das Feld **Quelle** enthält die in der eingehenden Transition zur Verfügung stehenden Felder, die abgestimmt werden sollen. Das Feld **Ziel** entspricht den Feldern der ausgewählten Zielgruppendimension. Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **E-Mail**-Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
+   1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Einfache Attribute** und klicken Sie dann auf **Regel hinzufügen** Schaltfläche.
+   1. Wählen Sie die **Source** und **Ziel** für die Abstimmung. Die **Source** -Feld. Die **Ziel** den Feldern des ausgewählten Schemas entspricht.
+
+      Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **E-Mail**-Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
 
       Um weitere Abstimmungskriterien hinzuzufügen, klicken Sie auf die Schaltfläche **Regel hinzufügen**. Wenn mehrere Bedingungen für die Verknüpfung angegeben werden, müssen ALLE erfüllt sein, damit die Relation hergestellt werden kann.
 
-   <!--     ![](../assets/workflow-reconciliation-criteria.png)-->
+      ![](../assets/reconciliation-rules.png)
 
-   1. Um andere Attribute zur Datenabstimmung zu verwenden, wählen Sie die Option **Erweiterte Abstimmungsbedingungen**. Anschließend können Sie mithilfe des Abfragemodells eine eigene Abstimmbedingung erstellen. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md).-->
+   1. Um andere Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Erweiterte Abstimmungsbedingungen** und klicken Sie dann auf **Bedingungen erstellen** Schaltfläche. Anschließend können Sie mithilfe des Abfragemodells eine eigene Abstimmbedingung erstellen.
 
-1. Mithilfe der Schaltfläche **Filter erstellen** können Sie die abzustimmenden Daten filtern. Auf diese Weise können Sie mithilfe des Abfragemodells eine benutzerdefinierte Bedingung erstellen. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+      ![](../assets/reconciliation-advanced.png)
+
+1. Mithilfe der Schaltfläche **Filter erstellen** können Sie die abzustimmenden Daten filtern. Auf diese Weise können Sie mithilfe des Abfragemodells eine benutzerdefinierte Bedingung erstellen.
 
 Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition beibehalten und stehen in der Arbeitstabelle zur zukünftigen Verwendung zur Verfügung. Um nicht abgestimmte Daten zu entfernen, deaktivieren Sie die Option **Nicht abgestimmte Daten beibehalten**.
 
