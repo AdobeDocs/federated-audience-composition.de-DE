@@ -2,10 +2,10 @@
 audience: end-user
 title: Aktivität "Deduplizierung"
 description: Erfahren Sie, wie Sie die Aktivität Deduplizierung verwenden.
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 75%
 
 ---
 
@@ -40,7 +40,11 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Hinzufügen einer **Deduplizierung** Aktivität zu Ihrer Komposition hinzufügen.
 
+1. Wenn die Aktivität über mehrere eingehende Transitionen verfügt, wählen Sie die Transition für die Deduplizierung aus der **[!UICONTROL Primärer Satz]** Dropdown-Liste
+
 1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
+
+   ![](../assets/deduplication.png)
 
 1. Wählen Sie im Abschnitt **Deduplizierungseinstellungen** die Anzahl der eindeutigen **beizubehaltenden Dubletten** aus. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
 
@@ -52,9 +56,10 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Wählen Sie die **Deduplizierungsmethode** aus, die verwendet werden soll:
 
-   * **Automatische Auswahl**: Wählt nach dem Zufallsprinzip unter den Dubletten den Eintrag aus, der beibehalten werden soll.
-   * **Von einem Ausdruck ausgehend**: hiermit lassen sich Einträge beibehalten, für die der angegebene Ausdruck den kleinsten oder größten Wert aufweist.
-   * **Gemäß einer Werteliste**: ermöglicht die Bestimmung einer Reihenfolge nach Priorität von Werten für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **Attribute**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Verwenden Sie die Schaltfläche „Hinzufügen“ oberhalb der Werteliste, um ein neues Feld zu definieren.
+   * **Zufällige Auswahl**: Wählt aus den Dubletten zufällig den beizubehaltenden Datensatz aus.
+   * **Verwenden eines Ausdrucks**: Bewahren Sie die Datensätze auf, für die der eingegebene Ausdruck den kleinsten oder größten Wert aufweist.
+   * **Nicht leere Werte**: Bewahren Sie die Datensätze auf, für die der Ausdruck nicht leer ist.
+   * **Nach einer Werteliste**: Definieren Sie eine Priorität von Werten für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **Attribute**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Um ein neues Feld zu definieren, klicken Sie auf das **Schaltfläche hinzufügen** oberhalb der Werteliste.
 
 1. Markieren Sie die Option **Komplement erzeugen**, wenn Sie auch die restliche Population im weiteren Verlauf des Workflows verwenden möchten. Das Komplement enthält in diesem Fall alle Dubletten, und es wird dann eine zusätzliche Transition zur Aktivität hinzugefügt.
 
