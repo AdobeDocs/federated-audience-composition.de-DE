@@ -2,10 +2,10 @@
 audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: So arbeiten Sie mit dem Abfrage-Modeler.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 86%
+source-wordcount: '336'
+ht-degree: 77%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Abfrage-Modeler"
->abstract="Definieren Sie Filterkriterien für Empfänger oder ein anderes Schema, das auch als Zielgruppendimension bezeichnet wird, aus der Datenbank."
+>abstract="Definieren Sie Filterkriterien für Empfänger oder andere Schema (auch Zielgruppendimension genannt)."
 
-Das Abfragemodell vereinfacht die Filterung der Datenbank anhand verschiedener Kriterien. Außerdem kann der Abfrage-Modeler sehr komplexe und lange Abfragen effizient verwalten – und das bei höherer Flexibilität und Genauigkeit. Darüber hinaus werden vordefinierte Filter in Bedingungen unterstützt, sodass Sie Ihre Abfragen mühelos verfeinern und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppenbestimmung und Segmentierungsstrategien nutzen können.
+Der Abfrage Modellierer vereinfacht das Filtern der Datenbank nach verschiedenen Kriterien. Außerdem kann der Abfrage-Modeler sehr komplexe und lange Abfragen effizient verwalten – und das bei höherer Flexibilität und Genauigkeit. Darüber hinaus werden vordefinierte Filter in Bedingungen unterstützt, sodass Sie Ihre Abfragen mühelos verfeinern und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppenbestimmung und Segmentierungsstrategien nutzen können.
 
 ## Zugreifen auf den Abfrage-Modeler
 
@@ -24,10 +24,8 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 
 | Nutzung | Beispiel |
 |  ---  |  ---  |
-| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Kompositionen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Bedürfnisse zugeschnitten sind. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Workflow-Aktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Weitere Informationen zu Workflow-Aktivitäten](../compositions/activities/about-activities.md). | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Vordefinierte Filter**: Erstellen Sie vordefinierte Filter, die bei verschiedenen Filtervorgängen als Abkürzungen dienen, unabhängig davon, ob Sie mit Datenlisten arbeiten oder die Zielgruppe für einen Versand bilden. | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Listen anpassen**: Erstellen Sie benutzerdefinierte Regeln, um die in Listen angezeigten Daten zu filtern, wie z. B. Empfänger, Versandlisten usw. | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Zielgruppen** definieren: Geben Sie die Population an, die Sie in Ihren Kompositionen Target-Komponente möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Bedürfnisse zugeschnitten sind. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Passen Sie arbeitsablauf Aktivitäten** an: Wenden Sie Regeln innerhalb von Kompositionsaktivitäten an, z **. B. Aufteilen** und **Abgleichen**, um sie an Ihre spezifischen Anforderungen anzupassen. [Erfahren Sie mehr über Kompositionsaktivitäten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
