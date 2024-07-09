@@ -2,10 +2,10 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 37%
+source-wordcount: '119'
+ht-degree: 36%
 
 ---
 
@@ -47,6 +47,5 @@ ht-degree: 37%
    + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
    + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
    + [Bearbeitung von Ausdrücken](query/expression-editor.md)
-   + [Filterlisten](query/filter.md)
 + Audit-Protokoll {#audit-trail}
    + [Überwachen von Datenbanken](admin/audit-trail.md)

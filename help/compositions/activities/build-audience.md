@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Aktivität Audience erstellen verwenden
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 53%
+source-wordcount: '237'
+ht-degree: 39%
 
 ---
 
@@ -38,19 +38,19 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 
 1. Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu.
 1. Definieren Sie einen Titel.
-1. Definieren Sie die Art der Zielgruppe: **Eigene erstellen** oder **Zielgruppe lesen**.
+1. Geben Sie an, ob Sie eine Audience erstellen oder eine existierende auswählen möchten.
 1. Konfigurieren Sie Ihre Zielgruppe anhand der Schritte in den unten stehenden Registerkarten.
 
 >[!BEGINTABS]
 
->[!TAB Eigene erstellen (Abfrage)]
+>[!TAB Erstellen einer Zielgruppe]
 
-Gehen Sie wie folgt vor, um Ihre eigene Abfrage zu erstellen:
+Gehen Sie wie folgt vor, um eine eigene Zielgruppe zu erstellen:
 
-1. Wählen Sie **Eigene erstellen (Abfrage)** aus.
-1. Wählen Sie die **Zielgruppendimension**. Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängern ausgewählt.<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. Auswählen **Erstellen einer Zielgruppe**.
+1. Wählen Sie die **Schema**, auch als Zielgruppendimension bezeichnet. Im Schema wird die durch den Vorgang ermittelte Population bestimmt: Empfänger, Empfänger, Benutzer, Abonnenten etc. Standardmäßig wird das Schema von den Empfängern ausgewählt.
 1. Klicken Sie auf **Weiter**.
-1. Verwenden Sie das Abfragemodell, um Ihre Abfrage zu definieren. Dies entspricht der Erstellung einer Audience bei der Erstellung einer neuen E-Mail. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Definieren Sie Ihre Abfrage mithilfe des Abfragemodells. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Zielgruppe lesen]
 
@@ -58,7 +58,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 1. Wählen Sie **Zielgruppe lesen** aus.
 1. Klicken Sie auf **Weiter**.
-1. Wählen Sie Ihre Audience auf die gleiche Weise aus wie eine Audience bei der Konzeption eines neuen Versands. <!--Refer to this [section](../../audience/add-audience.md).-->
+1. Wählen Sie Ihre Zielgruppe aus.
 
 >[!ENDTABS]
 

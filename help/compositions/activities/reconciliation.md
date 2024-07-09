@@ -2,10 +2,10 @@
 audience: end-user
 title: Die Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Abstimmung verwenden.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 42%
+source-wordcount: '526'
+ht-degree: 46%
 
 ---
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Um andere Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Erweiterte Abstimmungsbedingungen** und klicken Sie dann auf **Bedingungen erstellen** Schaltfläche. Anschließend können Sie mithilfe des Abfragemodells eine eigene Abstimmbedingung erstellen.
+   1. Um andere Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Erweiterte Abstimmungsbedingungen** und klicken Sie dann auf **Bedingungen erstellen** Schaltfläche. Anschließend können Sie mithilfe des Abfrage-Modelers eine eigene Abstimmungsbedingung erstellen. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

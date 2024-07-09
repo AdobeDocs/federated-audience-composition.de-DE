@@ -2,10 +2,10 @@
 audience: end-user
 title: Verwenden der Aufspaltung
 description: Erfahren Sie, wie Sie die Aktivität Aufspaltung verwenden
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 79%
+source-wordcount: '927'
+ht-degree: 81%
 
 ---
 
@@ -83,7 +83,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
       ![](../assets/split-subset.png)
 
-   1. Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modelers. Schließen Sie beispielsweise Profile aus der eingehenden Population ein, deren E-Mail-Adresse in der Datenbank vorhanden ist. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modelers. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist.  [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
 

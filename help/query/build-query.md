@@ -2,10 +2,10 @@
 audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfragemodell erstellen
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 95%
+source-wordcount: '2066'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 
 Sie können zwei Elementtypen hinzufügen:
 
-* **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen, vordefinierter Filter) ermöglicht es Ihnen, eigene Regeln zu erstellen oder eine Zielgruppe oder einen vordefinierten Filter auszuwählen, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
+* **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen) können Sie eigene Regeln erstellen oder eine Zielgruppe auswählen, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
   Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben*. *Empfängerinnen und Empfänger mit Wohnsitz in New York*, *Empfängerinnen und Empfänger mit Wohnsitz in San Francisco*
 
@@ -33,7 +33,6 @@ Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Fil
 
 * **[Benutzerdefinierte Bedingungen](#custom-condition)**: Filtern Sie eine Abfrage, indem Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen.
 * **[Zielgruppen](#audiences)**: Filtern Sie eine Abfrage, indem Sie eine vorhandene Zielgruppe verwenden.
-* **[Vordefinierter Filter](#predefined-filters)**: Filtern Sie eine Abfrage mit vorhandenen vordefinierten Filtern.
 
 ### Konfigurieren einer benutzerdefinierten Bedingung {#custom-condition}
 
@@ -52,7 +51,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    >[!NOTE]
    >
-   >Die **Ausdruck bearbeiten** -Schaltfläche können Sie den Web-Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Die **Ausdruck bearbeiten** -Schaltfläche können Sie den Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -79,15 +78,11 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 +++
 
-1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Web-Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   Für Attribute vom Typ „Datum“ sind vordefinierte Werte bei Verwendung der Option **[!UICONTROL Voreinstellungen]** verfügbar.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Benutzerdefinierte Bedingungen für verknüpfte Tabellen (1:1- und 1:n-Relation){#links}
 
@@ -243,12 +238,12 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 >title="Regeleigenschaften"
 >abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **Regeleigenschaften** überprüfen. <br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieldatensätze überprüfen.<br/>Über die Schaltfläche **Filter auswählen oder speichern** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
 
-Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich **Regeleigenschaften** auf der rechten Seite überprüfen. Verfügbare Operationen sind:
+Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich **Regeleigenschaften** auf der rechten Seite überprüfen. Dieser Bereich wird beim Erstellen einer Abfrage zum Erstellen einer Audience angezeigt. Verfügbare Operationen sind:
 
 * **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
 * **Berechnen**: Aktualisiert und zeigt die Anzahl der Einträge an, auf die Ihre Abfrage abzielt.
-* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter, um sie später erneut zu verwenden. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter, um sie später erneut zu verwenden.
 
   >[!IMPORTANT]
   >
