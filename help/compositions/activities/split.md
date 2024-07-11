@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Aufspaltung verwenden
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -24,7 +24,7 @@ Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmente für die Aktivität „Aufspaltung“"
->abstract="Fügen Sie beliebig viele Teilmengen hinzu, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Bevor Sie mit der Komposition beginnen, stellen Sie mithilfe der Pfeiltasten sicher, dass Sie die Teilmengen in der Reihenfolge sortiert haben, die Ihren Anforderungen entspricht."
+>abstract="Fügen Sie beliebig viele Teilmengen hinzu, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Vergewissern Sie sich vor dem Start Ihrer Komposition, dass Sie die Teilmengen mithilfe der Pfeilschaltflächen in der für Sie passenden Reihenfolge angeordnet haben."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

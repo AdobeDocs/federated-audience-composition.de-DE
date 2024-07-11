@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Abstimmung verwenden.
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 46%
+ht-degree: 52%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="Aktivität „Abstimmung“"
->abstract="Die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten in der Datenbank und den Daten in einer Arbeitstabelle."
+>abstract="Mit der Aktivität **Abstimmung** können Sie die Verknüpfung zwischen den Daten in der Datenbank und den Daten in einer Arbeitstabelle definieren."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -63,7 +63,7 @@ Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Abstimmungsattribut"
->abstract="Wählen Sie das Attribut aus, das zur Abstimmung der Daten verwendet werden soll, und bestätigen Sie Ihre Auswahl."
+>abstract="Wählen Sie das Attribut aus, das zur Abstimmung der Daten verwendet werden soll, und bestätigen Sie den Vorgang."
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Audience erstellen verwenden
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 39%
+ht-degree: 54%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="Aktivität „Zielgruppe erstellen“"
->abstract="Die **Audience erstellen** -Aktivität können Sie die Audience definieren, die in die Komposition eintreten soll."
+>abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in der Komposition aufgenommen wird."
 
-Die **Audience erstellen** -Aktivität können Sie die Audience definieren, die in die Komposition eintreten soll.
+Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in der Komposition aufgenommen wird.
 
 Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 

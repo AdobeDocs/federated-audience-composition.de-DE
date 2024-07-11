@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Schemata beginnen
 source-git-commit: 407de5e35fae1b38a4f1c2819d684fbd87285970
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 9%
+ht-degree: 93%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 9%
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
->title="Schemabeschreibung"
->abstract="Die Schemabeschreibung listet Spalten, Typen und Bezeichnungen auf. Sie können auch den Abstimmschlüssel für das Schema überprüfen. Um die Schemadefinition zu aktualisieren, klicken Sie auf das Stiftsymbol."
+>title="Beschreibung des Schemas"
+>abstract="Die Beschreibung des Schemas listet Spalten, Typen und Bezeichnungen auf. Sie können auch den Abstimmschlüssel für das Schema überprüfen. Um die Definition des Schemas zu aktualisieren, klicken Sie auf das Stiftsymbol."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Quelldatenbank zum Filtern auswählen"
->abstract="Sie können die Schemas nach ihrer Quelle filtern. Wählen Sie eine oder mehrere Federated Datenbanken aus, um deren Schemata anzuzeigen."
+>abstract="Sie können die Schemata nach ihrer Quelle filtern. Wählen Sie eine oder mehrere föderierte Datenbanken aus, um deren Schemata anzuzeigen."
 
 

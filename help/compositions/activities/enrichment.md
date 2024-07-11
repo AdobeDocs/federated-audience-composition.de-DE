@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Anreicherung verwenden.
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 35%
+ht-degree: 52%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Aktivität „Anreicherung“"
->abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird häufig in einer Komposition nach Segmentierungsaktivitäten verwendet."
+>abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
 >title="Aktivität „Anreicherung“"
->abstract="Nachdem Anreicherungsdaten zur Komposition hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der **Anreicherung** Aktivität, um Profile basierend auf ihren Verhaltensweisen, Voreinstellungen und Auswahlmöglichkeiten in separate Gruppen zu segmentieren."
+>abstract="Nachdem Anreicherungsdaten zur Komposition hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität **Anreicherung** hinzugefügt wurden, um Profile basierend auf ihren Verhaltensweisen, Voreinstellungen und Auswahlmöglichkeiten in separate Gruppen zu segmentieren."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
->title="Verknüpfungsdefinition"
->abstract="Erstellen Sie eine Relation zwischen den Daten der Arbeitstabelle und der verbundenen Datenbank."
+>title="Link-Definition"
+>abstract="Erstellen Sie eine Verknüpfung zwischen den Arbeitstabellendaten und der föderierten Datenbank."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
@@ -35,7 +35,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Anreicherungsdaten"
->abstract="Wählen Sie die Daten aus, die zur Anreicherung Ihrer Komposition verwendet werden sollen. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, das auch als Zielgruppendimension bezeichnet wird, oder eine Kollektionsrelation, bei der es sich um eine 1:n-Kardinalität zwischen Tabellen handelt."
+>abstract="Wählen Sie die zur Anreicherung Ihrer Komposition zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, das auch als Zielgruppendimension bezeichnet wird, oder eine Kollektionsrelation, bei der es sich um eine 1:n-Kardinalität zwischen Tabellen handelt."
 
 Die **Anreicherung** Mithilfe dieser Aktivität können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird häufig in Kompositionen nach Segmentierungsaktivitäten verwendet.
 

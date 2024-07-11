@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Und-Verknüpfung verwenden.
 source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 57%
+ht-degree: 70%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Aktivität &quot;Und-Verknüpfung&quot;"
->abstract="Die **Und-Verknüpfung** -Aktivität können Sie mehrere Ausführungszweige einer Komposition synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten beendet sind, bevor Sie mit der Ausführung der Komposition fortfahren."
+>abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Kompositionsverzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der Komposition fortfahren."
 
 Die **Und-Verknüpfung** -Aktivität können Sie mehrere Ausführungszweige einer Komposition synchronisieren.
 

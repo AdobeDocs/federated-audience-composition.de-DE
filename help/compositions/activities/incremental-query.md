@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery"
 >title="Inkrementelle Abfrage"
->abstract="Die **Inkrementelle Abfrage** -Aktivität können Sie die Datenbank mithilfe des Abfragemodells abfragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
+>abstract="Mit der Aktivität **Inkrementelle Abfrage** können Sie die Datenbank mithilfe des Abfrage-Modelers abfragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalquery_history"

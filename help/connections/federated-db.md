@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: Erste Schritte mit Federated Databases
+title: Erste Schritte mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 25%
+ht-degree: 33%
 
 ---
 
-# Erste Schritte mit Federated Databases {#federated-db}
+# Erste Schritte mit föderierten Datenbanken {#federated-db}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Vereinigte Datenbanken"
->abstract="Bestehende Verbindungen zu Federated Databases werden auf diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf das **Federated-Datenbank hinzufügen** Schaltfläche."
+>title="Föderierte Datenbanken"
+>abstract="Bestehende Verbindungen zu föderierten Datenbanken werden auf diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf die Schaltfläche **Föderierte Datenbank hinzufügen**."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Eigenschaften der verbundenen Datenbank"
->abstract="Geben Sie den Namen der neuen Federated Database ein und wählen Sie den Typ aus."
+>title="Eigenschaften der föderierten Datenbank"
+>abstract="Geben Sie den Namen der neuen föderierten Datenbank ein und wählen Sie den Typ aus."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Federated Database Details"
->abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen Federated Database ein. Verwenden Sie die **Verbindung testen** zur Validierung Ihrer Konfiguration."
+>title="Details zur föderierten Datenbank"
+>abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **Verbindung testen**, um Ihre Konfiguration zu validieren."
 
 Erstellen, konfigurieren, testen und speichern Sie die Verbindung zu einer externen Datenbank.
 

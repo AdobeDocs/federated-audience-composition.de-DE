@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre Datenbanken mit dem Audit-Protokoll übe
 source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 2%
+ht-degree: 51%
 
 ---
 
@@ -15,6 +15,6 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Audit-Protokoll"
->abstract="Die Funktion Audit-Protokoll enthält eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit für Ihre Umgebung durchgeführt wurden."
+>abstract="Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung durchgeführt wurden."
 
 Die Funktion &quot;Audit&quot; bietet eine detaillierte und chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung vorgenommen wurden

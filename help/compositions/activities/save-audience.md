@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
 source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 30%
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Speichern einer Zielgruppe"
->abstract="Verwenden Sie diese Aktivität, um eine existierende Audience zu aktualisieren oder eine neue Audience aus der zuvor in der Komposition berechneten Population zu erstellen. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
+>abstract="Mit dieser Aktivität können Sie eine vorhandene Zielgruppe aktualisieren oder eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -24,15 +24,15 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
->title="Feld „Primäre Identität“"
->abstract="Wählen Sie die primäre Identität für Profile aus."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Weitere Informationen finden Sie in der Experience Platform-Dokumentation ."
+>title="Feld „Primärer Identitätswert“"
+>abstract="Wählen Sie die primäre Identität aus, die für Profile verwendet werden soll."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Identity-Namespace"
 >abstract="Wählen Sie den Namespace aus, der für Profile verwendet werden soll."
->additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces" text="Weitere Informationen finden Sie in der Experience Platform-Dokumentation ."
+>additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces" text="Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform"
 
 Die **Audience-Speicherung** ermöglicht die Aktualisierung einer existierenden Audience oder die Erstellung einer neuen Audience aus der zuvor erstellten Population. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste in Adobe Campaign hinzugefügt und sind über das Menü **Zielgruppen** zugänglich.
 

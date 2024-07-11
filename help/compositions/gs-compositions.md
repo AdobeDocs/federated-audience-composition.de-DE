@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ Mit der Adobe-Datenkomposition können Sie Kompositionen erstellen, bei denen Si
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
 >title="Kompositionen"
->abstract="In diesem Bildschirm können Sie die vollständige Liste der Kompositionen aufrufen, ihren aktuellen Status, das letzte/nächste Ausführungsdatum überprüfen und eine neue Komposition erstellen."
+>abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der Kompositionen zugreifen, ihren aktuellen Status sowie das Datum der letzten/nächsten Ausführung überprüfen und eine neue Komposition erstellen."
 
 Kompositionen können über die Adobe Experience Platform aufgerufen werden **[!UICONTROL Zielgruppen]** im Menü **Zusammengestellte Kompositionen** Registerkarte.
 

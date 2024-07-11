@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 55%
+ht-degree: 65%
 
 ---
 
@@ -25,13 +25,13 @@ Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert wer
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
->title="Optionen für die Zusammenführung von Schnittmengen"
->abstract="Die **Schnittmenge** ermöglicht es, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemein sind. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten."
+>title="Optionen für das Zusammenführen von Schnittmengen"
+>abstract="Eine **Schnittmenge** dient dazu, nur die Elemente beizubehalten, die den verschiedenen eingehenden Populationen in der Aktivität gemeinsam sind. Aktivieren Sie im Abschnitt **Zusammenzuführende Mengen** alle vorherigen Aktivitäten, die Sie zusammenfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Optionen für die Zusammenführung von Ausschlüssen"
->abstract="Die **Ausschluss** ermöglicht den Ausschluss von Elementen aus einer Population nach bestimmten Kriterien. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten."
+>abstract="Ein **Ausschluss** dient dazu, gemäß bestimmten Kriterien entsprechende Elemente aus einer Population auszuschließen. Aktivieren Sie im Abschnitt **Zusammenzuführende Mengen** alle vorherigen Aktivitäten, die Sie zusammenfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
@@ -82,12 +82,12 @@ Gehen Sie dazu wie folgt vor:
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
 1. Sie können die **Komplement erzeugen** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
-## Ausschluss  {#combine-exclusion}
+## Ausschluss {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** in der EU **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** in der EU **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,12 +97,12 @@ Gehen Sie dazu wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder einen Join durchgeführt."
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Kombinieren von „Komplement erzeugen“"
->abstract="Ein-/Ausschalten der **Komplement erzeugen** Option, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
+>abstract="Aktivieren Sie die Option **Komplement erzeugen**, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
 
 Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**.
 

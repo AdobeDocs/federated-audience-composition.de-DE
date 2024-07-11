@@ -10,7 +10,7 @@ ht-degree: 84%
 ---
 
 
-# Verzweigung  {#fork}
+# Verzweigung {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"

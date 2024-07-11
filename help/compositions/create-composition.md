@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Kompositionen erstellen
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 5%
+ht-degree: 25%
 
 ---
 
@@ -34,17 +34,17 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, ihren Titel zu 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
 >title="Kompositionseigenschaften"
->abstract="In diesem Abschnitt finden Sie allgemeine Kompositionseigenschaften, auf die auch beim Erstellen der Komposition zugegriffen werden kann."
+>abstract="Dieser Abschnitt enthält allgemeine Kompositionseigenschaften, auf die auch beim Erstellen der Komposition zugegriffen werden kann."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="Kompositionssegmentierung"
->abstract="Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung der Komposition beibehalten. Sie können diese Option aktivieren, um Arbeitstabellen zu Testzwecken beizubehalten. Es muss verwendet werden **only** in Entwicklungs- oder Staging-Umgebungen. Sie darf nie in einer Produktionsumgebung überprüft werden."
+>abstract="Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung der Komposition aufbewahrt. Sie können diese Option aktivieren, um Arbeitstabellen zu Testzwecken beizubehalten. Diese Option darf **nur** in Entwicklungs- oder Staging-Umgebungen verwendet werden. Sie darf niemals in einer Produktionsumgebung aktiviert werden."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Einstellungen für den Umgang mit Fehlern"
->abstract="In diesem Abschnitt können Sie definieren, wie Fehler während der Ausführung verwaltet werden. Sie können den Vorgang anhalten, eine bestimmte Anzahl von Fehlern ignorieren oder die Ausführung der Komposition stoppen."
+>abstract="In diesem Abschnitt können Sie definieren, wie Fehler während der Ausführung behandelt werden sollen. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung der Komposition gestoppt werden soll."
 
 Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll.
 

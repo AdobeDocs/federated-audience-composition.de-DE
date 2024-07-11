@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 1%
+ht-degree: 37%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Arbeiten mit Modellen"
->abstract="In diesem Bildschirm werden Schemata und Datenmodelle aufgelistet. Sie können Schemata und Datenmodelle aus dem **Erstellen** Schaltfläche."
+>abstract="Dieser Bildschirm enthält eine Liste der Schemata und Datenmodelle. Sie können Schemata und Datenmodelle über die Schaltfläche **Erstellen** erstellen."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
->title="Auswählen von Schemata"
->abstract="Wählen Sie die Schemas für das Datenmodell aus."
+>title="Schemata auswählen"
+>abstract="Wählen Sie die Schemata für das Datenmodell aus."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_audience"
->title="Auswählen einer Zielgruppe"
+>title="Zielgruppe auswählen"
 >abstract="Wählen Sie die Zielgruppe für das Datenmodell aus."
 
 >[!CONTEXTUALHELP]
