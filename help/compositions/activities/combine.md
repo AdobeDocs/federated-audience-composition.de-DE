@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Kombinieren verwenden.
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 65%
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 
 Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in jeder der Populationen enthaltenen Datensätze verwenden.
 
-Die **Kombinieren** -Aktivität kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang der Komposition. Jede Aktivität kann nach der **Kombinieren**.
+Die Aktivität **Kombinieren** kann nach jeder anderen Aktivität platziert werden, jedoch nicht am Anfang der Komposition. Jede Aktivität kann nach der **Kombinieren** platziert werden.
 
 ## Konfigurieren der Aktivität „Kombinieren“ {#combine-configuration}
 
@@ -44,11 +44,11 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 
 1. Fügen Sie die Aktivität **Kombinieren** zu einer der vorherigen Verzweigungen hinzu.
 
-1. Wählen Sie den Segmenttyp aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion)und klicken Sie auf **Weiter**.
+1. Wählen Sie den Segmentierungstyp aus: [Vereinigung](#union), [Schnittmenge](#intersection) oder [Ausschluss](#exclusion) und klicken Sie auf **Weiter**.
 
    ![](../assets/combine.png)
 
-1. Im **Sets zum Verbinden** aktivieren Sie alle vorherigen Aktivitäten, denen Sie beitreten möchten.
+1. Aktivieren Sie im Abschnitt **Sets to join** alle vorherigen Aktivitäten, denen Sie beitreten möchten.
 
 ## Union {#combine-union}
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >title="Abstimmoptionen"
 >abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Dubletten behandelt werden."
 
-Im **Kombinieren** -Aktivität, können Sie eine **Vereinigung**.
+In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren.
 
 ![](../assets/combine-union.png)
 
@@ -73,21 +73,21 @@ Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, 
 
 ## Schnittmenge {#combine-intersection}
 
-Im **Kombinieren** -Aktivität, können Sie eine **Schnittmenge**.
+In der Aktivität **Kombinieren** können Sie eine **Schnittmenge** konfigurieren.
 
 ![](../assets/combine-intersection.png)
 
 Gehen Sie dazu wie folgt vor:
 
 1. Wählen Sie den **Abstimmtyp**, um festzulegen, wie Duplikate behandelt werden. Siehe den Abschnitt [Vereinigung](#union).
-1. Sie können die **Komplement erzeugen** -Option, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
+1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Das Komplement enthält die Vereinigung der Ergebnisse aller eingehenden Aktivitäten abzüglich der Schnittmenge. Der Aktivität wird daraufhin eine zusätzliche ausgehende Transition hinzugefügt.
 
 ## Ausschluss {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** in der EU **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,14 +97,14 @@ Gehen Sie dazu wie folgt vor:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, das auch als Zielgruppendimension bezeichnet wird, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
+>abstract="Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Kombinieren von „Komplement erzeugen“"
 >abstract="Aktivieren Sie die Option **Komplement erzeugen**, um die verbleibende Population in einer zusätzlichen Transition zu verarbeiten."
 
-Im **Kombinieren** -Aktivität, können Sie eine **Ausschluss**.
+In der Aktivität **Kombinieren** können Sie einen **Ausschluss** konfigurieren.
 
 ![](../assets/combine-exclusion.png)
 
@@ -112,7 +112,7 @@ Dafür müssen Sie die folgenden zusätzlichen Schritte ausführen:
 
 1. Wählen Sie im Abschnitt **Zusammenzuführende Mengen** die **Hauptmenge** aus den eingehenden Transitionen. Dies ist die Menge, aus der Elemente ausgeschlossen werden. Die anderen Mengen stimmen mit Elementen überein, bevor sie aus der Primärmenge ausgeschlossen werden.
 
-1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu auf **Regel hinzufügen** im **Ausschlussregeln** und geben Sie die Bedingungen für die Schemaänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
+1. Bei Bedarf können die eingehenden Tabellen angepasst werden. Um eine Zielgruppe aus einem anderen Schema auszuschließen, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Klicken Sie dazu im Abschnitt **Ausschlussregeln** auf **Regel hinzufügen** und geben Sie die Bedingungen für die Schemaänderung an. Die Abstimmung der Daten erfolgt entweder über ein Attribut oder einen Join. <!-- pas compris-->
 1. Sie können die Option **Komplement erzeugen** aktivieren, wenn Sie die verbleibende Population verarbeiten möchten. Siehe den Abschnitt [Schnittmenge](#intersection).
 
 <!--

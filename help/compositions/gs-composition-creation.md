@@ -5,17 +5,17 @@ description: Erfahren Sie, wie Sie Kompositionen erstellen
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 41%
+ht-degree: 59%
 
 ---
 
 
-# Wichtige Grundsätze der Kompositionserstellung {#gs-composition-creation}
+# Grundlegende Prinzipien der Kompositionserstellung {#gs-composition-creation}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Kompositionseigenschaften"
->abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen der Komposition verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt ADDITIONAL OPTIONS , um weitere Einstellungen wie den internen Namen der Komposition, deren Ordner, die Zeitzone und die Supervisorgruppe zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
+>abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen der Komposition verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt ZUSÄTZLICHE OPTIONEN, um weitere Einstellungen wie den internen Namen der Komposition, ihren Ordner, die Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
 
 ## Was ist in einem Aufsatz? {#gs-composition-inside}
 

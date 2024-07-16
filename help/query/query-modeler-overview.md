@@ -5,7 +5,7 @@ description: So arbeiten Sie mit dem Abfrage-Modeler.
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 74%
+ht-degree: 82%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Abfrage-Modeler"
->abstract="Definieren Sie Filterkriterien für Empfänger oder ein anderes Schema, das auch als Zielgruppendimension bezeichnet wird, aus der Datenbank."
+>abstract="Definieren Sie Filterkriterien für Empfängerinnen und Empfänger oder ein beliebiges anderes Schema, auch bekannt als Zielgruppendimension, aus der Datenbank."
 
 Das Abfragemodell vereinfacht die Filterung der Datenbank anhand verschiedener Kriterien. Außerdem kann der Abfrage-Modeler sehr komplexe und lange Abfragen effizient verwalten – und das bei höherer Flexibilität und Genauigkeit. Darüber hinaus werden vordefinierte Filter in Bedingungen unterstützt, sodass Sie Ihre Abfragen mühelos verfeinern und gleichzeitig erweiterte Ausdrücke und Operatoren für umfassende Zielgruppenbestimmung und Segmentierungsstrategien nutzen können.
 
@@ -24,8 +24,8 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 
 | Nutzung | Beispiel |
 |  ---  |  ---  |
-| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Kompositionen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Bedürfnisse zugeschnitten sind. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Workflow-Aktivitäten anpassen**: wendet Regeln innerhalb von Kompositionstätigkeiten an, wie z. B. **Aufspaltung** und **Abstimmung**, um Ihre spezifischen Anforderungen zu erfüllen. [Erfahren Sie mehr über Kompositionsaktivitäten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Kompositionen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln in Kompositionsaktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen. [Weitere Informationen zu Kompositionsaktivitäten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
@@ -47,4 +47,4 @@ Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen
 
 ### Das Fenster „Regeleigenschaften“ {#rule-properties}
 
-Das Fenster **[!UICONTROL Regeleigenschaften]** rechts enthält Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. Dieser Bereich wird beim Erstellen einer Abfrage zum Erstellen einer Audience angezeigt. [So überprüfen und validieren Sie Ihre Abfrage](build-query.md#check-and-validate-your-query)
+Das Fenster **[!UICONTROL Regeleigenschaften]** rechts enthält Informationen zu Ihrer Abfrage. Damit können Sie verschiedene Vorgänge ausführen, um Ihre Abfrage zu überprüfen und sicherzustellen, dass sie Ihren Anforderungen entspricht. Dieser Bereich wird beim Einrichten einer Abfrage zum Erstellen einer Zielgruppe angezeigt. [So überprüfen und validieren Sie Ihre Abfrage](build-query.md#check-and-validate-your-query)

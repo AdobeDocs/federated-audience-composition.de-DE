@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Abstimmung verwenden.
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 52%
+ht-degree: 61%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 52%
 >title="Abstimmung – Komplement erzeugen"
 >abstract="Abstimmung – Komplement erzeugen"
 
-Die **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten in der Datenbank und den Daten in einer Arbeitstabelle, z. B. aus einem externen System geladenen Daten.
+Die Aktivität **Abstimmung** ermöglicht die Definition der Relation zwischen den Daten in der Datenbank und den Daten in einer Arbeitstabelle, z. B. aus einem externen System geladenen Daten.
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit vorhandenen Ressourcen. Der Abstimmvorgang bedeutet, dass die Daten, denen Sie beitreten, bereits in der Datenbank vorhanden sind. Wenn Sie z. B. Kaufinformationen abstimmen möchten, die zeigen, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank vorhanden sein.
+Mit der Aktivität **Abstimmung** können Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen. Der Abstimmvorgang bedeutet, dass die Daten, denen Sie beitreten, bereits in der Datenbank vorhanden sind. Wenn Sie z. B. Kaufinformationen abstimmen möchten, die zeigen, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank vorhanden sein.
 
 ## Konfigurieren der Abstimmungsaktivität {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten etc. Standardmäßig ist das aktuelle Kompositionsschema ausgewählt."
+>abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, auch bekannt als Zielgruppendimension, können Sie die Zielgruppen definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw.  Standardmäßig ist das aktuelle Schema der Komposition ausgewählt. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Auswählen der Zielgruppendimension"
->abstract="Wählen Sie das Schema aus, das als Zielgruppendimension bezeichnet wird und mit dem Ihre eingehenden Daten abgestimmt werden sollen."
+>abstract="Wählen Sie das Schema, auch bekannt als Zielgruppendimension, für Ihre eingehenden Daten zum Abstimmen aus."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -67,14 +67,14 @@ Die **Abstimmung** ermöglicht die Verknüpfung nicht identifizierter Daten mit 
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
-1. Hinzufügen einer **Abstimmung** Aktivität in Ihre Komposition ein.
+1. Fügen Sie Ihrer Komposition die Aktivität **Abstimmung** hinzu.
 
-1. Wählen Sie die **Neues Schema**. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten etc.
+1. Wählen Sie das **neue Schema** aus. Mit einem Schema, das auch als Zielgruppendimension bezeichnet wird, können Sie die Zielpopulation definieren: Empfänger, App-Abonnenten, Benutzer, Abonnenten etc.
 
 1. Wählen Sie die für Abstimmung zu verwendenden Felder aus. Es können mehrere Abstimmkriterien definiert werden.
 
-   1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Einfache Attribute** und klicken Sie dann auf **Regel hinzufügen** Schaltfläche.
-   1. Wählen Sie die **Source** und **Ziel** für die Abstimmung. Die **Source** -Feld. Die **Ziel** den Feldern des ausgewählten Schemas entspricht.
+   1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die Option **Einfache Attribute** und danach die Schaltfläche **Regel hinzufügen** aus.
+   1. Wählen Sie die Felder **Source** und **Ziel** für die Abstimmung aus. Das Feld **Source** . Das Feld **Ziel** entspricht den Feldern des ausgewählten Schemas.
 
       Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **E-Mail**-Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
 
@@ -82,7 +82,7 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Um andere Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die **Erweiterte Abstimmungsbedingungen** und klicken Sie dann auf **Bedingungen erstellen** Schaltfläche. Anschließend können Sie mithilfe des Abfrage-Modelers eine eigene Abstimmungsbedingung erstellen. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
+   1. Um andere Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die Option **Erweiterte Abstimmbedingungen** und danach die Schaltfläche **Bedingungen erstellen** aus. Anschließend können Sie mithilfe des Abfrage-Modelers eine eigene Abstimmungsbedingung erstellen. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

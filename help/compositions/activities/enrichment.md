@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Anreicherung verwenden.
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 52%
+ht-degree: 61%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Anreicherungsdaten"
->abstract="Wählen Sie die zur Anreicherung Ihrer Komposition zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, das auch als Zielgruppendimension bezeichnet wird, oder eine Kollektionsrelation, bei der es sich um eine 1:n-Kardinalität zwischen Tabellen handelt."
+>abstract="Wählen Sie die zur Anreicherung Ihrer Komposition zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, auch bekannt als Zieldimension, oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
-Die **Anreicherung** Mithilfe dieser Aktivität können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird häufig in Kompositionen nach Segmentierungsaktivitäten verwendet.
+Mit der Aktivität **Anreicherung** können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird häufig in Kompositionen nach Segmentierungsaktivitäten verwendet.
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
-* **Aus derselben Arbeitstabelle** als Zielgruppe für Ihre Komposition festzulegen:
+* **Aus derselben Arbeitstabelle** wie der, der in Ihrer Komposition enthalten ist:
 
   *Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
 
@@ -49,7 +49,7 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
   *Zielgruppenbestimmung einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
 
-Nachdem die Anreicherungsdaten zur Komposition hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der **Anreicherung** -Aktivität, um Kunden basierend auf ihrem Verhalten, ihren Voreinstellungen und ihrer Auswahl in verschiedene Gruppen zu unterteilen.
+Nachdem die Anreicherungsdaten zur Komposition hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität **Anreicherung** hinzugefügt wurden, um Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Optionen in verschiedene Gruppen zu unterteilen.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
    ![](../assets/enrichment.png)
 
-1. Wenn in Ihrer Komposition mehrere Transitionen konfiguriert wurden, können Sie die **[!UICONTROL Primärer Satz]** -Feld, um festzulegen, welche Transition als Hauptmenge für die Anreicherung mit Daten verwendet werden soll.
+1. Wenn mehrere Transitionen in Ihrer Komposition konfiguriert wurden, können Sie mit dem Feld **[!UICONTROL Primärer Satz]** festlegen, welche Transition als Hauptmenge für die Anreicherung mit Daten verwendet werden soll.
 
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
@@ -70,7 +70,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
    >[!NOTE]
    >
-   >Die **Schaltfläche &quot;Ausdruck bearbeiten&quot;** im Bildschirm zur Attributauswahl können Sie erweiterte Ausdrücke erstellen, um das Attribut auszuwählen.
+   >Mit der Schaltfläche **Ausdruck bearbeiten** im Bildschirm zur Attributauswahl können Sie erweiterte Ausdrücke zur Auswahl des Attributs erstellen.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

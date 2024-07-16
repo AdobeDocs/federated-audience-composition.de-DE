@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität Aufspaltung verwenden
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -58,12 +58,12 @@ Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
->title="Überlappen von Ausgabepopulationen ermöglichen"
->abstract="Die **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** verwaltet die Populationen, die zu mehreren Teilmengen gehören. Wenn das Kästchen nicht markiert wird, stellt die Aufspaltungsaktivität sicher, dass ein Empfänger nicht in mehreren ausgehenden Transitionen vorhanden sein kann, selbst wenn es die Kriterien mehrerer Teilmengen erfüllt. Sie befinden sich in der Zielgruppe des ersten Tabs mit entsprechenden Kriterien. Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Kriterien sie erfüllen. Es wird jedoch empfohlen, keine Überlappungen zuzulassen."
+>title="Überschneidung der Ausgabepopulationen zulassen"
+>abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind. Wenn das Kästchen nicht aktiviert ist, stellt die Aufspaltungsaktivität sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren Ausgangstransitionen vorhanden sein kann, selbst wenn sie bzw. er die Kriterien mehrerer Teilmengen erfüllt. Sie bzw. er befindet sich in der Zielgruppe der ersten Registerkarte mit entsprechenden Kriterien. Wenn das Kästchen aktiviert ist, sind die Empfängerinnen und Empfänger in mehreren Teilmengen zu finden, wenn sie deren Kriterien erfüllen. Adobe Campaign empfiehlt jedoch, Ausschlusskriterien zu verwenden."
 
 Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
-1. Hinzufügen einer **Aufspaltung** Aktivität zu Ihrer Komposition hinzufügen.
+1. Fügen Sie Ihrer Komposition die Aktivität **Aufspaltung** hinzu.
 
 1. Der Konfigurationsbereich für die Aktivität wird mit einer standardmäßigen Teilmenge geöffnet. Klicken Sie auf die Schaltfläche **Segment hinzufügen**, um so viele Teilmengen wie gewünscht zum Segmentieren der eingehenden Population hinzuzufügen.
 
@@ -102,7 +102,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 1. Die Option **[!UICONTROL Überlappung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind:
 
    * Wenn diese Option deaktiviert ist, stellt die Aufspaltung sicher, dass ein Profil nur in einer Ergebnismenge enthalten ist, auch wenn es den Kriterien anderer Teilmengen entspricht. Das Profil ist in der ersten Teilmenge enthalten, dessen Kriterien es entspricht.
-   * Wenn die Option aktiviert ist, sind die Profile in allen Teilmengen enthalten, deren Kriterien sie erfüllen. Es wird jedoch empfohlen, keine Überlappungen zuzulassen.
+   * Wenn das Kästchen aktiviert ist, sind die Empfängerinnen und Empfänger in mehreren Teilmengen zu finden, wenn sie deren Kriterien erfüllen. Adobe Campaign empfiehlt jedoch, Ausschlusskriterien zu verwenden.
 
 Der Aktivität ist jetzt konfiguriert. Bei der Ausführung wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der sie der Aktivität hinzugefügt wurde.
 
