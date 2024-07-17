@@ -2,9 +2,10 @@
 audience: end-user
 title: Aktivität "Deduplizierung"
 description: Erfahren Sie, wie Sie die Aktivität Deduplizierung verwenden.
-source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 88%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Felder zum Identifizieren von Dubletten"
->abstract="Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen."
+>abstract="Klicken Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Dubletten]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -25,7 +26,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Erzeugen eines Komplements"
->abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein"
+>abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **[!UICONTROL Komplement erzeugen]** ein"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -42,11 +43,11 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
 1. Wenn die Aktivität über mehrere eingehende Transitionen verfügt, wählen Sie die Transition für die Deduplizierung aus der Dropdownliste **[!UICONTROL Primärer Satz]** aus.
 
-1. Klicken Sie im Abschnitt **Felder zum Identifizieren von Dubletten** auf die Schaltfläche **Attribut hinzufügen**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
+1. Klicken Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Dubletten]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 
    ![](../assets/deduplication.png)
 
-1. Wählen Sie im Abschnitt **Deduplizierungseinstellungen** die Anzahl der eindeutigen **beizubehaltenden Dubletten** aus. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
+1. Wählen Sie im Abschnitt **[!UICONTROL Deduplizierungseinstellungen]** die Anzahl der eindeutigen **[!UICONTROL beizubehaltenden Dubletten]** aus. Der Standardwert dieses Felds ist 1. Mittels des Werts 0 lassen sich alle Dubletten beibehalten.
 
    Nehmen wir z. B. den Fall, dass die Datensätze A und B wie Dubletten des Datensatzes Y und ein Datensatz C wie eine Dublette des Datensatzes Z angesehen werden:
 
@@ -54,14 +55,14 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
    * Wenn der Wert des Felds 0 ist: alle Datensätze werden beibehalten.
    * Wenn der Wert des Felds 2 ist: Die Datensätze C und Z werden beibehalten und von den Datensätzen A, B und Y werden zwei entweder nach dem Zufallsprinzip oder in Abhängigkeit von der im Anschluss ausgewählten Deduplizierungsmethode beibehalten.
 
-1. Wählen Sie die **Deduplizierungsmethode** aus, die verwendet werden soll:
+1. Wählen Sie die **[!UICONTROL Deduplizierungsmethode]** aus, die verwendet werden soll:
 
-   * **Zufällige Auswahl**: Wählt nach dem Zufallsprinzip unter den Dubletten den Eintrag aus, der beibehalten werden soll.
-   * **Von einem Ausdruck ausgehend**: Behält Einträge bei, für die der angegebene Ausdruck den kleinsten oder größten Wert aufweist.
-   * **Wert nicht leer**: Behält Einträge bei, für die der Ausdruck nicht leer ist.
-   * **Gemäß einer Werteliste**: Definiert eine Priorität nach Wert für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **Attribute**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Verwenden Sie zum Definieren eines neues Felds die Schaltfläche **Hinzufügen** oberhalb der Werteliste.
+   * **[!UICONTROL Zufällige Auswahl]**: Wählt nach dem Zufallsprinzip unter den Dubletten den Eintrag aus, der beibehalten werden soll.
+   * **[!UICONTROL Von einem Ausdruck ausgehend]**: Behält Einträge bei, für die der angegebene Ausdruck den kleinsten oder größten Wert aufweist.
+   * **[!UICONTROL Wert nicht leer]**: Behält Einträge bei, für die der Ausdruck nicht leer ist.
+   * **[!UICONTROL Gemäß einer Werteliste]**: Definiert eine Priorität nach Wert für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **[!UICONTROL Attribute]**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Verwenden Sie zum Definieren eines neues Felds die Schaltfläche **[!UICONTROL Hinzufügen]** oberhalb der Werteliste.
 
-1. Markieren Sie die Option **Komplement erzeugen**, wenn Sie auch die restliche Population im weiteren Verlauf des Workflows verwenden möchten. Das Komplement enthält in diesem Fall alle Dubletten, und es wird dann eine zusätzliche Transition zur Aktivität hinzugefügt.
+1. Markieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie auch die restliche Population im weiteren Verlauf des Workflows verwenden möchten. Das Komplement enthält in diesem Fall alle Dubletten, und es wird dann eine zusätzliche Transition zur Aktivität hinzugefügt.
 
 <!--
 ## Example{#deduplication-example}

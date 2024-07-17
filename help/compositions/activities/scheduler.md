@@ -2,10 +2,10 @@
 audience: end-user
 title: Planungsaktivität verwenden
 description: Erfahren Sie, wie Sie die Aktivität Planung verwenden
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 47%
+source-wordcount: '418'
+ht-degree: 39%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Planungsaktivität"
->abstract="Mit der Aktivität **Planung** können Sie planen, wann der Workflow gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität des Workflows verwendet werden."
+>abstract="Mit der Aktivität **Planung** können Sie den Beginn der Audience-Komposition planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität einer Komposition verwendet werden."
 
 Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann die Komposition beginnt. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der Komposition verwendet werden.
 
@@ -33,7 +33,7 @@ Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit kö
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
-1. Fügen Sie eine **Planungsaktivität** zu Ihrem Workflow hinzu.
+1. Fügen Sie Ihrer Komposition die Aktivität **Planer** hinzu.
 
 1. Konfigurieren Sie die **Ausführungshäufigkeit**:
 

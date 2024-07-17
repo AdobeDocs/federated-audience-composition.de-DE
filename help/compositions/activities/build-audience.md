@@ -2,9 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Aktivität Audience erstellen verwenden
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 54%
 
 ---

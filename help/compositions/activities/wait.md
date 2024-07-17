@@ -2,10 +2,11 @@
 audience: end-user
 title: Verwenden Sie die Warten -Aktivität
 description: Erfahren Sie, wie Sie die Warten -Aktivität verwenden
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 70%
+source-wordcount: '118'
+ht-degree: 71%
 
 ---
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfragemodell erstellen
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 94%
+source-wordcount: '2068'
+ht-degree: 93%
 
 ---
 
@@ -45,13 +46,13 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]** aus. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
 
-1. Wählen Sie im Feld **Attribut** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Datenbank, einschließlich der Attribute aus verknüpften Tabellen.
+1. Wählen Sie im Feld **[!UICONTROL Attribut]** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Datenbank, einschließlich der Attribute aus verknüpften Tabellen.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Mit der Schaltfläche **Ausdruck bearbeiten** können Sie den Ausdruckseditor nutzen, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Mit der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** können Sie den Ausdruckseditor nutzen, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -78,7 +79,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
 +++
 
-1. Legen Sie im Feld **Wert** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **Ausdruck bearbeiten**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+1. Legen Sie im Feld **[!UICONTROL Wert]** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
@@ -90,13 +91,13 @@ Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der a
 
 Navigieren Sie bei einer **1:1-Relation** zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
 
-Sie können auch direkt eine Tabellenverknüpfung in der Auswahl **Wert** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mit einer speziellen Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
+Sie können auch direkt eine Tabellenverknüpfung in der Auswahl **[!UICONTROL Wert]** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mit einer speziellen Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
 
 +++Abfragebeispiel
 
 Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
 
-1. Navigieren Sie durch die Tabelle **Marke** und wählen Sie das Attribut **Titel**.
+1. Navigieren Sie durch die Tabelle **[!UICONTROL Marke]** und wählen Sie das Attribut **[!UICONTROL Titel]**.
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -116,7 +117,7 @@ Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfr
 
 In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe getätigt haben, und zwar für einen Gesamtbetrag von mindestens 100 USD.
 
-1. Wählen Sie die Tabelle **Käufe** und bestätigen Sie.
+1. Wählen Sie die Tabelle **[!UICONTROL Käufe]** und bestätigen Sie.
 
    ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
@@ -124,7 +125,7 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
    ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Wählen Sie das Attribut **Preis** und Zielkäufe von 1000 USD oder mehr
+1. Wählen Sie das Attribut **[!UICONTROL Preis]** und Zielkäufe von 1000 USD oder mehr
 
    ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -142,7 +143,7 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Aktivieren Sie im Eigenschaften-Fenster die Option **Daten aggregieren** und wählen Sie die gewünschte Aggregierungsfunktion aus.
+1. Aktivieren Sie im Eigenschaften-Fenster die Option **[!UICONTROL Daten aggregieren]** und wählen Sie die gewünschte Aggregierungsfunktion aus.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -151,13 +152,13 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_selectaudience"
 >title="Zielgruppe auswählen"
->abstract="Mit der Option **Zielgruppe auswählen** können Sie die Zielgruppe auswählen, die Sie zum Filtern Ihrer Abfrage verwenden möchten."
+>abstract="Mit der Option **[!UICONTROL Zielgruppe auswählen]** können Sie die Zielgruppe auswählen, die Sie zum Filtern Ihrer Abfrage verwenden möchten."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe zu filtern:
 
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Zielgruppe auswählen]** aus.
 
-1. Der Bereich mit den Eigenschaften **Zielgruppe auswählen** wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die Sie zum Filtern Ihrer Abfrage verwenden möchten.
+1. Der Bereich mit den Eigenschaften **[!UICONTROL Zielgruppe auswählen]** wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die Sie zum Filtern Ihrer Abfrage verwenden möchten.
 
    *Abfragebeispiel, in dem alle Profile der Zielgruppe „Festivalbesuchende“ zurückgegeben werden:*
 
@@ -168,13 +169,13 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_predefinedfilter"
 >title="Vordefinierter Filter"
->abstract="Mit der Option **Vordefinierter Filter** können Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus den Favoriten auswählen."
+>abstract="Mit der Option **[!UICONTROL Vordefinierter Filter]** können Sie einen vordefinierten Filter aus der Liste der benutzerdefinierten Filter oder aus den Favoriten auswählen."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters zu filtern:
 
 1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Vordefinierter Filter]** aus.
 
-1. Der Bereich mit den Eigenschaften **Vordefinierter Filter** wird auf der rechten Seite geöffnet. Wählen Sie einen Filter aus der Liste der vordefinierten Filter oder aus den Favoriten aus.
+1. Der Bereich mit den Eigenschaften **[!UICONTROL Vordefinierter Filter]** wird auf der rechten Seite geöffnet. Wählen Sie einen Filter aus der Liste der vordefinierten Filter oder aus den Favoriten aus.
 
    *Abfragebeispiel, in dem alle Profile zurückgegeben werden, die dem vordefinierten Filter „Inaktive Kunden“ entsprechen:*
 
@@ -198,7 +199,7 @@ Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **(n) Elemente einfügen**.
+1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **[!UICONTROL (n) Elemente einfügen]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -215,7 +216,7 @@ In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filt
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Um den Operator für die Verknüpfung der Filterbedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator im Bereich **Gruppe** aus, der sich rechts öffnet.
+Um den Operator für die Verknüpfung der Filterbedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator im Bereich **[!UICONTROL Gruppe]** aus, der sich rechts öffnet.
 
 Die folgenden Operatoren sind verfügbar:
 
@@ -236,14 +237,14 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Regeleigenschaften"
->abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **Regeleigenschaften** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieldatensätze überprüfen.<br/>Über die Schaltfläche **Filter auswählen oder speichern** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
+>abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieldatensätze überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
 
-Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich **Regeleigenschaften** auf der rechten Seite überprüfen. Dieser Bereich wird beim Einrichten einer Abfrage zum Erstellen einer Zielgruppe angezeigt. Verfügbare Operationen sind:
+Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich **[!UICONTROL Regeleigenschaften]** auf der rechten Seite überprüfen. Dieser Bereich wird beim Einrichten einer Abfrage zum Erstellen einer Zielgruppe angezeigt. Verfügbare Operationen sind:
 
-* **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
-* **Code-Ansicht**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
-* **Berechnen**: Aktualisiert und zeigt die Anzahl der Einträge an, auf die Ihre Abfrage abzielt.
-* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter für die zukünftige Wiederverwendung.
+* **[!UICONTROL Ergebnisse anzeigen]:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
+* **[!UICONTROL Code-Ansicht]**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
+* **[!UICONTROL Berechnen]**: Aktualisiert und zeigt die Anzahl der Einträge an, auf die Ihre Abfrage abzielt.
+* **[!UICONTROL Filter auswählen oder speichern]**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter für die zukünftige Wiederverwendung.
 
   >[!IMPORTANT]
   >

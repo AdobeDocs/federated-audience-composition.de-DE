@@ -2,10 +2,11 @@
 audience: end-user
 title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 14%
+source-wordcount: '278'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +25,7 @@ Mit der Adobe-Datenkomposition können Sie Kompositionen erstellen, bei denen Si
 >title="Kompositionen"
 >abstract="Auf diesem Bildschirm können Sie auf die vollständige Liste der Kompositionen zugreifen, ihren aktuellen Status sowie das Datum der letzten/nächsten Ausführung überprüfen und eine neue Komposition erstellen."
 
-Der Zugriff auf Kompositionen erfolgt über das Menü Adobe Experience Platform **[!UICONTROL Audiences]** auf der Registerkarte **Zusammengestellte Kompositionen** .
+Der Zugriff auf Kompositionen erfolgt über das Menü Adobe Experience Platform **[!UICONTROL Audiences]** auf der Registerkarte **[!UICONTROL Zusammengestellte Kompositionen]** .
 
 Auf diesem Bildschirm können Sie neue Kompositionen erstellen und auf bestehende zugreifen. Sie können eine vorhandene Komposition auch duplizieren oder löschen, indem Sie auf die Suchschaltfläche neben ihrem Namen klicken.
 
@@ -32,7 +33,7 @@ Auf diesem Bildschirm können Sie neue Kompositionen erstellen und auf bestehend
 
 Um die Liste zu verfeinern und die gesuchte Komposition einfach zu finden, können Sie die Liste durchsuchen und Kompositionen nach ihrem Status oder dem letzten Verarbeitungsdatum filtern.
 
-Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Klicken Sie dazu auf die Schaltfläche **Spalte konfigurieren** und fügen Sie die gewünschten Ausgabespalten hinzu oder entfernen Sie sie.
+Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Spalte konfigurieren]**s und fügen Sie die gewünschten Ausgabespalten hinzu oder entfernen Sie sie.
 
 ![](assets/compositions-columns.png)
 

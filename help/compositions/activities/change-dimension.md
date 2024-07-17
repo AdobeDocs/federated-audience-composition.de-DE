@@ -2,9 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität Dimensionsänderung
 description: Erfahren Sie, wie Sie die Aktivität der Dimensionsänderung verwenden
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '189'
 ht-degree: 54%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Erzeugen eines Komplements"
->abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **Komplement erzeugen** ein"
+>abstract="Sie können eine zusätzliche ausgehende Transition mit der verbleibenden Population generieren, die als Duplikat ausgeschlossen wurde. Schalten Sie dazu die Option **[!UICONTROL Komplement erzeugen]** ein"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

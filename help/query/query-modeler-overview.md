@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
-description: So arbeiten Sie mit dem Abfrage-Modeler.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: Erfahren Sie, wie Sie mit dem Abfragemodell arbeiten.
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 82%
+source-wordcount: '348'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +26,7 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 | Nutzung | Beispiel |
 |  ---  |  ---  |
 | **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Kompositionen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Workflow-Aktivitäten anpassen**: Wenden Sie Regeln in Kompositionsaktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen. [Weitere Informationen zu Kompositionsaktivitäten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Kompositionsaktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen. [Weitere Informationen zu Kompositionsaktivitäten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
@@ -39,11 +40,11 @@ Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie die verschi
 
 Die Symbolleiste oben rechts in der Arbeitsfläche bietet Optionen zum einfachen Bearbeiten der Abfragekomponenten und Navigieren auf der Arbeitsfläche:
 
-* **Mehrfachauswahl-Modus**: Wählen Sie mehrere Filterkomponenten aus, um sie zu kopieren und am gewünschten Ort einzufügen.
-* **Drehen**: Dreht die Arbeitsfläche vertikal.
-* **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
-* **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.
-* **Karte anzeigen**: Öffnet einen Snapshot der Arbeitsfläche, in der Sie sich befinden.
+* **[!UICONTROL Mehrfachauswahl-Modus]**: Wählen Sie mehrere Filterkomponenten aus, um sie zu kopieren und am gewünschten Ort einzufügen.
+* **[!UICONTROL Drehen]**: Dreht die Arbeitsfläche vertikal.
+* **[!UICONTROL An Bildschirm anpassen]**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
+* **[!UICONTROL Verkleinern]**/**[!UICONTROL Vergrößern]**: Verkleinert bzw. vergrößert die Arbeitsfläche.
+* **[!UICONTROL Karte anzeigen]**: Öffnet einen Snapshot der Arbeitsfläche, in der Sie sich befinden.
 
 ### Das Fenster „Regeleigenschaften“ {#rule-properties}
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 25%
+source-wordcount: '484'
+ht-degree: 26%
 
 ---
 
@@ -48,7 +49,7 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, ihren Titel zu 
 
 Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll.
 
-Um auf zusätzliche Optionen für Ihre Komposition zuzugreifen, klicken Sie im oberen Bereich des Bildschirms zur Kompositionserstellung auf die Schaltfläche **Einstellungen** .
+Um auf zusätzliche Optionen für Ihre Komposition zuzugreifen, klicken Sie im oberen Bereich des Bildschirms zur Kompositionserstellung auf die Schaltfläche **[!UICONTROL Einstellungen]** .
 
 ![](assets/composition-create-settings.png)
 

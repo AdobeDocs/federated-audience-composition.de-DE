@@ -2,9 +2,10 @@
 audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 31%
 
 ---
@@ -70,12 +71,12 @@ Die Aktionsleiste in der oberen rechten Ecke enthält Befehle, mit denen Sie die
 
 Die verfügbaren Aktionen sind:
 
-* **Start**: Startet die Ausführung der Komposition, die dann den Status **Gestartet** erhält. Die Komposition wird gestartet und die ersten Aktivitäten werden aktiviert.
+* **[!UICONTROL Start]**: Startet die Ausführung der Komposition, die dann den Status **[!UICONTROL Gestartet]** erhält. Die Komposition wird gestartet und die ersten Aktivitäten werden aktiviert.
 
-* **[!UICONTROL Fortsetzen]**: Setzt die Ausführung der ausgesetzten Komposition fort. Die Komposition erhält den Status **Gestartet** .
+* **[!UICONTROL Fortsetzen]**: Setzt die Ausführung der ausgesetzten Komposition fort. Die Komposition erhält den Status **[!UICONTROL Gestartet]** .
 
-* **[!UICONTROL Pause]** - die Ausführung der Komposition, die dann den Status **Paused** annimmt. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
+* **[!UICONTROL Pause]** - die Ausführung der Komposition, die dann den Status **[!UICONTROL Paused]** annimmt. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
 
-* **[!UICONTROL Stoppen]** eine Komposition, die gerade ausgeführt wird und dann den Status **Abgeschlossen** annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle wiederaufnehmen, an der sie gestoppt wurde.
+* **[!UICONTROL Stoppen]** eine Komposition, die gerade ausgeführt wird und dann den Status **[!UICONTROL Abgeschlossen]** annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle wiederaufnehmen, an der sie gestoppt wurde.
 
-* **Neu starten**: Hält die Komposition an und startet sie neu. In den meisten Fällen ermöglicht dies einen schnelleren Neustart, da das Anhalten eine gewisse Zeit in Anspruch nimmt und die Schaltfläche **Starten** nur verfügbar ist, wenn der Stopp effektiv ist.
+* **[!UICONTROL Neu starten]**: Hält die Komposition an und startet sie neu. In den meisten Fällen ermöglicht dies einen schnelleren Neustart, da das Anhalten eine gewisse Zeit in Anspruch nimmt und die Schaltfläche **[!UICONTROL Starten]** nur verfügbar ist, wenn der Stopp effektiv ist.

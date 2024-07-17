@@ -2,10 +2,11 @@
 audience: end-user
 title: Verzweigung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Verzweigung verwenden
-source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 84%
+source-wordcount: '120'
+ht-degree: 85%
 
 ---
 

@@ -2,10 +2,11 @@
 audience: end-user
 title: Adobe Experience Platform und Adobe Federated Audience Komposition-Add-on verbinden
 description: Erfahren Sie, wie Sie in AEP ein neues Ziel erstellen, um eine Verbindung zu FAC herzustellen.
-source-git-commit: ddc880f0146c39fe06187e0ae0cc0355763adb78
+badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 54%
+source-wordcount: '52'
+ht-degree: 55%
 
 ---
 
@@ -15,6 +16,6 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Erstellen eines Ziels"
->abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **Mit Ziel verbinden**, um Ihre Konfiguration zu validieren."
+>abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
 
 
