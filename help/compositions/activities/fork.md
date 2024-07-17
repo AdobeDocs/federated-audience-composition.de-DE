@@ -28,7 +28,7 @@ Eine **Verzweigung** erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivi
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Verzweigung** zu konfigurieren:
 
-1. Hinzufügen einer **Verzweigung** Aktivität zu Ihrer Komposition hinzufügen.
+1. Fügen Sie Ihrer Komposition die Aktivität **Verzweigung** hinzu.
 1. Klicken Sie auf **Transition hinzufügen**, um eine neue ausgehende Transition hinzuzufügen. Standardmäßig sind zwei Transitionen definiert.
 1. Fügen Sie jeder Ihrer Transitionen einen Titel hinzu.
 

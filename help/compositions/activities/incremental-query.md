@@ -28,7 +28,7 @@ ht-degree: 61%
 >title="Inkrementelle Abfrage – Verarbeitete Daten"
 >abstract="Inkrementelle Abfrage – Verarbeitete Daten"
 
-Die **Inkrementelle Abfrage** ermöglicht die geplante Abfrage der Datenbank. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen.
+Mit der Aktivität **Inkrementelle Abfrage** können Sie die Datenbank planmäßig abfragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen.
 
 **[!UICONTROL Inkrementelle Abfragen]** kommen in verschiedenen Kontexten zum Einsatz:
 
@@ -43,7 +43,7 @@ Wenn das Ergebnis einer inkrementellen Abfrage bei einer ihrer Ausführungen gle
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Inkrementelle Abfrage** zu konfigurieren:
 
-1. Hinzufügen einer **Inkrementelle Abfrage** Aktivität in Ihre Komposition ein.
+1. Fügen Sie Ihrer Komposition die Aktivität **Inkrementelle Abfrage** hinzu.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die **Zielgruppendimension** und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
@@ -59,7 +59,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Inkrementelle Abfrag
 
    * **[!UICONTROL Datumsfeld verwenden]**: Mit dieser Option können Sie Ergebnisse früherer Ausführungen basierend auf einem bestimmten Datumsfeld ausschließen. Wählen Sie dazu das gewünschte Datumsfeld aus der Liste der Attribute aus, die für die ausgewählte Zielgruppendimension verfügbar sind. Bei den nächsten Ausführungen der Komposition werden nur Daten abgerufen, die nach dem letzten Ausführungsdatum geändert oder erstellt wurden.
 
-     Nach der ersten Ausführung der Komposition wird die **[!UICONTROL Letztes Ausführungsdatum]** -Feld verfügbar. Es gibt das Datum an, das für die nächste Ausführung verwendet wird, und wird bei jeder Ausführung der Komposition automatisch aktualisiert. Sie können bei Bedarf diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
+     Nach der ersten Ausführung der Komposition ist das Feld **[!UICONTROL Letztes Ausführungsdatum]** verfügbar. Es gibt das Datum an, das für die nächste Ausführung verwendet wird, und wird bei jeder Ausführung der Komposition automatisch aktualisiert. Sie können bei Bedarf diesen Wert auch überschreiben, indem Sie einen neuen eingeben.
 
    >[!NOTE]
    >

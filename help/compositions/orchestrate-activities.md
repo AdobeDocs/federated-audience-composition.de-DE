@@ -18,7 +18,7 @@ Nachdem Sie eine Komposition erstellt haben, können Sie mit der Orchestrierung 
 
 In diesem Schritt der Konfiguration wird das Diagramm mit einem Startsymbol angezeigt, das den Anfang Ihres Workflows darstellt. Um Ihre erste Aktivität hinzuzufügen, klicken Sie auf die Schaltfläche **+**, die mit dem Startsymbol verbunden ist.
 
-Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Kompositionsdiagramm ab. Wenn Sie beispielsweise Ihre erste Aktivität hinzufügen, können Sie Ihre Komposition mit einer Audience beginnen, den Workflow-Pfad aufteilen, eine Planung festlegen, um die Ausführung des Workflows zu verzögern, oder eine **Warten** -Aktivität, um die Ausführung des Workflows zu verzögern. Auf der anderen Seite wird nach **Audience erstellen** Aktivität können Sie Ihre Zielgruppe mit Zielgruppenbestimmungsaktivitäten verfeinern oder den Kompositionsprozess mit Steuerungsaktivitäten organisieren.
+Es erscheint eine Liste von Aktivitäten, die dem Diagramm hinzugefügt werden können. Die verfügbaren Aktivitäten hängen von Ihrer Position im Kompositionsdiagramm ab. Wenn Sie beispielsweise Ihre erste Aktivität hinzufügen, können Sie Ihre Komposition mit einer Audience beginnen, den Workflow-Pfad aufteilen, eine Planung festlegen, um die Ausführung des Workflows zu verzögern, oder eine **Warten** -Aktivität festlegen, um die Ausführung des Workflows zu verzögern. Nach der Aktivität **Audience erstellen** können Sie Ihre Zielgruppe jedoch durch Zielgruppenbestimmungsaktivitäten verfeinern oder den Kompositionsprozess mit Steuerungsaktivitäten organisieren.
 
 Sobald eine Aktivität zum Diagramm hinzugefügt wurde, erscheint rechts ein Bereich, in dem Sie die neu hinzugefügte Aktivität mit spezifischen Einstellungen konfigurieren können. Detaillierte Informationen über die Konfiguration jeder Aktivität finden Sie in [diesem Abschnitt](activities/about-activities.md).
 
@@ -38,7 +38,7 @@ Die Symbolleiste oben rechts auf der Arbeitsfläche bietet Optionen zum einfache
 
 Die verfügbaren Aktionen sind:
 
-* **Mehrfachauswahl**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen, oder kopieren Sie sie und fügen Sie sie ein. Weitere Informationen finden Sie in [diesem Abschnitt](#copy).
+* **Mehrfachauswahl**: Wählen Sie mehrere Aktivitäten aus, um alle gleichzeitig zu löschen, oder kopieren Sie sie und fügen Sie sie ein. Weitere Informationen finden Sie in [diesem Abschnitt](#copy).
 * **Drehen**: Dreht die Arbeitsfläche vertikal.
 * **An Bildschirm anpassen**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **Verkleinern**/**Vergrößern**: Verkleinert bzw. vergrößert die Arbeitsfläche.
@@ -55,22 +55,22 @@ Sie haben folgende Möglichkeiten:
 * **Löschen** der Aktivität von der Arbeitsfläche aus.
 * **Deaktivieren/Aktivieren** der Aktivität. Wenn der Workflow ausgeführt wird, werden deaktivierte Aktivitäten und auf demselben Pfad folgende Aktivitäten nicht ausgeführt und der Workflow wird angehalten.
 * **Anhalten/Fortsetzen** der Aktivität. Wenn der Workflow ausgeführt wird, wird er mit bei der angehaltenen Aktivität angehalten. Die entsprechende Aufgabe sowie alle auf demselben Pfad folgenden Aufgaben werden nicht ausgeführt.
-* **Kopieren** die Aktivität, um sie an einer anderen Stelle in der Komposition einzufügen. Klicken Sie dazu auf die Schaltfläche **+** auf eine Transition klicken und &quot;Aktivität X einfügen&quot;auswählen. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
-* Konfigurieren **Ausführungsoptionen** für die ausgewählte Aktivität. Erweitern Sie den folgenden Abschnitt, um mehr über die verfügbaren Optionen zu erfahren.
+* **Kopieren** Sie die Aktivität, um sie an einer anderen Stelle in der Komposition einzufügen. Klicken Sie dazu auf die Schaltfläche **+** in einer Transition und wählen Sie &quot;Aktivität &quot;X einfügen&quot;. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
+* Konfigurieren Sie **Ausführungsoptionen** für die ausgewählte Aktivität. Erweitern Sie den folgenden Abschnitt, um mehr über die verfügbaren Optionen zu erfahren.
 
   ++ Verfügbare Ausführungsoptionen
 
-  Die **Eigenschaften** -Abschnitt ermöglicht die Konfiguration allgemeiner Einstellungen für die Ausführung der Aktivität:
+  Im Abschnitt **Eigenschaften** können Sie allgemeine Einstellungen für die Ausführung der Aktivität konfigurieren:
 
    * **Ausführung**: Definieren Sie die Aktion, die ausgeführt werden soll, wenn der gestartet wird.
    * **Maximale Ausführungsdauer**: Geben Sie eine Dauer wie &quot;30s&quot;oder &quot;1h&quot;an. Wenn eine Aufgabe die angegebene Dauer überschreitet, wird ein Warnhinweis erzeugt. Die Workflow-Ausführung wird hiervon jedoch nicht beeinflusst.
    * **Zeitzone**: Wählen Sie die Zeitzone der Aktivität aus. Zusammengestellte Zielgruppenkomposition ermöglicht es Ihnen, die Zeitunterschiede zwischen mehreren Ländern auf derselben Instanz zu verwalten. Die entsprechenden Einstellungen werden bei der Instanzerstellung vorgenommen.
-   * **Affinität**: Erzwingen Sie die Ausführung der Kompositionsaktivität auf einem bestimmten Computer. Hierzu müssen Sie eine oder mehrere Affinitäten für die betreffende Aktivität angeben.
+   * **Affinität**: Erzwingt die Ausführung der Kompositionstätigkeit auf einem bestimmten Computer. Hierzu müssen Sie eine oder mehrere Affinitäten für die betreffende Aktivität angeben.
    * **Verhalten**: Definieren Sie das Verfahren, das bei der Verwendung asynchroner Aufgaben ausgeführt werden soll.
 
-  Die **Fehlerverwaltung** -Bereich, in dem Sie angeben können, welche Aktion bei Auftreten eines Fehlers ausgeführt werden soll.
+  Im Abschnitt **Umgang mit Fehlern** können Sie angeben, welche Aktion ausgeführt werden soll, wenn bei der Aktivität ein Fehler auftritt.
 
-  Die **Initialisierungsscript** -Bereich können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Snippet ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird.
+  Im Abschnitt **Initialisierungsscript** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Klicken Sie auf die Schaltfläche **Code bearbeiten** und geben Sie das auszuführende Code-Snippet ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird.
 
 +++
 

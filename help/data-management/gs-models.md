@@ -38,17 +38,17 @@ ht-degree: 37%
 
 Ein Datenmodell ist ein Satz von Schemas, Zielgruppen und Verknüpfungen zwischen ihnen.
 
-Weitere Informationen [Schemas](../customer/schemas.md).
+Erfahren Sie mehr über [Schemas](../customer/schemas.md).
 
-Weitere Informationen [Zielgruppen](../customer/audiences.md).
+Erfahren Sie mehr über [Zielgruppen](../customer/audiences.md).
 
 ## Wie erstelle ich ein Datenmodell? {#data-model-create}
 
-In **[!UICONTROL FEDERATED DATA]** im Abschnitt **[!UICONTROL Modelle]** -Link. Dort finden Sie die **[!UICONTROL Datenmodell]** Registerkarte.
+Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Dort finden Sie die Registerkarte **[!UICONTROL Datenmodell]** .
 
 ![](assets/datamodel_create.png){zoomable="yes"}
 
-Durch Klicken auf die **[!UICONTROL Datenmodell erstellen]** -Schaltfläche können Sie Ihr Datenmodell benennen und auf die **[!UICONTROL Erstellen]** Schaltfläche.
+Durch Klicken auf die Schaltfläche **[!UICONTROL Datenmodell erstellen]** können Sie Ihr Datenmodell benennen und auf die Schaltfläche **[!UICONTROL Erstellen]** klicken.
 
 ![](assets/datamodel_name.png){zoomable="yes"}
 

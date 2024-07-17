@@ -25,7 +25,7 @@ Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 * Wählen Sie eine Adobe Experience Platform-Zielgruppe aus.
 * Erstellen Sie mit dem Abfrage-Modeler eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
 
-Die **Audience erstellen** -Aktivitäten können am Anfang der Komposition oder nach jeder anderen Aktivität platziert werden. Jede Aktivität kann nach der **Audience erstellen**.
+Die Aktivität **Audience erstellen** kann am Anfang der Komposition oder nach jeder anderen Aktivität platziert werden. Jede Aktivität kann nach der **Build-Zielgruppe** platziert werden.
 
 ## Konfigurieren der Aktivität „Zielgruppe erstellen“ {#build-audience-configuration}
 
@@ -43,12 +43,12 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 
 >[!BEGINTABS]
 
->[!TAB Erstellen einer Zielgruppe]
+>[!TAB Erstellen einer Audience]
 
 Gehen Sie wie folgt vor, um eine eigene Zielgruppe zu erstellen:
 
-1. Auswählen **Erstellen einer Zielgruppe**.
-1. Wählen Sie die **Schema**, auch als Zielgruppendimension bezeichnet. Im Schema wird die durch den Vorgang ermittelte Population bestimmt: Empfänger, Empfänger, Benutzer, Abonnenten etc. Standardmäßig wird das Schema von den Empfängern ausgewählt.
+1. Wählen Sie **Zielgruppe erstellen** aus.
+1. Wählen Sie das **Schema**, auch als Zielgruppendimension bezeichnet. Im Schema wird die durch den Vorgang ermittelte Population bestimmt: Empfänger, Empfänger, Benutzer, Abonnenten etc. Standardmäßig wird das Schema von den Empfängern ausgewählt.
 1. Klicken Sie auf **Weiter**.
 1. Definieren Sie Ihre Abfrage mithilfe des Abfragemodells. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 

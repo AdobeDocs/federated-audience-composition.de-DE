@@ -11,11 +11,11 @@ ht-degree: 1%
 
 # Verbindungen erstellen {#connections-fdb}
 
-Um eine neue Verbindung zu einer Federated-Datenbank herzustellen, gehen Sie zu **[!UICONTROL FEDERATED DATA]** und im Abschnitt **[!UICONTROL Federated Datenbanken]** Link, auf **[!UICONTROL Federated-Datenbank hinzufügen]** Schaltfläche.
+Um eine neue Verbindung zu einer Federated-Datenbank zu erstellen, wechseln Sie zum Abschnitt **[!UICONTROL FEDERATED DATA]** und klicken Sie im Link **[!UICONTROL Federated DataBases]** auf die Schaltfläche **[!UICONTROL Federated Database hinzufügen]** .
 
 ![](assets/connections_list.png){zoomable="yes"}
 
-Sie gelangen zum Fenster für die Verbindung. **[!UICONTROL Eigenschaften]**, mit dem Namen und dem Typ Ihrer Datenbank.
+Sie greifen auf das Fenster für die Verbindung **[!UICONTROL Eigenschaften]** zu, das den Namen und den Typ Ihrer Datenbank enthält.
 
 ![](assets/connections_name.png){zoomable="yes"}
 
@@ -23,7 +23,7 @@ Wenn Sie den Typ auswählen, haben Sie Zugriff auf andere Eigenschaften, die aus
 
 ![](assets/connections_details.png){zoomable="yes"}
 
-Klicken Sie nach dem Ausfüllen der Details auf **[!UICONTROL Verbindung testen]** Schaltfläche und ein **[!UICONTROL Bereitstellen von Funktionen]** Schaltfläche.
-Schließen Sie die Erstellung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** Schaltfläche.
+Nachdem Sie die Details ausgefüllt haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** .
+Schließen Sie die Erstellung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken.
 
 ![](assets/connections_testdeploy.png){zoomable="yes"}

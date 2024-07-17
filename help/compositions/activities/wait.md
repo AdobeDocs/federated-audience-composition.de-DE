@@ -16,13 +16,13 @@ ht-degree: 70%
 >title="Warteaktivität"
 >abstract="Die Aktivität **Warten** wird verwendet, um die Transition von einer Aktivität zu einer anderen zu verzögern."
 
-Die **Warten** -Aktivität eine gewisse Zeitspanne zwischen der Ausführung zweier Aktivitäten lässt. Beispielsweise kann man mehrere Tage nach einer E-Mail-Versandaktivität warten, dann die während dieses Zeitraums erfolgten Öffnungen und Klicks analysieren, bevor man weitere Verarbeitungsschritte (Erinnerungs-E-Mail, Zielgruppenerstellung etc.) unternimmt.
+Die Aktivität **Warten** ermöglicht es, einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren. Beispielsweise kann man mehrere Tage nach einer E-Mail-Versandaktivität warten, dann die während dieses Zeitraums erfolgten Öffnungen und Klicks analysieren, bevor man weitere Verarbeitungsschritte (Erinnerungs-E-Mail, Zielgruppenerstellung etc.) unternimmt.
 
 ## Konfiguration{#wait-configuration}
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Warten** zu konfigurieren:
 
-1. Hinzufügen einer **Warten** Aktivität in Ihre Komposition ein.
+1. Fügen Sie eine **Warten** -Aktivität in Ihre Komposition ein.
 
 1. Geben Sie die **Dauer** der Wartezeit zwischen der eingehenden und der ausgehenden Transition an.
 

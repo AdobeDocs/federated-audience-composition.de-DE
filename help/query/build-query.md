@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfragemodell erstellen
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 
 Sie können zwei Elementtypen hinzufügen:
 
-* **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen) können Sie eigene Regeln erstellen oder eine Zielgruppe auswählen, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
+* **Filterkomponenten** (Benutzerdefinierte Bedingung, Zielgruppe auswählen) ermöglichen es Ihnen, eigene Regeln zu erstellen oder eine Zielgruppe auszuwählen, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
   Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben*. *Empfängerinnen und Empfänger mit Wohnsitz in New York*, *Empfängerinnen und Empfänger mit Wohnsitz in San Francisco*
 
@@ -51,7 +51,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    >[!NOTE]
    >
-   >Die **Ausdruck bearbeiten** -Schaltfläche können Sie den Ausdruckseditor verwenden, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Mit der Schaltfläche **Ausdruck bearbeiten** können Sie den Ausdruckseditor nutzen, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -238,12 +238,12 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 >title="Regeleigenschaften"
 >abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **Regeleigenschaften** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieldatensätze überprüfen.<br/>Über die Schaltfläche **Filter auswählen oder speichern** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
 
-Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich **Regeleigenschaften** auf der rechten Seite überprüfen. Dieser Bereich wird beim Erstellen einer Abfrage zum Erstellen einer Audience angezeigt. Verfügbare Operationen sind:
+Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie über den Bereich **Regeleigenschaften** auf der rechten Seite überprüfen. Dieser Bereich wird beim Einrichten einer Abfrage zum Erstellen einer Zielgruppe angezeigt. Verfügbare Operationen sind:
 
 * **Ergebnisse anzeigen:** Zeigt die aus Ihrer Abfrage resultierenden Daten an.
 * **Code-Ansicht**: Zeigt eine Code-basierte Version der Abfrage in SQL an.
 * **Berechnen**: Aktualisiert und zeigt die Anzahl der Einträge an, auf die Ihre Abfrage abzielt.
-* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter, um sie später erneut zu verwenden.
+* **Filter auswählen oder speichern**: Wählen Sie einen vorhandenen vordefinierten Filter aus, der auf der Arbeitsfläche verwendet werden soll, oder speichern Sie Ihre Abfrage als vordefinierten Filter für die zukünftige Wiederverwendung.
 
   >[!IMPORTANT]
   >

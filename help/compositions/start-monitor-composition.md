@@ -16,7 +16,7 @@ Nachdem Sie Ihre Komposition erstellt und die Aufgaben entworfen haben, die auf 
 
 ## Komposition starten {#start}
 
-Um eine Komposition zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Starten]** in der oberen rechten Ecke des Bildschirms. Wenn die Komposition ausgeführt wird, wird jede Aktivität auf der Arbeitsfläche in einer sequenziellen Reihenfolge ausgeführt, bis das Ende der Komposition erreicht ist.
+Um eine Komposition zu starten, klicken Sie auf die Schaltfläche **[!UICONTROL Start]** in der oberen rechten Ecke des Bildschirms. Wenn die Komposition ausgeführt wird, wird jede Aktivität auf der Arbeitsfläche in einer sequenziellen Reihenfolge ausgeführt, bis das Ende der Komposition erreicht ist.
 
 Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofilen in Echtzeit verfolgen. Auf diese Weise können Sie den Status jeder Aktivität und die Anzahl der Profile, die zwischen ihnen wechseln, schnell identifizieren.
 
@@ -44,19 +44,19 @@ Visuelle Indikatoren in der rechten oberen Ecke eines jeden Aktivitätsfeldes er
 
 ## Überwachen der Protokolle und Aufgaben {#logs-tasks}
 
-Das Überwachen von Kompositionsprotokollen und -aufgaben ist ein wichtiger Schritt, um Ihre Kompositionen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Sie können über die **[!UICONTROL Protokolle]** -Schaltfläche in der Symbolleiste der Aktion und im Eigenschaftenbereich jeder Aktivität verfügbar.
+Das Überwachen von Kompositionsprotokollen und -aufgaben ist ein wichtiger Schritt, um Ihre Kompositionen zu analysieren und sicherzustellen, dass sie ordnungsgemäß ausgeführt werden. Auf sie kann über die Schaltfläche **[!UICONTROL Protokolle]** zugegriffen werden, die in der Symbolleiste für Aktionen und im Eigenschaftenbereich jeder Aktivität verfügbar ist.
 
 ![](assets/logs-button.png)
 
-Die **[!UICONTROL Kompositionsprotokolle und Aufgaben]** zeigt einen Verlauf der Ausführung der Komposition an, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden.
+Der Bildschirm **[!UICONTROL Logs und Aufgaben komprimieren]** enthält einen Verlauf der Kompositionsausführung, in dem alle Benutzeraktionen und aufgetretenen Fehler aufgezeichnet werden.
 
 <!-- à confirmer, pas trouvé dans les options = The workflow history is saved for the duration specified in the workflow execution options. During this duration, all the messages are therefore saved, even after a restart. If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.-->
 
 Der Verlauf ist in verschiedene Tabs unterteilt, die nachfolgend beschrieben werden:
 
-* Die **[!UICONTROL Protokoll]** enthält den Ausführungsverlauf aller Kompositionsaktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
+* Der Tab **[!UICONTROL Protokoll]** enthält den Ausführungsverlauf aller Kompositionsaktivitäten. Er zeigt in chronologischer Abfolge alle Vorgänge und Ausführungsfehler.
 * Der **[!UICONTROL Aufgaben]**-Tab liefert Details zur Ausführungsabfolge der Aktivitäten. Die Schaltfläche am Ende jeder Aufgabe ermöglicht die Auflistung der Ereignisvariablen, die durch die Aktivität übergeben werden.
-* Die **[!UICONTROL Variablen]** -Tab listet alle in der Komposition übergebenen Variablen auf. Sie ist nur verfügbar, wenn Sie auf die Protokolle und Aufgaben von der Arbeitsfläche der Komposition aus zugreifen. Sie ist jetzt beim Zugriff auf die Protokolle im Eigenschaftenbereich einer Aktivität verfügbar.  <!-- à confirmer-->
+* Auf der Registerkarte **[!UICONTROL Variablen]** werden alle Variablen aufgelistet, die in der Komposition übergeben werden. Sie ist nur verfügbar, wenn Sie auf die Protokolle und Aufgaben von der Arbeitsfläche der Komposition aus zugreifen. Sie ist jetzt beim Zugriff auf die Protokolle im Eigenschaftenbereich einer Aktivität verfügbar.  <!-- à confirmer-->
 
 ![](assets/logs-tasks.png)
 
@@ -70,12 +70,12 @@ Die Aktionsleiste in der oberen rechten Ecke enthält Befehle, mit denen Sie die
 
 Die verfügbaren Aktionen sind:
 
-* **Starten**: Startet die Ausführung der Komposition, die dann die **Gestartet** -Status. Die Komposition wird gestartet und die ersten Aktivitäten werden aktiviert.
+* **Start**: Startet die Ausführung der Komposition, die dann den Status **Gestartet** erhält. Die Komposition wird gestartet und die ersten Aktivitäten werden aktiviert.
 
-* **[!UICONTROL Fortsetzen]**: Setzt die Ausführung der ausgesetzten Komposition fort. Die Komposition übernimmt die **Gestartet** -Status.
+* **[!UICONTROL Fortsetzen]**: Setzt die Ausführung der ausgesetzten Komposition fort. Die Komposition erhält den Status **Gestartet** .
 
-* **[!UICONTROL Anhalten]** die Ausführung der Komposition, die dann die **Angehalten** -Status. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
+* **[!UICONTROL Pause]** - die Ausführung der Komposition, die dann den Status **Paused** annimmt. Bis zur Wiederaufnahme werden keine neuen Aktivitäten aktiviert, laufende Vorgänge werden jedoch fortgeführt.
 
-* **[!UICONTROL Anhalten]** eine Komposition, die ausgeführt wird, die dann die **Abgeschlossen** -Status. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle wiederaufnehmen, an der sie gestoppt wurde.
+* **[!UICONTROL Stoppen]** eine Komposition, die gerade ausgeführt wird und dann den Status **Abgeschlossen** annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle wiederaufnehmen, an der sie gestoppt wurde.
 
-* **Neu starten**: Hält die Komposition an und startet sie neu. In den meisten Fällen können Sie so einen schnelleren Neustart durchführen, da das Anhalten eines Workflows eine gewisse Zeit in Anspruch nimmt und die **Starten** -Schaltfläche nur verfügbar, wenn der Stopp effektiv ist.
+* **Neu starten**: Hält die Komposition an und startet sie neu. In den meisten Fällen ermöglicht dies einen schnelleren Neustart, da das Anhalten eine gewisse Zeit in Anspruch nimmt und die Schaltfläche **Starten** nur verfügbar ist, wenn der Stopp effektiv ist.

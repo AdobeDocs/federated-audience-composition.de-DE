@@ -16,7 +16,7 @@ ht-degree: 70%
 >title="Aktivität &quot;Und-Verknüpfung&quot;"
 >abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Kompositionsverzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der Komposition fortfahren."
 
-Die **Und-Verknüpfung** -Aktivität können Sie mehrere Ausführungszweige einer Komposition synchronisieren.
+Mit der Aktivität **AND-join** können Sie mehrere Ausführungszweige einer Komposition synchronisieren.
 
 Bei dieser Aktivität wird die ausgehende Transition erst aktiviert, wenn alle eingehenden Transitionen aktiviert wurden, d. h. wenn alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der Komposition fortfahren.
 
@@ -34,5 +34,5 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Und-Verknüpfung** z
 
    ![](../assets/and-join.png)
 
-1. Im **Zusammenführungsoptionen** aktivieren Sie alle vorherigen Aktivitäten, die Sie synchronisieren möchten.
+1. Aktivieren Sie im Abschnitt **Zusammenführungsoptionen** alle vorherigen Aktivitäten, die Sie synchronisieren möchten.
 1. Wählen Sie in der Dropdown-Liste **Hauptmenge** die Population der eingehenden Transition aus, die Sie beibehalten möchten. Die ausgehende Transition kann nur eine der eingehenden Populationen enthalten. Wenn die Hauptmenge nicht bestimmt wurde, wird die an die ausgehende Transition übermittelte Population zufällig ausgewählt.

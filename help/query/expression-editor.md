@@ -28,7 +28,7 @@ Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Beding
 Der Ausdruckseditor bietet Folgendes:
 
 * Ein **Eingabefeld (1)**, in dem der Ausdruck definiert wird.
-* Die Liste der verfügbaren **fields (2)** die im Ausdruck verwendet werden können und dem Schema der Abfrage entsprechen, das auch als Zielgruppendimension bezeichnet wird.
+* Die Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und dem Schema der Abfrage entsprechen, das auch als Zielgruppendimension bezeichnet wird.
 * **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.

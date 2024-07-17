@@ -41,7 +41,7 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
    * **Täglich**: Die Komposition wird einmal täglich zu einem bestimmten Zeitpunkt ausgeführt.
 
-   * **Mehrmals am Tag:** die Komposition wird regelmäßig mehrmals am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
+   * **Mehrmals am Tag:** Die Komposition wird regelmäßig mehrmals am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
 
      >[!NOTE]
      >
@@ -53,17 +53,17 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
 1. Definieren Sie die Ausführungsdetails. Je nach gewählter Frequenz sind verschiedene Parameter (Uhrzeit, Ausführungsintervall, bestimmte Tage etc.) zu konfigurieren.
 
-1. Klicks **Vorschau der Startzeiten anzeigen** um den Zeitplan der nächsten zehn Ausführungen Ihres Aufsatzes zu überprüfen.
+1. Klicken Sie auf **Vorschau der Startzeiten anzeigen** , um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
 
 1. Definieren Sie den Gültigkeitszeitraum der Planung:
 
-   * **Dauerhaft (nie abläuft)**: Die Komposition wird in der angegebenen Häufigkeit ausgeführt, ohne dass der Zeitrahmen oder die Anzahl der Iterationen begrenzt werden.
+   * **Dauerhaft (nie abläuft)**: Die Komposition wird gemäß der angegebenen Häufigkeit und ohne Begrenzung des Zeitrahmens oder der Anzahl der Iterationen ausgeführt.
 
    * **Gültigkeitszeitraum**: Die Komposition wird in der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Sie müssen Start- und Enddaten angeben.
 
 >[!NOTE]
 >
->Wenn Sie die Komposition sofort starten möchten, können Sie auf die **Ausstehende Aufgabe ausführen** in der oberen Symbolleiste der Planung. Diese Schaltfläche ist nur verfügbar, wenn Sie mit der Komposition begonnen haben.
+>Wenn Sie die Komposition sofort starten möchten, können Sie in der oberen Aktionsleiste des Planers auf die Aufgabe &quot;**Ausstehende Aufgabe ausführen**&quot;klicken. Diese Schaltfläche ist nur verfügbar, wenn Sie mit der Komposition begonnen haben.
 
 <!--## Example{#scheduler-example}
 
