@@ -2,10 +2,10 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 43%
+source-wordcount: '134'
+ht-degree: 40%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 43%
 # Dokumentation zur Zusammenführung von Zielgruppen {#using}
 
 + [Dokumentation zur Zusammenführung von Zielgruppen](home.md)
-+ [Erste Schritte](start/get-started.md)
++ Erste Schritte mit Federated Audience Komposition {#start}
+   + [Erste Schritte](start/get-started.md)
+   + [Versionshinweise](start/release-notes.md)
 + Konfigurationsschritte {#config}
    + [Verbinden von AEP mit Federated Audience Komposition](connections/destinations.md)
    + [Federated-Datenbanken konfigurieren](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 43%
    + [Bearbeitung von Ausdrücken](query/expression-editor.md)
 + Audit-Protokoll {#audit-trail}
    + [Überwachen von Datenbanken](admin/audit-trail.md)
++ [&lt; Zurück zur Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
