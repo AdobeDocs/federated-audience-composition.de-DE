@@ -2,10 +2,10 @@
 title: Neue Funktionen bei der Komposition von Federated Audiences
 description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 14%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,7 @@ Statt Datensätze und/oder Zielgruppen in Adobe Experience Platform zu erfassen,
 >
 >Federated Audience Komposition ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
 >
->Für Kundinnen und Kunden, die die Zusatzangebote Adobe **Healthcare Shield** und **Privacy and Security Shield** erworben haben, ist die Funktion derzeit nicht verfügbar.
+>Die Funktion ist derzeit nicht für Kunden verfügbar, die das Zusatzangebot Adobe **Gesundheitsschild** erworben haben.
 
 
 ## Voraussetzungen und Leitlinien {#rn-guardrails}
