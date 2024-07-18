@@ -2,17 +2,17 @@
 title: Neue Funktionen bei der Komposition von Federated Audiences
 description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 5%
+source-wordcount: '326'
+ht-degree: 4%
 
 ---
 
 
 # Versionshinweise {#rn-new}
 
-## Zusammengestellte Zielgruppenkomposition (LA) {#rn-la}
+## Zusammengestellte Zielgruppenkomposition (LA) {#fac-la}
 
 Die Zusammenstellung von Federated Audience ist ein Add-on, das einen flexiblen Zugriff und eine erweiterte Reichweite in Enterprise Data Warehouse bietet, um Anwendungsfälle für Personalisierungen zu optimieren.
 
@@ -20,6 +20,7 @@ Zusammengestellte Zielgruppenkomposition ermöglicht es Unternehmen, Daten zu er
 
 Statt Datensätze und/oder Zielgruppen in Adobe Experience Platform zu erfassen, können Sie jetzt die Federated Audience-Komposition verwenden, um das Volumen der aus Ihrem Data Warehouse in Adobe Experience Platform kopierten Daten zu reduzieren, indem Sie bestimmte Zielgruppen und Attribute aus dem Warehouse abrufen, die für bestimmte Anwendungsfälle der Segmentierung oder Aktivierung erforderlich sind, und sicherstellen, dass vertrauliche Daten nicht außerhalb des Warehouse persistiert werden.
 
+Weitere Informationen zu Funktionen zur Zusammenstellung von Federated Audience finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](get-started.md#faq) .
 
 >[!AVAILABILITY]
 >
@@ -27,8 +28,16 @@ Statt Datensätze und/oder Zielgruppen in Adobe Experience Platform zu erfassen,
 >
 >Die Funktion ist derzeit nicht für Kunden verfügbar, die das Zusatzangebot Adobe **Gesundheitsschild** erworben haben.
 
+## Zugriff auf Federated Audience Komposition {#fac-access}
 
-## Voraussetzungen und Leitlinien {#rn-guardrails}
+Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federated Audience. Die einzige Voraussetzung für den Zugriff auf diese Funktion ist der Kauf des Add-ons &quot;Federated Audience Komposition&quot;.
+
+>[!AVAILABILITY]
+>
+>Nachdem Sie die Begrüßungs-E-Mail-Benachrichtigung von Adobe erhalten haben, kann es noch einige Stunden dauern, bis die Benutzeroberfläche aktualisiert und Funktionen verfügbar sind.
+>
+
+## Voraussetzungen und Leitlinien {#fac-guardrails}
 
 * Ihre IP-Adressen müssen der Zulassungsliste hinzugefügt werden, um den Zugriff auf Ihr Data Warehouse zu ermöglichen und Federated Audience Komposition zu verwenden. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Ihre IP-Adressen zur Zulassungsliste hinzuzufügen.
 
