@@ -2,9 +2,9 @@
 title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 63192ea583aca7bc4a30b4a9d2071b83d0a46406
+source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1284'
 ht-degree: 8%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 Adobe Experience Platform Federated Audience Komposition bietet eine einfache und leistungsstarke Lösung, um Ihr Enterprise Data Warehouse direkt in Adobe Real-time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen an den Tabellen in Ihrem Data Warehouse durchzuführen.
 
-Die Adobe Federated Audience Komposition hilft Adobe Experience Platform-Anwendern beim Zugriff auf ihre in ihrem Enterprise Data Warehouse gespeicherten Kundendaten. Kundendaten können in mehreren Data Warehouse gespeichert werden und sind jetzt ohne Replikation sofort verfügbar.
+Mit der Adobe Federated Audience Komposition können Anwender von Adobe Experience Platform-Apps auf Kundendaten zugreifen, die in ihren Data Warehouse- und Cloud-Speicherplattformen gespeichert sind (z. B. Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kundendaten können in mehreren Data Warehouse gespeichert werden und sind jetzt ohne Replikation sofort verfügbar.
 
 
 ## Anwendungsfälle {#rn-uc}
