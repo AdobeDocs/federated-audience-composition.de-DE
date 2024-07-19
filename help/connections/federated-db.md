@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 17%
@@ -28,6 +28,8 @@ ht-degree: 17%
 >abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]**, um Ihre Konfiguration zu validieren."
 
 Erstellen, konfigurieren, testen und speichern Sie die Verbindung zu einer externen Datenbank.
+
+
 
 Unterstützte externe Datenbanken:
 

@@ -2,19 +2,19 @@
 title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 8%
+source-wordcount: '1320'
+ht-degree: 7%
 
 ---
 
 
 # Erste Schritte mit Federated Audience-Komposition {#gs-fac}
 
-Adobe Experience Platform Federated Audience Komposition bietet eine einfache und leistungsstarke Lösung, um Ihr Enterprise Data Warehouse direkt in Adobe Real-time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen an den Tabellen in Ihrem Data Warehouse durchzuführen.
+Zusammengestellte Zielgruppenkomposition ist ein Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer-Add-on, mit dem Kunden Zielgruppen aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren können.
 
-Mit der Adobe Federated Audience Komposition können Anwender von Adobe Experience Platform-Apps auf Kundendaten zugreifen, die in ihren Data Warehouse- und Cloud-Speicherplattformen gespeichert sind (z. B. Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kundendaten können in mehreren Data Warehouse gespeichert werden und sind jetzt ohne Replikation sofort verfügbar.
+Adobe Experience Platform Federated Audience Komposition bietet eine einfache und leistungsstarke Lösung, um Ihr Enterprise Data Warehouse direkt in Adobe Real-time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen an den Tabellen in Ihrem Data Warehouse durchzuführen. Mit der Adobe Federated Audience Komposition können Anwender von Adobe Experience Platform-Apps auf Kundendaten zugreifen, die in ihren Data Warehouse- und Cloud-Speicherplattformen gespeichert sind (z. B. Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kundendaten können in mehreren Data Warehouse gespeichert werden und sind jetzt ohne Replikation sofort verfügbar.
 
 
 ## Anwendungsfälle {#rn-uc}
