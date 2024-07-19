@@ -2,9 +2,9 @@
 title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
+source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1328'
 ht-degree: 7%
 
 ---
@@ -67,10 +67,11 @@ Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federate
 
 Für diese Version ist die Zusammenstellung von Federated Audience mit folgenden Versionen kompatibel:
 
-* Snowflake
-* Google BigQuery
-* Azure synapse
 * Amazon Redshift
+* Azure synapse
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
 
 +++
 
