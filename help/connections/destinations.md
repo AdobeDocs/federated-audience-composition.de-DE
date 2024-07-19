@@ -3,9 +3,9 @@ audience: end-user
 title: Senden von Zielgruppen an die Adobe Federated Audience Komposition
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen an Federated Audience Komposition senden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 8%
 
 ---
@@ -33,7 +33,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-configure.png)
 
-   Im Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, mit denen Sie Benachrichtigungen zum Status des Datenflusses an Ihr Ziel erhalten. Weitere Informationen zu Warnhinweisen finden Sie im Handbuch zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](../../ui/alerts.md).
+   Im Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, mit denen Sie Benachrichtigungen zum Status des Datenflusses an Ihr Ziel erhalten. Weitere Informationen zu Warnhinweisen finden Sie im Handbuch zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
 
 1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsaktionen]** können Sie Ihre Data Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 
