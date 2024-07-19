@@ -2,9 +2,9 @@
 title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1326'
 ht-degree: 7%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 7%
 
 Zusammengestellte Zielgruppenkomposition ist ein Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer-Add-on, mit dem Kunden Zielgruppen aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren können.
 
-Adobe Experience Platform Federated Audience Komposition bietet eine einfache und leistungsstarke Lösung, um Ihr Enterprise Data Warehouse direkt in Adobe Real-time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen an den Tabellen in Ihrem Data Warehouse durchzuführen. Mit der Adobe Federated Audience Komposition können Anwender von Adobe Experience Platform-Apps auf Kundendaten zugreifen, die in ihren Data Warehouse- und Cloud-Speicherplattformen gespeichert sind (z. B. Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). Kundendaten können in mehreren Data Warehouse gespeichert werden und sind jetzt ohne Replikation sofort verfügbar.
+Adobe Experience Platform Federated Audience Komposition bietet eine einfache und leistungsstarke Lösung, um Ihr Enterprise Data Warehouse direkt in Adobe Real-time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen an den Tabellen in Ihrem Data Warehouse durchzuführen.
+
+Mit der Adobe Federated Audience Komposition können Anwender von Adobe Experience Platform-Apps auf ihre Kundendaten zugreifen, die in ihren Data Warehouse und Cloud-Speicherplattformen wie Amazon Redshift, Azure synapse Analytics und mehr gespeichert sind. Kundendaten können in mehreren Data Warehouse gespeichert werden und sind jetzt ohne Replikation sofort verfügbar. Die unterstützten Plattformen werden auf [dieser Seite](../connections/federated-db.md#supported-db) aufgeführt.
 
 
 ## Anwendungsfälle {#rn-uc}

@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1458'
 ht-degree: 17%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 17%
 >title="Details zur föderierten Datenbank"
 >abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]**, um Ihre Konfiguration zu validieren."
 
-Erstellen, konfigurieren, testen und speichern Sie die Verbindung zu einer externen Datenbank.
+Zusammengestellte Zielgruppenzusammensetzung ermöglicht es dem Kunden, Zielgruppen aus Drittanbieter-Datenlagern zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
 
+Auf dieser Seite erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren, testen und speichern.
 
+## Unterstützte Datenbanken {#supported-db}
 
-Unterstützte externe Datenbanken:
+Mit Federated Audience Komposition können Sie eine Verbindung zu den folgenden Datenbanken herstellen:
 
 * Amazon Redshift
 * Azure synapse
