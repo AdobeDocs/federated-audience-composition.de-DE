@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 Ein Schema ist ein Objekt in der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
 Ein Schema verweist auf eine Tabelle.
 
-## Wie erstelle ich ein Schema? {#schema-create}
+## Erstellen eines Schemas {#schema-create}
 
 Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Dort finden Sie die Registerkarte **[!UICONTROL Schema]**.
 Klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
@@ -62,7 +62,7 @@ Durch das Hinzufügen der Tabellen haben Sie Zugriff auf die entsprechenden Feld
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## Wie kann ein Schema bearbeitet werden? {#schema-edit}
+## Schema bearbeiten {#schema-edit}
 
 Um ein Schema zu bearbeiten, klicken Sie auf den Namen Ihres Schemas im Ordner Schemas . Sie haben Zugriff auf die Seite unten.
 Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** .
@@ -79,7 +79,7 @@ Sie können die Datenübersicht durch Klicken auf die Schaltfläche **[!UICONTRO
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## Wie lösche ich ein Schema? {#schema-delete}
+## Löschen eines Schemas {#schema-delete}
 
 Um ein Schema zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** und dann auf **[!UICONTROL Löschen]**.
 
