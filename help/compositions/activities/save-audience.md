@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 44%
+source-wordcount: '380'
+ht-degree: 42%
 
 ---
 
@@ -48,6 +48,10 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
    ![](../assets/save-audience.png)
 
 1. Geben Sie den Titel der zu erstellenden Audience an.
+
+   >[!IMPORTANT]
+   >
+   >Die Zielgruppenbeschriftung muss innerhalb der aktuellen Sandbox eindeutig sein. Sie darf nicht mit der einer existierenden Zielgruppe übereinstimmen.
 
 1. Klicken Sie auf **Zielgruppenzuordnung hinzufügen** und wählen Sie dann die Quell- und Zielgruppenfelder aus:
 
