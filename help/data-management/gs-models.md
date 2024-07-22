@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ Ein Datenmodell ist ein Satz von Schemas, Zielgruppen und Verknüpfungen zwische
 
 Erfahren Sie mehr über [Schemas](../customer/schemas.md#schema-start).
 
-Erfahren Sie mehr über [Zielgruppen](../customer/audiences.md).
+Erfahren Sie mehr über [Zielgruppen](../start/audiences.md).
 
 ## Erstellen eines Datenmodells {#data-model-create}
 

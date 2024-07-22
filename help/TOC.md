@@ -2,10 +2,10 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 40%
+source-wordcount: '136'
+ht-degree: 39%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 40%
 + Erste Schritte mit Federated Audience Komposition {#start}
    + [Erste Schritte](start/get-started.md)
    + [Versionshinweise](start/release-notes.md)
+   + [Verwenden von Zielgruppen](start/audiences.md)
 + Konfigurationsschritte {#config}
    + [Federated-Datenbanken konfigurieren](connections/federated-db.md)
    + [Verbindungen erstellen und verwalten](connections/connections.md)
    + Datenmodelle und Schemas{#datamodel}
       + [Datenmodelle konfigurieren](data-management/gs-models.md)
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
-   + [Verwenden von Zielgruppen](customer/audiences.md)
-   + [Senden von Zielgruppen an die Adobe Federated Audience Komposition](connections/destinations.md)
+   + [Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
 + Kompositionen {#compositions}
    + [Erste Schritte mit Kompositionen](compositions/gs-compositions.md)
    + Erstellen und Ausführen der ersten Komposition {#create-composition}
