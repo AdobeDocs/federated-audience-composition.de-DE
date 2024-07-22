@@ -2,10 +2,10 @@
 title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 7%
+source-wordcount: '1381'
+ht-degree: 6%
 
 ---
 
@@ -35,22 +35,14 @@ Mit der Adobe Federated Audience Komposition können Sie Adobe Experience Platfo
 
 Wichtigste Schritte:
 
-* **Konfiguration**
+1. **Datenintegration**: Zusammenführen von Daten aus verschiedenen Quellen und Zusammenführen dieser Daten zu einem einheitlichen Datensatz. Informationen zum Verbinden von Adobe Experience Platform-Apps mit Ihrem Enterprise Data Warehouse, unterstützten Datenbanken und deren Konfiguration finden Sie in [diesem Abschnitt](../connections/federated-db.md).
 
-   1. Verbinden Sie Adobe Experience Platform und Ihr Enterprise Data Warehouse.
-Folgende Datenbanken werden unterstützt: Snowflake, Google Big Query, Azure synapse, Redshift.
-Weiterführende Informationen finden Sie auf [dieser Seite](../connections/federated-db.md)
-   1. Erstellen Sie Schemata, um festzulegen, auf welche Daten über die Benutzeroberfläche zugegriffen werden soll.
-Weiterführende Informationen finden Sie auf [dieser Seite](../customer/schemas.md)
-   1. Erstellen Sie Links für Ihr Datenmodell.
-Weiterführende Informationen finden Sie auf [dieser Seite](../data-management/gs-models.md)
+2. **Datenmodellierung**: Entwerfen und erstellen Sie Datenmodelle und -schemas, die die Struktur, die Beziehungen und Einschränkungen der Daten definieren. Weitere Informationen zu Schemata finden Sie auf [dieser Seite](../customer/schemas.md). Erfahren Sie auf [dieser Seite](../data-management/gs-models.md), wie Sie Links für Ihr Datenmodell erstellen.
 
-* **Erstellen von Zielgruppen**
+3. **Datenumwandlung**: Wenden Sie Datenbearbeitungsmethoden an, um das Format, die Struktur oder die Werte von Datenelementen zu ändern, damit sie kompatibel oder für bestimmte Analysen oder Anwendungen geeignet sind.
 
-   1. Erstellen Sie Kompositionen und führen Sie sie aus, um Audiences zu erstellen.
-Weiterführende Informationen finden Sie auf [dieser Seite](../compositions/gs-compositions.md)
-   1. Vorhandene Zielgruppen über das Adobe Experience Platform Audience Portal und die Ziele aktualisieren oder wiederverwenden.
-Weiterführende Informationen finden Sie auf [dieser Seite](../connections/destinations.md)
+4. **Datenverwendung**: Erstellen, orchestrieren und erstellen Sie Zielgruppen. Erfahren Sie, wie Sie in [dieser Seite](../compositions/gs-compositions.md) Zielgruppen erstellen. Sie können vorhandene Zielgruppen auch über das Adobe Experience Platform Audience Portal und die Ziele aktualisieren oder wiederverwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../connections/destinations.md)
+
 
 ## Häufig gestellte Fragen {#faq}
 
