@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 Ein Datenmodell ist ein Satz von Schemas, Zielgruppen und Verknüpfungen zwischen ihnen.
 
-Erfahren Sie mehr über [Schemas](../customer/schemas.md).
+Erfahren Sie mehr über [Schemas](../customer/schemas.md#schema-start).
 
 Erfahren Sie mehr über [Zielgruppen](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ Sie gelangen in das Fenster, in dem Sie die Schemas, die Zielgruppen und die Lin
 
 ### Links erstellen {#data-model-links}
 
+Das Erstellen von Relationen zwischen Tabellen Ihres Datenmodells kann auf zwei Arten durchgeführt werden:
+- Klicken Sie direkt auf das Menü **[!UICONTROL Link erstellen]** einer der Tabellen.
+- Klicken Sie auf die Schaltfläche **[!UICONTROL Links erstellen]** und wählen Sie die beiden Tabellen aus.
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Füllen Sie das angegebene Formular aus, um den Link zu definieren:
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Alle für Ihr Datenmodell definierten Links werden wie folgt aufgeführt:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
