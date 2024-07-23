@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit dem Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Datenbanken mit dem Audit-Protokoll überwachen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 69%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 69%
 
 Die Funktion &quot;Audit&quot; bietet eine detaillierte und chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung vorgenommen wurden
 
-Die Funktion **[!UICONTROL Audit trail]** zeichnet ständig ein detailliertes Protokoll von Aktionen und Ereignissen auf, die in der Adobe-Datenkompositionsinstanz in Echtzeit stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
+Die Funktion **[!UICONTROL Audit trail]** zeichnet ständig ein detailliertes Protokoll der Aktionen und Ereignisse auf, die in der Adobe Federated Komposition-Instanz in Echtzeit stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
 
 +++ Weitere Informationen über die verfügbaren Entitäten im Audit-Protokoll
 
-* Mit dem **Source-Schema-Audit-Protokoll** können Sie Aktivitäten und aktuelle Änderungen an Ihren Schemas in der Adobe-Datenkompositionsinstanz überwachen.
+* Mit dem **Source-Schema-Audit-Protokoll** können Sie Aktivitäten und aktuelle Änderungen an Ihren Schemas in der Adobe Federated Audience Komposition-Instanz überwachen.
 
   Detaillierte Informationen zu Schemata finden Sie auf dieser [Seite](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ Die Funktion **[!UICONTROL Audit trail]** zeichnet ständig ein detailliertes Pr
 
   Weiterführende Informationen zu Workflows finden Sie auf [dieser Seite](../compositions/gs-compositions.md).
 
-* Mit **Externes Konto** können Sie Änderungen an externen Konten in der Adobe-Datenkompositionsinstanz überprüfen.
+* Mit **Externes Konto** können Sie Änderungen an externen Konten in der Adobe-Instanz zur Zielgruppenkomposition überprüfen.
 
   Weiterführende Informationen zu „Externes Konto“ finden Sie auf [dieser Seite](../connections/federated-db.md).
 

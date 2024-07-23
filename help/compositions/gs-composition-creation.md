@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## Was ist in einem Aufsatz? {#gs-composition-inside}
 
-Zusammengestellte Datenkomposition bietet eine visuelle Arbeitsfläche, auf der Sie Zielgruppen mithilfe verschiedener Aktivitäten (Aufspaltung, Anreicherung usw.) erstellen können.
+Zusammengestellte Zielgruppenkomposition bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen können, indem Sie verschiedene Aktivitäten nutzen (Aufspaltung, Anreicherung usw.).
 
 Das Kompositionsdiagramm ist eine Darstellung dessen, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 

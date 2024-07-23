@@ -3,18 +3,18 @@ audience: end-user
 title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 15%
+source-wordcount: '287'
+ht-degree: 17%
 
 ---
 
 # Erste Schritte mit Kompositionen {#compositions}
 
-## Was ist ein Aufsatz? {#what}
+## Was ist eine Komposition {#what}
 
-Mit der Adobe-Datenkomposition können Sie Kompositionen erstellen, bei denen Sie verschiedene Aktivitäten (Aufspaltung, Ausschließen...) in einer visuellen Arbeitsfläche nutzen können, um Zielgruppen zu erstellen. Danach werden die resultierenden Zielgruppen zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Zielen wie Journey Optimizer für die Kundenansprache genutzt werden.
+Mit der Adobe-Zielgruppenkomposition können Sie Kompositionen erstellen, bei denen Sie verschiedene Aktivitäten (Aufspaltung, Ausschluss...) in einer visuellen Arbeitsfläche nutzen können, um Zielgruppen zu erstellen. Danach werden die resultierenden Zielgruppen zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Zielen wie Journey Optimizer für die Kundenansprache genutzt werden. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten können](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Kompositionen können mehrere Status aufweisen:
 
 * **[!UICONTROL Entwurf]**: Die Komposition wurde erstellt und gespeichert.
 * **[!UICONTROL Gestartet]**: Die Komposition wurde ausgeführt und wird derzeit ausgeführt.
-* **[!UICONTROL Angehalten]**: Die Ausführung der Komposition wurde angehalten.
+* **[!UICONTROL Angehalten]**: Die Ausführung der Komposition ist abgeschlossen und wurde beendet.
 * **[!UICONTROL Ausgesetzt]**: Die Ausführung der Komposition wurde angehalten.
 * **[!UICONTROL Fehlerhaft]**: Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Öffnen Sie die Komposition und greifen Sie auf die Protokolle und Aufgaben zu, um den Fehler zu identifizieren und zu beheben.
 

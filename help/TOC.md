@@ -2,10 +2,10 @@
 user-guide-title: Föderierte Zielgruppenkomposition
 title: Dokumentation zur Adobe Federated Audience-Komposition
 breadcrumb-title: Föderierte Zielgruppenkomposition
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 39%
+source-wordcount: '133'
+ht-degree: 40%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 39%
 # Dokumentation zur Zusammenführung von Zielgruppen {#using}
 
 + [Dokumentation zur Zusammenführung von Zielgruppen](home.md)
++ [Versionshinweise](start/release-notes.md)
 + Erste Schritte mit Federated Audience Komposition {#start}
-   + [Erste Schritte](start/get-started.md)
-   + [Versionshinweise](start/release-notes.md)
+   + [Zusammengestellte Zielgruppenkomposition](start/get-started.md)
    + [Verwenden von Zielgruppen](start/audiences.md)
 + Konfigurationsschritte {#config}
    + [Verbindungen erstellen und verwalten](connections/connections.md)
@@ -24,7 +24,7 @@ ht-degree: 39%
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
       + [Datenmodelle konfigurieren](data-management/gs-models.md)
    + [Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
-+ Kompositionen {#compositions}
++ Erstellen von Zielgruppen {#compositions}
    + [Erste Schritte mit Kompositionen](compositions/gs-compositions.md)
    + Erstellen und Ausführen der ersten Komposition {#create-composition}
       + [Grundlegende Prinzipien der Kompositionserstellung](compositions/gs-composition-creation.md)
@@ -51,4 +51,3 @@ ht-degree: 39%
    + [Bearbeitung von Ausdrücken](query/expression-editor.md)
 + Audit-Protokoll {#audit-trail}
    + [Überwachen von Datenbanken](admin/audit-trail.md)
-+ [&lt; Zurück zur Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
