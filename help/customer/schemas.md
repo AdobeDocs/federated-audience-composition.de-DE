@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 34%
+source-wordcount: '467'
+ht-degree: 20%
 
 ---
 
@@ -42,25 +42,46 @@ ht-degree: 34%
 
 ## Was ist ein Schema? {#schema-start}
 
-Ein Schema ist ein Objekt in der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
-Ein Schema verweist auf eine Tabelle.
+Ein Schema ist eine Darstellung einer Tabelle Ihrer Datenbank. Es ist ein Objekt innerhalb der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
+
+Durch Erstellung eines Schemas haben Sie die Möglichkeit, Ihre Tabelle in FAC zu bearbeiten:
+- Geben Sie ihm einen Anzeigenamen und eine Beschreibung, um das Verständnis für den Benutzer zu vereinfachen
+- die Sichtbarkeit der einzelnen Felder entsprechend ihrer tatsächlichen Nutzung bestimmen;
+- Wählen Sie den Primärschlüssel aus, um Schemas wie im [Datenmodell](../data-management/gs-models.md#data-model-start) benötigt zwischen ihnen zu verknüpfen.
 
 ## Erstellen eines Schemas {#schema-create}
 
+Gehen Sie wie folgt vor, um Schemas in FAC zu erstellen:
 Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Dort finden Sie die Registerkarte **[!UICONTROL Schema]**.
 Klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
 
 ![](assets/schema_create.png){zoomable="yes"}
 
-Wählen Sie Ihre Quelldatenbank in der Dropdownliste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]** .
+Sie haben Zugriff auf eine neue Benutzeroberfläche mit einer Dropdown-Liste, in der Sie
+alle Datenbanken, die mit Ihrer Anwendung verbunden sind. Erfahren Sie mehr über die [Datenbankverbindung](../connections/connections.md#connections-fdb).
+Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]** .
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-Sie haben Zugriff auf alle Tabellen der Datenbank, für die Sie ein Schema erstellen können.
+Sie haben Zugriff auf die Liste aller Tabellen in der Datenbank.
 
-Durch das Hinzufügen der Tabellen haben Sie Zugriff auf die entsprechenden Felder und können so die tatsächlich benötigten Daten speichern.
+Durch Hinzufügen der Tabellen, für die Sie das Schema erstellen möchten, haben Sie Zugriff auf die entsprechenden Felder wie unten dargestellt.
 
 ![](assets/schema_fields.png){zoomable="yes"}
+
+Für jede Tabelle haben Sie folgende Möglichkeiten:
+- Benennen Sie die angegebene Schemakennung um.
+- Beschreibung hinzufügen
+- benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
+- Primärschlüssel des Schemas auswählen
+
+Beispielsweise wird hier eine Tabelle importiert, direkt nach dem Hinzufügen :
+
+![](assets/schema_lumaorder.png){zoomable="yes"}
+
+Das Schema kann wie folgt definiert werden:
+
+![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Schema bearbeiten {#schema-edit}
 
@@ -69,9 +90,18 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** .
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
+Sie haben Zugriff auf die gleiche Möglichkeit wie beim Erstellen des Schemas :
+- Benennen Sie die angegebene Schemakennung um.
+- Beschreibung hinzufügen
+- benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
+- Primärschlüssel des Schemas auswählen
+
+![](assets/schema_edit_orders.png){zoomable="yes"}
+
 ## Datenvorschau in einem Schema {#schema-preview}
 
 Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]** , wie unten dargestellt.
+Sie können die Gesamtzahl der Aufzeichnungen anzeigen, indem Sie auf den Link **[!UICONTROL Berechnen]** klicken.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
