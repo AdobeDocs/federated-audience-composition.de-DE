@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Aktivität Audience erstellen verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 44%
+source-wordcount: '246'
+ht-degree: 38%
 
 ---
 
@@ -45,8 +45,11 @@ Gehen Sie wie folgt vor, um eine eigene Zielgruppe zu erstellen:
 
 1. Wählen Sie **Zielgruppe erstellen** aus.
 1. Wählen Sie das **Schema**, auch als Zielgruppendimension bezeichnet. Im Schema wird die durch den Vorgang ermittelte Population bestimmt: Empfänger, Empfänger, Benutzer, Abonnenten etc. Standardmäßig wird das Schema von den Empfängern ausgewählt.
+
+   ![](../assets/build-audience-create.png)
+
 1. Klicken Sie auf **Weiter**.
-1. Definieren Sie Ihre Abfrage mithilfe des Abfragemodells. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
+1. Definieren Sie mithilfe des Abfragemodells Ihre Abfrage und bestätigen Sie sie. [Erfahren sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Zielgruppe lesen]
 
@@ -54,9 +57,16 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
 1. Wählen Sie **Zielgruppe lesen** aus.
 1. Klicken Sie auf **Weiter**.
+
+   ![](../assets/build-audience-read.png)
+
 1. Wählen Sie Ihre Zielgruppe aus.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>Mit der Option **Ausgehende Transition erzeugen** können Sie eine ausgehende Transition hinzufügen, die am Ende der Ausführung der Aktivität aktiviert wird, wenn die Zielgruppe leer ist.
 
 <!--
 ## Examples{#build-audience-examples}
