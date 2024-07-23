@@ -3,9 +3,9 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 Ein Schema ist eine Darstellung einer Tabelle Ihrer Datenbank. Es ist ein Objekt innerhalb der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
 
-Durch Erstellung eines Schemas haben Sie die Möglichkeit, Ihre Tabelle in FAC zu bearbeiten:
+Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in FAC bearbeiten:
+
 - Geben Sie ihm einen Anzeigenamen und eine Beschreibung, um das Verständnis für den Benutzer zu vereinfachen
 - die Sichtbarkeit der einzelnen Felder entsprechend ihrer tatsächlichen Nutzung bestimmen;
 - Wählen Sie den Primärschlüssel aus, um Schemas wie im [Datenmodell](../data-management/gs-models.md#data-model-start) benötigt zwischen ihnen zu verknüpfen.
@@ -70,6 +71,7 @@ Durch Hinzufügen der Tabellen, für die Sie das Schema erstellen möchten, habe
 ![](assets/schema_fields.png){zoomable="yes"}
 
 Für jede Tabelle haben Sie folgende Möglichkeiten:
+
 - Benennen Sie die angegebene Schemakennung um.
 - Beschreibung hinzufügen
 - benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
@@ -91,6 +93,7 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** .
 ![](assets/schema_edit.png){zoomable="yes"}
 
 Sie haben Zugriff auf die gleiche Möglichkeit wie beim Erstellen des Schemas :
+
 - Benennen Sie die angegebene Schemakennung um.
 - Beschreibung hinzufügen
 - benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
