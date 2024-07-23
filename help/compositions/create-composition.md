@@ -3,9 +3,9 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '482'
 ht-degree: 26%
 
 ---
@@ -47,9 +47,7 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, ihren Titel zu 
 >title="Einstellungen für den Umgang mit Fehlern"
 >abstract="In diesem Abschnitt können Sie definieren, wie Fehler während der Ausführung behandelt werden sollen. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung der Komposition gestoppt werden soll."
 
-Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll.
-
-Um auf zusätzliche Optionen für Ihre Komposition zuzugreifen, klicken Sie im oberen Bereich des Bildschirms zur Kompositionserstellung auf die Schaltfläche **[!UICONTROL Einstellungen]** .
+Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll. Um auf diese zusätzlichen Optionen zuzugreifen, klicken Sie im oberen Bereich des Bildschirms zur Kompositionserstellung auf die Schaltfläche **[!UICONTROL Einstellungen]** .
 
 ![](assets/composition-create-settings.png)
 

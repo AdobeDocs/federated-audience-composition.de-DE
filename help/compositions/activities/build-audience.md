@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität Audience erstellen
 description: Erfahren Sie, wie Sie die Aktivität Audience erstellen verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 54%
+source-wordcount: '212'
+ht-degree: 44%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 54%
 >title="Aktivität „Zielgruppe erstellen“"
 >abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in der Komposition aufgenommen wird."
 
-Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in der Komposition aufgenommen wird.
+Mit der Aktivität **Audience erstellen** können Sie die Audience definieren, die in die Komposition eintreten soll. Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
-Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Wählen Sie eine Adobe Experience Platform-Zielgruppe aus.
-* Erstellen Sie mit dem Abfrage-Modeler eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
-
-Die Aktivität **Audience erstellen** kann am Anfang der Komposition oder nach jeder anderen Aktivität platziert werden. Jede Aktivität kann nach der **Build-Zielgruppe** platziert werden.
+* Wählen Sie eine vorhandene Adobe Experience Platform-Zielgruppe aus.
+* Erstellen Sie mit dem Abfragemodell eine neue Zielgruppe, indem Sie Filterkriterien definieren und kombinieren.
 
 ## Konfigurieren der Aktivität „Zielgruppe erstellen“ {#build-audience-configuration}
 
