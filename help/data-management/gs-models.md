@@ -3,7 +3,7 @@ audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ Sie gelangen in das Fenster, in dem Sie die Schemas, die Zielgruppen und die Lin
 ### Links erstellen {#data-model-links}
 
 Das Erstellen von Relationen zwischen Tabellen Ihres Datenmodells kann auf zwei Arten durchgeführt werden:
+
 - Klicken Sie direkt auf das Menü **[!UICONTROL Link erstellen]** einer der Tabellen.
 - Klicken Sie auf die Schaltfläche **[!UICONTROL Links erstellen]** und wählen Sie die beiden Tabellen aus.
 

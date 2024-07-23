@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit Federated Data Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit Federated Databases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 98689f24fc7eeffa4cdfa5418c160c13abba7527
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 5%
@@ -27,6 +27,7 @@ Wenn Sie den Typ auswählen, haben Sie Zugriff auf andere Eigenschaften, die aus
 ![](assets/connections_details.png){zoomable="yes"}
 
 Je nach Typ Ihrer Datenbank finden Sie in den Links unter den Informationen, die Sie zum Einrichten der Verbindung benötigen:
+
 * [Amazon Redshift](federated-db.md#amazon-redshift)
 * [Azure synapse](federated-db.md#azure-synapse-redshift)
 * [Google BigQuery](federated-db.md#google-big-query)
