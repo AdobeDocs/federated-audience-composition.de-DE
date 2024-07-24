@@ -3,10 +3,11 @@ audience: end-user
 title: Verwenden Sie die Warten -Aktivität
 description: Erfahren Sie, wie Sie die Warten -Aktivität verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 71%
+source-wordcount: '86'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 71%
 >title="Warteaktivität"
 >abstract="Die Aktivität **Warten** wird verwendet, um die Transition von einer Aktivität zu einer anderen zu verzögern."
 
-Die Aktivität **Warten** ermöglicht es, einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren. Beispielsweise kann man mehrere Tage nach einer E-Mail-Versandaktivität warten, dann die während dieses Zeitraums erfolgten Öffnungen und Klicks analysieren, bevor man weitere Verarbeitungsschritte (Erinnerungs-E-Mail, Zielgruppenerstellung etc.) unternimmt.
+Die Aktivität **Warten** ermöglicht es, einen bestimmten Zeitraum zwischen der Ausführung zweier Aktivitäten zu definieren.
 
 ## Konfiguration{#wait-configuration}
 
@@ -29,4 +30,4 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Warten** zu konfigurieren:
 
 1. Wählen Sie die Zeiteinheit im Feld **Zeiträume** aus: Sekunden, Minuten, Stunden, Tage.
 
-
+   ![](../assets/wait.png)

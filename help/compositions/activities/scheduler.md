@@ -2,13 +2,13 @@
 audience: end-user
 title: Planungsaktivität verwenden
 description: Erfahren Sie, wie Sie die Aktivität Planung verwenden
-source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
+exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 39%
+source-wordcount: '456'
+ht-degree: 36%
 
 ---
-
 
 # Planung {#scheduler}
 
@@ -18,6 +18,10 @@ ht-degree: 39%
 >abstract="Mit der Aktivität **Planung** können Sie den Beginn der Audience-Komposition planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität einer Komposition verwendet werden."
 
 Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann die Komposition beginnt. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der Komposition verwendet werden.
+
+Wenn Sie eine Verbindung zum Ziel Zusammengestellte Datenkomposition konfiguriert haben, können Sie diese Aktivität verwenden, um regelmäßig Adobe Experience Platform-Zielgruppen zu senden. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
+
+![](../assets/scheduler.png)
 
 ## Konfigurieren der Aktivität „Planung“ {#scheduler-configuration}
 
@@ -38,9 +42,7 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 1. Konfigurieren Sie die **Ausführungshäufigkeit**:
 
    * **Einmal**: Die Komposition wird ein einziges Mal ausgeführt.
-
    * **Täglich**: Die Komposition wird einmal täglich zu einem bestimmten Zeitpunkt ausgeführt.
-
    * **Mehrmals am Tag:** Die Komposition wird regelmäßig mehrmals am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
 
      >[!NOTE]
@@ -48,7 +50,6 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
      >Planen Sie nicht, dass eine Komposition mehr als alle 15 Minuten ausgeführt wird, da dies die Gesamtleistung des Systems beeinträchtigen und Blöcke in der Datenbank erstellen kann.
 
    * **Wöchentlich**: Die Komposition wird wiederholt zu bestimmten Zeiten in der Woche ausgeführt.
-
    * **Monatlich**: Die Komposition wird wiederholt zu bestimmten Zeiten im Monat ausgeführt. Sie können Monate auswählen, in denen die Komposition ausgeführt werden soll. Sie können für die Ausführung von Workflows auch bestimmte Wochentage des Monats auswählen, z. B. am zweiten Dienstag des Monats.
 
 1. Definieren Sie die Ausführungsdetails. Je nach gewählter Frequenz sind verschiedene Parameter (Uhrzeit, Ausführungsintervall, bestimmte Tage etc.) zu konfigurieren.
@@ -68,4 +69,3 @@ Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 <!--## Example{#scheduler-example}
 
 In the following example, the activity is configured so that the composition runs several times a day at 9 and 12 AM, every day of the week from October 1st, 2023 to January 1st, 2024.-->
-

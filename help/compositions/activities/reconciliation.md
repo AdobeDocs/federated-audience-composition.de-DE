@@ -3,13 +3,13 @@ audience: end-user
 title: Die Aktivität Abstimmung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Abstimmung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 61%
+source-wordcount: '526'
+ht-degree: 62%
 
 ---
-
 
 # Abstimmung {#reconciliation}
 
@@ -37,7 +37,7 @@ Die Aktivität **Abstimmung** ermöglicht die Definition der Relation zwischen d
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Mit der Aktivität **Abstimmung** können Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen. Der Abstimmvorgang bedeutet, dass die Daten, denen Sie beitreten, bereits in der Datenbank vorhanden sind. Wenn Sie z. B. Kaufinformationen abstimmen möchten, die zeigen, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank vorhanden sein.
+Dadurch können Sie nicht identifizierte Daten mit vorhandenen Ressourcen verknüpfen. Der Abstimmvorgang bedeutet, dass die Daten, denen Sie beitreten, bereits in der Datenbank vorhanden sind. Wenn Sie z. B. Kaufinformationen abstimmen möchten, die zeigen, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank vorhanden sein.
 
 ## Konfigurieren der Abstimmungsaktivität {#reconciliation-configuration}
 
