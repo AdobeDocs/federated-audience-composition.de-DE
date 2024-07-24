@@ -3,13 +3,13 @@ audience: end-user
 title: Anreicherung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Anreicherung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
+source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 57%
 
 ---
-
 
 # Anreicherung {#enrichment}
 
@@ -38,7 +38,9 @@ ht-degree: 61%
 >title="Anreicherungsdaten"
 >abstract="Wählen Sie die zur Anreicherung Ihrer Komposition zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, auch bekannt als Zieldimension, oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
-Mit der Aktivität **Anreicherung** können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird häufig in Kompositionen nach Segmentierungsaktivitäten verwendet.
+Mit der Aktivität **Anreicherung** können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet.
+
+Wenn Sie eine Verbindung zum Ziel &quot;Zusammengestellte Daten&quot; konfiguriert haben, können Sie die Aktivität Anreicherung verwenden, um Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anzureichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
@@ -78,16 +80,17 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
     * [Single enrichment attribute](#single-attribute)
     * [Collection lnk](#collection-link)-->
 
-## Beispiele {#example}
+<!--
+## Examples {#example}
 
-### Einzelnes Anreicherungsattribut {#single-attribute}
+### Single enrichment attribute {#single-attribute}
 
-Hier fügen wir nur ein einziges Anreicherungsattribut hinzu, z. B. das Geburtsdatum. Führen Sie folgende Schritte aus:
+Here, we are just adding a single enrichment attribute, for example, the date of birth. Follow these steps:
 
-1. Klicken Sie in das Feld **Attribut**.
-1. Wählen Sie ein einfaches Feld aus dem Schema aus, das in unserem Beispiel als Zielgruppendimension bezeichnet wird.
-1. Klicken Sie auf **Bestätigen**.
-
+1. Click inside the **Attribute** field.
+1. Select a simple field from the schema, also known as targeting dimension, the date of birth in our example. 
+1. Click **Confirm**.
+-->
 <!--### Collection link {#collection-link}
 
 In this more complex use case, we will select a collection link which is a link with a 1-N cardinality between tables. Let's retrieve the three latest purchases that are less than 100$. For this you need to define:
