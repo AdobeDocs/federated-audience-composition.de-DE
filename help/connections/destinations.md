@@ -3,7 +3,8 @@ audience: end-user
 title: Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Audiences mithilfe des Ziels "Zusammengestellte Zielgruppen erstellen und anreichern können, indem Sie Daten aus Ihren verbundenen Datenbanken verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
+source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 7%
@@ -17,7 +18,7 @@ ht-degree: 7%
 >title="Erstellen eines Ziels"
 >abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
 
-Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen aus Audience Portal in Ihre externen Datenbanken mithilfe des Ziels **Adobe Federated Audience Komposition** . Auf diese Weise können Sie vorhandene Zielgruppen in Kompositionen einsetzen und diese mithilfe von Daten aus Ihren externen Datenbanken anreichern oder verfeinern, um neue Zielgruppen zu erstellen.
+Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen aus Audience Portal in Ihre externen Datenbanken mithilfe des Ziels **Adobe Federated Audience Komposition**. Mit dieser Integration können Sie vorhandene Zielgruppen in Kompositionen nutzen und sie mithilfe von Daten aus Ihren externen Datenbanken anreichern oder verfeinern, um neue Zielgruppen zu erstellen.
 
 Dazu müssen Sie eine neue Verbindung in Adobe Experience Platform mit dem Ziel der Adobe Federated Audience Komposition einrichten. Sie können eine Planung verwenden, um eine bestimmte Zielgruppe regelmäßig zu senden, und spezifische einzuschließende Attribute auswählen, z. B. IDs für die Datenabstimmung. Wenn Sie Governance- und Datenschutzrichtlinien auf Ihre Zielgruppe angewendet haben, werden diese beibehalten und nach Aktualisierung der Zielgruppe an das Zielgruppenportal zurückgesendet.
 
