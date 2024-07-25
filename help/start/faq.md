@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 3%
+source-wordcount: '826'
+ht-degree: 4%
 
 ---
 
@@ -17,7 +17,7 @@ Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Zusammenstellun
 
 ++ Welche Berechtigungen sind für den Zugriff auf Federated Audience Komposition erforderlich?
 
-Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federated Audience. Die einzige Voraussetzung für den Zugriff auf diese Funktion ist der Kauf des Add-ons &quot;Federated Audience Komposition&quot;.
+Federated Audience Komposition erfordert Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer Prime- oder Ultimate-Pakete. Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federated Audience. Die einzige Voraussetzung für den Zugriff auf diese Funktion ist der Kauf des Add-ons &quot;Federated Audience Komposition&quot;.
 
 +++
 
@@ -61,7 +61,7 @@ Ja, nach der Verbindung können Sie die Zusammenstellung von Federated Audience 
 
 ++ Gibt es temporären Speicher in der Zusammenstellung von Federated Audience?
 
-Nein, Zusammengestellte Zielgruppenkomposition speichert nur Metadaten (Schemabeschreibungen). Es werden keine Kundendaten übermittelt. Der Zielgruppenexport erfolgt direkt aus Adobe Experience Platform Audience Portal (über [Ziel](../connections/destinations.md)) zur Kundendatenbank. Der Erstellungs- und Aktualisierungsfluss erfolgt direkt von Ihrer Data Warehouse-Datenbank zu Adobe Experience Platform Audience Portal.
+Nein, Zusammengestellte Zielgruppenkomposition speichert nur Metadaten (Schemabeschreibungen). Es werden keine Kundendaten übermittelt. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Beachten Sie, dass die aktuelle Datengültigkeit für extern generierte Zielgrup
 
 * Bei einer Zielgruppen-Anreicherung ist der Ausgangspunkt eine bestehende Adobe Experience Platform-Zielgruppe. Hier können Sie zwei Szenarien betrachten:
    1. Fügen Sie zusätzliche Zielgruppen-Payload-Attribute aus dem Federated Data Warehouse hinzu: In diesem Fall werden die zusätzlichen Attribute, die hinzugefügt werden, als Teil dieser Zielgruppendefinition übernommen. Der Datenablauf für extern generierte Zielgruppen entspricht dem oben beschriebenen 30 Tage.
-   1. Optimieren Sie die vorhandene Adobe Experience Platform-Zielgruppe auf der Grundlage zusätzlicher Attribute, die in Ihrem Data Warehouse vorhanden sind. Sie haben beispielsweise eine Zielgruppe von Kunden, die in den letzten zwei Monaten Interesse an einem bestimmten Produkt auf der Website gezeigt haben. Sie möchten diese Zielgruppe nun mithilfe der Federated Audience-Komposition weiter segmentieren und nur Kunden mit einem hohen Bonitätswert einbeziehen. Der Kreditwert wird als vertraulich betrachtet und einzelne Kreditwürdigkeit-Datenpunkte werden nicht aus dem Data Warehouse kopiert.
+   1. Optimieren Sie die vorhandene Adobe Experience Platform-Zielgruppe auf der Grundlage zusätzlicher Attribute, die in Ihrem Data Warehouse vorhanden sind. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++ Wenn die Anwendungsfälle für die Zielgruppenerstellung und die Zielgruppenanreicherung nicht persistiert werden, wie werden sie dann vorübergehend gespeichert?
