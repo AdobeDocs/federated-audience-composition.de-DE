@@ -2,13 +2,13 @@
 title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
+source-git-commit: e0f74c25e2f57098ce65c8cdf032a90b4eecdaba
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 12%
+source-wordcount: '519'
+ht-degree: 11%
 
 ---
-
 
 # Erste Schritte mit Federated Audience-Komposition {#gs-fac}
 
@@ -20,7 +20,7 @@ Mit der Adobe Federated Audience Komposition können Anwender von Adobe Experien
 
 Erstellen Sie über eine marketingfreundliche Benutzeroberfläche Segmentregeln, die in Ihrem Data Warehouse eine Liste von Benutzern abfragen, die sich für ein bestimmtes Segment qualifizieren, das für Marketing-Kampagnen benötigt wird, greifen Sie zur Aktivierung auf vorhandene Zielgruppen in Data Warehouse zu oder ergänzen Sie Adobe Experience Platform-Zielgruppen mit zusätzlichen Datenpunkten, die in Warehouse vorhanden sind.
 
-In dieser Version sind zwei Anwendungsfälle verfügbar: Zielgruppensegmentierung und Zielgruppen-Anreicherung. Die Profilanreicherung wird in einer zukünftigen Version verfügbar sein.
+In dieser Version sind zwei Anwendungsfälle verfügbar: Zielgruppenerstellung und Zielgruppenanreicherung. Die Profilanreicherung wird in einer zukünftigen Version verfügbar sein.
 
 ![Diagramm](assets/fac-use-cases.png){zoomable="yes"}
 
@@ -39,6 +39,12 @@ Wichtigste Schritte:
 3. **Datenumwandlung**: Wenden Sie Datenbearbeitungsmethoden an, um das Format, die Struktur oder die Werte von Datenelementen zu ändern, damit sie kompatibel oder für bestimmte Analysen oder Anwendungen geeignet sind.
 
 4. **Datenverwendung**: Erstellen, orchestrieren und erstellen Sie Zielgruppen. Erfahren Sie, wie Sie in [dieser Seite](../compositions/gs-compositions.md) Zielgruppen erstellen. Sie können vorhandene Zielgruppen auch über das Adobe Experience Platform Audience Portal und die Ziele aktualisieren oder wiederverwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../connections/destinations.md)
+
+
+>[!NOTE]
+>
+>Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>
 
 
 
