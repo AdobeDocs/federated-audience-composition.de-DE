@@ -4,7 +4,7 @@ title: Erste Schritte mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 17%
@@ -111,7 +111,7 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
 
 | Option | Beschreibung |
-|:-:|:-:|
+|---|---|
 | Authentifizierung | Vom Connector unterstützte Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie unter [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Beispiel für Verbindungszeichenfolgen n°8) |
 
 
@@ -150,7 +150,7 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
 
 | Option | Beschreibung |
-|:-:|:-:|
+|---|---|
 | ProxyType | Typ des Proxys, der für die Verbindung mit BigQuery über ODBC- und SDK-Connectoren verwendet wird. </br>HTTP (Standard), http_no_tunnel, socks4 und socks5 werden derzeit unterstützt. |
 | ProxyHost | Hostname oder IP-Adresse, an der der Proxy erreicht werden kann. |
 | ProxyPort | Anschlussnummer, auf der der Proxy ausgeführt wird, z. B. 8080 |
