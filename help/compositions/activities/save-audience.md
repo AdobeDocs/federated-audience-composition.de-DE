@@ -4,10 +4,10 @@ title: Verwenden der Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 30%
+source-wordcount: '451'
+ht-degree: 29%
 
 ---
 
@@ -62,7 +62,13 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
    * **Primäres Identitätsfeld**: Wählen Sie das Feld aus, das zur Identifizierung der Profile verwendet werden soll. Beispielsweise die E-Mail-Adresse oder Telefonnummer.
    * **Identitäts-Namespace**: Wählen Sie den Namespace aus, der zur Identifizierung der Profile verwendet werden soll, d. h. den Datentyp, der als Identifizierungsschlüssel verwendet werden soll. Wenn beispielsweise die E-Mail-Adresse als primäres Identitätsfeld ausgewählt wurde, sollte der Identitäts-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
-Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform gespeichert und im Menü **Zielgruppen** zugänglich gemacht. Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt Zielgruppenzuordnungen ausgewählt wurden. Sie können die Zielgruppe für jedes von Adobe Experience Platform unterstützte Ziel aktivieren.
+## Auf Ihre Zielgruppe in Adobe Experience Platform zugreifen {#access-audience}
+
+Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt Zielgruppenzuordnungen ausgewählt wurden. Sie können die Zielgruppe für jedes von Adobe Experience Platform unterstützte Ziel aktivieren.
+
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
