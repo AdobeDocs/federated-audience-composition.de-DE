@@ -3,10 +3,11 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 Ein Schema ist eine Darstellung einer Tabelle Ihrer Datenbank. Es ist ein Objekt innerhalb der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
 
-Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in FAC bearbeiten:
+Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der Experience Platform Federated Audience Komposition definieren:
 
-- Geben Sie ihm einen Anzeigenamen und eine Beschreibung, um das Verständnis für den Benutzer zu vereinfachen
-- die Sichtbarkeit der einzelnen Felder entsprechend ihrer tatsächlichen Nutzung bestimmen;
-- Wählen Sie den Primärschlüssel aus, um Schemas wie im [Datenmodell](../data-management/gs-models.md#data-model-start) benötigt zwischen ihnen zu verknüpfen.
+* Geben Sie ihm einen Anzeigenamen und eine Beschreibung, um das Verständnis für den Benutzer zu vereinfachen
+* Definieren Sie die Sichtbarkeit jedes Felds entsprechend seiner tatsächlichen Nutzung.
+* Wählen Sie den Primärschlüssel aus, um Schemas wie im [Datenmodell](../data-management/gs-models.md#data-model-start) benötigt zwischen ihnen zu verknüpfen.
 
 ## Erstellen eines Schemas {#schema-create}
 
-Gehen Sie wie folgt vor, um Schemas in FAC zu erstellen:
-Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Dort finden Sie die Registerkarte **[!UICONTROL Schema]**.
-Klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
+Gehen Sie wie folgt vor, um Schemas in Federated Audience Komposition zu erstellen:
 
-![](assets/schema_create.png){zoomable="yes"}
+1. Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
 
-Sie haben Zugriff auf eine neue Benutzeroberfläche mit einer Dropdown-Liste, in der Sie
-alle Datenbanken, die mit Ihrer Anwendung verbunden sind. Erfahren Sie mehr über die [Datenbankverbindung](../connections/connections.md#connections-fdb).
-Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]** .
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   In diesem Schritt können Sie auf einen neuen Bildschirm mit einer Dropdown-Liste zugreifen, in der Sie die mit Ihrer Umgebung verbundenen Datenbanken finden. Weitere Informationen zur Datenbankverbindung finden Sie in [diesem Abschnitt](../connections/connections.md#connections-fdb).
 
-Sie haben Zugriff auf die Liste aller Tabellen in der Datenbank.
+1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]** .
 
-Durch Hinzufügen der Tabellen, für die Sie das Schema erstellen möchten, haben Sie Zugriff auf die entsprechenden Felder wie unten dargestellt.
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   Daraufhin wird die Liste aller Tabellen in der Datenbank angezeigt.
 
-Für jede Tabelle haben Sie folgende Möglichkeiten:
+1. Durch Hinzufügen der Tabellen, für die Sie das Schema erstellen möchten, haben Sie Zugriff auf die entsprechenden Felder wie folgt:
 
-- Benennen Sie die angegebene Schemakennung um.
-- Beschreibung hinzufügen
-- benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
-- Primärschlüssel des Schemas auswählen
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-Beispielsweise wird hier eine Tabelle importiert, direkt nach dem Hinzufügen :
+   Für jede Tabelle haben Sie folgende Möglichkeiten:
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * den Titel des Schemas ändern
+   * Beschreibung hinzufügen
+   * benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
+   * Primärschlüssel des Schemas auswählen
 
-Das Schema kann wie folgt definiert werden:
+   Beispielsweise wurde für die folgende Tabelle importiert:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   Das Schema kann wie folgt definiert werden:
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Schema bearbeiten {#schema-edit}
 
-Um ein Schema zu bearbeiten, klicken Sie auf den Namen Ihres Schemas im Ordner Schemas . Sie haben Zugriff auf die Seite unten.
-Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** .
+So bearbeiten Sie ein Schema:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. Klicken Sie auf den Namen Ihres Schemas im Ordner Schemas .
 
-Sie haben Zugriff auf die gleiche Möglichkeit wie beim Erstellen des Schemas :
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** .
 
-- Benennen Sie die angegebene Schemakennung um.
-- Beschreibung hinzufügen
-- benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
-- Primärschlüssel des Schemas auswählen
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   Sie können auf dieselben Optionen zugreifen wie beim Erstellen eines Schemas ](#schema-create).[
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Datenvorschau in einem Schema {#schema-preview}
 
 Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]** , wie unten dargestellt.
-Sie können die Gesamtzahl der Aufzeichnungen anzeigen, indem Sie auf den Link **[!UICONTROL Berechnen]** klicken.
+
+Klicken Sie auf den Link **[!UICONTROL Berechnen]** , um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Sie können die Datenübersicht durch Klicken auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]** ändern.
+Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]** , um die Datenanzeige zu ändern.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Löschen eines Schemas {#schema-delete}
 
-Um ein Schema zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** und dann auf **[!UICONTROL Löschen]**.
+Um ein Schema zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Löschen]** aus.
 
 ![](assets/schema_delete.png){zoomable="yes"}

@@ -4,15 +4,14 @@ title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 28%
 
 ---
 
 # Erste Schritte mit Datenmodellen {#data-model}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
@@ -46,37 +45,38 @@ Erfahren Sie mehr über [Zielgruppen](../start/audiences.md).
 
 ## Erstellen eines Datenmodells {#data-model-create}
 
-Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Dort finden Sie die Registerkarte **[!UICONTROL Datenmodell]** .
+Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. Navigieren Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** zum Link **[!UICONTROL Modelle]** und navigieren Sie zur Registerkarte **[!UICONTROL Datenmodell]** .
 
-Durch Klicken auf die Schaltfläche **[!UICONTROL Datenmodell erstellen]** können Sie Ihr Datenmodell benennen und auf die Schaltfläche **[!UICONTROL Erstellen]** klicken.
+   ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Datenmodell erstellen]** , um den Namen Ihres Datenmodells zu definieren, und klicken Sie auf die Schaltfläche **[!UICONTROL Erstellen]** .
 
-Sie gelangen in das Fenster, in dem Sie die Schemas, die Zielgruppen und die Links Ihres Datenmodells hinzufügen können.
+   ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. Fügen Sie dann die Schemata, die Zielgruppen und die Links Ihres Datenmodells hinzu.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+   ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### Links erstellen {#data-model-links}
 
-Das Erstellen von Relationen zwischen Tabellen Ihres Datenmodells kann auf zwei Arten durchgeführt werden:
+Gehen Sie wie folgt vor, um Relationen zwischen Tabellen Ihres Datenmodells zu erstellen:
 
-- Klicken Sie direkt auf das Menü **[!UICONTROL Link erstellen]** einer der Tabellen.
-- Klicken Sie auf die Schaltfläche **[!UICONTROL Links erstellen]** und wählen Sie die beiden Tabellen aus.
+1. Klicken Sie auf das Menü **[!UICONTROL Link erstellen]** einer Tabelle oder auf die Schaltfläche **[!UICONTROL Links erstellen]** und wählen Sie die beiden Tabellen aus:
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+   ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-Füllen Sie das angegebene Formular aus, um den Link zu definieren:
+1. Füllen Sie das angegebene Formular aus, um den Link zu definieren.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+   ![](assets/datamodel_link.png){zoomable="yes"}
 
-Alle für Ihr Datenmodell definierten Links werden wie folgt aufgeführt:
+   Alle für Ihr Datenmodell definierten Links sind wie folgt aufgeführt:
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+   ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Erstellen eines Datenmodells im Video {#data-model-video}
+## Anleitungsvideo {#data-model-video}
+
+In diesem Video erfahren Sie, wie Sie ein Datenmodell erstellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
