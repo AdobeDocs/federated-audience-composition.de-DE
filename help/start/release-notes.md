@@ -2,13 +2,13 @@
 title: Neue Funktionen bei der Komposition von Federated Audiences
 description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: f5b7fa76719861761b423f61c5e3bba3d4d24c9b
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 4%
 
 ---
-
 
 # Versionshinweise {#rn-new}
 
@@ -29,6 +29,8 @@ Statt Datensätze und/oder Zielgruppen in Adobe Experience Platform zu erfassen,
 Weitere Informationen zu Funktionen zur Zusammenstellung von Federated Audience finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](get-started.md#faq) .
 
 ## Zugriff auf Federated Audience Komposition {#fac-access}
+
+Federated Audience Komposition erfordert Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer Prime- oder Ultimate-Pakete.
 
 Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federated Audience. Die einzige Voraussetzung für den Zugriff auf diese Funktion ist der Kauf des Add-ons &quot;Federated Audience Komposition&quot;.
 
