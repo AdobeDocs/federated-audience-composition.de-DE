@@ -1,12 +1,12 @@
 ---
-title: Neue Funktionen bei der Komposition von Federated Audiences
+title: Neue Funktionen bei der Experience Platform Federated Audience-Komposition
 description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 00287147cfc84bbec9bc1982d83c12c951949dd5
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 4%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -16,15 +16,12 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->* Federated Audience Komposition ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit). Um Zugang zu erhalten, wenden Sie sich an den Adobe-Support.
+>Die Zusammenstellung von Adobe Experience Platform-Federated-Zielgruppen ist derzeit nur für eine Reihe von Organisationen verfügbar (eingeschränkte Verfügbarkeit).
 >
->* Die Funktion ist derzeit nicht für Kunden verfügbar, die das Zusatzangebot **Gesundheitsschild** erworben haben. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
 
+Federated Audience Komposition ist eine Zusatzfunktion, mit der Unternehmen flexiblen und erweiterten Zugriff auf Enterprise Data Warehouse erhalten, um Zielgruppen mithilfe kritischer Enterprise-Datensätze zusammenzustellen und markeninitiierte und aktuelle Erlebnisse zu optimieren. Mit diesem neuen Ansatz können Sie als [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- und/oder [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}-Benutzer Zielgruppendaten direkt aus Ihrem vorhandenen Data Warehouse verbinden, um Adobe Experience Platform-Zielgruppen in einem System anzureichern.
 
-Zusammengestellte Zielgruppenkomposition ermöglicht es Unternehmen, Daten zu erstellen, um sie in verschiedenen Anwendungsfällen besser zu nutzen. Mit diesem neuen Ansatz können Sie als [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"}- und/oder [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}-Benutzer Datensätze direkt aus Ihrem vorhandenen Data Warehouse verbinden, um Adobe Experience Platform-Zielgruppen und -Attribute in einem System anzureichern.
-
-Federated Audience Komposition ist ein Add-on, das einen flexiblen Zugriff und eine erweiterte Reichweite in Enterprise Data Warehouse bietet, um Anwendungsfälle für die Personalisierung zu optimieren.
-Statt Datensätze und/oder Zielgruppen in Adobe Experience Platform zu erfassen, können Sie jetzt die Federated Audience-Komposition verwenden, um das Volumen der aus Ihrem Data Warehouse in Adobe Experience Platform kopierten Daten zu reduzieren, indem Sie bestimmte Zielgruppen und Attribute aus dem Warehouse abrufen, die für bestimmte Anwendungsfälle der Segmentierung oder Aktivierung erforderlich sind, und sicherstellen, dass vertrauliche Daten nicht außerhalb des Warehouse persistiert werden.
+Federated Audience Komposition stellt die wachsenden Anforderungen des Marktes an Unternehmen, die die Flexibilität benötigen, Zielgruppen mit Warehouse-Datensätzen zusammenzustellen. Auf diese Weise können Unternehmen die Datenbewegung reduzieren und gleichzeitig wichtige Zielgruppendaten Marketing-Teams zur Verfügung stellen, um die Anforderungen von Anwendungsfällen zu erfüllen und personalisierte Erlebnisse zu ermöglichen. 
 
 Weitere Informationen zu Funktionen zur Zusammenstellung von Federated Audience finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](get-started.md#faq) .
 
@@ -41,6 +38,8 @@ Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federate
 
 ## Voraussetzungen und Leitlinien {#fac-guardrails}
 
+* Federated Audience Komposition ist mit dem Privacy &amp; Security Shield kompatibel und kann in allen Vertikalen außer in der Gesundheitsbranche verwendet werden. Derzeit kann die Zusammenstellung von Federated Audience nicht für Kunden lizenziert werden, die Gesundheitsdaten erfassen möchten. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+
 * Ihre IP-Adressen müssen der Zulassungsliste hinzugefügt werden, um den Zugriff auf Ihr Data Warehouse zu ermöglichen und Federated Audience Komposition zu verwenden. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Ihre IP-Adressen zur Zulassungsliste hinzuzufügen.
 
-* Berechtigungen, Produktbeschränkungen und Leistungsgarantien sind in der [Adobe Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} aufgeführt.
+* Berechtigungen, Produktbeschränkungen und Leistungsgarantien, die in der [Adobe Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} aufgeführt sind, gelten für dieses Add-on.

@@ -1,20 +1,20 @@
 ---
-title: Adobe Experience Platform - Startseite der Dokumentation zur Federated Audience-Komposition
+title: Startseite der Dokumentation zur Adobe Experience Platform-Federated-Zielgruppenkomposition
 description: Dies ist die Artikelübersicht.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: bea3c176701dd256255f222713d3c10284f97210
+exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '232'
 ht-degree: 5%
 
 ---
-
 
 # Dokumentation zur Komposition von Federated Audience  {#fac-home}
 
 Willkommen bei der Dokumentation zur Zusammenstellung von Adobe Experience Platform-Federated-Zielgruppen.
 
-Federated Audience Komposition bietet Adobe Real-Time CDP- und Adobe Journey Optimizer-Benutzern Flexibilität und Effizienz bei der Datenverwaltung. Mit Federated Audience Komposition können Sie über eine marketerfreundliche Benutzeroberfläche auf Ihr Enterprise Data Warehouse zugreifen, um Zielgruppen zu erstellen und Datensätze in Adobe Experience Platform-Workflows zu nutzen, ohne die zugrunde liegenden Unternehmensdaten zu behalten. Auf diese Weise können Sie Datenbewegungen beim Zugriff auf Data Warehouse für Erlebnisanwendungsfälle reduzieren.
+Die Experience Platform Federated Audience Komposition bietet Adobe Real-Time CDP- und Adobe Journey Optimizer-Benutzern Flexibilität und Effizienz bei der Datenverwaltung. Mit Federated Audience Komposition können Sie über eine marketerfreundliche Benutzeroberfläche auf Ihr Enterprise Data Warehouse zugreifen, um Zielgruppen zu erstellen und Datensätze in Adobe Experience Platform-Workflows zu nutzen, ohne die zugrunde liegenden Unternehmensdaten zu behalten. Auf diese Weise können Sie Datenbewegungen beim Zugriff auf Data Warehouse für Erlebnisanwendungsfälle reduzieren.
 
 >[!BEGINTABS]
 
@@ -74,5 +74,3 @@ Aktivitäten hinzufügen und konfigurieren (Aufspaltung, Anreicherung, Abfrage u
 ## Zusätzliche Ressourcen  {#additional-resources}
 
 [Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
-

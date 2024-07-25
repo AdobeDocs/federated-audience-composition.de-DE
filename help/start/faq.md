@@ -1,18 +1,18 @@
 ---
 title: Häufig gestellte Fragen
-description: Häufig gestellte Fragen
+description: Häufig gestellte Fragen zur Komposition von Adobe Experience Platform-Federated-Zielgruppen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 4%
+source-wordcount: '836'
+ht-degree: 3%
 
 ---
 
 # Häufig gestellte Fragen {#faq}
 
-Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Zusammenstellung von Federated Audience. Globale FAQs sind auch für den Adobe Experience Platform Segmentation Service auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"} verfügbar.
+Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Zusammenstellung von Adobe Experience Platform-Federated-Zielgruppen. Globale FAQs sind auch für den Adobe Experience Platform Segmentation Service auf [dieser Seite](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"} verfügbar.
 
 
 ++ Welche Berechtigungen sind für den Zugriff auf Federated Audience Komposition erforderlich?

@@ -3,9 +3,10 @@ audience: end-user
 title: Erste Schritte mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 17%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 17%
 >title="Details zur föderierten Datenbank"
 >abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]**, um Ihre Konfiguration zu validieren."
 
-Zusammengestellte Zielgruppenzusammensetzung ermöglicht es dem Kunden, Zielgruppen aus Drittanbieter-Datenlagern zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
+Mit der Experience Platform Federated Audience Komposition können Kunden Audiences aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren.
 
 Auf dieser Seite erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren, testen und speichern.
 
@@ -254,4 +255,3 @@ Der Connector unterstützt die folgenden Optionen:
 | Option | Beschreibung |
 |---|---|
 | TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des Campaign Classic-App-Servers wird verwendet. Die Option kann verwendet werden, um den Sitzungsparameter TIMEZONE zu erzwingen. |
-

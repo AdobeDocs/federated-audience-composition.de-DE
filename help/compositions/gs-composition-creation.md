@@ -3,13 +3,13 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 59%
 
 ---
-
 
 # Grundlegende Prinzipien der Kompositionserstellung {#gs-composition-creation}
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## Was ist in einem Aufsatz? {#gs-composition-inside}
 
-Zusammengestellte Zielgruppenkomposition bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen können, indem Sie verschiedene Aktivitäten nutzen (Aufspaltung, Anreicherung usw.).
+Experience Platform Federated Audience Komposition bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen können, indem Sie verschiedene Aktivitäten nutzen (Aufspaltung, Anreicherung usw.).
 
 Das Kompositionsdiagramm ist eine Darstellung dessen, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
