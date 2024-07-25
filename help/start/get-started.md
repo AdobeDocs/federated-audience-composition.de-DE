@@ -3,7 +3,7 @@ title: Erste Schritte mit Federated Audience-Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Erstellen Sie über eine marketingfreundliche Benutzeroberfläche Segmentregeln,
 
 In dieser Version sind zwei Anwendungsfälle verfügbar: Zielgruppenerstellung und Zielgruppenanreicherung.
 
-![Diagramm](assets/fac-use-cases.png){zoomable="yes"}
+![Diagramm](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Die wichtigsten Schritte {#gs-steps}
 
 Mit der Adobe Federated Audience Komposition können Sie Adobe Experience Platform-Zielgruppen direkt aus Ihrer Datenbank erstellen und aktualisieren, ohne dass ein Aufnahmevorgang erforderlich ist.
 
-![Diagramm](assets/steps-diagram.png){zoomable="yes"}
+![Diagramm](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 Wichtigste Schritte:
 
