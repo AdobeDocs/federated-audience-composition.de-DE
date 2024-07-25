@@ -2,13 +2,13 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 3%
 
 ---
-
 
 # Häufig gestellte Fragen {#faq}
 
@@ -71,7 +71,7 @@ Zusammengestellte Zielgruppen Komposition verwaltet keine physische Kopie der Da
 
 Beispiel:
 
-* Im Fall einer Zielgruppensegmentierung wird die Zielgruppe in Ihrem Warehouse erstellt. Sie können die Federated Audience-Komposition für zusätzliche Kompositionsaufgaben und Datenmanipulationen verwenden, bevor Sie die resultierende Zielgruppe und die zugehörigen Attribute über Adobe Experience Platform Audience Portal veröffentlichen. Die Zielgruppendefinition und die zugehörigen Attribute werden an Adobe Experience Platform übergeben.
+* Im Fall einer Zielgruppenerstellung wird die Zielgruppe in Ihrem Warehouse erstellt. Sie können die Federated-Zielgruppenzusammensetzung für zusätzliche Kompositionsaufgaben und Datenmanipulationen verwenden, bevor Sie die resultierende Zielgruppe und die zugehörigen Attribute über Adobe Experience Platform Audience Portal veröffentlichen. Die Zielgruppendefinition und die zugehörigen Attribute werden an Adobe Experience Platform übergeben.
 Beachten Sie, dass die aktuelle Datengültigkeit für extern generierte Zielgruppen 30 Tage beträgt. Diese Datengültigkeit reduziert die Menge an überschüssigen Daten, die in einer Organisation gespeichert sind. Nach Ablauf des Datenablaufzeitraums ist der verknüpfte Datensatz weiterhin im Datensatzbestand sichtbar, Sie können die Zielgruppe jedoch nicht aktivieren, und die Profilanzahl wird als null angezeigt. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * Bei einer Zielgruppen-Anreicherung ist der Ausgangspunkt eine bestehende Adobe Experience Platform-Zielgruppe. Hier können Sie zwei Szenarien betrachten:
@@ -79,7 +79,7 @@ Beachten Sie, dass die aktuelle Datengültigkeit für extern generierte Zielgrup
    1. Optimieren Sie die vorhandene Adobe Experience Platform-Zielgruppe auf der Grundlage zusätzlicher Attribute, die in Ihrem Data Warehouse vorhanden sind. Sie haben beispielsweise eine Zielgruppe von Kunden, die in den letzten zwei Monaten Interesse an einem bestimmten Produkt auf der Website gezeigt haben. Sie möchten diese Zielgruppe nun mithilfe der Federated Audience-Komposition weiter segmentieren und nur Kunden mit einem hohen Bonitätswert einbeziehen. Der Kreditwert wird als vertraulich betrachtet und einzelne Kreditwürdigkeit-Datenpunkte werden nicht aus dem Data Warehouse kopiert.
 +++
 
-+++ Wenn die Anwendungsfälle für Zielgruppensegmentierung und Zielgruppeneranreicherung nicht persistiert werden, wie werden sie dann vorübergehend gespeichert?
++++ Wenn die Anwendungsfälle für die Zielgruppenerstellung und die Zielgruppenanreicherung nicht persistiert werden, wie werden sie dann vorübergehend gespeichert?
 
 Die resultierenden Zielgruppendaten bleiben nicht unbegrenzt in Adobe Experience Platform oder in der Zusammenstellung von Federated Audience erhalten. Er wird nicht länger aufbewahrt als für Ihren Anwendungsfall erforderlich. Die Zielgruppenattribute, die als Teil der Zielgruppen-Payload übermittelt werden, bleiben nur als Teil der Zielgruppendefinition erhalten. Die Dauer der Persistenz basiert für jede Zielgruppe auf TTL. Die Standardeinstellung ist 30 Tage.
 
