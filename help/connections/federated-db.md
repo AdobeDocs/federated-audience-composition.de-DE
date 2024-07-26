@@ -4,10 +4,10 @@ title: Erste Schritte mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 17%
+source-wordcount: '1566'
+ht-degree: 16%
 
 ---
 
@@ -68,7 +68,11 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 
    * **[!UICONTROL Datenbank]**: Name Ihrer Datenbank, falls nicht im DSN angegeben. Kann leer bleiben, wenn im DSN angegeben
 
-   * **[!UICONTROL Arbeitsschema]**: Name Ihres Arbeitsschemas. [Weitere Informationen](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. [Weitere Informationen](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
@@ -188,7 +192,11 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 
    * **[!UICONTROL Datenbank]** (optional): Geben Sie den Namen Ihrer Datenbank ein, falls nicht im DSN angegeben.
 
-   * **[!UICONTROL Arbeitsschema]** (optional): Geben Sie den Namen Ihres Arbeitsschemas ein.
+   * **[!UICONTROL Arbeitsschema]** (optional): Geben Sie den Namen des Datenbankschemas ein, das für Arbeitstabellen verwendet werden soll.
+
+     >[!NOTE]
+     >
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
 
    * **[!UICONTROL Privater Schlüssel]**: Klicken Sie auf das Feld **[!UICONTROL Privater Schlüssel]** , um Ihre .pem-Dateien aus Ihrem Gebietsschema-Ordner auszuwählen.
 
@@ -240,7 +248,11 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 
    * **[!UICONTROL Datenbank]** (optional): Geben Sie den Namen Ihrer Datenbank ein, falls nicht im DSN angegeben.
 
-   * **[!UICONTROL Arbeitsschema]** (optional): Geben Sie den Namen Ihres Arbeitsschemas ein.
+   * **[!UICONTROL Arbeitsschema]** (optional): Geben Sie den Namen des Datenbankschemas ein, das für Arbeitstabellen verwendet werden soll.
+
+     >[!NOTE]
+     >
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
 
    * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
 
