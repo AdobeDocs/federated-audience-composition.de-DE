@@ -4,7 +4,7 @@ title: Anreicherung verwenden
 description: Erfahren Sie, wie Sie die Aktivität Anreicherung verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 57%
@@ -40,7 +40,7 @@ ht-degree: 57%
 
 Mit der Aktivität **Anreicherung** können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet.
 
-Wenn Sie eine Verbindung zum Ziel &quot;Zusammengestellte Daten&quot; konfiguriert haben, können Sie die Aktivität Anreicherung verwenden, um Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anzureichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
+Wenn Sie eine Verbindung zum Ziel Zusammengestellte Zielgruppe erstellen, können Sie die Aktivität Anreicherung verwenden, um Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anzureichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
