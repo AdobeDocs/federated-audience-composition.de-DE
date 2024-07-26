@@ -4,9 +4,9 @@ title: Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Audiences mithilfe des Ziels "Zusammengestellte Zielgruppen erstellen und anreichern können, indem Sie Daten aus Ihren verbundenen Datenbanken verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen a
 
 Dazu müssen Sie eine neue Verbindung in Adobe Experience Platform mit dem Ziel der Adobe Federated Audience Komposition einrichten. Sie können eine Planung verwenden, um eine bestimmte Zielgruppe regelmäßig zu senden, und spezifische einzuschließende Attribute auswählen, z. B. IDs für die Datenabstimmung. Wenn Sie Governance- und Datenschutzrichtlinien auf Ihre Zielgruppe angewendet haben, werden diese beibehalten und nach Aktualisierung der Zielgruppe an das Zielgruppenportal zurückgesendet.
 
-Wenn Sie beispielsweise Kundenkreditbewertungen in Ihrem Data Warehouse speichern und eine Adobe Experience Platform-Zielgruppe haben, die in den letzten zwei Monaten an einem bestimmten Produkt interessiert war, können Sie diese Zielgruppe anhand von Kreditbewertungen mithilfe des Ziels &quot;Zusammengestellte Zielgruppe&quot;verfeinern. Auf diese Weise können Sie die Zielgruppe so filtern, dass nur Profile mit hohen Bonitätsbewertungen einbezogen werden, ohne sensible Kreditwertdaten aus Ihrem Data Warehouse zu übertragen.
+Angenommen, Sie speichern Kaufinformationen in Ihrem Data Warehouse und möchten innerhalb der letzten zwei Monate eine Adobe Experience Platform-Zielgruppe erstellen, die sich an Kunden wendet, die an einem bestimmten Produkt interessiert sind. Mithilfe des Ziels &quot;Zusammengestellte Zielgruppenkomposition&quot;können Sie:
+
+* Verfeinern Sie die Zielgruppe auf Grundlage der Kaufinformationen. Beispielsweise können Sie die Zielgruppe filtern, um Kunden anzusprechen, die nur einen Kauf von mehr als 150$ getätigt haben.
+* Reichern Sie die Zielgruppe mit Feldern zu Käufen an, z. B. Produktname und gekaufte Menge.
 
 Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an die Adobe Federated Audience Komposition sind:
 
