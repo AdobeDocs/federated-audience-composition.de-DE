@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition von Adobe Experience Platform-Federated-Zielgruppen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '816'
 ht-degree: 3%
 
 ---
@@ -87,7 +87,7 @@ Die resultierenden Zielgruppendaten bleiben nicht unbegrenzt in Adobe Experience
 
 +++ Kann ich eine benutzerdefiniert hochgeladene Zielgruppe löschen?
 
-Sie können Zielgruppen, die nicht in der nachgelagerten Aktivierung verwendet werden, direkt in Audience Portal löschen, indem Sie einfach im Aktionsmenü die Option Löschen auswählen. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.
+Nein, in der aktuellen Version können Sie keine benutzerdefinierten hochgeladenen Zielgruppen löschen. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 

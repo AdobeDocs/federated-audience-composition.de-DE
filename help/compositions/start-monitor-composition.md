@@ -3,13 +3,13 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 31%
+source-wordcount: '635'
+ht-degree: 28%
 
 ---
-
 
 # Komposition starten und überwachen {#start-monitor}
 
@@ -28,7 +28,7 @@ Anhand eines visuellen Flusses können Sie den Fortschritt von Zielgruppenprofil
 In Kompositionen werden Daten, die von einer Aktivität zur anderen über Transitionen übertragen werden, in einer temporären Arbeitstabelle gespeichert. Diese Daten können für jede Transition angezeigt werden. Wählen Sie dazu eine Transition aus, um ihre Eigenschaften auf der rechten Seite des Bildschirms zu öffnen.
 
 * Klicken Sie auf **[!UICONTROL Vorschau für Schema]**, um das Schema der Arbeitstabelle anzuzeigen.
-* Klicken Sie auf **[!UICONTROL Ergebnisvorschau]**, um die in der ausgewählten Transition übertragenen Daten zu visualisieren.
+* Klicken Sie auf **[!UICONTROL Ergebnisvorschau]** , um die in der ausgewählten Transition übertragenen Daten zu visualisieren. Diese Option ist nur verfügbar, wenn die Option **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]** aktiviert ist. [Weitere Informationen](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 
