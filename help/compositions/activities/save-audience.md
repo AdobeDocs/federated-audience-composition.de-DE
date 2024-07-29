@@ -4,10 +4,10 @@ title: Verwenden der Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 29%
+source-wordcount: '457'
+ht-degree: 28%
 
 ---
 
@@ -66,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
 
 Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt Zielgruppenzuordnungen ausgewählt wurden. Sie können die Zielgruppe für jedes von Adobe Experience Platform unterstützte Ziel aktivieren.
+Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt Zielgruppenzuordnungen ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer auswählen oder für ein beliebiges Ziel aktivieren, das von Adobe Experience Platform unterstützt wird.
 
 [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 

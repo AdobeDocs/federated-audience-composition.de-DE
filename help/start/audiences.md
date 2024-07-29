@@ -4,9 +4,9 @@ title: Verwenden von Zielgruppen
 description: Erfahren Sie, wie Sie mit Zielgruppen arbeiten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Mit der Experience Platform Federated Audience Komposition können Sie [Kompositionen erstellen](../compositions/gs-compositions.md), wo Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen können, um Zielgruppen zu erstellen und in Adobe Experience Platform Audience Portal zu speichern.
 
-Sie können diese Zielgruppen dann für jedes von Adobe Experience Platform unterstützte Ziel aktivieren.
+Sie können diese Zielgruppe dann in Journey Optimizer als Ziel auswählen oder für ein beliebiges von Adobe Experience Platform unterstütztes Ziel aktivieren.
 
 ## Zielgruppenerstellung mit Kompositionen {#creation}
 
