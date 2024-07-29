@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Erste Schritte mit Federated-Datenbanken
-description: Erfahren Sie, wie Sie Ihre Federated-Datenbanken erstellen und verwalten.
+title: Federated-Datenbanken konfigurieren
+description: Erfahren Sie, wie Sie Ihre Federated-Datenbanken konfigurieren.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 12%
+source-wordcount: '1579'
+ht-degree: 10%
 
 ---
 
-# Erste Schritte mit Federated-Datenbanken {#federated-db}
+# Federated-Datenbanken konfigurieren {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,7 +30,7 @@ ht-degree: 12%
 
 Mit der Experience Platform Federated Audience Komposition können Kunden Audiences aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren.
 
-Auf dieser Seite erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren, testen und speichern.
+Erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank in [dieser Seite](connections.md) erstellen, konfigurieren, testen und speichern. Unten finden Sie die Liste der unterstützten Datenbanken und die detaillierten Einstellungen, die für jede dieser Datenbanken konfiguriert werden müssen.
 
 ## Unterstützte Datenbanken {#supported-db}
 
@@ -68,7 +68,7 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
    * **[!UICONTROL Datenbank]**: Name Ihrer Datenbank, falls nicht im DSN angegeben. Kann leer bleiben, wenn im DSN angegeben
 
-   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. [Weitere Informationen](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation zu Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} .
 
      >[!NOTE]
      >
@@ -116,7 +116,7 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 | Option | Beschreibung |
 |---|---|
-| Authentifizierung | Vom Connector unterstützte Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie unter [SQL doc](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (Beispiel für Verbindungszeichenfolgen n°8) |
+| Authentifizierung | Vom Connector unterstützte Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Microsoft SQL-Dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen n°8). |
 
 
 ## Google BigQuery {#google-big-query}
@@ -137,11 +137,11 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 1. Konfigurieren Sie die Authentifizierungseinstellungen für Google Big Query:
 
-   * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail Ihres **[!UICONTROL Dienstkontos]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+   * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail Ihres **[!UICONTROL Dienstkontos]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projekt]**: Geben Sie den Namen Ihres **[!UICONTROL Projekts]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+   * **[!UICONTROL Projekt]**: Geben Sie den Namen Ihres **[!UICONTROL Projekts]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+   * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Pfad der Schlüsseldatei]**: Laden Sie Ihre Schlüsseldatei auf den Server hoch. Es werden nur .json-Dateien akzeptiert.
 
@@ -214,11 +214,11 @@ Der Connector unterstützt die folgenden Optionen:
 |---|---|
 | workschema | Datenbankschema zur Verwendung mit Arbeitstabellen |
 | warehouse | Name des zu verwendenden Standard-Warehouse. Dadurch wird die Standardeinstellung des Benutzers außer Kraft gesetzt. |
-| TimeZoneName | Standardmäßig leer, was bedeutet, dass der Anwendungsserver der Systemzeitzone verwendet wird. Mit dieser Option können Sie den Sitzungsparameter TIMEZONE erzwingen. <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Sitzungsparameter WEEK_START. Standardmäßig auf 0 gesetzt <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Ergebnisse im Snowflake zu deaktivieren. <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| TimeZoneName | Standardmäßig leer, was bedeutet, dass der Anwendungsserver der Systemzeitzone verwendet wird. Mit dieser Option können Sie den Sitzungsparameter TIMEZONE erzwingen. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Sitzungsparameter WEEK_START. Standardmäßig auf 0 gesetzt <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Ergebnisse im Snowflake zu deaktivieren. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Anzahl der Threads, die für Snowflake-Bulk-Loader verwendet werden sollen, mehr Threads bedeuten eine bessere Leistung bei größeren Bulk-Ladungen. Standardmäßig auf 1 gesetzt Die Zahl kann je nach Anzahl der Maschinenthread angepasst werden. |
-| chunkSize | Bestimmt die Dateigröße des Stapels für Ladegeräte. Standardmäßig auf 128 MB eingestellt. Kann für eine optimale Leistung geändert werden, wenn BulkThreads verwendet werden. Gleichzeitigere aktive Threads bedeuten eine bessere Leistung. <br>Weitere Informationen hierzu finden Sie in der [Snowflake-Dokumentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | Bestimmt die Dateigröße des Stapels für Ladegeräte. Standardmäßig auf 128 MB eingestellt. Kann für eine optimale Leistung geändert werden, wenn BulkThreads verwendet werden. Gleichzeitigere aktive Threads bedeuten eine bessere Leistung. <br>Weitere Informationen hierzu finden Sie in der [Snowflake-Dokumentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Name des vorab bereitgestellten internen Schritts. Sie wird bei Bulk Load verwendet, anstatt eine neue temporäre Phase zu erstellen. |
 
 
