@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Erste Schritte mit föderierten Datenbanken
-description: Erfahren Sie, wie Sie Ihre Federated DataBases erstellen und verwalten.
+title: Erste Schritte mit Federated-Datenbanken
+description: Erfahren Sie, wie Sie Ihre Federated-Datenbanken erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 16%
+source-wordcount: '1560'
+ht-degree: 12%
 
 ---
 
-# Erste Schritte mit föderierten Datenbanken {#federated-db}
+# Erste Schritte mit Federated-Datenbanken {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Föderierte Datenbanken"
->abstract="Bestehende Verbindungen zu föderierten Datenbanken werden auf diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**."
+>title="Federated-Datenbanken"
+>abstract="Bestehende Verbindungen zu Federated-Datenbanken werden in diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Mit Federated Audience Komposition können Sie eine Verbindung zu den folgenden 
 
 ## Amazon Redshift {#amazon-redshift}
 
-Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
 
@@ -82,7 +82,7 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Azure synapse Redshift zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Azure synapse Redshift zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
 
@@ -121,7 +121,7 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 
 ## Google BigQuery {#google-big-query}
 
-Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google Big Query zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google Big Query zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
 
@@ -168,7 +168,7 @@ Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte I
 
 ## Snowflake {#snowflake}
 
-Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
 
@@ -214,7 +214,7 @@ Der Connector unterstützt die folgenden Optionen:
 |---|---|
 | workschema | Datenbankschema zur Verwendung mit Arbeitstabellen |
 | warehouse | Name des zu verwendenden Standard-Warehouse. Dadurch wird die Standardeinstellung des Benutzers außer Kraft gesetzt. |
-| TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des Campaign Classic-App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter TIMEZONE erzwingen. <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Standardmäßig leer, was bedeutet, dass der Anwendungsserver der Systemzeitzone verwendet wird. Mit dieser Option können Sie den Sitzungsparameter TIMEZONE erzwingen. <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Sitzungsparameter WEEK_START. Standardmäßig auf 0 gesetzt <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Ergebnisse im Snowflake zu deaktivieren. <br>Weiterführende Informationen hierzu finden Sie auf dieser [Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Anzahl der Threads, die für Snowflake-Bulk-Loader verwendet werden sollen, mehr Threads bedeuten eine bessere Leistung bei größeren Bulk-Ladungen. Standardmäßig auf 1 gesetzt Die Zahl kann je nach Anzahl der Maschinenthread angepasst werden. |
@@ -224,7 +224,7 @@ Der Connector unterstützt die folgenden Optionen:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Verwenden Sie Federated Databases, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica analytics zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica analytics zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
 
@@ -266,4 +266,4 @@ Der Connector unterstützt die folgenden Optionen:
 
 | Option | Beschreibung |
 |---|---|
-| TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des Campaign Classic-App-Servers wird verwendet. Die Option kann verwendet werden, um den Sitzungsparameter TIMEZONE zu erzwingen. |
+| TimeZoneName | Standardmäßig leer, was bedeutet, dass die Systemzeitzone des Anwendungsservers verwendet wird. Die Option kann verwendet werden, um den Sitzungsparameter TIMEZONE zu erzwingen. |
