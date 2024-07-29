@@ -4,10 +4,10 @@ title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## Was ist ein Datenmodell? {#data-model-start}
 
-Ein Datenmodell ist ein Satz von Schemas, Zielgruppen und Verknüpfungen zwischen ihnen.
+Ein Datenmodell ist ein Satz von Schemas, Zielgruppen und Verknüpfungen zwischen ihnen. Sie wird verwendet, um Zielgruppen mit Daten aus Datenbanken zu verbinden.
 
 Erfahren Sie mehr über [Schemas](../customer/schemas.md#schema-start).
 
 Erfahren Sie mehr über [Zielgruppen](../start/audiences.md).
+
+Unten sehen Sie beispielsweise eine Darstellung eines Datenmodells: die Tabellen mit ihrem Namen und die Verknüpfungen zwischen ihnen.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+In der Zusammenstellung von Federated Audience ist es möglich, viele Datenmodelle zu erstellen.
+
+Die Erstellung erfolgt anhand des Anwendungsbeispiels : Sie wählen die erforderlichen Tabellen aus und verknüpfen sie entsprechend Ihren Anforderungen.
 
 ## Erstellen eines Datenmodells {#data-model-create}
 
