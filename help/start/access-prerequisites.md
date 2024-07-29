@@ -2,9 +2,9 @@
 title: Auf Federated Audience-Komposition zugreifen
 description: Erfahren Sie, wie Sie auf Federated Audience Komposition zugreifen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ Wenn beispielsweise eine neue Sandbox mit dem Namen &quot;fac-test&quot;aktivier
 
 ## IP-Zulassungsauflistung {#ip}
 
-Ihre IP-Adressen müssen der Zulassungsliste hinzugefügt werden, um den Zugriff auf Ihr Data Warehouse zu ermöglichen und Federated Audience Komposition zu verwenden. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Ihre IP-Adressen zur Zulassungsliste hinzuzufügen.
+Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um die IP-Adressen der Federated Audience Komposition-Server zu erhalten, die darauf zugreifen werden, um sicher auf Ihre Datenbanken zugreifen zu können.
+
+Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um Zugriff für Federated Audience Komposition zu gewähren.&quot;
 
 ## Schutzmechanismen und Einschränkungen {#fac-guardrails}
 
