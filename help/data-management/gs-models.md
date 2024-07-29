@@ -4,10 +4,10 @@ title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Gehen Sie wie folgt vor, um Relationen zwischen Tabellen Ihres Datenmodells zu e
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Alle für Ihr Datenmodell definierten Links sind wie folgt aufgeführt:
+   **Kardinalität**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, eine Entität in der Zieltabelle kann jedoch maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
+
+   * N-1: Eine Entität in der Zieltabelle kann mit mehreren Entitäten in der Quelltabelle in Beziehung stehen, aber eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
+
+   * 1-1: Eine Entität in der Quelltabelle kann maximal eine Entität in der Zieltabelle enthalten.
+
+Alle für Ihr Datenmodell definierten Links sind wie folgt aufgeführt:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Anleitungsvideo {#data-model-video}
 
