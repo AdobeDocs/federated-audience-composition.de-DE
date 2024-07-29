@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform Federated Audience-Komposition
 title: Dokumentation zur Experience Platform Federated Audience-Komposition
 breadcrumb-title: Experience Platform Federated Audience-Komposition
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 36%
+source-wordcount: '145'
+ht-degree: 38%
 
 ---
 
@@ -51,5 +51,4 @@ ht-degree: 36%
    + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
    + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
    + [Bearbeitung von Ausdrücken](query/expression-editor.md)
-+ Audit-Protokoll {#audit-trail}
-   + [Überwachen von Datenbanken](admin/audit-trail.md)
++ [Audit-Protokoll](admin/audit-trail.md)

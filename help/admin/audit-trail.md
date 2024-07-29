@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Erste Schritte mit dem Audit-Protokoll
-description: Erfahren Sie, wie Sie Ihre Datenbanken mit dem Audit-Protokoll überwachen.
+title: Audit-Protokoll
+description: Erfahren Sie, wie Aktionen und Ereignisse protokolliert und im Audit-Protokoll aufgerufen werden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 64%
+source-wordcount: '369'
+ht-degree: 56%
 
 ---
 
-# Erste Schritte mit dem Audit-Protokoll {#audit-trail}
+# Audit-Protokoll {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Audit-Protokoll"
->abstract="Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung durchgeführt wurden."
+>abstract="Die Funktion &quot;Audit&quot;-Protokoll enthält eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Ihrer Adobe Experience Platform Federated Audience Komposition-Umgebung in Echtzeit durchgeführt wurden."
 
 Die Funktion &quot;Audit&quot; bietet eine detaillierte und chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung vorgenommen wurden
 
