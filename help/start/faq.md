@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition von Adobe Experience Platform-Federated-Zielgruppen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 3%
+source-wordcount: '834'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,9 @@ Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Zusammenstellun
 
 ++ Welche Berechtigungen sind für den Zugriff auf Federated Audience Komposition erforderlich?
 
-Federated Audience Komposition erfordert Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer Prime- oder Ultimate-Pakete. Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federated Audience. Die einzige Voraussetzung für den Zugriff auf diese Funktion ist der Kauf des Add-ons &quot;Federated Audience Komposition&quot;.
+Federated Audience Komposition erfordert Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer Prime- oder Ultimate-Pakete. Sie müssen außerdem das Add-on für Federated Audience Komposition erworben haben.
+
+Um die Zusammenstellung von Federated Audience-Zielgruppen verwenden zu können, muss jeder Benutzer einem spezifischen Profil hinzugefügt werden, das für jede Sandbox erstellt wurde. Weitere Informationen finden Sie auf der Seite [Auf Federated Audience Komposition zugreifen](access-prerequisites.md) .
 
 +++
 

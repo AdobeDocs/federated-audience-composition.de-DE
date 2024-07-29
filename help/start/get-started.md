@@ -3,7 +3,7 @@ title: Erste Schritte mit der Experience Platform Federated Audience Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Wichtigste Schritte:
 
 4. **Datenverwendung**: Erstellen, orchestrieren und erstellen Sie Zielgruppen. Erfahren Sie, wie Sie in [dieser Seite](../compositions/gs-compositions.md) Zielgruppen erstellen. Sie können vorhandene Zielgruppen auch über das Adobe Experience Platform Audience Portal und die Ziele aktualisieren oder wiederverwenden. Weiterführende Informationen finden Sie auf [dieser Seite](../connections/destinations.md)
 
-
 >[!NOTE]
 >
 >Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## Weitere Informationen {#learn}
 
@@ -74,9 +70,6 @@ Siehe Häufig gestellte Fragen in [dieser Seite](faq.md).
 >id="dc_workflow_settings_execution"
 >title="Ausführungseinstellungen"
 >abstract="In diesem Abschnitt können Sie Einstellungen für die Ausführung des Workflows konfigurieren, z. B. die Anzahl der Tage, in denen der Kompositionsverlauf beibehalten wird."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

@@ -3,9 +3,9 @@ title: Neue Funktionen bei der Experience Platform Federated Audience-Kompositio
 description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ Federated Audience Komposition stellt die wachsenden Anforderungen des Marktes a
 
 Weitere Informationen zu Funktionen zur Zusammenstellung von Federated Audience finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](get-started.md#faq) .
 
-## Zugriff auf Federated Audience Komposition {#fac-access}
+Detaillierte Informationen zu den Voraussetzungen für den Zugriff auf Federated Audience Compositions und die aktuellen Limits finden Sie auf der [Seite](access-prerequisites.md).
 
-Federated Audience Komposition erfordert Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer Prime- oder Ultimate-Pakete.
-
-Es gibt keine spezifischen Berechtigungen für die Zusammenstellung von Federated Audience. Die einzige Voraussetzung für den Zugriff auf diese Funktion ist der Kauf des Add-ons &quot;Federated Audience Komposition&quot;.
-
->[!AVAILABILITY]
->
->Nachdem Sie die Begrüßungs-E-Mail-Benachrichtigung von Adobe erhalten haben, kann es noch einige Stunden dauern, bis die Benutzeroberfläche aktualisiert und Funktionen verfügbar sind.
->
-
-## Voraussetzungen und Leitlinien {#fac-guardrails}
-
-* Federated Audience Komposition ist mit dem Privacy &amp; Security Shield kompatibel und kann in allen Vertikalen außer in der Gesundheitsbranche verwendet werden. Derzeit kann die Zusammenstellung von Federated Audience nicht für Kunden lizenziert werden, die Gesundheitsdaten erfassen möchten. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Ihre IP-Adressen müssen der Zulassungsliste hinzugefügt werden, um den Zugriff auf Ihr Data Warehouse zu ermöglichen und Federated Audience Komposition zu verwenden. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um Ihre IP-Adressen zur Zulassungsliste hinzuzufügen.
-
-* Berechtigungen, Produktbeschränkungen und Leistungsgarantien, die in der [Adobe Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} aufgeführt sind, gelten für dieses Add-on.
