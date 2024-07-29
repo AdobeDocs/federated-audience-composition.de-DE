@@ -4,9 +4,9 @@ title: Verwenden von Zielgruppen
 description: Erfahren Sie, wie Sie mit Zielgruppen arbeiten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ Die mit der Adobe Federated Data Komposition erstellte Zielgruppe umfasst alle i
 
 Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht.
 
-Sie können diese Zielgruppen für jedes von Adobe Experience Platform unterstützte Ziel aktivieren. [Erfahren Sie, wie Sie mit Zielen arbeiten](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+Sie können diese Zielgruppen für jedes von Adobe Experience Platform unterstützte Ziel aktivieren. Erfahren Sie, wie Sie mit Zielen in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"} arbeiten.
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ Auf der Registerkarte **[!UICONTROL Durchsuchen]** werden alle in Adobe Experien
 
 ![](assets/audiences-list.png)
 
-Weitere Informationen zum Arbeiten mit Zielgruppen in Adobe Experience Platform finden Sie in der [Audience Portal-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal) .
+Weitere Informationen zum Arbeiten mit Zielgruppen in Adobe Experience Platform finden Sie in der [Audience Portal-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} .
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

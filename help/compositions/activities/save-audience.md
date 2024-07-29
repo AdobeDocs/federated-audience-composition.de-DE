@@ -4,10 +4,10 @@ title: Verwenden der Aktivität Audience-Speicherung
 description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 28%
+source-wordcount: '462'
+ht-degree: 27%
 
 ---
 
@@ -68,7 +68,7 @@ Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe 
 
 Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt Zielgruppenzuordnungen ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer auswählen oder für ein beliebiges Ziel aktivieren, das von Adobe Experience Platform unterstützt wird.
 
-[Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Weitere Informationen finden Sie in der Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

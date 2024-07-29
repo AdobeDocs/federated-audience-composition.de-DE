@@ -4,7 +4,7 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 >title="Kompositionseigenschaften"
 >abstract="Wählen Sie in diesem Bildschirm die Vorlage aus, die zum Erstellen der Komposition verwendet werden soll, und geben Sie einen Titel an. Erweitern Sie den Abschnitt ZUSÄTZLICHE OPTIONEN, um weitere Einstellungen wie den internen Namen der Komposition, ihren Ordner, die Zeitzone und die Gruppe der Verantwortlichen zu konfigurieren. Es wird dringend empfohlen, eine Gruppe von Verantwortlichen auszuwählen, damit Benutzerinnen und Benutzer benachrichtigt werden, wenn Fehler auftreten."
 
-## Was ist in einem Aufsatz? {#gs-composition-inside}
+## Was ist in einer Komposition? {#gs-composition-inside}
 
 Experience Platform Federated Audience Komposition bietet eine visuelle Arbeitsfläche, mit der Sie Zielgruppen erstellen können, indem Sie verschiedene Aktivitäten nutzen (Aufspaltung, Anreicherung usw.).
 

@@ -4,10 +4,10 @@ title: Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Audiences mithilfe des Ziels "Zusammengestellte Zielgruppen erstellen und anreichern können, indem Sie Daten aus Ihren verbundenen Datenbanken verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 7%
+source-wordcount: '573'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-configure.png)
 
-   Im Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, mit denen Sie Benachrichtigungen zum Status des Datenflusses an Ihr Ziel erhalten. Weitere Informationen zu Warnhinweisen finden Sie im Handbuch zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
+   Im Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, mit denen Sie Benachrichtigungen zum Status des Datenflusses an Ihr Ziel erhalten. Weitere Informationen zu Warnungen finden Sie in der Adobe Experience Platform-Dokumentation zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsaktionen]** können Sie Ihre Data Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 
@@ -57,11 +57,12 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    >[!NOTE]
    >
-   >Detaillierte Informationen zum Konfigurieren des Zeitplans und der Dateinamen finden Sie in der Dokumentation zu Adobe Experience Platform:
-   >* [Zielgruppenexport planen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling)
-   >* [Dateinamen konfigurieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names)
+   >Ausführliche Informationen zum Konfigurieren des Zeitplans und der Dateinamen finden Sie in den folgenden Abschnitten der Adobe Experience Platform-Dokumentation:
+   >
+   >* [Audience-Export planen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Dateinamen konfigurieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Wählen Sie im Schritt **[!UICONTROL Zuordnung]** aus, welche Attribute und Identitätsfelder für Ihre Zielgruppe/n exportiert werden sollen. Weitere Informationen finden Sie im Schritt [Zuordnen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping) in der Adobe Experience Platform-Dokumentation.
+1. Wählen Sie im Schritt **[!UICONTROL Zuordnung]** aus, welche Attribute und Identitätsfelder für Ihre Zielgruppe/n exportiert werden sollen. Weitere Informationen finden Sie im Schritt [Zuordnen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Adobe Experience Platform-Dokumentation.
 
    ![](assets/destination-attributes.png)
 

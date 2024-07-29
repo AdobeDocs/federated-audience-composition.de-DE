@@ -1,19 +1,17 @@
 ---
-title: Auf Federated Audience-Komposition zugreifen
-description: Erfahren Sie, wie Sie auf Federated Audience Komposition zugreifen.
+title: Voraussetzungen und Limits für die Komposition von Federated-Zielgruppen
+description: Erfahren Sie mehr über Voraussetzungen, Berechtigungen und Limits für die Zusammenstellung von Federated Audience
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 2%
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
-# Auf Federated Audience-Komposition zugreifen {#fac-access}
+# Voraussetzungen und Leitlinien {#fac-access}
 
-## Pakete und Add-On {#package}
-
-Federated Audience Komposition erfordert Adobe Real-time Customer Data Platform- und Adobe Journey Optimizer Prime- oder Ultimate-Pakete. Um auf diese Funktion zugreifen zu können, müssen Sie das Add-on Federated Audience Komposition erworben haben.
+Zusammengestellte Zielgruppenkomposition erfordert Adobe Real-time Customer Data Platform- und/oder Adobe Journey Optimizer- **Prime** - oder **Ultimate** -Packages. Um auf diese Funktion zugreifen zu können, müssen Sie das Add-on Federated Audience Komposition erworben haben.
 
 >[!AVAILABILITY]
 >

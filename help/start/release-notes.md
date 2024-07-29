@@ -3,7 +3,7 @@ title: Neue Funktionen bei der Experience Platform Federated Audience-Kompositio
 description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Federated Audience Komposition ist eine Zusatzfunktion, mit der Unternehmen flex
 
 Federated Audience Komposition stellt die wachsenden Anforderungen des Marktes an Unternehmen, die die Flexibilität benötigen, Zielgruppen mit Warehouse-Datensätzen zusammenzustellen. Auf diese Weise können Unternehmen die Datenbewegung reduzieren und gleichzeitig wichtige Zielgruppendaten Marketing-Teams zur Verfügung stellen, um die Anforderungen von Anwendungsfällen zu erfüllen und personalisierte Erlebnisse zu ermöglichen. 
 
-Weitere Informationen zu Funktionen zur Zusammenstellung von Federated Audience finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](get-started.md#faq) .
+Weitere Informationen zu Funktionen zur Zusammenstellung von Federated Audience finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](faq.md) .
 
 Detaillierte Informationen zu den Voraussetzungen für den Zugriff auf Federated Audience Compositions und die aktuellen Limits finden Sie auf der [Seite](access-prerequisites.md).
 

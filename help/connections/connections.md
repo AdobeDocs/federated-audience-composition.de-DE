@@ -3,42 +3,50 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit Federated Data Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit Federated Databases erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
+exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 5%
+source-wordcount: '220'
+ht-degree: 4%
 
 ---
 
 # Verbindungen erstellen {#connections-fdb}
 
-Das direkte Arbeiten mit einer Federated-Datenbank in AEP setzt voraus, dass eine Verbindung mit ihr hergestellt wird.
+Mit der Experience Platform Federated Audience Komposition können Kunden Audiences aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren.
 
-Um eine Verbindung mit Ihrer Datenbank einzurichten, wechseln Sie zum Abschnitt **[!UICONTROL FEDERATED DATA]** und klicken Sie im Link **[!UICONTROL Federated DataBases]** auf die Schaltfläche **[!UICONTROL Federated Database hinzufügen]** .
+Um mit Ihrer verbundenen Datenbank und Adobe Experience Platform zu arbeiten, müssen Sie zunächst eine Verbindung herstellen. Diese Verbindung wird in einer dedizierten Benutzeroberfläche eingerichtet, die in der Benutzeroberfläche von Adobe Experience Platform verfügbar ist, wie auf dieser Seite beschrieben.
 
-![](assets/connections_list.png){zoomable="yes"}
+Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
 
-Sie greifen auf das Fenster für die Verbindung **[!UICONTROL Eigenschaften]** zu, das den Namen und den Typ Ihrer Datenbank enthält.
+1. Navigieren Sie in der linken Leiste zum Abschnitt **[!UICONTROL FEDERATED DATA]** .
 
-![](assets/connections_name.png){zoomable="yes"}
+1. Klicken Sie im Link **[!UICONTROL Federated DataBases]** auf die Schaltfläche **[!UICONTROL Federated Database hinzufügen]** .
 
-Wenn Sie den Typ auswählen, haben Sie Zugriff auf andere Eigenschaften, die ausgefüllt werden sollen. [Erfahren Sie hier mehr über die unterstützten Datenbanken](federated-db.md).
+   ![](assets/connections_list.png){zoomable="yes"}
 
-![](assets/connections_details.png){zoomable="yes"}
+1. Legen Sie die Verbindung **[!UICONTROL Eigenschaften]** mit dem Namen und dem Typ Ihrer Datenbank fest.
 
-Je nach Typ Ihrer Datenbank finden Sie in den Links unter den Informationen, die Sie zum Einrichten der Verbindung benötigen:
+   ![](assets/connections_name.png){zoomable="yes"}
 
-* [Amazon Redshift](federated-db.md#amazon-redshift)
-* [Azure synapse](federated-db.md#azure-synapse-redshift)
-* [Google BigQuery](federated-db.md#google-big-query)
-* [Snowflake](federated-db.md#snowflake)
-* [Vertica Analytics](federated-db.md#vertica-analytics)
+   Wenn Sie den Typ auswählen, haben Sie Zugriff auf andere Eigenschaften, die ausgefüllt werden sollen. Weitere Informationen zu den unterstützten Datenbanken finden Sie auf [dieser Seite](federated-db.md).
 
-Nachdem Sie die Details ausgefüllt haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** .
-Schließen Sie die Erstellung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken.
+   ![](assets/connections_details.png){zoomable="yes"}
 
-![](assets/connections_testdeploy.png){zoomable="yes"}
+   Die Konfigurationseinstellungen hängen vom Typ Ihrer Datenbank ab. Klicken Sie auf die folgenden Links, um auf Details zuzugreifen, die Sie zum Einrichten der Verbindung benötigen:
 
-Sie erhalten einen Überblick über Ihre Federated Database-Verbindung wie folgt:
+   * [Amazon Redshift](federated-db.md#amazon-redshift)
+   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Google BigQuery](federated-db.md#google-big-query)
+   * [Snowflake](federated-db.md#snowflake)
+   * [Vertica Analytics](federated-db.md#vertica-analytics)
 
-![](assets/connections_overview.png){zoomable="yes"}
+1. Nachdem Sie die Details ausgefüllt haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** .
+
+1. Schließen Sie die Erstellung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken.
+
+   ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+   Eine Übersicht über Ihre Federated Database-Verbindung finden Sie im Folgenden:
+
+   ![](assets/connections_overview.png){zoomable="yes"}

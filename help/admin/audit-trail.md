@@ -3,10 +3,11 @@ audience: end-user
 title: Erste Schritte mit dem Audit-Protokoll
 description: Erfahren Sie, wie Sie Ihre Datenbanken mit dem Audit-Protokoll überwachen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 69%
+source-wordcount: '365'
+ht-degree: 64%
 
 ---
 
@@ -52,7 +53,7 @@ So greifen auf das **[!UICONTROL Audit-Protokoll]** Ihrer Instanz zu:
 
 1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Audit-Protokoll]** aus.
 
-1. Das Fenster **[!UICONTROL Audit-Protokoll]** wird mit der Liste Ihrer Entitäten geöffnet. Die Adobe Campaign Web-Benutzeroberfläche protokolliert die Aktionen zum Erstellen, Bearbeiten und Löschen von Workflows, Optionen, Sendungen oder Schemata.
+1. Das Fenster **[!UICONTROL Audit-Protokoll]** wird mit der Liste Ihrer Entitäten geöffnet. Federated Audience Komposition überprüft die Aktionen zum Erstellen, Bearbeiten und Löschen von Workflows, Optionen, Sendungen und Schemata.
 
    ![](assets/audit_trail.png)
 

@@ -4,7 +4,7 @@ title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit Datenmodellen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="Geben Sie den Titel des Datenmodells ein."
 
 
-## Was ist ein Datenmodell? {#data-model-start}
+## Was ist ein Datenmodell {#data-model-start}
 
 Ein Datenmodell ist ein Satz von Schemas, Zielgruppen und Verknüpfungen zwischen ihnen. Sie wird verwendet, um Zielgruppen mit Daten aus Datenbanken zu verbinden.
 

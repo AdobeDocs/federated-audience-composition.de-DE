@@ -3,9 +3,9 @@ title: Erste Schritte mit der Experience Platform Federated Audience Komposition
 description: Erfahren Sie, was unter Adobe Federated Audience Komposition zu verstehen ist und wie Sie sie in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '722'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,11 @@ Wichtigste Schritte:
 
 <!-- Workflow + Workflow activities-->
 
-Siehe Häufig gestellte Fragen in [dieser Seite](faq.md).
+
+Erfahren Sie auf [dieser Seite](access-prerequisites.md), wie Sie auf Federated Audience Komposition, Limits und Einschränkungen zugreifen können.
+
+Siehe auch häufig gestellte Fragen in [dieser Seite](faq.md).
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
