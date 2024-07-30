@@ -2,10 +2,10 @@
 title: Voraussetzungen und Limits für die Komposition von Federated-Zielgruppen
 description: Erfahren Sie mehr über Voraussetzungen, Berechtigungen und Limits für die Zusammenstellung von Federated Audience
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
+source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 13%
 
 ---
 
@@ -15,7 +15,7 @@ Zusammengestellte Zielgruppenkomposition erfordert Adobe Real-time Customer Data
 
 >[!AVAILABILITY]
 >
->Nachdem Sie die Begrüßungs-E-Mail-Benachrichtigung von Adobe erhalten haben, kann es noch einige Stunden dauern, bis die Benutzeroberfläche aktualisiert und Funktionen verfügbar sind.
+>Nachdem Sie die Begrüßungs-E-Mail von Adobe erhalten haben, kann es noch einige Stunden dauern, bis die Benutzeroberfläche aktualisiert ist und Ihnen die Funktionen zur Verfügung stehen.
 
 ## Berechtigungen {#permissions}
 
@@ -31,6 +31,9 @@ Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um Zugriff für die
 
 ## Schutzmechanismen und Einschränkungen {#fac-guardrails}
 
-* Federated Audience Komposition ist mit dem Privacy &amp; Security Shield kompatibel und kann in allen Vertikalen außer in der Gesundheitsbranche verwendet werden. Derzeit kann die Zusammenstellung von Federated Audience nicht für Kunden lizenziert werden, die Gesundheitsdaten erfassen möchten. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
+* Die Verwendung von Zielgruppen und Attributen aus Federated Audience Komposition ist derzeit bei Health Care Shield und Privacy and Security Shield nicht verfügbar.
 
-* Berechtigungen, Produktbeschränkungen und Leistungsgarantien, die in der [Adobe Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"} aufgeführt sind, gelten für dieses Add-on.
+<!--
+* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
+
+* Berechtigungen, Produktbeschränkungen und Leistungsgarantien, die in der [Adobe Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} aufgeführt sind, gelten für dieses Add-on.
