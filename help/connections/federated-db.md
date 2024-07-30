@@ -4,9 +4,9 @@ title: Federated-Datenbanken konfigurieren
 description: Erfahren Sie, wie Sie Ihre Federated-Datenbanken konfigurieren.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1621'
 ht-degree: 10%
 
 ---
@@ -73,6 +73,8 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
      >[!NOTE]
      >
      >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >
+     >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
@@ -197,6 +199,8 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
      >[!NOTE]
      >
      >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >
+     >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
 
    * **[!UICONTROL Privater Schlüssel]**: Klicken Sie auf das Feld **[!UICONTROL Privater Schlüssel]** , um Ihre .pem-Dateien aus Ihrem Gebietsschema-Ordner auszuwählen.
 
@@ -253,6 +257,8 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
      >[!NOTE]
      >
      >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >
+     >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
 
    * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
 
