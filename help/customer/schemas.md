@@ -4,10 +4,10 @@ title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 44%
+source-wordcount: '451'
+ht-degree: 43%
 
 ---
 
@@ -48,6 +48,11 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 * Legen Sie einen Anzeigenamen und eine Beschreibung fest, damit Benutzende dies einfacher nachvollziehen können.
 * Definieren Sie die Sichtbarkeit jedes Felds entsprechend seiner tatsächlichen Nutzung.
 * Wählen Sie den Primärschlüssel, um die Schemata untereinander zu verknüpfen, wie es im [Datenmodell](../data-management/gs-models.md#data-model-start) erforderlich ist.
+
+>[!CAUTION]
+>
+>Wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden, müssen Sie unterschiedliche Arbeitsschemata verwenden.
+>
 
 ## Erstellen eines Schemas {#schema-create}
 
