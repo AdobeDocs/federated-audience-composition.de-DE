@@ -4,15 +4,14 @@ title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # Erste Schritte mit Schemata {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="Quelldatenbank zum Filtern auswählen"
 >abstract="Sie können die Schemata nach ihrer Quelle filtern. Wählen Sie eine oder mehrere föderierte Datenbanken aus, um deren Schemata anzuzeigen."
 
-
 ## Was ist ein Schema {#schema-start}
 
 Ein Schema ist eine Darstellung einer Tabelle Ihrer Datenbank. Es ist ein Objekt innerhalb der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
@@ -50,6 +48,10 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 * Geben Sie ihm einen Anzeigenamen und eine Beschreibung, um das Verständnis für den Benutzer zu vereinfachen
 * Definieren Sie die Sichtbarkeit jedes Felds entsprechend seiner tatsächlichen Nutzung.
 * Wählen Sie den Primärschlüssel aus, um Schemas wie im [Datenmodell](../data-management/gs-models.md#data-model-start) benötigt zwischen ihnen zu verknüpfen.
+
+>[!IMPORTANT]
+>
+>Es wird empfohlen, für jede Sandbox unterschiedliche Federated-Datenbankschemata zu verwenden.
 
 ## Erstellen eines Schemas {#schema-create}
 
