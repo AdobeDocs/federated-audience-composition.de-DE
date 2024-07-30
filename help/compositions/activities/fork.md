@@ -1,29 +1,29 @@
 ---
 audience: end-user
-title: Verzweigung verwenden
-description: Erfahren Sie, wie Sie die Aktivität Verzweigung verwenden
+title: Verwenden der Aktivität „Verzweigung“
+description: Erfahren Sie, wie Sie die Aktivität „Verzweigung“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
-
 
 # Verzweigung {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
 >title="Aktivität „Verzweigung“"
->abstract="Eine **Verzweigung** erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten."
+>abstract="Die Aktivität **Verzweigung** ermöglicht es Ihnen ausgehende Transitionen zu erstellen, um mehrere Aktivitäten parallel zu starten."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Transitionen von Verzweigungsaktivitäten"
 >abstract="Standardmäßig werden zwei Transitionen mit einer **Verzweigungsaktivität** erstellt. Klicken Sie auf die Schaltfläche **Transition hinzufügen**, um eine zusätzliche ausgehende Transition zu definieren, und geben Sie deren Titel ein."
 
-Eine **Verzweigung** erzeugt ausgehende Transitionen, um mehrere Workflow-Aktivitäten parallel zu starten.
+Die Aktivität **Verzweigung** ermöglicht es Ihnen ausgehende Transitionen zu erstellen, um mehrere Aktivitäten parallel zu starten.
 
 ## Konfigurieren der Verzweigungsaktivität {#fork-configuration}
 
