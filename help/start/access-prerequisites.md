@@ -2,7 +2,7 @@
 title: Voraussetzungen und Limits für die Komposition von Federated-Zielgruppen
 description: Erfahren Sie mehr über Voraussetzungen, Berechtigungen und Limits für die Zusammenstellung von Federated Audience
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Wenn beispielsweise eine neue Sandbox mit dem Namen &quot;fac-test&quot;aktivier
 
 Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um die IP-Adressen der Federated Audience Komposition-Server zu erhalten, die darauf zugreifen werden, um sicher auf Ihre Datenbanken zugreifen zu können.
 
-Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um Zugriff für Federated Audience Komposition zu gewähren.&quot;
+Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um Zugriff für die Zusammenstellung von Federated Audience zu gewähren.
 
 ## Schutzmechanismen und Einschränkungen {#fac-guardrails}
 
