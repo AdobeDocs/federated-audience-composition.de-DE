@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Erstellen und Verwalten von Verbindungen mit Federated Data Datenbanken
-description: Erfahren Sie, wie Sie Verbindungen mit Federated Databases erstellen und verwalten.
+title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
+description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 4%
+ht-degree: 19%
 
 ---
 
-# Verbindungen erstellen {#connections-fdb}
+# Erstellen von Verbindungen {#connections-fdb}
 
 Mit der Experience Platform Federated Audience Komposition können Kunden Audiences aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren.
 
@@ -36,14 +36,14 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
    Die Konfigurationseinstellungen hängen vom Typ Ihrer Datenbank ab. Klicken Sie auf die folgenden Links, um auf Details zuzugreifen, die Sie zum Einrichten der Verbindung benötigen:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
-   * [Azure synapse](federated-db.md#azure-synapse-redshift)
+   * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
 
 1. Nachdem Sie die Details ausgefüllt haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** .
 
-1. Schließen Sie die Erstellung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken.
+1. Schließen Sie die Einrichtung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken.
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 

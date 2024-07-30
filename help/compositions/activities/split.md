@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Verwenden der Aufspaltung
-description: Erfahren Sie, wie Sie die Aktivität Aufspaltung verwenden
+title: Verwenden der Aktivität „Aufspaltung“
+description: Erfahren Sie, wie Sie die Aktivität „Aufspaltung“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 84%
+ht-degree: 95%
 
 ---
 
-# Aufspalten {#split}
+# Aufspaltung {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
->title="Split-Aktivität"
+>title="Aktivität „Aufspaltung“"
 >abstract="Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren, z. B. Filterregeln oder Populationsgröße."
 
 Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren, z. B. Filterregeln oder Populationsgröße.
@@ -72,9 +72,9 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    >
    >Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Wenn beispielsweise die erste Teilmenge 70 % der Anfangspopulation abruft, werden die Auswahlkriterien der nächsten hinzugefügten Teilmenge nur auf die restlichen 30 % angewendet usw.
    >
-   >Bevor Sie mit der Komposition beginnen, stellen Sie sicher, dass Sie die Teilmengen in der Reihenfolge sortiert haben, die Ihren Anforderungen entspricht. Verwenden Sie dazu die Pfeilschaltflächen, um die Position einer Teilmenge zu ändern.
+   >Vergewissern Sie sich vor dem Start Ihrer Komposition, dass Sie die Teilmengen in der für Sie passenden Reihenfolge angeordnet haben. Verwenden Sie dazu die Pfeilschaltflächen, um die Position einer Teilmenge zu ändern.
 
-1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Beschriftung jeder Teilmenge zu ändern, um sie auf der Arbeitsfläche der Komposition leicht zu identifizieren.
+1. Sobald die Teilmengen hinzugefügt wurden, zeigt die Aktivität für jede Teilmenge eine ausgehende Transition. Es wird dringend empfohlen, die Label jeder Teilmenge zu ändern, um sie in der Arbeitsfläche der Komposition leicht identifizieren zu können.
 
    ![](../assets/split.png)
 
@@ -88,7 +88,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
 
-   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**. Wenn kein Profil mit der Teilmenge übereinstimmt, wird die Komposition nicht zur nächsten Aktivität übergehen.
+   1. Um eine Transition zu deaktivieren, wenn die Eingangspopulation leer ist, aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**. Wenn kein Profil mit der Teilmenge übereinstimmt, geht die Komposition nicht zur nächsten Aktivität über.
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
    * Wenn diese Option deaktiviert ist, stellt die Aufspaltung sicher, dass ein Profil nur in einer Ergebnismenge enthalten ist, auch wenn es den Kriterien anderer Teilmengen entspricht. Das Profil ist in der ersten Teilmenge enthalten, dessen Kriterien es entspricht.
    * Wenn die Option aktiviert ist, können die Empfänger in mehreren Teilmengen gefunden werden, wenn sie ihren Filterkriterien entsprechen. Es empfiehlt sich, ein ausschließliches Kriterium zu verwenden.
 
-Der Aktivität ist jetzt konfiguriert. Bei der Ausführung wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der sie der Aktivität hinzugefügt wurde.
+Der Aktivität ist jetzt konfiguriert. Bei der Ausführung wird die Population in die verschiedenen Teilmengen segmentiert, und zwar in der Reihenfolge, in der sie der Aktivität hinzugefügt wurden.
 
 <!--
 ## Example{#split-example}

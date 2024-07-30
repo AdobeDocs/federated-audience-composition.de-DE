@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Aktivität "Deduplizierung"
-description: Erfahren Sie, wie Sie die Aktivität Deduplizierung verwenden.
+title: Verwenden der Aktivität „Deduplizierung“
+description: Erfahren Sie, wie Sie die Aktivität „Deduplizierung“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 74%
+ht-degree: 85%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 74%
 >title="Deduplizierungseinstellungen"
 >abstract="Um Dubletten in den eingehenden Daten zu löschen, definieren Sie die Deduplizierungsmethode in den folgenden Feldern. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der von den Dubletten ausgenommen sein soll, zufällig ausgewählt."
 
-Die Aktivität **Deduplizierung** ermöglicht das Löschen von Dubletten in Ergebnissen aus eingehenden Aktivitäten, beispielsweise duplizierten Profilen aus der Empfängerliste. Die **Deduplizierungsaktivität** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die die Verwendung von Zielgruppendatum zulassen.
+Mithilfe der Aktivität **Deduplizierung** lassen sich Duplikate in Ergebnissen eingehender Aktivitäten löschen, z. B. duplizierte Profile in der Empfängerliste. Die **Deduplizierungsaktivität** wird im Allgemeinen im Anschluss an Zielgruppenbestimmungsaktivitäten und vor Aktivitäten verwendet, die die Verwendung von Zielgruppendatum zulassen.
 
 ## Konfigurieren der Deduplizierungsaktivität{#deduplication-configuration}
 
 Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfigurieren:
 
-1. Fügen Sie Ihrer Komposition die Aktivität **Deduplizierung** hinzu.
+1. Fügen Sie Ihrer Komposition die Aktivität **Deduplizierung** hinzu.
 
-1. Wenn die Aktivität über mehrere eingehende Transitionen verfügt, wählen Sie die Transition für die Deduplizierung aus der Dropdownliste **[!UICONTROL Primärer Satz]** aus.
+1. Wenn die Aktivität über mehrere eingehende Transitionen verfügt, wählen Sie die Transition für die Deduplizierung aus der Dropdown-Liste **[!UICONTROL Hauptmenge]** aus.
 
 1. Klicken Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Dubletten]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um die Felder anzugeben, für die die Identifizierung von Dubletten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen.
 
@@ -62,7 +62,7 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
    * **[!UICONTROL Wert nicht leer]**: Behält Einträge bei, für die der Ausdruck nicht leer ist.
    * **[!UICONTROL Gemäß einer Werteliste]**: Definiert eine Priorität nach Wert für ein oder mehrere Felder. Klicken Sie zur Bestimmung dieser Werte auf **[!UICONTROL Attribute]**, um ein Feld auszuwählen, oder erstellen Sie einen Ausdruck und fügen Sie dann den oder die Werte der entsprechenden Tabelle hinzu. Verwenden Sie zum Definieren eines neues Felds die Schaltfläche **[!UICONTROL Hinzufügen]** oberhalb der Werteliste.
 
-1. Markieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie auch die restliche Population im weiteren Verlauf des Workflows verwenden möchten. Das Komplement enthält in diesem Fall alle Dubletten, und es wird dann eine zusätzliche Transition zur Aktivität hinzugefügt.
+1. Aktivieren Sie die Option **[!UICONTROL Komplement erzeugen]**, wenn Sie die verbleibende Population verwenden möchten. Das Komplement besteht aus allen Duplikaten. Der Aktivität wird dann eine zusätzliche Transition hinzugefügt.
 
 <!--
 ## Example{#deduplication-example}

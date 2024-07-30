@@ -1,57 +1,57 @@
 ---
 audience: end-user
-title: Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten
-description: Erfahren Sie, wie Sie Adobe Experience Platform-Audiences mithilfe des Ziels "Zusammengestellte Zielgruppen erstellen und anreichern können, indem Sie Daten aus Ihren verbundenen Datenbanken verwenden.
+title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
+description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 4%
+ht-degree: 75%
 
 ---
 
-# Anreicherung von Adobe Experience Platform-Zielgruppen mit externen Daten {#connect-aep-fac}
+# Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Erstellen eines Ziels"
 >abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
 
-Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen aus Audience Portal in Ihre externen Datenbanken mithilfe des Ziels **Adobe Federated Audience Komposition**. Mit dieser Integration können Sie vorhandene Zielgruppen in Kompositionen nutzen und sie mithilfe von Daten aus Ihren externen Datenbanken anreichern oder verfeinern, um neue Zielgruppen zu erstellen.
+Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen aus dem Zielgruppenportal mit Ihren externen Datenbanken unter Verwendung des Ziels **Komposition föderierter Zielgruppen**. Mit dieser Integration können Sie vorhandene Zielgruppen in Kompositionen nutzen und sie mit Daten aus Ihren externen Datenbanken anreichern oder verfeinern, um neue Zielgruppen zu erstellen.
 
-Dazu müssen Sie eine neue Verbindung in Adobe Experience Platform mit dem Ziel der Adobe Federated Audience Komposition einrichten. Sie können eine Planung verwenden, um eine bestimmte Zielgruppe regelmäßig zu senden, und spezifische einzuschließende Attribute auswählen, z. B. IDs für die Datenabstimmung. Wenn Sie Governance- und Datenschutzrichtlinien auf Ihre Zielgruppe angewendet haben, werden diese beibehalten und nach Aktualisierung der Zielgruppe an das Zielgruppenportal zurückgesendet.
+Dazu müssen Sie in Adobe Experience Platform eine neue Verbindung zum Ziel „Komposition föderierter Zielgruppen“ einrichten. Sie können eine Planung verwenden, um eine bestimmte Zielgruppe regelmäßig zu senden, und bestimmte einzuschließende Attribute auswählen, z. B. IDs für die Datenabstimmung. Wenn Sie Governance- und Datenschutzrichtlinien auf Ihre Zielgruppe angewendet haben, werden diese beibehalten und nach Aktualisierung der Zielgruppe an das Zielgruppenportal zurückgesendet.
 
 Angenommen, Sie speichern Kaufinformationen in Ihrem Data Warehouse und möchten innerhalb der letzten zwei Monate eine Adobe Experience Platform-Zielgruppe erstellen, die sich an Kunden wendet, die an einem bestimmten Produkt interessiert sind. Mithilfe des Ziels &quot;Zusammengestellte Zielgruppenkomposition&quot;können Sie:
 
 * Verfeinern Sie die Zielgruppe auf Grundlage der Kaufinformationen. Beispielsweise können Sie die Zielgruppe filtern, um Kunden anzusprechen, die nur einen Kauf von mehr als 150$ getätigt haben.
 * Reichern Sie die Zielgruppe mit Feldern zu Käufen an, z. B. Produktname und gekaufte Menge.
 
-Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an die Adobe Federated Audience Komposition sind:
+Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an die Komposition föderierter Zielgruppen von Adobe lauten wie folgt:
 
-1. Rufen Sie den Adobe Experience Platform-Zielkatalog auf und wählen Sie das Ziel Zusammengestellte Zielgruppen-Komposition aus.
+1. Rufen Sie den Adobe Experience Platform-Zielkatalog auf und wählen Sie das Ziel „Komposition föderierter Zielgruppen“ aus.
 
-   Wählen Sie im rechten Bereich **[!UICONTROL Neues Ziel konfigurieren]** aus.
+   Wählen Sie im rechten Bereich die Option **[!UICONTROL Neues Ziel konfigurieren]** aus.
 
    ![](assets/destination-new.png)
 
-1. Geben Sie einen Namen für die neue Verbindung ein, wählen Sie den zu verwendenden **[!UICONTROL Verbindungstyp]** und die zu verwendende **[!UICONTROL Federated database]** aus und klicken Sie auf **[!UICONTROL Next]**.
+1. Geben Sie einen Namen für die neue Verbindung ein, wählen Sie den zu verwendenden **[!UICONTROL Verbindungstyp]** und die für die Verbindung gewünschte **[!UICONTROL föderierte Datenbank]** aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/destination-configure.png)
 
-   Im Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, mit denen Sie Benachrichtigungen zum Status des Datenflusses an Ihr Ziel erhalten. Weitere Informationen zu Warnungen finden Sie in der Adobe Experience Platform-Dokumentation zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Über den Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten. Weitere Informationen zu Warnungen finden Sie in der Adobe Experience Platform-Dokumentation zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
-1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsaktionen]** können Sie Ihre Data Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
+1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 
-   Wenn Sie mit der Auswahl der gewünschten Marketing-Aktionen für das Ziel fertig sind, klicken Sie auf **[!UICONTROL Erstellen]**.
+   Wenn Sie die gewünschten Marketing-Aktionen für das Ziel abschließend ausgewählt haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Die neue Verbindung zum Ziel wird erstellt. Sie können nun Zielgruppen aktivieren, um sie an das Ziel zu senden. Wählen Sie sie dazu aus der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**
+1. Die neue Verbindung zum Ziel wird erstellt. Sie können nun Zielgruppen aktivieren, um sie an das Ziel zu senden. Wählen Sie sie hierzu aus der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/destination-activate.png)
 
-1. Wählen Sie die gewünschten Zielgruppen aus, die Sie senden möchten, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie die gewünschten Zielgruppen aus, die gesendet werden sollen, und klicken Sie auf **[!UICONTROL Weiter]**.
 
-1. Konfigurieren Sie den Dateinamen und einen Exportzeitplan für die ausgewählten Zielgruppen.
+1. Konfigurieren Sie den Dateinamen und einen Exportzeitplan für die ausgewählte(n) Zielgruppe(n).
 
    ![](assets/destination-schedule.png)
 
@@ -59,10 +59,10 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
    >
    >Ausführliche Informationen zum Konfigurieren des Zeitplans und der Dateinamen finden Sie in den folgenden Abschnitten der Adobe Experience Platform-Dokumentation:
    >
-   >* [Audience-Export planen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Dateinamen konfigurieren](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [Audience-Export planen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Dateinamen konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Wählen Sie im Schritt **[!UICONTROL Zuordnung]** aus, welche Attribute und Identitätsfelder für Ihre Zielgruppe/n exportiert werden sollen. Weitere Informationen finden Sie im Schritt [Zuordnen](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Adobe Experience Platform-Dokumentation.
+1. Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Identitätsfelder für Ihre Zielgruppe(n) exportiert werden sollen. Weitere Informationen finden Sie im Schritt [Zuordnen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Adobe Experience Platform-Dokumentation.
 
    ![](assets/destination-attributes.png)
 
@@ -70,4 +70,4 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-review.png)
 
-Die ausgewählten Zielgruppen werden nun für die neue Verbindung aktiviert. Sie können mit dieser Verbindung weitere Zielgruppen hinzufügen, indem Sie zur Seite **[!UICONTROL Zielgruppen aktivieren]** zurückkehren. Zielgruppen können nicht entfernt werden, nachdem sie aktiviert wurden.
+Die ausgewählten Zielgruppen werden nun für die neue Verbindung aktiviert. Sie können weitere mit dieser Verbindung zu sendende Zielgruppen hinzufügen, indem Sie zur Seite **[!UICONTROL Zielgruppen aktivieren]** zurückkehren. Zielgruppen können nach ihrer Aktivierung nicht entfernt werden.

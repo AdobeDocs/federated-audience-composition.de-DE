@@ -6,33 +6,33 @@ exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 5%
+ht-degree: 85%
 
 ---
 
-# Dokumentation zur Zusammenführung von Zielgruppen  {#fac-home}
+# Dokumentation zur Komposition föderierter Zielgruppen  {#fac-home}
 
-Willkommen bei der Dokumentation zur Zusammenstellung von Adobe Experience Platform-Federated-Zielgruppen.
+Willkommen bei der Dokumentation zur Komposition föderierter Zielgruppen von Adobe Experience Platform.
 
-Die Experience Platform Federated Audience Komposition bietet Adobe Real-Time CDP- und Adobe Journey Optimizer-Benutzern Flexibilität und Effizienz bei der Datenverwaltung. Mit Federated Audience Komposition können Sie über eine marketerfreundliche Benutzeroberfläche auf Ihr Enterprise Data Warehouse zugreifen, um Zielgruppen zu erstellen und Datensätze in Adobe Experience Platform-Workflows zu nutzen, ohne die zugrunde liegenden Unternehmensdaten zu behalten. Auf diese Weise können Sie Datenbewegungen beim Zugriff auf Data Warehouse für Erlebnisanwendungsfälle reduzieren.
+Die Experience Platform Federated Audience Komposition bietet Adobe Real-Time CDP- und Adobe Journey Optimizer-Benutzern Flexibilität und Effizienz bei der Datenverwaltung. Mit der Komposition föderierter Zielgruppen können Sie über eine Marketer-freundliche Benutzeroberfläche auf Ihr Unternehmens-Data Warehouse zugreifen, um Zielgruppen zu erstellen und Datensätze in Adobe Experience Platform-Workflows zu nutzen, ohne die zugrunde liegenden Unternehmensdaten zu behalten. Auf diese Weise können Sie Datenbewegungen beim Zugriff auf Data Warehouses für Erlebnisanwendungsfälle reduzieren.
 
 >[!BEGINTABS]
 
 >[!TAB Neue Funktionen]
 
-Zusammengestellte Zielgruppen-Zusammenstellungen ermöglichen die Erstellung, Verfeinerung und Anreicherung von Zielgruppen mithilfe von zusammengeführten Zusammenstellungen unter Verwendung von Rohdaten aus externen Datenlagern.
+Die Komposition föderierter Zielgruppen ermöglicht die Erstellung, Optimierung und Anreicherung von Zielgruppen mithilfe von föderierten Kompositionen unter Verwendung von Rohdaten aus externen Data Warehouses.
 
 [![Bild](assets/learn-more-button.svg)](start/release-notes.md)
 
->[!TAB Daten verbinden]
+>[!TAB Verbinden von Daten]
 
 Erstellen, konfigurieren, testen und speichern Sie die Verbindung zu Ihrer externen Datenbank.
 
 [![Bild](assets/learn-more-button.svg)](connections/federated-db.md)
 
->[!TAB Erstellen einer Zielgruppe]
+>[!TAB Zusammenstellen einer Zielgruppe]
 
-Aktivitäten hinzufügen und konfigurieren (Aufspaltung, Anreicherung, Abfrage usw.) , um Kompositionen zu erstellen und Ihre Audience zu erstellen.
+Fügen Sie Aktivitäten hinzu und konfigurieren Sie diese (Aufspaltung, Anreicherung und Abfrage) , um Kompositionen und Ihre Zielgruppe zu erstellen.
 
 [![Bild](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -44,7 +44,7 @@ Aktivitäten hinzufügen und konfigurieren (Aufspaltung, Anreicherung, Abfrage u
   <tr style="border: 0;">
     <td>
     <a href="start/get-started.md"><img src="assets/do-not-localize/start-quick.png"></a>
-    <div><strong>Erste Schritte</strong><br/>Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen direkt aus Ihrer Datenbank erstellen und aktualisieren können, ohne dass ein Erfassungsvorgang erforderlich ist.
+    <div><strong>Erste Schritte</strong><br/>Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen direkt aus Ihrer Datenbank erstellen und aktualisieren können, ohne dass ein Aufnahmevorgang erforderlich ist.
     </div>
     </td>
     <td>
@@ -54,12 +54,12 @@ Aktivitäten hinzufügen und konfigurieren (Aufspaltung, Anreicherung, Abfrage u
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Erstellen einer Zielgruppe</strong><br/>Hinzufügen und Konfigurieren von Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) um Kompositionen zu erstellen und Ihre erste föderierte Zielgruppe zu erstellen.
+    <div><strong>Erstellen einer Zielgruppe</strong><br/>Fügen Sie Aktivitäten hinzu und konfigurieren Sie diese (Aufspaltung, Anreicherung und Abfrage) , um Kompositionen und Ihre erste föderierte Zielgruppe zu erstellen.
     </div>
     </td>
     <td>
     <a href="start/faq.md"><img src="assets/do-not-localize/start-faq.png"></a>
-    <div><strong>FAQ</strong><br/>Häufig gestellte Fragen zur Zusammenstellung von Federated Audience.</div>
+    <div><strong>FAQ</strong><br/>Häufig gestellte Fragen zur Komposition föderierter Zielgruppen.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -73,4 +73,4 @@ Aktivitäten hinzufügen und konfigurieren (Aufspaltung, Anreicherung, Abfrage u
 
 ## Zusätzliche Ressourcen  {#additional-resources}
 
-[Real-time Customer Data Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home){target="_blank"} - [Adobe Audience Portal-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/en/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
+[Dokumentation zur Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/rtcdp/home){target="_blank"} – [Dokumentation zum Zielgruppenportal von Adobe](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} – [Tutorials](https://experienceleague.adobe.com/de/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}

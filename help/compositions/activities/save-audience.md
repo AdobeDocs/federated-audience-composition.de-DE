@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Verwenden der Aktivität Audience-Speicherung
-description: Erfahren Sie, wie Sie die Aktivität Audience-Speicherung verwenden
+title: Verwenden der Aktivität „Zielgruppe speichern“
+description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 27%
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Speichern einer Zielgruppe"
->abstract="Verwenden Sie diese Aktivität, um eine neue Audience aus der zuvor in der Komposition berechneten Population zu erstellen. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
+>abstract="Mit dieser Aktivität können Sie eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die Zielgruppen werden zur bereits bestehenden Zielgruppenliste hinzugefügt und sind über das Menü **Zielgruppen** zugänglich."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,40 +35,40 @@ ht-degree: 27%
 >abstract="Wählen Sie den Namespace aus, der für Profile verwendet werden soll."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces" text="Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform"
 
-Mit der Aktivität **Audience-Speicherung** können Sie eine neue Audience aus der zuvor in einer Komposition berechneten Population erstellen. Die erstellten Audiences werden der Adobe Experience Platform-Zielgruppenliste hinzugefügt und über das Menü **Audiences** verfügbar gemacht. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten können](../../start/audiences.md)
+Mithilfe der Aktivität **Zielgruppe speichern** können Sie eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die erstellten Zielgruppen werden zur Liste der Adobe Experience Platform-Zielgruppen hinzugefügt und sind über das Menü **Zielgruppen** verfügbar. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../../start/audiences.md)
 
-Diese Aktivität dient im Wesentlichen dazu, innerhalb derselben Komposition berechnete Populationen in wiederverwendbare Zielgruppen umzuwandeln. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
+Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Komposition zu berechnen, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“ {#save-audience-configuration}
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen** zu konfigurieren:
 
-1. Fügen Sie Ihrer Komposition die Aktivität **Audience-Speicherung** hinzu.
+1. Fügen Sie Ihrer Komposition die Aktivität **Zielgruppe speichern** hinzu.
 
    ![](../assets/save-audience.png)
 
-1. Geben Sie den Titel der zu erstellenden Audience an.
+1. Geben Sie das Label der zu erstellenden Zielgruppe an.
 
    >[!IMPORTANT]
    >
-   >Die Zielgruppenbeschriftung muss innerhalb der aktuellen Sandbox eindeutig sein. Sie darf nicht mit der einer existierenden Zielgruppe übereinstimmen.
+   >Das Zielgruppen-Label muss innerhalb der aktuellen Sandbox eindeutig sein. Es darf nicht mit dem Label einer vorhandenen Zielgruppe übereinstimmen.
 
-1. Wählen Sie im Abschnitt Zielgruppenzuordnungen die Felder aus, die Sie mit der neu erstellten Zielgruppe übernehmen möchten. Klicken Sie dazu auf **Zielgruppenzuordnung hinzufügen** und wählen Sie dann die Quell- und Zielgruppenfelder aus.
+1. Wählen Sie im Abschnitt „Zielgruppenzuordnungen“ die Felder aus, die Sie mit der neu erstellten Zielgruppe übernehmen möchten. Klicken Sie dazu auf **Zielgruppenzuordnung hinzufügen** und wählen Sie dann die Quell- und Zielgruppenfelder aus.
 
-   Wiederholen Sie den Vorgang, um beliebig viele Zielgruppen-Mappings hinzuzufügen.
+   Wiederholen Sie den Vorgang, um so viele Zielgruppenzuordnungen wie nötig hinzuzufügen.
 
-1. Wählen Sie die primäre Identität und den Namespace aus, die zur Identifizierung der Zielprofile in der Datenbank verwendet werden sollen:
+1. Wählen Sie die primäre Identität und den Namespace zur Identifizierung der Zielprofile in der Datenbank aus:
 
-   * **Primäres Identitätsfeld**: Wählen Sie das Feld aus, das zur Identifizierung der Profile verwendet werden soll. Beispielsweise die E-Mail-Adresse oder Telefonnummer.
-   * **Identitäts-Namespace**: Wählen Sie den Namespace aus, der zur Identifizierung der Profile verwendet werden soll, d. h. den Datentyp, der als Identifizierungsschlüssel verwendet werden soll. Wenn beispielsweise die E-Mail-Adresse als primäres Identitätsfeld ausgewählt wurde, sollte der Identitäts-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
+   * **Primäres Identitätsfeld**: Wählen Sie das Feld aus, mit dem die Profile identifiziert werden sollen, beispielsweise die E-Mail-Adresse oder Telefonnummer.
+   * **Identity-Namespace**: Wählen Sie den Namespace, der zur Identifizierung der Profile verwendet werden soll, d. h. die Art der Daten, die als Identifikationsschlüssel verwendet werden sollen. Wenn beispielsweise die E-Mail-Adresse als primäres Identitätsfeld ausgewählt wurde, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
 ## Auf Ihre Zielgruppe in Adobe Experience Platform zugreifen {#access-audience}
 
-Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt Zielgruppenzuordnungen ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer auswählen oder für ein beliebiges Ziel aktivieren, das von Adobe Experience Platform unterstützt wird.
+Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt „Zielgruppenzuordnungen“ ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer auswählen oder für ein beliebiges Ziel aktivieren, das von Adobe Experience Platform unterstützt wird.
 
-[Weitere Informationen finden Sie in der Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Weitere Informationen finden Sie in der Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

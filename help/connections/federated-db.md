@@ -7,7 +7,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 10%
+ht-degree: 74%
 
 ---
 
@@ -34,10 +34,10 @@ Erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank in [dieser Seit
 
 ## Unterstützte Datenbanken {#supported-db}
 
-Mit Federated Audience Komposition können Sie eine Verbindung zu den folgenden Datenbanken herstellen. Die Konfiguration der einzelnen Datenbanken wird nachfolgend beschrieben.
+Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den folgenden Datenbanken herstellen. Die Konfiguration der einzelnen Datenbanken wird nachfolgend beschrieben.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure synapse](#azure-synapse-redshift)
+* [Azure Synapse](#azure-synapse-redshift)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -46,15 +46,15 @@ Mit Federated Audience Komposition können Sie eine Verbindung zu den folgenden 
 
 Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
 
-1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Verknüpfte Datenbank hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
    ![](assets/federated_database_1.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** in Ihre Federate-Datenbank ein.
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Amazon Redshift aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Amazon Redshift“ aus.
 
    ![](assets/federated_database_6.png)
 
@@ -64,11 +64,11 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
    * **[!UICONTROL Konto]**: Fügen Sie den Benutzernamen hinzu.
 
-   * **[!UICONTROL Kennwort]**: Fügen Sie das Kontopasswort hinzu.
+   * **[!UICONTROL Kennwort]**: Fügen Sie das Kontokennwort hinzu.
 
    * **[!UICONTROL Datenbank]**: Name Ihrer Datenbank, falls nicht im DSN angegeben. Kann leer bleiben, wenn im DSN angegeben
 
-   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation zu Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} .
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation zu Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} .
 
      >[!NOTE]
      >
@@ -78,33 +78,33 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** , um die Funktionen zu erstellen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
 
-1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
-## Azure synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Azure synapse Redshift zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Führen Sie die folgenden Schritte aus, um den Zugriff auf Azure Synapse Redshift zu konfigurieren.
 
-1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Verknüpfte Datenbank hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
    ![](assets/federated_database_1.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** in Ihre Federate-Datenbank ein.
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Azure synapse Redshift aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Azure Synapse Redshift“aus.
 
    ![](assets/federated_database_4.png)
 
-1. Konfigurieren Sie die Authentifizierungseinstellungen für Azure synapse Redshift:
+1. Konfigurieren Sie die Authentifizierungseinstellungen für Azure Synapse Redshift:
 
-   * **[!UICONTROL Server]**: Geben Sie die URL des Azure synapse-Servers ein.
+   * **[!UICONTROL Server]**: Geben Sie die URL des Azure Synapse-Servers ein.
 
    * **[!UICONTROL Konto]**: Geben Sie den Benutzernamen ein.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie das Kontopasswort ein.
+   * **[!UICONTROL Kennwort]**: Geben Sie das Kontokennwort ein.
 
    * **[!UICONTROL Datenbank]** (optional): Geben Sie den Namen Ihrer Datenbank ein, falls nicht im DSN angegeben.
 
@@ -112,85 +112,85 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** , um die Funktionen zu erstellen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
 
-1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
 | Option | Beschreibung |
 |---|---|
-| Authentifizierung | Vom Connector unterstützte Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Microsoft SQL-Dokumentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen n°8). |
+| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Microsoft SQL-Dokumentation](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen n°8). |
 
 
 ## Google BigQuery {#google-big-query}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google Big Query zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google BigQuery zu konfigurieren.
 
-1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Verknüpfte Datenbank hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
    ![](assets/federated_database_1.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** in Ihre Federate-Datenbank ein.
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Google Big Query aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Google BigQuery“ aus.
 
    ![](assets/federated_database_3.png)
 
-1. Konfigurieren Sie die Authentifizierungseinstellungen für Google Big Query:
+1. Konfigurieren Sie die Authentifizierungseinstellungen für Google BigQuery:
 
-   * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail Ihres **[!UICONTROL Dienstkontos]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail-Adresse Ihres **[!UICONTROL Dienstkontos]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
    * **[!UICONTROL Projekt]**: Geben Sie den Namen Ihres **[!UICONTROL Projekts]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
-   * **[!UICONTROL Pfad der Schlüsseldatei]**: Laden Sie Ihre Schlüsseldatei auf den Server hoch. Es werden nur .json-Dateien akzeptiert.
+   * **[!UICONTROL Pfad der Schlüsseldatei]**: Laden Sie Ihre Schlüsseldatei auf den Server hoch. Es sind nur .json-Dateien zulässig.
 
    * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** , um die Funktionen zu erstellen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
 
-1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
 | Option | Beschreibung |
 |---|---|
-| ProxyType | Typ des Proxys, der für die Verbindung mit BigQuery über ODBC- und SDK-Connectoren verwendet wird. </br>HTTP (Standard), http_no_tunnel, socks4 und socks5 werden derzeit unterstützt. |
-| ProxyHost | Hostname oder IP-Adresse, an der der Proxy erreicht werden kann. |
-| ProxyPort | Anschlussnummer, auf der der Proxy ausgeführt wird, z. B. 8080 |
-| ProxyUid | Benutzername für den authentifizierten Proxy |
+| ProxyType | Proxy-Typ, der für die Verbindung mit BigQuery über ODBC- und SDK-Connectoren verwendet wird. </br>Derzeit wird HTTP (Standard), http_no_tunnel, socks4 und socks5 unterstützt. |
+| ProxyHost | Host-Name oder IP-Adresse, über die der Proxy erreicht werden kann. |
+| ProxyPort | Port-Nummer, auf der der Proxy ausgeführt wird, z. B. 8080 |
+| ProxyUid | Für den authentifizierten Proxy verwendeter Benutzername |
 | ProxyPwd | ProxyUid-Kennwort |
-| bqpath | Beachten Sie, dass dies nur für Tools mit Massenladevorgang (Cloud SDK) gilt. </br> Um die Verwendung der PATH-Variablen zu vermeiden oder den Ordner google-cloud-sdk an einen anderen Speicherort zu verschieben, können Sie mit dieser Option den genauen Pfad zum Ordner &quot;cloud sdk bin&quot;auf dem Server angeben. |
-| GCloudConfigName | Beachten Sie, dass dies ab Version 7.3.4 und nur für Tools mit Massenladevorgang (Cloud SDK) gilt.</br> Das Google Cloud-SDK verwendet Konfigurationen zum Laden von Daten in BigQuery-Tabellen. Die Konfiguration mit dem Namen `accfda` speichert die Parameter zum Laden der Daten. Mit dieser Option können Benutzer jedoch einen anderen Namen für die Konfiguration angeben. |
-| GCloudDefaultConfigName | Beachten Sie, dass dies ab Version 7.3.4 und nur für Tools mit Massenladevorgang (Cloud SDK) gilt.</br> Die aktive Google Cloud SDK-Konfiguration kann nicht gelöscht werden, ohne dass das aktive Tag zuerst in eine neue Konfiguration übertragen wird. Diese temporäre Konfiguration ist erforderlich, um die Hauptkonfiguration für das Laden von Daten neu zu erstellen. Der Standardname für die temporäre Konfiguration ist `default`. Dieser kann bei Bedarf geändert werden. |
-| GCloudRecreateConfig | Beachten Sie, dass dies ab Version 7.3.4 und nur für Tools mit Massenladevorgang (Cloud SDK) gilt.</br> Wenn der Wert auf `false` festgelegt ist, verhindert der Mechanismus zum Laden von Massengütern nicht den Versuch, die Google Cloud SDK-Konfigurationen neu zu erstellen, zu löschen oder zu ändern. Stattdessen wird das Laden der Daten mit der vorhandenen Konfiguration auf dem Computer fortgesetzt. Diese Funktion ist nützlich, wenn andere Vorgänge von Google Cloud SDK-Konfigurationen abhängig sind. </br> Wenn der Benutzer diese Engine-Option ohne ordnungsgemäße Konfiguration aktiviert, gibt der Massenlademechanismus eine Warnmeldung aus: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Um weitere Fehler zu vermeiden, wird dann der standardmäßige ODBC-Array-Einfügemechanismus für Massen-Ladevorgänge verwendet. |
+| bqpath | Beachten Sie, dass dies nur für das Massenlade-Tool (Cloud SDK) gilt. </br> Um die Verwendung der PATH-Variable zu vermeiden oder wenn der Ordner „google-cloud-sdk“ an einen anderen Speicherort verschieben werden muss, können Sie mit dieser Option den genauen Pfad zum Cloud-SDK-Bin-Ordner auf dem Server angeben. |
+| GCloudConfigName | Beachten Sie, dass dies ab Version 7.3.4 und nur für das Massenlade-Tool (Cloud SDK) gilt.</br> Das Google Cloud-SDK verwendet Konfigurationen zum Laden von Daten in BigQuery-Tabellen. Die Konfiguration mit dem Namen `accfda` speichert die Parameter zum Laden der Daten. Mit dieser Option können Benutzende jedoch einen anderen Namen für die Konfiguration angeben. |
+| GCloudDefaultConfigName | Beachten Sie, dass dies ab Version 7.3.4 und nur für das Massenlade-Tool (Cloud SDK) gilt.</br> Die aktive Google Cloud SDK-Konfiguration kann nicht gelöscht werden, ohne dass das aktive Tag zuerst in eine neue Konfiguration übertragen wird. Diese temporäre Konfiguration ist erforderlich, um die Hauptkonfiguration für das Laden von Daten neu zu erstellen. Der Standardname für die temporäre Konfiguration lautet `default`. Dieser kann bei Bedarf geändert werden. |
+| GCloudRecreateConfig | Beachten Sie, dass dies ab Version 7.3.4 und nur für das Massenlade-Tool (Cloud SDK) gilt.</br> Wenn diese Option auf `false` gesetzt ist, versucht der Massenlademechanismus nicht, die Google Cloud SDK-Konfigurationen neu zu erstellen, zu löschen oder zu ändern. Stattdessen wird das Laden der Daten mit der vorhandenen Konfiguration auf dem Computer fortgesetzt. Diese Funktion ist nützlich, wenn andere Vorgänge von Google Cloud SDK-Konfigurationen abhängig sind. </br> Wenn die Benutzerin bzw. der Benutzer diese Engine-Option ohne eine ordnungsgemäße Konfiguration aktiviert, gibt der Massenlademechanismus eine Warnmeldung aus: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Um weitere Fehler zu vermeiden, wird dann wieder der standardmäßige Massenlademechanismus „ODBC Array Insert“ verwendet. |
 
 
 ## Snowflake {#snowflake}
 
 Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
 
-1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Verknüpfte Datenbank hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
    ![](assets/federated_database_1.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** in Ihre Federate-Datenbank ein.
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Snowflake aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Snowflake“ aus.
 
    ![](assets/federated_database_2.png)
 
-1. Konfigurieren Sie die Snowflake-Authentifizierungseinstellungen:
+1. Konfigurieren Sie die Authentifizierungseinstellungen für Snowflake:
 
-   * **[!UICONTROL Server]**: Geben Sie Ihren Servernamen ein.
+   * **[!UICONTROL Server]**: Geben Sie Ihren Server-Namen ein.
 
    * **[!UICONTROL Benutzer]**: Geben Sie Ihren Benutzernamen ein.
 
-   * **[!UICONTROL Kennwort]**: Geben Sie Ihr Kontopasswort ein.
+   * **[!UICONTROL Kennwort]**: Geben Sie Ihr Kontokennwort ein.
 
    * **[!UICONTROL Datenbank]** (optional): Geben Sie den Namen Ihrer Datenbank ein, falls nicht im DSN angegeben.
 
@@ -202,15 +202,15 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
      >
      >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
 
-   * **[!UICONTROL Privater Schlüssel]**: Klicken Sie auf das Feld **[!UICONTROL Privater Schlüssel]** , um Ihre .pem-Dateien aus Ihrem Gebietsschema-Ordner auszuwählen.
+   * **[!UICONTROL Privater Schlüssel]**: Klicken Sie auf das Feld **[!UICONTROL Privater Schlüssel]**, um Ihre .pem-Dateien aus Ihrem Gebietsschema-Ordner auszuwählen.
 
    * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** , um die Funktionen zu erstellen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
 
-1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
 Der Connector unterstützt die folgenden Optionen:
 
@@ -218,37 +218,37 @@ Der Connector unterstützt die folgenden Optionen:
 |---|---|
 | workschema | Datenbankschema zur Verwendung mit Arbeitstabellen |
 | warehouse | Name des zu verwendenden Standard-Warehouse. Dadurch wird die Standardeinstellung des Benutzers außer Kraft gesetzt. |
-| TimeZoneName | Standardmäßig leer, was bedeutet, dass der Anwendungsserver der Systemzeitzone verwendet wird. Mit dieser Option können Sie den Sitzungsparameter TIMEZONE erzwingen. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-| WeekStart | Sitzungsparameter WEEK_START. Standardmäßig auf 0 gesetzt <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Ergebnisse im Snowflake zu deaktivieren. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
-| bulkThreads | Anzahl der Threads, die für Snowflake-Bulk-Loader verwendet werden sollen, mehr Threads bedeuten eine bessere Leistung bei größeren Bulk-Ladungen. Standardmäßig auf 1 gesetzt Die Zahl kann je nach Anzahl der Maschinenthread angepasst werden. |
-| chunkSize | Bestimmt die Dateigröße des Stapels für Ladegeräte. Standardmäßig auf 128 MB eingestellt. Kann für eine optimale Leistung geändert werden, wenn BulkThreads verwendet werden. Gleichzeitigere aktive Threads bedeuten eine bessere Leistung. <br>Weitere Informationen hierzu finden Sie in der [Snowflake-Dokumentation](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
-| StageName | Name des vorab bereitgestellten internen Schritts. Sie wird bei Bulk Load verwendet, anstatt eine neue temporäre Phase zu erstellen. |
+| TimeZoneName | Standardmäßig leer, was bedeutet, dass der Anwendungsserver der Systemzeitzone verwendet wird. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Sitzungsparameter WEEK_START. Ist standardmäßig auf 0 gesetzt <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Snowflake-Ergebnisse zu deaktivieren. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| bulkThreads | Anzahl der Threads, die für den Snowflake-Massenlader verwendet werden sollen. Mehr Threads bedeuten eine bessere Leistung bei größeren Massenladevorgängen. Ist standardmäßig auf 1 gesetzt Die Zahl kann je nach Anzahl der Rechner-Threads angepasst werden. |
+| chunkSize | Bestimmt die Dateigröße des Massenladerblocks. Standardmäßig auf 128 MB gesetzt. Kann bei Verwendung mit „bulkThreads“ geändert werden, um eine optimale Leistung zu erreichen. Mehr gleichzeitig aktive Threads bedeuten eine bessere Leistung. <br>Weitere Informationen hierzu finden Sie in der [Snowflake-Dokumentation](https://docs.snowflake.com/de/sql-reference/sql/put){target="_blank"}. |
+| StageName | Name des vorab bereitgestellten internen Stages. Er wird beim Massenladen verwendet, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica analytics zu konfigurieren.
+Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica Analytics zu konfigurieren.
 
-1. Wählen Sie im Menü **[!UICONTROL Federated data]** die Option **[!UICONTROL Federated database]**.
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
-1. Klicken Sie auf **[!UICONTROL Verknüpfte Datenbank hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
    ![](assets/federated_database_1.png)
 
-1. Geben Sie einen **[!UICONTROL Namen]** in Ihre Federate-Datenbank ein.
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Vertica analytics aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Vertica Analytics“ aus.
 
    ![](assets/federated_database_5.png)
 
-1. Konfigurieren Sie die Authentifizierungseinstellungen für Vertica analytics:
+1. Konfigurieren Sie die Vertica Analytics-Authentifizierungseinstellungen:
 
-   * **[!UICONTROL Server]**: Fügen Sie die URL des [!DNL Vertica Analytics] -Servers hinzu.
+   * **[!UICONTROL Server]**: Fügen Sie die URL des [!DNL Vertica Analytics]-Servers hinzu.
 
    * **[!UICONTROL Konto]**: Fügen Sie den Benutzernamen hinzu.
 
-   * **[!UICONTROL Kennwort]**: Fügen Sie das Kontopasswort hinzu.
+   * **[!UICONTROL Kennwort]**: Fügen Sie das Kontokennwort hinzu.
 
    * **[!UICONTROL Datenbank]** (optional): Geben Sie den Namen Ihrer Datenbank ein, falls nicht im DSN angegeben.
 
@@ -264,12 +264,12 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]** , um die Funktionen zu erstellen.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
 
-1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]** , um Ihre Federate-Datenbank zu erstellen.
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
 Der Connector unterstützt die folgenden Optionen:
 
 | Option | Beschreibung |
 |---|---|
-| TimeZoneName | Standardmäßig leer, was bedeutet, dass die Systemzeitzone des Anwendungsservers verwendet wird. Die Option kann verwendet werden, um den Sitzungsparameter TIMEZONE zu erzwingen. |
+| TimeZoneName | Standardmäßig leer, was bedeutet, dass die Systemzeitzone des Anwendungsservers verwendet wird. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen.  |

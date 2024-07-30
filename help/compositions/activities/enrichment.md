@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Anreicherung verwenden
-description: Erfahren Sie, wie Sie die Aktivität Anreicherung verwenden.
+title: Verwenden der Aktivität „Anreicherung“
+description: Erfahren Sie, wie Sie die Aktivität „Anreicherung“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 57%
+ht-degree: 92%
 
 ---
 
@@ -38,13 +38,13 @@ ht-degree: 57%
 >title="Anreicherungsdaten"
 >abstract="Wählen Sie die zur Anreicherung Ihrer Komposition zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, auch bekannt als Zieldimension, oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
-Mit der Aktivität **Anreicherung** können Sie die Zieldaten um zusätzliche Informationen aus der verbundenen Datenbank erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet.
+Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der föderierten Datenbank zu erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet.
 
 Wenn Sie eine Verbindung zum Ziel Zusammengestellte Zielgruppe erstellen, können Sie die Aktivität Anreicherung verwenden, um Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anzureichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
 
 Anreicherungsdaten können verschiedene Ursprünge haben:
 
-* **Aus derselben Arbeitstabelle** wie der, der in Ihrer Komposition enthalten ist:
+* **Aus derselben Arbeitstabelle** wie die in Ihrer Komposition:
 
   *Bestimmung einer Kundenzielgruppe und Hinzufügen des Felds „Geburtsdatum“ zur aktuellen Arbeitstabelle*
 
@@ -52,7 +52,7 @@ Anreicherungsdaten können verschiedene Ursprünge haben:
 
   *Zielgruppenbestimmung einer Kundengruppe und Hinzufügen der Felder „Betrag“ und „Produkttyp“ aus der „Kauf“-Tabelle*.
 
-Nachdem die Anreicherungsdaten zur Komposition hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität **Anreicherung** hinzugefügt wurden, um Kunden basierend auf ihren Verhaltensweisen, Voreinstellungen und Optionen in verschiedene Gruppen zu unterteilen.
+Nachdem die Anreicherungsdaten zur Komposition hinzugefügt wurden, können sie in den Aktivitäten verwendet werden, die nach der Aktivität **Anreicherung** hinzugefügt wurden, um Kundinnen und Kunden basierend auf ihren Verhaltensweisen, Vorlieben und Entscheidungen in separate Gruppen zu segmentieren.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
    ![](../assets/enrichment.png)
 
-1. Wenn mehrere Transitionen in Ihrer Komposition konfiguriert wurden, können Sie mit dem Feld **[!UICONTROL Primärer Satz]** festlegen, welche Transition als Hauptmenge für die Anreicherung mit Daten verwendet werden soll.
+1. Wenn in Ihrer Komposition mehrere Transitionen konfiguriert wurden, können Sie das Feld **[!UICONTROL Hauptmenge]** verwenden, um festzulegen, welche Transition als Hauptmenge für die Anreicherung mit Daten verwendet werden soll.
 
 1. Klicken Sie auf **Anreicherungsdaten hinzufügen** und wählen Sie das Attribut zur Datenanreicherung aus.
 
@@ -73,7 +73,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Anreicherung** zu ko
 
    >[!NOTE]
    >
-   >Mit der Schaltfläche **Ausdruck bearbeiten** im Bildschirm zur Attributauswahl können Sie erweiterte Ausdrücke zur Auswahl des Attributs erstellen.
+   >Sie können im Bildschirm „Attributauswahl“ über die Schaltfläche **Ausdruck bearbeiten** erweiterte Ausdrücke zur Attributauswahl erstellen. 
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

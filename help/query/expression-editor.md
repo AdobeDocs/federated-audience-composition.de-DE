@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Erstellen Ihrer erste Abfrage mithilfe des Abfrage-Modelers
-description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfragemodell erstellen.
+title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
+description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: 0efe4046cf30b4c447551c1cebbea0b4c2085a9f
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Der Ausdruckseditor steht bei der Konfiguration einer benutzerdefinierten Beding
 Der Ausdruckseditor bietet Folgendes:
 
 * Ein **Eingabefeld (1)**, in dem der Ausdruck definiert wird.
-* Die Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und dem Schema der Abfrage entsprechen, das auch als Zielgruppendimension bezeichnet wird.
+* Die Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und dem Schema, auch bekannt als Zielgruppendimension, der Abfrage entsprechen.
 * **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
 Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, gehen Sie mit dem Cursor zu dem Ausdruck, zu dem Sie es/sie hinzufügen möchten, und klicken Sie auf die Schaltfläche „+“.
@@ -577,7 +577,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
  </tbody> 
 </table>
 
-### Zeichenfolge
+### String
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Planungsaktivität verwenden
-description: Erfahren Sie, wie Sie die Aktivität Planung verwenden
+title: Verwenden der Aktivität „Planung“
+description: Erfahren Sie, wie Sie die Aktivität „Planung“ verwenden
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 36%
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Planungsaktivität"
->abstract="Mit der Aktivität **Planung** können Sie den Beginn der Audience-Komposition planen. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität einer Komposition verwendet werden."
+>abstract="Mit der Aktivität **Planung** können Sie planen, wann die Zielgruppenkomposition gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität einer Komposition verwendet werden."
 
-Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann die Komposition beginnt. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der Komposition verwendet werden.
+Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann die Komposition gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der Komposition verwendet werden.
 
 Wenn Sie eine Verbindung zum Ziel Federated Audience Komposition konfiguriert haben, können Sie diese Aktivität verwenden, um Adobe Experience Platform-Zielgruppen regelmäßig zu übertragen. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
 
@@ -37,34 +37,34 @@ Wenn Sie eine Verbindung zum Ziel Federated Audience Komposition konfiguriert ha
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Planung** zu konfigurieren:
 
-1. Fügen Sie Ihrer Komposition die Aktivität **Planer** hinzu.
+1. Fügen Sie eine Aktivität **Planung** zu Ihrer Komposition hinzu.
 
 1. Konfigurieren Sie die **Ausführungshäufigkeit**:
 
-   * **Einmal**: Die Komposition wird ein einziges Mal ausgeführt.
-   * **Täglich**: Die Komposition wird einmal täglich zu einem bestimmten Zeitpunkt ausgeführt.
-   * **Mehrmals am Tag:** Die Komposition wird regelmäßig mehrmals am Tag ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
+   * **Einmal**: Die Komposition wird nur einmal ausgeführt.
+   * **Täglich**: Die Komposition wird zu einem bestimmten Zeitpunkt einmal täglich ausgeführt.
+   * **Mehrmals pro Tag**: Die Komposition wird zu bestimmten Zeiten mehrmals täglich ausgeführt. Sie können Ausführungen zu bestimmten Zeiten oder in regelmäßigen Abständen einrichten.
 
      >[!NOTE]
      >
-     >Planen Sie nicht, dass eine Komposition mehr als alle 15 Minuten ausgeführt wird, da dies die Gesamtleistung des Systems beeinträchtigen und Blöcke in der Datenbank erstellen kann.
+     >Planen Sie die Ausführung einer Komposition nicht öfter als alle 15 Minuten, da dies die Gesamtleistung des Systems beeinträchtigen und zu Blockaden in der Datenbank führen kann.
 
-   * **Wöchentlich**: Die Komposition wird wiederholt zu bestimmten Zeiten in der Woche ausgeführt.
-   * **Monatlich**: Die Komposition wird wiederholt zu bestimmten Zeiten im Monat ausgeführt. Sie können Monate auswählen, in denen die Komposition ausgeführt werden soll. Sie können für die Ausführung von Workflows auch bestimmte Wochentage des Monats auswählen, z. B. am zweiten Dienstag des Monats.
+   * **Wöchentlich**: Die Komposition wird zu einem bestimmten Zeitpunkt einmal oder mehrfach wöchentlich ausgeführt.
+   * **Monatlich**: Die Komposition wird zu einem bestimmten Zeitpunkt einmal oder mehrfach im Monat ausgeführt. Sie können die Monate auswählen, in denen die Komposition ausgeführt werden soll. Sie können für die Ausführung von Workflows auch bestimmte Wochentage des Monats auswählen, z. B. am zweiten Dienstag des Monats.
 
 1. Definieren Sie die Ausführungsdetails. Je nach gewählter Frequenz sind verschiedene Parameter (Uhrzeit, Ausführungsintervall, bestimmte Tage etc.) zu konfigurieren.
 
-1. Klicken Sie auf **Vorschau der Startzeiten anzeigen** , um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
+1. Klicken Sie auf **Vorschau Startzeiten**, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
 
-1. Definieren Sie den Gültigkeitszeitraum der Planung:
+1. Definieren des Gültigkeitszeitraums des Zeitplans:
 
-   * **Dauerhaft (nie abläuft)**: Die Komposition wird gemäß der angegebenen Häufigkeit und ohne Begrenzung des Zeitrahmens oder der Anzahl der Iterationen ausgeführt.
+   * **Permanent (läuft nie ab)**: Die Komposition wird entsprechend der angegebenen Häufigkeit ausgeführt, ohne Begrenzung des Zeitrahmens oder der Anzahl der Iterationen.
 
-   * **Gültigkeitszeitraum**: Die Komposition wird in der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Sie müssen Start- und Enddaten angeben.
+   * **Gültigkeitszeitraum**: Die Komposition wird entsprechend der angegebenen Häufigkeit bis zu einem bestimmten Datum ausgeführt. Sie müssen Start- und Enddaten angeben.
 
 >[!NOTE]
 >
->Wenn Sie die Komposition sofort starten möchten, können Sie in der oberen Aktionsleiste des Planers auf die Aufgabe &quot;**Ausstehende Aufgabe ausführen**&quot;klicken. Diese Schaltfläche ist nur verfügbar, wenn Sie mit der Komposition begonnen haben.
+>Wenn Sie die Komposition sofort starten möchten, können Sie auf die Schaltfläche **Ausstehende Aufgabe ausführen** in der oberen Aktionsleiste der Planung klicken. Diese Schaltfläche ist nur verfügbar, wenn Sie die Komposition gestartet haben.
 
 <!--## Example{#scheduler-example}
 

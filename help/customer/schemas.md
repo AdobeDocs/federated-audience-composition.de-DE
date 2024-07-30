@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Erste Schritte mit Schemata
-description: Erfahren Sie, wie Sie mit Schemata beginnen
+description: Erfahren Sie, wie Sie mit Schemata beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 23%
+ht-degree: 44%
 
 ---
 
@@ -45,15 +45,15 @@ Ein Schema ist eine Darstellung einer Tabelle Ihrer Datenbank. Es ist ein Objekt
 
 Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der Experience Platform Federated Audience Komposition definieren:
 
-* Geben Sie ihm einen Anzeigenamen und eine Beschreibung, um das Verständnis für den Benutzer zu vereinfachen
+* Legen Sie einen Anzeigenamen und eine Beschreibung fest, damit Benutzende dies einfacher nachvollziehen können.
 * Definieren Sie die Sichtbarkeit jedes Felds entsprechend seiner tatsächlichen Nutzung.
-* Wählen Sie den Primärschlüssel aus, um Schemas wie im [Datenmodell](../data-management/gs-models.md#data-model-start) benötigt zwischen ihnen zu verknüpfen.
+* Wählen Sie den Primärschlüssel, um die Schemata untereinander zu verknüpfen, wie es im [Datenmodell](../data-management/gs-models.md#data-model-start) erforderlich ist.
 
 ## Erstellen eines Schemas {#schema-create}
 
 Gehen Sie wie folgt vor, um Schemas in Federated Audience Komposition zu erstellen:
 
-1. Wechseln Sie im Abschnitt **[!UICONTROL FEDERATED DATA]** in den Link **[!UICONTROL Modelle]** . Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
+1. Navigieren Sie im Abschnitt **[!UICONTROL FÖDERIERTE DATEN]** zum Link **[!UICONTROL Modelle]**. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
 
    ![](assets/schema_create.png){zoomable="yes"}
 
@@ -72,9 +72,9 @@ Gehen Sie wie folgt vor, um Schemas in Federated Audience Komposition zu erstell
    Für jede Tabelle haben Sie folgende Möglichkeiten:
 
    * den Titel des Schemas ändern
-   * Beschreibung hinzufügen
+   * Hinzufügen einer Beschreibung
    * benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
-   * Primärschlüssel des Schemas auswählen
+   * Auswählen des Primärschlüssels des Schemas
 
    Beispielsweise wurde für die folgende Tabelle importiert:
 
@@ -84,13 +84,13 @@ Gehen Sie wie folgt vor, um Schemas in Federated Audience Komposition zu erstell
 
    ![](assets/schema_lumaorders.png){zoomable="yes"}
 
-## Schema bearbeiten {#schema-edit}
+## Bearbeiten eines Schemas {#schema-edit}
 
 So bearbeiten Sie ein Schema:
 
 1. Klicken Sie auf den Namen Ihres Schemas im Ordner Schemas .
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]** .
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
@@ -98,7 +98,7 @@ So bearbeiten Sie ein Schema:
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
 
-## Datenvorschau in einem Schema {#schema-preview}
+## Vorschau von Daten in einem Schema {#schema-preview}
 
 Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]** , wie unten dargestellt.
 

@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Verwenden der Aktivität Dimensionsänderung
-description: Erfahren Sie, wie Sie die Aktivität der Dimensionsänderung verwenden
+title: Verwenden der Aktivität „Dimensionsänderung“
+description: Erfahren Sie, wie Sie die Aktivität „Dimensionsänderung“ verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 54%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Aktivität „Dimensionsänderung“"
->abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenmodell und dem Eingangsschema.  Beispielsweise können Sie vom Schema „Verträge“ zum Schema „Kundinnen und Kunden“ wechseln."
+>abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema.  Beispielsweise können Sie vom Schema „Verträge“ zum Schema „Kundinnen und Kunden“ wechseln."
 
-Mit der Aktivität **Dimensionsänderung** können Sie das Schema, die auch als Zielgruppendimension bezeichnet wird, während der Erstellung Ihrer Audience ändern. Die Achse wird je nach Datenvorlage und Eingabeschema verschoben.
+Mithilfe der Aktivität **Dimensionsänderung** können Sie das Schema, auch bekannt als „Zielgruppendimension“, beim Erstellen Ihrer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema. 
 
 ## Konfigurieren der Aktivität „Dimensionsänderung“ {#configure}
 
 Gehen Sie folgendermaßen vor, um die Aktivität **Dimensionsänderung** zu konfigurieren:
 
-1. Fügen Sie Ihrer Komposition die Aktivität **Dimension ändern** hinzu.
+1. Fügen Sie Ihrer Komposition die Aktivität **Dimensionsänderung** hinzu.
 
    ![](../assets/change-dimension.png)
 
-1. Definieren Sie das **neue Schema**. Während der Schemaänderung werden alle Datensätze beibehalten.
+1. Definieren Sie ein **Neues Schema**. Bei einer Schemaänderung werden alle Einträge beibehalten. 
 
-1. Führen Sie die Komposition aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität **Dimension ändern** und vergleichen Sie die Struktur der Kompositionstabellen.
+1. Führen Sie die Komposition aus, um das Ergebnis anzuzeigen. Vergleichen Sie die Daten in den Tabellen vor und nach der Aktivität **Dimensionsänderung** sowie die Struktur der Kompositionstabellen.
 
 <!--
 ## Example {#example}
