@@ -1,33 +1,33 @@
 ---
 audience: end-user
 title: Erstellen von Kompositionen
-description: Erfahren Sie, wie Sie Kompositionen erstellen
+description: Erfahren Sie, wie Sie Kompositionen erstellen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-
 # Erstellen und Konfigurieren der Komposition {#create}
 
-Der erste Schritt zum Erstellen einer Komposition besteht darin, ihren Titel zu definieren und bei Bedarf zusätzliche Einstellungen zu konfigurieren.
+Der erste Schritt zum Erstellen einer Komposition besteht darin, das ihr Label zu definieren und ggf. weitere Einstellungen vorzunehmen.
 
 ## Erstellen der Komposition {#create-the-composition}
 
-1. Rufen Sie das Menü **[!UICONTROL Zielgruppen]** auf und wählen Sie den Tab **[!UICONTROL Zusammengestellte Kompositionen]** aus.
+1. Rufen Sie das Menü **[!UICONTROL Zielgruppen]** auf und wählen Sie die Registerkarte **[!UICONTROL Föderierte Kompositionen]** aus.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Komposition erstellen]** .
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Komposition erstellen]**.
 
    ![](assets/composition-create.png)
 
-1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** eine Beschriftung für Ihre Komposition an und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** einen Titel für Ihre Komposition an und klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Die Arbeitsfläche der Komposition wird angezeigt. Sie können Ihre Komposition jetzt konfigurieren, indem Sie so viele Aktivitäten wie nötig hinzufügen, um sie Ihren Anforderungen anzupassen, bevor Sie sie ausführen:
+1. Die Arbeitsfläche der Komposition wird angezeigt. Sie können nun Ihre Komposition konfigurieren, indem Sie so viele Aktivitäten hinzufügen, wie Sie benötigen, bevor Sie sie ausführen:
 
-   * [Erfahren Sie, wie Sie Aktivitäten koordinieren](#action-activities)
+   * [Erfahren Sie, wie Sie Aktivitäten orchestrieren.](#action-activities)
    * [Erfahren Sie, wie Sie eine Komposition starten und überwachen](#save)
 
 ## Konfigurieren der Kompositionseinstellungen {#settings}
@@ -47,22 +47,22 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, ihren Titel zu 
 >title="Einstellungen für den Umgang mit Fehlern"
 >abstract="In diesem Abschnitt können Sie definieren, wie Fehler während der Ausführung behandelt werden sollen. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung der Komposition gestoppt werden soll."
 
-Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll. Um auf diese zusätzlichen Optionen zuzugreifen, klicken Sie im oberen Bereich des Bildschirms zur Kompositionserstellung auf die Schaltfläche **[!UICONTROL Einstellungen]** .
+Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll. Um auf diese zusätzlichen Optionen zuzugreifen, klicken Sie im oberen Bereich des Bildschirms zur Kompositionserstellung auf die Schaltfläche **[!UICONTROL Einstellungen]**.
 
 ![](assets/composition-create-settings.png)
 
-Folgende Einstellungen sind verfügbar:
+Die verfügbaren Einstellungen lauten wie folgt:
 
-* **[!UICONTROL Beschriftung]**: Ändern Sie den Titel der Komposition.
+* **[!UICONTROL Label]**: Ändern Sie das Label der Komposition.
 
 * **[!UICONTROL Zwischen zwei Ausführungen die ermittelte Population festhalten]**: Standardmäßig werden nur die Arbeitstabellen der letzten Ausführung der Komposition beibehalten. Arbeitstabellen früherer Ausführungen werden durch eine technische Komposition bereinigt, die täglich ausgeführt wird.
 
-  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach der Ausführung der Komposition beibehalten. Sie können sie zu Testzwecken verwenden; daher darf sie **nur** in Entwicklungs- oder Staging-Umgebungen genutzt werden. Sie darf nie in einer Produktionseinheit überprüft werden.
+  Wenn diese Option aktiviert ist, werden Arbeitstabellen auch nach Ausführung der Komposition beibehalten. Sie können sie zu Testzwecken verwenden. Daher farf sie **nur** in Entwicklungs- oder Staging-Umgebungen genutzt werden. In einer produktiven Komposition darf sie niemals aktiviert werden.
 
-* **[!UICONTROL Umgang mit Fehlern]**: Mit dieser Option können Sie die Aktionen definieren, die bei einer Kompositionsaktivität mit Fehlern durchgeführt werden sollen. Es gibt drei mögliche Optionen:
+* **[!UICONTROL Umgang mit Fehlern]**: Mit dieser Option können Sie festlegen, welche Aktionen ausgeführt werden sollen, wenn eine Kompositionsaktivität Fehler aufweist. Es gibt drei mögliche Optionen:
 
-   * **[!UICONTROL Prozess aussetzen]**: Die Komposition wird automatisch angehalten und ihr Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem gelöst ist, setzen Sie die Komposition mit den Schaltflächen **[!UICONTROL Fortsetzen]** fort.
-   * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, aber die Komposition behält den Status **[!UICONTROL Gestartet]** bei.
-   * **[!UICONTROL Vorgang abbrechen]**: Die Komposition wird automatisch gestoppt und ihr Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie die Komposition mit der Schaltfläche **[!UICONTROL Start]** neu.
+   * **[!UICONTROL Prozess aussetzen]**: Die Komposition wird automatisch ausgesetzt und der Status wechselt zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, können Sie die Komposition über die Schaltflächen **[!UICONTROL Fortsetzen]** wieder aufnehmen.
+   * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, die Komposition behält jedoch den Status **[!UICONTROL Gestartet]**.
+   * **[!UICONTROL Vorgang abbrechen]**: Die Komposition wird automatisch gestoppt und der Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie die Komposition mit der Schaltfläche **[!UICONTROL Starten]** erneut.
 
-* **[!UICONTROL Folgefehler]**: Geben Sie die Anzahl der Fehler an, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, ändert sich der Kompositionsstatus in **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 beträgt, wird die Komposition unabhängig von der Anzahl der Fehler nie angehalten.
+* **[!UICONTROL Aufeinanderfolgende Fehler]**: Geben Sie die Anzahl der Fehler an, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, wechselt der Status der Komposition in **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 beträgt, wird die Komposition unabhängig von der Fehleranzahl nie angehalten.
