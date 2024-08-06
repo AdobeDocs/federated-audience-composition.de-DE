@@ -4,9 +4,9 @@ title: Verwenden der Aktivität „Planung“
 description: Erfahren Sie, wie Sie die Aktivität „Planung“ verwenden
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann die Komposition gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der Komposition verwendet werden.
 
-Wenn Sie eine Verbindung zum Ziel Federated Audience Komposition konfiguriert haben, können Sie diese Aktivität verwenden, um Adobe Experience Platform-Zielgruppen regelmäßig zu übertragen. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
+Wenn Sie eine Verbindung zum Ziel „Komposition föderierter Zielgruppen“ konfiguriert haben, können Sie mit dieser Aktivität Adobe Experience Platform-Zielgruppen in regelmäßigen Abständen versenden. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 ## Was ist eine Komposition? {#what}
 
-Mit der Zielgruppenkomposition von Adobe können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten (Aufspaltung, Ausschließen, usw.) in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Danach werden die resultierenden Zielgruppen zusammen mit vorhandenen Zielgruppen in Adobe Experience Platform gespeichert und können in Adobe Experience Platform-Zielen und Adobe Journey Optimizer für die Kundenansprache genutzt werden. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../start/audiences.md)
+Mit der Zielgruppenkomposition von Adobe können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten (Aufspaltung, Ausschließen, usw.) in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden zusammen mit bestehenden Zielgruppen in Adobe Experience Platform gespeichert und können in Adobe Experience Platform-Zielen und Journey Optimizer zur Ansprache der Kundschaft genutzt werden. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

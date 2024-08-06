@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Aktivität „Deduplizierung“ verwenden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -47,13 +47,13 @@ Gehen Sie folgendermaßen vor, um die **Deduplizierungsaktivität** zu konfiguri
 
    ![](../assets/deduplication.png)
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Deduplizierungseinstellungen]** die Anzahl der eindeutigen **[!UICONTROL beizubehaltenden Dubletten]** aus. Der Standardwert für dieses Feld ist **1**. Mit dem Wert **0** können Sie alle Duplikate beibehalten.
+1. Wählen Sie im Abschnitt **[!UICONTROL Deduplizierungseinstellungen]** die Anzahl der eindeutigen **[!UICONTROL beizubehaltenden Dubletten]** aus. Der Standardwert dieses Felds ist **1**. Der Wert **0** erlaubt es Ihnen, alle Duplikate zu behalten.
 
-   Nehmen wir z. B. den Fall, dass die Datensätze A und B wie Dubletten des Datensatzes Y und ein Datensatz C wie eine Dublette des Datensatzes Z angesehen werden:
+   Nehmen wir z. B. den Fall, dass die Datensätze A und B wie Duplikate des Datensatzes Y und ein Datensatz C wie ein Duplikat des Datensatzes Z angesehen werden:
 
-   * Wenn der Wert des Felds **1** lautet: Es werden nur die Datensätze Y und Z beibehalten.
-   * Wenn der Wert des Felds **0** ist: Alle Datensätze werden beibehalten.
-   * Wenn der Wert des Felds **2** lautet: Die Datensätze C und Z werden beibehalten und zwei Datensätze aus A, B und Y werden entweder zufällig oder je nach der im Anschluss ausgewählten Deduplizierungsmethode beibehalten.
+   * Wenn der Wert des Felds **1** lautet: werden nur die Datensätze Y und Z beibehalten.
+   * Wenn der Wert des Felds **0** lautet: werden alle Datensätze beibehalten.
+   * Wenn der Wert des Felds **2** lautet: werden die Datensätze C und Z beibehalten und von den Datensätzen A, B und Y werden zwei entweder nach dem Zufallsprinzip oder in Abhängigkeit von der im Anschluss ausgewählten Deduplizierungsmethode beibehalten.
 
 1. Wählen Sie die **[!UICONTROL Deduplizierungsmethode]** aus, die verwendet werden soll:
 

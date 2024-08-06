@@ -1,32 +1,32 @@
 ---
-title: Erste Schritte mit der Experience Platform Federated Audience Komposition
+title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience Platform
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # Erste Schritte mit der Komposition föderierter Zielgruppen {#gs-fac}
 
-Zusammengestellte Zielgruppenkomposition ist eine Add-On-Funktion für [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} und [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"} , mit der Sie Zielgruppen aus Ihren Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren können. Die Komposition föderierter Zielgruppen bietet eine einfache und leistungsstarke Lösung, um Ihr Unternehmens-Data Warehouse direkt in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen über die Tabellen in Ihrem Data Warehouse durchzuführen.
+Die Komposition föderierter Zielgruppen ist eine Add-on-Funktion für [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} und [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}, mit der Sie Zielgruppen aus Data Warehouses von Drittanbietern erstellen und anreichern sowie die Zielgruppen in Adobe Experience Platform importieren können. Die Komposition föderierter Zielgruppen bietet eine einfache und leistungsstarke Lösung, um Ihr Unternehmens-Data Warehouse direkt in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen über die Tabellen in Ihrem Data Warehouse durchzuführen.
 
 Mit der Komposition föderierter Zielgruppen von Adobe können Benutzerinnen und Benutzer von Adobe Experience Platform-Apps auf ihre Kundendaten zugreifen, die in ihren Data Warehouses und auf Cloud-Speicherplattformen wie Amazon Redshift, Azure Synapse Analytics usw. gespeichert sind. Kundendaten können in mehreren Data Warehouses gespeichert werden und sind jetzt ohne Replikation sofort verfügbar. Welche Plattformen unterstützt werden, erfahren Sie auf [dieser Seite](../connections/federated-db.md#supported-db).
 
 ## Funktionen {#rn-capabilities}
 
-Zusammengestellte Zielgruppen Die Zusammenstellung erweitert den Wert von Real-Time CDP und Journey Optimizer um einen umfassenden Ansatz zur Kuratierung und Aktivierung von Zielgruppen:
+Die Komposition föderierter Zielgruppen steigert den Wert von Real-Time CDP und Adobe Journey Optimizer mit einem umfassenden Ansatz für die Kuration und Aktivierung von Zielgruppen:
 
-* Erweitern Sie den Zugriff auf kritische Warehouse-basierte Datensätze, um hochwertige Zielgruppen zu erstellen: Nutzen Sie vorhandene Data Warehouse als Hauptaufzeichnungssystem und nutzen Sie gleichzeitig branchenführende Anwendungen, um großartige Kundenerlebnisse zu erzielen.
+* Erweitern Sie den Zugriff auf kritische Warehouse-basierte Datensätze, um hochwertige Zielgruppen zu erstellen: Nutzen Sie vorhandene Data Warehouses als Hauptaufzeichnungssystem und nutzen Sie gleichzeitig marktführende Anwendungen, um großartige Kundenerlebnisse zu erzielen.
 
-* Umfassende Unterstützung für Anwendungsfälle zur Interaktion: Federated Audience Komposition in Verbindung mit Real-Time CDP oder Journey Optimizer unterstützt markeninitiierte, personalisierte Erlebnisse mit Federated Audiences und bietet sofort einsetzbare Erlebnisse, die durch Echtzeit-Ereignisse ausgelöst werden, in Kombination mit Personalattributen, um die Anforderungen an Anwendungsfälle in allen Teams zu erfüllen.
+* Umfassende Unterstützung für Anwendungsfälle zur Interaktion: Die Komposition föderierter Zielgruppen in Verbindung mit Real-Time CDP oder Journey Optimizer unterstützt markeninitiierte, personalisierte Erlebnisse mit föderierten Zielgruppen und bietet durch Echtzeitereignisse ausgelöste Ad-hoc-Erlebnisse, in Kombination mit Attributen zu Personen, um die Anforderungen an Anwendungsfälle über alle Teams hinweg zu erfüllen.
 
-* Minimieren der Datenverschiebung und -duplizierung: Erstellen Sie Zielgruppen aus Datensätzen, die in einem Enterprise Data Warehouse leben, ohne die zugrunde liegenden Daten zu kopieren, um umsetzbare Marketing-Profile und -Zielgruppen zu verwalten.
+* Minimieren der Datenbewegung und -duplizierung: Erstellen Sie Zielgruppen aus Datensätzen, die in einem Unternehmens-Data Warehouse gespeichert sind, ohne die zugrunde liegenden Daten zu kopieren, um umsetzbare Marketing-Profile und -Zielgruppen zu verwalten.
 
-* Verwenden Sie ein einzelnes System für erlebnisgesteuerte Workflows: Kuratieren Sie erfasste und verbundene Zielgruppen in Adobe Experience Platform und koordinieren Sie ausgehende Erlebnisse über alle Kanäle hinweg.
+* Verwenden Sie ein einziges System für erlebnisgesteuerte Workflows: Kuratieren Sie aufgenommene und föderierte Zielgruppen in Adobe Experience Platform und koordinieren Sie ausgehende Erlebnisse über alle Kanäle hinweg.
 
 ## Anwendungsfälle {#rn-uc}
 
@@ -34,9 +34,9 @@ Erstellen Sie über eine Marketing-freundliche Benutzeroberfläche Segmentregeln
 
 In dieser Version sind zwei Anwendungsfälle verfügbar:
 
-1. Zielgruppenerstellung: Erstellen Sie neue Zielgruppen aus Unternehmensdatensätzen, ohne die zugrunde liegenden Daten zu kopieren, und aktivieren Sie diese Zielgruppen mit vordefinierten Zielen. &#x200B;
+1. Zielgruppenerstellung: Erstellen Sie neue Zielgruppen aus Unternehmensdatensätzen, ohne die zugrunde liegenden Daten zu kopieren, und aktivieren Sie diese Zielgruppen mit vordefinierten Zielen.
 
-1. Zielgruppenanreicherung: Reichern Sie vorhandene Zielgruppen in Adobe Experience Platform an, indem Sie zusammengestellte Zielgruppendaten verwenden, die mit dem Enterprise Data Warehouse verknüpft wurden. Diese Daten werden nicht in Adobe Experience Platform-Kundenprofilen beibehalten.
+1. Zielgruppenanreicherung: Reichern Sie vorhandene Zielgruppen in Adobe Experience Platform an, indem Sie zusammengestellte Zielgruppendaten verwenden, die mit dem Unternehmens-Data Warehouse föderiert wurden. Diese Daten werden nicht in Adobe Experience Platform-Kundenprofilen beibehalten.
 
 ![Diagramm](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -58,16 +58,16 @@ Die wichtigsten Schritte:
 
 >[!NOTE]
 >
->Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Weitere Informationen {#learn}
 
 <!-- Workflow + Workflow activities-->
 
 
-Erfahren Sie auf [dieser Seite](access-prerequisites.md), wie Sie auf Federated Audience Komposition, Limits und Einschränkungen zugreifen können.
+Erfahren Sie auf [dieser Seite](access-prerequisites.md), wie Sie auf Komposition föderierter Zielgruppen, Leitlinien und Einschränkungen zugreifen können.
 
-Siehe auch häufig gestellte Fragen in [dieser Seite](faq.md).
+Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 
 
 >[!CONTEXTUALHELP]

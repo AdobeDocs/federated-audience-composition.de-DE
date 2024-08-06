@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Federated-Datenbanken konfigurieren
-description: Erfahren Sie, wie Sie Ihre Federated-Datenbanken konfigurieren.
+title: Konfigurieren föderierter Datenbanken
+description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
-# Federated-Datenbanken konfigurieren {#federated-db}
+# Konfigurieren föderierter Datenbanken {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
->title="Federated-Datenbanken"
->abstract="Bestehende Verbindungen zu Federated-Datenbanken werden in diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**."
+>title="Föderierte Datenbanken"
+>abstract="Bestehende Verbindungen zu föderierten Datenbanken werden auf diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -28,9 +28,9 @@ ht-degree: 74%
 >title="Details zur föderierten Datenbank"
 >abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]**, um Ihre Konfiguration zu validieren."
 
-Mit der Experience Platform Federated Audience Komposition können Kunden Audiences aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren.
+Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses anderer Drittanbieter zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
 
-Erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank in [dieser Seite](connections.md) erstellen, konfigurieren, testen und speichern. Unten finden Sie die Liste der unterstützten Datenbanken und die detaillierten Einstellungen, die für jede dieser Datenbanken konfiguriert werden müssen.
+Auf [dieser Seite](connections.md) erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren, testen und speichern. Unten finden Sie die Liste der unterstützten Datenbanken und die ausführlichen Einstellungen zum Konfigurieren jeder einzelnen Datenbank.
 
 ## Unterstützte Datenbanken {#supported-db}
 
@@ -44,7 +44,7 @@ Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den 
 
 ## Amazon Redshift {#amazon-redshift}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -68,13 +68,13 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
    * **[!UICONTROL Datenbank]**: Name Ihrer Datenbank, falls nicht im DSN angegeben. Kann leer bleiben, wenn im DSN angegeben
 
-   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation zu Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"} .
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation zu Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.
 
      >[!NOTE]
      >
-     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
      >
-     >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
+     >Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen **unterschiedliche Arbeitsschemata** verwendet werden.
 
 1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
@@ -84,7 +84,7 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 ## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Führen Sie die folgenden Schritte aus, um den Zugriff auf Azure Synapse Redshift zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Führen Sie die folgenden Schritte aus, um den Zugriff auf Azure Synapse Redshift zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -118,12 +118,12 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 | Option | Beschreibung |
 |---|---|
-| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Microsoft SQL-Dokumentation](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen n°8). |
+| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8) |
 
 
 ## Google BigQuery {#google-big-query}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google BigQuery zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google BigQuery zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -139,11 +139,11 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 1. Konfigurieren Sie die Authentifizierungseinstellungen für Google BigQuery:
 
-   * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail-Adresse Ihres **[!UICONTROL Dienstkontos]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail-Adresse Ihres **[!UICONTROL Dienstkontos]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projekt]**: Geben Sie den Namen Ihres **[!UICONTROL Projekts]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projekt]**: Geben Sie den Namen Ihres **[!UICONTROL Projekts]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weitere Informationen hierzu finden Sie in der [Dokumentation zur Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Pfad der Schlüsseldatei]**: Laden Sie Ihre Schlüsseldatei auf den Server hoch. Es sind nur .json-Dateien zulässig.
 
@@ -170,7 +170,7 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
 ## Snowflake {#snowflake}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -198,9 +198,9 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
      >[!NOTE]
      >
-     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
      >
-     >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
+     >Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen **unterschiedliche Arbeitsschemata** verwendet werden.
 
    * **[!UICONTROL Privater Schlüssel]**: Klicken Sie auf das Feld **[!UICONTROL Privater Schlüssel]**, um Ihre .pem-Dateien aus Ihrem Gebietsschema-Ordner auszuwählen.
 
@@ -218,17 +218,17 @@ Der Connector unterstützt die folgenden Optionen:
 |---|---|
 | workschema | Datenbankschema zur Verwendung mit Arbeitstabellen |
 | warehouse | Name des zu verwendenden Standard-Warehouse. Dadurch wird die Standardeinstellung des Benutzers außer Kraft gesetzt. |
-| TimeZoneName | Standardmäßig leer, was bedeutet, dass der Anwendungsserver der Systemzeitzone verwendet wird. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
-| WeekStart | Sitzungsparameter WEEK_START. Ist standardmäßig auf 0 gesetzt <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Snowflake-Ergebnisse zu deaktivieren. <br>Weitere Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. <br>Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Sitzungsparameter WEEK_START. Ist standardmäßig auf 0 gesetzt. <br>Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Snowflake-Ergebnisse zu deaktivieren. <br>Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Anzahl der Threads, die für den Snowflake-Massenlader verwendet werden sollen. Mehr Threads bedeuten eine bessere Leistung bei größeren Massenladevorgängen. Ist standardmäßig auf 1 gesetzt Die Zahl kann je nach Anzahl der Rechner-Threads angepasst werden. |
-| chunkSize | Bestimmt die Dateigröße des Massenladerblocks. Standardmäßig auf 128 MB gesetzt. Kann bei Verwendung mit „bulkThreads“ geändert werden, um eine optimale Leistung zu erreichen. Mehr gleichzeitig aktive Threads bedeuten eine bessere Leistung. <br>Weitere Informationen hierzu finden Sie in der [Snowflake-Dokumentation](https://docs.snowflake.com/de/sql-reference/sql/put){target="_blank"}. |
+| chunkSize | Bestimmt die Dateigröße des Massenladerblocks. Standardmäßig auf 128 MB gesetzt. Kann bei Verwendung mit „bulkThreads“ geändert werden, um eine optimale Leistung zu erreichen. Mehr gleichzeitig aktive Threads bedeuten eine bessere Leistung. <br>Weiterführende Informationen hierzu finden Sie in der [Dokumentation zu Snowflake](https://docs.snowflake.com/de/sql-reference/sql/put){target="_blank"}. |
 | StageName | Name des vorab bereitgestellten internen Stages. Er wird beim Massenladen verwendet, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte Informationen zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica Analytics zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica Analytics zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -256,9 +256,9 @@ Verwenden Sie Federated-Datenbanken, um in einer externen Datenbank gespeicherte
 
      >[!NOTE]
      >
-     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemas, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
      >
-     >**Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen unterschiedliche Arbeitsschemas verwendet werden.**
+     >Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen **unterschiedliche Arbeitsschemata** verwendet werden.
 
    * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
 
@@ -272,4 +272,4 @@ Der Connector unterstützt die folgenden Optionen:
 
 | Option | Beschreibung |
 |---|---|
-| TimeZoneName | Standardmäßig leer, was bedeutet, dass die Systemzeitzone des Anwendungsservers verwendet wird. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen.  |
+| TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. |

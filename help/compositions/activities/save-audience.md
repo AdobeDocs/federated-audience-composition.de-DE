@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ ver
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '462'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -62,13 +62,13 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
    * **Primäres Identitätsfeld**: Wählen Sie das Feld aus, mit dem die Profile identifiziert werden sollen, beispielsweise die E-Mail-Adresse oder Telefonnummer.
    * **Identity-Namespace**: Wählen Sie den Namespace, der zur Identifizierung der Profile verwendet werden soll, d. h. die Art der Daten, die als Identifikationsschlüssel verwendet werden sollen. Wenn beispielsweise die E-Mail-Adresse als primäres Identitätsfeld ausgewählt wurde, sollte der Identity-Namespace **E-Mail** ausgewählt werden. Wenn die eindeutige Kennung die Telefonnummer ist, sollte der Identity-Namespace **Telefon** ausgewählt werden.
 
-## Auf Ihre Zielgruppe in Adobe Experience Platform zugreifen {#access-audience}
+## Zugreifen auf Ihre Zielgruppe in Adobe Experience Platform {#access-audience}
 
-Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in der Echtzeit-Kundendatenplattform von Adobe und/oder Adobe Journey Optimizer verfügbar gemacht. Sie ist im Menü **Zielgruppen** verfügbar. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
-Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt „Zielgruppenzuordnungen“ ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer auswählen oder für ein beliebiges Ziel aktivieren, das von Adobe Experience Platform unterstützt wird.
+Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt „Zielgruppenzuordnungen“ ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer als Ziel auswählen oder für ein beliebiges von Adobe Experience Platform unterstütztes Ziel aktivieren.
 
-[Weitere Informationen finden Sie in der Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Weitere Informationen hierzu finden sich in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 <!--
 

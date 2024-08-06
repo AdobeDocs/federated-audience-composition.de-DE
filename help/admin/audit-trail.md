@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Audit-Protokoll
-description: Erfahren Sie, wie Aktionen und Ereignisse protokolliert und im Audit-Protokoll aufgerufen werden.
+description: Erfahren Sie, wie Aktionen und Ereignisse im Audit-Protokoll protokolliert und zur Verfügung gestellt werden
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Audit-Protokoll"
->abstract="Die Funktion &quot;Audit&quot;-Protokoll enthält eine detaillierte und chronologische Übersicht aller Aktionen und Ereignisse, die in Ihrer Adobe Experience Platform Federated Audience Komposition-Umgebung in Echtzeit durchgeführt wurden."
+>abstract="Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung der Komposition föderierter Zielgruppen in Adobe Experience Platform durchgeführt wurden."
 
 Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische Aufzeichnung aller Aktionen und Ereignisse, die in Echtzeit an Ihrer Umgebung stattgefunden haben.
 
-Die Funktion **[!UICONTROL Audit trail]** zeichnet ständig ein detailliertes Protokoll der Aktionen und Ereignisse auf, die in der Adobe Federated Komposition-Instanz in Echtzeit stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
+Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet ständig ein detailliertes Protokoll der Aktionen und Ereignisse auf, die innerhalb der Adobe-Instanz „Föderierte Komposition“ in Echtzeit stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
 
 +++ Weitere Informationen über die verfügbaren Entitäten im Audit-Protokoll
 
@@ -53,7 +53,7 @@ So greifen auf das **[!UICONTROL Audit-Protokoll]** Ihrer Instanz zu:
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Audit-Protokoll]** aus.
 
-1. Das Fenster **[!UICONTROL Audit-Protokoll]** wird mit der Liste Ihrer Entitäten geöffnet. Federated Audience Komposition überprüft die Aktionen zum Erstellen, Bearbeiten und Löschen von Workflows, Optionen, Sendungen und Schemata.
+1. Das Fenster **[!UICONTROL Audit-Protokoll]** wird mit der Liste Ihrer Entitäten geöffnet. Die Komposition föderierter Zielgruppen protokolliert die Aktionen zum Erstellen, Bearbeiten und Löschen von Workflows, Optionen, Sendungen und Schemata.
 
    ![](assets/audit_trail.png)
 

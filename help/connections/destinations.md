@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilf
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen a
 
 Dazu müssen Sie in Adobe Experience Platform eine neue Verbindung zum Ziel „Komposition föderierter Zielgruppen“ einrichten. Sie können eine Planung verwenden, um eine bestimmte Zielgruppe regelmäßig zu senden, und bestimmte einzuschließende Attribute auswählen, z. B. IDs für die Datenabstimmung. Wenn Sie Governance- und Datenschutzrichtlinien auf Ihre Zielgruppe angewendet haben, werden diese beibehalten und nach Aktualisierung der Zielgruppe an das Zielgruppenportal zurückgesendet.
 
-Angenommen, Sie speichern Kaufinformationen in Ihrem Data Warehouse und möchten innerhalb der letzten zwei Monate eine Adobe Experience Platform-Zielgruppe erstellen, die sich an Kunden wendet, die an einem bestimmten Produkt interessiert sind. Mithilfe des Ziels &quot;Zusammengestellte Zielgruppenkomposition&quot;können Sie:
+Wenn Sie beispielsweise Kaufinformationen in Ihrem Data Warehouse speichern und über eine Adobe Experience Platform-Zielgruppe für die Kundinnen und Kunden verfügen, die sich in den letzten beiden Monaten für ein bestimmtes Produkt interessiert haben, können Sie mithilfe des Ziels „Komposition föderierter Zielgruppen“ Folgendes tun:
 
-* Verfeinern Sie die Zielgruppe auf Grundlage der Kaufinformationen. Beispielsweise können Sie die Zielgruppe filtern, um Kunden anzusprechen, die nur einen Kauf von mehr als 150$ getätigt haben.
-* Reichern Sie die Zielgruppe mit Feldern zu Käufen an, z. B. Produktname und gekaufte Menge.
+* Verfeinern der Zielgruppe auf Grundlage der Kaufinformationen. Beispielsweise können Sie die Zielgruppe filtern, um nur Kundinnen und Kunden auszuwählen, die einen Kauf von mehr als 150 US-Dollar getätigt haben.
+* Reichern Sie die Zielgruppe mit Feldern an, die sich auf Käufe beziehen, wie beispielsweise den Produktnamen und die gekaufte Menge.
 
 Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an die Komposition föderierter Zielgruppen von Adobe lauten wie folgt:
 
@@ -39,7 +39,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-configure.png)
 
-   Über den Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten. Weitere Informationen zu Warnungen finden Sie in der Adobe Experience Platform-Dokumentation zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Über den Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten. Weitere Informationen zu Warnhinweisen finden Sie in der Dokumentation zu Adobe Experience Platform zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 
@@ -57,12 +57,12 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    >[!NOTE]
    >
-   >Ausführliche Informationen zum Konfigurieren des Zeitplans und der Dateinamen finden Sie in den folgenden Abschnitten der Adobe Experience Platform-Dokumentation:
+   >Detaillierte Informationen zum Konfigurieren von Zeitplänen und Dateinamen finden Sie in den folgenden Abschnitten der Dokumentation zu Adobe Experience Platform:
    >
-   >* [Audience-Export planen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Dateinamen konfigurieren](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [Planen eines Zielgruppenexports](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Konfigurieren von Dateinamen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Identitätsfelder für Ihre Zielgruppe(n) exportiert werden sollen. Weitere Informationen finden Sie im Schritt [Zuordnen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Adobe Experience Platform-Dokumentation.
+1. Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Identitätsfelder für Ihre Zielgruppe(n) exportiert werden sollen. Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform unter [Zuordnungsschritt](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}.
 
    ![](assets/destination-attributes.png)
 

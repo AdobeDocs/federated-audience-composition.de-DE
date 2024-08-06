@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Schemata beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 43%
 
 Ein Schema ist eine Darstellung einer Tabelle Ihrer Datenbank. Es ist ein Objekt innerhalb der Anwendung, das definiert, wie die Daten mit Datenbanktabellen verknüpft werden.
 
-Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der Experience Platform Federated Audience Komposition definieren:
+Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der Komposition föderierter Zielgruppen in Experience Platform definieren:
 
-* Legen Sie einen Anzeigenamen und eine Beschreibung fest, damit Benutzende dies einfacher nachvollziehen können.
-* Definieren Sie die Sichtbarkeit jedes Felds entsprechend seiner tatsächlichen Nutzung.
+* Geben Sie einen Anzeigenamen und eine gute Beschreibung ein, um das Verständnis für Benutzende zu erleichtern
+* Bestimmen Sie die Sichtbarkeit der einzelnen Felder entsprechend ihrer tatsächlichen Verwendung.
 * Wählen Sie den Primärschlüssel, um die Schemata untereinander zu verknüpfen, wie es im [Datenmodell](../data-management/gs-models.md#data-model-start) erforderlich ist.
 
 >[!CAUTION]
@@ -56,32 +56,32 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 
 ## Erstellen eines Schemas {#schema-create}
 
-Gehen Sie wie folgt vor, um Schemas in Federated Audience Komposition zu erstellen:
+Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen zu erstellen:
 
-1. Navigieren Sie im Abschnitt **[!UICONTROL FÖDERIERTE DATEN]** zum Link **[!UICONTROL Modelle]**. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]** .
+1. Navigieren Sie im Abschnitt **[!UICONTROL FÖDERIERTE DATEN]** zum Link **[!UICONTROL Modelle]**. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   In diesem Schritt können Sie auf einen neuen Bildschirm mit einer Dropdown-Liste zugreifen, in der Sie die mit Ihrer Umgebung verbundenen Datenbanken finden. Weitere Informationen zur Datenbankverbindung finden Sie in [diesem Abschnitt](../connections/connections.md#connections-fdb).
+   Mit diesem Schritt erhalten Sie Zugang zu einem neuen Bildschirm mit einer Dropdown-Liste, in der Sie die mit Ihrer Umgebung verbundene(n) Datenbank(en) finden. Weiterführende Informationen zur Verbindung von Datenbanken finden Sie in [diesem Abschnitt](../connections/connections.md#connections-fdb)
 
-1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]** .
+1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
-   Daraufhin wird die Liste aller Tabellen in der Datenbank angezeigt.
+   Anschließend sehen Sie die Liste aller Tabellen in der Datenbank.
 
-1. Durch Hinzufügen der Tabellen, für die Sie das Schema erstellen möchten, haben Sie Zugriff auf die entsprechenden Felder wie folgt:
+1. Indem Sie die Tabellen hinzufügen, für die das Schema erstellt werden soll, haben Sie Zugriff auf die entsprechenden Felder (siehe unten).
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
-   Für jede Tabelle haben Sie folgende Möglichkeiten:
+   Für jede Tabelle können Sie folgende Vorgänge durchführen:
 
-   * den Titel des Schemas ändern
+   * Ändern des Schema-Labels
    * Hinzufügen einer Beschreibung
-   * benennen Sie alle Felder um und legen Sie deren Sichtbarkeit fest.
+   * Umbenennen aller Felder und Festlegen ihrer Sichtbarkeit
    * Auswählen des Primärschlüssels des Schemas
 
-   Beispielsweise wurde für die folgende Tabelle importiert:
+   Beispielsweise für die folgenden importierte Tabelle:
 
    ![](assets/schema_lumaorder.png){zoomable="yes"}
 
@@ -91,32 +91,32 @@ Gehen Sie wie folgt vor, um Schemas in Federated Audience Komposition zu erstell
 
 ## Bearbeiten eines Schemas {#schema-edit}
 
-So bearbeiten Sie ein Schema:
+Um ein Schema zu bearbeiten:
 
-1. Klicken Sie auf den Namen Ihres Schemas im Ordner Schemas .
+1. Klicken Sie auf den Namen des Schemas im Schemata-Ordner.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   Sie können auf dieselben Optionen zugreifen wie beim Erstellen eines Schemas ](#schema-create).[
+   Sie können auf dieselben Optionen zugreifen wie beim [Erstellen eines Schemas](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Vorschau von Daten in einem Schema {#schema-preview}
 
-Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]** , wie unten dargestellt.
+Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]**, wie unten dargestellt.
 
-Klicken Sie auf den Link **[!UICONTROL Berechnen]** , um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
+Klicken Sie auf den Link **[!UICONTROL Berechnen]**, um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]** , um die Datenanzeige zu ändern.
+Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]**, um die Datenanzeige zu ändern.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Löschen eines Schemas {#schema-delete}
 
-Um ein Schema zu löschen, klicken Sie auf die Schaltfläche **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Löschen]** aus.
+Klicken Sie zum Löschen eines Schemas auf die Schaltfläche **[!UICONTROL Mehr]** und dann auf **[!UICONTROL Löschen]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}
