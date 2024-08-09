@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilf
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Erstellen eines Ziels"
->abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen föderierten Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
+>abstract="Die Einstellungen für die Verbindung mit der neuen föderierten Datenbank eingeben. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
 
 Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen aus dem Zielgruppenportal mit Ihren externen Datenbanken unter Verwendung des Ziels **Komposition föderierter Zielgruppen**. Mit dieser Integration können Sie vorhandene Zielgruppen in Kompositionen nutzen und sie mit Daten aus Ihren externen Datenbanken anreichern oder verfeinern, um neue Zielgruppen zu erstellen.
 

@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
 
@@ -16,12 +16,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Arbeiten mit Modellen"
->abstract="Dieser Bildschirm enthält eine Liste der Schemata und Datenmodelle. Sie können Schemata und Datenmodelle über die Schaltfläche **Erstellen** erstellen."
+>abstract="Dieser Bildschirm enthält eine Liste der Schemata und Datenmodelle. Schemata und Datenmodelle können über die Schaltfläche **Erstellen** erstellt werden."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
 >title="Schemata auswählen"
->abstract="Wählen Sie die Schemata für das Datenmodell aus."
+>abstract="Die Schemata für das Datenmodell auswählen."
 
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"
 >title="Datenmodelleigenschaften"
->abstract="Geben Sie den Titel des Datenmodells ein."
+>abstract="Den Titel des Datenmodells eingeben."
 
 
 ## Was ist ein Datenmodell? {#data-model-start}

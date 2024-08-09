@@ -4,7 +4,7 @@ description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und 
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -85,4 +85,4 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 >[!CONTEXTUALHELP]
 >id="dc_federated_database_create_link"
 >title="Erstellen eines Links"
->abstract="Definieren Sie die Link-Einstellungen."
+>abstract="Die Link-Einstellungen definieren."

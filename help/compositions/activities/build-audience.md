@@ -6,8 +6,8 @@ badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
 source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="Aktivität „Zielgruppe erstellen“"
->abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in der Komposition aufgenommen wird."
+>abstract="Die Aktivität **Zielgruppe erstellen** ermöglicht das Definieren der Zielgruppe, die in der Komposition aufgenommen wird."
 
 Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zielgruppe, die in der Komposition aufgenommen wird. Zur Definition der Zielgruppenpopulation haben Sie folgende Möglichkeiten:
 
@@ -28,7 +28,7 @@ Die Aktivität **Zielgruppe erstellen** ermöglicht Ihnen das Definieren der Zie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
 >title="Zielgruppe"
->abstract="Wählen Sie Ihre Zielgruppe aus."
+>abstract="Wählen Sie die Zielgruppe aus."
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen** zu konfigurieren:
 
@@ -60,7 +60,7 @@ Gehen Sie wie folgt vor, um eine vorhandene Zielgruppe auszuwählen:
 
    ![](../assets/build-audience-read.png)
 
-1. Wählen Sie Ihre Zielgruppe aus.
+1. Wählen Sie die Zielgruppe aus.
 
 >[!ENDTABS]
 

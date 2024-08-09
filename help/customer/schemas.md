@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie mit Schemata beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -16,23 +16,23 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
 >title="Tabellen auswählen"
->abstract="Wählen Sie die Tabellen aus, die für das Datenmodell hinzugefügt werden sollen."
+>abstract="Die Tabellen auswählen, die für das Datenmodell hinzugefügt werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_key"
 >title="Schlüssel"
->abstract="Wählen Sie einen Schlüssel für die Datenabstimmung aus."
+>abstract="Einen Schlüssel für die Datenabstimmung auswählen."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_schema_name"
 >title="Name des Schemas"
->abstract="Geben Sie den Namen des Schemas ein."
+>abstract="Den Namen des Schemas eingeben."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Beschreibung des Schemas"
->abstract="Die Beschreibung des Schemas listet Spalten, Typen und Bezeichnungen auf. Sie können auch den Abstimmschlüssel für das Schema überprüfen. Um die Definition des Schemas zu aktualisieren, klicken Sie auf das Stiftsymbol."
+>abstract="Die Beschreibung des Schemas listet Spalten, Typen und Bezeichnungen auf. Man kann auch den Abstimmschlüssel für das Schema überprüfen. Um die Definition des Schemas zu aktualisieren, auf das Stiftsymbol klicken."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"

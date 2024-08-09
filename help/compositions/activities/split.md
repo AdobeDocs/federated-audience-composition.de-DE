@@ -16,21 +16,21 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
 >title="Aktivität „Aufspaltung“"
->abstract="Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren, z. B. Filterregeln oder Populationsgröße."
+>abstract="Mit der Aktivität **Aufspaltung** können eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentiert werden, z. B. Filterregeln oder Populationsgröße."
 
-Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentieren, z. B. Filterregeln oder Populationsgröße.
+Mit der Aktivität **Aufspaltung** können eingehende Populationen basierend auf unterschiedlichen Auswahlkriterien in mehrere Teilmengen segmentiert werden, z. B. Filterregeln oder Populationsgröße.
 
 ## Konfigurieren der Aufspaltungsaktivität {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmente für die Aktivität „Aufspaltung“"
->abstract="Fügen Sie beliebig viele Teilmengen hinzu, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Vergewissern Sie sich vor dem Start Ihrer Komposition, dass Sie die Teilmengen mithilfe der Pfeilschaltflächen in der für Sie passenden Reihenfolge angeordnet haben."
+>abstract="Es können beliebig viele Teilmengen hinzugefügt werden, um die eingehende Population zu segmentieren.<br/></br>Bei Ausführung der Aktivität **Aufspaltung** wird die Population sukzessive in unterschiedliche Teilmengen segmentiert, und zwar in der Reihenfolge, in der diese zur Aktivität hinzugefügt werden. Man sollte sich vor dem Start Ihrer Komposition vergewissern, dass die Teilmengen mithilfe der Pfeilschaltflächen in der passenden Reihenfolge angeordnet wurde."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="Filter „Aufspaltungsaktivität“"
->abstract="Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modelers. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
+>abstract="Auf **[!UICONTROL Filter erstellen]** klicken und die gewünschte Filterregel mithilfe des Abfrage-Modelers konfigurieren, um eine Filterbedingung auf die Teilmenge anzuwenden. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -40,7 +40,7 @@ Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
 >title="Sortierung der Aufspaltungsaktivität"
->abstract="Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Schalten Sie dazu die Option **Sortierung aktivieren** ein. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden."
+>abstract="Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Dazu die Option **Sortierung aktivieren** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
@@ -50,12 +50,12 @@ Mit der Aktivität **Aufspaltung** können Sie eingehende Populationen basierend
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
 >title="Alle Teilmengen in derselben Tabelle erzeugen"
->abstract="Aktivieren Sie diese Option, um alle Teilmengen in einer Ausgabetransition zusammenzufassen."
+>abstract="Diese Option aktivieren, um alle Teilmengen in einer Ausgabetransition zusammenzufassen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_emptytransition"
 >title="Leere Transition überspringen"
->abstract="Aktivieren Sie die Option **[!UICONTROL Leere Transition überspringen]**, um die ausgehende Transition für diese Teilmenge zu deaktivieren, wenn die Eingangspopulation leer ist."
+>abstract="Die Option **[!UICONTROL Leere Transition überspringen]** aktivieren, um die ausgehende Transition für diese Teilmenge zu deaktivieren, wenn die Eingangspopulation leer ist."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
@@ -84,7 +84,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
       ![](../assets/split-subset.png)
 
-   1. Um eine Filterbedingung auf die Teilmenge anzuwenden, klicken Sie auf **[!UICONTROL Filter erstellen]** und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modelers. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist.  [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
+   1. Auf **[!UICONTROL Filter erstellen]** klicken und die gewünschte Filterregel mithilfe des Abfrage-Modelers konfigurieren, um eine Filterbedingung auf die Teilmenge anzuwenden. Es können beispielsweise Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist.  [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
    1. Um die Anzahl der von der Teilmenge ausgewählten Profile zu begrenzen, muss **[!UICONTROL Grenzwert aktivieren]** aktiviert und die Anzahl oder der Prozentsatz der einzuschließenden Population angegeben werden.
 
@@ -92,7 +92,7 @@ Folgen Sie diesen Schritten, um die Aktivität **Aufspaltung** zu konfigurieren:
 
    >[!NOTE]
    >
-   >Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Schalten Sie dazu die Option **[!UICONTROL Sortierung aktivieren]** ein. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden.
+   >Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Dazu die Option **[!UICONTROL Sortierung aktivieren]** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden.
 
 1. Nachdem Sie alle Teilmengen konfiguriert haben, kann die verbleibende Population ausgewählt werden, die keiner der Teilmengen entspricht, und in eine zusätzliche ausgehende Transition eingeschlossen werden. Schalten Sie dazu die Option **[!UICONTROL Komplement erzeugen]** ein.
 
