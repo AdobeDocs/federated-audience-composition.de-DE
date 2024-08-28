@@ -4,10 +4,10 @@ title: Verwenden der Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Aktivität „Abstimmung“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -37,7 +37,7 @@ Mit der Aktivität **Abstimmung** können Sie die Verknüpfung zwischen den Date
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Sie ermöglicht Ihnen, nicht identifizierte Daten mit bestehenden Ressourcen zu verknüpfen. Der Abstimmungsvorgang setzt voraus, dass die Daten, die Sie zusammenführen, bereits in der Datenbank vorhanden sind. Wenn Sie beispielsweise Kaufinformationen abgleichen möchten, aus denen hervorgeht, welches Produkt zu welchem Zeitpunkt von welcher Kundin bzw. welchem Kunden gekauft wurde oder ähnliches, müssen sowohl das Produkt als auch die Kundin, bzw. der Kunde bereits in der Datenbank vorhanden sein.
+Sie ermöglicht Ihnen, nicht identifizierte Daten mit bestehenden Ressourcen zu verknüpfen. Der Abstimmungsvorgang setzt voraus, dass die Daten, die Sie zusammenführen, bereits in der Datenbank vorhanden sind. Wenn Sie beispielsweise Bestellinformationen abstimmen möchten, die zeigen, welches Produkt wann von welchem Kunden gekauft wurde, müssen sowohl das Produkt als auch der Kunde bereits in der Datenbank vorhanden sein.
 
 ## Konfigurieren der Abstimmungsaktivität {#reconciliation-configuration}
 
@@ -64,7 +64,7 @@ Sie ermöglicht Ihnen, nicht identifizierte Daten mit bestehenden Ressourcen zu 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Abstimmungsattribut"
->abstract="Wählen Sie das Attribut aus, das zur Abstimmung der Daten verwendet werden soll, und bestätigen Sie den Vorgang."
+>abstract="Wählen Sie das Attribut aus, das zur Abstimmung der Daten verwendet werden soll, und bestätigen Sie Ihre Auswahl."
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
@@ -87,7 +87,7 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Mithilfe der Schaltfläche **Filter erstellen** können Sie die abzustimmenden Daten filtern. Auf diese Weise können Sie mithilfe des Abfrage-Modelers eine benutzerdefinierte Bedingung erstellen.
+1. Mithilfe der Schaltfläche **Filter erstellen** können Sie Daten zur Abstimmung filtern. Auf diese Weise können Sie mithilfe des Abfrage-Modelers eine benutzerdefinierte Bedingung erstellen.
 
 Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition beibehalten und stehen in der Arbeitstabelle zur zukünftigen Verwendung zur Verfügung. Um nicht abgestimmte Daten zu entfernen, deaktivieren Sie die Option **Nicht abgestimmte Daten beibehalten**.
 
