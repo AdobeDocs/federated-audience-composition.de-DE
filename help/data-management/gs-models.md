@@ -8,7 +8,6 @@ source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 100%
-
 ---
 
 # Erste Schritte mit Datenmodellen {#data-model}
