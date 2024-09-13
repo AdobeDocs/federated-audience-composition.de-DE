@@ -44,7 +44,7 @@ Weitere Informationen zu [Zielgruppen](../start/audiences.md).
 
 Unten sehen Sie beispielsweise die Darstellung eines Datenmodells: die Tabellen mit ihrem Namen und die Verknüpfungen zwischen ihnen.
 
-![](assets/datamodel-temp.png){zoomable="yes"}
+![](assets/datamodel.png){zoomable="yes"}
 
 In der Komposition föderierter Zielgruppen können zahlreiche Datenmodelle erstellt werden.
 
