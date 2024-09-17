@@ -4,10 +4,10 @@ title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
+source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
    * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail-Adresse Ihres **[!UICONTROL Dienstkontos]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projekt]**: Geben Sie den Namen Ihres **[!UICONTROL Projekts]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projekt]**: Geben Sie die Kennung Ihres **[!UICONTROL Projekts]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
