@@ -95,4 +95,3 @@ Alle für Ihr Datenmodell definierten Links werden wie folgt aufgeführt:
 In diesem Video erfahren Sie, wie Sie ein Datenmodell erstellen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
-
