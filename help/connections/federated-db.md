@@ -4,10 +4,10 @@ title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Auf [dieser Seite](connections.md) erfahren Sie, wie Sie die Verbindung zu Ihrer
 Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den folgenden Datenbanken herstellen. Die Konfiguration der einzelnen Datenbanken wird nachfolgend beschrieben.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Führen Sie die folgenden Schritte aus, um den Zugriff auf Azure Synapse Redshift zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Azure synapse Analytics zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -94,11 +94,11 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Azure Synapse Redshift“aus.
+1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Azure synapse Analytics aus.
 
    ![](assets/federated_database_4.png)
 
-1. Konfigurieren Sie die Authentifizierungseinstellungen für Azure Synapse Redshift:
+1. Azure synapse Analytics-Authentifizierungseinstellungen konfigurieren:
 
    * **[!UICONTROL Server]**: Geben Sie die URL des Azure Synapse-Servers ein.
 
