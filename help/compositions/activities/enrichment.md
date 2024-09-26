@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität „Anreicherung“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
->title="Link-Definition"
+>title="Verknüpfungsdefinition"
 >abstract="Erstellen Sie eine Verknüpfung zwischen den Arbeitstabellendaten und der föderierten Datenbank."
 
 >[!CONTEXTUALHELP]
