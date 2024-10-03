@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Azure synapse Analytics zu konfigurieren.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Führen Sie die folgenden Schritte aus, um den Zugriff auf Azure Synapse Analytics zu konfigurieren.
 
 1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
@@ -94,11 +94,11 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdownliste **[!UICONTROL Typ]** die Option Azure synapse Analytics aus.
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Azure Synapse Analytics“ aus.
 
    ![](assets/federated_database_4.png)
 
-1. Azure synapse Analytics-Authentifizierungseinstellungen konfigurieren:
+1. Konfigurieren Sie die Authentifizierungseinstellungen für Azure Synapse Analytics:
 
    * **[!UICONTROL Server]**: Geben Sie die URL des Azure Synapse-Servers ein.
 
@@ -141,7 +141,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
    * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail-Adresse Ihres **[!UICONTROL Dienstkontos]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Projekt]**: Geben Sie die Kennung Ihres **[!UICONTROL Projekts]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Projekt]**: Geben Sie die ID Ihres **[!UICONTROL Projekts]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Datensatz]**: Geben Sie den Namen Ihres **[!UICONTROL Datensatzes]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 

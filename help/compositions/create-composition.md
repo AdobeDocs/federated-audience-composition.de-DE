@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Kompositionen erstellen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '482'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, das ihr Label z
 
    ![](assets/composition-create.png)
 
-1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** eine Bezeichnung für Ihre Komposition ein und klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Geben Sie im Bereich **[!UICONTROL Eigenschaften]** einen Titel für die Komposition an und klicken Sie auf **[!UICONTROL Erstellen]**.
 
 1. Die Arbeitsfläche der Komposition wird angezeigt. Sie können nun Ihre Komposition konfigurieren, indem Sie so viele Aktivitäten hinzufügen, wie Sie benötigen, bevor Sie sie ausführen:
 
@@ -63,6 +63,6 @@ Die verfügbaren Einstellungen lauten wie folgt:
 
    * **[!UICONTROL Prozess aussetzen]**: Die Komposition wird automatisch ausgesetzt und der Status wechselt zu **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, können Sie die Komposition über die Schaltflächen **[!UICONTROL Fortsetzen]** wieder aufnehmen.
    * **[!UICONTROL Ignorieren]**: Der Status der Aufgabe, die den Fehler ausgelöst hat, ändert sich in **[!UICONTROL Fehlgeschlagen]**, die Komposition behält jedoch den Status **[!UICONTROL Gestartet]**.
-   * **[!UICONTROL Vorgang abbrechen]**: Die Komposition wird automatisch gestoppt und ihr Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie die Komposition mit der Schaltfläche **[!UICONTROL Starten]** erneut.
+   * **[!UICONTROL Vorgang abbrechen]**: Die Komposition wird automatisch gestoppt und der Status ändert sich in **[!UICONTROL Fehlgeschlagen]**. Sobald das Problem behoben ist, starten Sie die Komposition mit der Schaltfläche **[!UICONTROL Starten]** erneut.
 
 * **[!UICONTROL Aufeinanderfolgende Fehler]**: Geben Sie die Anzahl der Fehler an, die ignoriert werden können, bevor der Prozess angehalten wird. Sobald diese Zahl erreicht ist, wechselt der Status der Komposition in **[!UICONTROL Fehlgeschlagen]**. Wenn der Wert dieses Felds 0 beträgt, wird die Komposition unabhängig von der Fehleranzahl nie angehalten.

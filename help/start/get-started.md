@@ -4,9 +4,9 @@ description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und 
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Erstellen Sie über eine Marketing-freundliche Benutzeroberfläche Segmentregeln
 
 In dieser Version sind zwei Anwendungsfälle verfügbar:
 
-1. Zielgruppenerstellung: Erstellen Sie neue Zielgruppen aus Unternehmenskatalogen, ohne die zugrunde liegenden Daten zu kopieren, und aktivieren Sie diese Zielgruppen mit vordefinierten Zielen.
+1. Zielgruppenerstellung: Erstellen Sie neue Zielgruppen aus Unternehmensdatensätzen, ohne die zugrunde liegenden Daten zu kopieren, und aktivieren Sie diese Zielgruppen mit vorkonfigurierten Zielen.
 
 1. Zielgruppenanreicherung: Reichern Sie vorhandene Zielgruppen in Adobe Experience Platform an, indem Sie zusammengestellte Zielgruppendaten verwenden, die mit dem Unternehmens-Data Warehouse föderiert wurden. Diese Daten werden nicht in Adobe Experience Platform-Kundenprofilen beibehalten.
 
