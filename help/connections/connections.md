@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
-description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten
+title: Verbindungen mit Federated Datenbanken erstellen und verwalten
+description: Erfahren Sie, wie Sie Verbindungen mit Federated-Datenbanken erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
 
 1. Navigieren Sie in der linken Leiste zum Abschnitt **[!UICONTROL FÖDERIERTE DATEN]**.
 
-1. Klicken Sie unter dem Link **[!UICONTROL Föderierte Datenbanken]** auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**.
+1. Klicken Sie im Link **[!UICONTROL Federated database]** auf die Schaltfläche **[!UICONTROL Federated database]** hinzufügen .
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -47,6 +47,6 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   Es ist eine Übersicht über Ihre Verbindung mit der föderierten Datenbank verfügbar, wie unten dargestellt:
+   Eine Übersicht über Ihre Federated-Datenbank-Verbindung finden Sie im Folgenden:
 
    ![](assets/connections_overview.png){zoomable="yes"}
