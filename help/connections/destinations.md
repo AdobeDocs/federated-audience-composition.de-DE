@@ -4,10 +4,10 @@ title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Erstellen eines Ziels"
->abstract="Die Einstellungen für die Verbindung mit der neuen föderierten Datenbank eingeben. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
+>abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen Federated-Datenbank ein. Klicken Sie auf die Schaltfläche **[!UICONTROL Mit Ziel verbinden]**, um Ihre Konfiguration zu validieren."
 
 Adobe Experience Platform ermöglicht die nahtlose Integration von Zielgruppen aus dem Zielgruppenportal mit Ihren externen Datenbanken unter Verwendung des Ziels **Komposition föderierter Zielgruppen**. Mit dieser Integration können Sie vorhandene Zielgruppen in Kompositionen nutzen und sie mit Daten aus Ihren externen Datenbanken anreichern oder verfeinern, um neue Zielgruppen zu erstellen.
 
