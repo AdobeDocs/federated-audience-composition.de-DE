@@ -3,10 +3,10 @@ title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 92%
 
 ---
 
@@ -86,3 +86,36 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 >id="dc_federated_database_create_link"
 >title="Erstellen eines Links"
 >abstract="Die Link-Einstellungen definieren."
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="Inkrementelle Abfrage"
+>abstract="Mit der Aktivität **Inkrementelle Abfrage** können Sie die Datenbank mithilfe des Abfrage-Modelers abfragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="Inkrementeller Abfrageverlauf"
+>abstract="Inkrementeller Abfrageverlauf"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="Inkrementelle Abfrage – Verarbeitete Daten"
+>abstract="Inkrementelle Abfrage – Verarbeitete Daten"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="Inkrementeller Abfragemodus"
+>abstract="Die inkrementelle Abfrage ermöglicht es Ihnen, dieselbe Abfrage mehrmals auszuführen, indem die Ergebnisse früherer Ausführungen für jede neue Ausführung ausgeschlossen werden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="Inkrementeller Abfragemodus"
+>abstract="Die inkrementelle Abfrage ermöglicht es Ihnen, dieselbe Abfrage mehrmals auszuführen, indem Sie nur die Ergebnisse berücksichtigen, bei denen das Datumsfeld nach dem letzten Ausführungsdatum der inkrementellen Abfrageaktivität liegt oder damit übereinstimmt."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="Auswählen der Zielgruppendimension"
+>abstract="Mit der Zielgruppendimension können Sie die Population definieren, auf welche der Vorgang abzielt: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."

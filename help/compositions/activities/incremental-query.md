@@ -4,29 +4,16 @@ title: Verwenden der Aktivität „Inkrementelle Abfrage“
 description: Erfahren Sie, wie Sie die Aktivität „Inkrementelle Abfrage“ verwenden.
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '546'
+ht-degree: 100%
 
 ---
 
 # Inkrementelle Abfrage {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Inkrementelle Abfrage"
->abstract="Mit der Aktivität **Inkrementelle Abfrage** können Sie die Datenbank mithilfe des Abfrage-Modelers abfragen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Inkrementeller Abfrageverlauf"
->abstract="Inkrementeller Abfrageverlauf"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Inkrementelle Abfrage – Verarbeitete Daten"
->abstract="Inkrementelle Abfrage – Verarbeitete Daten"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 Mit der Aktivität **Inkrementelle Abfrage** können Sie regelmäßige Datenbankabfragen durchführen. Bei jeder neuen Ausführung dieser Aktivität werden die Ergebnisse der vorangehenden Ausführungen ausgeschlossen. Dadurch lassen sich ausschließlich neue Elemente abrufen.
 
