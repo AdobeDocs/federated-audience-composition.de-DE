@@ -4,10 +4,10 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '462'
-ht-degree: 100%
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,10 @@ ht-degree: 100%
 Mithilfe der Aktivität **Zielgruppe speichern** können Sie eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die erstellten Zielgruppen werden zur Liste der Adobe Experience Platform-Zielgruppen hinzugefügt und sind über das Menü **Zielgruppen** verfügbar. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../../start/audiences.md)
 
 Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Komposition zu berechnen, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
+
+>[!IMPORTANT]
+>
+>Die Aktivität **Audience-Speicherung** erfordert ein Profil-aktiviertes Schema und einen Datensatz. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“ {#save-audience-configuration}
 

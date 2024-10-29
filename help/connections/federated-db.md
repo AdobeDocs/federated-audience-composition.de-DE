@@ -4,10 +4,10 @@ title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 98%
+source-wordcount: '1897'
+ht-degree: 93%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Föderierte Datenbanken"
->abstract="Bestehende Verbindungen zu föderierten Datenbanken werden auf diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, auf die Schaltfläche **[!UICONTROL Verbund-Datenbank hinzufügen]** klicken."
+>abstract="Bestehende Verbindungen zu föderierten Datenbanken werden auf diesem Bildschirm angezeigt. Um eine neue Verbindung zu erstellen, klicken Sie auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Federated database properties"
->abstract="Geben Sie den Namen der neuen Federated-Datenbank ein und wählen Sie deren Typ aus."
+>title="Eigenschaften der föderierten Datenbank"
+>abstract="Gehen Sie den Namen der neuen föderierten Datenbank ein und wählen Sie den Typ aus."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Federated database details"
->abstract="Geben Sie die Einstellungen für die Verbindung mit der neuen Federated-Datenbank ein. Auf die Schaltfläche **[!UICONTROL Verbindung testen]** klicken, um die Konfiguration zu validieren."
+>title="Details zur föderierten Datenbank"
+>abstract="Geben Sie die Einstellungen ein, um eine Verbindung zur neuen föderierten Datenbank herzustellen. Auf die Schaltfläche **[!UICONTROL Verbindung testen]** klicken, um die Konfiguration zu validieren."
 
 Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses anderer Drittanbieter zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
 
@@ -41,6 +41,7 @@ Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den 
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
+* [Datenricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -120,7 +121,6 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 |---|---|
 | Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8) |
 
-
 ## Google BigQuery {#google-big-query}
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google BigQuery zu konfigurieren.
@@ -167,8 +167,12 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 | GCloudDefaultConfigName | Beachten Sie, dass dies ab Version 7.3.4 und nur für das Massenlade-Tool (Cloud SDK) gilt.</br> Die aktive Google Cloud SDK-Konfiguration kann nicht gelöscht werden, ohne dass das aktive Tag zuerst in eine neue Konfiguration übertragen wird. Diese temporäre Konfiguration ist erforderlich, um die Hauptkonfiguration für das Laden von Daten neu zu erstellen. Der Standardname für die temporäre Konfiguration lautet `default`. Dieser kann bei Bedarf geändert werden. |
 | GCloudRecreateConfig | Beachten Sie, dass dies ab Version 7.3.4 und nur für das Massenlade-Tool (Cloud SDK) gilt.</br> Wenn diese Option auf `false` gesetzt ist, versucht der Massenlademechanismus nicht, die Google Cloud SDK-Konfigurationen neu zu erstellen, zu löschen oder zu ändern. Stattdessen wird das Laden der Daten mit der vorhandenen Konfiguration auf dem Computer fortgesetzt. Diese Funktion ist nützlich, wenn andere Vorgänge von Google Cloud SDK-Konfigurationen abhängig sind. </br> Wenn die Benutzerin bzw. der Benutzer diese Engine-Option ohne eine ordnungsgemäße Konfiguration aktiviert, gibt der Massenlademechanismus eine Warnmeldung aus: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Um weitere Fehler zu vermeiden, wird dann wieder der standardmäßige Massenlademechanismus „ODBC Array Insert“ verwendet. |
 
-
 ## Snowflake {#snowflake}
+
+>[!NOTE]
+>
+>Der sichere Zugriff auf Ihr externes Snowflake Data Warehouse über einen privaten Link wird unterstützt. Beachten Sie, dass Ihr Snowflake-Konto auf Amazon Web Services (AWS) gehostet werden muss und sich in derselben Region wie Ihre Federated Audience Komposition-Umgebung befindet. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, wenn Sie Hilfe beim Einrichten eines sicheren Zugriffs auf Ihr Snowflake-Konto benötigen.
+>
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
 
@@ -225,7 +229,6 @@ Der Connector unterstützt die folgenden Optionen:
 | chunkSize | Bestimmt die Dateigröße des Massenladerblocks. Standardmäßig auf 128 MB gesetzt. Kann bei Verwendung mit „bulkThreads“ geändert werden, um eine optimale Leistung zu erreichen. Mehr gleichzeitig aktive Threads bedeuten eine bessere Leistung. <br>Weiterführende Informationen hierzu finden Sie in der [Dokumentation zu Snowflake](https://docs.snowflake.com/de/sql-reference/sql/put){target="_blank"}. |
 | StageName | Name des vorab bereitgestellten internen Stages. Er wird beim Massenladen verwendet, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
 
-
 ## Vertica Analytics {#vertica-analytics}
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Vertica Analytics zu konfigurieren.
@@ -268,8 +271,99 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
 
+Der Connector unterstützt die folgende Option:
+
+| Option | Beschreibung |
+|---|---|
+| TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. |
+
+## Datenricks {#databricks}
+
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Databricks zu konfigurieren.
+
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
+
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
+
+   ![](assets/federated_database_1.png)
+
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
+
+1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option &quot;Databricks&quot;aus.
+
+   ![](assets/databricks-config.png)
+
+1. Konfigurieren Sie die Authentifizierungseinstellungen für Databricks:
+
+   * **[!UICONTROL Server]**: Fügen Sie den Namen Ihres Datenbankservers hinzu.
+
+   * **[!UICONTROL HTTP-Pfad]**: Fügen Sie den Pfad zu Ihrem Cluster oder Warehouse hinzu. [Weitere Informationen](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+
+   * **[!UICONTROL Kennwort]**: Fügen Sie das Zugriffstoken für das Konto hinzu. [Weitere Informationen](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+
+   * **[!UICONTROL Katalog]**: Fügen Sie das Feld für den Databricks-Katalog hinzu.
+
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll.
+
+     >[!NOTE]
+     >
+     >Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen.
+     >
+     >Beim Verbinden mehrerer Sandboxes mit derselben Datenbank müssen **unterschiedliche Arbeitsschemata** verwendet werden.
+
+   * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
+
+1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
+
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
+
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
+
 Der Connector unterstützt die folgenden Optionen:
 
 | Option | Beschreibung |
 |---|---|
 | TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. |
+
+<!--Not for October release
+
+## Microsoft Fabric (LA){#microsoft-fabric}
+
+>[!AVAILABILITY]
+>
+>Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+
+Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+
+1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+
+1. Click **[!UICONTROL Add federated database]**.
+
+    ![](assets/federated_database_1.png)
+
+1. Enter a **[!UICONTROL Name]** to your Federate database.
+
+1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+
+    ![](assets/microsoft-config.png)
+
+1. Configure the Microsoft Fabric authentication settings:
+
+    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+
+    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+
+    * **[!UICONTROL Client secret]**: Enter your Client secret.
+
+    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+
+1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+
+1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+
+1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+
+| Option   |  Description |
+|---|---|
+| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
+-->

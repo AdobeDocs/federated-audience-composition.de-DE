@@ -4,10 +4,10 @@ title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 84%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Quelldatenbank zum Filtern auswählen"
->abstract="Sie können die Schemata nach ihrer Quelle filtern. Wählen Sie eine oder mehrere Federated-Datenbanken aus, um deren Schemata anzuzeigen."
+>abstract="Sie können die Schemata nach ihrer Quelle filtern. Wählen Sie eine oder mehrere föderierte Datenbanken aus, um deren Schemata anzuzeigen."
 
 ## Was ist ein Schema {#schema-start}
 
@@ -91,9 +91,9 @@ Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen
 
 ## Bearbeiten eines Schemas {#schema-edit}
 
-Um ein Schema zu bearbeiten:
+Gehen Sie wie folgt vor, um ein Schema zu bearbeiten:
 
-1. Klicken Sie auf den Namen des Schemas im Schemata-Ordner.
+1. Klicken Sie in der Liste auf den Namen Ihres Schemas.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
@@ -102,6 +102,7 @@ Um ein Schema zu bearbeiten:
    Sie können auf dieselben Optionen zugreifen wie beim [Erstellen eines Schemas](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## Vorschau von Daten in einem Schema {#schema-preview}
 
@@ -114,6 +115,16 @@ Klicken Sie auf den Link **[!UICONTROL Berechnen]**, um eine Vorschau der Gesamt
 Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]**, um die Datenanzeige zu ändern.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Schema aktualisieren {#schema-refresh}
+
+Tabellen in einer verbundenen Datenbank können aktualisiert, hinzugefügt oder entfernt werden. In diesem Fall müssen Sie das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Klicken Sie dazu auf die drei Punkte neben dem Namen des zu aktualisierenden Schemas und wählen Sie **Schema aktualisieren** aus.
+
+Sie können die Schemadefinition auch bei der Bearbeitung aktualisieren.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Löschen eines Schemas {#schema-delete}
 
