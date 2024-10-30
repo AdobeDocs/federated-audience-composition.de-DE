@@ -4,7 +4,7 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 1a90702a02e30712e95fdf48342f1dea3b92e360
+source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 94%
@@ -29,8 +29,8 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, das ihr Label z
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**. Die Arbeitsfläche der Komposition wird angezeigt. Sie können nun Ihre Komposition konfigurieren, indem Sie so viele Aktivitäten hinzufügen, wie Sie benötigen, bevor Sie sie ausführen:
 
-   * [Erfahren Sie, wie Sie Aktivitäten orchestrieren.](#action-activities)
-   * [Erfahren Sie, wie Sie eine Komposition starten und überwachen](#save)
+   * [Erfahren Sie, wie Sie Aktivitäten orchestrieren.](orchestrate-activities.md)
+   * [Erfahren Sie, wie Sie eine Komposition starten und überwachen](start-monitor-composition.md)
 
 ## Konfigurieren der Kompositionseinstellungen {#settings}
 
