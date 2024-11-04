@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit Schemata beginnen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen
 
 Gehen Sie wie folgt vor, um ein Schema zu bearbeiten:
 
-1. Klicken Sie in der Liste auf den Namen Ihres Schemas.
+1. Klicken Sie auf den Namen des Schemas in der Liste.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
@@ -117,9 +117,9 @@ Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]**, um die
 ![](assets/schema_columns.png){zoomable="yes"}
 
 
-## Schema aktualisieren {#schema-refresh}
+## Aktualisieren eines Schemas {#schema-refresh}
 
-Tabellen in einer verbundenen Datenbank können aktualisiert, hinzugefügt oder entfernt werden. In diesem Fall müssen Sie das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Klicken Sie dazu auf die drei Punkte neben dem Namen des zu aktualisierenden Schemas und wählen Sie **Schema aktualisieren** aus.
+Tabellen in einer föderierten Datenbank können aktualisiert, hinzugefügt oder entfernt werden. Sie müssen dann das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Klicken Sie dazu auf die drei Punkte neben dem Namen des zu aktualisierenden Schemas und wählen Sie **Schema aktualisieren** aus.
 
 Sie können die Schemadefinition auch bei der Bearbeitung aktualisieren.
 

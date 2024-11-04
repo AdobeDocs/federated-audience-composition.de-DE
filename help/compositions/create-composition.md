@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie Kompositionen erstellen.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, das ihr Label z
 
    ![](assets/composition-create.png)
 
-1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** eine Beschriftung für die Komposition an und wählen Sie ein Datenmodell aus. In den Aktivitäten Ihrer Komposition sind nur die mit diesem Datenmodell verknüpften Schemas verfügbar.
+1. Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** einen Titel für die Komposition an und wählen Sie ein Datenmodell aus. In den Aktivitäten Ihrer Komposition sind nur die mit diesem Datenmodell verknüpften Schemata verfügbar.
 
    ![](assets/composition-select-schema.png)
 

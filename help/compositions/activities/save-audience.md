@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ ver
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Kom
 
 >[!IMPORTANT]
 >
->Die Aktivität **Audience-Speicherung** erfordert ein Profil-aktiviertes Schema und einen Datensatz. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>Die Aktivität **Zielgruppe speichern** erfordert ein profilaktiviertes Schema und einen profilaktivierten Datensatz. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“ {#save-audience-configuration}
 

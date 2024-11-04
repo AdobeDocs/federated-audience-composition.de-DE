@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Verbindungen mit Federated Datenbanken erstellen und verwalten
-description: Erfahren Sie, wie Sie Verbindungen mit Federated-Datenbanken erstellen und verwalten.
+title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
+description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: 6191b9849200723d00398644d038af5b082e7964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
 
 1. Navigieren Sie in der linken Leiste zum Abschnitt **[!UICONTROL FÖDERIERTE DATEN]**.
 
-1. Klicken Sie im Link **[!UICONTROL Federated database]** auf die Schaltfläche **[!UICONTROL Federated database]** hinzufügen .
+1. Klicken Sie unter dem Link **[!UICONTROL Föderierte Datenbanken]** auf die Schaltfläche **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
    ![](assets/connections_list.png){zoomable="yes"}
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Datenricks](federated-db.md#databricks)
+   * [Databricks](federated-db.md#databricks)
 
 1. Nachdem Sie die Details eingegeben haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**.
 
@@ -48,6 +48,6 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
 
 1. Schließen Sie die Einrichtung Ihrer Verbindung ab, indem Sie auf die Schaltfläche **[!UICONTROL Speichern]** klicken.
 
-   Eine Übersicht über Ihre Federated-Datenbank-Verbindung finden Sie im Folgenden:
+   Es ist eine Übersicht über Ihre Verbindung mit der föderierten Datenbank verfügbar, wie unten dargestellt:
 
    ![](assets/connections_overview.png){zoomable="yes"}

@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den 
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [Datenricks](#databricks)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -171,7 +171,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 >[!NOTE]
 >
->Der sichere Zugriff auf Ihr externes Snowflake Data Warehouse über einen privaten Link wird unterstützt. Beachten Sie, dass Ihr Snowflake-Konto auf Amazon Web Services (AWS) gehostet werden muss und sich in derselben Region wie Ihre Federated Audience Komposition-Umgebung befindet. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, wenn Sie Hilfe beim Einrichten eines sicheren Zugriffs auf Ihr Snowflake-Konto benötigen.
+>Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 >
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
@@ -277,7 +277,7 @@ Der Connector unterstützt die folgende Option:
 |---|---|
 | TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. |
 
-## Datenricks {#databricks}
+## Databricks {#databricks}
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Databricks zu konfigurieren.
 
@@ -289,21 +289,21 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option &quot;Databricks&quot;aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Typ]** die Option „Databricks“ aus.
 
    ![](assets/databricks-config.png)
 
 1. Konfigurieren Sie die Authentifizierungseinstellungen für Databricks:
 
-   * **[!UICONTROL Server]**: Fügen Sie den Namen Ihres Datenbankservers hinzu.
+   * **[!UICONTROL Server]**: Fügen Sie den Namen des Databricks-Servers hinzu.
 
    * **[!UICONTROL HTTP-Pfad]**: Fügen Sie den Pfad zu Ihrem Cluster oder Warehouse hinzu. [Weitere Informationen](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL Kennwort]**: Fügen Sie das Zugriffstoken für das Konto hinzu. [Weitere Informationen](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL Passwort]**: Fügen Sie das Zugriffstoken für das Konto hinzu. [Weitere Informationen](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
 
    * **[!UICONTROL Katalog]**: Fügen Sie das Feld für den Databricks-Katalog hinzu.
 
-   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll.
+   * **[!UICONTROL Arbeitsschema]**: Dies ist der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll.
 
      >[!NOTE]
      >

@@ -4,9 +4,9 @@ description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und 
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -107,18 +107,18 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_standard"
->title="Inkrementeller Abfragemodus"
+>title="Modus „Inkrementelle Abfrage“"
 >abstract="Die inkrementelle Abfrage ermöglicht es Ihnen, dieselbe Abfrage mehrmals auszuführen, indem die Ergebnisse früherer Ausführungen für jede neue Ausführung ausgeschlossen werden."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
->title="Inkrementeller Abfragemodus"
->abstract="Die inkrementelle Abfrage ermöglicht es Ihnen, dieselbe Abfrage mehrmals auszuführen, indem Sie nur die Ergebnisse berücksichtigen, bei denen das Datumsfeld nach dem letzten Ausführungsdatum der inkrementellen Abfrageaktivität liegt oder damit übereinstimmt."
+>title="Modus „Inkrementelle Abfrage“"
+>abstract="Die inkrementelle Abfrage ermöglicht es Ihnen, dieselbe Abfrage mehrmals auszuführen, indem nur die Ergebnisse berücksichtigt werden, bei denen das Datum im Datumsfeld nach oder an dem Datum der letzten Ausführung der inkrementellen Abfrage liegt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="Auswählen der Zielgruppendimension"
->abstract="Mit der Zielgruppendimension können Sie die Population definieren, auf welche der Vorgang abzielt: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
+>abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
 
 
 <!-- save profile IDs-->
@@ -130,20 +130,20 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Profil speichern Profil auswählen AEP-Schema"
->abstract="Profil speichern Profil auswählen AEP-Schema"
+>title="Profil speichern – AEP-Schema auswählen"
+>abstract="Profil speichern – AEP-Schema auswählen"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Profil-AEP-Schema-Liste speichern"
->abstract="Profil-AEP-Schema-Liste speichern"
+>title="Profil speichern – AEP-Schema-Liste"
+>abstract="Profil speichern – AEP-Schema-Liste"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="Profil-AEP-Schemaattribut speichern"
->abstract="Profil-AEP-Schemaattribut speichern"
+>title="Profil speichern – AEP-Schemaattribut"
+>abstract="Profil speichern – AEP-Schemaattribut"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Profil speichern Wählen Sie Primäres Identifizierungsfeld aus."
->abstract="Profil speichern Wählen Sie Primäres Identifizierungsfeld aus."
+>title="Profil speichern – Feld „Primäre Identität“ auswählen"
+>abstract="Profil speichern – Feld „Primäre Identität“ auswählen"

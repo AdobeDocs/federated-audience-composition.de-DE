@@ -4,9 +4,9 @@ description: Neueste Aktualisierungen und Versionshinweise
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -14,37 +14,37 @@ ht-degree: 53%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version Oktober 24 {#fac-24-10}
+## Version Oktober 2024 {#fac-24-10}
 
 ### Kompatibilität {#fac-24-10-compat}
 
-Mit dieser neuen Version ist die Zusammenstellung von Federated Audience nun mit den unten aufgeführten Systemen kompatibel.
+Mit dieser neuen Version ist die Komposition föderierter Zielgruppen nun mit den unten aufgeführten Systemen kompatibel.
 
-* **Unterstützung von Databricks**
+* **Unterstützung für Databricks**
 
-  Sie können jetzt über Federated Audience Komposition Verbindungen zu Datenbanken von Databricks herstellen. [Weitere Informationen](../connections/federated-db.md#databricks)
+  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Databricks-Datenbanken herstellen. [Weitere Informationen](../connections/federated-db.md#databricks)
 
 * **Unterstützung für sicheren Zugriff auf Snowflake über AWS PrivateLink**
 
-  Der sichere Zugriff auf Ihr externes Snowflake Data Warehouse über einen privaten Link wird jetzt unterstützt. Beachten Sie, dass Ihr Snowflake-Konto auf Amazon Web Services (AWS) gehostet werden muss und sich in derselben Region wie Ihre Federated Audience Komposition-Umgebung befindet. Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, wenn Sie Hilfe beim Einrichten eines sicheren Zugriffs auf Ihr Snowflake-Konto benötigen. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird nun unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/federated-db.md#snowflake)
 
-* **Amazon Redshift Server-lose Unterstützung**
+* **Unterstützung für Amazon Redshift Serverless**
 
-  Mit dieser neuen Version unterstützt die Zusammenstellung von Federated Audience [Amazon Redshift Server-los](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ [Amazon Redshift Serverless](https://aws.amazon.com/de/redshift/redshift-serverless/){target="_blank"}.
 
 ### Verbesserungen {#fac-24-10-improvements}
 
 Diese Version enthält die unten aufgeführten Verbesserungen.
 
-* **Vorhandene Schemas aktualisieren**
+* **Aktualisieren vorhandener Schemata**
 
-  Wenn eine Spalte in einer verbundenen Datenbank erstellt, geändert oder gelöscht wird, können Sie die Änderungen nun erkennen und anwenden, indem Sie im entsprechenden Schema auf die Schaltfläche **[!UICONTROL Schema aktualisieren]** klicken. [Weitere Informationen](../customer/schemas.md#schema-refresh)
+  Wenn eine Spalte in einer föderierten Datenbank erstellt, geändert oder gelöscht wird, können Sie die Änderungen nun erkennen und anwenden, indem Sie im entsprechenden Schema auf die Schaltfläche **[!UICONTROL Schema aktualisieren]** klicken. [Weitere Informationen](../customer/schemas.md#schema-refresh)
 
 * **Verknüpfen eines Datenmodells mit einer neuen Komposition**
 
-  Beim Erstellen einer Komposition können Sie jetzt das Datenmodell auswählen, das ihr zugeordnet werden soll. Mit dieser neuen Option ist die Konfiguration Ihrer Aktivitäten einfacher, da nur Tabellen des zugehörigen Datenmodells verfügbar sind. [Weitere Informationen](../compositions/create-composition.md)
+  Beim Erstellen einer Komposition können Sie nun das Datenmodell auswählen, das ihr zugeordnet werden soll. Mit dieser neuen Option lassen sich Ihre Aktivitäten einfacher konfigurieren, da nur Tabellen des zugehörigen Datenmodells verfügbar sind. [Weitere Informationen](../compositions/create-composition.md)
 
-## Version vom 24. Juli - Zusammengestellte Zielgruppen-Komposition (LA) {#fac-la}
+## Version Juli 2024 – Komposition föderierter Zielgruppen (LA) {#fac-la}
 
 >[!AVAILABILITY]
 >

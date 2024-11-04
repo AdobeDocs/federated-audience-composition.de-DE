@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität „Inkrementelle Abfrage“ ve
 hide: true
 hidefromtoc: true
 source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Inkrementelle Abfrag
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Zielgruppe]** die **Zielgruppendimension** und klicken Sie dann auf **[!UICONTROL Weiter]**.
 
-   Mit der Zielgruppendimension können Sie die Population definieren, auf welche der Vorgang abzielt: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+   Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe aus den Empfängerinnen und Empfängern ausgewählt. <!--[Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 1. Verwenden Sie den Abfrage-Modeler, um Ihre Abfrage zu definieren, genauso wie Sie eine Zielgruppe beim Entwerfen einer neuen E-Mail erstellen. [Erfahren Sie mehr über die Arbeit mit dem Abfrage-Modeler](../../query/query-modeler-overview.md)
 
