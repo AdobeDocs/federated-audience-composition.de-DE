@@ -2,10 +2,11 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +17,19 @@ Die Komposition föderierter Zielgruppen erfordert Adobe Real-Time Customer Data
 >[!AVAILABILITY]
 >
 >Nachdem Sie die Begrüßungs-E-Mail von Adobe erhalten haben, kann es noch einige Stunden dauern, bis die Benutzeroberfläche aktualisiert ist und Ihnen die Funktionen zur Verfügung stehen.
+
+## Unterstützte Systeme {#supported-systems}
+
+Federated Audience Komposition unterstützt die folgenden Cloud-Warehouse:
+
+* Amazon Redshift
+* Azure Synapse
+* Databricks
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
+
+Erfahren Sie auf [dieser Seite](../connections/connections.md), wie Sie eine Verbindung mit diesen Systemen herstellen.
 
 ## Berechtigungen {#permissions}
 

@@ -3,10 +3,10 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 91%
 
 ---
 
@@ -25,20 +25,14 @@ Um die Komposition föderierter Zielgruppen verwenden zu können, muss jede Benu
 
 +++Welche Cloud-Warehouses werden unterstützt?
 
-In dieser Version ist die Komposition föderierter Zielgruppen kompatibel mit:
-
-* Amazon Redshift
-* Azure Synapse
-* Google BigQuery
-* Snowflake
-* Vertica Analytics
+Die Liste der mit Federated Audience Komposition unterstützten Systeme finden Sie auf [dieser Seite](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++Können mehrere Data Warehouses in derselben Komposition abgefragt werden?
 
-Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten aus mehreren Quellen kombiniert werden. In der Regel führt jede [Kompositionsaktivität](../compositions/orchestrate-activities.md) (Abfrage, Anreicherung, Aufspaltung) je nach Konfiguration der Aktivität eine oder mehrere SQL-Anweisungen aus (es kann mehrere Fälle von föderiertem Datenzugriff geben) und gibt eine oder mehrere Arbeitstabellen mit dem Ergebnis der Ausführung aus. Diese Arbeitstabellen werden als Eingabe für aufeinander folgende Aktivitäten verwendet.
+Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten aus mehreren Quellen kombiniert werden. In der Regel führt jede [Kompositionsaktivität](../compositions/orchestrate-activities.md) (Abfrage, Anreicherung, Aufspaltung usw.) je nach Aktivitätskonfiguration, den Zieldatenbanken (es kann mehrere Fälle von verknüpftem Datenzugriff geben) und den Ausgaben einer oder mehrerer Arbeitstabellen mit dem Ergebnis der Ausführung aus. Diese Arbeitstabellen werden als Eingabe für aufeinander folgende Aktivitäten verwendet.
 
 +++
 
@@ -46,8 +40,6 @@ Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten a
 
 Nein, es liegt an Ihnen, den Zugriff auf eine dedizierte oder freigegebene Datenbank oder ein dediziertes Schema zu konfigurieren. Es wird empfohlen, ein dediziertes Schema für die Komposition föderierter Zielgruppen zu erstellen und nur Business-Case-Datensätze zu kopieren/freizugeben.
 +++
-
-
 
 +++Habe ich Zugriff auf alle Tabellen im dedizierten Schema?
 
@@ -59,7 +51,6 @@ Ja. Nach der Verbindung können Sie die Komposition föderierter Zielgruppen ver
 * Ausblenden unnötiger Spalten
 * Speichern dieser Tabellenbeschreibung
 +++
-
 
 +++Gibt in der Komposition föderierter Zielgruppen eine temporäre Speicherung?
 
@@ -89,7 +80,7 @@ Die resultierenden Zielgruppendaten werden nicht unbegrenzt in Adobe Experience 
 
 +++Kann ich eine hochgeladene benutzerdefinierte Zielgruppe löschen?
 
-Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielgruppen nicht löschen. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+Nein, in der aktuellen Version können Sie keine benutzerdefinierten hochgeladenen Zielgruppen löschen.-->
 
 +++
 
@@ -98,11 +89,3 @@ Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielg
 Nein, Identity Service wird während einer Komposition nicht genutzt. Die Daten zwischen den verschiedenen in der Komposition verwendeten Quellen werden durch eine benutzerdefinierte Logik verbunden (wie im zugrunde liegenden Modell ausgedrückt), z. B. CRM-ID, Benutzerkontonummer usw. Sie müssen die Identität, die als Kennung in der Zielgruppe verwendet wird, für die Auswahl in Ihrem Data Warehouse auswählen. Bei einer aus der Komposition föderierter Zielgruppen resultierenden Zielgruppe müssen Sie den Identity-Namespace für die Identität im resultierenden Datensatz identifizieren.
 
 +++
-
-<!--
-+++If I want to combine federated data with datasets that live in Adobe Experience Platform, how is this done?
-
-Likewise, the Identity Service is not being leveraged in this scenario either. The data model underpinning a composition needs to express how the data warehouse data and the audience to be enriched are related. e.g. assume an existing audience in Adobe Experience Platform contains several attributes, among which is the CRM ID. Assume transactional data is in the data warehouse containing purchases with various attributes, including the CRM ID of the purchaser. The end-user would have to specify that the CRM ID for both objects is used to stitch the two objects together.
-
-+++
--->
