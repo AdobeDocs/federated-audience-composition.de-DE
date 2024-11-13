@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 100%
 
@@ -21,12 +21,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Eigenschaften der föderierten Datenbank"
->abstract="Gehen Sie den Namen der neuen föderierten Datenbank ein und wählen Sie den Typ aus."
+>abstract="Namen der neuen föderierten Datenbank eingeben und deren Typ auswählen."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
->title="Details zur föderierten Datenbank"
->abstract="Geben Sie die Einstellungen ein, um eine Verbindung zur neuen föderierten Datenbank herzustellen. Auf die Schaltfläche **[!UICONTROL Verbindung testen]** klicken, um die Konfiguration zu validieren."
+>title="Details der föderierten Datenbank"
+>abstract="Einstellungen für die Verbindung mit der neuen föderierten Datenbank eingeben. Auf die Schaltfläche **[!UICONTROL Verbindung testen]** klicken, um die Konfiguration zu validieren."
 
 Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses anderer Drittanbieter zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
 
