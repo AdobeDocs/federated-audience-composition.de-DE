@@ -2,12 +2,11 @@
 audience: end-user
 title: Verwenden der Aktivität „Warten“
 description: Erfahren Sie, wie Sie die Aktivität „Warten“ verwenden
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '84'
+ht-degree: 100%
 
 ---
 

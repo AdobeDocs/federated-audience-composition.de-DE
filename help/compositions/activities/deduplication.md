@@ -2,11 +2,10 @@
 audience: end-user
 title: Verwenden der Aktivität „Deduplizierung“
 description: Erfahren Sie, wie Sie die Aktivität „Deduplizierung“ verwenden.
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
-workflow-type: ht
-source-wordcount: '565'
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+workflow-type: tm+mt
+source-wordcount: '563'
 ht-degree: 100%
 
 ---

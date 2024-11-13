@@ -2,12 +2,11 @@
 audience: end-user
 title: Verwenden der Aktivität „Und-Verknüpfung“
 description: Erfahren Sie, wie Sie die Aktivität „Und-Verknüpfung“ verwenden.
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '224'
+ht-degree: 100%
 
 ---
 

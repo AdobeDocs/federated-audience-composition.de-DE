@@ -2,12 +2,12 @@
 audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
-badge: label="Eingeschränkte Verfügbarkeit" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '378'
 ht-degree: 100%
+
 ---
 
 # Erste Schritte mit Datenmodellen {#data-model}
