@@ -4,7 +4,7 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
 ht-degree: 100%
 

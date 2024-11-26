@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Dimensionsänderung“
 description: Erfahren Sie, wie Sie die Aktivität „Dimensionsänderung“ verwenden
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 

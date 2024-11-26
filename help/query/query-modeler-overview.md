@@ -4,7 +4,7 @@ title: Arbeiten mit dem Abfrage-Modeler
 description: Erfahren Sie, wie Sie mit dem Abfrage-Modeler arbeiten.
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '346'
 ht-degree: 100%
 

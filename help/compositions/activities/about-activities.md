@@ -4,7 +4,7 @@ title: Arbeiten mit Aktivitäten
 description: Erfahren Sie, wie Sie mit Aktivitäten arbeiten
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 

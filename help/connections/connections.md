@@ -4,15 +4,15 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Erstellen von Verbindungen {#connections-fdb}
 
-Mit der Experience Platform Federated Audience Komposition können Kunden Audiences aus Drittanbieter-Data Warehouse erstellen und anreichern und die Zielgruppen in Adobe Experience Platform importieren. Unterstützte Datenlager werden in [diesem Abschnitt](../start/access-prerequisites.md#supported-systems) aufgelistet.
+Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses von Drittanbietern zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren. Die unterstützten Data Warehouses sind in [diesem Abschnitt](../start/access-prerequisites.md#supported-systems) aufgeführt.
 
 Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, müssen Sie zunächst eine Verbindung herstellen. Diese Verbindung wird in einer dedizierten Benutzeroberfläche eingerichtet, die in der Benutzeroberfläche von Adobe Experience Platform verfügbar ist, wie auf dieser Seite beschrieben.
 

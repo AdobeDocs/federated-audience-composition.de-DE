@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Um die Komposition föderierter Zielgruppen verwenden zu können, muss jede Benu
 
 +++Welche Cloud-Warehouses werden unterstützt?
 
-Die Liste der mit Federated Audience Komposition unterstützten Systeme finden Sie auf [dieser Seite](../start/access-prerequisites.md#supported-systems).
+Die Liste der für die Komposition föderierter Zielgruppen unterstützten Systeme finden Sie auf [dieser Seite](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++Können mehrere Data Warehouses in derselben Komposition abgefragt werden?
 
-Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten aus mehreren Quellen kombiniert werden. In der Regel führt jede [Kompositionsaktivität](../compositions/orchestrate-activities.md) (Abfrage, Anreicherung, Aufspaltung usw.) je nach Aktivitätskonfiguration, den Zieldatenbanken (es kann mehrere Fälle von verknüpftem Datenzugriff geben) und den Ausgaben einer oder mehrerer Arbeitstabellen mit dem Ergebnis der Ausführung aus. Diese Arbeitstabellen werden als Eingabe für aufeinander folgende Aktivitäten verwendet.
+Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten aus mehreren Quellen kombiniert werden. In der Regel führt jede [Kompositionsaktivität](../compositions/orchestrate-activities.md) (Abfrage, Anreicherung, Aufspaltung usw.) eine oder mehrere SQL-Anweisungen je nach Konfiguration der Aktivität und je nach Zieldatenbanken aus (es kann mehrere Fälle von föderiertem Datenzugriff geben) und gibt eine oder mehrere Arbeitstabellen mit dem Ergebnis der Ausführung aus. Diese Arbeitstabellen werden als Eingabe für aufeinander folgende Aktivitäten verwendet.
 
 +++
 
@@ -79,7 +79,7 @@ Die resultierenden Zielgruppendaten werden nicht unbegrenzt in Adobe Experience 
 
 +++Kann ich eine hochgeladene benutzerdefinierte Zielgruppe löschen?
 
-Nein, in der aktuellen Version können Sie keine benutzerdefinierten hochgeladenen Zielgruppen löschen.-->
+Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielgruppen nicht löschen.-->
 
 +++
 

@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Zuvor für eine Reihe von Organisationen verfügbar (LA), ist die Adobe Experience Platform Federated Audience Komposition jetzt für alle Benutzer verfügbar (GA). Dieses Add-on wird basierend auf Ihrem Angebot aktiviert und nur mit den zugehörigen Berechtigungen angezeigt. [Weitere Informationen](access-prerequisites.md)
+>Die Komposition föderierter Zielgruppen in Adobe Experience Platform, die zuvor nur für eine Reihe von Organisationen verfügbar gewesen ist (LA), steht jetzt allen Benutzenden zur Verfügung (GA). Dieses Add-on wird basierend auf Ihrem Angebot aktiviert und nur mit den zugehörigen Berechtigungen angezeigt. [Weitere Informationen](access-prerequisites.md)
 >
 
 ### Kompatibilität {#fac-24-10-compat}

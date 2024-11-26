@@ -3,7 +3,7 @@ title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '931'
 ht-degree: 100%
 

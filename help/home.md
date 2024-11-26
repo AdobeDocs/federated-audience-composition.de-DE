@@ -3,9 +3,9 @@ title: Adobe Experience Platform – Startseite der Dokumentation zur Kompositio
 description: Dokumentation zum Add-on „Komposition föderierter Zielgruppen“
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Erstellen, konfigurieren, testen und speichern Sie die Verbindung zu Ihrer exter
 
 >[!TAB Zusammenstellen einer Zielgruppe]
 
-Fügen Sie Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) hinzu und konfigurieren Sie diese, um Kompositionen zu erstellen und Ihre Audience zu erstellen.
+Fügen Sie Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) hinzu und konfigurieren Sie diese, um Kompositionen und Ihre Zielgruppe zu erstellen.
 
 [![Bild](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Fügen Sie Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) hinzu und konf
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Erstellen einer Zielgruppe</strong><br/>Fügen Sie Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) hinzu und konfigurieren Sie diese, um Kompositionen zu erstellen und Ihre erste verbundene Zielgruppe zu erstellen.
+    <div><strong>Erstellen von Zielgruppen</strong><br/>Fügen Sie Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) hinzu und konfigurieren Sie diese, um Kompositionen und Ihre erste föderierte Zielgruppe zu erstellen.
     </div>
     </td>
     <td>

@@ -4,7 +4,7 @@ title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2066'
 ht-degree: 100%
 

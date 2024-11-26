@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Kombinieren“
 description: Erfahren Sie, wie Sie die Aktivität „Kombinieren“ verwenden.
 exl-id: 395e96d1-0af2-4e59-b599-f57a083b68ca
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
 >title="Die Aktivität „Kombinieren“"
->abstract="Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden."
+>abstract="Die Aktivität **Kombinieren** ermöglicht die Segmentierung der eingehenden Population. Sie können also verschiedene Populationen vereinen, einen Teil daraus ausschließen oder nur die in mehreren Zielgruppen enthaltenen Datensätze verwenden."
 
 Die Aktivität **Kombinieren** ermöglicht die Segmentierung Ihrer eingehenden Population. So können Sie also mehrere Populationen kombinieren, einen Teil davon ausschließen oder nur die Daten behalten, die mehreren Zielgruppen gemeinsam sind.
 
