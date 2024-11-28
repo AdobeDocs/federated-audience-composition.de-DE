@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 77%
 
 ---
 
@@ -40,6 +40,16 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+
+1. Wählen Sie für jede unterstützte Datenbank die Schaltfläche **[!UICONTROL Server IP]** aus. Die Liste aller IPs, die mit Ihren Federated Audience Komposition-Instanzen verknüpft sind, wird angezeigt.
+
+   ![](assets/connections_server_IPs.png){zoomable="yes"}
+
+   Klicken Sie in der Liste auf eine IP-Adresse, um sie in Ihr System zu kopieren und diese IP-Adresse für die Verbindung mit Ihrer Datenbank zu autorisieren.
+
+>[!NOTE]
+>
+>Um die Zusammenstellung von Federated Audience für eine bestimmte Datenbank verwenden zu können, müssen Sie alle mit dieser Datenbank verknüpften IP-Adressen Zulassungsliste haben.
 
 1. Nachdem Sie die Details eingegeben haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**.
 
