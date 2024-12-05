@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 88%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version November 24 {#fac-24-11}
+## Version November 2024 {#fac-24-11}
 
 ### Verbesserungen {#fac-24-11-improvements}
 
-Diese Version beinhaltet die unten stehende Verbesserung.
+Diese Version enthält die unten aufgeführte Verbesserung.
 
 * **IP-Adressen-Zulassungsliste**
 
-  Beim Hinzufügen einer verbundenen Datenbank in der Benutzeroberfläche von Adobe Experience Platform können Sie jetzt die IP-Adressen direkt anzeigen, die mit Ihren Federated Audience Komposition-Instanzen verknüpft sind. Auf diese Weise können Sie diese IPs einfach kopieren und autorisieren, um eine Verbindung mit Ihrer Datenbank herzustellen, um die Sicherheit und Flexibilität zu verbessern. [Weitere Informationen](../connections/connections.md)
+  Beim Hinzufügen einer föderierten Datenbank in der Benutzeroberfläche von Adobe Experience Platform können Sie jetzt die IP-Adressen direkt anzeigen, die mit Ihren Instanzen der Komposition föderierter Zielgruppen verknüpft sind. Auf diese Weise können Sie diese IP-Adressen einfach kopieren und autorisieren, um eine Verbindung mit Ihrer Datenbank herzustellen und so die Sicherheit und Flexibilität zu verbessern. [Weitere Informationen](../connections/connections.md)
 
 ## Version Oktober 2024 {#fac-24-10}
 
