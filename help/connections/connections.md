@@ -3,8 +3,8 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
-workflow-type: ht
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
@@ -47,9 +47,9 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
 
    Klicken Sie in der Liste auf eine IP-Adresse, um sie in das System zu kopieren und diese IP-Adresse für die Verbindung mit der Datenbank zu autorisieren.
 
->[!NOTE]
->
->Zum Verwenden der Komposition föderierter Zielgruppen für eine bestimmte Datenbank müssen Sie alle mit dieser Datenbank verknüpften IP-Adressen in die Zulassungsliste aufnehmen.
+   >[!NOTE]
+   >
+   >Zum Verwenden der Komposition föderierter Zielgruppen für eine bestimmte Datenbank müssen Sie alle mit dieser Datenbank verknüpften IP-Adressen in die Zulassungsliste aufnehmen.
 
 1. Nachdem Sie die Details eingegeben haben, klicken Sie auf die Schaltfläche **[!UICONTROL Verbindung testen]** und auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**.
 
