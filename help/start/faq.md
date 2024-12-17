@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 82%
 
 ---
 
@@ -79,12 +79,26 @@ Die resultierenden Zielgruppendaten werden nicht unbegrenzt in Adobe Experience 
 
 +++Kann ich eine hochgeladene benutzerdefinierte Zielgruppe löschen?
 
-Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielgruppen nicht löschen.-->
+Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielgruppen nicht löschen.
 
 +++
 
 +++Wie werden Daten zusammengeführt, wenn ich die Daten aus mehreren Quellen kombiniere? Wird Identity Service dafür verwendet?
 
 Nein, Identity Service wird während einer Komposition nicht genutzt. Die Daten zwischen den verschiedenen in der Komposition verwendeten Quellen werden durch eine benutzerdefinierte Logik verbunden (wie im zugrunde liegenden Modell ausgedrückt), z. B. CRM-ID, Benutzerkontonummer usw. Sie müssen die Identität, die als Kennung in der Zielgruppe verwendet wird, für die Auswahl in Ihrem Data Warehouse auswählen. Bei einer aus der Komposition föderierter Zielgruppen resultierenden Zielgruppe müssen Sie den Identity-Namespace für die Identität im resultierenden Datensatz identifizieren.
+
++++
+
++++Wie werden Voreinstellungen für die Kundenzustimmung bei extern generierten Zielgruppen berücksichtigt, die in die Federated Audience-Komposition importiert werden?
+
+Da Kundendaten aus mehreren Kanälen erfasst werden, ermöglichen Identitätszuordnungen und Zusammenführungsrichtlinien die Konsolidierung dieser Daten in einem einzigen Echtzeit-Kundenprofil. Informationen zu den Voreinstellungen für das Einverständnis der Kundinnen und Kunden werden auf Profilebene gespeichert und ausgewertet.
+
+Nachgelagerte Real-Time CDP- und Journey Optimizer-Ziele überprüfen jedes Profil vor der Aktivierung auf Einverständnisvoreinstellungen. Die Einverständnisinformationen jedes Profils werden mit den Einverständnisanforderungen für ein bestimmtes Ziel verglichen. Wenn das Profil die Anforderungen nicht erfüllt, wird dieses Profil nicht an ein Ziel gesendet.
+
+Wenn eine externe Zielgruppe in die Federated-Audience-Komposition aufgenommen wird, wird sie mithilfe einer primären ID wie E-Mail oder ECID mit vorhandenen Profilen abgeglichen. Daher bleiben die vorhandenen Einverständnisrichtlinien während der gesamten Aktivierung in Kraft.
+
+>[!NOTE]
+>
+>Da die Payload-Variablen nicht im Profil, sondern im Data Lake gespeichert werden, sollten Sie keine Einverständnisinformationen in extern generierte Zielgruppen aufnehmen. Verwenden Sie stattdessen andere Adobe Experience Platform-Aufnahmekanäle, in die Profildaten importiert werden.
 
 +++
