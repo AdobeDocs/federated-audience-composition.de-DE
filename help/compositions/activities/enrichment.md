@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Anreicherung“
 description: Erfahren Sie, wie Sie die Aktivität „Anreicherung“ verwenden.
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 

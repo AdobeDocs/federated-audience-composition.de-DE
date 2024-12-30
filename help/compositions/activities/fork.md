@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Verzweigung“
 description: Erfahren Sie, wie Sie die Aktivität „Verzweigung“ verwenden.
 exl-id: f73f27ca-e00d-446d-8f1c-a751f1809bac
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 

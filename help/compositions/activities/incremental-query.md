@@ -5,7 +5,7 @@ description: Erfahren Sie, wie Sie die Aktivität „Inkrementelle Abfrage“ ve
 hide: true
 hidefromtoc: true
 source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 

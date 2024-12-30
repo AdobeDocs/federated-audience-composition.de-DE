@@ -3,7 +3,7 @@ title: Adobe Experience Platform – Startseite der Dokumentation zur Kompositio
 description: Dokumentation zum Add-on „Komposition föderierter Zielgruppen“
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

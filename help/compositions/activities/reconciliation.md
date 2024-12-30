@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Aktivität „Abstimmung“ verwenden.
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 

@@ -4,8 +4,8 @@ description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen i
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1004'
+ht-degree: 82%
 
 ---
 
