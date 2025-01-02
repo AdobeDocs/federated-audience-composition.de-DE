@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: f06414fbacc2e11a374313f3614f76a10eeadc0b
+source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 82%
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
 
@@ -88,17 +88,18 @@ Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielg
 Nein, Identity Service wird während einer Komposition nicht genutzt. Die Daten zwischen den verschiedenen in der Komposition verwendeten Quellen werden durch eine benutzerdefinierte Logik verbunden (wie im zugrunde liegenden Modell ausgedrückt), z. B. CRM-ID, Benutzerkontonummer usw. Sie müssen die Identität, die als Kennung in der Zielgruppe verwendet wird, für die Auswahl in Ihrem Data Warehouse auswählen. Bei einer aus der Komposition föderierter Zielgruppen resultierenden Zielgruppe müssen Sie den Identity-Namespace für die Identität im resultierenden Datensatz identifizieren.
 
 +++
+<!--
++++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 
-+++Wie werden Voreinstellungen für die Kundenzustimmung bei extern generierten Zielgruppen berücksichtigt, die in die Federated Audience-Komposition importiert werden?
+As customer data is captured from multiple channels, identity stitching and merge policies allow this data to be consolidated in a single Real-Time Customer Profile. Information on the customers' consent preferences are stored and evaluated at the profile level.
 
-Da Kundendaten aus mehreren Kanälen erfasst werden, ermöglichen Identitätszuordnungen und Zusammenführungsrichtlinien die Konsolidierung dieser Daten in einem einzigen Echtzeit-Kundenprofil. Informationen zu den Voreinstellungen für das Einverständnis der Kundinnen und Kunden werden auf Profilebene gespeichert und ausgewertet.
+Downstream Real-Time CDP and Journey Optimizer destinations check each profile for consent preferences prior to activation. Each profile's consent information is compared against consent requirements for a particular destination. If the profile does not satisfy the requirements, that profile is not sent to a destination.
 
-Nachgelagerte Real-Time CDP- und Journey Optimizer-Ziele überprüfen jedes Profil vor der Aktivierung auf Einverständnisvoreinstellungen. Die Einverständnisinformationen jedes Profils werden mit den Einverständnisanforderungen für ein bestimmtes Ziel verglichen. Wenn das Profil die Anforderungen nicht erfüllt, wird dieses Profil nicht an ein Ziel gesendet.
-
-Wenn eine externe Zielgruppe in die Federated-Audience-Komposition aufgenommen wird, wird sie mithilfe einer primären ID wie E-Mail oder ECID mit vorhandenen Profilen abgeglichen. Daher bleiben die vorhandenen Einverständnisrichtlinien während der gesamten Aktivierung in Kraft.
+When an external audience is ingested into Federated Audience Composition, it is reconciliated with existing profiles using a primary ID such as email or ECID. As a result, the existing consent policies will remain in force throughout activation.
 
 >[!NOTE]
 >
->Da die Payload-Variablen nicht im Profil, sondern im Data Lake gespeichert werden, sollten Sie keine Einverständnisinformationen in extern generierte Zielgruppen aufnehmen. Verwenden Sie stattdessen andere Adobe Experience Platform-Aufnahmekanäle, in die Profildaten importiert werden.
+>Since the payload variables are not stored in the profile but in the data lake, you should not include consent information in externally generated audiences. Instead, use other Adobe Experience Platform ingestion channels where profile data is imported.
 
 +++
+-->
