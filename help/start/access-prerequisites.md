@@ -3,9 +3,9 @@ title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgrup
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '335'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Auf [dieser Seite](../connections/connections.md) erfahren Sie, wie Sie eine Ver
 
 ## Sandboxes
 
-Beim Kauf des Add-ons „Federated Audience Komposition“ haben Sie Anspruch auf zwei Sandboxes. Wenden Sie sich bei weiteren Anfragen zur Sandbox-Bereitstellung an Ihren Adobe-Support-Mitarbeiter.
+Beim Kauf des Add-ons für die Komposition föderierter Zielgruppen haben Sie Anspruch auf zwei Sandboxes. Wenden Sie sich bei Anfragen für die Bereitstellung weiterer Sandboxes an Ihren Kontakt beim Adobe-Support.
 
 ## Berechtigungen {#permissions}
 
@@ -42,15 +42,15 @@ Wirds beispielsweise eine neue Sandbox mit dem Namen „fac-test“ aktiviert, w
 
 ## IP-Zulassungsauflistung {#ip}
 
-Damit die Federated Audience Komposition sicher auf Ihre Datenbanken zugreifen kann, müssen Sie die IP-Adressen der Server für die Federated Audience Komposition autorisieren, die darauf zugreifen werden. Diese IP-Adressen werden angezeigt, wenn in der Benutzeroberfläche von Adobe Experience Platform eine Federated Database hinzugefügt wird. [Weitere Informationen](../connections/connections.md)
+Damit die Komposition föderierter Zielgruppen sicher auf Ihre Datenbanken zugreifen kann, müssen Sie die IP-Adressen der Server für die Komposition föderierter Zielgruppen autorisieren, die darauf zugreifen werden. Diese IP-Adressen werden angezeigt, wenn in der Benutzeroberfläche von Adobe Experience Platform eine föderierte Datenbank hinzugefügt wird. [Weitere Informationen](../connections/connections.md)
 
 Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um der Komposition föderierter Zielgruppen Zugriff zu gewähren.
 
 ## Leitlinien und Einschränkungen {#fac-guardrails}
 
-* Die Federated Audience-Komposition ist derzeit nicht für Kundinnen und Kunden verfügbar [die Gesundheitsdaten aufnehmen](https://experienceleague.adobe.com/de/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
+* Die Komposition föderierter Zielgruppen ist derzeit nicht für Kundinnen und Kunden verfügbar, die [Gesundheitsdaten aufnehmen](https://experienceleague.adobe.com/de/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* Für dieses Add-on gelten die Berechtigungen, Produktbeschränkungen und Leistungsleitlinien, die in der [Dokumentation zu Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails) {target="_blank"} aufgeführt sind.
+* Für dieses Add-on gelten die Berechtigungen, Produktbeschränkungen und Leistungsleitlinien, die in der [Dokumentation zur Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails) {target="_blank"} aufgeführt sind.
