@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -77,9 +77,9 @@ Die resultierenden Zielgruppendaten werden nicht unbegrenzt in Adobe Experience 
 
 +++
 
-+++Kann ich eine hochgeladene benutzerdefinierte Zielgruppe löschen?
++++Kann ich eine Zielgruppe löschen?
 
-Nein, in der aktuellen Version können Sie hochgeladene benutzerdefinierte Zielgruppen nicht löschen.
+Nein, in der aktuellen Version können Sie Zielgruppen für die Federated-Audience-Komposition nicht löschen.
 
 +++
 
