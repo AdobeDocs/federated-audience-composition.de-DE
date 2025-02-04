@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 + Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
    + [Was ist die Komposition föderierter Zielgruppen](start/get-started.md)
    + [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
+   + [Zugreifen auf Federated Audience-Komposition](start/feature-access.md)
    + [Arbeiten mit Zielgruppen](start/audiences.md)
    + [Häufig gestellte Fragen](start/faq.md)
 + Konfigurationsschritte {#config}

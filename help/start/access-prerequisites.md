@@ -2,10 +2,10 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -36,9 +36,7 @@ Beim Kauf des Add-ons für die Komposition föderierter Zielgruppen haben Sie An
 
 ## Berechtigungen {#permissions}
 
-Wenn Sie das Add-on „Komposition föderierter Zielgruppen“ erwerben, wird zu diesem Zeitpunkt für jede aktive Sandbox ein Produktprofil erstellt. Dieses Produktprofil wird in der Admin Console unter der Produktkarte **Adobe Experience Platform** erstellt und folgt dieser Namenskonvention: `ACP_FAC - <<SandboxName>> - admin.` Für den Zugriff auf die Komposition föderierter Zielgruppen für eine bestimmte Sandbox müssen Benutzende zum Produktprofil hinzugefügt werden, das für diese Sandbox erstellt wurde.
-
-Wirds beispielsweise eine neue Sandbox mit dem Namen „fac-test“ aktiviert, wird das entsprechende Produktprofil „ACP_FAC – fac-test – admin“ erstellt. Um mit dieser Sandbox auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Benutzende diesem Produktprofil hinzugefügt werden.
+Um auf die Federated Audience-Komposition zugreifen zu können, müssen Benutzende dem beim Kauf erstellten Sandbox-spezifischen Produktprofil hinzugefügt und die Berechtigung **[!UICONTROL Federated Data verwalten]** zugewiesen werden. [Weitere Informationen](feature-access.md)
 
 ## IP-Zulassungsauflistung {#ip}
 
