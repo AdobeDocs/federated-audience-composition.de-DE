@@ -2,45 +2,26 @@
 audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
-exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
+hide: true
+hidefromtoc: true
+source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 58%
+source-wordcount: '659'
+ht-degree: 26%
 
 ---
 
-# Erste Schritte mit Datenmodellen {#data-model}
+# Erste Schritte mit Datenmodellen {#data-model-beta}
 
->[!CONTEXTUALHELP]
->id="dc_model_menu"
->title="Arbeiten mit Modellen"
->abstract="Dieser Bildschirm enthält eine Liste der Schemata und Datenmodelle. Schemata und Datenmodelle können über die Schaltfläche **Erstellen** erstellt werden."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_schema"
->title="Schemata auswählen"
->abstract="Die Schemata für das Datenmodell auswählen."
-
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_audience"
->title="Zielgruppe auswählen"
->abstract="Wählen Sie die Zielgruppe für das Datenmodell aus."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_properties"
->title="Datenmodelleigenschaften"
->abstract="Den Titel des Datenmodells eingeben."
-
+>[!AVAILABILITY]
+>
+>Datenmodell mit Arbeitsfläche -Ansicht ist derzeit nur als Beta-Version für ausgewählte Benutzer verfügbar.
 
 ## Was ist ein Datenmodell? {#data-model-start}
 
 Ein Datenmodell ist ein Satz von Schemata, Zielgruppen und den Verknüpfungen zwischen ihnen. Es wird verwendet, um Zielgruppen mit Daten aus Datenbanken zu verbinden.
 
-Weitere Informationen zu [Schemata](../customer/schemas.md#schema-start).
-
-Weitere Informationen zu [Zielgruppen](../start/audiences.md).
+Weitere Informationen zu [Schemata](../customer/schemas.md#schema-start) und [Audiences](../start/audiences.md).
 
 Unten sehen Sie beispielsweise die Darstellung eines Datenmodells: die Tabellen mit ihrem Namen und die Verknüpfungen zwischen ihnen.
 
@@ -74,7 +55,11 @@ Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
 ## Links erstellen {#data-model-links}
 
-Gehen Sie wie folgt vor, um Links zwischen Tabellen Ihres Datenmodells zu erstellen:
+>[!BEGINTABS]
+
+>[!TAB Tabellenansicht]
+
+Gehen Sie wie folgt vor, um auf der Registerkarte „Tabellenansicht“ Verknüpfungen zwischen Tabellen Ihres Datenmodells zu erstellen:
 
 1. Klicken Sie auf das Menü **[!UICONTROL Link erstellen]** einer Tabelle oder auf die Schaltfläche **[!UICONTROL Links erstellen]** und wählen Sie die beiden Tabellen aus:
 
@@ -95,6 +80,45 @@ Gehen Sie wie folgt vor, um Links zwischen Tabellen Ihres Datenmodells zu erstel
 Alle für Ihr Datenmodell definierten Links werden wie folgt aufgeführt:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+>[!TAB Arbeitsflächen-Ansicht]
+
+Gehen Sie wie folgt vor, um auf der Registerkarte „Arbeitsfläche-Ansicht“ Verknüpfungen zwischen Tabellen Ihres Datenmodells zu erstellen:
+
+1. Rufen Sie die Arbeitsfläche der Ansicht Ihres Datenmodells auf und wählen Sie die beiden Tabellen aus, die Sie verknüpfen möchten
+
+1. Klicken Sie auf die Schaltfläche ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben dem Source-Join und ziehen Sie den Pfeil in Richtung Ziel-Join, um die Verbindung herzustellen.
+
+   ![](assets/datamodel.gif){zoomable="yes"}
+
+1. Füllen Sie das Formular aus, um den Link zu definieren, und klicken Sie nach der Konfiguration **[!UICONTROL Anwenden]**.
+
+   ![](assets/datamodel-canvas-1.png){zoomable="yes"}
+
+   **Kardinalität**
+
+   * **1-N**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
+
+   * **N-1**: Eine Entität in der Zieltabelle kann mit mehreren Entitäten in der Quelltabelle in Beziehung stehen, aber eine Entität in der Quelltabelle kann mit höchstens einer Entität in der Zieltabelle in Beziehung stehen.
+
+   * **1-1**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
+
+1. Alle im Datenmodell definierten Links werden in der Arbeitsfläche als Pfeile dargestellt. Klicken Sie auf einen Pfeil zwischen zwei Tabellen, um Details anzuzeigen, Änderungen vorzunehmen oder den Link nach Bedarf zu entfernen.
+
+   ![](assets/datamodel-canvas-2.png){zoomable="yes"}
+
+1. Verwenden Sie die Symbolleiste, um die Arbeitsfläche anzupassen und anzupassen.
+
+   ![](assets/datamodel-canvas-3.png)
+
+   * **[!UICONTROL Einzoomen]**: Vergrößern Sie die Arbeitsfläche, um Details zu Ihrem Datenmodell deutlicher zu sehen.
+   * **[!UICONTROL Verkleinern]**: Verkleinern Sie die Arbeitsfläche, um eine breitere Ansicht Ihres Datenmodells zu erhalten.
+   * **[!UICONTROL Ansicht anpassen]**: Passen Sie den Zoom an alle Schemata und/oder Zielgruppen im sichtbaren Bereich an.
+   * **[!UICONTROL Interaktivität ein/aus]**: Aktivieren oder Deaktivieren der Benutzerinteraktion mit der Arbeitsfläche.
+   * **[!UICONTROL Filter]**: Wählen Sie aus, welches Schema auf der Arbeitsfläche angezeigt werden soll.
+   * **[!UICONTROL Automatisches Layout erzwingen]**: Automatische Anordnung von Schemata und/oder Audiences zur besseren Organisation.
+
+>[!ENDTABS]
 
 ## Anleitungsvideo {#data-model-video}
 

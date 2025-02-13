@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 97%
+source-wordcount: '154'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 97%
    + [Konfigurieren föderierter Datenbanken](connections/federated-db.md)
    + Datenmodelle und Schemata{#datamodel}
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
+      + [Konfigurieren von Datenmodellen (Betaversion)](data-management/gs-models-beta.md)
       + [Konfigurieren der Datenmodelle](data-management/gs-models.md)
    + [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
 + Erstellen von Zielgruppen {#compositions}
