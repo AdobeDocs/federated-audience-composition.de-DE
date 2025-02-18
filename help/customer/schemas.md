@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 80%
 
 ---
 
@@ -57,19 +57,21 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 
 Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen zu erstellen:
 
-1. Navigieren Sie im Abschnitt **[!UICONTROL FÖDERIERTE DATEN]** zum Link **[!UICONTROL Modelle]**. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf die Schaltfläche **[!UICONTROL Schema erstellen]**.
+1. Rufen **[!UICONTROL Abschnitt „Federated Data]** das Menü **[!UICONTROL Modelle]** auf. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    Mit diesem Schritt erhalten Sie Zugang zu einem neuen Bildschirm mit einer Dropdown-Liste, in der Sie die mit Ihrer Umgebung verbundene(n) Datenbank(en) finden. Weiterführende Informationen zur Verbindung von Datenbanken finden Sie in [diesem Abschnitt](../connections/connections.md#connections-fdb)
 
-1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf die Registerkarte **[!UICONTROL Tabellen hinzufügen]**.
+1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    Anschließend sehen Sie die Liste aller Tabellen in der Datenbank.
 
-1. Indem Sie die Tabellen hinzufügen, für die das Schema erstellt werden soll, haben Sie Zugriff auf die entsprechenden Felder (siehe unten).
+1. Wählen Sie die Tabellen aus, für die Sie das Schema erstellen möchten.
+
+1. Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Konfigurieren Sie das Schema und seine Spalten nach Bedarf.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen
 
    * Ändern des Schema-Labels
    * Hinzufügen einer Beschreibung
-   * Umbenennen aller Felder und Festlegen ihrer Sichtbarkeit
+   * Benennen Sie alle Feldbeschriftungen um und legen Sie ihre Sichtbarkeit fest
    * Auswählen des Primärschlüssels des Schemas
-
-   Beispielsweise für die folgenden importierte Tabelle:
-
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
 
    Das Schema kann wie folgt definiert werden:
 
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_example.png)
+
+1. Klicken Sie nach Abschluss der Konfiguration auf **[!UICONTROL Fertig]**.
 
 ## Bearbeiten eines Schemas {#schema-edit}
 
 Gehen Sie wie folgt vor, um ein Schema zu bearbeiten:
 
-1. Klicken Sie auf den Namen des Schemas in der Liste.
+1. Greifen Sie auf Ihr zuvor erstelltes Schema zu.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   Sie können auf dieselben Optionen zugreifen wie beim [Erstellen eines Schemas](#schema-create).
+1. Im Fenster **[!UICONTROL Schema bearbeiten]** können Sie auf die gleichen Optionen zugreifen und sie konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## Vorschau von Daten in einem Schema {#schema-preview}
 
@@ -114,7 +113,6 @@ Klicken Sie auf den Link **[!UICONTROL Berechnen]**, um eine Vorschau der Gesamt
 Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]**, um die Datenanzeige zu ändern.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## Aktualisieren eines Schemas {#schema-refresh}
 

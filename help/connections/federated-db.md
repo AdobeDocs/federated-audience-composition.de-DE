@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 02e83cd73c42477bdab8a43c3d2a54df60ab5018
+source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
 workflow-type: tm+mt
-source-wordcount: '1904'
-ht-degree: 99%
+source-wordcount: '2081'
+ht-degree: 95%
 
 ---
 
@@ -41,12 +41,13 @@ Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den 
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
+* [Microsoft-Struktur](#microsoft-fabric)
 
 ## Amazon Redshift {#amazon-redshift}
 
 >[!AVAILABILITY]
 >
->Nur Amazon Redshift und Amazon Redshift ServerLess werden unterstützt.
+>Nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless werden unterstützt.
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
 
@@ -328,45 +329,45 @@ Der Connector unterstützt die folgenden Optionen:
 |---|---|
 | TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. |
 
-<!--Not for October release
-
-## Microsoft Fabric (LA){#microsoft-fabric}
+## Microsoft-Struktur {#microsoft-fabric}
 
 >[!AVAILABILITY]
 >
->Microsoft Fabric is currently only available for a set of organizations (Limited Availability).
+>Microsoft Fabric ist derzeit nur für ausgewählte Organisationen verfügbar (eingeschränkte Verfügbarkeit).
 
-Use Federated databases to process information stored in an external database. Follow the steps below to configure access to Microsoft Fabric.
+Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf die Microsoft-Fabric zu konfigurieren.
 
-1. Under the **[!UICONTROL Federated data]** menu, select **[!UICONTROL Federated databases]**.
+1. Wählen Sie im Menü **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Föderierte Datenbanken]** aus.
 
-1. Click **[!UICONTROL Add federated database]**.
+1. Klicken Sie auf **[!UICONTROL Föderierte Datenbank hinzufügen]**.
 
-    ![](assets/federated_database_1.png)
+   ![](assets/federated_database_1.png)
 
-1. Enter a **[!UICONTROL Name]** to your Federate database.
+1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. From the **[!UICONTROL Type]** drop-down, select Microsoft Fabric.
+1. Wählen Sie aus **[!UICONTROL Dropdown]** Typ“ die Option Microsoft Fabric aus.
 
-    ![](assets/microsoft-config.png)
+   ![](assets/microsoft-config.png)
 
-1. Configure the Microsoft Fabric authentication settings:
+1. Konfigurieren Sie die Microsoft Fabric-Authentifizierungseinstellungen:
 
-    * **[!UICONTROL Server]**: Enter the URL of the Microsoft Fabric server.
+   * **[!UICONTROL Server]**: Geben Sie die URL des Microsoft Fabric-Servers ein.
 
-    * **[!UICONTROL Application ID]**: Enter your Microsoft Fabric Application ID.
+   * **[!UICONTROL Anwendungs-ID]**: Geben Sie Ihre Microsoft Fabric-Anwendungs-ID ein.
 
-    * **[!UICONTROL Client secret]**: Enter your Client secret.
+   * **[!UICONTROL Client-Geheimnis]**: Geben Sie Ihr Client-Geheimnis ein.
 
-    * **[!UICONTROL Options]**: The connector supports the options detailed in the table below.
+   * **[!UICONTROL Optionen]**: Der Connector unterstützt die in der folgenden Tabelle aufgeführten Optionen.
 
-1. Select the **[!UICONTROL Test the connection]** option to verify your configuration.
+1. Klicken Sie **[!UICONTROL Server IPs]**, um die Server-IPs auszuwählen, die Sie autorisieren möchten.
 
-1. Click **[!UICONTROL Deploy functions]** button to create the functions.
+1. Wählen Sie die Option **[!UICONTROL Verbindung testen]** aus, um Ihre Konfiguration zu überprüfen.
 
-1. Once your configuration is done, click **[!UICONTROL Add]** to create your Federate database.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Funktionen bereitstellen]**, um Funktionen zu erstellen.
 
-| Option   |  Description |
+1. Nachdem Sie die Konfiguration abgeschlossen haben, klicken Sie auf **[!UICONTROL Hinzufügen]**, um Ihre föderierte Datenbank zu erstellen.
+
+| Option | Beschreibung |
 |---|---|
-| Authentication | Type of authentication supported by the connector. Current supported value: ActiveDirectoryMSI. For more information, refer to [Microsoft SQL documentation](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}  (Example connection strings n°8) |
--->
+| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8) |
+

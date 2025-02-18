@@ -3,10 +3,10 @@ audience: end-user
 title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,22 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-new.png)
 
-1. Geben Sie einen Namen für die neue Verbindung ein, wählen Sie den zu verwendenden **[!UICONTROL Verbindungstyp]** und die für die Verbindung gewünschte **[!UICONTROL föderierte Datenbank]** aus und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Geben Sie einen Namen für die neue Verbindung ein und wählen Sie **[!UICONTROL Verbindungstyp]** aus den folgenden verfügbaren Verbindungen aus:
+
+   * Amazon Redshift
+   * Azure Synapse Analytics
+   * Google BigQuery
+   * Snowflake
+   * Vertica Analytics
+   * Databricks
+
+1. Wählen Sie die **[!UICONTROL Federated Database]**, mit der Sie eine Verbindung herstellen möchten, und klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/destination-configure.png)
 
-   Über den Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten. Weitere Informationen zu Warnhinweisen finden Sie in der Dokumentation zu Adobe Experience Platform zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+1. Im Abschnitt **[!UICONTROL Warnhinweise]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten.
+
+   Weitere Informationen zu Warnhinweisen finden Sie in der Dokumentation zu Adobe Experience Platform zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 
