@@ -2,7 +2,7 @@
 title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Platform
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: a9d39ec1f7d678ce35b95898370c258b844e7fab
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 82%
@@ -17,7 +17,7 @@ ht-degree: 82%
 
 Diese Version enthält die unten aufgeführten Änderungen.
 
-* Unterstützung für **Microsoft Fabrics**
+* **Microsoft-Fabric-Unterstützung**
 
   Sie können jetzt über Federated Audience Composition Verbindungen zu Microsoft Fabric-Datenbanken herstellen. [Weitere Informationen](../connections/federated-db.md)
 
