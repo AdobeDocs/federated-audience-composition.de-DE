@@ -87,7 +87,7 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 
 >[!CONTEXTUALHELP]
 >id="dc_federated_database_create_link"
->title="Erstellen eines Links"
+>title="Link erstellen"
 >abstract="Die Link-Einstellungen definieren."
 
 

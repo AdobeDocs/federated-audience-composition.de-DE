@@ -31,7 +31,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_properties"
 >title="Datenmodelleigenschaften"
->abstract="Den Titel des Datenmodells eingeben."
+>abstract="Label des Datenmodells eingeben."
 
 
 ## Was ist ein Datenmodell? {#data-model-start}
