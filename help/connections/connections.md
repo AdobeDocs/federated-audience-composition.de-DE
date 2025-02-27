@@ -6,7 +6,7 @@ exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Gehen Sie wie folgt vor, um eine Verbindung mit Ihrer Datenbank einzurichten:
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Microsoft-Struktur](federated-db.md#microsoft-fabric)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. Wählen Sie für jede unterstützte Datenbank die Schaltfläche **[!UICONTROL Server-IP]** aus. Es wird die Liste aller IP-Adressen angezeigt, die mit den Instanzen für die Komposition föderierter Zielgruppen verknüpft sind.
 

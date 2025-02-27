@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 
 Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen zu erstellen:
 
-1. Rufen **[!UICONTROL Abschnitt „Federated Data]** das Menü **[!UICONTROL Modelle]** auf. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
+1. Rufen Sie im Abschnitt **[!UICONTROL Föderierte Daten]** das Menü **[!UICONTROL Modelle]** auf. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen
 
    Anschließend sehen Sie die Liste aller Tabellen in der Datenbank.
 
-1. Wählen Sie die Tabellen aus, für die Sie das Schema erstellen möchten.
+1. Wählen Sie die Tabellen aus, für die dieses Schema erstellt werden soll.
 
 1. Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Konfigurieren Sie das Schema und seine Spalten nach Bedarf.
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen
 
    * Ändern des Schema-Labels
    * Hinzufügen einer Beschreibung
-   * Benennen Sie alle Feldbeschriftungen um und legen Sie ihre Sichtbarkeit fest
+   * Umbenennen aller Feldtitel und Festlegen ihrer Sichtbarkeit
    * Auswählen des Primärschlüssels des Schemas
 
    Das Schema kann wie folgt definiert werden:
@@ -98,7 +98,7 @@ Gehen Sie wie folgt vor, um ein Schema zu bearbeiten:
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-1. Im Fenster **[!UICONTROL Schema bearbeiten]** können Sie auf die gleichen Optionen zugreifen und sie konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
+1. Im Fenster **[!UICONTROL Schemabearbeitung]** können Sie auf die gleichen Optionen zugreifen und sie konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
 

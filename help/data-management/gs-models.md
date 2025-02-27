@@ -6,7 +6,7 @@ exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
 source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -54,9 +54,9 @@ Die Erstellung erfolgt anhand des Anwendungsbeispiels: Sie wählen die erforderl
 
 Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
-1. Rufen Sie im **[!UICONTROL Federated Data]** das Menü **[!UICONTROL Modelle]** auf und navigieren Sie zur Registerkarte **[!UICONTROL Datenmodell]** .
+1. Greifen Sie im Abschnitt **[!UICONTROL Föderierte Daten]** auf das Menü **[!UICONTROL Modelle]** zu und gehen Sie zur Registerkarte **[!UICONTROL Datenmodell]**.
 
-   Klicken Sie auf die **[!UICONTROL Datenmodell erstellen]**.
+   Klicken Sie auf die Schaltfläche **[!UICONTROL Datenmodell erstellen]**.
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
@@ -66,13 +66,13 @@ Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Klicken Sie **[!UICONTROL Zielgruppen hinzufügen]**, um Ihre Zielgruppen zu definieren.
+1. Klicken Sie auf **[!UICONTROL Zielgruppen hinzufügen]**, um Ihre Zielgruppen zu definieren.
 
 1. Stellen Sie Verbindungen zwischen Tabellen in Ihrem Datenmodell her, um genaue Datenbeziehungen sicherzustellen. [Weitere Informationen](#data-model-links)
 
 1. Klicken Sie nach Abschluss der Konfiguration auf **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
 
-## Links erstellen {#data-model-links}
+## Erstellen von Links {#data-model-links}
 
 Gehen Sie wie folgt vor, um Links zwischen Tabellen Ihres Datenmodells zu erstellen:
 
@@ -86,11 +86,11 @@ Gehen Sie wie folgt vor, um Links zwischen Tabellen Ihres Datenmodells zu erstel
 
    **Kardinalität**
 
-   * **1-N**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
+   * **1:N**: Eine Entität in der Quelltabelle kann mit mehreren Entitäten in der Zieltabelle in Beziehung stehen, aber eine Entität in der Zieltabelle kann nur maximal mit einer Entität in der Quelltabelle in Beziehung stehen.
 
-   * **N-1**: Eine Entität in der Zieltabelle kann mit mehreren Entitäten in der Quelltabelle in Beziehung stehen, aber eine Entität in der Quelltabelle kann mit höchstens einer Entität in der Zieltabelle in Beziehung stehen.
+   * **N:1**: Eine Entität in der Zieltabelle kann mit mehreren Entitäten in der Quelltabelle in Beziehung stehen, aber eine Entität in der Quelltabelle kann nur maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
 
-   * **1-1**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
+   * **1:1**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
 
 Alle für Ihr Datenmodell definierten Links werden wie folgt aufgeführt:
 

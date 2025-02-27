@@ -5,7 +5,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
 workflow-type: tm+mt
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Mit der Komposition föderierter Zielgruppen von Adobe können Benutzerinnen und
 
 >[!INFO]
 >
->In [ Schritt-für-Schritt-Anleitung erfahren ](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac), wie Sie Zielgruppen mit Federated Audience Composition erstellen.
+>In dieser [schrittweisen Anleitung](https://experienceleague.adobe.com/de/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) erfahren Sie, wie Sie Zielgruppen mit der Komposition föderierter Zielgruppen erstellen.
 
 ## Funktionen {#rn-capabilities}
 

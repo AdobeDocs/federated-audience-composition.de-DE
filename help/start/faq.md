@@ -5,7 +5,7 @@ exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
 workflow-type: tm+mt
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Die resultierenden Zielgruppendaten werden nicht unbegrenzt in Adobe Experience 
 
 +++Kann ich eine Zielgruppe löschen?
 
-Nein, in der aktuellen Version können Sie Zielgruppen für die Federated-Audience-Komposition nicht löschen.
+Nein, in der aktuellen Version können Sie keine Zielgruppen der Komposition föderierter Zielgruppen löschen.
 
 +++
 

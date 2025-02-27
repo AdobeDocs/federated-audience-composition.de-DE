@@ -5,7 +5,7 @@ exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
 workflow-type: tm+mt
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Beim Kauf des Add-ons für die Komposition föderierter Zielgruppen haben Sie An
 
 ## Berechtigungen {#permissions}
 
-Um auf die Federated Audience-Komposition zugreifen zu können, müssen Benutzende dem beim Kauf erstellten Sandbox-spezifischen Produktprofil hinzugefügt und die Berechtigung **[!UICONTROL Federated Data verwalten]** zugewiesen werden. [Weitere Informationen](feature-access.md)
+Um auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Benutzende dem beim Kauf erstellten Sandbox-spezifischen Produktprofil hinzugefügt werden und ihnen muss die Berechtigung **[!UICONTROL Föderierte Daten verwalten]** zugewiesen werden. [Weitere Informationen](feature-access.md)
 
 ## IP-Zulassungsauflistung {#ip}
 
