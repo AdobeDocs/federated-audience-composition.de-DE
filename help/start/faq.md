@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 100%
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Komposition fö
 
 +++Welche Berechtigungen sind für den Zugriff auf die Komposition föderierter Zielgruppen erforderlich?
 
-Die Komposition föderierter Zielgruppen erfordert Adobe Real-Time Customer Data Platform und/oder die Pakete „Prime“ oder „Ultimate“ von Adobe Journey Optimizer. Sie müssen außerdem das Add-on „Komposition föderierter Zielgruppen“ erworben haben.
+Die Komposition föderierter Zielgruppen erfordert Adobe Real-Time Customer Data Platform und/oder die Pakete „Prime“ oder „Ultimate“ von Adobe Journey Optimizer. Sie müssen auch eine Federated Audience-Komposition erworben haben.
 
 Um die Komposition föderierter Zielgruppen verwenden zu können, muss jede Benutzerin und jeder Benutzer einem spezifischen Profil hinzugefügt werden, das für jede Sandbox erstellt wurde. Weitere Informationen finden Sie auf der Seite [Zugriff auf die Komposition föderierter Zielgruppen](access-prerequisites.md).
 

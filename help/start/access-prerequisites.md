@@ -2,10 +2,10 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 88%
 
 ---
 
@@ -32,7 +32,7 @@ Auf [dieser Seite](../connections/connections.md) erfahren Sie, wie Sie eine Ver
 
 ## Sandboxes
 
-Beim Kauf des Add-ons für die Komposition föderierter Zielgruppen haben Sie Anspruch auf zwei Sandboxes. Wenden Sie sich bei Anfragen für die Bereitstellung weiterer Sandboxes an Ihren Kontakt beim Adobe-Support.
+Beim Kauf einer Federated-Audience-Komposition haben Sie Anspruch auf zwei Sandboxes. Wenden Sie sich bei Anfragen für die Bereitstellung weiterer Sandboxes an Ihren Kontakt beim Adobe-Support.
 
 ## Berechtigungen {#permissions}
 
@@ -51,4 +51,4 @@ Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um der Komposition 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
-* Für dieses Add-on gelten die Berechtigungen, Produktbeschränkungen und Leistungsleitlinien, die in der [Dokumentation zur Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails) {target="_blank"} aufgeführt sind.
+* Berechtigungen, Produktbeschränkungen und die Leistung betreffende Leitplanken, die in der Dokumentation zu [Adobe Real-Time Customer Data Platform aufgeführt sind](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} gelten für die Federated-Audience-Komposition.

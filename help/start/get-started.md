@@ -2,16 +2,16 @@
 title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience Platform
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 100%
+source-wordcount: '945'
+ht-degree: 96%
 
 ---
 
 # Erste Schritte mit der Komposition föderierter Zielgruppen {#gs-fac}
 
-Die Komposition föderierter Zielgruppen ist eine Add-on-Funktion für [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} und [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}, mit der Sie Zielgruppen aus Data Warehouses von Drittanbietern erstellen und anreichern sowie die Zielgruppen in Adobe Experience Platform importieren können. Die Komposition föderierter Zielgruppen bietet eine einfache und leistungsstarke Lösung, um Ihr Unternehmens-Data Warehouse direkt in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen über die Tabellen in Ihrem Data Warehouse durchzuführen.
+Die Federated Audience-Komposition ist für Umgebungen [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} und [Adobe Journey Optimizer ](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}. Damit können Sie Zielgruppen aus Data Warehouses von Drittanbietern erstellen und anreichern sowie die Zielgruppen in Adobe Experience Platform importieren. Die Komposition föderierter Zielgruppen bietet eine einfache und leistungsstarke Lösung, um Ihr Unternehmens-Data Warehouse direkt in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zu verbinden und Abfragen über die Tabellen in Ihrem Data Warehouse durchzuführen.
 
 Mit der Komposition föderierter Zielgruppen von Adobe können Benutzerinnen und Benutzer von Adobe Experience Platform-Apps auf ihre Kundendaten zugreifen, die in ihren Data Warehouses und auf Cloud-Speicherplattformen wie Amazon Redshift, Azure Synapse Analytics usw. gespeichert sind. Kundendaten können in mehreren Data Warehouses gespeichert werden und sind jetzt ohne Replikation sofort verfügbar. Welche Plattformen unterstützt werden, erfahren Sie auf [dieser Seite](../connections/federated-db.md#supported-db).
 
