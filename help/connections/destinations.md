@@ -3,9 +3,9 @@ audience: end-user
 title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '588'
 ht-degree: 100%
 
 ---
@@ -42,6 +42,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
    * Snowflake
    * Vertica Analytics
    * Databricks
+   * Microsoft Fabric
 
 1. Wählen Sie die **[!UICONTROL föderierte Datenbank]**, mit der Sie eine Verbindung herstellen möchten, und klicken Sie auf **[!UICONTROL Weiter]**.
 
