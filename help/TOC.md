@@ -2,9 +2,9 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
+source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 + [Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform](home.md)
 + [Versionshinweise](start/release-notes.md)
++ [Versionshinweise](start/e-release-notes.md)
 + Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
    + [Was ist die Komposition föderierter Zielgruppen](start/get-started.md)
    + [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
