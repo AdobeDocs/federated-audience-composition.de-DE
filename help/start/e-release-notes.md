@@ -3,10 +3,10 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## Version vom 25. März {#fac-25-3}
 
-Diese Version enthält die unten aufgeführte Verbesserung.
+### Verbesserungen {#fac-25-3-improvements}
+
+Diese Version enthält die folgenden Verbesserungen.
 
 * **Berechtigungen für zusammengeführte Zielgruppenkomposition**
 
@@ -34,7 +36,7 @@ Diese Version enthält die unten aufgeführte Verbesserung.
 
   Die Federated Audience-Komposition unterstützt jetzt den Export großer Zielgruppen und verarbeitet Dateigrößen von bis zu 20 GB.
 
-### Kompatibilität {#fac-25.3-compat}
+### Kompatibilität {#fac-25-3-compat}
 
 * **Datenbricks-Verbindung**
 
