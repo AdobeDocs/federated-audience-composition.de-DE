@@ -3,10 +3,10 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 66%
 
 ---
 
@@ -35,6 +35,10 @@ Diese Version enthält die folgenden Verbesserungen.
 * **Zielgruppenexport**
 
   Die Federated Audience-Komposition unterstützt jetzt den Export großer Zielgruppen und verarbeitet Dateigrößen von bis zu 20 GB.
+
+* **KI-Assistent**
+
+  Der KI-Assistent ist eine Funktion der Benutzeroberfläche, die Ihnen hilft, Adobe-Konzepte zu navigieren und zu verstehen und operative Einblicke für Ihre spezifische Umgebung zu erhalten. Es ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Federated Audience Composition.
 
 ### Kompatibilität {#fac-25-3-compat}
 
