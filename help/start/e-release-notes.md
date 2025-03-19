@@ -3,10 +3,11 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
-source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
+exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
+source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 66%
+source-wordcount: '846'
+ht-degree: 69%
 
 ---
 
@@ -28,13 +29,11 @@ Diese Version enthält die folgenden Verbesserungen.
 
   Informationen zum Zuweisen dieser Berechtigung finden Sie in der [ Dokumentation](feature-access.md).
 
-* **Arbeitsfläche des Datenmodells**
+<!--
+* **Data model Canvas view**
 
-  Die Arbeitsflächen-Ansicht für den Abschnitt Datenmodelle verbessert das Erlebnis, indem sie die Visualisierung von Datenmodellen und deren Links in einem Arbeitsflächen-Layout neben der vorhandenen Tabellenansicht ermöglicht. [Weitere Informationen](../data-management/gs-models.md)
-
-* **Zielgruppenexport**
-
-  Die Federated Audience-Komposition unterstützt jetzt den Export großer Zielgruppen und verarbeitet Dateigrößen von bis zu 20 GB.
+    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+-->
 
 * **KI-Assistent**
 
@@ -45,7 +44,7 @@ Diese Version enthält die folgenden Verbesserungen.
 * **Datenbricks-Verbindung**
 
   Mit dieser neuen Version unterstützt die Federated Audience-Komposition jetzt die Konnektivität privater Links für Datenbankverbindungen von Databricks.
-Es ermöglicht auch sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) und Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
+Darüber hinaus ermöglicht es sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) und Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
 
 * **Support für B2B CDP-Kunden**
 
@@ -53,7 +52,7 @@ Es ermöglicht auch sichere Verbindungen zu Datenbanken von Databricks, die auf 
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt Federated Audience Composition sichere private Link-Verbindungen zu Snowflake-Datenbanken, die auf Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Mit dieser neuen Version unterstützt Federated Audience Composition sichere private Link-Verbindungen zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#snowflake)
 
 ## Version Februar 2025 {#fac-25-2}
 
@@ -129,5 +128,3 @@ Die Federated Audience-Komposition erfüllt wachsende Marktanforderungen für Un
 Weitere Informationen zu den Möglichkeiten der Komposition föderierter Zielgruppen finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](faq.md).
 
 Ausführliche Informationen zu den Voraussetzungen für den Zugriff auf Kompositionen föderierter Zielgruppen und die aktuellen Leitlinien finden Sie auf [dieser Seite](access-prerequisites.md).
-
-
