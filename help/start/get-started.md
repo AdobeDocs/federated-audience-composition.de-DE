@@ -2,10 +2,10 @@
 title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience Platform
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 >abstract="Profil speichern"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Profil speichern – AEP-Schema auswählen"
->abstract="Profil speichern – AEP-Schema auswählen"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Profil speichern – AEP-Schema-Liste"
 >abstract="Profil speichern – AEP-Schema-Liste"
@@ -147,6 +142,16 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 >abstract="Profil speichern – AEP-Schemaattribut"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Profil speichern – Feld „Primäre Identität“ auswählen"
->abstract="Profil speichern – Feld „Primäre Identität“ auswählen"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Primäres Identifizierungsfeld auswählen"
+>abstract="Primäres Identifizierungsfeld zur Verwendung für Profile."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="AEP-Datensatz"
+>abstract="Wählen Sie den AEP-Datensatz aus, der für Profile verwendet werden soll."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Profil speichern – AEP-Schema auswählen"
+>abstract="Wählen Sie das AEP-Schema aus, das für Profile verwendet werden soll."
