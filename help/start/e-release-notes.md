@@ -4,10 +4,10 @@ description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 4b70d9e84a0089ffc4d3088bd21fb3803143ad38
+source-git-commit: 36b2d003800d5b737634cb36ca6a66944d433d8f
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 69%
+source-wordcount: '802'
+ht-degree: 73%
 
 ---
 
@@ -33,18 +33,19 @@ Diese Version enthält die folgenden Verbesserungen.
 * **Data model Canvas view**
 
     The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
+
+
+* **AI Assistant**
+
+    The AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. [Learn more](ai-assistant.md)
 -->
-
-* **KI-Assistent**
-
-  Der KI-Assistent ist eine Funktion der Benutzeroberfläche, die Ihnen hilft, Adobe-Konzepte zu navigieren und zu verstehen und operative Einblicke für Ihre spezifische Umgebung zu erhalten. Es ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Federated Audience Composition.
 
 ### Kompatibilität {#fac-25-3-compat}
 
 * **Datenbricks-Verbindung**
 
   Mit dieser neuen Version unterstützt die Federated Audience-Komposition jetzt die Konnektivität privater Links für Datenbankverbindungen von Databricks.
-Darüber hinaus ermöglicht es sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) und Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
+Darüber hinaus ermöglicht es sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
 
 * **Support für B2B CDP-Kunden**
 
