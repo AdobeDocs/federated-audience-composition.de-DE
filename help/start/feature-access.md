@@ -2,11 +2,9 @@
 title: Zugreifen auf die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die erforderlichen Berechtigungen für die Komposition föderierter Zielgruppen
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Wenn Sie die Federated-Audience-Komposition für Adobe Experience Platform erwer
 Wirds beispielsweise eine neue Sandbox mit dem Namen „fac-test“ aktiviert, wird das entsprechende Produktprofil „ACP_FAC – fac-test – admin“ erstellt. Um mit dieser Sandbox auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Benutzende diesem Produktprofil hinzugefügt werden.
 
 ## Verwalten des Zugriffs auf die Komposition föderierter Zielgruppen
-
->[!AVAILABILITY]
->
->Berechtigungen sind als Teil der März-Version verfügbar.
 
 Um auf die **Komposition föderierter Zielgruppen** zugreifen zu können, müssen Sie zunächst sicherstellen, dass die Berechtigung für **Föderierte Daten verwalten** den entsprechenden Rollen zugewiesen wurde. Diese Rollen müssen dann Benutzenden zugewiesen werden, die Zugriff auf die **Komposition föderierter Zielgruppen** benötigen.
 

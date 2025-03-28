@@ -2,10 +2,10 @@
 title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience Platform
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
+source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 82%
+source-wordcount: '1146'
+ht-degree: 78%
 
 ---
 
@@ -30,6 +30,8 @@ Die Komposition föderierter Zielgruppen steigert den Wert von Real-Time CDP und
 * Minimieren der Datenbewegung und -duplizierung: Erstellen Sie Zielgruppen aus Datensätzen, die in einem Unternehmens-Data Warehouse gespeichert sind, ohne die zugrunde liegenden Daten zu kopieren, um umsetzbare Marketing-Profile und -Zielgruppen zu verwalten.
 
 * Verwenden Sie ein einziges System für erlebnisgesteuerte Workflows: Kuratieren Sie aufgenommene und föderierte Zielgruppen in Adobe Experience Platform und koordinieren Sie ausgehende Erlebnisse über alle Kanäle hinweg.
+
+* B2C- und B2B-CDP-Kunden können jetzt die Federated Audience Composition nutzen, um personenbasierte Zielgruppen zu erstellen, indem sie Daten aus unterstützten Unternehmens-Data Warehouses integrieren. Darüber hinaus können sie bestehende, personenbasierte Zielgruppen von AEP anreichern, indem sie relevante Attribute, die im Enterprise Data Warehouse verfügbar sind, integrieren und so ihre Zielgruppenprofile verbessern, um eine personalisiertere und zielgerichtetere Interaktion zu ermöglichen.
 
 ## Anwendungsfälle {#rn-uc}
 

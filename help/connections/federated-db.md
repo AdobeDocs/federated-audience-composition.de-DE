@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
+source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
-source-wordcount: '2068'
-ht-degree: 100%
+source-wordcount: '2120'
+ht-degree: 96%
 
 ---
 
@@ -175,7 +175,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 >[!NOTE]
 >
->Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
+>Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Beachten Sie, dass Ihr Snowflake-Konto auf Amazon Web Services (AWS) oder Azure gehostet werden muss und sich in derselben Region wie Ihre Federated Audience Composition-Umgebung befinden muss. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 >
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Snowflake zu konfigurieren.
@@ -282,6 +282,10 @@ Der Connector unterstützt die folgende Option:
 | TimeZoneName | Standardmäßig leer, d. h. die Systemzeitzone des App-Servers wird verwendet. Mit dieser Option können Sie den Sitzungsparameter „TIMEZONE“ durchsetzen. |
 
 ## Databricks {#databricks}
+
+>[!NOTE]
+>
+>Der sichere Zugriff auf Ihr externes Data Warehouse von Databricks über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Datenbanken von Databricks, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, um Unterstützung beim Einrichten des sicheren Zugriffs zu erhalten.
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Databricks zu konfigurieren.
 
