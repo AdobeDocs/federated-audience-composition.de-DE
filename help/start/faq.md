@@ -3,9 +3,9 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Komposition fö
 
 +++Welche Berechtigungen sind für den Zugriff auf die Komposition föderierter Zielgruppen erforderlich?
 
-Die Komposition föderierter Zielgruppen erfordert Adobe Real-Time Customer Data Platform und/oder die Pakete „Prime“ oder „Ultimate“ von Adobe Journey Optimizer. Sie müssen auch eine Federated Audience-Komposition erworben haben.
+Die Komposition föderierter Zielgruppen erfordert Adobe Real-Time Customer Data Platform und/oder die Pakete „Prime“ oder „Ultimate“ von Adobe Journey Optimizer. Sie müssen außerdem die Komposition föderierter Zielgruppen erworben haben.
 
 Um die Komposition föderierter Zielgruppen verwenden zu können, muss jede Benutzerin und jeder Benutzer einem spezifischen Profil hinzugefügt werden, das für jede Sandbox erstellt wurde. Weitere Informationen finden Sie auf der Seite [Zugriff auf die Komposition föderierter Zielgruppen](access-prerequisites.md).
 
@@ -89,12 +89,12 @@ Nein, Identity Service wird während einer Komposition nicht genutzt. Die Daten 
 
 +++
 
-+++Wie erstelle und verwalte ich Datenschutzanfragen mit Federated Audience Composition?
++++Wie erstelle und verwalte ich Datenschutzanfragen mit der Komposition föderierter Zielgruppen?
 
-Sie können individuelle Anfragen für den Zugriff auf und die Löschung von Kundendaten aus der Adobe Federated Audience Composition auf zwei Arten senden:
+Sie können individuelle Anfragen zum Zugriff auf und Löschen von Verbraucherdaten aus der Komposition föderierter Zielgruppen von Adobe auf zwei Arten senden:
 
-* Über die Adobe Experience Platform-**Privacy Service-Benutzeroberfläche**. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"}
-* Über die Adobe Experience Platform-**Privacy Service-API**. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Über die **Privacy Service-Benutzeroberfläche** von Adobe Experience Platform. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"}
+* Über das **Privacy Service-API** von Adobe Experience Platform. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/overview){target="_blank"}
 
 Alle Schritte zum Erstellen und Verwalten von **Zugriffsanfragen** und **Löschanfragen** werden in der [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/profile/privacy){target="_blank"} beschrieben.
 
