@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 72%
+ht-degree: 96%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 72%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie unter [Versionshinweise zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version vom 25. März {#fac-25-3}
+## Version März 2025 {#fac-25-3}
 
 ### Verbesserungen {#fac-25-3-improvements}
 
-Diese Version enthält die folgenden Verbesserungen.
+Diese Version enthält die unten aufgeführten Verbesserungen.
 
-* **Berechtigungen für zusammengeführte Zielgruppenkomposition**
+* **Berechtigungen zur Komposition föderierter Zielgruppen**
 
-  Ab März erzwingen [!DNL Federated Audience Composition] den Zugriff auf die Schnittstellen **Federated Data Management** und **Federated Compositions** für Benutzende, denen die Berechtigung **Federated Data verwalten** wurde.
+  Ab der Version März erzwingt [!DNL Federated Audience Composition] den Zugriff auf die Schnittstellen für **föderiertes Daten-Management** und **föderierte Kompositionen** für Benutzende, denen die Berechtigung **Föderierte Daten verwalten** zugewiesen wurde.
 
-  Wir empfehlen Benutzern, sich an die Administratoren zu wenden, damit diese Berechtigung ihrer Rolle hinzugefügt wird, um weiterhin auf die [!DNL Federated Audience Composition] Benutzeroberfläche zugreifen zu können.
+  Wir empfehlen Benutzenden, sich an die Admins zu wenden, damit diese Berechtigung ihrer Rolle hinzugefügt wird, um weiterhin auf die Benutzeroberfläche der [!DNL Federated Audience Composition] zugreifen zu können.
 
-  Informationen zum Zuweisen dieser Berechtigung finden Sie in der [ Dokumentation](feature-access.md).
+  Wie Sie diese Berechtigung zuweisen, erfahren Sie in der [entsprechenden Dokumentation](feature-access.md).
 
 <!--
 * **Data model Canvas view**
@@ -40,18 +40,18 @@ Diese Version enthält die folgenden Verbesserungen.
 
 ### Kompatibilität {#fac-25-3-compat}
 
-* **Datenbricks-Verbindung**
+* **Databricks-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Federated Audience-Komposition jetzt die Konnektivität privater Links für Datenbankverbindungen von Databricks.
+  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen jetzt die Konnektivität privater Links für Verbindungen zu Databricks-Datenbanken.
 Dazu gehören sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Datenbanken von Databricks, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
 
-* **Support für B2B CDP-Kunden**
+* **Unterstützung für CDP-B2B-Kundschaft**
 
-  Federated Audience Composition ist jetzt für B2B-Kunden (Business-to-Business) von Customer Data Platform (CDP) für personenbasierte Anwendungsfälle von Zielgruppen verfügbar.
+  Die Komposition föderierter Zielgruppen ist jetzt für B2B-Kundschaft (Business-to-Business) von Customer Data Platform (CDP) für personenbasierte Anwendungsfälle für Zielgruppen verfügbar.
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt Federated Audience Composition sichere private Link-Verbindungen zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#snowflake)
 
 ## Version Februar 2025 {#fac-25-2}
 
@@ -87,7 +87,7 @@ Diese Version enthält die unten aufgeführte Verbesserung.
 
 >[!AVAILABILITY]
 >
->Die Komposition föderierter Zielgruppen in Adobe Experience Platform, die zuvor nur für eine Reihe von Organisationen verfügbar gewesen ist (LA), steht jetzt allen Benutzenden zur Verfügung (GA). Diese Funktion wird basierend auf Ihrem Angebot aktiviert und ist nur mit den zugehörigen Berechtigungen sichtbar. [Weitere Informationen](access-prerequisites.md)
+>Die Komposition föderierter Zielgruppen in Adobe Experience Platform, die zuvor nur für eine Reihe von Organisationen verfügbar gewesen ist (LA), steht jetzt allen Benutzenden zur Verfügung (GA). Diese Funktion wird basierend auf Ihrem Angebot aktiviert und nur mit den zugehörigen Berechtigungen angezeigt. [Weitere Informationen](access-prerequisites.md)
 >
 
 ### Kompatibilität {#fac-24-10-compat}
@@ -120,9 +120,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 ## Version Juli 2024 – Komposition föderierter Zielgruppen (LA) {#fac-la}
 
-Die Federated Audience-Komposition bietet Unternehmen einen flexiblen und erweiterten Zugriff auf Unternehmens-Data Warehouses, um Zielgruppen mithilfe kritischer Unternehmensdatensätze zu erstellen und markeninitiierte und aktuelle Erlebnisse zu ermöglichen. Mit diesem neuen Ansatz können Sie als Benutzer oder Benutzer von [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} bzw. [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"} Zielgruppendaten direkt aus ihrem vorhandenen Data Warehouse zusammenführen, um die Zielgruppen von Adobe Experience Platform in einem einzigen System anzureichern.
+Die Komposition föderierter Zielgruppen ermöglicht Unternehmen einen flexiblen und erweiterten Zugriff auf Unternehmens-Data-Warehouses, um Zielgruppen unter Verwendung wichtiger Unternehmensdatensätze zu komponieren sowie markeninitiierte und aktuelle Erlebnisse zu ermöglichen. Mit diesem neuen Ansatz können Sie als Benutzerin oder Benutzer von [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} bzw. [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"} Zielgruppendaten direkt aus ihrem vorhandenen Data Warehouse zusammenführen, um die Zielgruppen von Adobe Experience Platform in einem einzigen System anzureichern.
 
-Die Federated Audience-Komposition erfüllt wachsende Marktanforderungen für Unternehmen, die die Flexibilität benötigen, Zielgruppen mit Warehouse-Datensätzen zu erstellen. Auf diese Weise können Unternehmen die Datenbewegung reduzieren und gleichzeitig Marketing-Teams wichtige Zielgruppendaten zur Verfügung stellen, um die Anforderungen von Anwendungsfällen zu erfüllen und personalisierte Erlebnisse zu ermöglichen.
+Die Komposition föderierter Zielgruppen richtet sich an die wachsenden Anforderungen des Marktes an Unternehmen, die Flexibilität benötigen, um Zielgruppen mit Warehouse-Datensätzen zu komponieren. Auf diese Weise können Unternehmen die Datenbewegung reduzieren und gleichzeitig Marketing-Teams wichtige Zielgruppendaten zur Verfügung stellen, um die Anforderungen von Anwendungsfällen zu erfüllen und personalisierte Erlebnisse zu ermöglichen.
 
 Weitere Informationen zu den Möglichkeiten der Komposition föderierter Zielgruppen finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](faq.md).
 
