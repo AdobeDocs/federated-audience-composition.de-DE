@@ -3,9 +3,9 @@ title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgrup
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,15 +35,15 @@ Auf [dieser Seite](../connections/connections.md) erfahren Sie, wie Sie eine Ver
 
 Beim Erwerb der Komposition föderierter Zielgruppen haben Sie Anspruch auf zwei Sandboxes. Wenden Sie sich bei Anfragen für die Bereitstellung weiterer Sandboxes an Ihren Kontakt beim Adobe-Support.
 
-Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Federated-Audience-Komposition anzuzeigen:
+Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Komposition föderierter Zielgruppen anzuzeigen:
 
-1. Rufen Sie in der Federated Audience-Komposition das Menü **[!UICONTROL Lizenznutzung]** unter **[!UICONTROL Administration]** auf.
+1. Rufen Sie in der Komposition föderierter Zielgruppen das Menü **[!UICONTROL Lizenznutzung]** unter **[!UICONTROL Administration]** auf.
 
-1. Klicken Sie auf das Symbol ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) unter **[!UICONTROL Gesamtvolumen der Datenausgänge]**, um auf Ihre Sandbox-Eigenschaften zuzugreifen.
+1. Klicken Sie auf das Symbol ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) unter **[!UICONTROL Gesamtvolumen der Datenausgabe]**, um auf Ihre Sandbox-Eigenschaften zuzugreifen.
 
    ![](assets/sandbox_1.png)
 
-1. Informationen über Ihre Sandbox werden im Pop-up „Eigenschaften“ angezeigt.
+1. Informationen über Ihre Sandbox werden im Popup-Fenster „Eigenschaften“ angezeigt.
 
    ![](assets/sandbox_2.png)
 

@@ -4,9 +4,9 @@ title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '611'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -60,13 +60,13 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-activate.png)
 
-1. Wählen Sie die gewünschten Zielgruppen aus, die Sie senden möchten.
+1. Wählen Sie die gewünschten Zielgruppen aus, die gesendet werden sollen.
 
 1. Wählen Sie das Symbol ![](assets/do-not-localize/Smock_Edit_18_N.svg) aus, um Ihren Exportzeitplan zu bearbeiten.
 
    ![](assets/destination-schedule.png)
 
-1. Definieren Sie Ihre Exportdateioptionen. Um die Zielgruppen schneller zu aktivieren, wählen Sie die Option **[!UICONTROL Nach der Segmentevaluierung]** aus, um den Aktivierungsvorgang unmittelbar nach Abschluss des täglichen Platform-Batch-Segmentierungsvorgangs Trigger.
+1. Definieren Sie Ihre Exportdateioptionen. Um die Zielgruppen schneller zu aktivieren, wählen Sie die Option **[!UICONTROL Nach der Segmentauswertung]** aus, um den Aktivierungsauftrag unmittelbar nach Abschluss des täglichen Platform-Batch-Segmentierungsauftrag auszulösen.
 
    ![](assets/destination-schedule-2.png)
 

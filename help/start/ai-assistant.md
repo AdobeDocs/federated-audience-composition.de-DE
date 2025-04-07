@@ -2,15 +2,15 @@
 title: Arbeiten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie den KI-Assistenten nutzen
 source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, die Ihnen hilft, Adobe-Konzepte zu navigieren und zu verstehen und operative Einblicke für Ihre spezifische Umgebung zu erhalten. Es ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich Federated Audience Composition.
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Komposition föderierter Zielgruppen.
 
 Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen Leiste. Der KI-Assistent wird rechts im Bildschirm angezeigt.
 
@@ -21,15 +21,15 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen 
 >
 >Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Zustimmung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-In der Federated Audience-Komposition haben Sie Zugriff auf Fragen zum Produktwissen zu Adobe-Konzepten, die sich auf verschiedene Prozessaspekte beziehen. Beispiele für solche Fragen sind:
+In der Komposition föderierter Zielgruppen haben Sie Zugriff auf Fragen zum Produktwissen zu Adobe-Konzepten im Zusammenhang mit verschiedenen Prozessaspekten. Beispiele für solche Fragen sind:
 
-* Welche Konfigurationseinstellungen sind erforderlich, um eine Federated Connection zwischen Snowflake und Adobe Experience Platform herzustellen?
-* Wie richte ich eine Komposition in der Federated Audience-Komposition ein?
-* Wie kann ich einen vordefinierten Filter in der Abfrage-Modeler verwenden, um meine Zielgruppenauswahl zu verfeinern?
+* Welche Konfigurationseinstellungen sind erforderlich, um eine föderierte Verbindung zwischen Snowflake und Adobe Experience Platform herzustellen?
+* Wie richte ich eine Komposition in der Komposition föderierter Zielgruppen ein?
+* Wie kann ich einen vordefinierten Filter im Abfrage-Modeler verwenden, um meine Zielgruppenauswahl zu verfeinern?
 
 So stellen Sie eine Frage:
 
-1. Geben Sie dies in das Feld unten am Bildschirm ein und drücken Sie die Eingabetaste.
+1. Geben Sie sie in das Feld am unteren Bildschirmrand ein und drücken Sie die Eingabetaste.
 
    ![](assets/do-not-localize/ai-assistant-ask.png)
 
