@@ -3,10 +3,10 @@ audience: end-user
 title: Arbeiten mit dem Abfrage-Modeler
 description: Erfahren Sie, wie Sie mit dem Abfrage-Modeler arbeiten.
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 | Nutzung | Beispiel |
 |  ---  |  ---  |
 | **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Kompositionen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.  | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Kompositionsktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Erfahren Sie mehr zu Kompositionsaktivitäten](../compositions/activities/about-activities.md). | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Kompositionsktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Erfahren Sie mehr über Kompositionsaktivitäten](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Benutzeroberfläche des Abfrage-Modelers {#interface}
 

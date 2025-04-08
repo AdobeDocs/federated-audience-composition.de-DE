@@ -3,10 +3,10 @@ audience: end-user
 title: Audit-Protokoll
 description: Erfahren Sie, wie Aktionen und Ereignisse im Audit-Protokoll protokolliert und zur Verfügung gestellt werden
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet ständig ein detailliertes Protokoll der Aktionen und Ereignisse auf, die innerhalb der Adobe-Instanz „Föderierte Komposition“ in Echtzeit stattfinden. Dies bietet eine einfache Methode, um auf einen chronologischen Dateneintrag mit Abfragen zuzugreifen, wie zum Status von Workflows, den Personen, die diese geändert haben oder den Aktivitäten, die von Benutzerinnen und Benutzern innerhalb der Instanz ausgeführt wurden.
 
-+++ Weitere Informationen über die verfügbaren Entitäten im Audit-Protokoll
++++ Weitere Informationen zu verfügbaren Entitäten des Audit-Protokolls
 
 * Mit dem **Audit-Protokoll für Quellschemata** können Sie Aktivitäten und jüngste Änderungen an Ihren Schemata in der Adobe-Instanz „Komposition föderierter Zielgruppen“ zu überwachen.
 

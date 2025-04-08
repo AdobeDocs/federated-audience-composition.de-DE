@@ -1,10 +1,10 @@
 ---
 title: Arbeiten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie den KI-Assistenten nutzen
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen 
 
 >[!CAUTION]
 >
->Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Zustimmung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Vereinbarung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In der Komposition föderierter Zielgruppen haben Sie Zugriff auf Fragen zum Produktwissen zu Adobe-Konzepten im Zusammenhang mit verschiedenen Prozessaspekten. Beispiele für solche Fragen sind:
 
@@ -39,4 +39,4 @@ So stellen Sie eine Frage:
 
 1. Bewerten Sie die Antwort mit dem Daumen nach oben oder Daumen nach unten.
 
-Informationen zur Verwendung des KI-Assistenten finden Sie in den Beispielzielen, die Sie mit dem KI-Assistenten erreichen können. Weitere Informationen zur Funktionsweise des KI-Assistenten finden Sie in der [Adobe Experience Platform-Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Informationen zur Verwendung des KI-Assistenten finden Sie unter Beispielziele, die Sie mit dem KI-Assistenten erreichen können, und Informationen zur Funktionsweise des KI-Assistenten finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.

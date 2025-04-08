@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '2120'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses anderer Drittanbieter zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
 
-Auf [dieser Seite](connections.md) erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren, testen und speichern. Unten finden Sie die Liste der unterstützten Datenbanken und die ausführlichen Einstellungen zum Konfigurieren jeder einzelnen Datenbank.
+Auf dieser Seite erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren[ testen und ](connections.md). Unten finden Sie die Liste der unterstützten Datenbanken und die ausführlichen Einstellungen zum Konfigurieren jeder einzelnen Datenbank.
 
 ## Unterstützte Datenbanken {#supported-db}
 
@@ -73,7 +73,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
    * **[!UICONTROL Datenbank]**: Name Ihrer Datenbank, falls nicht im DSN angegeben. Kann leer bleiben, wenn im DSN angegeben
 
-   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation zu Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der Dokumentation zu [Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -230,7 +230,7 @@ Der Connector unterstützt die folgenden Optionen:
 | WeekStart | Sitzungsparameter WEEK_START. Ist standardmäßig auf 0 gesetzt. <br>Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.com/de/sql-reference/parameters.html#week-start){target="_blank"}. |
 | UseCachedResult | Sitzungsparameter USE_CACHED_RESULTS. Standardmäßig ist TRUE festgelegt. Diese Option kann verwendet werden, um zwischengespeicherte Snowflake-Ergebnisse zu deaktivieren. <br>Weiterführende Informationen hierzu finden Sie auf [dieser Seite](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Anzahl der Threads, die für den Snowflake-Massenlader verwendet werden sollen. Mehr Threads bedeuten eine bessere Leistung bei größeren Massenladevorgängen. Ist standardmäßig auf 1 gesetzt Die Zahl kann je nach Anzahl der Rechner-Threads angepasst werden. |
-| chunkSize | Bestimmt die Dateigröße des Massenladerblocks. Standardmäßig auf 128 MB gesetzt. Kann bei Verwendung mit „bulkThreads“ geändert werden, um eine optimale Leistung zu erreichen. Mehr gleichzeitig aktive Threads bedeuten eine bessere Leistung. <br>Weiterführende Informationen hierzu finden Sie in der [Dokumentation zu Snowflake](https://docs.snowflake.com/de/sql-reference/sql/put){target="_blank"}. |
+| chunkSize | Bestimmt die Dateigröße des Massenladerblocks. Standardmäßig auf 128 MB gesetzt. Kann bei Verwendung mit „bulkThreads“ geändert werden, um eine optimale Leistung zu erreichen. Mehr gleichzeitig aktive Threads bedeuten eine bessere Leistung. <br>Weitere Informationen hierzu finden Sie in der [Dokumentation zu Snowflake](https://docs.snowflake.com/de/sql-reference/sql/put){target="_blank"}. |
 | StageName | Name des vorab bereitgestellten internen Stages. Er wird beim Massenladen verwendet, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
 
 ## Vertica Analytics {#vertica-analytics}
