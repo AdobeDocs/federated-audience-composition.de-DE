@@ -1,25 +1,25 @@
 ---
 title: Arbeiten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie den KI-Assistenten nutzen
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: 83d6074da966553caec36908729729445246ea2f
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 85%
+source-wordcount: '246'
+ht-degree: 54%
 
 ---
 
 # Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen und operative Erkenntnisse zu Ihrer spezifischen Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Komposition föderierter Zielgruppen.
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, die Ihnen hilft, Adobe-Konzepte zu navigieren, zu verstehen und operative Einblicke für Ihre spezifische Umgebung zu erhalten. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Komposition föderierter Zielgruppen.
 
-Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen Leiste. Der KI-Assistent wird rechts im Bildschirm angezeigt.
+Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das Symbol in der oberen Leiste. Der KI-Assistent wird im rechten Bereich des Bildschirms angezeigt.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Vereinbarung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Bevor Sie den KI-Assistenten verwenden können, müssen Sie sich mit den Benutzerrichtlinien für generative KI von Adobe Experience Cloud einverstanden erklären. Weitere Informationen zur Vereinbarung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In der Komposition föderierter Zielgruppen haben Sie Zugriff auf Fragen zum Produktwissen zu Adobe-Konzepten im Zusammenhang mit verschiedenen Prozessaspekten. Beispiele für solche Fragen sind:
 
