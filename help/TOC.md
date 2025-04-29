@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 + [Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform](home.md)
 + [Versionshinweise](start/release-notes.md)
 + [Versionshinweise](start/e-release-notes.md)
-+ Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
++ Erste Schritte mit der Komposition einer verbundenen Zielgruppe {#start}
    + [Was ist die Komposition föderierter Zielgruppen](start/get-started.md)
    + [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
    + [Zugreifen auf die Komposition föderierter Zielgruppen](start/feature-access.md)
@@ -24,14 +24,15 @@ ht-degree: 100%
 + Konfigurationsschritte {#config}
    + [Erstellen und Verwalten von Verbindungen](connections/connections.md)
    + [Konfigurieren föderierter Datenbanken](connections/federated-db.md)
+   + [FDA-Rechtematrix](connections/fda-rights.md)
    + Datenmodelle und Schemata{#datamodel}
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
       + [Konfigurieren der Datenmodelle (Beta)](data-management/gs-models-beta.md)
       + [Konfigurieren der Datenmodelle](data-management/gs-models.md)
    + [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
-+ Erstellen von Zielgruppen {#compositions}
++ Erstellen von Audiences {#compositions}
    + [Erste Schritte mit Kompositionen](compositions/gs-compositions.md)
-   + Erstellen und Ausführen Ihrer ersten Komposition {#create-composition}
+   + Erstellen und Ausführen der ersten Komposition {#create-composition}
       + [Grundlegende Prinzipien der Kompositionserstellung](compositions/gs-composition-creation.md)
       + [Erstellen und Konfigurieren der Komposition](compositions/create-composition.md)
       + [Orchestrieren von Aktivitäten](compositions/orchestrate-activities.md)
