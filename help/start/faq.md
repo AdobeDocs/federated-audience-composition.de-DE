@@ -3,15 +3,15 @@ title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Häufig gestellte Fragen {#faq}
 
-Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform. Eine globale FAQ ist auch für den Segmentierungs-Service von Adobe Experience Platform auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"} verfügbar.
+Im Folgenden finden Sie eine Liste häufig gestellter Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform. Außerdem finden Sie global häufig gestellte Fragen für den Segmentierungs-Service von Adobe Experience Platform auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++Welche Berechtigungen sind für den Zugriff auf die Komposition föderierter Zielgruppen erforderlich?
@@ -24,7 +24,7 @@ Um die Komposition föderierter Zielgruppen verwenden zu können, muss jede Benu
 
 +++Welche Cloud-Warehouses werden unterstützt?
 
-Die Liste der Systeme, die von der Federated Audience-Komposition unterstützt werden, finden Sie auf [dieser Seite](../start/access-prerequisites.md#supported-systems).
+Die Liste der für die Komposition föderierter Zielgruppen unterstützten Systeme finden Sie auf [dieser Seite](../start/access-prerequisites.md#supported-systems).
 
 +++
 
@@ -64,7 +64,7 @@ Bei der Komposition föderierter Zielgruppen wird keine physische Kopie der Date
 Zum Beispiel:
 
 * Im Fall einer Zielgruppenerstellung wird die Zielgruppe in Ihrem Warehouse erstellt. Sie können die Komposition föderierter Zielgruppen für zusätzliche Kompositionsaufgaben und Datenmanipulationen verwenden, bevor Sie die resultierende Zielgruppe und die zugehörigen Attribute über das Zielgruppenportal von Adobe Experience Platform veröffentlichen. Die Zielgruppendefinition und die zugehörigen Attribute werden an Adobe Experience Platform übergeben.
-Beachten Sie, dass die Gültigkeit der Daten für extern generierte Zielgruppen derzeit 30 Tage beträgt. Dadurch wird die Menge an überschüssigen Daten, die in einer Organisation gespeichert werden, reduziert. Nach Ablauf der Gültigkeitsdauer der Daten ist der zugehörige Datensatz weiterhin im Datensatzbestand sichtbar, Sie können die Zielgruppe jedoch nicht aktivieren und die Profilanzahl wird als null angezeigt. Weitere Informationen finden Sie in der Dokumentation zu [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
+Beachten Sie, dass die Gültigkeit der Daten für extern generierte Zielgruppen derzeit 30 Tage beträgt. Dadurch wird die Menge an überschüssigen Daten, die in einer Organisation gespeichert werden, reduziert. Nach Ablauf der Gültigkeitsdauer der Daten ist der zugehörige Datensatz weiterhin im Datensatzbestand sichtbar, Sie können die Zielgruppe jedoch nicht aktivieren und die Profilanzahl wird als null angezeigt. Weitere Informationen finden Sie in der [Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * Der Ausgangspunkt einer Zielgruppenanreicherung ist eine vorhandene Adobe Experience Platform-Zielgruppe. Hier sind zwei Szenarien denkbar:
    1. Fügen Sie zusätzliche Zielgruppen-Payload-Attribute aus dem föderierten Data Warehouse hinzu: In diesem Fall werden die zusätzlichen hinzugefügten Attribute als Teil dieser Zielgruppendefinition übernommen. Die Gültigkeit der Daten für extern generierte Zielgruppen ist dieselbe wie oben beschrieben, nämlich 30 Tage.
@@ -96,7 +96,7 @@ Sie können individuelle Anfragen zum Zugriff auf und Löschen von Verbraucherda
 * Über die **Privacy Service-Benutzeroberfläche** von Adobe Experience Platform. [Weitere Informationen](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"}
 * Über das **Privacy Service-API** von Adobe Experience Platform. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/overview){target="_blank"}
 
-Alle Schritte zum Erstellen und Verwalten von **Zugriffsanfragen** und **Löschanfragen** werden in der [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/profile/privacy){target="_blank"} beschrieben.
+Alle Schritte zum Erstellen und Verwalten von **Zugriffs**- und **Löschanfragen** werden in der [Dokumentation zum Echtzeit-Kundenprofil](https://experienceleague.adobe.com/de/docs/experience-platform/profile/privacy){target="_blank"} beschrieben.
 
 +++
 

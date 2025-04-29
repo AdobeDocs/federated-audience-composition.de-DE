@@ -3,15 +3,15 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # Versionshinweise {#rn-new}
 
-[!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+[!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Version März 2025 {#fac-25-3}
 
@@ -104,7 +104,7 @@ Mit dieser neuen Version ist die Komposition föderierter Zielgruppen nun mit de
 
 * **Unterstützung für Amazon Redshift Serverless**
 
-  Mit dieser neuen Version unterstützt die Federated Audience Komposition [Amazon Redshift ServerLess](https://aws.amazon.com/de/redshift/redshift-serverless/){target="_blank"}.
+  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ [Amazon Redshift Serverless](https://aws.amazon.com/de/redshift/redshift-serverless/){target="_blank"}.
 
 ### Verbesserungen {#fac-24-10-improvements}
 
@@ -120,10 +120,10 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 ## Version Juli 2024 – Komposition föderierter Zielgruppen (LA) {#fac-la}
 
-Die Komposition föderierter Zielgruppen ermöglicht Unternehmen einen flexiblen und erweiterten Zugriff auf Unternehmens-Data-Warehouses, um Zielgruppen unter Verwendung wichtiger Unternehmensdatensätze zu komponieren sowie markeninitiierte und aktuelle Erlebnisse zu ermöglichen. Mit diesem neuen Ansatz können Sie als [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"}- und/oder [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"}-Anwender Zielgruppendaten direkt aus Ihrem bestehenden Data Warehouse zusammenführen, um Adobe Experience Platform-Zielgruppen in einem System anzureichern.
+Die Komposition föderierter Zielgruppen ermöglicht Unternehmen einen flexiblen und erweiterten Zugriff auf Unternehmens-Data-Warehouses, um Zielgruppen unter Verwendung wichtiger Unternehmensdatensätze zu komponieren sowie markeninitiierte und aktuelle Erlebnisse zu ermöglichen. Mit diesem neuen Ansatz können Sie als Benutzerin oder Benutzer von [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/home){target="_blank"} bzw. [Adobe Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/ajo-home){target="_blank"} Zielgruppendaten direkt aus Ihrem vorhandenen Data Warehouse zusammenführen, um die Zielgruppen von Adobe Experience Platform in einem einzigen System anzureichern.
 
 Die Komposition föderierter Zielgruppen richtet sich an die wachsenden Anforderungen des Marktes an Unternehmen, die Flexibilität benötigen, um Zielgruppen mit Warehouse-Datensätzen zu komponieren. Auf diese Weise können Unternehmen die Datenbewegung reduzieren und gleichzeitig Marketing-Teams wichtige Zielgruppendaten zur Verfügung stellen, um die Anforderungen von Anwendungsfällen zu erfüllen und personalisierte Erlebnisse zu ermöglichen.
 
-Weitere Informationen zu den Funktionen der Federated Audience-Komposition [ Sie auf ](get-started.md) Seite und in den [Häufig gestellte Fragen](faq.md).
+Weitere Informationen zu den Möglichkeiten der Komposition föderierter Zielgruppen finden Sie auf [dieser Seite](get-started.md) und in den [häufig gestellten Fragen](faq.md).
 
 Ausführliche Informationen zu den Voraussetzungen für den Zugriff auf Kompositionen föderierter Zielgruppen und die aktuellen Leitlinien finden Sie auf [dieser Seite](access-prerequisites.md).

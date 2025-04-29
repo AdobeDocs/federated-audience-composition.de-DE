@@ -4,9 +4,9 @@ title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2120'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses anderer Drittanbieter zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren.
 
-Auf dieser Seite erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren[ testen und ](connections.md). Unten finden Sie die Liste der unterstützten Datenbanken und die ausführlichen Einstellungen zum Konfigurieren jeder einzelnen Datenbank.
+Auf [dieser Seite](connections.md) erfahren Sie, wie Sie die Verbindung zu Ihrer externen Datenbank erstellen, konfigurieren, testen und speichern. Unten finden Sie die Liste der unterstützten Datenbanken und die ausführlichen Einstellungen zum Konfigurieren jeder einzelnen Datenbank.
 
 ## Unterstützte Datenbanken {#supported-db}
 
@@ -73,7 +73,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
    * **[!UICONTROL Datenbank]**: Name Ihrer Datenbank, falls nicht im DSN angegeben. Kann leer bleiben, wenn im DSN angegeben
 
-   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der Dokumentation zu [Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Arbeitsschema]**: Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen finden Sie in der [Dokumentation von Amazon](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 | Option | Beschreibung |
 |---|---|
-| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8) |
+| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8). |
 
 ## Google BigQuery {#google-big-query}
 
@@ -370,5 +370,5 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 | Option | Beschreibung |
 |---|---|
-| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8) |
+| Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8). |
 
