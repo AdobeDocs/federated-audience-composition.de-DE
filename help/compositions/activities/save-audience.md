@@ -38,7 +38,7 @@ Mithilfe der Aktivität **Zielgruppe speichern** können Sie eine neue Zielgrupp
 
 Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Komposition zu berechnen, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
-Die **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen neuen Datensatz. Nachdem die Zielgruppe erstellt wurde, stimmen Sie sich mit Ihrem Administrator ab, um die entsprechenden Data Governance-Kennzeichnungen zuzuweisen. [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+Die **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen neuen Datensatz. Nachdem die Zielgruppe erstellt wurde, stimmen Sie sich mit Ihrem Administrator ab, um die entsprechenden Data Governance-Kennzeichnungen zuzuweisen. [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >

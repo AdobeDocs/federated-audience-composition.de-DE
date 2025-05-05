@@ -89,7 +89,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * **Audience-Aktivität speichern**
 
   Der Aktivität „Zielgruppe speichern **wurde ein Hinweis hinzugefügt, der** daran erinnert, mit einem Datenadministrator zusammenzuarbeiten, um Governance-Kennzeichnungen auf neue Schemata und Datensätze anzuwenden, die während der Erstellung und Anreicherung der Zielgruppe erstellt wurden.
-  [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Kompatibilität {#fac-25-4-compat}
 
