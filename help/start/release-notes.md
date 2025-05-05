@@ -2,16 +2,104 @@
 title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Platform
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '813'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1130'
+ht-degree: 84%
 
 ---
 
 # Versionshinweise {#rn-new}
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version April 2025 {#fac-25-4}
+
+### Neue Funktionen {#fac-25-04-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbeitsfläche des Datenmodells - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Die Arbeitsflächen-Ansicht für den Abschnitt Datenmodelle verbessert das Erlebnis, indem sie die Visualisierung von Datenmodellen und deren Links in einem Arbeitsflächen-Layout neben der vorhandenen Tabellenansicht ermöglicht. </p>
+<p>Das Datenmodell mit Arbeitsflächenansicht ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. </p>
+<p>Weitere Informationen finden Sie in der <a href="../data-management/gs-models.md">ausführlichen Dokumentation</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>KI-Assistent für Produktkenntnisse</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen sowie betriebliche Erkenntnisse zu Ihrer Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Komposition föderierter Zielgruppen.</p>
+<p>Weitere Informationen finden Sie in der <a href="../start/ai-assistant.md">ausführlichen Dokumentation</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aktivität Profile speichern</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> Die Federated Audience-Komposition unterstützt jetzt den Anwendungsfall Profilanreicherung , sodass Kunden bestehende Experience Platform-Profile mit Daten aus ihren externen Data Warehouses erweitern können.
+</p>
+<p>Weitere Informationen finden Sie in der <a href="../compositions/activities/save-profiles.md">ausführlichen Dokumentation</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#fac-25-4-improvements}
+
+Diese Version enthält die unten aufgeführten Verbesserungen.
+
+* **Datenmodellname**
+
+  Im Menü „Zielgruppen“ wird auf der Registerkarte **Föderierte Kompositionen** nun der Datenmodellname anstelle der ID angezeigt, was mehr Klarheit bietet und die allgemeine Benutzerfreundlichkeit verbessert.
+
+* **Zielgruppe**
+
+  Im Menü „Zielgruppe“ wird nun der Name oder das Label des ausgewählten Datenmodells angezeigt, wenn Benutzende ein Datenmodell ohne verknüpfte Zielgruppen auswählen.
+
+* **Export großer Zielgruppen**
+
+  Die Federated Audience-Komposition unterstützt jetzt den Export großer Zielgruppen mit Dateigrößen von mehr als 1 GB.
+
+* **Audience-Aktivität speichern**
+
+  Der Aktivität „Zielgruppe speichern **wurde ein Hinweis hinzugefügt, der** daran erinnert, mit einem Datenadministrator zusammenzuarbeiten, um Governance-Kennzeichnungen auf neue Schemata und Datensätze anzuwenden, die während der Erstellung und Anreicherung der Zielgruppe erstellt wurden.
+  [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+
+### Kompatibilität {#fac-25-4-compat}
+
+* **Sichere Verbindung mit Amazon Redshift**
+
+  Mit dieser neuen Version unterstützt Federated Audience Composition sichere private Link-Verbindungen zu Amazon Redshift-Datenbanken. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
+
+* **Google Big Query**
+
+  Mit dieser neuen Version unterstützt Federated Audience Composition sichere VPN-Verbindungen zu Google Big Query-Datenbanken. [Weitere Informationen](../connections/federated-db.md#google-big-query)
 
 ## Version März 2025 {#fac-25-3}
 

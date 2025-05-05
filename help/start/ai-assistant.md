@@ -1,33 +1,36 @@
 ---
 title: Arbeiten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie den KI-Assistenten nutzen.
-source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 46%
 
 ---
 
 # Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen sowie betriebliche Erkenntnisse zu Ihrer Umgebung erhalten können. Er ist in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Komposition föderierter Zielgruppen.
-
-Um auf den KI-Assistenten zuzugreifen, klicken Sie auf das entsprechende Symbol in der oberen Leiste. Der KI-Assistent wird rechts im Bildschirm angezeigt.
-
-![](assets/do-not-localize/ai-assistant-open.png)
-
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, die Ihnen die Navigation und das Verständnis der Adobe-Konzepte erleichtert. Es ist für Anwendungsfälle mit Produktkenntnissen in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Federated Audience-Komposition.
 
 >[!CAUTION]
 >
 >Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Benutzervereinbarung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-In der Komposition föderierter Zielgruppen haben Sie Zugriff auf Fragen zum Produktwissen zu Adobe-Konzepten im Zusammenhang mit verschiedenen Prozessaspekten. Beispiele für solche Fragen sind:
+In der Federated Audience-Komposition können Sie auf Produktkenntnisse zugreifen, um mehr über Adobe-Konzepte in Bezug auf verschiedene Teile des Prozesses zu erfahren. Der KI-Assistent unterstützt zwei Arten von Produktwissen: **Offene Erkennung** (Erkunden von Produktkonzepten basierend auf der Experience League-Dokumentation) und **Targeted Learning and Troubleshooting** (Stellen Sie Fragen zu bestimmten Funktionen).
 
-* Welche Konfigurationseinstellungen sind erforderlich, um eine föderierte Verbindung zwischen Snowflake und Adobe Experience Platform herzustellen?
-* Wie richte ich eine Komposition in der Komposition föderierter Zielgruppen ein?
-* Wie kann ich einen vordefinierten Filter im Abfrage-Modeler verwenden, um meine Zielgruppenauswahl zu verfeinern?
+Beispiele für solche Fragen sind:
+
+* Was ist eine Federated-Audience-Komposition?
+* Wie kann ich ein Snowflake Federated Database-Konto konfigurieren?
+* Wie kann ich eine Federated-Komposition erstellen?
 
 So stellen Sie eine Frage:
+
+1. Greifen Sie auf den KI-Assistenten zu, indem Sie auf das Symbol in der oberen Leiste klicken.
+
+   Der KI-Assistent wird im rechten Bereich des Bildschirms angezeigt. Sie können auf ![Bild ALT-Text ](assets/do-not-localize/Smock_FullScreen_18_N.svg "Erweitern") klicken, um das Fenster des KI-Assistenten zu erweitern.
+
+   ![](assets/do-not-localize/ai-assistant-open.png)
 
 1. Geben Sie sie in das Feld am unteren Bildschirmrand ein und drücken Sie die Eingabetaste.
 

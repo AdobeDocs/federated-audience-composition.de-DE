@@ -3,9 +3,9 @@ audience: end-user
 title: Verwenden der Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Aktivität „Abstimmung“ verwenden.
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:
 1. Wählen Sie die für Abstimmung zu verwendenden Felder aus. Sie können mehrere Abstimmkriterien verwenden.
 
    1. Um Attribute zur Abstimmung von Daten zu verwenden, wählen Sie die Option **Einfache Attribute** aus und klicken Sie dann auf die Schaltfläche **Regel hinzufügen**.
-   1. Wählen Sie die Felder **Quelle** und **Ziel** für die Abstimmung aus. Das Feld **Quelle** . Das Feld **Ziel** entspricht den Feldern des ausgewählten Schemas.
+   1. Wählen Sie die Felder **Quelle** und **Ziel** für die Abstimmung aus. Das Feld **Ziel** entspricht den Feldern des ausgewählten Schemas.
 
       Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Wählen Sie beispielsweise die **E-Mail**-Felder, um Profile anhand ihrer E-Mail-Adresse zu deduplizieren.
 

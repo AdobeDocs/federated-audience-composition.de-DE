@@ -4,9 +4,9 @@ description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: ht
-source-wordcount: '969'
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '980'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * **Databricks-Verbindung**
 
   Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen jetzt die Konnektivität privater Links für Verbindungen zu Databricks-Datenbanken.
-Darüber hinaus ermöglicht sie sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
+Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
 
 * **Unterstützung für CDP-B2B-Kundschaft**
 

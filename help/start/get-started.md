@@ -2,10 +2,10 @@
 title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience Platform
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+workflow-type: tm+mt
+source-wordcount: '1112'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ In dieser Version sind zwei Anwendungsfälle verfügbar:
 1. Zielgruppenerstellung: Erstellen Sie neue Zielgruppen aus Unternehmensdatensätzen, ohne die zugrunde liegenden Daten zu kopieren, und aktivieren Sie diese Zielgruppen mit vorkonfigurierten Zielen.
 
 1. Zielgruppenanreicherung: Reichern Sie vorhandene Zielgruppen in Adobe Experience Platform an, indem Sie zusammengestellte Zielgruppendaten verwenden, die mit dem Unternehmens-Data Warehouse föderiert wurden. Diese Daten werden nicht in Adobe Experience Platform-Kundenprofilen beibehalten.
+
+1. Profilanreicherung: Reichern Sie Adobe Experience Platform-Profile an, indem Sie Daten aus externen Warehouses zusammenführen, sodass Sie Kundenprofile mit zusätzlichen Attributen und Einblicken erweitern können.
 
 ![Diagramm](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Sehen Sie sich auch die häufig gestellten Fragen auf [dieser Seite](faq.md) an.
 >title="Auswählen der Zielgruppendimension"
 >abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Profil speichern"
->abstract="Profil speichern"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Profil speichern – AEP-Schema-Liste"
->abstract="Profil speichern – AEP-Schema-Liste"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Profil speichern – AEP-Schemaattribut"
->abstract="Profil speichern – AEP-Schemaattribut"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Primäres Identifizierungsfeld auswählen"
->abstract="Primäres Identifizierungsfeld zur Verwendung für Profile."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="AEP-Datensatz"
->abstract="Wählen Sie den AEP-Datensatz aus, der für Profile verwendet werden soll."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Profil speichern – AEP-Schema auswählen"
->abstract="Wählen Sie das AEP-Schema aus, das für Profile verwendet werden soll."

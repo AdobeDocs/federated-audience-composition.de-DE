@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 86%
+source-wordcount: '161'
+ht-degree: 85%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 86%
    + [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
    + [Zugreifen auf die Komposition föderierter Zielgruppen](start/feature-access.md)
    + [Arbeiten mit Zielgruppen](start/audiences.md)
+   + [Arbeiten mit dem KI-Assistenten](start/ai-assistant.md)
    + [Häufig gestellte Fragen](start/faq.md)
 + Konfigurationsschritte {#config}
    + [Erstellen und Verwalten von Verbindungen](connections/connections.md)
@@ -27,7 +28,6 @@ ht-degree: 86%
    + [FDA-Rechtematrix](connections/fda-rights.md)
    + Datenmodelle und Schemata{#datamodel}
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
-      + [Konfigurieren der Datenmodelle (Beta)](data-management/gs-models-beta.md)
       + [Konfigurieren der Datenmodelle](data-management/gs-models.md)
    + [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
 + Erstellen von Audiences {#compositions}
@@ -48,6 +48,7 @@ ht-degree: 86%
       + [Verzweigung](compositions/activities/fork.md)
       + [Abstimmung](compositions/activities/reconciliation.md)
       + [Zielgruppe speichern](compositions/activities/save-audience.md)
+      + [Profile speichern](compositions/activities/save-profiles.md)
       + [Planung](compositions/activities/scheduler.md)
       + [Aufspaltung](compositions/activities/split.md)
       + [Warten](compositions/activities/wait.md)
