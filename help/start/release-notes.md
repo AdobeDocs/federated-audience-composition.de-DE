@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>Arbeitsfläche des Datenmodells - Beta</strong><br/></th>
+<th><strong>Arbeitsflächenansicht für Datenmodelle – Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Die Arbeitsflächen-Ansicht für den Abschnitt Datenmodelle verbessert das Erlebnis, indem sie die Visualisierung von Datenmodellen und deren Links in einem Arbeitsflächen-Layout neben der vorhandenen Tabellenansicht ermöglicht. </p>
-<p>Das Datenmodell mit Arbeitsflächenansicht ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. </p>
+<p>Die Arbeitsflächenansicht für den Abschnitt „Datenmodelle“ sorgt für ein besseres Erlebnis. Denn sie ermöglicht neben der vorhandenen Tabellenansicht eine Visualisierung von Datenmodellen und deren Verknüpfungen in einem Arbeitsflächen-Layout.  </p>
+<p>Die Arbeitsflächenansicht für Datenmodelle ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. </p>
 <p>Weitere Informationen finden Sie in der <a href="../data-management/gs-models.md">ausführlichen Dokumentation</a>.</p>
 </br>
 </td>
@@ -38,7 +38,7 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>KI-Assistent für Produktkenntnisse</strong><br/></th>
+<th><strong>KI-Assistent zum Erwerb von Produktwissen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -55,13 +55,13 @@ ht-degree: 84%
 <table>
 <thead>
 <tr>
-<th><strong>Aktivität Profile speichern</strong><br/></th>
+<th><strong>Aktivität „Profile speichern“</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Die Federated Audience-Komposition unterstützt jetzt den Anwendungsfall Profilanreicherung , sodass Kunden bestehende Experience Platform-Profile mit Daten aus ihren externen Data Warehouses erweitern können.
+<p> Die Funktion „Komposition föderierter Zielgruppen“ unterstützt nun die Profilanreicherung als Anwendungsfall, sodass Kundinnen und Kunden bestehende Experience Platform-Profile mit Daten aus ihren externen Data Warehouses erweitern können.
 </p>
 <p>Weitere Informationen finden Sie in der <a href="../compositions/activities/save-profiles.md">ausführlichen Dokumentation</a>.</p>
 </br>
@@ -84,22 +84,22 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Export großer Zielgruppen**
 
-  Die Federated Audience-Komposition unterstützt jetzt den Export großer Zielgruppen mit Dateigrößen von mehr als 1 GB.
+  Die Funktion „Komposition föderierter Zielgruppen“ unterstützt nun den Export großer Zielgruppen mit Dateigrößen von mehr als 1 GB.
 
-* **Audience-Aktivität speichern**
+* **Aktivität „Zielgruppe speichern“**
 
-  Der Aktivität „Zielgruppe speichern **wurde ein Hinweis hinzugefügt, der** daran erinnert, mit einem Datenadministrator zusammenzuarbeiten, um Governance-Kennzeichnungen auf neue Schemata und Datensätze anzuwenden, die während der Erstellung und Anreicherung der Zielgruppe erstellt wurden.
-  [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
+  Der Aktivität **Zielgruppe speichern** wurde ein Hinweis hinzugefügt. Dieser erinnert Kundinnen und Kunden daran, mit Daten-Admins zusammenzuarbeiten, um Governance-Label auf neue Schemata und Datensätze anzuwenden, die während der Erstellung und Anreicherung der Zielgruppe erstellt wurden.
+  [Weitere Informationen zu Datennutzungs-Labeln](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Kompatibilität {#fac-25-4-compat}
 
-* **Sichere Verbindung mit Amazon Redshift**
+* **Sichere Verbindung zu Amazon Redshift**
 
-  Mit dieser neuen Version unterstützt Federated Audience Composition sichere private Link-Verbindungen zu Amazon Redshift-Datenbanken. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
+  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
 
 * **Google Big Query**
 
-  Mit dieser neuen Version unterstützt Federated Audience Composition sichere VPN-Verbindungen zu Google Big Query-Datenbanken. [Weitere Informationen](../connections/federated-db.md#google-big-query)
+  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ sichere VPN-Verbindungen zu Google Big Query-Datenbanken. [Weitere Informationen](../connections/federated-db.md#google-big-query)
 
 ## Version März 2025 {#fac-25-3}
 

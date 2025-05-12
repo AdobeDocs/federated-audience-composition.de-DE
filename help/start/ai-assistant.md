@@ -1,34 +1,35 @@
 ---
 title: Arbeiten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie den KI-Assistenten nutzen.
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit dem KI-Assistenten {#ai-assistant}
 
-Der KI-Assistent ist eine Funktion der Benutzeroberfläche, die Ihnen die Navigation und das Verständnis der Adobe-Konzepte erleichtert. Es ist für Anwendungsfälle mit Produktkenntnissen in verschiedenen Produkten in Adobe Experience Cloud verfügbar, einschließlich der Federated Audience-Komposition.
+Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen können. Er ist für Anwendungsfälle zum Erwerb von Produktwissen in verschiedenen Produkten in Adobe Experience Cloud verfügbar, auch in der Funktion „Komposition föderierter Zielgruppen“. 
 
 >[!CAUTION]
 >
 >Bevor Sie den KI-Assistenten verwenden können, müssen Sie den Benutzerrichtlinien für generative KI in Adobe Experience Cloud zustimmen. Weitere Informationen zur Benutzervereinbarung finden Sie auf [dieser Seite](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-In der Federated Audience-Komposition können Sie auf Produktkenntnisse zugreifen, um mehr über Adobe-Konzepte in Bezug auf verschiedene Teile des Prozesses zu erfahren. Der KI-Assistent unterstützt zwei Arten von Produktwissen: **Offene Erkennung** (Erkunden von Produktkonzepten basierend auf der Experience League-Dokumentation) und **Targeted Learning and Troubleshooting** (Stellen Sie Fragen zu bestimmten Funktionen).
+Bei der Komposition föderierter Zielgruppen können Sie auf Produktwissen zugreifen, um mehr über Adobe-Konzepte im Zusammenhang mit verschiedenen Prozessaspekten zu erfahren. Der KI-Assistent unterstützt zwei Möglichkeiten zum Erwerb von Produktwissen: **offenes Kennenlernen** (Produktkonzepte mithilfe der Experience League-Dokumentation erkunden) und **gezieltes Lernen und Fehlerbehebung** (Fragen zu bestimmten Funktionen stellen).
 
 Beispiele für solche Fragen sind:
 
-* Was ist eine Federated-Audience-Komposition?
-* Wie kann ich ein Snowflake Federated Database-Konto konfigurieren?
-* Wie kann ich eine Federated-Komposition erstellen?
+* Was ist die Komposition föderierter Zielgruppen?
+* Wie kann ich ein Konto für eine föderierte Snowflake-Datenbank konfigurieren?
+* Wie kann ich eine föderierte Komposition erstellen?
 
 So stellen Sie eine Frage:
 
-1. Greifen Sie auf den KI-Assistenten zu, indem Sie auf das Symbol in der oberen Leiste klicken.
+1. Rufen Sie den KI-Assistenten auf, indem Sie auf das Symbol in der oberen Leiste klicken.
 
-   Der KI-Assistent wird im rechten Bereich des Bildschirms angezeigt. Sie können auf ![Bild ALT-Text ](assets/do-not-localize/Smock_FullScreen_18_N.svg "Erweitern") klicken, um das Fenster des KI-Assistenten zu erweitern.
+   Der KI-Assistent wird rechts am Bildschirm angezeigt. Klicken Sie auf ![ALT-Text des Bilds](assets/do-not-localize/Smock_FullScreen_18_N.svg "Erweitern"), um das Fenster des KI-Assistenten zu erweitern.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

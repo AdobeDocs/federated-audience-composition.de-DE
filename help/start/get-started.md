@@ -3,9 +3,9 @@ title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ In dieser Version sind zwei Anwendungsfälle verfügbar:
 
 1. Zielgruppenanreicherung: Reichern Sie vorhandene Zielgruppen in Adobe Experience Platform an, indem Sie zusammengestellte Zielgruppendaten verwenden, die mit dem Unternehmens-Data Warehouse föderiert wurden. Diese Daten werden nicht in Adobe Experience Platform-Kundenprofilen beibehalten.
 
-1. Profilanreicherung: Reichern Sie Adobe Experience Platform-Profile an, indem Sie Daten aus externen Warehouses zusammenführen, sodass Sie Kundenprofile mit zusätzlichen Attributen und Einblicken erweitern können.
+1. Profilanreicherung: Reichern Sie Adobe Experience Platform-Profile an, indem Sie Daten aus externen Warehouses föderieren, sodass Sie Kundenprofile mit zusätzlichen Attributen und Erkenntnissen erweitern können.
 
 ![Diagramm](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

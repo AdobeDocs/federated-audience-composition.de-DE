@@ -4,9 +4,9 @@ title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den 
 >
 >* Es werden nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless unterstützt.
 >
->* Der sichere Zugriff auf Ihre externen Amazon Redshift-Datenbanken über einen privaten Link wird unterstützt.
+>* Sicherer Zugriff auf Ihre externen Amazon Redshift-Datenbanken über einen privaten Link wird unterstützt. 
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Amazon Redshift zu konfigurieren.
 

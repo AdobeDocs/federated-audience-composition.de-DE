@@ -4,9 +4,9 @@ title: Arbeiten mit Aktivitäten
 description: Erfahren Sie, wie Sie mit Aktivitäten arbeiten
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ In der Komposition föderierter Zielgruppen können Sie Kompositionen mit zwei A
 ## Aktivitäten zur Flusssteuerung
 
 * [Und-Verknüpfung](and-join.md): Synchronisieren Sie mehrere Ausführungszweige einer Komposition.
-* **Ende**: Markiert grafisch das Ende einer Komposition. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
+* **Ende**: Markieren Sie grafisch das Ende einer Komposition. Diese Aktivität hat keine funktionalen Auswirkungen und ist daher optional.
 * [Verzweigung](fork.md): Erstellen Sie ausgehende Transitionen, um mehrere Aktivitäten gleichzeitig zu starten.
 * [Planung](scheduler.md): Planen Sie, wann die Komposition gestartet wird.
 * [Warten](wait.md): Hält die Ausführung eines Teils einer Komposition kurzzeitig an.

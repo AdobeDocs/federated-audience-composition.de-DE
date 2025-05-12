@@ -5,9 +5,9 @@ description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
 badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 91%
 
 >[!AVAILABILITY]
 >
->Das Datenmodell mit Arbeitsflächenansicht ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. 
+>Die Arbeitsflächenansicht für Datenmodelle ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. 
 
 ## Was ist ein Datenmodell? {#data-model-start}
 
 Ein Datenmodell ist ein Satz von Schemata, Zielgruppen und den Verknüpfungen zwischen ihnen. Es wird verwendet, um Zielgruppen mit Daten aus Datenbanken zu verbinden.
 
-In der Federated Audience-Komposition können Sie Datenmodelle direkt in der Arbeitsflächen-Ansicht erstellen und verwalten. Dazu gehört das Hinzufügen von Schemata und Audiences sowie das Definieren der Links zwischen ihnen auf der Grundlage Ihres Anwendungsfalls.
+Bei der Komposition föderierter Zielgruppen können Sie Datenmodelle direkt in der Arbeitsflächenansicht erstellen und verwalten. Dazu gehört das Hinzufügen von Schemata und Zielgruppen sowie das Definieren der Verknüpfungen zwischen ihnen auf Grundlage Ihres Anwendungsfalls.
 
 Weitere Informationen zu [Schemata](../customer/schemas.md#schema-start) und [Zielgruppen](../start/audiences.md).
 
-Im Folgenden sehen Sie beispielsweise eine Darstellung eines Datenmodells: die Tabellen mit ihrem Namen und die Verknüpfungen zwischen ihnen.
+Unten sehen Sie beispielsweise die Darstellung eines Datenmodells: die Tabellen mit ihrem Namen und die Verknüpfungen zwischen ihnen.
 
 ![](assets/datamodel.png){zoomable="yes"}
 

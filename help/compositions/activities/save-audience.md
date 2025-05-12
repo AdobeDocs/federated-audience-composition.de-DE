@@ -4,13 +4,13 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# Zielgruppe speichern {#save-audience}
+# Speichern einer Zielgruppe {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -38,7 +38,7 @@ Mithilfe der Aktivität **Zielgruppe speichern** können Sie eine neue Zielgrupp
 
 Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Komposition zu berechnen, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
-Die **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen neuen Datensatz. Nachdem die Zielgruppe erstellt wurde, stimmen Sie sich mit Ihrem Administrator ab, um die entsprechenden Data Governance-Kennzeichnungen zuzuweisen. [Erfahren Sie mehr über Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
+Die Aktivität **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen neuen Zielgruppendatensatz. Nachdem die Zielgruppe erstellt wurde, stimmen Sie sich mit Ihrem Admin-Team ab, um die entsprechenden Data-Governance-Label zuzuweisen. [Weitere Informationen zu Datennutzungs-Labeln](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
@@ -73,7 +73,7 @@ Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe 
 
 Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt „Zielgruppenzuordnungen“ ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer als Ziel auswählen oder für ein beliebiges von Adobe Experience Platform unterstütztes Ziel aktivieren.
 
-[Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Weitere Informationen hierzu finden Sie in der Dokumentation zu Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 <!--
 

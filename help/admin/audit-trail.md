@@ -4,7 +4,7 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Aktionen und Ereignisse im Audit-Protokoll protokolliert und zur Verfügung gestellt werden
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ So greifen auf das **[!UICONTROL Audit-Protokoll]** Ihrer Instanz zu:
 
    ![](assets/audit_trail.png)
 
-1. Im Fenster **[!UICONTROL Audit-Entität]** erhalten Sie detailliertere Informationen zu der ausgewählten Entität, z. B.:
+1. Im Fenster **[!UICONTROL Audit-Entität]** erhalten Sie detailliertere Informationen zu der ausgewählten Entität, z. B.:
 
    * **[!UICONTROL Typ]**: Workflow, Optionen, Sendungen oder Schemata.
    * **[!UICONTROL Entität]**: Interner Name Ihrer Aktivitäten.
