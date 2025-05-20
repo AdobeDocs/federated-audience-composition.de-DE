@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
->title="Planungsaktivität"
+>title="Aktivität „Planung“"
 >abstract="Mit der Aktivität **Planung** können Sie planen, wann die Zielgruppenkomposition gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität einer Komposition verwendet werden."
 
 Die Aktivität **Planung** ist eine Aktivität zur **Flusssteuerung**. Damit können Sie planen, wann die Komposition gestartet werden soll. Diese Aktivität sollte als geplanter Start betrachtet werden. Sie kann nur als erste Aktivität der Komposition verwendet werden.

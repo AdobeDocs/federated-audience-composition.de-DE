@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Abstimmung“
 description: Erfahren Sie, wie Sie die Aktivität „Abstimmung“ verwenden.
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Sie ermöglicht Ihnen, nicht identifizierte Daten mit bestehenden Ressourcen zu 
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
->title="Abstimmungsattribut"
+>title="Abstimmattribut"
 >abstract="Wählen Sie das Attribut aus, das zur Abstimmung der Daten verwendet werden soll, und bestätigen Sie den Vorgang."
 
 Gehen Sie wie folgt vor, um die Aktivität **Abstimmung** zu konfigurieren:

@@ -4,7 +4,7 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
