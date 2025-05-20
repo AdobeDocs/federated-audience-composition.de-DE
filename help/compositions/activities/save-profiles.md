@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie die Aktivität „Profile speichern“ verwen
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,22 +15,22 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="Speichern von Profilen"
->abstract="Die Aktivität „Profile speichern“ ermöglicht es Ihnen, Experience Platform-Profile anzureichern, indem Sie Daten aus externen Warehouses föderieren, sodass Sie Kundenprofile mit zusätzlichen Attributen erweitern können. "
+>abstract="Die Aktivität „Profile speichern“ ermöglicht es, Experience Platform-Profile anzureichern, indem Daten aus externen Warehouses föderiert werden, sodass Kundenprofile mit zusätzlichen Attributen erweitert werden können. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Auswählen eines AEP-Schemas"
->abstract="Wählen Sie das Experience Platform-Schema für die Profile aus."
+>abstract="Auswahl des Experience Platform-Schema für die Profile."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
 >title="Auswählen des primären Identifizierungsfelds"
->abstract="Wählen Sie die primäre Identität zur Identifizierung der Zielgruppenprofile in der Datenbank aus."
+>abstract="Auswahl der primären Identität zur Identifizierung der Zielgruppenprofile in der Datenbank."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="Auswählen eines AEP-Schemas"
->abstract="Wählen Sie das Experience Platform-Schema für die Profile aus."
+>abstract="Auswahl des Experience Platform-Schema für die Profile."
 
 Die Aktivität **Profile speichern** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit aus externen Warehouses föderierten Daten anzureichern.
 
