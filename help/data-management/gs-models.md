@@ -2,20 +2,25 @@
 audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
-badge: label="Beta" type="Informative"
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 92%
 
 ---
+
 
 # Erste Schritte mit Datenmodellen {#data-model-beta}
 
 >[!AVAILABILITY]
 >
->Die Arbeitsflächenansicht für Datenmodelle ist derzeit nur als Beta-Version für ausgewählte Benutzerinnen und Benutzer verfügbar. 
+>Für den Zugriff auf Datenmodelle benötigen Sie eine der folgenden Berechtigungen:
+>
+>-**Federated Data Model verwalten**
+>-**Anzeigen des Federated Data Model**
+>
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im Abschnitt [Handbuch zur Federated Audience-Komposition aufrufen](/help/start/feature-access.md).
 
 ## Was ist ein Datenmodell? {#data-model-start}
 
@@ -45,7 +50,9 @@ Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-1. Klicken Sie auf **[!UICONTROL Zielgruppen hinzufügen]**, um Ihre Zielgruppen zu definieren.
+1. Darüber hinaus können Sie Zielgruppen zu Ihrem Datenmodell hinzufügen. Wählen Sie **[!UICONTROL Zielgruppen hinzufügen]** aus, um Ihre Zielgruppen zu definieren.
+
+   ![](assets/datamodel-audiences.png){zoomable="yes"}
 
 1. Stellen Sie Verbindungen zwischen Tabellen in Ihrem Datenmodell her, um genaue Datenbeziehungen sicherzustellen. [Weitere Informationen](#data-model-links)
 
