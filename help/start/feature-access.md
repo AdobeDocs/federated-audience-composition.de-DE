@@ -2,10 +2,10 @@
 title: Zugreifen auf die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die erforderlichen Berechtigungen für die Komposition föderierter Zielgruppen
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: 7f8ba57e0fd53350690e391e015f5161b2b7d04e
+source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 40%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -63,12 +63,12 @@ So weisen Sie diese Rolle neuen Benutzenden zu:
 
 1. Geben Sie den Namen oder die E-Mail-Adresse der Person ein oder wählen Sie sie aus der verfügbaren Liste aus. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
 
-Alternativ können Sie den Benutzern je nach den benötigten Berechtigungen eine der bereits vorhandenen Rollen zuweisen. Weiterführende Informationen zur Zuweisung bereits vorhandener Rollen zu Benutzenden finden Sie im [Handbuch zur Benutzerverwaltung für ein Produktprofil](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-| Rollenname | Berechtigungen |
+| Role name | Permissions |
 | --------- | ----------- |
-| FAC-Daten-Manager | <ul><li>Verknüpfte Kompositionen verwalten</li><li>Verknüpfte Datenbanken anzeigen</li><li>Verknüpfte Schemata anzeigen</li><li>Anzeigen von Federated Schema-Daten</li><li>Anzeigen von Federated Data Models</li></ul> |
-| FAC Kompositions-Manager | <ul><li>Verknüpfte Kompositionen verwalten</li></ul> |
-| FAC-Administratoren | <ul><li>Verknüpfte Daten verwalten</li></ul> |
+| FAC Data Managers | <ul><li>Manage Federated Compositions</li><li>View Federated Databases</li><li>View Federated Schemas</li><li>View Federated Schema Data</li><li>View Federated Data Models</li></ul> |
+| FAC Composition Managers | <ul><li>Manage Federated Compositions</li></ul> |
+| FAC Administrators | <ul><li>Manage Federated Data</li></ul> | -->
 
 Die Person erhält dann eine E-Mail mit Anweisungen zum Zugriff auf Ihre Instanz. Wenn die Person vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
