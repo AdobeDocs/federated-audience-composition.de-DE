@@ -4,9 +4,9 @@ title: Audit-Protokoll
 description: Erfahren Sie, wie Aktionen und Ereignisse im Audit-Protokoll protokolliert und zur Verfügung gestellt werden
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 >
 >-**Audit-Protokoll anzeigen**
 >
->Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im Abschnitt [Handbuch zur Federated Audience-Komposition aufrufen](/help/start/feature-access.md).
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"

@@ -4,9 +4,9 @@ title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->Um auf Kompositionen zuzugreifen, benötigen Sie eine der folgenden Berechtigungen:
+>Um auf Kompositionen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Verknüpfte Kompositionen verwalten**
->-**Verknüpfte Kompositionen anzeigen**
+>-**Föderierte Kompositionen verwalten**
+>>-**Föderierte Kompositionen anzeigen**
 >
->Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im Abschnitt [Handbuch zur Federated Audience-Komposition aufrufen](/help/start/feature-access.md).
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/start/feature-access.md).
 
 ## Was ist eine Komposition? {#what}
 

@@ -4,9 +4,9 @@ title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '547'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->Um auf Schemata zuzugreifen, benötigen Sie eine der folgenden Berechtigungen:
+>Um auf Schemata zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Verknüpftes Schema verwalten**
->-**Verknüpftes Schema anzeigen**
+>-**Föderiertes Schema verwalten**
+>>-**Föderiertes Schema anzeigen**
 >
->Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im Abschnitt [Handbuch zur Federated Audience-Komposition aufrufen](/help/start/feature-access.md).
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"

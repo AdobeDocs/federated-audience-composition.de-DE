@@ -4,9 +4,9 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 90%
 
 >[!AVAILABILITY]
 >
->Um auf Verbindungen zuzugreifen, benötigen Sie eine der folgenden Berechtigungen:
+>Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Federated Database verwalten**
->-**Verknüpfte Datenbank anzeigen**
+>-**Föderierte Datenbank verwalten**
+>>-**Föderierte Datenbank anzeigen**
 >
->Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im Abschnitt [Handbuch zur Federated Audience-Komposition aufrufen](/help/start/feature-access.md).
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/start/feature-access.md).
 
 Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es Kundinnen und Kunden, Zielgruppen aus Data Warehouses von Drittanbietern zu erstellen und anzureichern und die Zielgruppen in Adobe Experience Platform zu importieren. Die unterstützten Data Warehouses sind in [diesem Abschnitt](../start/access-prerequisites.md#supported-systems) aufgeführt.
 

@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 93%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version Mai &#39;25 {#fac-25-5}
+## Version Mai 2025 {#fac-25-5}
 
 ### Neue Funktionen {#fac-25-05-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>Arbeitsfläche des Datenmodells - Allgemeine Verfügbarkeit</strong><br/></th>
+<th><strong>Arbeitsflächenansicht für Datenmodelle – allgemeine Verfügbarkeit</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Datenmodell mit Canvas-Ansicht ist jetzt für alle Kunden verfügbar!</p>
+<p>Datenmodelle mit Arbeitsflächenansicht sind jetzt für alle Kundinnen und Kunden verfügbar!</p>
 <p>Die Arbeitsflächenansicht für den Abschnitt „Datenmodelle“ sorgt für ein besseres Erlebnis. Denn sie ermöglicht neben der vorhandenen Tabellenansicht eine Visualisierung von Datenmodellen und deren Verknüpfungen in einem Arbeitsflächen-Layout.  </p>
-<p>Weitere Informationen zur Arbeitsfläche-Ansicht finden Sie unter <a href="../data-management/gs-models.md">Datenmodelle - Übersicht</a>.</p>
+<p>Weitere Informationen zur Arbeitsflächenansicht finden Sie unter <a href="../data-management/gs-models.md">Überblick über Datenmodelle</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,13 +37,13 @@ ht-degree: 93%
 
 ### Verbesserungen {#fac-25-5-improvements}
 
-Diese Version umfasst die folgenden Verbesserungen.
+Diese Version enthält die folgenden Verbesserungen:
 
-* **Rollenbasierte Zugriffssteuerung**
+* **Rollenbasierte Zugriffskontrolle**
 
-  Ab der Mai-Version unterstützt [!DNL Federated Audience Composition] neue granulare Berechtigungen für die Zugriffssteuerung. Benutzer können diese Berechtigungen Benutzerrollen zuweisen, um den Zugriff auf [!DNL Federated Audience Composition] zu präzisieren.
+  Ab der Version Mai unterstützt die Funktion [!DNL Federated Audience Composition] neue granulare Berechtigungen zur Zugriffskontrolle. Benutzende können diese Berechtigungen Benutzerrollen zuweisen, um den Zugriff auf die [!DNL Federated Audience Composition] genauer zu steuern.
 
-  Weitere Informationen zu den neuen Berechtigungen finden Sie im [Handbuch zur Federated Audience Composition](feature-access.md).
+  Weitere Informationen zu den neuen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](feature-access.md).
 
 ## Version April 2025 {#fac-25-4}
 
