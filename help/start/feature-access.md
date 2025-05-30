@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Wirds beispielsweise eine neue Sandbox mit dem Namen „fac-test“ aktiviert, w
 
 ## Verwalten des Zugriffs auf die Komposition föderierter Zielgruppen
 
-Für den Zugriff auf **Federated Audience** Komposition) müssen Sie zunächst sicherstellen, dass Sie die erforderlichen Berechtigungen für den Zugriff auf verschiedene Aspekte der Federated Audience-Komposition zuweisen. Diese Rollen müssen dann Benutzern zugewiesen werden, die Zugriff auf &quot;**Zielgruppenkomposition“**.
+Um auf die **Komposition föderierter Zielgruppen** zugreifen zu können, müssen Sie zunächst sicherstellen, dass Sie die erforderlichen Berechtigungen für den Zugriff auf verschiedene Aspekte der Komposition föderierter Zielgruppen zuweisen. Diese Rollen müssen dann Benutzenden zugewiesen werden, die Zugriff auf die **Komposition föderierter Zielgruppen** benötigen.
 
 Beachten Sie, dass Berechtigungen nur von Admins zugewiesen werden können.
 
@@ -29,41 +29,41 @@ Beachten Sie, dass Berechtigungen nur von Admins zugewiesen werden können.
 
    ![](assets/access_fda_1.png)
 
-1. Wählen **[!UICONTROL Bearbeiten]** aus, um die Berechtigungen Ihrer Rolle zu ändern.
+1. Wählen Sie **[!UICONTROL Bearbeiten]** aus, um die Berechtigungen Ihrer Rolle zu ändern.
 
    ![](assets/access_fda_2.png)
 
-1. Fügen Sie die erforderlichen Berechtigungen für den Benutzer hinzu. Sie können die folgenden Zugriffsberechtigungen für die Federated Audience-Komposition hinzufügen:
+1. Fügen Sie die erforderlichen Berechtigungen für die Benutzerin bzw. den Benutzer hinzu. Sie können die folgenden Zugriffsberechtigungen für die Komposition föderierter Zielgruppen hinzufügen:
 
    | Berechtigung | Beschreibung |
    | ---------- | ----------- |
-   | Verknüpfte Daten verwalten | Verwenden Sie diese Berechtigung, um alle Aspekte der Federated Audience-Komposition zu verwalten. Diese Berechtigung setzt die Verwaltung von Federated Database, Federated Schema und Federated Compositions voraus. |
-   | Federated Database verwalten | Verwenden Sie diese Berechtigung, um Verbindungen zu Federated Database hinzuzufügen, anzuzeigen, zu aktualisieren und zu löschen. |
-   | Federated Database anzeigen | Verwenden Sie diese Berechtigung, um Ihre Verbindungen zu Federated Database anzuzeigen. |
-   | Verknüpftes Schema verwalten | Verwenden Sie diese Berechtigung, um Schemata zu erstellen, anzuzeigen, zu aktualisieren, zu löschen und zu aktualisieren. |
-   | Anzeigen von Federated Schema-Daten | Verwenden Sie diese Berechtigung, um die Registerkarte „Daten“ im Schemaabschnitt anzuzeigen. |
-   | Verknüpftes Schema anzeigen | Verwenden Sie diese Berechtigung, um die Schematabellen anzuzeigen. |
-   | Federated Data Model verwalten | Verwenden Sie diese Berechtigung, um Datenmodelle zu erstellen, anzuzeigen, zu aktualisieren und zu löschen. |
-   | Federated Data Model anzeigen | Verwenden Sie diese Berechtigung, um die Datenmodelle anzuzeigen. |
-   | Audit-Protokoll des Verbands anzeigen | Verwenden Sie diese Berechtigung, um das Audit-Protokoll für die Federated Audience-Komposition anzuzeigen. |
-   | Verknüpfte Kompositionen verwalten | Verwenden Sie diese Berechtigung, um zusammengehörige Kompositionen zu erstellen, anzuzeigen, zu aktualisieren und zu löschen. |
-   | Verknüpfte Kompositionen anzeigen | Verwenden Sie diese Berechtigung, um zusammengehörige Kompositionen anzuzeigen. |
+   | Föderierte Daten verwalten | Verwenden Sie diese Berechtigung, um alle Aspekte der Komposition föderierter Zielgruppen zu verwalten. Diese Berechtigung umfasst die Berechtigungen „Föderierte Datenbank verwalten“, „Föderiertes Schema verwalten“, „Föderiertes Datenmodell verwalten“ und „Föderierte Kompositionen verwalten“. |
+   | Föderierte Datenbank verwalten | Verwenden Sie diese Berechtigung, um Verbindungen zu föderierten Datenbanken hinzuzufügen, diese anzuzeigen, zu aktualisieren und zu löschen. |
+   | Föderierte Datenbank anzeigen | Verwenden Sie diese Berechtigung, um Ihre Verbindungen zu föderierten Datenbanken anzuzeigen. |
+   | Föderiertes Schema verwalten | Verwenden Sie diese Berechtigung, um Schemata zu erstellen, anzuzeigen, zu ändern, zu löschen und zu aktualisieren. |
+   | Föderierte Schemadaten anzeigen | Verwenden Sie diese Berechtigung, um die Registerkarte „Daten“ im Abschnitt „Schema“ anzuzeigen. |
+   | Föderiertes Schema anzeigen | Verwenden Sie diese Berechtigung, um Schematabellen anzuzeigen. |
+   | Föderiertes Datenmodell verwalten | Verwenden Sie diese Berechtigung, um Datenmodelle zu erstellen, anzuzeigen, zu aktualisieren und zu löschen. |
+   | Föderiertes Datenmodell anzeigen | Verwenden Sie diese Berechtigung, um Datenmodelle anzuzeigen. |
+   | Audit-Protokoll der Föderation anzeigen | Verwenden Sie diese Berechtigung, um das Audit-Protokoll für die Komposition föderierter Zielgruppen anzuzeigen. |
+   | Föderierte Kompositionen verwalten | Verwenden Sie diese Berechtigung, um föderierte Kompositionen zu erstellen, anzuzeigen, zu aktualisieren und zu löschen. |
+   | Föderierte Kompositionen anzeigen | Verwenden Sie diese Berechtigung, um föderierte Kompositionen anzuzeigen. |
 
    ![](assets/permissions.png)
 
-1. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, klicken Sie auf **[!UICONTROL Speichern]**.
+1. Nachdem Sie die erforderlichen Änderungen vorgenommen haben, wählen Sie **[!UICONTROL Speichern]** aus.
 
 Für alle Benutzenden, die dieser Rolle bereits zugewiesen sind, werden die Berechtigungen automatisch aktualisiert und sie erhalten Zugriff auf die Komposition föderierter Zielgruppen.
 
 So weisen Sie diese Rolle neuen Benutzenden zu:
 
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Benutzer]** in Ihrem Rollen-Dashboard und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
+1. Navigieren Sie im Dashboard für Ihre Rolle zur Registerkarte **[!UICONTROL Benutzer]** und wählen Sie **[!UICONTROL Benutzer hinzufügen]** aus.
 
    ![](assets/access_fda_4.png)
 
-1. Geben Sie den Namen oder die E-Mail-Adresse der Person ein oder wählen Sie sie aus der verfügbaren Liste aus. Klicken Sie abschließend auf **[!UICONTROL Speichern]**.
+1. Geben Sie den Namen oder die E-Mail-Adresse der Person ein oder wählen Sie sie aus der verfügbaren Liste aus. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern]** aus.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
