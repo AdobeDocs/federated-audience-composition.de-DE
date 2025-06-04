@@ -3,10 +3,10 @@ audience: end-user
 title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
-workflow-type: ht
-source-wordcount: '611'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '610'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +50,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
 1. Über den Abschnitt **[!UICONTROL Warnungen]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten. 
 
-   Weitere Informationen zu Warnhinweisen finden Sie in der Dokumentation zu Adobe Experience Platform zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+   Weitere Informationen zu Warnhinweisen finden Sie in der Adobe Experience Platform-Dokumentation [Abonnieren von Warnhinweisen zu Zielen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 

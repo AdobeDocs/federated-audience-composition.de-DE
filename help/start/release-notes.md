@@ -2,10 +2,10 @@
 title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Platform
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 100%
+source-wordcount: '1244'
+ht-degree: 98%
 
 ---
 
@@ -129,9 +129,9 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
   Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ sichere VPN-Verbindungen zu Google Big Query-Datenbanken. [Weitere Informationen](../connections/federated-db.md#google-big-query)
+  Mit dieser neuen Version unterstützt Federated Audience Composition sichere VPN-Verbindungen zu Google BigQuery-Datenbanken. [Weitere Informationen](../connections/federated-db.md#google-bigquery)
 
 ## Version März 2025 {#fac-25-3}
 

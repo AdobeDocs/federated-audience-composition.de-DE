@@ -3,10 +3,10 @@ audience: end-user
 title: Konfigurieren föderierter Datenbanken
 description: Erfahren Sie, wie Sie föderierte Datenbanken konfigurieren
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '2128'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den 
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google BigQuery](#google-big-query)
+* [Google BigQuery](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,7 +127,7 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 |---|---|
 | Authentifizierung | Vom Connector unterstützter Authentifizierungstyp. Aktuell unterstützter Wert: ActiveDirectoryMSI. Weitere Informationen finden Sie in der [Dokumentation zu Microsoft SQL](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (Beispiel für Verbindungszeichenfolgen Nr. 8). |
 
-## Google BigQuery {#google-big-query}
+## Google BigQuery {#google-bigquery}
 
 Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicherte Daten zu verarbeiten. Gehen Sie wie folgt vor, um den Zugriff auf Google BigQuery zu konfigurieren.
 
@@ -139,11 +139,11 @@ Verwenden Sie föderierte Datenbanken, um in einer externen Datenbank gespeicher
 
 1. Geben Sie einen **[!UICONTROL Namen]** in Ihre föderierte Datenbank ein.
 
-1. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Typ]** die Option „Google BigQuery“ aus.
+1. Wählen Sie aus **[!UICONTROL Dropdown]** Typ“ die Option Google BigQuery aus.
 
    ![](assets/federated_database_3.png)
 
-1. Konfigurieren Sie die Authentifizierungseinstellungen für Google BigQuery:
+1. Konfigurieren Sie die Google BigQuery-Authentifizierungseinstellungen:
 
    * **[!UICONTROL Dienstkonto]**: Geben Sie die E-Mail-Adresse Ihres **[!UICONTROL Dienstkontos]** ein. Weiterführende Informationen dazu finden Sie in der [Dokumentation zu Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
