@@ -21,23 +21,23 @@ Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock Speichern auf d
 
 Alternativ wird nach dem Erstellen einer Profilanreicherung mithilfe der Aktivität Profil speichern auf der Arbeitsfläche für die Komposition die resultierende Anreicherung in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Diese Anreicherungsdaten werden mit einem Identitätsfeld und einem Identity-Namespace gekennzeichnet. Daher können Sie mit Privacy Service auf diese Profile zugreifen und sie bereinigen.
 
-Weitere Informationen zu Privacy Service finden Sie in der [Übersicht über Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
+Weitere Informationen zu Privacy Service finden Sie in der [Übersicht über Privacy Service](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/home){target="_blank"}.
 
 ### Datenschutzanfragen {#privacy-requests}
 
 In Privacy Service können Sie einzelne Datenschutzanfragen erstellen und verwalten, um auf Kundendaten aus der Federated Audience Composition zuzugreifen und sie zu löschen. Privacy Service bietet sowohl eine [Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"} als auch eine [RESTful-](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/overview){target="_blank"}, mit der Sie Anfragen zu Kundendaten verwalten können.
 
-Weitere Informationen zum Erstellen und Verwalten von Datenschutzanfragen finden Sie unter [Datenschutzaufträge im Handbuch zur Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
+Weitere Informationen zum Erstellen und Verwalten von Datenschutzanfragen finden Sie unter [Datenschutzaufträge im Handbuch zur Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
 ## Durchsetzung von Einverständnisrichtlinien {#consent}
 
 Die Federated Audience-Komposition über Experience Platform bietet Tools, mit denen Sie die Durchsetzung Ihrer Einwilligungen automatisieren können, um sicherzustellen, dass Sie Zielgruppen basierend auf der Einwilligung Ihrer Kunden aktivieren.
 
-Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock Speichern auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Experience Platform unterstützt bei der Aktivierung automatisch die Validierung des Einverständnisses . Weitere Informationen finden Sie unter [Häufig gestellte Fragen zum Segmentierungs-](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
+Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock Speichern auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Experience Platform unterstützt bei der Aktivierung automatisch die Validierung des Einverständnisses . Weitere Informationen finden Sie unter [Häufig gestellte Fragen zum Segmentierungs-](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
 
-Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung mithilfe der Aktivität Profil speichern auf der Arbeitsfläche für die Komposition erstellt haben, in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Bei vorhandenen Profilen werden verfügbare Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Bei neuen Profilen werden die während der Profilaufnahme bereitgestellten Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Weiterführende Informationen zur Anwendung von Einverständnissen auf Profile finden Sie im [Handbuch zu Einverständnis- und Voreinstellungsfeldern](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
+Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung mithilfe der Aktivität Profil speichern auf der Arbeitsfläche für die Komposition erstellt haben, in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Bei vorhandenen Profilen werden verfügbare Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Bei neuen Profilen werden die während der Profilaufnahme bereitgestellten Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Weiterführende Informationen zur Anwendung von Einverständnissen auf Profile finden Sie im [Handbuch zu Einverständnis- und Voreinstellungsfeldern](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
 
-Weiterführende Informationen zur Anwendung von Einverständniserklärungen finden Sie im [Handbuch zur Benutzeroberfläche für die Verwaltung von Richtlinien](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
+Weiterführende Informationen zur Anwendung von Einverständniserklärungen finden Sie im [Handbuch zur Benutzeroberfläche für die Verwaltung von Richtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
 
 ## Datenlebenszyklus {#data-lifecycle}
 
@@ -47,13 +47,13 @@ Wenn Sie beispielsweise eine Zielgruppe mithilfe des Aktivitätsblocks Speichern
 
 Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung mithilfe der Aktivität Profil speichern auf der Arbeitsfläche für die Komposition erstellt haben, in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Dadurch können Sie über den Datenlebenszyklus auf die Profile zugreifen und sie bereinigen.
 
-Weitere Informationen zur Verwendung des Datenlebenszyklus finden Sie unter [Übersicht über den Datenlebenszyklus](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
+Weitere Informationen zur Verwendung des Datenlebenszyklus finden Sie unter [Übersicht über den Datenlebenszyklus](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
 ## Datennutzungskennzeichnungen {#data-usage-labels}
 
 Mit Datennutzungskennzeichnungen können Sie Datensätze und Felder basierend auf den für diese Daten geltenden Governance-Richtlinien kategorisieren. Nachdem Sie eine Zielgruppe mithilfe von Kompositionen erstellt haben, können Sie die entsprechenden Datenbeschriftungen auf das resultierende Schema anwenden, um sicherzustellen, dass es die erforderlichen Nutzungsbeschränkungen einhält.
 
-Weitere Informationen zur Verwendung von Datennutzungskennzeichnungen finden Sie unter [Datennutzungskennzeichnungen - Übersicht](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+Weitere Informationen zur Verwendung von Datennutzungskennzeichnungen finden Sie unter [Datennutzungskennzeichnungen - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ## Verschlüsselung {#encryption}
 
@@ -63,13 +63,13 @@ Ruhedaten beziehen sich auf die Kundendaten, die in der Federated Audience-Kompo
 
 Daten in Übertragung beziehen sich auf die Kundendaten, wenn sie in der Federated Audience Composition von einer Komponente zur anderen verschoben werden. Die Daten werden in allen Komponenten der Federated Audience Composition mit TLS 1.3 über HTTPS verschlüsselt aufbewahrt.
 
-Weitere Informationen zum Umgang von Adobe mit der Datenverschlüsselung finden Sie im Handbuch [Datenverschlüsselung in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+Weitere Informationen zum Umgang von Adobe mit der Datenverschlüsselung finden Sie im Handbuch [Datenverschlüsselung in Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
 
 ### Kundenseitig verwaltete Schlüssel {#customer-managed-keys}
 
 Mit kundenverwalteten Schlüsseln haben Sie die Kontrolle über Ihre Daten, indem Sie Ihre eigenen Verschlüsselungsschlüssel zum Verschlüsseln Ihrer Daten verwenden können. Da die Federated Audience **keine** Kundendaten speichert, können kundenverwaltete Schlüssel direkt für die resultierenden Zielgruppen und Anreicherungen verwendet werden, da sie im Data Lake in Experience Platform gespeichert werden.
 
-Weitere Informationen zu kundenverwalteten Schlüsseln finden Sie im Handbuch [Kundenverwaltete Schlüssel](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
+Weitere Informationen zu kundenverwalteten Schlüsseln finden Sie im Handbuch [Kundenverwaltete Schlüssel](https://experienceleague.adobe.com/de/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
 ## Auditprotokoll {#audit-log}
 
