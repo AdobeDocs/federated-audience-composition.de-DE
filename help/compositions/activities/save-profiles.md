@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Profile speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Profile speichern“ verwenden
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Auswählen eines AEP-Schemas"
+>title="Experience Platform-Schema auswählen"
 >abstract="Auswahl des Experience Platform-Schema für die Profile."
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,42 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Auswählen eines AEP-Schemas"
+>title="Experience Platform-Schema auswählen"
 >abstract="Auswahl des Experience Platform-Schema für die Profile."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="Aktualisierungsmodus für Profil speichern"
+>abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität Profil speichern umfassen eine vollständige Aktualisierung und eine inkrementelle Aktualisierung."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="Vollständige Aktualisierung"
+>abstract="Der Modus Vollständige Aktualisierung aktualisiert den vollständigen Satz an Profilen für die Anreicherung."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="Inkrementelle Aktualisierung"
+>abstract="Der Modus für inkrementelle Aktualisierungen aktualisiert die Profile, die seit der letzten Anreicherung geändert wurden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="Feld „Primärer Identitätswert“"
+>abstract="Das Feld Primäre Identität gibt die Datenquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="Erforderliche Felder und Kriterien"
+>abstract="Ein erforderliches Feld ist ein Attribut, das beim Exportieren von Daten für jedes Profil oder jeden Datensatz ausgefüllt werden muss. Wenn ein erforderliches Feld fehlt, ist der Export weder vollständig noch gültig."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="Kriterien für Primäre Identitätsfelder"
+>abstract="Die eindeutige Kennung für jedes Profil oder jeden Datensatz. Dadurch wird sichergestellt, dass jeder Datensatz eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
 
 Die Aktivität **Profile speichern** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit aus externen Warehouses föderierten Daten anzureichern.
 
-Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, indem zusätzliche Attribute und Erkenntnisse eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren
+Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, indem zusätzliche Attribute und Einblicke eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
 
 ## Konfigurieren der Aktivität „Profile speichern“ {#save-profile-configuration}
 
