@@ -4,7 +4,7 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
 ht-degree: 100%
 

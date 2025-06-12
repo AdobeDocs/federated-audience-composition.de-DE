@@ -3,7 +3,7 @@ title: Zugreifen auf die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die erforderlichen Berechtigungen für die Komposition föderierter Zielgruppen
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ So weisen Sie diese Rolle neuen Benutzenden zu:
 
 1. Geben Sie den Namen oder die E-Mail-Adresse der Person ein oder wählen Sie sie aus der verfügbaren Liste aus. Wenn Sie fertig sind, wählen Sie **[!UICONTROL Speichern]** aus.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
