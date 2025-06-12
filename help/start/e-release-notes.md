@@ -4,16 +4,36 @@ description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
 # Versionshinweise {#rn-new}
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version Juni 2025 {#fac-25-6}
+
+Diese Version umfasst die folgenden Verbesserungen:
+
+* **Allgemeine Verfügbarkeit für Kundinnen und Kunden im Gesundheitswesen**
+
+  Die Federated Audience-Komposition steht Healthcare-Kunden bis Ende Juni für Anwendungsfälle zur Zielgruppenerstellung, -anreicherung und -Profilanreicherung zur Verfügung.
+
+* **Zugriffssteuerung auf Objektebene**
+
+  Die Federated Audience-Komposition unterstützt jetzt die Zugriffssteuerung auf Objektebene, um Zugriffsbeschriftungen auf die angegebenen Kompositionen anzuwenden.
+
+* **Standardrollen**
+
+  Sie können jetzt eine der Standardrollen verwenden, um Benutzerberechtigungen für den Zugriff auf die Federated Audience Composition zu verwalten.
+
+* **Inkrementelle Aktualisierungen in Anwendungsfällen zur Profilanreicherung**
+
+  Die Aktivität Profile speichern unterstützt jetzt inkrementelle Aktualisierungen. Mit inkrementellen Aktualisierungen können Sie inkrementelle Daten abfragen und aktualisieren und dabei Profile mit Daten aus externen Data Warehouses anreichern.
 
 ## Version April 2025 {#fac-25-4}
 
