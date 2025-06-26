@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Zielgruppe erstellen“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe erstellen“ verwenden.
 exl-id: 6fad3e49-e654-4f68-a125-50056c4ae980
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 2c706e8c7d7d282f8ef2f00875608f06e35ffdf8
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe erstellen
 
 1. Fügen Sie die Aktivität **Zielgruppe erstellen** hinzu.
 1. Definieren Sie einen Titel.
-1. Geben Sie an, ob Sie eine Zielgruppe erstellen oder eine bestehende Zielgruppe auswählen möchten.
+1. Geben Sie an, ob Sie eine Zielgruppe erstellen oder eine vorhandene auswählen möchten.
 1. Konfigurieren Sie Ihre Zielgruppe anhand der Schritte in den unten stehenden Registerkarten.
 
 >[!BEGINTABS]

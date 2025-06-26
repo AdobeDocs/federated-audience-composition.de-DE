@@ -2,16 +2,46 @@
 title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Platform
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '1244'
-ht-degree: 100%
+source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
+workflow-type: tm+mt
+source-wordcount: '1428'
+ht-degree: 87%
 
 ---
 
 # Versionshinweise {#rn-new}
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version Juni 2025 {#fac-25-6}
+
+### Verbesserungen {#fac-25-06-improvements}
+
+Diese Version umfasst die folgenden Verbesserungen:
+
+* **Allgemeine Verfügbarkeit für Kunden von Adobe Healthcare Shield**
+
+  Die Federated Audience-Komposition steht Adobe Healthcare Shield-Kunden bis Ende Juni für Anwendungsfälle zur Zielgruppenerstellung, -anreicherung und -Profilanreicherung zur Verfügung.
+
+  Weitere Informationen zum Datenschutz und zur Sicherheit bei der Federated Audience-Komposition finden [ im Handbuch zu Data Governance, Datenschutz und Sicherheit ](/help/governance-privacy-security/home.md).
+
+* **Zugriffssteuerung auf Objektebene**
+
+  Die Federated Audience-Komposition unterstützt jetzt die Zugriffssteuerung auf Objektebene, um Zugriffsbeschriftungen auf die angegebenen Kompositionen anzuwenden.
+
+  Weitere Informationen zur Verwendung von Zugriffsbeschriftungen auf Objektebene finden Sie im [Kompositionshandbuch](/help/compositions/gs-compositions.md).
+
+* **Standardrollen**
+
+  Sie können jetzt eine der Standardrollen verwenden, um Benutzerberechtigungen für den Zugriff auf die Federated Audience Composition zu verwalten.
+
+  Weitere Informationen zu den Standardrollen finden Sie im [Handbuch zur Federated Audience-Komposition ](/help/governance-privacy-security/access-control.md).
+
+* **Inkrementelle Aktualisierungen in Anwendungsfällen zur Profilanreicherung**
+
+  Die Aktivität Profile speichern unterstützt jetzt inkrementelle Aktualisierungen. Mit inkrementellen Aktualisierungen können Sie inkrementelle Daten abfragen und aktualisieren und dabei Profile mit Daten aus externen Data Warehouses anreichern.
+
+  Weitere Informationen zur Verwendung der Aktivität „Profile speichern“ finden Sie im [Handbuch zur Profilspeicherung](/help/compositions/activities/save-profiles.md).
 
 ## Version Mai 2025 {#fac-25-5}
 
@@ -43,7 +73,7 @@ Diese Version enthält die folgenden Verbesserungen:
 
   Ab der Version Mai unterstützt die Funktion [!DNL Federated Audience Composition] neue granulare Berechtigungen zur Zugriffskontrolle. Benutzende können diese Berechtigungen Benutzerrollen zuweisen, um den Zugriff auf die [!DNL Federated Audience Composition] genauer zu steuern.
 
-  Weitere Informationen zu den neuen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](feature-access.md).
+  Weitere Informationen zu den neuen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/governance-privacy-security/access-control.md).
 
 ## Version April 2025 {#fac-25-4}
 
@@ -145,7 +175,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
   Wir empfehlen Benutzenden, sich an die Admins zu wenden, damit diese Berechtigung ihrer Rolle hinzugefügt wird, um weiterhin auf die Benutzeroberfläche der [!DNL Federated Audience Composition] zugreifen zu können.
 
-  Wie Sie diese Berechtigung zuweisen, erfahren Sie in der [entsprechenden Dokumentation](feature-access.md).
+  Wie Sie diese Berechtigung zuweisen, erfahren Sie in der [entsprechenden Dokumentation](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**

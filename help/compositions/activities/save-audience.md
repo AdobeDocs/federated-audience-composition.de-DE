@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 79%
 
 ---
 
@@ -34,15 +34,11 @@ ht-degree: 100%
 >abstract="Wählen Sie den Namespace aus, der für Profile verwendet werden soll."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces" text="Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform"
 
-Mithilfe der Aktivität **Zielgruppe speichern** können Sie eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die erstellten Zielgruppen werden zur Liste der Adobe Experience Platform-Zielgruppen hinzugefügt und sind über das Menü **Zielgruppen** verfügbar. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../../start/audiences.md)
+Mithilfe der Aktivität **[!UICONTROL Zielgruppe speichern]** können Sie eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die erstellten Zielgruppen werden zur Liste der Adobe Experience Platform-Zielgruppen hinzugefügt und sind über das Menü **Zielgruppen** verfügbar. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../../start/audiences.md)
 
 Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Komposition zu berechnen, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
-Die Aktivität **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen neuen Zielgruppendatensatz. Nachdem die Zielgruppe erstellt wurde, stimmen Sie sich mit Ihrem Admin-Team ab, um die entsprechenden Data-Governance-Label zuzuweisen. [Weitere Informationen zu Datennutzungs-Labeln](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->Die Aktivität **Zielgruppe speichern** erfordert ein profilaktiviertes Schema und einen profilaktivierten Datensatz. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+Die Aktivität **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen zugehörigen Datensatz, die personenbezogene Daten (PII) oder geschützte Gesundheitsinformationen (PHI) enthalten können. Wenden Sie sich nach der Erstellung der Zielgruppe an Ihren Administrator, um sicherzustellen, dass die entsprechenden Data Governance-Kennzeichnungen gemäß den Datenrichtlinien Ihrer Organisation angewendet werden. Weitere Informationen zum Anwenden von Datennutzungskennzeichnungen finden Sie im [Benutzerhandbuch zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“ {#save-audience-configuration}
 
@@ -69,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
 
 ## Zugreifen auf Ihre Zielgruppe in Adobe Experience Platform {#access-audience}
 
-Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und ist in Adobe Real-Time CDP und/oder Adobe Journey Optimizer im Zielgruppenportal verfügbar. Weitere Informationen zu Audience Portal finden Sie unter [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt „Zielgruppenzuordnungen“ ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer als Ziel auswählen oder für ein beliebiges von Adobe Experience Platform unterstütztes Ziel aktivieren.
 

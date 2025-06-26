@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Profile speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Profile speichern“ verwenden
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 55%
+source-wordcount: '563'
+ht-degree: 22%
 
 ---
 
@@ -62,17 +62,23 @@ ht-degree: 55%
 >title="Kriterien für Primäre Identitätsfelder"
 >abstract="Die eindeutige Kennung für jedes Profil oder jeden Datensatz. Dadurch wird sichergestellt, dass jeder Datensatz eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
 
-Die Aktivität **Profile speichern** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit aus externen Warehouses föderierten Daten anzureichern.
+Die Aktivität **[!UICONTROL Profile speichern]** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit Daten anzureichern, die aus externen Warehouses zusammengeführt werden.
 
 Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, indem zusätzliche Attribute und Einblicke eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
 
-## Konfigurieren der Aktivität „Profile speichern“ {#save-profile-configuration}
+## Konfigurieren der Aktivität [!UICONTROL Profile speichern] {#save-profile-configuration}
 
-Gehen Sie wie folgt vor, um die Aktivität **Profile speichern** zu konfigurieren:
+>[!IMPORTANT]
+>
+>Die **Profile speichern**-Aktivität erfordert ein Profil-aktiviertes Schema und einen Datensatz. Informationen zum Aktivieren des Datensatzes für die Profilaktivierung finden Sie im [Benutzerhandbuch zum Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-1. Fügen Sie Ihrer Komposition die Aktivität **Profile speichern** hinzu.
+Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Profile speichern]** zu konfigurieren:
 
-   ![](../assets/save-profile.png)
+1. Fügen Sie **[!UICONTROL Komposition eine Aktivität]** Profile speichern“ hinzu.
+
+   ![Die Schaltfläche Profile speichern ist in den Aktivitäten hervorgehoben.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Geben Sie das Label der zu erstellenden Profile an.
 
@@ -82,14 +88,31 @@ Gehen Sie wie folgt vor, um die Aktivität **Profile speichern** zu konfiguriere
 
 1. Wählen Sie das Adobe Experience Platform-Schema aus, das verwendet werden soll.
 
-   ![](../assets/save-profile-2.png)
+   ![Die verfügbaren Schemata werden angezeigt.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Wählen Sie das primäre Identitätsfeld zur Identifizierung von Profilen in der Datenbank.
+1. Wählen Sie den Datensatz aus, in dem Sie die Anreicherung speichern möchten.
 
-1. Um weitere Datenattribute abzustimmen, klicken Sie auf **Attribute hinzufügen**.
+   ![Das Datensatz-Dropdown-Menü ist hervorgehoben.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   Geben Sie dann das Feld **Quelle** (externe Daten) und **Ziel** (Schemafeld) für jedes Attribut an, das zugeordnet werden soll.
+1. Nach Auswahl des Datensatzes können Sie das Feld für die primäre Identität sehen, das zur Identifizierung von Profilen in der Datenbank verwendet wird.
 
-   ![](../assets/save-profile-3.png)
+1. Wählen Sie **[!UICONTROL Felder hinzufügen]** aus, um die primären und erforderlichen Identitätsfelder hinzuzufügen.
 
-1. Klicken Sie nach der Konfiguration auf **Start**.
+   ![Die Schaltfläche „Felder hinzufügen“ ist hervorgehoben.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   Sie können das Feld **Source** (externe Daten) und das Feld **Ziel** (Schemafeld) für jedes Attribut angeben, das Sie zuordnen möchten.
+
+   ![Die Source- und Zielfelder sind hervorgehoben und zeigen an, wo die Zuordnung zwischen den Feldern erstellt werden soll](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. Sie können auch den Aktualisierungsmodus für die Anreicherung angeben.
+
+   ![Die Aktualisierungsmodustypen werden angezeigt.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | Aktualisierungsmodus | Beschreibung |
+   | ----------- | ----------- |
+   | Vollständige Aktualisierungen | Der vollständige Satz von Profilen wird zur Anreicherung aktualisiert. |
+   | Inkrementelle Aktualisierungen | Nur die Profile, die seit der letzten Anreicherung geändert wurden, werden für die Anreicherung aktualisiert. |
+
+   Wenn Sie [!UICONTROL Inkrementelle Aktualisierungen] auswählen, müssen Sie auch das Datum der letzten Änderung auswählen, um zu bestimmen, welche Daten gesendet werden.
+
+1. Wählen Sie nach der Konfiguration **Starten** aus.

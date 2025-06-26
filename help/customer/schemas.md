@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
-workflow-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >-**Föderiertes Schema verwalten**
 >>-**Föderiertes Schema anzeigen**
 >
->Weitere Informationen zu den erforderlichen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/start/feature-access.md).
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -35,7 +35,6 @@ ht-degree: 100%
 >id="dc_schema_create_schema_name"
 >title="Name des Schemas"
 >abstract="Den Namen des Schemas eingeben."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"

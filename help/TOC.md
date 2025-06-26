@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 16af7b7e5258aa377c94d552048bdc2d38a39b44
-workflow-type: ht
-source-wordcount: '164'
-ht-degree: 100%
+source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -18,11 +18,12 @@ ht-degree: 100%
 + Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
    + [Was ist die Komposition föderierter Zielgruppen?](start/get-started.md)
    + [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
-   + [Zugreifen auf die Komposition föderierter Zielgruppen](start/feature-access.md)
    + [Arbeiten mit Zielgruppen](start/audiences.md)
    + [Arbeiten mit dem KI-Assistenten](start/ai-assistant.md)
-   + [Datenschutz und Sicherheit](start/privacy-security.md)
    + [Häufig gestellte Fragen](start/faq.md)
++ Governance, Datenschutz, Sicherheit {#governance-privacy-security}
+   + [Überblick](./governance-privacy-security/home.md)
+   + [Zugriffssteuerung](governance-privacy-security/access-control.md)
 + Konfigurationsschritte {#config}
    + [Erstellen und Verwalten von Verbindungen](connections/connections.md)
    + [Konfigurieren föderierter Datenbanken](connections/federated-db.md)

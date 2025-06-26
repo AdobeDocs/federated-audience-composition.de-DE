@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 861440ab-ce14-46aa-a215-b86fc9ffeef0
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b73eba776e3e75f3ff7107bcf48f7b2f60048d08
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Die Komposition föderierter Zielgruppen in Experience Platform bietet eine visu
 
 Das Kompositionsdiagramm zeigt, was passieren soll. Es beschreibt die verschiedenen Aufgaben, die ausgeführt und miteinander verknüpft werden sollen.
 
-![](assets/composition-example.png){zoomable="yes"} {zoomable="yes"}
+![](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
 Jede Komposition besteht aus:
 

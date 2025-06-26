@@ -2,9 +2,9 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Kompositi
 
 ## Berechtigungen {#permissions}
 
-Um auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Benutzende dem beim Kauf erstellten Sandbox-spezifischen Produktprofil hinzugefügt werden und ihnen muss die Berechtigung **[!UICONTROL Föderierte Daten verwalten]** zugewiesen werden. [Weitere Informationen](feature-access.md)
+Um auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Benutzende dem beim Kauf erstellten Sandbox-spezifischen Produktprofil hinzugefügt werden und ihnen muss die Berechtigung **[!UICONTROL Föderierte Daten verwalten]** zugewiesen werden. [Weitere Informationen](/help/governance-privacy-security/access-control.md)
 
 ## IP-Zulassungsauflistung {#ip}
 
@@ -59,13 +59,6 @@ Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um der Komposition 
 
 ## Leitlinien und Einschränkungen {#fac-guardrails}
 
-* Die Komposition föderierter Zielgruppen ist derzeit nicht für Kundinnen und Kunden verfügbar, die [Gesundheitsdaten aufnehmen](https://experienceleague.adobe.com/de/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
-
-<!--
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/de/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
-
 * Für die Komposition föderierter Zielgruppen gelten die Berechtigungen, Produktbeschränkungen und Leistungsleitlinien, die in der [Dokumentation zu Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/de/docs/experience-platform/profile/guardrails){target="_blank"} aufgeführt sind.
 
 * Die Funktion „Komposition föderierter Zielgruppen“ unterstützt den Export großer Zielgruppen mit Dateigrößen von mehr als 1 GB. Für optimale Leistung wird eine maximale Dateigröße von 20 GB empfohlen.
-
-

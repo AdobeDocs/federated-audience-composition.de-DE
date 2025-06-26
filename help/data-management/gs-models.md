@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
-source-git-commit: 7f8a90c21c000d66cd7f3181170d6d8edb448f83
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >-**Föderiertes Datenmodell verwalten**
 >>-**Föderiertes Datenmodell anzeigen**
 >
->Weitere Informationen zu den erforderlichen Berechtigungen finden Sie unter [Zugreifen auf die Komposition föderierter Zielgruppen](/help/start/feature-access.md).
+>Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
 ## Was ist ein Datenmodell? {#data-model-start}
 
