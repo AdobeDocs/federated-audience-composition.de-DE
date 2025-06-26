@@ -17,7 +17,7 @@ ht-degree: 16%
 >Um auf Kompositionen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderierte Kompositionen verwalten**
->>-**Föderierte Kompositionen anzeigen**
+>&#x200B;>-**Föderierte Kompositionen anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 

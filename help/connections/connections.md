@@ -17,7 +17,7 @@ ht-degree: 95%
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderierte Datenbank verwalten**
->>-**Föderierte Datenbank anzeigen**
+>&#x200B;>-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 

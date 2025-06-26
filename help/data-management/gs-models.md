@@ -18,7 +18,7 @@ ht-degree: 98%
 >Um auf Datenmodelle zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderiertes Datenmodell verwalten**
->>-**Föderiertes Datenmodell anzeigen**
+>&#x200B;>-**Föderiertes Datenmodell anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
