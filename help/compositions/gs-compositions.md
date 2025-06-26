@@ -73,7 +73,7 @@ Das **[!UICONTROL Zugriff verwalten]** wird angezeigt. Auf dieser Seite können 
 | Kennzeichnungen für sensible Daten | Sensible Kennzeichnungen („S“-Kennzeichnungen) werden verwendet, um Sie und/oder Ihr Unternehmen als sensibel zu kategorisieren. |
 | Partner-Ökosystem-Kennzeichnungen | Partner-Ökosystem-Kennzeichnungen werden verwendet, um Daten aus externen Quellen in Ihrem Unternehmen zu kategorisieren. |
 
-Weitere Informationen zu Zugriffs- und Data Governance-Beschriftungen finden Sie im [Glossar zu Datennutzungsbeschriftungen](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Weitere Informationen zu Zugriffs- und Data Governance-Beschriftungen finden Sie im [Glossar zu Datennutzungsbeschriftungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference).
 
 ## Nächste Schritte
 

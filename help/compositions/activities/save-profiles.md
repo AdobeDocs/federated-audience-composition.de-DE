@@ -72,7 +72,7 @@ Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, in
 >
 >Die **Profile speichern**-Aktivität erfordert ein Profil-aktiviertes Schema und einen Datensatz. Informationen zum Aktivieren des Datensatzes für die Profilaktivierung finden Sie im [Benutzerhandbuch zum Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Profile speichern]** zu konfigurieren:
 
