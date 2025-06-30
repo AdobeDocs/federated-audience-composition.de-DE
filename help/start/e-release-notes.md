@@ -7,7 +7,7 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -15,25 +15,25 @@ ht-degree: 89%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version Juni 2025 {#fac-25-6}
+## Version Juni 2025 {#fac-25-6}
 
-Diese Version umfasst die folgenden Verbesserungen:
+Diese Version enthält die folgenden Verbesserungen:
 
-* **Allgemeine Verfügbarkeit für Kunden von Adobe Healthcare Shield**
+* **Allgemeine Verfügbarkeit für Kundinnen und Kunden von Adobe Healthcare Shield**
 
-  Die Federated Audience-Komposition steht Adobe Healthcare Shield-Kunden bis Ende Juni für Anwendungsfälle zur Zielgruppenerstellung, -anreicherung und -Profilanreicherung zur Verfügung.
+  Die Komposition föderierter Zielgruppen steht Kundinnen und Kunden von Adobe Healthcare Shield bis Ende Juni für Anwendungsfälle für die Zielgruppenerstellung, Anreicherung und Profilanreicherung zur Verfügung.
 
-* **Zugriffssteuerung auf Objektebene**
+* **Zugriffskontrolle auf Objektebene**
 
-  Die Federated Audience-Komposition unterstützt jetzt die Zugriffssteuerung auf Objektebene, um Zugriffsbeschriftungen auf die angegebenen Kompositionen anzuwenden.
+  Die Komposition föderierter Zielgruppen unterstützt jetzt die Zugriffskontrolle auf Objektebene, um Zugriffs-Label auf die angegebenen Kompositionen anzuwenden.
 
 * **Standardrollen**
 
-  Sie können jetzt eine der Standardrollen verwenden, um Benutzerberechtigungen für den Zugriff auf die Federated Audience Composition zu verwalten.
+  Sie können jetzt eine der Standardrollen verwenden, um Benutzerberechtigungen für den Zugriff auf die Komposition föderierter Zielgruppen zu verwalten.
 
-* **Inkrementelle Aktualisierungen in Anwendungsfällen zur Profilanreicherung**
+* **Inkrementelle Aktualisierungen in Anwendungsfällen für die Profilanreicherung**
 
-  Die Aktivität Profile speichern unterstützt jetzt inkrementelle Aktualisierungen. Mit inkrementellen Aktualisierungen können Sie inkrementelle Daten abfragen und aktualisieren und dabei Profile mit Daten aus externen Data Warehouses anreichern.
+  Die Aktivität „Profile speichern“ unterstützt jetzt inkrementelle Aktualisierungen. Mit inkrementellen Aktualisierungen können Sie inkrementelle Daten abfragen und aktualisieren und dabei Profile mit Daten aus externen Data Warehouses anreichern.
 
 ## Version April 2025 {#fac-25-4}
 

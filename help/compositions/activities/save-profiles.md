@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 46%
+ht-degree: 51%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Auswählen des Experience Platform-Schemas"
->abstract="Auswahl des Experience Platform-Schema für die Profile."
+>abstract="Wählen Sie das Experience Platform-Schema für die Profile."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
@@ -30,17 +30,17 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="Auswählen des Experience Platform-Schemas"
->abstract="Auswahl des Experience Platform-Schema für die Profile."
+>abstract="Wählen Sie das Experience Platform-Schema für die Profile."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode"
->title="Speichern des Aktualisierungsmodus für das Profil"
->abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität „Profil speichern“ umfassen eine vollständige Aktualisierung und eine inkrementelle Aktualisierung."
+>title="Speichern des Aktualisierungsmodus für Profile"
+>abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität „Profil speichern“ sind die vollständige Aktualisierung und die inkrementelle Aktualisierung."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
 >title="Vollständige Aktualisierung"
->abstract="Der Modus „Vollständige Aktualisierung“ aktualisiert den vollständigen Satz an Profilen für die Anreicherung."
+>abstract="Der Modus „Vollständige Aktualisierung“ aktualisiert alle Profile für die Anreicherung."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_incremental"
@@ -50,21 +50,21 @@ ht-degree: 46%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="Feld „Primärer Identitätswert“"
->abstract="Das Feld „Primäre Identität“ gibt beim Zusammenführen von Profilen für die Anreicherung die Datenquelle an."
+>abstract="Das primäre Identitätsfeld gibt die Wissensquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
->title="Kriterien für erforderliche Felder"
+>title="Kriterien erforderlicher Felder"
 >abstract="Ein erforderliches Feld ist ein Attribut, das beim Exportieren von Daten für jedes Profil oder jeden Eintrag ausgefüllt werden muss. Wenn ein erforderliches Feld fehlt, ist der Export weder vollständig noch gültig."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
->title="Kriterien für das Feld „Primäre Identität“"
->abstract="Die eindeutige Kennung für jedes Profil oder jeden Eintrag. Dies stellt sicher, dass jeder Eintrag eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
+>title="Kriterien primärer Identitätsfelder"
+>abstract="Die eindeutige Kennung für jedes Profil oder jeden Eintrag. Dadurch wird sichergestellt, dass jeder Eintrag eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
 
 Die Aktivität **[!UICONTROL Profile speichern]** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit Daten anzureichern, die aus externen Warehouses zusammengeführt werden.
 
-Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, indem zusätzliche Attribute und Einblicke eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
+Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, indem zusätzliche Attribute und Erkenntnisse eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
 
 ## Konfigurieren der Aktivität [!UICONTROL Profile speichern] {#save-profile-configuration}
 
@@ -72,7 +72,7 @@ Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, in
 >
 >Die **Profile speichern**-Aktivität erfordert ein Profil-aktiviertes Schema und einen Datensatz. Informationen zum Aktivieren des Datensatzes für die Profilaktivierung finden Sie im [Benutzerhandbuch zum Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Profile speichern]** zu konfigurieren:
 
