@@ -4,9 +4,9 @@ title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
->title="Feld „Primärer Identitätswert“"
+>title="Feld „Primäre Identität“"
 >abstract="Wählen Sie die primäre Identität aus, die für Profile verwendet werden soll."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform"
 
@@ -38,7 +38,7 @@ Mithilfe der Aktivität **[!UICONTROL Zielgruppe speichern]** können Sie eine n
 
 Diese Aktivität dient im Wesentlichen dazu, Populationsgruppen in derselben Komposition zu berechnen, indem sie in wiederverwendbare Zielgruppen umgewandelt werden. Verbinden Sie sie mit anderen Zielgruppenbestimmungsaktivitäten, wie etwa den Aktivitäten **Zielgruppe aufbauen** oder **Kombinieren**.
 
-Die Aktivität **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen zugehörigen Datensatz, die personenbezogene Daten (PII) oder geschützte Gesundheitsinformationen (PHI) enthalten können. Wenden Sie sich nach der Erstellung der Zielgruppe an Ihren Administrator, um sicherzustellen, dass die entsprechenden Data Governance-Kennzeichnungen gemäß den Datenrichtlinien Ihrer Organisation angewendet werden. Weitere Informationen zum Anwenden von Datennutzungskennzeichnungen finden Sie im [Benutzerhandbuch zu Datennutzungskennzeichnungen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide).
+Die Aktivität **[!UICONTROL Zielgruppe speichern]** generiert ein neues Zielgruppenschema und einen zugehörigen Datensatz, die personenbezogene Daten (PII) oder geschützte Gesundheitsinformationen (PHI) enthalten können. Wenden Sie sich nach der Erstellung der Zielgruppe an Ihre bzw. Ihren Admin, um sicherzustellen, dass die entsprechenden Data-Governance-Labels gemäß den Datenrichtlinien Ihrer Organisation angewendet werden. Weitere Informationen zum Anwenden von Data-Governance-Labels finden Sie im [Benutzerhandbuch zu Data-Governance-Labels](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Konfigurieren der Aktivität „Zielgruppe speichern“ {#save-audience-configuration}
 
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **Zielgruppe aufbauen*
 
 ## Zugreifen auf Ihre Zielgruppe in Adobe Experience Platform {#access-audience}
 
-Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und ist in Adobe Real-Time CDP und/oder Adobe Journey Optimizer im Zielgruppenportal verfügbar. Weitere Informationen zu Audience Portal finden Sie unter [Audience Portal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time CDP und/oder Adobe Journey Optimizer im Zielgruppenportal zur Verfügung gestellt. Weitere Informationen zum Zielgruppenportal finden Sie im [Überblick über das Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 Die erstellte Zielgruppe enthält alle Felder, die im Abschnitt „Zielgruppenzuordnungen“ ausgewählt wurden. Sie können diese Zielgruppe in Journey Optimizer als Ziel auswählen oder für ein beliebiges von Adobe Experience Platform unterstütztes Ziel aktivieren.
 

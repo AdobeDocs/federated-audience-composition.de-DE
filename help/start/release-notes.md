@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -13,35 +13,35 @@ ht-degree: 87%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version Juni 2025 {#fac-25-6}
+## Version Juni 2025 {#fac-25-6}
 
 ### Verbesserungen {#fac-25-06-improvements}
 
-Diese Version umfasst die folgenden Verbesserungen:
+Diese Version enthält die folgenden Verbesserungen:
 
-* **Allgemeine Verfügbarkeit für Kunden von Adobe Healthcare Shield**
+* **Allgemeine Verfügbarkeit für Kundinnen und Kunden von Adobe Healthcare Shield**
 
-  Die Federated Audience-Komposition steht Adobe Healthcare Shield-Kunden bis Ende Juni für Anwendungsfälle zur Zielgruppenerstellung, -anreicherung und -Profilanreicherung zur Verfügung.
+  Die Komposition föderierter Zielgruppen steht Kundinnen und Kunden von Adobe Healthcare Shield bis Ende Juni für Anwendungsfälle für die Zielgruppenerstellung, Anreicherung und Profilanreicherung zur Verfügung.
 
-  Weitere Informationen zum Datenschutz und zur Sicherheit bei der Federated Audience-Komposition finden [ im Handbuch zu Data Governance, Datenschutz und Sicherheit ](/help/governance-privacy-security/home.md).
+  Weitere Informationen zu Datenschutz und Sicherheit bei der Komposition föderierter Zielgruppen finden Sie im [Handbuch zu Data Governance, Datenschutz und Sicherheit](/help/governance-privacy-security/home.md).
 
-* **Zugriffssteuerung auf Objektebene**
+* **Zugriffskontrolle auf Objektebene**
 
-  Die Federated Audience-Komposition unterstützt jetzt die Zugriffssteuerung auf Objektebene, um Zugriffsbeschriftungen auf die angegebenen Kompositionen anzuwenden.
+  Die Komposition föderierter Zielgruppen unterstützt jetzt die Zugriffskontrolle auf Objektebene, um Zugriffs-Label auf die angegebenen Kompositionen anzuwenden.
 
-  Weitere Informationen zur Verwendung von Zugriffsbeschriftungen auf Objektebene finden Sie im [Kompositionshandbuch](/help/compositions/gs-compositions.md).
+  Weitere Informationen zur Verwendung von Zugriffs-Labels auf Objektebene finden Sie im [Handbuch zu Kompositionen](/help/compositions/gs-compositions.md).
 
 * **Standardrollen**
 
-  Sie können jetzt eine der Standardrollen verwenden, um Benutzerberechtigungen für den Zugriff auf die Federated Audience Composition zu verwalten.
+  Sie können jetzt eine der Standardrollen verwenden, um Benutzerberechtigungen für den Zugriff auf die Komposition föderierter Zielgruppen zu verwalten.
 
-  Weitere Informationen zu den Standardrollen finden Sie im [Handbuch zur Federated Audience-Komposition ](/help/governance-privacy-security/access-control.md).
+  Weitere Informationen zu den Standardrollen finden Sie im [Handbuch zur Komposition föderierter Zielgruppen](/help/governance-privacy-security/access-control.md).
 
-* **Inkrementelle Aktualisierungen in Anwendungsfällen zur Profilanreicherung**
+* **Inkrementelle Aktualisierungen in Anwendungsfällen für die Profilanreicherung**
 
-  Die Aktivität Profile speichern unterstützt jetzt inkrementelle Aktualisierungen. Mit inkrementellen Aktualisierungen können Sie inkrementelle Daten abfragen und aktualisieren und dabei Profile mit Daten aus externen Data Warehouses anreichern.
+  Die Aktivität „Profile speichern“ unterstützt jetzt inkrementelle Aktualisierungen. Mit inkrementellen Aktualisierungen können Sie inkrementelle Daten abfragen und aktualisieren und dabei Profile mit Daten aus externen Data Warehouses anreichern.
 
-  Weitere Informationen zur Verwendung der Aktivität „Profile speichern“ finden Sie im [Handbuch zur Profilspeicherung](/help/compositions/activities/save-profiles.md).
+  Weitere Informationen zur Verwendung der Aktivität „Profile speichern“ finden Sie im [Handbuch zur Aktivität „Profile speichern“](/help/compositions/activities/save-profiles.md).
 
 ## Version Mai 2025 {#fac-25-5}
 

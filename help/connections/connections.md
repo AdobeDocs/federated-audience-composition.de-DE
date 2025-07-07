@@ -4,9 +4,9 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderierte Datenbank verwalten**
->&#x200B;>-**Föderierte Datenbank anzeigen**
+>>-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 

@@ -4,9 +4,9 @@ title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >Um auf Schemata zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderiertes Schema verwalten**
->&#x200B;>-**Föderiertes Schema anzeigen**
+>>-**Föderiertes Schema anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 

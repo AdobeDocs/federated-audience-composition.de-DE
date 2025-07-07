@@ -4,9 +4,9 @@ title: Verwenden der Aktivität „Profile speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Profile speichern“ verwenden
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 51%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
->title="Feld „Primärer Identitätswert“"
+>title="Feld „Primäre Identität“"
 >abstract="Das primäre Identitätsfeld gibt die Wissensquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
 
 >[!CONTEXTUALHELP]
@@ -62,7 +62,7 @@ ht-degree: 51%
 >title="Kriterien primärer Identitätsfelder"
 >abstract="Die eindeutige Kennung für jedes Profil oder jeden Eintrag. Dadurch wird sichergestellt, dass jeder Eintrag eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
 
-Die Aktivität **[!UICONTROL Profile speichern]** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit Daten anzureichern, die aus externen Warehouses zusammengeführt werden.
+Die Aktivität **[!UICONTROL Profile speichern]** ermöglicht es Ihnen, Adobe Experience Platform-Profile mit aus externen Warehouses föderierten Daten anzureichern.
 
 Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, indem zusätzliche Attribute und Erkenntnisse eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
 
@@ -70,15 +70,15 @@ Diese Aktivität wird in der Regel verwendet, um Kundenprofile zu verbessern, in
 
 >[!IMPORTANT]
 >
->Die **Profile speichern**-Aktivität erfordert ein Profil-aktiviertes Schema und einen Datensatz. Informationen zum Aktivieren des Datensatzes für die Profilaktivierung finden Sie im [Benutzerhandbuch zum Datensatz](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>Die Aktivität **Profile speichern** erfordert ein für Profile aktiviertes Schema und einen für Profile aktivierten Datensatz. Weiterer Informationen zum Aktivieren des Datensatzes für Profile finden Sie im [Benutzerhandbuch zu Datensätzen](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn für den ausgewählten Datensatz außerdem Upsert **nicht** aktiviert ist, werden die Daten aus den Profilen **ersetzt**. Weitere Informationen zum Aktivieren von Upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von Upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
 
-Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Profile speichern]** zu konfigurieren:
+Gehen Sie wie folgt vor, um die Aktivität **[!UICONTROL Profile speichern]** zu konfigurieren:
 
-1. Fügen Sie **[!UICONTROL Komposition eine Aktivität]** Profile speichern“ hinzu.
+1. Fügen Sie Ihrer Komposition die Aktivität **[!UICONTROL Profile speichern]** hinzu.
 
-   ![Die Schaltfläche Profile speichern ist in den Aktivitäten hervorgehoben.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
+   ![Die Schaltfläche „Profile speichern“ ist in den Aktivitäten hervorgehoben.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Geben Sie das Label der zu erstellenden Profile an.
 
@@ -90,19 +90,19 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Profile 
 
    ![Die verfügbaren Schemata werden angezeigt.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Wählen Sie den Datensatz aus, in dem Sie die Anreicherung speichern möchten.
+1. Wählen Sie den Datensatz aus, in dem Sie die Anreicherung speichern möchten. 
 
    ![Das Datensatz-Dropdown-Menü ist hervorgehoben.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-1. Nach Auswahl des Datensatzes können Sie das Feld für die primäre Identität sehen, das zur Identifizierung von Profilen in der Datenbank verwendet wird.
+1. Nach Auswahl des Datensatzes können Sie das primäre Identitätsfeld sehen, das zur Identifizierung von Profilen in der Datenbank verwendet wird.
 
 1. Wählen Sie **[!UICONTROL Felder hinzufügen]** aus, um die primären und erforderlichen Identitätsfelder hinzuzufügen.
 
    ![Die Schaltfläche „Felder hinzufügen“ ist hervorgehoben.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
 
-   Sie können das Feld **Source** (externe Daten) und das Feld **Ziel** (Schemafeld) für jedes Attribut angeben, das Sie zuordnen möchten.
+   Sie können das Feld **Quelle** (externe Daten) und das Feld **Ziel** (Schemafeld) für jedes Attribut angeben, das zugeordnet werden soll.
 
-   ![Die Source- und Zielfelder sind hervorgehoben und zeigen an, wo die Zuordnung zwischen den Feldern erstellt werden soll](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+   ![Die Felder „Quelle“ und „Ziel“ sind hervorgehoben und zeigen an, wo die Zuordnung zwischen den Feldern erstellt werden soll](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
 
 1. Sie können auch den Aktualisierungsmodus für die Anreicherung angeben.
 
@@ -110,7 +110,7 @@ Führen Sie die folgenden Schritte aus, um die Aktivität **[!UICONTROL Profile 
 
    | Aktualisierungsmodus | Beschreibung |
    | ----------- | ----------- |
-   | Vollständige Aktualisierungen | Der vollständige Satz von Profilen wird zur Anreicherung aktualisiert. |
+   | Vollständige Aktualisierungen | Der vollständige Satz an Profilen wird zur Anreicherung aktualisiert. |
    | Inkrementelle Aktualisierungen | Nur die Profile, die seit der letzten Anreicherung geändert wurden, werden für die Anreicherung aktualisiert. |
 
    Wenn Sie [!UICONTROL Inkrementelle Aktualisierungen] auswählen, müssen Sie auch das Datum der letzten Änderung auswählen, um zu bestimmen, welche Daten gesendet werden.
