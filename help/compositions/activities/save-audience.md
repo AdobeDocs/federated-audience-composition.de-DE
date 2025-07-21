@@ -3,10 +3,10 @@ audience: end-user
 title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 92%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 100%
 >title="Identity-Namespace"
 >abstract="Wählen Sie den Namespace aus, der für Profile verwendet werden soll."
 >additional-url="https://experienceleague.adobe.com/de/docs/experience-platform/identity/features/namespaces" text="Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform"
+
+>[!IMPORTANT]
+>
+>Um die Aktivität „Zielgruppe speichern“ verwenden zu können, muss Ihre Zielgruppe eine **nach Zeitstempel geordnet** Zusammenführungsrichtlinie verwenden. Wenn Ihre Zielgruppe eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um fortzufahren.
+>
+>Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview).
 
 Mithilfe der Aktivität **[!UICONTROL Zielgruppe speichern]** können Sie eine neue Zielgruppe aus der Population erstellen, die im Vorfeld der Komposition ermittelt wurde. Die erstellten Zielgruppen werden zur Liste der Adobe Experience Platform-Zielgruppen hinzugefügt und sind über das Menü **Zielgruppen** verfügbar. [Erfahren Sie, wie Sie mit Zielgruppen arbeiten](../../start/audiences.md)
 

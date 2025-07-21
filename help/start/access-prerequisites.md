@@ -2,10 +2,10 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 87%
 
 ---
 
@@ -56,6 +56,12 @@ Um auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Be
 Damit die Komposition föderierter Zielgruppen sicher auf Ihre Datenbanken zugreifen kann, müssen Sie die IP-Adressen der Server für die Komposition föderierter Zielgruppen autorisieren, die darauf zugreifen werden. Diese IP-Adressen werden angezeigt, wenn in der Benutzeroberfläche von Adobe Experience Platform eine föderierte Datenbank hinzugefügt wird. [Weitere Informationen](../connections/connections.md)
 
 Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um der Komposition föderierter Zielgruppen Zugriff zu gewähren.
+
+## Zusammenführungsrichtlinien {#merge-policies}
+
+Um mithilfe der Federated-Audience-Komposition Zielgruppen zu generieren, **Sie** Zusammenführungsrichtlinie **Zeitstempel geordnet** verwenden. Wenn Ihre Zielgruppe eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um fortzufahren.
+
+Weitere Informationen zu Zusammenführungsrichtlinien finden Sie unter [Übersicht über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview).
 
 ## Leitlinien und Einschränkungen {#fac-guardrails}
 
