@@ -2,10 +2,10 @@
 title: Erste Schritte mit der Komposition föderierter Zielgruppen in Experience Platform
 description: Erfahren Sie, was die Komposition föderierter Zielgruppen ist und wie Sie diese in Adobe Experience Platform verwenden.
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 76%
 
 ---
 
@@ -33,19 +33,22 @@ Die Komposition föderierter Zielgruppen steigert den Wert von Real-Time CDP und
 
 * B2C- und B2B-CDP-Kundschaft kann jetzt die Komposition föderierter Zielgruppen nutzen, um personenbasierte Zielgruppen zu erstellen, indem sie Daten aus unterstützten Unternehmens-Data-Warehouses integriert. Darüber hinaus besteht die Möglichkeit, bestehende, personenbasierte Zielgruppen von AEP anzureichern, indem relevante Attribute, die im Unternehmens-Data-Warehouse verfügbar sind, integriert werden und die Zielgruppenprofile so verbessert werden, um eine personalisiertere und zielgerichtetere Interaktion zu ermöglichen.
 
-## Anwendungsfälle {#rn-uc}
+## Anwendungsfälle {#use-cases}
 
-Erstellen Sie über eine Marketing-freundliche Benutzeroberfläche Segmentregeln, mit denen in Ihrem Data Warehouse eine Liste der Benutzenden abgefragt wird, die für ein bestimmtes, für Marketing-Kampagnen benötigtes Segment infrage kommen. Greifen Sie zur Aktivierung auf vorhandene Zielgruppen im Warehouse zu oder reichern Sie Adobe Experience Platform-Zielgruppen mit zusätzlichen Datenpunkten aus dem Warehouse an.
+Die Federated Audience-Komposition unterstützt **drei** Kategorien von Anwendungsfällen: Zielgruppenerstellung, Zielgruppenanreicherung und Kundenprofilanreicherung.
 
-In dieser Version sind zwei Anwendungsfälle verfügbar:
+* Zielgruppenerstellung: Sie können Zielgruppen aus einem Data Warehouse erstellen und diese Zielgruppen in Experience Platform zur Verwendung in Real-Time CDP oder Journey Optimizer über eine marketerfreundliche Drag-and-Drop-Benutzeroberfläche zusammenführen. Daher können Sie Ihre Data Warehouses abfragen, ohne vertrauliche zugrunde liegende Daten zu kopieren oder vorhandene Daten zu duplizieren.
+   * **Beispiel** Erstellen Sie eine Audience mit höherwertigen früheren Käufern, indem Sie historische Transaktionsdaten im Warehouse verwenden, ohne diese Transaktionen in Experience Platform zu kopieren.
 
-1. Zielgruppenerstellung: Erstellen Sie neue Zielgruppen aus Unternehmensdatensätzen, ohne die zugrunde liegenden Daten zu kopieren, und aktivieren Sie diese Zielgruppen mit vorkonfigurierten Zielen.
+* Zielgruppenanreicherung: Sie können Ihren bestehenden Zielgruppen in Experience Platform weitere Details hinzufügen, indem Sie zusätzliche Datensätze aus Ihren Data Warehouses verwenden und Ihre Zielgruppen mit diesen Informationen überlagern - und das alles, ohne die zugrunde liegenden Daten in Experience Platform zu kopieren. Mit der Zielgruppenanreicherung können Sie mit der angereicherten Zielgruppe eine verbesserte Personalisierung bereitstellen.
+   * **Beispiel:** Reichern Sie eine Experience Platform-Zielgruppe von Warenkorbabbrechern mit der Zielgruppenkomposition von hochwertigen früheren Käufern an, um ein zielgerichtetes Angebot zu unterbreiten.
 
-1. Zielgruppenanreicherung: Reichern Sie vorhandene Zielgruppen in Adobe Experience Platform an, indem Sie zusammengestellte Zielgruppendaten verwenden, die mit dem Unternehmens-Data Warehouse föderiert wurden. Diese Daten werden nicht in Adobe Experience Platform-Kundenprofilen beibehalten.
-
-1. Profilanreicherung: Reichern Sie Adobe Experience Platform-Profile an, indem Sie Daten aus externen Warehouses föderieren, sodass Sie Kundenprofile mit zusätzlichen Attributen und Erkenntnissen erweitern können.
+* Profilanreicherung: Sie können einzelne Kundenattribute aus Ihrem Data Warehouse auswählen, um Experience Platform-Profile zu verbessern. Durch das Hinzufügen von Federated Data zu diesen Profilen können Sie aktuelle Erlebnisse optimieren, die durch eingehende Kundensignale ausgelöst werden.
+   * **Beispiel** Anreicherung eines Experience Platform-Profils mit Informationen aus der verbundenen Zielgruppe. Sie können jetzt einen Site-Besucher auf den Markt bringen, der zu der hochwertigen Zielgruppe früherer Käufer gehört, die mit einem zielgerichteten Angebot zusammengeschlossen ist, das durch ihr Verhalten vor Ort ausgelöst wird.
 
 ![Diagramm](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+Weitere Informationen zu Anwendungsfällen für die Federated-Audience-Komposition finden Sie im [Whitepaper zur Federated-Audience-Komposition](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Die wichtigsten Schritte {#gs-steps}
 
@@ -65,7 +68,7 @@ Die wichtigsten Schritte:
 
 >[!NOTE]
 >
->Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Nach dem Ausführen der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und ist in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer verfügbar. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Verwaltung, Datenschutz und Sicherheit {#governance-privacy-security}
 
