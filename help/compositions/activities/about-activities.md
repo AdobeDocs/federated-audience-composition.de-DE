@@ -4,15 +4,15 @@ title: Arbeiten mit Aktivitäten
 description: Erfahren Sie, wie Sie mit Aktivitäten arbeiten
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
 source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Arbeiten mit Aktivitäten {#activities}
 
-In der Federated Audience-Komposition können Kompositionen mit zwei Aktivitätstypen erstellt werden:
+In der Komposition föderierter Zielgruppen können Sie Kompositionen mit zwei Arten von Aktivitäten erstellen:
 
 * Mit **Aktivitäten zur Zielgruppenbestimmung** können Sie ein oder mehrere Ziele erstellen, indem Sie eine Zielgruppe definieren und diese Zielgruppen mithilfe von Vorgängen wie Schnittmenge, Vereinigung oder Ausschluss aufteilen oder kombinieren.
 * Die Aktivitäten zur **Flusssteuerung** sind speziell auf die Organisation und Ausführung von Kompositionen ausgerichtet. Ihre Hauptaufgabe besteht darin, die anderen Aktivitäten zu koordinieren.

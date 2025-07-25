@@ -3,7 +3,7 @@ user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
 source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
       + [Liste der Aktivitäten](compositions/activities/about-activities.md)
       + [Und-Verknüpfung](compositions/activities/and-join.md)
       + [Zielgruppe erstellen](compositions/activities/build-audience.md)
-      + [Ändern der Datenquelle](compositions/activities/change-data-source.md)
+      + [Datenquelle ändern](compositions/activities/change-data-source.md)
       + [Dimensionsänderung](compositions/activities/change-dimension.md)
       + [Kombinieren](compositions/activities/combine.md)
       + [Deduplizierung](compositions/activities/deduplication.md)
