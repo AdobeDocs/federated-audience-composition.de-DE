@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 0fad4079df8efb2ed249a3b82703acf658ca2e72
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 13%
@@ -17,7 +17,7 @@ ht-degree: 13%
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderierte Datenbank verwalten**
->&#x200B;>-**Föderierte Datenbank anzeigen**
+>>-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -227,4 +227,3 @@ Nachdem Sie die Details der Verbindung hinzugefügt haben, beachten Sie die folg
 | Testen der Verbindung | Ermöglicht die Überprüfung Ihrer Konfigurationsdetails. |
 
 Sie können jetzt **[!UICONTROL Funktionen bereitstellen]** und anschließend **[!UICONTROL Hinzufügen]** auswählen, um die Verbindung zwischen der Federated-Datenbank und Experience Platform abzuschließen.
-

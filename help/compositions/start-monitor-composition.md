@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 86%
@@ -95,3 +95,4 @@ Folgende Aktionen sind verfügbar:
 * **[!UICONTROL Stoppen]**: Hält die gerade ausgeführte Komposition an, die dann den Status **[!UICONTROL Beendet]** annimmt. Die laufenden Vorgänge werden nach Möglichkeit unterbrochen. Sie können die Komposition nicht an derselben Stelle fortsetzen, an der sie gestoppt wurde.
 
 * **[!UICONTROL Neu starten]**: Stoppt die Komposition und startet sie dann neu. In den meisten Fällen ermöglicht dies einen schnelleren Neustart, da der Anhaltevorgang eine gewisse Zeit dauert und die Schaltfläche **[!UICONTROL Starten]** nur im angehaltenen Status verfügbar ist.
+

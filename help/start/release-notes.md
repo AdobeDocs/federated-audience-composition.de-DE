@@ -2,7 +2,7 @@
 title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Platform
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 92%
@@ -274,7 +274,6 @@ Diese Version enthält die unten aufgeführte Verbesserung.
 >[!AVAILABILITY]
 >
 >Die Komposition föderierter Zielgruppen in Adobe Experience Platform, die zuvor nur für eine Reihe von Organisationen verfügbar gewesen ist (LA), steht jetzt allen Benutzenden zur Verfügung (GA). Diese Funktion wird basierend auf Ihrem Angebot aktiviert und nur mit den zugehörigen Berechtigungen angezeigt. [Weitere Informationen](access-prerequisites.md)
->
 
 ### Kompatibilität {#fac-24-10-compat}
 
