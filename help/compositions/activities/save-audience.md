@@ -3,7 +3,7 @@ audience: end-user
 title: Verwenden der Aktivität „Zielgruppe speichern“
 description: Erfahren Sie, wie Sie die Aktivität „Zielgruppe speichern“ verwenden.
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 96%
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Wenn Ihre Zielgruppe eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um den `Halos UPS` Datensatz zu Ihrer Zusammenführungsrichtlinie hinzuzufügen.
+>Wenn Ihre Sandbox eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um den `Halos UPS` Datensatz zu Ihrer Zusammenführungsrichtlinie hinzuzufügen.
 >
 >Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im [Überblick über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview).
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 86%
 
 ---
 
@@ -61,6 +61,22 @@ Der Verlauf ist in verschiedene Registerkarten unterteilt, die nachfolgend besch
 ![](assets/logs-tasks.png)
 
 Auf allen Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.
+
+## Warnhinweise abonnieren {#alerts}
+
+Darüber hinaus können Sie Warnhinweise abonnieren, um Benachrichtigungen zu erhalten, wenn Ihre Ausführungen der Federated-Komposition erfolgreich waren oder fehlgeschlagen sind.
+
+Um Warnhinweise zu abonnieren, wählen Sie ![Benachrichtigungssymbol](/help/assets/icons/bell.png) gefolgt vom Symbol ![Einstellungen](/help/assets/icons/settings.png) aus.
+
+![Sowohl das Benachrichtigungs- als auch das Einstellungssymbol sind hervorgehoben.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+Die Seite Benachrichtigungseinstellungen wird angezeigt. Wählen Sie auf dieser Seite **[!UICONTROL Experience Platform]** und wählen Sie die gewünschten Warnhinweiskanäle aus. Um die Benachrichtigungen in der Benutzeroberfläche anzuzeigen, wählen Sie **[!UICONTROL In-App]** aus.
+
+![Das In-App-Kontrollkästchen ist im Abschnitt Experience Platform aktiviert.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+Wenn **[!UICONTROL In-App]** ausgewählt ist, werden Sie jetzt über Erfolge und Fehler bei der Kompositionsausführung benachrichtigt.
+
+![Die Warnhinweise zeigen die Erfolge und Fehler bei der Komposition an.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Befehle zur Kompositionsausführung {#execution-commands}
 

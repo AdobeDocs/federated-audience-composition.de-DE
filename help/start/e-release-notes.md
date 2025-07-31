@@ -4,7 +4,7 @@ description: Neueste Aktualisierungen und Versionshinweise
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a568024516cec999e1e22b6f6deec926fe7083f8
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 95%
@@ -73,7 +73,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
+  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#amazon-redshift)
 
 ## Version März 2025 {#fac-25-3}
 
@@ -105,7 +105,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 * **Databricks-Verbindung**
 
   Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen jetzt die Konnektivität privater Links für Verbindungen zu Databricks-Datenbanken.
-Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
+Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/home.md#databricks)
 
 * **Unterstützung für CDP-B2B-Kundschaft**
 
@@ -113,7 +113,7 @@ Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#snowflake)
 
 ## Version Februar 2025 {#fac-25-2}
 
@@ -121,11 +121,11 @@ Diese Version enthält die unten aufgeführten Änderungen.
 
 * **Unterstützung für Microsoft Fabric**
 
-  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Microsoft Fabric-Datenbanken herstellen. [Weitere Informationen](../connections/federated-db.md)
+  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Microsoft Fabric-Datenbanken herstellen. [Weitere Informationen](../connections/home.md)
 
 * **Unterstützung für Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum wird jetzt für Amazon Redshift-Datenbankverbindungen unterstützt. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum wird jetzt für Amazon Redshift-Datenbankverbindungen unterstützt. [Weitere Informationen](../connections/home.md#amazon-redshift)
 
 * **Verbessertes Erlebnis bei der Schemaerstellung**
 
@@ -143,7 +143,7 @@ Diese Version enthält die unten aufgeführte Verbesserung.
 
 * **IP-Adressen-Zulassungsliste**
 
-  Beim Hinzufügen einer föderierten Datenbank in der Benutzeroberfläche von Adobe Experience Platform können Sie jetzt die IP-Adressen direkt anzeigen, die mit Ihren Instanzen der Komposition föderierter Zielgruppen verknüpft sind. Auf diese Weise können Sie diese IP-Adressen einfach kopieren und autorisieren, um eine Verbindung mit Ihrer Datenbank herzustellen und so die Sicherheit und Flexibilität zu verbessern. [Weitere Informationen](../connections/connections.md)
+  Beim Hinzufügen einer föderierten Datenbank in der Benutzeroberfläche von Adobe Experience Platform können Sie jetzt die IP-Adressen direkt anzeigen, die mit Ihren Instanzen der Komposition föderierter Zielgruppen verknüpft sind. Auf diese Weise können Sie diese IP-Adressen einfach kopieren und autorisieren, um eine Verbindung mit Ihrer Datenbank herzustellen und so die Sicherheit und Flexibilität zu verbessern. [Weitere Informationen](../connections/home.md)
 
 ## Version Oktober 2024 {#fac-24-10}
 
@@ -158,11 +158,11 @@ Mit dieser neuen Version ist die Komposition föderierter Zielgruppen nun mit de
 
 * **Unterstützung für Databricks**
 
-  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Databricks-Datenbanken herstellen. [Weitere Informationen](../connections/federated-db.md#databricks)
+  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Databricks-Datenbanken herstellen. [Weitere Informationen](../connections/home.md#databricks)
 
 * **Unterstützung für sicheren Zugriff auf Snowflake über AWS PrivateLink**
 
-  Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird nun unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird nun unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/home.md#snowflake)
 
 * **Unterstützung für Amazon Redshift Serverless**
 

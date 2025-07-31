@@ -2,7 +2,7 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Die Komposition föderierter Zielgruppen unterstützt die folgenden Cloud-Wareho
 * Vertica Analytics
 * Microsoft Fabric
 
-Auf [dieser Seite](../connections/connections.md) erfahren Sie, wie Sie eine Verbindung mit diesen Systemen herstellen.
+Auf [dieser Seite](../connections/home.md) erfahren Sie, wie Sie eine Verbindung mit diesen Systemen herstellen.
 
 ## Sandboxes
 
@@ -53,13 +53,13 @@ Um auf die Komposition föderierter Zielgruppen zugreifen zu können, müssen Be
 
 ## IP-Zulassungsauflistung {#ip}
 
-Damit die Komposition föderierter Zielgruppen sicher auf Ihre Datenbanken zugreifen kann, müssen Sie die IP-Adressen der Server für die Komposition föderierter Zielgruppen autorisieren, die darauf zugreifen werden. Diese IP-Adressen werden angezeigt, wenn in der Benutzeroberfläche von Adobe Experience Platform eine föderierte Datenbank hinzugefügt wird. [Weitere Informationen](../connections/connections.md)
+Damit die Komposition föderierter Zielgruppen sicher auf Ihre Datenbanken zugreifen kann, müssen Sie die IP-Adressen der Server für die Komposition föderierter Zielgruppen autorisieren, die darauf zugreifen werden. Diese IP-Adressen werden angezeigt, wenn in der Benutzeroberfläche von Adobe Experience Platform eine föderierte Datenbank hinzugefügt wird. [Weitere Informationen](../connections/home.md)
 
 Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um der Komposition föderierter Zielgruppen Zugriff zu gewähren.
 
 ## Zusammenführungsrichtlinien {#merge-policies}
 
-Wenn Ihre Zielgruppe eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um den `Halos UPS` Datensatz zu Ihrer Zusammenführungsrichtlinie hinzuzufügen.
+Wenn Ihre Sandbox eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um den `Halos UPS` Datensatz zu Ihrer Zusammenführungsrichtlinie hinzuzufügen.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im [Überblick über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview).
 

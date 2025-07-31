@@ -3,8 +3,8 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   Mit diesem Schritt erhalten Sie Zugang zu einem neuen Bildschirm mit einer Dropdown-Liste, in der Sie die mit Ihrer Umgebung verbundene(n) Datenbank(en) finden. Weiterführende Informationen zur Verbindung von Datenbanken finden Sie in [diesem Abschnitt](../connections/connections.md#connections-fdb)
+   Mit diesem Schritt erhalten Sie Zugang zu einem neuen Bildschirm mit einer Dropdown-Liste, in der Sie die mit Ihrer Umgebung verbundene(n) Datenbank(en) finden. Weiterführende Informationen zur Verbindung von Datenbanken finden Sie in [diesem Abschnitt](../connections/home.md#connections-fdb)
 
 1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**.
 

@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 100%
    + [Überblick](./governance-privacy-security/home.md)
    + [Zugriffssteuerung](governance-privacy-security/access-control.md)
 + Konfigurationsschritte {#config}
-   + [Erstellen und Verwalten von Verbindungen](connections/connections.md)
-   + [Konfigurieren föderierter Datenbanken](connections/federated-db.md)
+   + [Verbindungen - Übersicht](connections/home.md)
    + [Matrix der FDA-Berechtigungen](connections/fda-rights.md)
    + Datenmodelle und Schemata{#datamodel}
       + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)

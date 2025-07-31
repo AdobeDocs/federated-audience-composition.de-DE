@@ -3,8 +3,8 @@ audience: end-user
 title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ Sie können auch Informationen zu den Kompositionen anzeigen, einschließlich Na
 
 Weitere Informationen zum Starten oder Stoppen einer Komposition finden Sie im [Handbuch zum Starten und Überwachen der Komposition](./start-monitor-composition.md).
 
-![Eine Liste der verfügbaren Kompositionen wird angezeigt.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![Eine Liste der verfügbaren Kompositionen wird angezeigt.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Um die Liste einzugrenzen und die gesuchte Komposition zu finden, können Sie die Liste durchsuchen und Kompositionen nach ihrem Status oder dem letzten Verarbeitungsdatum filtern.
 
 Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Wählen Sie dazu die Schaltfläche **[!UICONTROL Spalten konfigurieren]** aus und fügen Sie die gewünschten Ausgabespalten hinzu oder entfernen Sie sie.
 
-![Eine Liste der verfügbaren Spalten wird angezeigt, die Sie der Seite zum Durchsuchen von Kompositionen hinzufügen können.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![Eine Liste der verfügbaren Spalten wird angezeigt, die Sie der Seite zum Durchsuchen von Kompositionen hinzufügen können.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Anwenden von Zugriffs-Labels {#access-labels}
 
 Um Zugriffs-Labels auf eine bestimmte Komposition anzuwenden, wählen Sie die Komposition und dann **[!UICONTROL Zugriff verwalten]** aus.
 
-![Die Schaltfläche „Zugriff verwalten“ wird auf der Arbeitsfläche der Komposition hervorgehoben.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Die Schaltfläche „Zugriff verwalten“ wird auf der Arbeitsfläche der Komposition hervorgehoben.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 Das Popup-Fenster **[!UICONTROL Zugriff verwalten]** wird angezeigt. Auf dieser Seite können Sie die entsprechenden Zugriffs- und Data-Governance-Labels auf Ihre Komposition anwenden.
 
-![Das Popup-Fenster „Zugriff verwalten“ wird angezeigt. Hier wird eine Liste aller verfügbaren Labels angezeigt, die Sie auf die Komposition anwenden können.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Das Popup-Fenster „Zugriff verwalten“ wird angezeigt. Hier wird eine Liste aller verfügbaren Labels angezeigt, die Sie auf die Komposition anwenden können.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Label-Typ | Beschreibung |
 | ---------- | ----------- |

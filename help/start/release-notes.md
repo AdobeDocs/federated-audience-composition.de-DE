@@ -2,16 +2,63 @@
 title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Platform
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # Versionshinweise {#rn-new}
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version Juli &#39;25 {#fac-25-7}
+
+### Neue Funktionen {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Neuer Connector - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Der Oracle-Connector ist jetzt für die Verwendung mit der Federated Audience-Komposition verfügbar.</p>
+<p>Sie können den Oracle-Connector für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwenden.</p>
+<p>Weitere Informationen zur Oracle-Verbindung finden Sie unter <a href="../connections/home.md#create">Verbindungen - Übersicht</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Kompositions-Warnhinweise</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Sie können jetzt Warnhinweise abonnieren, um mehr über die erfolgreichen und fehlgeschlagenen Ausführungen Ihrer Komposition zu erfahren</p>
+<p>Weitere Informationen zum Abonnieren von Benachrichtigungen für die Durchläufe Ihrer Komposition finden Sie im <a href="../compositions/start-monitor-composition.md#alerts">Handbuch zum Starten und Überwachen Ihrer Komposition</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbesserungen {#fac-25-07-improvements}
+
+Diese Version umfasst die folgende Verbesserung:
+
+* **Erhöhte Server-Zeichenlänge**
+
+  Beim Konfigurieren Ihrer Federated-Datenbanken können Sie jetzt bis zu 255 Zeichen anstelle der vorherigen 80 Zeichen verwenden.
 
 ## Version Juni 2025 {#fac-25-6}
 
@@ -157,11 +204,11 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Sichere Verbindung zu Amazon Redshift**
 
-  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
+  Mit dieser neuen Version unterstützt die Funktion „Komposition föderierter Zielgruppen“ sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken. [Weitere Informationen](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere VPN-Verbindungen zu Google BigQuery-Datenbanken. [Weitere Informationen](../connections/federated-db.md#google-bigquery)
+  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere VPN-Verbindungen zu Google BigQuery-Datenbanken. [Weitere Informationen](../connections/home.md#google-bigquery)
 
 ## Version März 2025 {#fac-25-3}
 
@@ -177,23 +224,12 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
   Wie Sie diese Berechtigung zuweisen, erfahren Sie in der [entsprechenden Dokumentation](/help/governance-privacy-security/access-control.md).
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### Kompatibilität {#fac-25-3-compat}
 
 * **Databricks-Verbindung**
 
   Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen jetzt die Konnektivität privater Links für Verbindungen zu Databricks-Datenbanken.
-Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/federated-db.md#databricks)
+Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/home.md#databricks)
 
 * **Unterstützung für CDP-B2B-Kundschaft**
 
@@ -201,7 +237,7 @@ Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#snowflake)
 
 ## Version Februar 2025 {#fac-25-2}
 
@@ -209,11 +245,11 @@ Diese Version enthält die unten aufgeführten Änderungen.
 
 * **Unterstützung für Microsoft Fabric**
 
-  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Microsoft Fabric-Datenbanken herstellen. [Weitere Informationen](../connections/federated-db.md)
+  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Microsoft Fabric-Datenbanken herstellen. [Weitere Informationen](../connections/home.md)
 
 * **Unterstützung für Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum wird jetzt für Amazon Redshift-Datenbankverbindungen unterstützt. [Weitere Informationen](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum wird jetzt für Amazon Redshift-Datenbankverbindungen unterstützt. [Weitere Informationen](../connections/home.md#amazon-redshift)
 
 * **Verbessertes Erlebnis bei der Schemaerstellung**
 
@@ -231,7 +267,7 @@ Diese Version enthält die unten aufgeführte Verbesserung.
 
 * **IP-Adressen-Zulassungsliste**
 
-  Beim Hinzufügen einer föderierten Datenbank in der Benutzeroberfläche von Adobe Experience Platform können Sie jetzt die IP-Adressen direkt anzeigen, die mit Ihren Instanzen der Komposition föderierter Zielgruppen verknüpft sind. Auf diese Weise können Sie diese IP-Adressen einfach kopieren und autorisieren, um eine Verbindung mit Ihrer Datenbank herzustellen und so die Sicherheit und Flexibilität zu verbessern. [Weitere Informationen](../connections/connections.md)
+  Beim Hinzufügen einer föderierten Datenbank in der Benutzeroberfläche von Adobe Experience Platform können Sie jetzt die IP-Adressen direkt anzeigen, die mit Ihren Instanzen der Komposition föderierter Zielgruppen verknüpft sind. Auf diese Weise können Sie diese IP-Adressen einfach kopieren und autorisieren, um eine Verbindung mit Ihrer Datenbank herzustellen und so die Sicherheit und Flexibilität zu verbessern. [Weitere Informationen](../connections/home.md)
 
 ## Version Oktober 2024 {#fac-24-10}
 
@@ -246,11 +282,11 @@ Mit dieser neuen Version ist die Komposition föderierter Zielgruppen nun mit de
 
 * **Unterstützung für Databricks**
 
-  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Databricks-Datenbanken herstellen. [Weitere Informationen](../connections/federated-db.md#databricks)
+  Sie können nun über die Funktion „Komposition föderierter Zielgruppen“ Verbindungen zu Databricks-Datenbanken herstellen. [Weitere Informationen](../connections/home.md#databricks)
 
 * **Unterstützung für sicheren Zugriff auf Snowflake über AWS PrivateLink**
 
-  Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird nun unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/federated-db.md#snowflake)
+  Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird nun unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/home.md#snowflake)
 
 * **Unterstützung für Amazon Redshift Serverless**
 
