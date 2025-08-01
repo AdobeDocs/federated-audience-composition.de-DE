@@ -60,13 +60,13 @@ Führen Sie die folgenden Schritte aus, um mit der Konfiguration der Aktivität 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
 >title="Abstimmoptionen"
->abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Dubletten behandelt werden."
+>abstract="Wählen Sie den **Abstimmtyp** aus, um festzulegen, wie Duplikate behandelt werden."
 
 In der Aktivität **Kombinieren** können Sie eine **Vereinigung** konfigurieren. 
 
 ![](../assets/combine-union.png)
 
-Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Dubletten behandelt werden:
+Für die Vereinigung müssen Sie den **Abstimmtyp** auswählen, um festzulegen, wie Duplikate behandelt werden:
 
 * **Nur die Schlüssel** – Standardmodus; die Aktivität behält nur eines der Elemente bei, wenn mehrere aus verschiedenen eingehenden Transitionen stammende Elemente denselben Schlüssel aufweisen. Diese Option kann nur verwendet werden, wenn die eingehenden Populationen homogen sind.
 * **Auswahl an Spalten** – Wählen Sie diese Option, um die Liste der Spalten zu definieren, auf die die Datenabstimmung angewendet werden soll. Wählen Sie zunächst die die Quelldaten enthaltende Hauptmenge aus und dann die für die Herstellung der Verknüpfung zu verwendenden Spalten.
