@@ -3,9 +3,9 @@ title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgrup
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Fügen Sie diese IP-Adressen zu Ihrer Zulassungsliste hinzu, um der Komposition 
 
 ## Zusammenführungsrichtlinien {#merge-policies}
 
-Wenn Ihre Sandbox eine **Datensatzpriorität**-Zusammenführungsrichtlinie verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um den `Halos UPS` Datensatz zu Ihrer Zusammenführungsrichtlinie hinzuzufügen.
+Wenn Ihre Sandbox eine Zusammenführungsrichtlinie mit **Datensatzpriorität** verwendet, wenden Sie sich an die Adobe-Kundenunterstützung, um den Datensatz `Halos UPS` zu Ihrer Zusammenführungsrichtlinie hinzuzufügen.
 
 Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im [Überblick über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview).
 

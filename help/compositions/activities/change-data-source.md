@@ -4,9 +4,9 @@ title: Aktivität „Datenquelle ändern“
 description: Erfahren Sie, wie Sie die Aktivität „Datenquelle ändern“ verwenden können, um die von Ihrer Komposition verwendete Datenquelle zu ändern und so mehr Flexibilität bei der Verwaltung Ihrer Daten in einer Komposition zu erhalten.
 exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
 source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Nachdem Sie der Arbeitsfläche eine Aktivität vom Typ **[!UICONTROL Datenquelle
 
 | Quelle | Beschreibung |
 | ------ | ----------- |
-| Externes FDA-Konto | Eine externe Cloud-Datenbank, die mit Federated Audience Composition verbunden ist. |
+| Externes FDA-Konto | Eine externe Cloud-Datenbank, die mit der Komposition föderierter Zielgruppen verbunden ist. |
 
 Nach Auswahl des **[!UICONTROL externen FDA-Kontos]** können Sie auswählen, mit welchem externen Konto Sie eine Verbindung herstellen möchten.
 

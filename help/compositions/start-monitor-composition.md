@@ -4,9 +4,9 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '738'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -62,21 +62,21 @@ Der Verlauf ist in verschiedene Registerkarten unterteilt, die nachfolgend besch
 
 Auf allen Registerkarten können Sie die angezeigten Spalten und ihre Reihenfolge auswählen, Filter anwenden und das Suchfeld verwenden, um die gewünschten Informationen schnell zu finden.
 
-## Warnhinweise abonnieren {#alerts}
+## Abonnieren von Warnhinweisen {#alerts}
 
-Darüber hinaus können Sie Warnhinweise abonnieren, um Benachrichtigungen zu erhalten, wenn Ihre Ausführungen der Federated-Komposition erfolgreich waren oder fehlgeschlagen sind.
+Darüber hinaus können Sie Warnhinweise abonnieren, um Benachrichtigungen zu erhalten, wenn Ihre föderierten Kompositionen erfolgreich ausgeführt wurden oder fehlgeschlagen sind.
 
-Um Warnhinweise zu abonnieren, wählen Sie ![Benachrichtigungssymbol](/help/assets/icons/bell.png) gefolgt vom Symbol ![Einstellungen](/help/assets/icons/settings.png) aus.
+Um Warnhinweise zu abonnieren, wählen Sie ![Benachrichtigungssymbol](/help/assets/icons/bell.png) gefolgt von ![Einstellungssymbol](/help/assets/icons/settings.png) aus.
 
 ![Sowohl das Benachrichtigungs- als auch das Einstellungssymbol sind hervorgehoben.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
 
-Die Seite Benachrichtigungseinstellungen wird angezeigt. Wählen Sie auf dieser Seite **[!UICONTROL Experience Platform]** und wählen Sie die gewünschten Warnhinweiskanäle aus. Um die Benachrichtigungen in der Benutzeroberfläche anzuzeigen, wählen Sie **[!UICONTROL In-App]** aus.
+Die Einstellungsseite für Benachrichtigungen wird angezeigt. Wählen Sie auf dieser Seite **[!UICONTROL Experience Platform]** und anschließend die gewünschten Warnhinweiskanäle aus. Um Benachrichtigungen auf der Benutzeroberfläche anzuzeigen, wählen Sie **[!UICONTROL In-App]** aus.
 
-![Das In-App-Kontrollkästchen ist im Abschnitt Experience Platform aktiviert.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+![Das Kontrollkästchen „In-App“ ist im Abschnitt „Experience Platform“ aktiviert.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
 
-Wenn **[!UICONTROL In-App]** ausgewählt ist, werden Sie jetzt über Erfolge und Fehler bei der Kompositionsausführung benachrichtigt.
+Nun, da **[!UICONTROL In-App]** ausgewählt ist, werden Sie über Erfolge und Fehler bei der Kompositionsausführung benachrichtigt.
 
-![Die Warnhinweise zeigen die Erfolge und Fehler bei der Komposition an.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
+![Die Warnhinweise zeigen Erfolge und Fehler der Komposition an.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Befehle zur Kompositionsausführung {#execution-commands}
 

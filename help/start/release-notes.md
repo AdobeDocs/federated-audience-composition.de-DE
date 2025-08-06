@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 92%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version Juli &#39;25 {#fac-25-7}
+## Version Juli 2025 {#fac-25-7}
 
 ### Neue Funktionen {#fac-25-07-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>Neuer Connector - Oracle</strong><br/></th>
+<th><strong>Neuer Connector – Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Der Oracle-Connector ist jetzt für die Verwendung mit der Federated Audience-Komposition verfügbar.</p>
+<p>Der Oracle-Connector ist jetzt für die Verwendung mit der Komposition föderierter Zielgruppen verfügbar.</p>
 <p>Sie können den Oracle-Connector für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwenden.</p>
-<p>Weitere Informationen zur Oracle-Verbindung finden Sie unter <a href="../connections/home.md#create">Verbindungen - Übersicht</a>.</p>
+<p>Weitere Informationen zur Oracle-Verbindung finden Sie unter <a href="../connections/home.md#create">Überblick über Verbindungen</a>.</p>
 </br>
 </td>
 </tr>
@@ -38,14 +38,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Kompositions-Warnhinweise</strong><br/></th>
+<th><strong>Warnhinweise zu Kompositionen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Sie können jetzt Warnhinweise abonnieren, um mehr über die erfolgreichen und fehlgeschlagenen Ausführungen Ihrer Komposition zu erfahren</p>
-<p>Weitere Informationen zum Abonnieren von Benachrichtigungen für die Durchläufe Ihrer Komposition finden Sie im <a href="../compositions/start-monitor-composition.md#alerts">Handbuch zum Starten und Überwachen Ihrer Komposition</a>.</p>
+<p>Weitere Informationen zum Abonnieren von Benachrichtigungen zu den Ausführungen Ihrer Komposition finden Sie im <a href="../compositions/start-monitor-composition.md#alerts">Handbuch zum Starten und Überwachen Ihrer Komposition</a>.</p>
 </br>
 </td>
 </tr>
@@ -54,11 +54,11 @@ ht-degree: 92%
 
 ### Verbesserungen {#fac-25-07-improvements}
 
-Diese Version umfasst die folgende Verbesserung:
+Diese Version enthält die folgende Verbesserung:
 
 * **Erhöhte Server-Zeichenlänge**
 
-  Beim Konfigurieren Ihrer Federated-Datenbanken können Sie jetzt bis zu 255 Zeichen anstelle der vorherigen 80 Zeichen verwenden.
+  Beim Konfigurieren Ihrer föderierten Datenbanken können Sie jetzt bis zu 255 Zeichen anstelle der vorherigen 80 Zeichen verwenden.
 
 ## Version Juni 2025 {#fac-25-6}
 
