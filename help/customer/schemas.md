@@ -17,7 +17,7 @@ ht-degree: 54%
 >Um auf Schemata zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderiertes Schema verwalten**
->>-**Föderiertes Schema anzeigen**
+>&#x200B;>-**Föderiertes Schema anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
