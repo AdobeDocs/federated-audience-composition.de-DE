@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
-source-wordcount: '545'
-ht-degree: 100%
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 54%
 
 ---
 
@@ -59,80 +59,70 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 >[!CAUTION]
 >
 >Wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden, müssen Sie unterschiedliche Arbeitsschemata verwenden.
->
 
 ## Erstellen eines Schemas {#schema-create}
 
-Gehen Sie wie folgt vor, um Schemata in der Komposition föderierter Zielgruppen zu erstellen:
+Um ein Schema in Federated Audience Composition zu erstellen, wählen Sie **[!UICONTROL Modelle]** im Abschnitt **[!UICONTROL Federated Data]** aus. Wählen Sie auf der **[!UICONTROL Schema]** die Option **[!UICONTROL Schema erstellen]** aus.
 
-1. Rufen Sie im Abschnitt **[!UICONTROL Föderierte Daten]** das Menü **[!UICONTROL Modelle]** auf. Navigieren Sie zur Registerkarte **[!UICONTROL Schema]** und klicken Sie auf **[!UICONTROL Schema erstellen]**.
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+Das **[!UICONTROL Federated Database auswählen]**-Popover wird angezeigt. In diesem Popover können Sie die [Quelldatenbank](/help/connections/home.md) gefolgt von &quot;**[!UICONTROL &quot;]**.
 
-   Mit diesem Schritt erhalten Sie Zugang zu einem neuen Bildschirm mit einer Dropdown-Liste, in der Sie die mit Ihrer Umgebung verbundene(n) Datenbank(en) finden. Weiterführende Informationen zur Verbindung von Datenbanken finden Sie in [diesem Abschnitt](../connections/home.md#connections-fdb)
 
-1. Wählen Sie Ihre Quelldatenbank in der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**.
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+Das **Tabelle auswählen**-Popover wird angezeigt. In diesem Pop-up können Sie die Tabellen auswählen, die Sie zum Erstellen des Schemas verwenden möchten.
 
-   Anschließend sehen Sie die Liste aller Tabellen in der Datenbank.
+![Das Pop-up „Tabelle auswählen“ wird angezeigt.](assets/select-table.png){zoomable="yes"}
 
-1. Wählen Sie die Tabellen aus, für die dieses Schema erstellt werden soll.
+Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Für jede Tabelle können Sie die Bezeichnung des Schemas ändern, eine Beschreibung hinzufügen, die Feldbezeichnung umbenennen, die Sichtbarkeit der Feldbezeichnung festlegen und den Schema-Primärschlüssel auswählen.
 
-1. Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Konfigurieren Sie das Schema und seine Spalten nach Bedarf.
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>Wenn Sie **[!UICONTROL Zusammengesetzten Schlüssel verwenden]** aber nur einen zu verwendenden Schlüssel auswählen, wird der Schlüssel wie ein standardmäßiger Schema-Primärschlüssel behandelt.
 
-   Für jede Tabelle können Sie folgende Vorgänge durchführen:
+Darüber hinaus können Sie einen Schlüssel erstellen, der aus mehreren Schemaspalten besteht. Aktivieren Sie **[!UICONTROL Zusammengesetzten Schlüssel verwenden]** und markieren Sie die Schlüssel, die Sie als zusammengesetzten Schlüssel verwenden möchten.
 
-   * Ändern des Schema-Labels
-   * Hinzufügen einer Beschreibung
-   * Umbenennen aller Feldtitel und Festlegen ihrer Sichtbarkeit
-   * Auswählen des Primärschlüssels des Schemas
+![](assets/composite-key.png)
 
-   Das Schema kann wie folgt definiert werden:
-
-   ![](assets/schema_example.png)
-
-1. Klicken Sie nach Abschluss der Konfiguration auf **[!UICONTROL Fertig]**.
+Wählen Sie nach Abschluss der Konfiguration **[!UICONTROL Fertig]**, um die Erstellung Ihres Schemas abzuschließen.
 
 ## Bearbeiten eines Schemas {#schema-edit}
 
-Gehen Sie wie folgt vor, um ein Schema zu bearbeiten:
+Um ein Schema zu bearbeiten, wählen Sie das zuvor erstellte Schema auf der Seite **Schemata** aus.
 
-1. Greifen Sie auf Ihr zuvor erstelltes Schema zu.
+Die Seite mit den Schemadetails wird angezeigt. Wählen Sie das ![Stiftsymbol](/help/assets/icons/edit.png) aus, um das Schema zu bearbeiten.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Bearbeiten]**.
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+Im Fenster **[!UICONTROL Schema bearbeiten]** können Sie dieselben Optionen aufrufen und konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
 
-1. Im Fenster **[!UICONTROL Schemabearbeitung]** können Sie auf die gleichen Optionen zugreifen und sie konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Vorschau von Daten in einem Schema {#schema-preview}
 
 Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]**, wie unten dargestellt.
 
-Klicken Sie auf den Link **[!UICONTROL Berechnen]**, um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
+Wählen Sie **[!UICONTROL Link]** Berechnen“, um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Klicken Sie auf die Schaltfläche **[!UICONTROL Spalten konfigurieren]**, um die Datenanzeige zu ändern.
+Wählen Sie die **[!UICONTROL Spalten konfigurieren]**, um die Datenanzeige zu ändern.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Aktualisieren eines Schemas {#schema-refresh}
 
-Tabellen in einer föderierten Datenbank können aktualisiert, hinzugefügt oder entfernt werden. Sie müssen dann das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Klicken Sie dazu auf die drei Punkte neben dem Namen des zu aktualisierenden Schemas und wählen Sie **Schema aktualisieren** aus.
+Tabellen in einer föderierten Datenbank können aktualisiert, hinzugefügt oder entfernt werden. Sie müssen dann das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Wählen Sie dazu das Symbol ![drei Punkte](/help/assets/icons/more.png) neben dem Namen des Schemas und dann **[!UICONTROL Schema aktualisieren]**.
 
 Sie können die Schemadefinition auch bei der Bearbeitung aktualisieren.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## Löschen eines Schemas {#schema-delete}
 
-Klicken Sie zum Löschen eines Schemas auf die Schaltfläche **[!UICONTROL Mehr]** und dann auf **[!UICONTROL Löschen]**.
+Um ein Schema zu löschen, wählen Sie das ![Ellipsensymbol](/help/assets/icons/more.png) und dann **[!UICONTROL Löschen]** aus.
 
 ![](assets/schema_delete.png){zoomable="yes"}

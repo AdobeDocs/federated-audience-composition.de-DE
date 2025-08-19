@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 98%
 
 ---
 
@@ -610,12 +610,12 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
    <td> Gibt die Position von Zeichenfolge 2 in Zeichenfolge 1 zurück.<br /> </td> 
-   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> Charindex(&lt;String&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Gibt die Größe der Zeichenfolge in Bytes zurück<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> dataLength(&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -640,7 +640,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
    <td> Verkettet die zwei als Parameter übergebenen Zeichenfolgen. Fügt bei Bedarf Leerzeichen zwischen den Zeichenfolgen hinzu<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
+   <td> JuxtWords3(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /></td>  
   </tr> 
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
@@ -653,7 +653,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
    <td> Length(&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Zeile</strong><br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
    <td> Extrahiert Zeile n aus dem String<br /> </td> 
    <td> Line(&lt;String&gt;,&lt;Zahl&gt;)<br /></td> 
   </tr>
@@ -665,7 +665,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Gibt den String linksseitig aufgefüllt aus<br /> </td> 
-   <td> LPad (&lt;String&gt;, &lt;Number&gt;, &lt;Char&gt;)<br /></td> 
+   <td> LPad (&lt;String&gt;, &lt;Zahl&gt;, &lt;Zeichen&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -689,8 +689,8 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Ersetzt alle Vorkommen eines angegebenen String-Werts durch einen anderen String-Wert.<br /> </td> 
-   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
+   <td> Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenwerts (Zeichenfolge 2) durch einen anderen Zeichenfolgenwert (Zeichenfolge 3) innerhalb einer Zeichenfolge (Zeichenfolge 1).<br /> </td> 
+   <td> REPLACE(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -762,7 +762,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
    <td> Ruft die als ersten Parameter eingegebene SQL-Funktion über die als zweiten Parameter eingegebenen Felder „Partition“ oder „Anordnen nach“ aus<br /> </td> 
-   <td> _Over_ (&lt;Value&gt;, &lt;Value&gt;)<br /> </td>  
+   <td> _Over_ (&lt;Wert&gt;, &lt;Wert&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
