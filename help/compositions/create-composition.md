@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 81%
+source-wordcount: '524'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +18,7 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, das ihr Label z
 
 Um eine Komposition zu erstellen, wählen **[!UICONTROL Zielgruppen]** im Abschnitt **[!UICONTROL Kunde]** aus, gefolgt von der Registerkarte **[!UICONTROL Verknüpfte Kompositionen]**.
 
-IMAGE
+![Der Pfad für den Zugriff auf den Abschnitt „Federated Compositions“ ist hervorgehoben.](assets/create/access-compositions.png)
 
 Die Seite zum Durchsuchen verbundener Kompositionen wird angezeigt. Wählen Sie **[!UICONTROL Komposition erstellen]** aus, um mit dem Kompositionserstellungsprozess fortzufahren.
 

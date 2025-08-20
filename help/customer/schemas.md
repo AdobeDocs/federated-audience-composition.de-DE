@@ -3,10 +3,10 @@ audience: end-user
 title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 54%
+source-wordcount: '586'
+ht-degree: 53%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 54%
 >Um auf Schemata zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderiertes Schema verwalten**
->&#x200B;>-**Föderiertes Schema anzeigen**
+>>-**Föderiertes Schema anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 
 Um ein Schema in Federated Audience Composition zu erstellen, wählen Sie **[!UICONTROL Modelle]** im Abschnitt **[!UICONTROL Federated Data]** aus. Wählen Sie auf der **[!UICONTROL Schema]** die Option **[!UICONTROL Schema erstellen]** aus.
 
-![](assets/schema_create.png){zoomable="yes"}
+![Die Schaltfläche „Schema erstellen“ ist im Abschnitt „Schema der zusammengeführten Zielgruppe“ hervorgehoben.](assets/schema_create.png){zoomable="yes"}
 
 Das **[!UICONTROL Federated Database auswählen]**-Popover wird angezeigt. In diesem Popover können Sie die [Quelldatenbank](/help/connections/home.md) gefolgt von &quot;**[!UICONTROL &quot;]**.
 
@@ -77,7 +77,7 @@ Das **Tabelle auswählen**-Popover wird angezeigt. In diesem Pop-up können Sie 
 
 Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Für jede Tabelle können Sie die Bezeichnung des Schemas ändern, eine Beschreibung hinzufügen, die Feldbezeichnung umbenennen, die Sichtbarkeit der Feldbezeichnung festlegen und den Schema-Primärschlüssel auswählen.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. F�
 
 Darüber hinaus können Sie einen Schlüssel erstellen, der aus mehreren Schemaspalten besteht. Aktivieren Sie **[!UICONTROL Zusammengesetzten Schlüssel verwenden]** und markieren Sie die Schlüssel, die Sie als zusammengesetzten Schlüssel verwenden möchten.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 Wählen Sie nach Abschluss der Konfiguration **[!UICONTROL Fertig]**, um die Erstellung Ihres Schemas abzuschließen.
 

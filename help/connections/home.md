@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: ht
-source-wordcount: '1942'
-ht-degree: 100%
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+workflow-type: tm+mt
+source-wordcount: '1970'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,10 @@ Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 | Arbeitsschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen zu dieser Funktion finden Sie in der [Dokumentation zu Amazon-Schemata](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Hinweis**: Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics erstellen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
 Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzufügen:
 
@@ -153,7 +157,7 @@ Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
 >
 >Der Oracle-Datenbank-Connector kann derzeit **nur** für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwendet werden.
 >
->Wenden Sie sich vor der Einrichtung Ihrer Oracle-Datenbank an die Adobe-Kundenunterstützung.
+>Wenden Sie sich vor der Einrichtung Ihrer Oracle-Datenbank, einschließlich der Einrichtung Ihrer Oracle-Verbindung zur Verwendung einer sicheren Verbindung, an Ihren Adobe-Kundenbetreuer.
 
 Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
