@@ -4,9 +4,9 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1970'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderierte Datenbank verwalten**
->&#x200B;>-**Föderierte Datenbank anzeigen**
+>>-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -74,7 +74,7 @@ Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
 >[!NOTE]
 >
->Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics erstellen möchten, wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+>Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics einrichten möchten, wenden Sie sich an die Adobe-Kundenunterstützung.
 
 Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzufügen:
 
@@ -157,7 +157,7 @@ Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
 >
 >Der Oracle-Datenbank-Connector kann derzeit **nur** für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwendet werden.
 >
->Wenden Sie sich vor der Einrichtung Ihrer Oracle-Datenbank, einschließlich der Einrichtung Ihrer Oracle-Verbindung zur Verwendung einer sicheren Verbindung, an Ihren Adobe-Kundenbetreuer.
+>Wenden Sie sich vor der Einrichtung Ihrer Oracle-Datenbank (einschließlich der Einrichtung Ihrer Oracle-Verbindung zur Nutzung einer sicheren Verbindung) an die Adobe-Kundenunterstützung.
 
 Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 

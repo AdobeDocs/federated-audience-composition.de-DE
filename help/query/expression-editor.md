@@ -4,9 +4,9 @@ title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -689,8 +689,8 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Ersetzt alle Vorkommen eines angegebenen Zeichenfolgenwerts (Zeichenfolge 2) durch einen anderen Zeichenfolgenwert (Zeichenfolge 3) innerhalb einer Zeichenfolge (Zeichenfolge 1).<br /> </td> 
-   <td> REPLACE(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
+   <td> Ersetzt in einem String (String 1) alle Vorkommnisse eines bestimmten String-Werts (String 2) durch einen anderen String-Wert (String 3).<br /> </td> 
+   <td> Replace(&lt;String1&gt;,&lt;String2&gt;,&lt;String3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 

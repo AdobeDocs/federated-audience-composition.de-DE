@@ -3,9 +3,9 @@ title: Neue Funktionen zur Komposition föderierter Zielgruppen in Experience Pl
 description: Neueste Aktualisierungen und Versionshinweise
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version August &#39;25 {#fac-25-8}
+## Version August 2025 {#fac-25-8}
 
 ### Neue Funktionen {#fac-25-08-feature}
 
@@ -26,8 +26,8 @@ ht-degree: 91%
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt Spalten kombinieren, um einen zusammengesetzten Schlüssel für Ihr Schema zu erstellen.</p>
-<p>Weitere Informationen zu Schemata finden Sie unter <a href="../customer/schemas.md#create">Schemata - Übersicht</a>.</p>
+<p>Sie können jetzt Spalten kombinieren, um für Ihr Schema einen zusammengesetzten Schlüssel zu erstellen.</p>
+<p>Weitere Informationen zu Schemata finden Sie unter <a href="../customer/schemas.md#create">Überblick über Schemata</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,14 +37,14 @@ ht-degree: 91%
 <table>
 <thead>
 <tr>
-<th><strong>Mehrere Joins zu einer Relation für Modelle hinzufügen</strong><br/></th>
+<th><strong>Hinzufügen von mehreren Joins zu einem Link für Modelle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Sie können jetzt mehrere Joins zu einem einzigen Link für Ihre Modelle hinzufügen.</p>
-<p>Weitere Informationen zu Modellen finden Sie in der <a href="../data-management/gs-models.md#create">Modellübersicht</a>.</p>
+<p>Sie können zu einem einzigen Link für Ihre Modelle jetzt mehrere Joins hinzufügen.</p>
+<p>Weitere Informationen zu Modellen finden Sie unter <a href="../data-management/gs-models.md#create">Überblick über Modelle</a>.</p>
 </br>
 </td>
 </tr>
@@ -55,25 +55,25 @@ ht-degree: 91%
 
 Diese Version enthält die folgenden Verbesserungen:
 
-* **Hinzugefügte `StringAgg` Funktion**
+* **Hinzugefügte `StringAgg`-Funktion**
 
-  Sie können jetzt die `StringAgg` für Amazon Redshift Spectrum-Datenbanken verwenden, wenn. Verwenden des Ausdruckseditors.
+  Sie können jetzt für Amazon Redshift Spectrum-Datenbanken die `StringAgg`-Funktion verwenden, wenn Sie auf den Ausdruckseditor zugreifen.
 
-* **`Replace`Funktion**
+* **`Replace`-Funktion**
 
-  Die Beschreibung und Syntax der `Replace` Funktion wurde in der Dokumentation klargestellt.
+  Beschreibung und Syntax der `Replace`-Funktion wurden in der Dokumentation klargestellt.
 
 ### Kompatibilität {#fac-25-8-compatibility}
 
 * **Azure Synapse-Datenbanken**
 
-  Sie können jetzt mit PrivateLink oder VPN eine sichere Verbindung zu Azure Synapse-Datenbanken herstellen. Wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
+  Sie können jetzt mit PrivateLink oder VPN eine sichere Verbindung zu Azure Synapse-Datenbanken herstellen. Bitte wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
 
 * **Oracle-Datenbank**
 
-  Sie können jetzt eine sichere Verbindung zu Oracle-Datenbanken herstellen. Wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
+  Sie können jetzt eine sichere Verbindung zu Oracle-Datenbanken herstellen. Bitte wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
 
-Weitere Informationen zu den unterstützten Datenbanken in der Federated-Audience-Komposition finden Sie unter [Verbindungen - Übersicht](../connections/home.md).
+Weitere Informationen zu den unterstützten Datenbanken in der Komposition föderierter Zielgruppen finden Sie unter [Überblick über Verbindungen](../connections/home.md).
 
 ## Version Juli 2025 {#fac-25-7}
 

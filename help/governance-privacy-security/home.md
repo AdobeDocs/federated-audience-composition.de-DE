@@ -3,9 +3,9 @@ title: Datenschutz und Sicherheit bei der Komposition föderierter Zielgruppen
 description: Erfahren Sie, wie die Komposition föderierter Zielgruppen mit Datenschutz und Sicherheit für Benutzerdaten umgeht, einschließlich Funktionen wie Data Governance, Durchsetzung des Einverständnisses, Zugriffskontrolle, Datenverschlüsselung und Einhaltung von Datenschutzbestimmungen.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->Die Federated Audience Composition ist vollständig HIPAA-konform und steht Healthcare Shield- sowie Privacy and Security Shield-Kunden zur Verfügung.
+>Die Komposition föderierter Zielgruppen ist vollständig HIPAA-konform und steht Healthcare Shield- sowie Privacy and Security Shield-Kundschaft zur Verfügung.
 
-Die Federated Audience-Komposition bietet verschiedene Services und Tools, mit denen Sie Ihre Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozesse einhalten können.
+Die Komposition föderierter Zielgruppen bietet verschiedene Dienste und Tools, mit deren Hilfe Sie Ihre Geschäftspraktiken, rechtlichen Verpflichtungen und Entwicklungsprozesse einhalten können.
 
-Diese Leistungen lassen sich in drei Kategorien einteilen:
+Diese Dienste lassen sich in drei Kategorien einteilen:
 
 - [Data Governance](#data-governance)
 - [Datenschutz](#privacy)
@@ -25,21 +25,21 @@ Diese Leistungen lassen sich in drei Kategorien einteilen:
 
 ## Data Governance {#data-governance}
 
-Sie können Data Governance verwenden, um die Daten Ihrer Kundinnen und Kunden zu verwalten und zu identifizieren und sicherzustellen, dass sie ordnungsgemäß gekennzeichnet sind, um die von Ihrem Unternehmen oder den gesetzlichen Vorschriften festgelegten Einschränkungen zu beachten.
+Sie können Data Governance nutzen, um die Daten Ihrer Kundinnen und Kunden zu verwalten und zu identifizieren. So können sie sicherstellen, dass die Daten ordnungsgemäß gekennzeichnet sind, damit sie die von Ihrem Unternehmen oder gesetzlichen Vorschriften festgelegten Einschränkungen erfüllen.
 
 ### Datennutzungs-Labels {#data-usage-labels}
 
-Sie können Datennutzungskennzeichnungen verwenden, um Datensätze und Felder basierend auf den für diese Daten geltenden Governance-Richtlinien zu kategorisieren. Nachdem Sie mithilfe von Kompositionen eine Zielgruppe erstellt haben, können Sie die entsprechenden Daten-Labels auf das resultierende Schema anwenden, um sicherzustellen, dass es die erforderlichen Nutzungseinschränkungen einhält.
+Mithilfe von Datennutzungs-Labels können Sie Datensätze und Felder basierend auf den für diese Daten geltenden Governance-Richtlinien kategorisieren. Nachdem Sie mithilfe von Kompositionen eine Zielgruppe erstellt haben, können Sie die entsprechenden Daten-Labels auf das resultierende Schema anwenden, um sicherzustellen, dass es die erforderlichen Nutzungseinschränkungen einhält.
 
-Weitere Informationen zur Verwendung von Datenbeschriftungen in der Federated-Audience-Komposition finden Sie [ Abschnitt Anwenden von Zugriffsbeschriftungen ](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Weitere Informationen zur Verwendung von Daten-Labels in Kompositionen föderierter Zielgruppen finden Sie im Abschnitt [Anwenden von Zugriffs-Labels](../compositions/gs-compositions.md#access-labels){target="_blank"}.
 
 ## Datenschutz
 
-Die Federated Audience-Komposition stellt die Federated Data für Adobe Experience Platform und Adobe Journey Optimizer bereit und stellt sicher, dass der Datenschutz der Benutzerdaten gewahrt wird.
+Die Komposition föderierter Zielgruppen stellt die föderierten Daten für Adobe Experience Platform und Adobe Journey Optimizer bereit und stellt sicher, dass der Schutz der Benutzerdaten gewahrt bleibt.
 
 ### Privacy Service {#privacy-service}
 
-Da die Federated Audience **keine** Kundendaten aus einem der Data Warehouses speichert, können Sie Adobe Experience Platform Privacy Service verwenden, um Anfragen von betroffenen Personen oder zur Löschung von Daten zu erfüllen.
+Da die Komposition föderierter Zielgruppen **keine** Kundendaten aus einem der Data Warehouses speichert, können Sie Adobe Experience Platform Privacy Service für die Bearbeitung von Anfragen betroffener Personen sowie von Anfragen zum Löschen von Daten verwenden. 
 
 Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock „Speichern“ auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Diese externe Zielgruppe ist mit ihrem Identitätsfeld und Identity-Namespace gekennzeichnet. Daher können Sie Privacy Service verwenden, um mit einer externen Zielgruppe auf diese Profile zuzugreifen und sie zu entfernen.
 
@@ -75,11 +75,11 @@ Weiterführende Informationen zur Verwendung des Datenlebenszyklus finden Sie im
 
 ## Sicherheit {#security}
 
-Datensicherheit stellt sicher, dass Ihre Daten in der Federated Audience Composition geschützt sind.
+Datensicherheit sorgt dafür, dass Ihre Daten in der Komposition föderierter Zielgruppen geschützt bleiben.
 
 ### Verschlüsselung {#encryption}
 
-Die Federated Audience-Komposition bietet Verschlüsselung durch Verschlüsselung statischer Daten, Verschlüsselung von Daten während der Übertragung und kundenverwaltete Schlüssel.
+Die Komposition föderierter Zielgruppen bietet Verschlüsselungsoptionen durch die Verschlüsselung von Daten im Ruhezustand, die Verschlüsselung von Daten während der Übertragung und kundenseitig verwaltete Schlüssel.
 
 „Daten im Ruhezustand“ bezieht sich auf die Kundendaten, die in der Komposition föderierter Zielgruppen verwendet werden. Die Daten werden vom Cloud-Dienst-Anbieter verschlüsselt und in der Komposition föderierter Zielgruppen in ihrer verschlüsselten Form verwendet.
 
@@ -103,7 +103,7 @@ Weiterführende Informationen finden Sie im [Überblick über das Audit-Protokol
 
 Sie können den Zugriff auf die Komposition föderierter Zielgruppen sowohl auf einer feld- als auch auf einer rollenbasierten Ebene steuern. Sie können diese Zugriffskontrollen verwenden, um Data-Governance-Richtlinien durchzusetzen, die Offenlegung vertraulicher Daten zu begrenzen und den Zugriff auf die Zuständigkeiten der Benutzenden abzustimmen.
 
-Weiterführende Informationen zur Zugriffssteuerung in Federated Audience Composition finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md){target="_blank"}.
+Weiterführende Informationen zur Zugriffssteuerung in der Komposition föderierter Zielgruppen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md){target="_blank"}.
 
 ### Datenlokalisierung {#data-localization}
 
@@ -111,4 +111,4 @@ Die Komposition föderierter Zielgruppen speichert **keine** Kundendaten. Daher 
 
 ## Nächste Schritte {#next-steps}
 
-Nach dem Lesen dieses Handbuchs haben Sie ein besseres Verständnis der Data Governance-, Datenschutz- und Sicherheitsfunktionen, die für die Federated Audience-Komposition verwendet werden, einschließlich Datennutzungskennzeichnungen, Datenschutzkonformität, Durchsetzung von Einverständnissen, Verwaltung des Datenlebenszyklus und Zugriffskontrolle.
+Nach dem Lesen dieses Handbuchs haben Sie ein besseres Verständnis über die Data-Governance-, Datenschutz- und Sicherheitsfunktionen, die für die Komposition föderierter Zielgruppen verwendet werden, einschließlich Datennutzungs-Labels, der Datenschutzkonformität, der Durchsetzung von Einverständnissen, der Verwaltung des Datenlebenszyklus und der Zugriffssteuerung.

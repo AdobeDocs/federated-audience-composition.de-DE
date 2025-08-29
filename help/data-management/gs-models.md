@@ -4,9 +4,9 @@ title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 69%
 >Um auf Datenmodelle zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderiertes Datenmodell verwalten**
->&#x200B;>-**Föderiertes Datenmodell anzeigen**
+>>-**Föderiertes Datenmodell anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -40,13 +40,13 @@ Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
 1. Greifen Sie im Abschnitt **[!UICONTROL Föderierte Daten]** auf das Menü **[!UICONTROL Modelle]** zu und gehen Sie zur Registerkarte **[!UICONTROL Datenmodell]**.
 
-   Klicken Sie auf **[!UICONTROL Schaltfläche „Datenmodell erstellen]**.
+   Wählen Sie die Schaltfläche **[!UICONTROL Datenmodell erstellen]**.
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
 2. Definieren Sie den Namen Ihres Datenmodells und wählen Sie die Schaltfläche **[!UICONTROL Erstellen]** aus.
 
-3. Wählen Sie im Dashboard Ihres Datenmodells die Option **[!UICONTROL Schemata hinzufügen]** aus, um das mit Ihrem Datenmodell verknüpfte Schema auszuwählen.
+3. Wählen Sie im Dashboard Ihres Datenmodells **[!UICONTROL Schemata hinzufügen]** aus, um das mit Ihrem Datenmodell verknüpfte Schema auszuwählen.
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
@@ -54,23 +54,23 @@ Gehen Sie wie folgt vor, um ein Datenmodell zu erstellen:
 
    ![](assets/datamodel-audiences.png){zoomable="yes"}
 
-5. Stellen Sie Verbindungen zwischen Tabellen in Ihrem Datenmodell her, um genaue Datenbeziehungen sicherzustellen. Weitere Informationen finden Sie im Abschnitt [Erstellen von Links](#data-model-links).
+5. Stellen Sie Verbindungen zwischen Tabellen in Ihrem Datenmodell her, um genaue Datenbeziehungen sicherzustellen. Weiterführende Informationen finden Sie im Abschnitt [Erstellen von Links](#data-model-links).
 
-6. Wählen Sie nach Abschluss der Konfiguration **[!UICONTROL Speichern]**, um Ihre Änderungen anzuwenden.
+6. Wählen Sie nach Abschluss der Konfiguration **[!UICONTROL Speichern]** aus, um Ihre Änderungen anzuwenden.
 
 ## Erstellen von Links {#data-model-links}
 
 >[!NOTE]
 >
->Wenn Sie eine Relation mit mehreren Joins erstellen, können Sie dieselbe Kombination aus Quell- und Zielschemata nur einmal verwenden.
+>Wenn Sie einen Link mit mehreren Joins erstellen, können Sie dieselbe Kombination aus Quell- und Zielschemata nur einmal verwenden.
 
 >[!BEGINTABS]
 
 >[!TAB Tabellenansicht]
 
-Gehen Sie wie folgt vor, um auf der Registerkarte „Tabellenansicht“ Verknüpfungen zwischen Tabellen Ihres Datenmodells zu erstellen:
+Gehen Sie wie folgt vor, um über die Registerkarte „Tabellenansicht“ Links zwischen Tabellen Ihres Datenmodells zu erstellen:
 
-1. Wählen Sie das ![Ellipsensymbol](/help/assets/icons/more.png) gefolgt von **[!UICONTROL Link erstellen]** neben einer der Tabellen aus oder wählen Sie **[!UICONTROL Links erstellen]** im Abschnitt **[!UICONTROL Links]** aus:
+1. Wählen Sie das ![Symbol mit den drei Punkten](/help/assets/icons/more.png) gefolgt von **[!UICONTROL Link erstellen]** neben einer der Tabellen oder **[!UICONTROL Links erstellen]** im Abschnitt **[!UICONTROL Links]** aus:
 
    ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
@@ -86,25 +86,25 @@ Gehen Sie wie folgt vor, um auf der Registerkarte „Tabellenansicht“ Verknüp
 
    * **1:1**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
 
-   Um einen Link mit mehreren Verknüpfungen zu erstellen, klicken Sie auf das Pluszeichen. Sie können jetzt mehrere Joins zwischen den Schemafeldern erstellen.
+   Um einen Link mit mehreren Joins zu erstellen, wählen Sie das Plussymbol. Sie können jetzt mehrere Joins zwischen den Schemafeldern erstellen.
 
-   ![Die Schaltfläche mit dem Pluszeichen wird hervorgehoben, sodass Sie eine mehrfache Join-Relation für das Modell erstellen können.](assets/multi-join.png){zoomable="yes"}
+   ![Die Schaltfläche mit dem Plussymbol wird hervorgehoben, sodass Sie einen Link mit mehreren Joins für das Modell erstellen können.](assets/multi-join.png){zoomable="yes"}
 
-Alle für Ihr Datenmodell definierten Links werden wie folgt aufgelistet:
+Alle für Ihr Datenmodell definierten Links werden wie folgt aufgeführt:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 >[!TAB Arbeitsflächenansicht]
 
-Gehen Sie wie folgt vor, um auf der Registerkarte „Arbeitsfläche-Ansicht“ Verknüpfungen zwischen Tabellen Ihres Datenmodells zu erstellen:
+Gehen Sie wie folgt vor, um über die Registerkarte „Arbeitsflächenansicht“ Links zwischen Tabellen Ihres Datenmodells zu erstellen:
 
 1. Rufen Sie die Arbeitsflächenansicht Ihres Datenmodells auf und wählen Sie die beiden Tabellen aus, die Sie verknüpfen möchten.
 
-2. Klicken Sie auf die Schaltfläche ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben dem Source-Join und ziehen Sie den Pfeil in Richtung Ziel-Join, um die Verbindung herzustellen.
+2. Wählen Sie die Schaltfläche ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) neben dem Quellen-Join aus und ziehen Sie den Pfeil in Richtung Ziel-Join, um die Verbindung herzustellen.
 
    ![](assets/datamodel.gif){zoomable="yes"}
 
-3. Füllen Sie das Formular aus, um den Link zu definieren, und wählen Sie **[!UICONTROL Anwenden]** aus, sobald er konfiguriert ist.
+3. Füllen Sie das angegebene Formular aus, um den Link zu definieren, und wählen Sie nach der Konfiguration **[!UICONTROL Anwenden]** aus.
 
    ![](assets/datamodel-canvas-1.png){zoomable="yes"}
 
@@ -116,7 +116,7 @@ Gehen Sie wie folgt vor, um auf der Registerkarte „Arbeitsfläche-Ansicht“ V
 
    * **1:1**: Eine Entität in der Quelltabelle kann maximal mit einer Entität in der Zieltabelle in Beziehung stehen.
 
-4. Alle in Ihrem Datenmodell definierten Links werden in der Arbeitsflächenansicht als Pfeile dargestellt. Wählen Sie einen Pfeil zwischen zwei Tabellen aus, um Details anzuzeigen, Änderungen vorzunehmen oder die Relation nach Bedarf zu entfernen.
+4. Alle in Ihrem Datenmodell definierten Links werden in der Arbeitsflächenansicht als Pfeile dargestellt. Wählen Sie einen Pfeil zwischen zwei Tabellen aus, um je nach Bedarf Details anzuzeigen, Änderungen vorzunehmen oder den Link zu entfernen.
 
    ![](assets/datamodel-canvas-2.png){zoomable="yes"}
 

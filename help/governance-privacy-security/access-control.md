@@ -1,17 +1,17 @@
 ---
-title: Zugriffssteuerung bei der Komposition einer zusammengeführten Zielgruppe
-description: Erfahren Sie, wie Sie den Datenzugriff für Benutzende in Federated Audience Composition verwalten.
+title: Zugriffssteuerung in der Komposition föderierter Zielgruppen
+description: Erfahren Sie, wie Sie in der Komposition föderierter Zielgruppen den Datenzugriff für Benutzende verwalten.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Zugriffssteuerung bei der Komposition einer zusammengeführten Zielgruppe
+# Zugriffssteuerung in der Komposition föderierter Zielgruppen
 
-Sie können die Zugriffssteuerung verwenden, um rollenbasierten Zugriff auf Sandboxes und die Federated Audience-Komposition bereitzustellen.
+Sie können die Zugriffssteuerung nutzen, um rollenbasierten Zugriff auf Sandboxes und die Komposition föderierter Zielgruppen bereitzustellen.
 
 ## Verwalten des Zugriffs auf Sandboxes {#access-sandboxes}
 
@@ -21,11 +21,11 @@ Wirds beispielsweise eine neue Sandbox mit dem Namen „fac-test“ aktiviert, w
 
 ## Verwalten des Zugriffs auf die Komposition föderierter Zielgruppen
 
-Sie können den Zugriff verwalten, indem Sie die erforderlichen Berechtigungen für den Zugriff auf verschiedene Aspekte der Federated Audience Composition zuweisen. Diese Berechtigungen werden über Rollen Benutzern zugewiesen, die Zugriff auf **Federated Audience Composition** benötigen.
+Sie können Zugriff verwalten, indem Sie die erforderlichen Berechtigungen für den Zugriff auf verschiedene Aspekte der Komposition föderierter Zielgruppen zuweisen. Diese Berechtigungen müssen mittels Rollen Benutzenden zugewiesen werden, die Zugriff auf die **Komposition föderierter Zielgruppen** benötigen.
 
 >[!NOTE]
 >
->Nur Administratoren können anderen Benutzern Berechtigungen zuweisen.
+>Nur Admins können anderen Benutzenden Berechtigungen zuweisen.
 
 1. Navigieren Sie zum Menü **[!UICONTROL Berechtigungen]**.
 1. Wählen Sie im Menü **[!UICONTROL Rollen]** die **[!UICONTROL Rolle]** aus, die Sie aktualisieren möchten.
@@ -76,8 +76,8 @@ Sie können den Benutzenden auch abhängig von den jeweils benötigten Berechtig
 
 Die Person erhält dann eine E-Mail mit Anweisungen zum Zugriff auf Ihre Instanz. Wenn die Person vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
 
-## Zugriff auf bestimmte Kompositionen verwalten
+## Verwalten von Zugriff auf bestimmte Kompositionen
 
-Sie können den Zugriff auf eine bestimmte Komposition verwalten, indem Sie Zugriffsbeschriftungen anwenden.
+Sie können den Zugriff auf eine bestimmte Komposition verwalten, indem Sie Zugriffs-Labels anwenden.
 
-Weiterführende Informationen zum Anwenden von Zugriffsbeschriftungen auf eine Komposition finden Sie im Abschnitt [Anwenden von Zugriffsbeschriftungen](/help/compositions/gs-compositions.md#access-labels) des Kompositionshandbuchs.
+Weiterführende Informationen zum Anwenden von Zugriffs-Labels auf eine Komposition finden Sie im Abschnitt [Anwenden von Zugriffs-Labels](/help/compositions/gs-compositions.md#access-labels) des Kompositionshandbuchs.

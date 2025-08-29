@@ -4,9 +4,9 @@ title: Erste Schritte mit Schemata
 description: Erfahren Sie, wie Sie mit Schemata beginnen.
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 >Um auf Schemata zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderiertes Schema verwalten**
->&#x200B;>-**Föderiertes Schema anzeigen**
+>>-**Föderiertes Schema anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -62,42 +62,42 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 
 ## Erstellen eines Schemas {#schema-create}
 
-Um ein Schema in Federated Audience Composition zu erstellen, wählen Sie **[!UICONTROL Modelle]** im Abschnitt **[!UICONTROL Federated Data]** aus. Wählen Sie auf der **[!UICONTROL Schema]** die Option **[!UICONTROL Schema erstellen]** aus.
+Um in Komposition föderierter Zielgruppen ein Schema zu erstellen, wählen Sie im Abschnitt **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Modelle]** aus. Wählen Sie auf der Registerkarte **[!UICONTROL Schema]** die Option **[!UICONTROL Schema erstellen]** aus.
 
-![Die Schaltfläche „Schema erstellen“ ist im Abschnitt „Schema der zusammengeführten Zielgruppe“ hervorgehoben.](assets/schema_create.png){zoomable="yes"}
+![Die Schaltfläche „Schema erstellen“ ist im Schemaabschnitt „Komposition föderierter Zielgruppen“ hervorgehoben.](assets/schema_create.png){zoomable="yes"}
 
-Das **[!UICONTROL Federated Database auswählen]**-Popover wird angezeigt. In diesem Popover können Sie die [Quelldatenbank](/help/connections/home.md) gefolgt von &quot;**[!UICONTROL &quot;]**.
+Das Popup-Fenster **[!UICONTROL Föderierte Datenbank auswählen]** erscheint. In diesem Popup-Fenster können Sie die [Quelldatenbank](/help/connections/home.md) auswählen, gefolgt von **[!UICONTROL Weiter]**.
 
 
 ![](assets/schema_tables.png){zoomable="yes"}
 
-Das **Tabelle auswählen**-Popover wird angezeigt. In diesem Pop-up können Sie die Tabellen auswählen, die Sie zum Erstellen des Schemas verwenden möchten.
+Das Popup-Fenster **Tabelle auswählen** erscheint. In diesem Popup-Fenster können Sie die Tabellen auswählen, die Sie zum Erstellen des Schemas verwenden möchten.
 
-![Das Pop-up „Tabelle auswählen“ wird angezeigt.](assets/select-table.png){zoomable="yes"}
+![Das Popup-Fenster „Tabelle auswählen“ wird angezeigt.](assets/select-table.png){zoomable="yes"}
 
-Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Für jede Tabelle können Sie die Bezeichnung des Schemas ändern, eine Beschreibung hinzufügen, die Feldbezeichnung umbenennen, die Sichtbarkeit der Feldbezeichnung festlegen und den Schema-Primärschlüssel auswählen.
+Jede ausgewählte Tabelle generiert ein Schema mit den ausgewählten Spalten. Für jede Tabelle können Sie das Label des Schemas ändern, eine Beschreibung hinzufügen, den Feldtitel umbenennen, die Sichtbarkeit des Feldtitels festlegen und den Primärschlüssel für das Schema auswählen.
 
 ![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Wenn Sie **[!UICONTROL Zusammengesetzten Schlüssel verwenden]** aber nur einen zu verwendenden Schlüssel auswählen, wird der Schlüssel wie ein standardmäßiger Schema-Primärschlüssel behandelt.
+>Wenn Sie **[!UICONTROL Zusammengesetzten Schlüssel verwenden]** aktivieren, aber nur einen zu verwendenden Schlüssel auswählen, wird der Schlüssel wie der Primärschlüssel eines Standardschemas behandelt.
 
 Darüber hinaus können Sie einen Schlüssel erstellen, der aus mehreren Schemaspalten besteht. Aktivieren Sie **[!UICONTROL Zusammengesetzten Schlüssel verwenden]** und markieren Sie die Schlüssel, die Sie als zusammengesetzten Schlüssel verwenden möchten.
 
 ![](assets/composite-key.png){zoomable="yes"}
 
-Wählen Sie nach Abschluss der Konfiguration **[!UICONTROL Fertig]**, um die Erstellung Ihres Schemas abzuschließen.
+Wählen Sie nach Abschluss der Konfiguration **[!UICONTROL Fertig]** aus, um die Erstellung Ihres Schemas abzuschließen.
 
 ## Bearbeiten eines Schemas {#schema-edit}
 
-Um ein Schema zu bearbeiten, wählen Sie das zuvor erstellte Schema auf der Seite **Schemata** aus.
+Wählen Sie zum Bearbeiten eines Schemas das zuvor erstellte Schema auf der Seite **Schemata** aus.
 
-Die Seite mit den Schemadetails wird angezeigt. Wählen Sie das ![Stiftsymbol](/help/assets/icons/edit.png) aus, um das Schema zu bearbeiten.
+Die Seite mit den Schemadetails wird angezeigt. Klicken Sie auf das ![Stiftsymbol](/help/assets/icons/edit.png), um das Schema zu bearbeiten.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-Im Fenster **[!UICONTROL Schema bearbeiten]** können Sie dieselben Optionen aufrufen und konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
+Im Fenster **[!UICONTROL Schema bearbeiten]** können Sie die gleichen Optionen aufrufen und konfigurieren wie beim [Erstellen eines Schemas](#schema-create).
 
 ![](assets/schema_edit_orders.png){zoomable="yes"}
 
@@ -105,17 +105,17 @@ Im Fenster **[!UICONTROL Schema bearbeiten]** können Sie dieselben Optionen auf
 
 Um eine Vorschau der Daten in der Tabelle anzuzeigen, die durch Ihr Schema dargestellt wird, gehen Sie zur Registerkarte **[!UICONTROL Daten]**, wie unten dargestellt.
 
-Wählen Sie **[!UICONTROL Link]** Berechnen“, um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
+Wählen Sie den Link **[!UICONTROL Berechnen]** aus, um eine Vorschau der Gesamtzahl der Aufzeichnungen anzuzeigen.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Wählen Sie die **[!UICONTROL Spalten konfigurieren]**, um die Datenanzeige zu ändern.
+Wählen Sie die Schaltfläche **[!UICONTROL Spalten konfigurieren]** aus, um die Datenanzeige zu ändern.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Aktualisieren eines Schemas {#schema-refresh}
 
-Tabellen in einer föderierten Datenbank können aktualisiert, hinzugefügt oder entfernt werden. Sie müssen dann das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Wählen Sie dazu das Symbol ![drei Punkte](/help/assets/icons/more.png) neben dem Namen des Schemas und dann **[!UICONTROL Schema aktualisieren]**.
+Tabellen in einer föderierten Datenbank können aktualisiert, hinzugefügt oder entfernt werden. Sie müssen dann das Schema in Adobe Experience Platform aktualisieren, um es an die neuesten Änderungen anzupassen. Wählen Sie dazu das ![Symbol mit den drei Punkten](/help/assets/icons/more.png) neben dem Namen des Schemas und dann die Option **[!UICONTROL Schema aktualisieren]** aus.
 
 Sie können die Schemadefinition auch bei der Bearbeitung aktualisieren.
 
@@ -123,6 +123,6 @@ Sie können die Schemadefinition auch bei der Bearbeitung aktualisieren.
 
 ## Löschen eines Schemas {#schema-delete}
 
-Um ein Schema zu löschen, wählen Sie das ![Ellipsensymbol](/help/assets/icons/more.png) und dann **[!UICONTROL Löschen]** aus.
+Um ein Schema zu löschen, wählen Sie das ![Symbol mit den drei Punkten](/help/assets/icons/more.png) und dann die Option **[!UICONTROL Löschen]** aus.
 
 ![](assets/schema_delete.png){zoomable="yes"}

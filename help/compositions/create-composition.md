@@ -4,9 +4,9 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ Der erste Schritt zum Erstellen einer Komposition besteht darin, das ihr Label z
 
 ## Erstellen der Komposition {#create-the-composition}
 
-Um eine Komposition zu erstellen, wählen **[!UICONTROL Zielgruppen]** im Abschnitt **[!UICONTROL Kunde]** aus, gefolgt von der Registerkarte **[!UICONTROL Verknüpfte Kompositionen]**.
+Zum Erstellen einer Komposition wählen Sie **[!UICONTROL Zielgruppen]** im Abschnitt **[!UICONTROL Kundin bzw. Kunde]** aus, gefolgt von der Registerkarte **[!UICONTROL Föderierte Kompositionen]**.
 
-![Der Pfad für den Zugriff auf den Abschnitt „Federated Compositions“ ist hervorgehoben.](assets/create/access-compositions.png)
+![Der Pfad für Zugriff auf den Abschnitt „Föderierte Kompositionen“ ist hervorgehoben.](assets/create/access-compositions.png)
 
-Die Seite zum Durchsuchen verbundener Kompositionen wird angezeigt. Wählen Sie **[!UICONTROL Komposition erstellen]** aus, um mit dem Kompositionserstellungsprozess fortzufahren.
+Die Seite zum Durchsuchen föderierter Kompositionen wird angezeigt. Wählen Sie **[!UICONTROL Komposition erstellen]** aus, um mit dem Erstellen der Komposition fortzufahren.
 
 ![](assets/composition-create.png)
 
-Geben **[!UICONTROL im Abschnitt]** einen Titel für Ihre Komposition an und wählen Sie ein Datenmodell aus. In den Aktivitäten Ihrer Komposition sind nur die mit diesem Datenmodell verknüpften Schemata verfügbar.
+Geben Sie im Abschnitt **[!UICONTROL Eigenschaften]** ein Label für die Komposition an und wählen Sie ein Datenmodell aus. In den Aktivitäten Ihrer Komposition sind nur die mit diesem Datenmodell verknüpften Schemata verfügbar.
 
 ![](assets/composition-select-schema.png)
 
-Wählen Sie **[!UICONTROL Erstellen]**. Die Arbeitsfläche der Komposition wird angezeigt. Sie können nun Ihre Komposition konfigurieren, indem Sie so viele Aktivitäten hinzufügen, wie Sie benötigen, bevor Sie sie ausführen:
+Wählen Sie **[!UICONTROL Erstellen]** aus. Die Arbeitsfläche der Komposition wird angezeigt. Sie können nun Ihre Komposition konfigurieren, indem Sie so viele Aktivitäten hinzufügen, wie Sie benötigen, bevor Sie sie ausführen:
 
 * [Erfahren Sie, wie Sie Aktivitäten orchestrieren.](orchestrate-activities.md)
 * [Erfahren Sie, wie Sie eine Komposition starten und überwachen](start-monitor-composition.md)
@@ -50,9 +50,9 @@ Wählen Sie **[!UICONTROL Erstellen]**. Die Arbeitsfläche der Komposition wird 
 >title="Einstellungen für den Umgang mit Fehlern"
 >abstract="In diesem Abschnitt können Sie definieren, wie Fehler während der Ausführung behandelt werden sollen. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung der Komposition gestoppt werden soll."
 
-Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise definieren können, wie sich die Komposition im Fehlerfall verhalten soll.
+Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll. 
 
-Um auf diese zusätzlichen Optionen zuzugreifen, wählen **[!UICONTROL Einstellungen]** im oberen Abschnitt des Bildschirms für die Kompositionserstellung aus.
+Um auf diese zusätzlichen Optionen zuzugreifen, wählen Sie im oberen Abschnitt des Bildschirms zur Kompositionserstellung **[!UICONTROL Einstellungen]** aus.
 
 ![](assets/composition-create-settings.png)
 
