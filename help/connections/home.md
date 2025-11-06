@@ -4,9 +4,9 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1991'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
 >-**Föderierte Datenbank verwalten**
->&#x200B;>-**Föderierte Datenbank anzeigen**
+>-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -155,7 +155,7 @@ Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
 
 >[!IMPORTANT]
 >
->Die Federated-Audience-Komposition unterstützt die Einrichtung von Federated-Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern sie von einem externen Netzwerk zugänglich sind). Wenn Sie weitere Fragen zur Einrichtung der Oracle-Datenbank haben oder eine sichere Verbindung zu Oracle herstellen müssen, wenden Sie sich bitte an den Adobe-Kundendienst.
+>Die Komposition föderierter Zielgruppen unterstützt die Einrichtung von föderierten Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern Zugriff über ein externes Netzwerk besteht). Wenn Sie weitere Fragen zur Oracle-Datenbankeinrichtung haben oder eine sichere Verbindung mit Oracle herstellen müssen, wenden Sie sich bitte an die Adobe-Kundenunterstützung.
 
 Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
