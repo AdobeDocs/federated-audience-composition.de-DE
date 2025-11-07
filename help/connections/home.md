@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 89%
+source-wordcount: '2298'
+ht-degree: 86%
 
 ---
 
@@ -127,11 +127,15 @@ Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können S
 
 Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
+>[!NOTE]
+>
+>Bevor Sie eine Verbindung zu Google BigQuery mit OAuth 2.0 herstellen, müssen Sie Ihre Umleitungs-URL in Ihrem Google Cloud-Projekt konfigurieren. Fügen Sie die Umleitungs-URL-`https://fac-oauth.adobe.io/oauth` zu Ihrem Google Cloud-Projekt unter Ihrer OAuth 2.0-Client-ID-Konfiguration hinzu.
+
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Client-ID | Die Client-ID aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
 | Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Kennwort für Ihr Projekt. |
-| Redirection URL | Die URL, die die Anwendung nach erfolgreicher Autorisierung umleitet. |
+| Zugriffsbereich | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 
@@ -176,7 +180,7 @@ Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
 
 >[!TAB Oracle]
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Die Komposition föderierter Zielgruppen unterstützt die Einrichtung von föderierten Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern Zugriff über ein externes Netzwerk besteht). Wenn Sie weitere Fragen zur Oracle-Datenbankeinrichtung haben oder eine sichere Verbindung mit Oracle herstellen müssen, wenden Sie sich bitte an die Adobe-Kundenunterstützung.
 
@@ -205,6 +209,10 @@ Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können S
 | Passwort | Das Passwort für das Konto. |
 
 Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+
+>[!NOTE]
+>
+>Bevor Sie eine Verbindung zu Snowflake mit OAuth 2.0 herstellen, müssen Sie Ihre Umleitungs-URL in Ihrem Snowflake OAuth-Integrationsobjekt konfigurieren. Fügen Sie den Umleitungs-URL-`https://fac-oauth.adobe.io/oauth` zu Ihrer Snowflake OAuth-Integrationskonfiguration hinzu.
 
 | Feld | Beschreibung |
 | ----- | ----------- |
