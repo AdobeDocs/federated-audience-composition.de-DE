@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
-workflow-type: ht
-source-wordcount: '1991'
-ht-degree: 100%
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+workflow-type: tm+mt
+source-wordcount: '2224'
+ht-degree: 89%
 
 ---
 
@@ -59,6 +59,8 @@ Nach Auswahl eines Typs wird der Abschnitt **[!UICONTROL Details]** angezeigt. D
 >[!AVAILABILITY]
 >
 >Es werden nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless unterstützt.
+>
+>Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift Data Warehouse über einen privaten Link unterstützt.
 
 Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
@@ -111,11 +113,32 @@ Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
 
 >[!TAB Google BigQuery]
 
-Nach Auswahl von Google BigQuery können Sie die folgenden Details hinzufügen:
+>[!NOTE]
+>
+>Der sichere Zugriff auf Ihr externes Google BigQuery Data Warehouse über VPN wird unterstützt.
+
+Nach Auswahl von Google BigQuery können Sie auswählen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+
+Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Service-Konto | Die E-Mail-Adresse Ihres Service-Kontos. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Service-Konten](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+
+Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Client-ID | Die Client-ID aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Kennwort für Ihr Projekt. |
+| Redirection URL | Die URL, die die Anwendung nach erfolgreicher Autorisierung umleitet. |
+
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
+
+Nach Eingabe Ihrer Anmeldedaten können Sie die folgenden Details hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Schlüsseldateipfad | Die Schlüsseldatei zum Server. Es werden nur `json`-Dateien unterstützt. |
@@ -171,13 +194,30 @@ Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 >
 >Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 
-Nach Auswahl von Snowflake können Sie die folgenden Details hinzufügen:
+Nach Auswahl von Snowflake können Sie auswählen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+
+Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Servers. |
 | Benutzerin bzw. Benutzer | Der Benutzername für das Konto. |
 | Passwort | Das Passwort für das Konto. |
+
+Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Server | Der Name des Servers. |
+| Client-ID | Die Client-ID aus Ihrem Snowflake-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Kennwort für Ihr Projekt. |
+
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
+
+Nach Eingabe Ihrer Anmeldedaten können Sie die folgenden Details hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Privater Schlüssel | Der private Schlüssel für Ihre Datenbankverbindung. Sie können eine `.pem`-Datei von Ihrem lokalen System hochladen. |
