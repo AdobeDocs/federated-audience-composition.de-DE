@@ -3,7 +3,7 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
+source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 86%
@@ -277,3 +277,4 @@ Nachdem Sie die Details der Verbindung hinzugefügt haben, beachten Sie die folg
 | Testen der Verbindung | Ermöglicht die Überprüfung Ihrer Konfigurationsdetails. |
 
 Sie können jetzt **[!UICONTROL Funktionen freigeben]** und anschließend **[!UICONTROL Hinzufügen]** auswählen, um die Verbindung zwischen der föderierten Datenbank und Experience Platform fertigzustellen.
+
