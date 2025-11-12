@@ -4,9 +4,9 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 source-git-commit: aabe96fc223af5841c7b77ab914745d08d82ce49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2298'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Nach Auswahl eines Typs wird der Abschnitt **[!UICONTROL Details]** angezeigt. D
 >
 >Es werden nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless unterstützt.
 >
->Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift Data Warehouse über einen privaten Link unterstützt.
+>Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift-Data-Warehouse über einen privaten Link unterstützt.
 
 Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
@@ -115,31 +115,31 @@ Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
 
 >[!NOTE]
 >
->Der sichere Zugriff auf Ihr externes Google BigQuery Data Warehouse über VPN wird unterstützt.
+>Der sichere Zugriff auf Ihr externes Google BigQuery-Data-Warehouse über VPN wird unterstützt.
 
-Nach Auswahl von Google BigQuery können Sie auswählen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+Nach der Auswahl von Google BigQuery können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL Authentifizierung per Konto/Passwort]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Service-Konto | Die E-Mail-Adresse Ihres Service-Kontos. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Service-Konten](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
-Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 >[!NOTE]
 >
->Bevor Sie eine Verbindung zu Google BigQuery mit OAuth 2.0 herstellen, müssen Sie Ihre Umleitungs-URL in Ihrem Google Cloud-Projekt konfigurieren. Fügen Sie die Umleitungs-URL-`https://fac-oauth.adobe.io/oauth` zu Ihrem Google Cloud-Projekt unter Ihrer OAuth 2.0-Client-ID-Konfiguration hinzu.
+>Bevor Sie eine Verbindung zu Google BigQuery mit OAuth 2.0 herstellen, müssen Sie Ihre Umleitungs-URL in Ihrem Google Cloud-Projekt konfigurieren. Fügen Sie die Umleitungs-URL `https://fac-oauth.adobe.io/oauth` unter Ihrer OAuth 2.0-Client-ID-Konfiguration zu Ihrem Google Cloud-Projekt hinzu.
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Client-ID | Die Client-ID aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Kennwort für Ihr Projekt. |
-| Zugriffsbereich | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
 
-Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
 
-Nach Eingabe Ihrer Anmeldedaten können Sie die folgenden Details hinzufügen:
+Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
@@ -198,9 +198,9 @@ Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 >
 >Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 
-Nach Auswahl von Snowflake können Sie auswählen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+Nach der Auswahl von Snowflake können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL Authentifizierung per Konto/Passwort]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
@@ -208,21 +208,21 @@ Wenn Sie **[!UICONTROL Konto-/Kennwortauthentifizierung]** auswählen, können S
 | Benutzerin bzw. Benutzer | Der Benutzername für das Konto. |
 | Passwort | Das Passwort für das Konto. |
 
-Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 >[!NOTE]
 >
->Bevor Sie eine Verbindung zu Snowflake mit OAuth 2.0 herstellen, müssen Sie Ihre Umleitungs-URL in Ihrem Snowflake OAuth-Integrationsobjekt konfigurieren. Fügen Sie den Umleitungs-URL-`https://fac-oauth.adobe.io/oauth` zu Ihrer Snowflake OAuth-Integrationskonfiguration hinzu.
+>Bevor Sie eine Verbindung zu Snowflake mit OAuth 2.0 herstellen, müssen Sie Ihre Umleitungs-URL in Ihrem Snowflake OAuth-Integrationsobjekt konfigurieren. Fügen Sie die Umleitungs-URL `https://fac-oauth.adobe.io/oauth` zu Ihrer Snowflake OAuth-Integrationskonfiguration hinzu.
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Servers. |
 | Client-ID | Die Client-ID aus Ihrem Snowflake-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Kennwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
 
-Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
 
-Nach Eingabe Ihrer Anmeldedaten können Sie die folgenden Details hinzufügen:
+Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
