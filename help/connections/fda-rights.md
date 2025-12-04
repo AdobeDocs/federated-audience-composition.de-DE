@@ -3,7 +3,7 @@ title: Berechtigungen für den Zugriff auf externe Datenbanken
 description: Erfahren Sie, welche Berechtigungen Sie für den Zugriff auf jede Datenbank-Engine sowie das Durchführen von Aufgaben auf diesen benötigen
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
