@@ -2,8 +2,8 @@
 title: Zugriffssteuerung in der Komposition föderierter Zielgruppen
 description: Erfahren Sie, wie Sie in der Komposition föderierter Zielgruppen den Datenzugriff für Benutzende verwalten.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
-workflow-type: ht
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -74,10 +74,10 @@ Sie können den Benutzenden auch abhängig von den jeweils benötigten Berechtig
 | Komposition föderierter Zielgruppen – Kompositions-Managerinnen und -Manager | <ul><li>Föderierte Kompositionen verwalten</li></ul> |
 | Komposition föderierter Zielgruppen – Administratorinnen und Administratoren | <ul><li>Föderierte Daten verwalten</li></ul> |
 
-Die Person erhält dann eine E-Mail mit Anweisungen zum Zugriff auf Ihre Instanz. Wenn die Person vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
+Die Person erhält dann eine E-Mail mit Anweisungen zum Zugriff auf Ihre Instanz. Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 ## Verwalten von Zugriff auf bestimmte Kompositionen
 
 Sie können den Zugriff auf eine bestimmte Komposition verwalten, indem Sie Zugriffs-Labels anwenden.
 
-Weiterführende Informationen zum Anwenden von Zugriffs-Labels auf eine Komposition finden Sie im Abschnitt [Anwenden von Zugriffs-Labels](/help/compositions/gs-compositions.md#access-labels) des Kompositionshandbuchs.
+Weiterführende Informationen zum Anwenden von Zugriffs-Labels auf eine Komposition finden Sie im Abschnitt [Anwenden von Zugriffs-Labels](/help/compositions/home.md#access-labels) des Kompositionshandbuchs.

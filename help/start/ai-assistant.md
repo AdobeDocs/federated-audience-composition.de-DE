@@ -2,10 +2,10 @@
 title: Arbeiten mit dem KI-Assistenten
 description: Erfahren Sie, wie Sie den KI-Assistenten nutzen.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ Beispiele für solche Fragen sind:
 
 So stellen Sie eine Frage:
 
-1. Rufen Sie den KI-Assistenten auf, indem Sie auf das Symbol in der oberen Leiste klicken.
+1. Greifen Sie auf den KI-Assistenten zu, indem Sie auf das Symbol in der oberen Leiste klicken.
 
-   Der KI-Assistent wird rechts am Bildschirm angezeigt. Klicken Sie auf ![ALT-Text des Bilds](assets/do-not-localize/Smock_FullScreen_18_N.svg "Erweitern"), um das Fenster des KI-Assistenten zu erweitern.
+   Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für ](assets/do-not-localize/Smock_FullScreen_18_N.svg "/Erweitern") auswählen, um das Fenster des KI-Assistenten zu erweitern.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

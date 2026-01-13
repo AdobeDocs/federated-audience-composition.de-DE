@@ -2,61 +2,43 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: ht
-source-wordcount: '160'
-ht-degree: 100%
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 82%
 
 ---
 
 
 # Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform {#using}
 
-+ [Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform](home.md)
-+ [Versionshinweise](start/release-notes.md)
-+ [Versionshinweise](start/e-release-notes.md)
-+ Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
-   + [Was ist die Komposition föderierter Zielgruppen?](start/get-started.md)
-   + [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
-   + [Arbeiten mit Zielgruppen](start/audiences.md)
-   + [Arbeiten mit dem KI-Assistenten](start/ai-assistant.md)
-   + [Häufig gestellte Fragen](start/faq.md)
-+ Governance, Datenschutz, Sicherheit {#governance-privacy-security}
-   + [Überblick](./governance-privacy-security/home.md)
-   + [Zugriffssteuerung](governance-privacy-security/access-control.md)
-+ Konfigurationsschritte {#config}
-   + [Verbindungen – Überblick](connections/home.md)
-   + [Matrix der FDA-Berechtigungen](connections/fda-rights.md)
-   + Datenmodelle und Schemata{#datamodel}
-      + [Erstellen und Konfigurieren von Schemata](customer/schemas.md)
-      + [Konfigurieren der Datenmodelle](data-management/gs-models.md)
-   + [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
-+ Erstellen von Zielgruppen {#compositions}
-   + [Erste Schritte mit Kompositionen](compositions/gs-compositions.md)
-   + Erstellen und Ausführen Ihrer ersten Komposition {#create-composition}
-      + [Grundlegende Prinzipien der Kompositionserstellung](compositions/gs-composition-creation.md)
-      + [Erstellen und Konfigurieren der Komposition](compositions/create-composition.md)
-      + [Orchestrieren von Aktivitäten](compositions/orchestrate-activities.md)
-      + [Starten und Überwachen der Komposition](compositions/start-monitor-composition.md)
-   + Arbeiten mit Aktivitäten {#activities}
-      + [Liste der Aktivitäten](compositions/activities/about-activities.md)
-      + [Und-Verknüpfung](compositions/activities/and-join.md)
-      + [Zielgruppe erstellen](compositions/activities/build-audience.md)
-      + [Datenquelle ändern](compositions/activities/change-data-source.md)
-      + [Dimensionsänderung](compositions/activities/change-dimension.md)
-      + [Kombinieren](compositions/activities/combine.md)
-      + [Deduplizierung](compositions/activities/deduplication.md)
-      + [Anreicherung](compositions/activities/enrichment.md)
-      + [Verzweigung](compositions/activities/fork.md)
-      + [Abstimmung](compositions/activities/reconciliation.md)
-      + [Speichern einer Zielgruppe](compositions/activities/save-audience.md)
-      + [Speichern von Profilen](compositions/activities/save-profiles.md)
-      + [Planung](compositions/activities/scheduler.md)
-      + [Aufspaltung](compositions/activities/split.md)
-      + [Warten](compositions/activities/wait.md)
-+ Abfragen der Datenbank {#query-database}
-   + [Arbeiten mit dem Abfrage-Modeler](query/query-modeler-overview.md)
-   + [Erstellen Ihrer ersten Abfrage](query/build-query.md)
-   + [Bearbeiten von Ausdrücken](query/expression-editor.md)
-+ [Audit-Protokoll](admin/audit-trail.md)
-
+- [Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform](landing.md)
+- [Übersicht über die zusammengeführte Zielgruppenkomposition](./overview.md)
+- Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
+   - [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
+   - [Arbeiten mit Zielgruppen](start/audiences.md)
+   - [Arbeiten mit dem KI-Assistenten](start/ai-assistant.md)
+- Governance, Datenschutz, Sicherheit {#governance-privacy-security}
+   - [Übersicht](./governance-privacy-security/home.md)
+   - [Zugriffssteuerung](governance-privacy-security/access-control.md)
+- Verbindungen {#connections}
+   - [Verbindungen – Überblick](connections/home.md)
+   - [Matrix der Datenzugriffsrechte](connections/fda-rights.md)
+   - [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
+- Datenmodelle und Schemata {#models}
+   - [Übersicht über Schemata](data-modelling/schemas.md)
+   - [Übersicht über Datenmodelle](data-modelling/models.md)
+- Kompositionen {#compositions}
+   - [Übersicht über die Komposition](compositions/home.md)
+   - [Erstellen einer Komposition](compositions/create-composition.md)
+   - [Aktivitäten – Überblick](compositions/activities.md)
+- Abfrage-Modeler {#query-database}
+   - [QueryModeler - Übersicht](query/home.md)
+   - [Erstellen einer Abfrage](query/build-query.md)
+   - [Bearbeiten von Ausdrücken](query/expression-editor.md)
+- [Audit-Protokoll](admin/audit-trail.md)
+- [Häufig gestellte Fragen](./faq.md)
+- Versionshinweise {#release-notes}
+   - [Neueste Versionshinweise](./release-notes/latest.md)
+   - [2024](./release-notes/2024.md)
+   - [Vorab veröffentlichte Versionshinweise](./release-notes/e-release-notes.md)

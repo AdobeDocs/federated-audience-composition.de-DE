@@ -2,10 +2,10 @@
 title: Voraussetzungen und Leitlinien für die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Voraussetzungen, Berechtigungen und Leitlinien für die Komposition föderierter Zielgruppen
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ Die Komposition föderierter Zielgruppen unterstützt die folgenden Cloud-Wareho
 * Vertica Analytics
 * Microsoft Fabric
 
-Auf [dieser Seite](../connections/home.md) erfahren Sie, wie Sie eine Verbindung mit diesen Systemen herstellen.
+Wie Sie eine Verbindung mit diesen Systemen herstellen, erfahren Sie in der [Verbindungen - Übersicht](../connections/home.md).
 
 ## Sandboxes
 
@@ -39,7 +39,7 @@ Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Kompositi
 
 1. Rufen Sie in der Komposition föderierter Zielgruppen das Menü **[!UICONTROL Lizenznutzung]** unter **[!UICONTROL Administration]** auf.
 
-1. Klicken Sie auf das Symbol ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) unter **[!UICONTROL Gesamtvolumen der Datenausgabe]**, um auf Ihre Sandbox-Eigenschaften zuzugreifen.
+1. Wählen Sie das Symbol ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) unter **[!UICONTROL Gesamtvolumen des Datenausgangs]** aus, um auf Ihre Sandbox-Eigenschaften zuzugreifen.
 
    ![](assets/sandbox_1.png)
 

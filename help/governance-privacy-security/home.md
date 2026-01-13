@@ -2,8 +2,8 @@
 title: Datenschutz und Sicherheit bei der Komposition föderierter Zielgruppen
 description: Erfahren Sie, wie die Komposition föderierter Zielgruppen mit Datenschutz und Sicherheit für Benutzerdaten umgeht, einschließlich Funktionen wie Data Governance, Durchsetzung des Einverständnisses, Zugriffskontrolle, Datenverschlüsselung und Einhaltung von Datenschutzbestimmungen.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
-workflow-type: ht
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Sie können Data Governance nutzen, um die Daten Ihrer Kundinnen und Kunden zu v
 
 Mithilfe von Datennutzungs-Labels können Sie Datensätze und Felder basierend auf den für diese Daten geltenden Governance-Richtlinien kategorisieren. Nachdem Sie mithilfe von Kompositionen eine Zielgruppe erstellt haben, können Sie die entsprechenden Daten-Labels auf das resultierende Schema anwenden, um sicherzustellen, dass es die erforderlichen Nutzungseinschränkungen einhält.
 
-Weitere Informationen zur Verwendung von Daten-Labels in Kompositionen föderierter Zielgruppen finden Sie im Abschnitt [Anwenden von Zugriffs-Labels](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Weitere Informationen zur Verwendung von Daten-Labels in Kompositionen föderierter Zielgruppen finden Sie im Abschnitt [Anwenden von Zugriffs-Labels](../compositions/home.md#access-labels){target="_blank"}.
 
 ## Datenschutz
 
@@ -95,11 +95,11 @@ Weiterführende Informationen zu kundenseitig verwalteten Schlüsseln finden Sie
 
 ### Auditprotokoll {#audit-log}
 
-Alle Erstellungs-, Lese-, Aktualisierungs- und Löschvorgänge, die in der Komposition föderierter Zielgruppen ausgeführt werden, werden im Audit-Protokoll protokolliert. Sie können dieses Audit-Protokoll verwenden, um diese Aktionen zu verfolgen, die Verantwortlichkeit durchzusetzen und Compliance-Audits zu unterstützen.
+Alle Erstellungs-, Lese-, Aktualisierungs- und Löschvorgänge, die in der Komposition föderierter Zielgruppen ausgeführt werden, werden im Audit-Protokoll protokolliert. Sie können dieses Auditprotokoll verwenden, um diese Aktionen zu verfolgen, die Verantwortlichkeit durchzusetzen und Compliance-Audits zu unterstützen.
 
 Weiterführende Informationen finden Sie im [Überblick über das Audit-Protokoll](/help/admin/audit-trail.md){target="_blank"}.
 
-### Zugangssteuerung {#access-control}
+### Zugriffssteuerung {#access-control}
 
 Sie können den Zugriff auf die Komposition föderierter Zielgruppen sowohl auf einer feld- als auch auf einer rollenbasierten Ebene steuern. Sie können diese Zugriffskontrollen verwenden, um Data-Governance-Richtlinien durchzusetzen, die Offenlegung vertraulicher Daten zu begrenzen und den Zugriff auf die Zuständigkeiten der Benutzenden abzustimmen.
 

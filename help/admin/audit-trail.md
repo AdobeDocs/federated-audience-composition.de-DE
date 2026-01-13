@@ -3,7 +3,7 @@ audience: end-user
 title: Audit-Protokoll
 description: Erfahren Sie, wie Aktionen und Ereignisse im Audit-Protokoll protokolliert und zur Verfügung gestellt werden
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 100%
@@ -31,7 +31,7 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet ständig ein detaillierte
 
 * Mit dem **Audit-Protokoll für Quellschemata** können Sie Aktivitäten und jüngste Änderungen an Ihren Schemata in der Adobe-Instanz „Komposition föderierter Zielgruppen“ zu überwachen.
 
-  Detaillierte Informationen zu Schemata finden Sie auf dieser [Seite](../customer/schemas.md).
+  Detaillierte Informationen zu Schemata finden Sie auf dieser [Seite](../data-modelling/schemas.md).
 
 * Das **Workflow-Audit-Protokoll** ermöglicht es Ihnen, Aktivitäten und aktuelle Änderungen an Workflows zu verfolgen, einschließlich der aktuellen Status wie:
 
@@ -44,7 +44,7 @@ Die Funktion **[!UICONTROL Audit-Protokoll]** zeichnet ständig ein detaillierte
    * Wecken, was der Aktion „Vorgezogene Ausführung der ausstehenden Aufgaben“ entspricht
    * Unbedingter Stopp
 
-  Weiterführende Informationen zu Workflows finden Sie auf [dieser Seite](../compositions/gs-compositions.md).
+  Weiterführende Informationen zu Workflows finden Sie auf [dieser Seite](../compositions/home.md).
 
 * Mit **Externes Konto** können Sie Änderungen an externen Konten in der Adobe-Instanz „Zielgruppenkomposition“ überprüfen.
 

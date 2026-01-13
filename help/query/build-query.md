@@ -3,16 +3,16 @@ audience: end-user
 title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2063'
+ht-degree: 91%
 
 ---
 
 # Erstellen Ihrer ersten Abfrage {#build-query}
 
-Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion, die Sie ausführen wollen, vom gewünschten Speicherort aus auf den Abfrage-Modeler zu. Der Abfrage-Modeler wird mit einer leeren Arbeitsfläche geöffnet. Klicken Sie auf die Schaltfläche **+**, um den ersten Knoten der Abfrage zu konfigurieren.
+Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion, die Sie ausführen wollen, vom gewünschten Speicherort aus auf den Abfrage-Modeler zu. Der Abfrage-Modeler wird mit einer leeren Arbeitsfläche geöffnet. Wählen Sie die Schaltfläche **+** aus, um den ersten Knoten Ihrer Abfrage zu konfigurieren.
 
 Sie können zwei Elementtypen hinzufügen:
 
@@ -44,9 +44,9 @@ Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Fil
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
-1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Benutzerdefinierte Bedingung]** aus. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
+1. Wählen Sie auf dem gewünschten Knoten die Schaltfläche **+** und dann **[!UICONTROL Benutzerdefinierte Bedingung]**. Der Bereich mit den benutzerdefinierten Bedingungseigenschaften wird auf der rechten Seite geöffnet.
 
-1. Wählen Sie im Feld **[!UICONTROL Attribut]** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Datenbank, einschließlich Attributen aus verknüpften Tabellen.
+2. Wählen Sie im Feld **[!UICONTROL Attribut]** das Attribut aus der Datenbank aus, das Sie zum Erstellen Ihrer Bedingung verwenden möchten. Die Attributliste enthält alle Attribute aus Ihrer Datenbank, einschließlich Attributen aus verknüpften Tabellen.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    >
    >Über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** können Sie den Ausdruckseditor starten, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
-1. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
+3. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
    +++Liste der verfügbaren Operatoren
 
@@ -77,9 +77,9 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    | Ist wie | „Ist wie“ ist dem Operator „Enthält“ sehr ähnlich. er erlaubt jedoch das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Der Platzhalter wird hier wie ein „Joker“ verwendet. In diesem Fall werden alle Empfängerinnen und Empfänger ausgegeben, deren Nachname z. B. „Meyer“ oder „Meier“ lautet. |
    | Ist nicht wie | „Ist wie“ ist dem Operator „Enthält“ sehr ähnlich. er erlaubt jedoch das Einfügen des Platzhalters „%“ im Wert. | Nachname (@lastName) nicht wie „Schmi%t“. Hier werden die Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, nicht zurückgegeben. |
 
-+++
+   +++
 
-1. Legen Sie im Feld **[!UICONTROL Wert]** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell einen Ausdruck zu definieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+4. Legen Sie im Feld **[!UICONTROL Wert]** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell einen Ausdruck zu definieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
@@ -109,7 +109,7 @@ Hier ist ein Abfragebeispiel, bei dem eine Tabellenverknüpfung direkt ausgewäh
 
 ![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfrage zu verfeinern, wie im folgenden Beispiel gezeigt.
 
@@ -133,7 +133,7 @@ In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die
 
    ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Arbeiten mit aggregierten Daten {#aggregate}
 
@@ -156,7 +156,7 @@ Mit benutzerdefinierten Bedingungen können Sie Aggregierungsvorgänge ausführe
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe zu filtern:
 
-1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Zielgruppe auswählen]** aus.
+1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Audience auswählen]** aus.
 
 1. Der Bereich mit den Eigenschaften **[!UICONTROL Zielgruppe auswählen]** wird auf der rechten Seite geöffnet. Wählen Sie die Zielgruppe aus, die Sie zum Filtern Ihrer Abfrage verwenden möchten.
 
@@ -173,7 +173,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe einer vorhandenen Zielgruppe z
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mithilfe eines vordefinierten Filters zu filtern:
 
-1. Klicken Sie auf die Schaltfläche **+** auf dem gewünschten Knoten und wählen Sie **[!UICONTROL Vordefinierter Filter]** aus.
+1. Wählen Sie auf dem gewünschten Knoten die Schaltfläche **+** und dann **[!UICONTROL Vordefinierter Filter]** aus.
 
 1. Der Bereich mit den Eigenschaften **[!UICONTROL Vordefinierter Filter]** wird auf der rechten Seite geöffnet. Wählen Sie einen Filter aus der Liste der vordefinierten Filter oder aus den Favoriten aus.
 
@@ -191,15 +191,15 @@ Mithilfe des Abfrage-Modelers können Sie eine oder mehrere Filterkomponenten ko
 
 Gehen Sie wie folgt vor, um Filterkomponenten zu kopieren und einzufügen:
 
-1. Klicken Sie in der Abfragearbeitsfläche auf die Filterkomponente, die Sie kopieren möchten. Um mehrere Komponenten auszuwählen, verwenden Sie das Tool zur Mehrfachauswahl in der Symbolleiste oben rechts auf der Arbeitsfläche.
+1. Wählen Sie die Filterkomponente aus, die Sie kopieren möchten, indem Sie sie auf der Arbeitsfläche „Abfrage“ auswählen. Um mehrere Komponenten auszuwählen, verwenden Sie das Tool zur Mehrfachauswahl in der Symbolleiste oben rechts auf der Arbeitsfläche.
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Kopieren]** im Eigenschaften-Fenster der Komponente oder in der blauen Leiste unten im Bildschirm, wenn Sie mehrere Komponenten ausgewählt haben.
+1. Klicken Sie **[!UICONTROL die Schaltfläche]** Kopieren“ im Eigenschaftenbereich der Komponente oder im blauen Menüband unten auf dem Bildschirm, wenn Sie mehrere Komponenten ausgewählt haben.
 
    | Kopieren einer einzelnen Komponente | Kopieren mehrerer Komponenten |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Um die Komponente(n) einzufügen, klicken Sie auf die Schaltfläche „+“ am Ende der gewünschten Transition und wählen Sie **[!UICONTROL (n) Elemente einfügen]**.
+1. Um die Komponente(n) einzufügen, wählen Sie am Ende der gewünschten Transition die Schaltfläche + und dann **[!UICONTROL n Elemente einfügen]** aus.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -216,7 +216,7 @@ In diesem Beispiel haben wir für die zweite Transition neue Zielgruppentyp-Filt
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Um den Operator für die Verknüpfung der Filterbedingungen zu ändern, klicken Sie darauf und wählen Sie den gewünschten Operator im Bereich **[!UICONTROL Gruppe]** aus, der sich rechts öffnet.
+Um den Operator zu ändern, der zum Verknüpfen von Filterbedingungen verwendet wird, wählen Sie ihn und den gewünschten Operator im Bereich **[!UICONTROL Gruppe]** aus, der auf der rechten Seite geöffnet wird.
 
 Die folgenden Operatoren sind verfügbar:
 
@@ -226,7 +226,7 @@ Die folgenden Operatoren sind verfügbar:
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf die Schaltfläche **+** auf einer Transition klicken. Auf diese Weise können Sie einen Operator an dieser bestimmten Stelle hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
+Darüber hinaus können Sie Zwischengruppen von Komponenten erstellen, indem Sie auf der Transition die Schaltfläche **+** auswählen. Auf diese Weise können Sie einen Operator an dieser bestimmten Stelle hinzufügen, um mehrere Komponenten zu gruppieren und Ihre Abfrage zu verfeinern.
 
 Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus den Zielgruppen „Zu belohnende VIP“ oder „Super VIP“ einzubeziehen.
 
@@ -237,7 +237,7 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Regeleigenschaften"
->abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieldatensätze überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
+>abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieleinträge überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
 
 Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese im Bereich **[!UICONTROL Regeleigenschaften]** auf der rechten Seite überprüfen. Dieser Bereich wird angezeigt, wenn Sie eine Abfrage zum Erstellen einer Zielgruppe erstellen. Verfügbare Vorgänge sind:
 
@@ -250,7 +250,7 @@ Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese
   >
   >Wählen Sie im Bereich „Regeleigenschaften“ einen vordefinierten Filter aus, der die in der Arbeitsfläche erstellte Abfrage ersetzt.
 
-Wenn Ihre Abfrage fertig ist, klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]** in der rechten oberen Ecke, um sie zu speichern.
+Wenn Ihre Abfrage fertig ist, klicken Sie auf die **[!UICONTROL Bestätigen]**-Schaltfläche oben rechts, um sie zu speichern.
 
 Sie können Ihre Abfrage jederzeit ändern, indem Sie sie öffnen. Beachten Sie, dass beim Öffnen einer vorhandenen Abfrage diese in einer vereinfachten Ansicht angezeigt wird, ohne dass die Schaltflächen **+** angezeigt werden. Um der Abfrage neue Elemente hinzuzufügen, wählen Sie eine Komponente oder einen Operator auf der Arbeitsfläche aus, um die Schaltflächen **+** anzuzeigen.
 
