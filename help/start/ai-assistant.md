@@ -29,7 +29,7 @@ So stellen Sie eine Frage:
 
 1. Greifen Sie auf den KI-Assistenten zu, indem Sie auf das Symbol in der oberen Leiste klicken.
 
-   Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für ](assets/do-not-localize/Smock_FullScreen_18_N.svg "/Erweitern") auswählen, um das Fenster des KI-Assistenten zu erweitern.
+   Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg "/Erweitern") auswählen, um das Fenster des KI-Assistenten zu erweitern.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 

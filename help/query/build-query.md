@@ -24,7 +24,7 @@ Sie können zwei Elementtypen hinzufügen:
 
 * **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, die Filterkomponenten im Diagramm zu gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**&#x200B;in New York **ODER**&#x200B;San Francisco leben*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 

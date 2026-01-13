@@ -139,7 +139,7 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu **Abschnitt E-Ausschlussregeln****Regel hinzufügen** und geben Sie die Schemaänderungsbedingungen an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
+>abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu **Abschnitt E-Ausschlussregeln**&#x200B;**Regel hinzufügen** und geben Sie die Schemaänderungsbedingungen an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -519,7 +519,7 @@ Nachdem Sie mehrere Aktivitäten hinzugefügt haben, um mindestens zwei verschie
 
 ![](./assets/activities/and-join.png)
 
-Im Abschnitt **Zusammenführungsoptionen** können Sie alle Aktivitäten auswählen, die Sie synchronisieren möchten. Darüber hinaus können Sie im Dropdown-Menü **Primäre Gruppe} auswählen** welche eingehende Transition beibehalten werden soll.
+Im Abschnitt **Zusammenführungsoptionen** können Sie alle Aktivitäten auswählen, die Sie synchronisieren möchten. Darüber hinaus können Sie im Dropdown-Menü **Primäre Gruppe&rbrace; auswählen** welche eingehende Transition beibehalten werden soll.
 
 +++
 
