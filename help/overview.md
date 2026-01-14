@@ -86,7 +86,7 @@ Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische A
 
 Auf [dieser Seite](./start/access-prerequisites.md) erfahren Sie, wie Sie auf die Funktion „Komposition föderierter Zielgruppen“, Leitlinien und Einschränkungen zugreifen können.
 
-Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience &#x200B;](./faq.md).
+Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience ](./faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
