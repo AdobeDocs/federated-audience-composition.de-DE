@@ -4,9 +4,9 @@ title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '610'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
    * Databricks
    * Microsoft Fabric
 
-1. Wählen Sie **[!UICONTROL Federated-Datenbank]**, mit der Sie eine Verbindung herstellen möchten, gefolgt von **[!UICONTROL Weiter]** aus.
+1. Wählen Sie die **[!UICONTROL föderierte Datenbank]** aus, mit der Sie eine Verbindung herstellen möchten, und klicken Sie anschließend auf **[!UICONTROL Weiter]**.
 
    ![](assets/destination-configure.png)
 
@@ -52,11 +52,11 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    Weitere Informationen zu Warnhinweisen finden Sie in der Dokumentation zu Adobe Experience Platform zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
-1. Im Schritt **[!UICONTROL Governance-Richtlinien und Durchsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
+1. Im Schritt **[!UICONTROL Governance-Richtlinie und Umsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
 
    Wenn Sie die gewünschten Marketing-Aktionen für das Ziel ausgewählt haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Die neue Verbindung zum Ziel wird erstellt. Sie können nun Zielgruppen aktivieren, um sie an das Ziel zu senden. Wählen Sie dazu die gewünschte Vorlage aus der Liste aus und klicken Sie auf **[!UICONTROL Weiter]**
+1. Die neue Verbindung zum Ziel wird erstellt. Sie können nun Zielgruppen aktivieren, um sie an das Ziel zu senden. Wählen Sie sie hierzu aus der Liste aus und klicken Sie anschließend auf **[!UICONTROL Weiter]**.
 
    ![](assets/destination-activate.png)
 
@@ -81,7 +81,7 @@ Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an
 
    ![](assets/destination-attributes.png)
 
-1. Überprüfen Sie die Zielkonfiguration und die Zielgruppeneinstellungen und wählen Sie dann **[!UICONTROL Beenden]** aus.
+1. Überprüfen Sie die Zielkonfiguration und die Zielgruppeneinstellungen und klicken Sie dann auf **[!UICONTROL Beenden]**.
 
    ![](assets/destination-review.png)
 

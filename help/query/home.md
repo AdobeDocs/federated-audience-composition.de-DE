@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Modeler-Übersicht abfragen
-description: Erfahren Sie, wie Sie mit dem Abfrage-Modellierer Regeln zum Filtern Ihrer Datenbank definieren.
+title: Überblick über den Abfrage-Modeler
+description: Erfahren Sie, wie Sie mit dem Abfrage-Modeler Regeln zum Filtern Ihrer Datenbank definieren.
 exl-id: b77b9d1c-61d5-4d6d-9d82-3c72bc9c932a
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# QueryModeler - Übersicht {#query-modeler}
+# Überblick über den Abfrage-Modeler {#query-modeler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
@@ -28,7 +28,7 @@ Der Abfrage-Modeler ist in jedem Kontext verfügbar, in dem Sie Regeln zum Filte
 | **Zielgruppen definieren**: Geben Sie die Population an, die Sie in Ihren Kompositionen ansprechen möchten, und erstellen Sie mühelos neue Zielgruppen, die auf Ihre Anforderungen zugeschnitten sind.  | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **Aktivitäten anpassen**: Wenden Sie Regeln innerhalb von Kompositionsktivitäten an, z. B. **Aufspaltung** und **Abstimmung**, um sie an Ihre spezifischen Anforderungen anzupassen.  [Erfahren Sie mehr zu Kompositionsaktivitäten](../compositions/activities.md). | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-## Benutzeroberfläche des Abfrage-Modellierers {#interface}
+## Benutzeroberfläche des Abfrage-Modelers {#interface}
 
 Der Abfrage-Modeler bietet eine zentrale Arbeitsfläche, auf der Sie Ihre Abfrage erstellen, sowie einen rechten Bereich mit Informationen zu Ihrer Abfrage.
 

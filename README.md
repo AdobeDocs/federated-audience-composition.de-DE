@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 # Artikel beitragen
@@ -26,8 +26,8 @@ Für dieses Projekt gilt der [Adobe Open Source-Verhaltenskodex](code-of-conduct
 Wenn Sie eine geringfügige Aktualisierung beitragen:
 
 1. Navigieren Sie zu dem Thema, das Sie bearbeiten möchten.
-2. Klicken Sie im Banner „War dieser Inhalt hilfreich?“ Wählen Sie im unteren Bereich Ihres Browser-Fensters die Option **Detaillierte Feedback-Optionen**.
-3. Wählen Sie **Bearbeitung vorschlagen** und senden Sie eine Pull-Anfrage (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
+2. Klicken Sie im Banner „War dieser Inhalt hilfreich?“ unten im Browser-Fenster auf **Detaillierte Feedback-Optionen**.
+3. Wählen Sie **Bearbeitung vorschlagen** aus und übermitteln Sie eine Pull-Anfrage mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
 
    Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
 

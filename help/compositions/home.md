@@ -4,13 +4,13 @@ title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Kompositionen - Übersicht
+# Überblick über Kompositionen
 
 >[!AVAILABILITY]
 >
@@ -25,11 +25,11 @@ Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen
 
 ![In der Komposition föderierter Zielgruppen wird ein beispielhafter Kompositions-Workflow angezeigt.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
-## Komponenten für Kompositionen {#components}
+## Komponenten von Kompositionen {#components}
 
-Eine Komposition innerhalb der Federated-Audience-Komposition besteht aus den folgenden Teilen:
+Eine Komposition innerhalb der Komposition föderierter Zielgruppen besteht aus den folgenden Teilen:
 
-- **[!UICONTROL Aktivitäten]**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll und in der Komposition durch Symbole dargestellt wird.
+- **[!UICONTROL Aktivitäten]**: Eine Aktivität ist eine Aufgabe, die ausgeführt werden soll. Aktivitäten werden in der Komposition durch Symbole dargestellt.
 - **[!UICONTROL Transitionen]**: Transitionen verknüpfen eine Quellaktivität mit einer Zielaktivität und definieren deren Sequenz. Die in den Transitionen enthaltenen Informationen werden in einer Arbeitstabelle gespeichert. Jede Komposition verwendet mehrere Arbeitstabellen. Die in diesen Tabellen enthaltenen Daten können während des gesamten Lebenszyklus der Komposition verwendet werden.
 
 ## Zugreifen auf und Verwalten von Kompositionen {#access}
@@ -53,7 +53,7 @@ Sie können auch Informationen zu den Kompositionen anzeigen, einschließlich Na
 | **[!UICONTROL Ausgesetzt]** | Die Ausführung der Komposition wurde angehalten. |
 | **[!UICONTROL Fehlerhaft]** | Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Um weitere Informationen zum Fehler anzuzeigen, öffnen Sie die Komposition und greifen Sie auf die Protokolle zu. |
 
-Wie Sie eine Komposition starten oder stoppen, erfahren Sie im [Handbuch zur Komposition erstellen](./create-composition.md#monitor-logs).
+Weitere Informationen zum Starten oder Stoppen einer Komposition finden Sie im [Handbuch zum Erstellen einer Komposition](./create-composition.md#monitor-logs).
 
 ![Eine Liste der verfügbaren Kompositionen wird angezeigt.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
@@ -84,7 +84,7 @@ Weitere Informationen zu Zugriff und Data-Governance-Labels finden Sie im [Gloss
 
 ## Erstellen {#create}
 
-Sie können eine Komposition für Adobe Experience Platform mithilfe von Audience-Komposition erstellen. Weitere Informationen finden Sie im Handbuch [Erstellen einer Komposition](./create-composition.md).
+Sie können eine Komposition für Adobe Experience Platform mithilfe einer Zielgruppenkomposition erstellen. Weitere Informationen finden Sie im [Handbuch zum Erstellen einer Komposition](./create-composition.md).
 
 ## Nächste Schritte
 

@@ -3,7 +3,7 @@ title: Datenschutz und Sicherheit bei der Komposition föderierter Zielgruppen
 description: Erfahren Sie, wie die Komposition föderierter Zielgruppen mit Datenschutz und Sicherheit für Benutzerdaten umgeht, einschließlich Funktionen wie Data Governance, Durchsetzung des Einverständnisses, Zugriffskontrolle, Datenverschlüsselung und Einhaltung von Datenschutzbestimmungen.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
 ht-degree: 100%
 

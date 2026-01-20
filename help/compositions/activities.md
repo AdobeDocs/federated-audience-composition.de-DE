@@ -1,27 +1,27 @@
 ---
 audience: end-user
-title: Aktivitäten – Überblick
-description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in der Federated Audience-Komposition verfügbar sind.
+title: Überblick über Aktivitäten
+description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4619'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# Aktivitäten – Überblick
+# Überblick über Aktivitäten
 
-In der föderierten Zielgruppenkomposition können Sie Aktivitäten und Transitionen hinzufügen, mit denen Sie Ihre Zielgruppe definieren können.
+Sie können der Komposition föderierter Zielgruppen Aktivitäten und Transitionen hinzufügen, mit denen Sie Ihre Zielgruppe definieren können.
 
 ## Aktivitäten {#activities}
 
 Mit Aktivitäten können Sie die Komponenten in der Zielgruppe definieren.
 
-Es gibt **zwei** verschiedene Arten von Aktivitäten, die innerhalb der Federated Audience Composition verwendet werden können: Zielgruppenbestimmungs- und Flusssteuerungsaktivitäten.
+Es gibt **zwei** verschiedene Arten von Aktivitäten, die innerhalb einer Komposition föderierter Zielgruppen verwendet werden können: Targeting-Aktivitäten und Aktivitäten zur Flusssteuerung.
 
-### Aktivitäten zur Zielgruppenbestimmung {#targeting}
+### Targeting-Aktivitäten {#targeting}
 
-Mit Zielgruppenbestimmungsaktivitäten können Sie festlegen, woraus Ihre Audience für die Komposition besteht.
+Mit Targeting-Aktivitäten können Sie definieren, woraus die Zielgruppe für die Komposition besteht.
 
 #### Erstellen einer Zielgruppe
 
@@ -30,25 +30,25 @@ Mit Zielgruppenbestimmungsaktivitäten können Sie festlegen, woraus Ihre Audien
 >title="Zielgruppe"
 >abstract="Wählen Sie die Zielgruppe aus."
 
-Mit **Aktivität** Zielgruppe aufbauen“ können Sie Ihre Zielpopulation für die Komposition definieren. Sie können entweder eine bestehende Zielgruppe auswählen oder den Abfrage-Modeler verwenden, um Ihre eigene Abfrage zu definieren.
+Mit der Aktivität **Zielgruppe erstellen** können Sie die Zielgruppenpopulation für die Komposition definieren. Sie können entweder eine bestehende Zielgruppe auswählen oder den Abfrage-Modeler verwenden, um Ihre eigene Abfrage zu definieren.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie die Aktivität **Zielgruppe aufbauen** zur Arbeitsfläche für die Komposition hinzugefügt haben, geben Sie Ihrer Zielgruppe einen Namen. Jetzt können Sie angeben, ob Sie eine Zielgruppe erstellen oder eine vorhandene verwenden möchten.
+Nachdem Sie die Aktivität **Zielgruppe erstellen** zur Arbeitsfläche der Komposition hinzugefügt haben, geben Sie Ihrer Zielgruppe einen Namen. Sie können nun angeben, ob Sie eine Zielgruppe erstellen oder eine bestehende Zielgruppe verwenden möchten.
 
 >[!BEGINTABS]
 
->[!TAB Neue Zielgruppe erstellen]
+>[!TAB Erstellen einer neuen Zielgruppe]
 
-Wählen Sie nach Auswahl **Zielgruppe erstellen** das **Schema** für Ihre Zielgruppe aus. Mit dem Schema können Sie die Population definieren, auf die sich der Vorgang bezieht, z. B. Empfänger, Vertragsbegünstigte, Benutzer oder Abonnenten. Standardmäßig wird das Schema aus den Empfängerinnen und Empfängern ausgewählt. 
+Wählen Sie nach Auswahl von **Zielgruppe erstellen** das **Schema** für Ihre Zielgruppe aus. Mit dem Schema können Sie die vom Vorgang betroffene Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende definieren. Standardmäßig wird das Schema aus den Empfängerinnen und Empfängern ausgewählt. 
 
 ![](./assets/activities/build-audience-create.png)
 
-Klicken Sie nach Auswahl eines Schemas auf **Weiter**. Sie können jetzt die Definition Ihrer Zielgruppe in der Abfrage-Modeler definieren. Weitere Informationen zur Verwendung der Abfrage-Modeler finden Sie unter [Abfrage-Modeler - Übersicht](../query/home.md).
+Wählen Sie nach Auswahl eines Schemas **Weiter** aus. Sie können jetzt die Definition Ihrer Zielgruppe im Abfrage-Modeler definieren. Weitere Informationen zur Verwendung des Abfrage-Modelers finden Sie unter [Überblick über den Abfrage-Modeler](../query/home.md).
 
->[!TAB Vorhandene Zielgruppe verwenden]
+>[!TAB Verwenden einer bestehenden Zielgruppe]
 
-Klicken Sie nach **Auswahl von** Zielgruppe lesen **auf „Weiter**.
+Wählen Sie nach Auswahl von **Zielgruppe lesen** die Option **Weiter** aus.
 
 ![](./assets/activities/build-audience-read.png)
 
@@ -56,17 +56,17 @@ Sie können jetzt auswählen, welche Zielgruppe Sie für Ihre Komposition verwen
 
 >[!ENDTABS]
 
-Nachdem Sie Ihre Optionen ausgewählt haben, können Sie **Ausgehende Transition erzeugen**. Mit dieser Option können Sie eine ausgehende Transition hinzufügen, die am Ende der Ausführung der Aktivität aktiviert wird, wenn die Zielgruppen-Population leer ist.
+Nachdem Sie Ihre Optionen ausgewählt haben, können Sie **Ausgehende Transition erzeugen** auswählen. Die Auswahl dieser Option ermöglicht es Ihnen, eine ausgehende Transition hinzuzufügen, die am Ende der Aktivitätsausführung aktiviert wird, sofern die Zielgruppenpopulation leer ist.
 
 +++
 
 #### Datenquelle ändern
 
-Mit **Aktivität „Datenquelle ändern** können Sie ändern, welche Datenquelle von Ihrer Komposition verwendet wird.
+Mit der Aktivität **Datenquelle ändern** können Sie die von Ihrer Komposition verwendete Datenquelle ändern.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie die Aktivität **Datenquelle ändern** zu Ihrer Kompositions-Arbeitsfläche hinzugefügt haben, können Sie die Datenquelle definieren, die für die Komposition verwendet wird.
+Nachdem Sie die Aktivität **Datenquelle ändern** zur Arbeitsfläche der Komposition hinzugefügt haben, können Sie die Datenquelle definieren, die für die Komposition verwendet werden soll.
 
 ![Die Datenquellenoption wird im Arbeitsbereich „Komposition föderierter Zielgruppen“ hervorgehoben.](./assets/activities/configure.png){zoomable="yes"}{width="70%"}
 
@@ -92,11 +92,11 @@ Nach Auswahl des **[!UICONTROL externen FDA-Kontos]** können Sie auswählen, mi
 >title="Aktivität „Dimensionsänderung“"
 >abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema.  Beispielsweise können Sie vom Schema „Verträge“ zum Schema „Kundinnen und Kunden“ wechseln."
 
-Die **Dimensionsänderung** Aktivität ermöglicht die Änderung des Schemas (auch als Zielgruppendimension bezeichnet) Ihrer Komposition.
+Mit der Aktivität **Dimensionsänderung** können Sie das Schema (auch als Zielgruppendimension bezeichnet) Ihrer Komposition ändern.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie die Aktivität **Dimensionsänderung** zu Ihrer Kompositions-Arbeitsfläche hinzugefügt haben, können Sie ein neues Schema definieren, das das vorherige Schema ersetzt. Während dieser Schemaänderung werden alle Datensätze beibehalten.
+Nachdem Sie die Aktivität **Dimensionsänderung** zur Arbeitsfläche der Komposition hinzugefügt haben, können Sie ein neues Schema definieren, um das vorherige Schema zu ersetzen. Während dieser Schemaänderung werden alle Einträge beibehalten.
 
 ![](./assets/activities/change-dimension.png)
 
@@ -119,12 +119,12 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Optionen für die Zusammenführung von Ausschlüssen"
->abstract="Mit **Ausschluss** können Sie gemäß bestimmten Kriterien Elemente aus einer Population ausschließen. Aktivieren Sie im Abschnitt **Zusammenzuführende Mengen** alle vorherigen Aktivitäten, die Sie zusammenfügen möchten."
+>abstract="Mit einem **Ausschluss** können Sie entsprechende Elemente gemäß bestimmten Kriterien aus einer Population ausschließen. Aktivieren Sie im Abschnitt **Zusammenzuführende Mengen** alle vorherigen Aktivitäten, die Sie zusammenfügen möchten."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Auswählen des Segmentierungstyps"
->abstract="Auswählen, wie Audiences kombiniert werden sollen: Vereinigung, Schnittmenge oder Ausschluss."
+>abstract="Wählen Sie aus, wie Zielgruppen kombiniert werden sollen: Vereinigung, Schnittmenge oder Ausschluss."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -139,7 +139,7 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu **Abschnitt E-Ausschlussregeln**&#x200B;**Regel hinzufügen** und geben Sie die Schemaänderungsbedingungen an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
+>abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu im Abschnitt **Ausschlussregeln** die Option **Regel hinzufügen** aus und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -149,7 +149,7 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu **Abschnitt** Ausschlussregeln **die Option „Regel hinzufügen** und geben Sie die Schemaänderungsbedingungen an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
+>abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu im Abschnitt **Ausschlussregeln** die Option **Regel hinzufügen** aus und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -158,17 +158,17 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 
 >[!NOTE]
 >
->Die Aktivität **Kombinieren** **muss** nach einer anderen Aktivität platziert werden und **kann** nicht am Anfang der Komposition platziert werden.
+>Die Aktivität **Kombinieren** muss **unbedingt** nach einer anderen Aktivität platziert werden und **kann nicht** am Anfang der Komposition platziert werden.
 
-Die Aktivität **Kombinieren** ermöglicht es, mehrere Zielgruppen auf unterschiedliche Weise zusammenzuführen: Vereinigung, Schnittmenge oder Ausschluss.
+Mit der Aktivität **Kombinieren** können Sie mehrere Zielgruppen auf unterschiedliche Weise zusammenführen: Vereinigung, Schnittmenge oder Ausschluss.
 
-- **Vereinigung**: Eine Vereinigung kombiniert die verschiedenen Zielgruppen zu einer einzigen Zielgruppe. Dies entspricht einem OR-Vorgang.
-- **Schnittmenge**: Eine Schnittmenge kombiniert die verschiedenen Zielgruppen zu einer einzigen Zielgruppe, wobei nur der **freigegebene** Inhalt beibehalten wird. Dies entspricht einem AND-Vorgang.
-- **Ausschluss**: Bei einem Ausschluss werden die verschiedenen Zielgruppen ohne die angegebenen Ausschlussregeln zu einer einzigen Zielgruppe zusammengefasst. Dies entspricht einem XOR-Vorgang.
+- **Vereinigung**: Bei einer Vereinigung werden die verschiedenen Zielgruppen zu einer einzigen Zielgruppe kombiniert. Dies entspricht einem ODER-Vorgang.
+- **Schnittmenge**: Bei einer Schnittmenge werden die verschiedenen Zielgruppen zu einer einzigen Zielgruppe kombiniert, wobei nur der **gemeinsame** Inhalt beibehalten wird. Dies entspricht einem UND-Vorgang.
+- **Ausschluss**: Bei einem Ausschluss werden die verschiedenen Zielgruppen ohne die angegebenen Ausschlussregeln zu einer einzigen Zielgruppe kombiniert. Dies entspricht einem XOR-Vorgang.
 
 +++ Konfigurationsdetails
 
-Fügen Sie nach dem Hinzufügen mehrerer Aktivitäten zu mindestens **zwei** verschiedenen Verzweigungen die Aktivität **Kombinieren** am Ende eines der Verzweigungen hinzu. Sie können jetzt eine der Kombinationsoptionen - Vereinigung, Schnittmenge oder Ausschluss - auswählen.
+Fügen Sie nach dem Hinzufügen mehrerer Aktivitäten zum Erstellen von mindestens **zwei** verschiedenen Verzweigungen die Aktivität **Kombinieren** am Ende einer der Verzweigungen hinzu. Sie können jetzt eine der Kombinationsoptionen (Vereinigung, Schnittmenge oder Ausschluss) auswählen.
 
 ![](./assets/activities/combine.png)
 
@@ -178,31 +178,31 @@ Fügen Sie nach dem Hinzufügen mehrerer Aktivitäten zu mindestens **zwei** ver
 
 ![](./assets/activities/combine-union.png)
 
-Bei Auswahl von **Vereinigung** müssen Sie die Art **Abstimmung** für die Aktivität Kombinieren auswählen. Über den Abstimmtyp können Sie festlegen, wie doppelte Einträge verarbeitet werden.
+Bei Auswahl von **Vereinigung** müssen Sie den **Abstimmtyp** für die Aktivität „Kombinieren“ auswählen. Mit dem Abstimmtyp können Sie definieren, wie doppelte Einträge verarbeitet werden.
 
-- **Nur Schlüssel**: Wenn Sie **Nur Schlüssel** auswählen, wird **ein** Element beibehalten, wenn mehrere Elemente denselben Schlüssel haben. Sie können diese Option nur verwenden, wenn die eingehenden Populationen homogen sind.
-- **Auswahl von Spalten**: Durch Auswahl von **Auswahl von Spalten** können Sie eine Liste von Spalten definieren, auf die die Datenabstimmung angewendet wird. Sie können den primären Datensatz auswählen, der die Quelldaten enthält, gefolgt von den für den Join zu verwendenden Spalten.
+- **Nur die Schlüssel**: Wenn Sie **Nur die Schlüssel** auswählen, wird **ein** Element beibehalten, wenn mehrere Elemente denselben Schlüssel haben. Sie können diese Option nur verwenden, wenn die eingehenden Populationen homogen sind.
+- **Auswahl an Spalten**: Wenn Sie **Auswahl an Spalten** auswählen, können Sie eine Liste an Spalten definieren, auf die die Datenabstimmung angewendet wird. Sie können den primären Datensatz auswählen, der die Quelldaten enthält, gefolgt von den für den Join zu verwendenden Spalten.
 
 >[!TAB Schnittmenge]
 
 ![](./assets/activities/combine-intersection.png)
 
-Bei Auswahl von **Schnittmenge** müssen Sie die **Abstimmart** für die Aktivität Kombinieren auswählen. Über den Abstimmtyp können Sie festlegen, wie doppelte Einträge verarbeitet werden.
+Bei Auswahl von **Schnittmenge** müssen Sie den **Abstimmtyp** für die Aktivität „Kombinieren“ auswählen. Mit dem Abstimmtyp können Sie definieren, wie doppelte Einträge verarbeitet werden.
 
-- **Nur Schlüssel**: Wenn Sie **Nur Schlüssel** auswählen, wird **ein** Element beibehalten, wenn mehrere Elemente denselben Schlüssel haben. Sie können diese Option nur verwenden, wenn die eingehenden Populationen homogen sind.
-- **Auswahl von Spalten**: Durch Auswahl von **Auswahl von Spalten** können Sie eine Liste von Spalten definieren, auf die die Datenabstimmung angewendet wird.
+- **Nur die Schlüssel**: Wenn Sie **Nur die Schlüssel** auswählen, wird **ein** Element beibehalten, wenn mehrere Elemente denselben Schlüssel haben. Sie können diese Option nur verwenden, wenn die eingehenden Populationen homogen sind.
+- **Auswahl an Spalten**: Wenn Sie **Auswahl an Spalten** auswählen, können Sie eine Liste an Spalten definieren, auf die die Datenabstimmung angewendet wird.
 
-Nach der Konfiguration des Abstimmtyps können Sie auch die Option **Komplement erzeugen** auswählen. Beim Generieren eines Komplements wird die verbleibende Population verarbeitet und die Daten (**)** Teil der Schnittmenge enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
+Nach der Konfiguration des Abstimmtyps können Sie auch die Option **Komplement erzeugen** auswählen. Beim Erzeugen eines Komplements wird die verbleibende Population verarbeitet. Die Daten, die **nicht** Teil der Schnittmenge sind, sind dabei enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
 
 >[!TAB Ausschluss]
 
 ![](./assets/activities/combine-exclusion.png)
 
-Wenn Sie **Ausschluss** auswählen, müssen Sie das **Primäre Set** aus Ihren eingehenden Transitionen auswählen. Stellt die Sätze dar, aus denen die Elemente ausgeschlossen werden.
+Bei Auswahl von **Ausschluss** müssen Sie die **Hauptmenge** aus den eingehenden Transitionen auswählen. Dies entspricht den Mengen, aus denen die Elemente ausgeschlossen werden.
 
-Nachdem Sie die primäre Gruppe ausgewählt haben, können Sie Ihre **Ausschlussregeln** einrichten. Sie können entweder **Übereinstimmung nach Attribut** oder **Zusammenführen** auswählen.
+Nachdem Sie die Hauptmenge ausgewählt haben, können Sie Ihre **Ausschlussregeln** einrichten. Sie können entweder **Übereinstimmung mit Attribut** oder **Join** auswählen.
 
-Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Option **Komplement erzeugen** auswählen. Beim Generieren eines Komplements wird die verbleibende Population verarbeitet und die Daten (**)** Teil des Ausschlusses enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
+Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Option **Komplement erzeugen** auswählen. Beim Erzeugen eines Komplements wird die verbleibende Population verarbeitet. Die Daten, die **nicht** Teil des Ausschlusses sind, sind dabei enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
 
 +++
 
@@ -211,7 +211,7 @@ Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Optio
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Felder zum Identifizieren von Duplikaten"
->abstract="Klicken Sie im Abschnitt **[!UICONTROL Felder zur Identifizierung von Duplikaten]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um die Felder anzugeben, für die die identischen Werte die Identifizierung der Duplikate ermöglichen, z. B.: E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen."
+>abstract="Wählen Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Duplikaten]** die Schaltfläche **[!UICONTROL Attribut hinzufügen]** aus, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte ermöglicht werden soll, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -234,20 +234,20 @@ Die Aktivität **Deduplizierung** entfernt alle doppelten Ergebnisse innerhalb d
 
 >[!NOTE]
 >
->Wenn Sie mehrere eingehende Transitionen haben, müssen Sie zunächst das **Primäre Set** aus der Dropdown-Liste auswählen.
+>Wenn Sie über mehrere eingehende Transitionen verfügen, müssen Sie zunächst die **Hauptmenge** aus der Dropdown-Liste auswählen.
 
-Nach dem Hinzufügen **Aktivität** Deduplizierung“ können Sie die Felder auswählen, um Duplikate zu identifizieren. Wählen Sie **Attribut hinzufügen**, um die Felder zu identifizieren, in denen Duplikate auftreten können.
+Nach Hinzufügen einer Aktivität des Typs **Deduplizierung** können Sie die Felder zum Identifizieren von Duplikaten auswählen. Wählen Sie **Attribut hinzufügen** aus, um die Felder zu identifizieren, in denen Duplikate auftreten können.
 
 ![](./assets/activities/deduplication.png)
 
-Nachdem Sie Ihre Felder identifiziert haben, können Sie Ihre Deduplizierungseinstellungen konfigurieren.
+Nachdem Sie die Felder identifiziert haben, können Sie Ihre Deduplizierungseinstellungen konfigurieren.
 
 | Einstellung | Beschreibung |
 | ------- | ----------- |
-| Beizubehaltende Duplikate | Die Anzahl der doppelten Einträge, die beibehalten werden sollen. Wenn der Wert auf 0 gesetzt ist **werden** doppelte Einträge beibehalten. |
-| Deduplizierungsmethode | Die Methode zum Entfernen der doppelten Einträge. <ul><li>**Zufällige Auswahl**: Der entfernte Datensatz wird zufällig ausgewählt.</li><li>**Verwenden eines**: Der entfernte Datensatz basiert auf dem gesendeten Ausdruck. Sie können je nach den Werten, die Sie entfernen möchten, entweder in auf- oder absteigender Reihenfolge sortieren.</li><li>**Nicht leere Werte**: Der entfernte Datensatz basiert auf dem gesendeten Ausdruck. Datensätze, für die der Ausdruck keinen Wert hat, werden entfernt.</li><li>**Nach einer Werteliste**: Der entfernte Datensatz basiert auf dem gesendeten Feld oder Ausdruck. Sie können die verbleibenden Werte zufällig, in aufsteigender oder absteigender Reihenfolge sortieren.</li></ul> |
+| Beizubehaltende Duplikate | Die Anzahl der doppelten Einträge, die beibehalten werden sollen. Wenn der Wert auf 0 festgelegt ist, werden **alle** doppelten Einträge beibehalten. |
+| Deduplizierungsmethode | Die Methode zum Entfernen der doppelten Einträge. <ul><li>**Zufällige Auswahl**: Der entfernte Eintrag wird zufällig ausgewählt.</li><li>**Von einem Ausdruck ausgehend**: Der entfernte Eintrag basiert auf dem übermittelten Ausdruck. Sie können abhängig von den zu entfernenden Werten entweder in aufsteigender oder absteigender Reihenfolge sortieren.</li><li>**Wert nicht leer**: Der entfernte Eintrag basiert auf dem übermittelten Ausdruck. Es werden die Einträge entfernt, für die der Ausdruck keinen Wert hat.</li><li>**Gemäß einer Werteliste**: Der entfernte Eintrag basiert auf dem übermittelten Feld oder Ausdruck. Sie können die verbleibenden Werte zufällig, in aufsteigender oder absteigender Reihenfolge sortieren.</li></ul> |
 
-Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim Generieren eines Komplements wird die verbleibende Population verarbeitet und die Daten (**)** Teil der Deduplizierung enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
+Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim Erzeugen eines Komplements wird die verbleibende Population verarbeitet. Die Daten, die **nicht** Teil der Deduplizierung sind, sind dabei enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
 
 +++
 
@@ -278,7 +278,7 @@ Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim 
 >title="Anreicherungsdaten"
 >abstract="Wählen Sie die zur Anreicherung Ihrer Komposition zu verwendenden Daten aus. Sie können zwei Arten von Anreicherungsdaten auswählen: ein einzelnes Anreicherungsattribut aus dem Schema, auch bekannt als Zielgruppendimension, oder eine Sammlungsrelation, bei der es sich um eine Verknüpfung mit einer 1:n-Kardinalität zwischen Tabellen handelt."
 
-Mit **Aktivität „Anreicherung** können Sie Ihre Komposition verbessern, indem Sie zusätzliche Daten aus Ihrer Federated Database hinzufügen.
+Mit der Aktivität **Anreicherung** können Sie Ihre Komposition durch Hinzufügen zusätzlicher Daten aus der föderierten Datenbank erweitern.
 
 Wenn Sie eine Verbindung zum Ziel „Komposition föderierter Zielgruppen“ konfiguriert haben, können Sie mit der Aktivität „Anreicherung“ Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anreichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../connections/destinations.md)
 
@@ -286,9 +286,9 @@ Wenn Sie eine Verbindung zum Ziel „Komposition föderierter Zielgruppen“ kon
 
 >[!NOTE]
 >
->Wenn Sie mehrere eingehende Transitionen haben, müssen Sie zunächst das **Primäre Set** aus der Dropdown-Liste auswählen.
+>Wenn Sie über mehrere eingehende Transitionen verfügen, müssen Sie zunächst die **Hauptmenge** aus der Dropdown-Liste auswählen.
 
-Nachdem Sie die Aktivität **Anreicherung** zu Ihrer Komposition hinzugefügt haben, können Sie **Anreicherungsdaten hinzufügen** auswählen, um das Attribut auszuwählen, das Sie zur Anreicherung Ihrer Komposition verwenden möchten. Sie können auf **Ausdruck bearbeiten** klicken, um einen erweiterten Ausdruck zur Auswahl des Attributs zu erstellen.
+Nachdem Sie die Aktivität **Anreicherung** zu Ihrer Komposition hinzugefügt haben, können Sie **Anreicherungsdaten hinzufügen** auswählen, um das Attribut auszuwählen, das Sie zur Anreicherung Ihrer Komposition verwenden möchten. Sie können **Ausdruck bearbeiten** auswählen, um einen erweiterten Ausdruck zur Auswahl des Attributs zu erstellen.
 
 ![](./assets/activities/enrichment.png)
 
@@ -343,35 +343,35 @@ Nachdem Sie die Aktivität **Anreicherung** zu Ihrer Komposition hinzugefügt ha
 
 >[!NOTE]
 >
->Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition beibehalten und stehen in der Arbeitstabelle für die zukünftige Verwendung zur Verfügung. Wenn **nicht möchten** dass abgeglichene Daten verwendet werden, deaktivieren Sie die Option **Nicht abgeglichene Daten beibehalten**.
+>Standardmäßig werden nicht abgestimmte Daten in der ausgehenden Transition beibehalten und sind in der Arbeitstabelle zur zukünftigen Verwendung verfügbar. Wenn Sie **nicht** möchten, dass abgestimmte Daten verwendet werden, deaktivieren Sie die Option **Nicht abgestimmte Daten beibehalten**.
 
-Mit **Aktivität** Abstimmung“ können Sie die Relation zwischen den Daten in Ihrer Federated Database und den Daten in einer Arbeitstabelle definieren.
+Mit der Aktivität **Abstimmung** können Sie die Verknüpfung zwischen den Daten in der föderierten Datenbank und den Daten in einer Arbeitstabelle definieren.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie die Aktivität **Abstimmung** zu Ihrer Komposition hinzugefügt haben, können Sie auswählen, welches Schema für die Abstimmung verwendet werden soll.
+Nachdem Sie die Aktivität **Abstimmung** zu Ihrer Komposition hinzugefügt haben, können das Schema auswählen, das für die Abstimmung verwendet werden soll.
 
-Nachdem Sie das Schema ausgewählt haben, müssen Sie Ihre Abstimmregeln einrichten. Sie können zwischen **Einfache Attribute** oder **Erweiterte Abstimmbedingungen** wählen.
+Nachdem Sie das Schema ausgewählt haben, müssen Sie Ihre Abstimmregeln einrichten. Sie können zwischen **Einfache Attribute** oder **Erweiterte Abstimmbedingungen** auswählen.
 
 >[!BEGINTABS]
 
 >[!TAB Einfache Attribute]
 
-Wählen Sie nach **Auswahl von** Einfache Attribute **die Option „Regel hinzufügen** aus. Sie können jetzt die Abstimmung einrichten, indem Sie die Felder **Source** und **Destination** hinzufügen. Das Feld **Ziel** entspricht den Feldern des ausgewählten Schemas.
+Wählen Sie nach Auswahl von **Einfache Attribute** die Option **Regel hinzufügen** aus. Sie können jetzt die Abstimmung einrichten, indem Sie die Felder **Quelle** und **Ziel** hinzufügen. Das Feld **Ziel** entspricht den Feldern des ausgewählten Schemas.
 
 ![](./assets/activities/reconciliation-rules.png)
 
-Daten werden abgestimmt, wenn Quelle und Ziel identisch sind. Sie können weitere Abstimmkriterien hinzufügen, indem Sie **Regel hinzufügen** auswählen. Wenn mehrere Join-Bedingungen angegeben sind **müssen** alle) überprüft werden, damit die Daten miteinander verknüpft werden können.
+Daten werden abgestimmt, wenn Quelle und Ziel gleich sind. Sie können weitere Abstimmkriterien hinzufügen, indem Sie **Regel hinzufügen** auswählen. Wenn mehrere Join-Bedingungen angegeben sind, müssen **alle** überprüft werden, damit die Daten miteinander verknüpft werden können.
 
 >[!TAB Erweiterte Abstimmbedingungen]
 
-Nachdem Sie **Erweiterte Abstimmbedingungen** ausgewählt haben, wählen Sie **Bedingungen erstellen**. Jetzt können Sie mit dem Abfrage-Modellierer Ihre eigene Abstimmbedingung erstellen. Weitere Informationen zur Verwendung der Abfrage-Modeler finden Sie unter [Abfrage-Modeler - Übersicht](../query/home.md)
+Wählen Sie nach Auswahl von **Erweiterte Abstimmbedingungen** die Option **Bedingungen erstellen** aus. Sie können nun mithilfe des Abfrage-Modelers eine eigene Abstimmbedingung erstellen. Weitere Informationen zur Verwendung des Abfrage-Modelers finden Sie unter [Überblick über den Abfrage-Modeler](../query/home.md).
 
 ![](./assets/activities/reconciliation-advanced.png)
 
 >[!ENDTABS]
 
-Sie können auch die abgeglichenen Daten filtern. Wählen Sie **Filter erstellen** aus, um mithilfe der Abfrage-Modeler eine benutzerdefinierte Bedingung zu erstellen. Weitere Informationen zur Verwendung der Abfrage-Modeler finden Sie unter [Abfrage-Modeler - Übersicht](../query/home.md)
+Sie können die abgestimmten Daten auch filtern. Wählen Sie **Filter erstellen** aus, um mithilfe des Abfrage-Modelers eine benutzerdefinierte Bedingung zu erstellen. Weitere Informationen zur Verwendung des Abfrage-Modelers finden Sie unter [Überblick über den Abfrage-Modeler](../query/home.md).
 
 +++
 
@@ -405,21 +405,21 @@ Sie können auch die abgeglichenen Daten filtern. Wählen Sie **Filter erstellen
 >
 >Weitere Informationen zu Zusammenführungsrichtlinien finden Sie im [Überblick über Zusammenführungsrichtlinien](https://experienceleague.adobe.com/de/docs/experience-platform/profile/merge-policies/overview).
 
-Mit **Aktivität &quot;** speichern“ können Sie eine Zielgruppe erstellen, die auf der Komposition basiert. Nachdem die Zielgruppe erstellt wurde, können Sie sie in Audience Portal in Adobe Experience Platform verwenden. Weiterführende Informationen zur Verwendung von Zielgruppen mit Federated Audience-Komposition finden Sie im Abschnitt [Zielgruppen - Übersicht](../start/audiences.md). Weitere Informationen zu Zielgruppen in Experience Platform finden Sie im Abschnitt [Zielgruppenportal - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
+Mit der Aktivität **Zielgruppe speichern** können Sie eine Zielgruppe basierend auf der Komposition erstellen. Nachdem die Zielgruppe erstellt wurde, können Sie sie im Zielgruppenportal in Adobe Experience Platform verwenden. Weitere Informationen zum Verwenden von Zielgruppen mit der Komposition föderierter Zielgruppen finden Sie unter [Überblick über Zielgruppen](../start/audiences.md). Weitere Informationen zu Zielgruppen in Experience Platform finden Sie unter [Überblick über das Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 +++ Konfigurationsdetails
 
 >[!IMPORTANT]
 >
->Der Name der Zielgruppe **muss** innerhalb der aktuellen Sandbox eindeutig sein und darf nicht denselben Namen wie eine vorhandene Zielgruppe haben.
+>Der Name der Zielgruppe **muss** innerhalb der aktuellen Sandbox eindeutig sein und darf nicht derselbe Name wie der einer vorhandenen Zielgruppe sein.
 
-Nachdem Sie die Aktivität **Audience speichern** zu Ihrer Komposition hinzugefügt haben, können Sie den Namen Ihrer neu erstellten Audience angeben.
+Nachdem Sie die Aktivität **Zielgruppe speichern** zu Ihrer Komposition hinzugefügt haben, können Sie den Namen der neu erstellten Zielgruppe angeben.
 
 ![](./assets/activities/save-audience.png)
 
-Jetzt können Sie Ihre Zuordnungen angeben, um auszuwählen, welche Felder Sie an die neu erstellte Zielgruppe übertragen möchten. Wählen Sie **Zielgruppenzuordnung hinzufügen** und wählen Sie die Quell- und Zielgruppenfelder aus. Wiederholen Sie dies so oft wie nötig.
+Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an die neu erstellte Zielgruppe übertragen möchten. Wählen Sie **Zielgruppenzuordnung hinzufügen** und anschließend das Quellzielgruppenfeld und das Zielgruppenfeld aus. Wiederholen Sie dies so oft wie nötig.
 
-Nachdem Sie Ihre Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die Zielgruppenprofile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird verwendet, um die Profile zu identifizieren, während der Identity-Namespace als Schlüssel zur Identifizierung der Identität dient.
+Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die Zielgruppenprofile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
 
 +++
 
@@ -438,7 +438,7 @@ Nachdem Sie Ihre Zuordnungen hinzugefügt haben, können Sie die primäre Identi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="Filter für die Aufspaltungsaktivität"
->abstract="Um eine Filterbedingung auf die Teilmenge anzuwenden, wählen Sie **[!UICONTROL Filter erstellen]** aus und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modellierers. Es können beispielsweise alle Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
+>abstract="Wählen Sie zum Anwenden einer Filterbedingung auf eine Teilmenge **[!UICONTROL Filter erstellen]** aus und konfigurieren Sie die gewünschte Filterregel mithilfe des Abfrage-Modelers. Es können beispielsweise alle Profile aus der eingehenden Population eingeschlossen werden, deren E-Mail-Adresse in der Datenbank vorhanden ist."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -470,62 +470,62 @@ Nachdem Sie Ihre Zuordnungen hinzugefügt haben, können Sie die primäre Identi
 >title="Überschneidung der Ausgabepopulationen zulassen"
 >abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind. Wenn das Kästchen nicht aktiviert ist, stellt die Aufspaltungsaktivität sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren Ausgangstransitionen vorhanden sein kann, selbst wenn sie bzw. er die Kriterien mehrerer Teilmengen erfüllt. Sie bzw. er befindet sich in der Zielgruppe der ersten Registerkarte mit entsprechenden Kriterien. Wenn das Kästchen aktiviert ist, können die Empfangenden in mehreren Teilmengen gefunden werden, falls sie ihren Filterkriterien entsprechen. "
 
-Die **Aufspaltung**-Aktivität unterteilt die eingehende Population je nach den angegebenen Kriterien in mehrere Teile.
+Die Aktivität **Aufspaltung** unterteilt die eingehende Population je nach den angegebenen Kriterien in mehrere Teile.
 
 +++ Konfigurationsdetails
 
 >[!IMPORTANT]
 >
->Wenn die **Aufspaltung**-Aktivität ausgeführt wird, wird die Population in der Reihenfolge, in der **hinzugefügt werden, über die verschiedenen Teilmengen**. Wenn beispielsweise die erste Teilmenge 70 % der ursprünglichen Population aufteilt, wendet die nächste Teilmenge ihre Auswahlkriterien auf die verbleibenden 30 % an.
+>Bei Ausführung der Aktivität **Aufspaltung** wird die Population auf die verschiedenen Teilmengen aufgeteilt, und zwar in der **Reihenfolge, in der diese hinzugefügt wurden**. Wenn beispielsweise 70 % der Anfangspopulation auf die erste Teilmenge aufgespaltet werden, werden die Auswahlkriterien der nächsten Teilmenge nur auf die restlichen 30 % angewendet.
 >
 >Stellen Sie vor dem Ausführen der Komposition sicher, dass Sie die Teilmengen in der Reihenfolge sortiert haben, in der die Aufspaltung ausgeführt werden soll.
 
-Nachdem Sie Ihrer Komposition die **Split**-Aktivität hinzugefügt haben, können Sie jetzt bestimmen, wie Sie Ihre Audience in Untergruppen unterteilen. Wählen Sie **Segment hinzufügen** aus, um Ihre verschiedenen Verzweigungspfade zu erstellen.
+Nachdem Sie die Aktivität **Aufspaltung** zu Ihrer Komposition hinzugefügt haben, können Sie nun die Teilmengen Ihrer Zielgruppe bestimmen. Wählen Sie **Segment hinzufügen** aus, um die verschiedenen Verzweigungspfade zu erstellen.
 
-Sie können jetzt Details für jeden dieser Unterpfade angeben. Sie können dem Unterpfad einen Namen sowie die Filterbedingungen geben. Um eine Filterbedingung zu erstellen, wählen Sie **Filter erstellen** aus und konfigurieren Sie die Filterregel mithilfe der Abfrage-Modeler. Weitere Informationen zur Verwendung der Abfrage-Modeler finden Sie unter [Abfrage-Modeler - Übersicht](../query/home.md).
+Sie können jetzt Details für jeden dieser Teilpfade angeben. Sie können dem Teilpfad einen Namen sowie Filterbedingungen geben. Wählen Sie zum Erstellen einer Filterbedingung **Filter erstellen** aus und konfigurieren Sie die Filterregel mithilfe des Abfrage-Modelers. Weitere Informationen zur Verwendung des Abfrage-Modelers finden Sie unter [Überblick über den Abfrage-Modeler](../query/home.md).
 
 Nachdem Sie Ihre Filterbedingung erstellt haben, können Sie die folgenden zusätzlichen Regeln anwenden:
 
-- **Begrenzung aktivieren**: Begrenzt die Anzahl der Profile, die in die Teilmenge aufgeteilt werden dürfen. Sie können dies als eine Zahl oder einen Prozentsatz der Population festlegen.
-   - Wenn Sie ein Limit aktivieren, können Sie die ausgewählten Profile auch nach einem bestimmten Profilattribut ordnen. Aktivieren Sie **Sortierung aktivieren** und Sie können die Attribute in auf- oder absteigender Reihenfolge sortieren.
+- **Grenzwert aktivieren**: Begrenzt die Anzahl der Profile, die in die Teilmenge aufgespaltet werden dürfen. Sie können dies als eine Zahl oder einen Prozentsatz der Population festlegen.
+   - Wenn Sie einen Grenzwert aktivieren, können Sie die ausgewählten Profile auch nach einem bestimmten Profilattribut ordnen. Aktivieren Sie **Sortierung aktivieren**, um die Attribute in aufsteigender oder absteigender Reihenfolge zu sortieren.
 - **Leere Transition überspringen**: Deaktiviert die Transition, wenn die eingehende Population leer ist.
 
-Nachdem die Teilmengen konfiguriert wurden, gibt es einige zusätzliche Optionen, die Sie festlegen können.
+Nach der Konfiguration der Teilmengen können Sie einige weitere Optionen festlegen.
 
 | Optionen | Beschreibung |
 | ------- | ----------- |
 | **Komplement erzeugen** | Erstellt eine ausgehende Transition, die die verbleibende Population enthält. |
-| **Überlappung der Ausgabepopulationen zulassen** | Wenn diese Option aktiviert **, kann** Empfänger in mehreren ausgehenden Transitionen vorhanden sein und **nur** in der ersten ausgehenden Transition vorhanden sein. Wenn diese Option deaktiviert ist **kann der Empfänger** mehreren ausgehenden Transitionen angezeigt werden. |
-| **Generieren Sie alle Teilmengen in derselben Tabelle** | Gruppiert alle Teilmengen in einer einzigen ausgehenden Transition. |
+| **Überschneidung der Ausgabepopulationen zulassen** | Wenn diese Option aktiviert ist, kann die Empfängerin bzw. der Empfänger **nicht** in mehreren ausgehenden Transitionen enthalten sein, sondern ist **nur** in der ersten ausgehenden Transition enthalten. Wenn diese Option deaktiviert ist, **kann** die Empfängerin bzw. der Empfänger in mehreren ausgehenden Transitionen enthalten sein. |
+| **Alle Teilmengen in derselben Tabelle erzeugen** | Gruppiert alle Teilmengen in einer einzigen ausgehenden Transition. |
 
 +++
 
 ### Aktivitäten zur Flusssteuerung {#flow-control}
 
-Mit Flusssteuerungsaktivitäten können Sie die Organisation und Koordinierung Ihrer Komposition definieren.
+Mit Aktivitäten zur Flusssteuerung können Sie die Organisation und Koordinierung Ihrer Komposition definieren.
 
-#### Und beitreten
+#### Und-Verknüpfung
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
->title="Aktivität &quot;UND-Verknüpfung&quot;"
+>title="Aktivität „UND-Verknüpfung“"
 >abstract="Die Aktivität **Und-Verknüpfung** ermöglicht es, die Ausführung verschiedener Kompositionsverzweigungen zu synchronisieren. Sie wird ausgelöst, sobald alle vorangehenden Aktivitäten beendet sind. Auf diese Weise können Sie sicherstellen, dass bestimmte Aktivitäten abgeschlossen sind, bevor Sie mit der Ausführung der Komposition fortfahren."
 
-Die **UND-Verknüpfung** ermöglicht es, mehrere Verzweigungen einer Komposition miteinander zu kombinieren. Diese Aktivität wird erst ausgelöst **wenn** eingehenden Transitionen aktiviert werden.
+Mit der Aktivität **UND-Verknüpfung** können Sie mehrere Verzweigungen einer Komposition miteinander kombinieren. Diese Aktivität wird erst ausgelöst, wenn **alle** eingehenden Transitionen aktiviert sind.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie mehrere Aktivitäten hinzugefügt haben, um mindestens zwei verschiedene Verzweigungen zu bilden, können Sie die Aktivität **UND-Verknüpfung** an das Ende eines beliebigen der Verzweigungen hinzufügen.
+Nachdem Sie mehrere Aktivitäten zum Erstellen von mindestens zwei verschiedenen Verzweigungen hinzugefügt haben, können Sie die Aktivität **UND-Verknüpfung** am Ende einer der Verzweigungen hinzufügen.
 
 ![](./assets/activities/and-join.png)
 
-Im Abschnitt **Zusammenführungsoptionen** können Sie alle Aktivitäten auswählen, die Sie synchronisieren möchten. Darüber hinaus können Sie im Dropdown-Menü **Primäre Gruppe&rbrace; auswählen** welche eingehende Transition beibehalten werden soll.
+Im Abschnitt **Zusammenführungsoptionen** können Sie alle Aktivitäten auswählen, die Sie synchronisieren möchten. Darüber hinaus können Sie in der Dropdown-Liste **Hauptmenge** auswählen, welche eingehende Transition beibehalten werden soll.
 
 +++
 
 #### Ende
 
-Die **Ende**-Aktivität markiert grafisch das Ende der Komposition und hat keine funktionalen Auswirkungen.
+Die Aktivität **Ende** kennzeichnet das Ende der Komposition grafisch und hat keine funktionalen Auswirkungen.
 
 #### Verzweigung
 
@@ -537,13 +537,13 @@ Die **Ende**-Aktivität markiert grafisch das Ende der Komposition und hat keine
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Transitionen von Verzweigungsaktivitäten"
->abstract="Standardmäßig werden zwei Transitionen mit einer **Verzweigungsaktivität** erstellt. Wählen Sie die **Transition hinzufügen**, um eine zusätzliche ausgehende Transition zu definieren, und geben Sie ihren Titel ein."
+>abstract="Standardmäßig werden zwei Transitionen mit einer **Verzweigungsaktivität** erstellt. Wählen Sie die Schaltfläche **Transition hinzufügen** aus, um eine zusätzliche ausgehende Transition zu definieren, und geben Sie deren Label ein."
 
-Mit **Aktivität Verzweigung** Sie mehrere ausgehende Transitionen erstellen, die gleichzeitig mehrere Aktivitäten starten.
+Mit der Aktivität **Verzweigung** können Sie mehrere ausgehende Transitionen erstellen, die gleichzeitig mehrere Aktivitäten starten.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie Ihrer Komposition die Aktivität **Verzweigung** hinzugefügt haben, werden automatisch zwei ausgehende Transitionen generiert. Sie können diesen ausgehenden Transitionen einen Namen geben. Darüber hinaus können Sie **Transition hinzufügen** auswählen, um eine weitere ausgehende Transition hinzuzufügen.
+Nachdem Sie die Aktivität **Verzweigung** zu Ihrer Komposition hinzugefügt haben, werden automatisch zwei ausgehende Transitionen generiert. Sie können diesen ausgehenden Transitionen einen Namen geben. Darüber hinaus können Sie **Transition hinzufügen** auswählen, um eine weitere ausgehende Transition hinzuzufügen.
 
 ![](./assets/activities/fork.png)
 
@@ -566,11 +566,11 @@ Nachdem Sie Ihrer Komposition die Aktivität **Verzweigung** hinzugefügt haben,
 >title="Planungsoptionen"
 >abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
 
-Die **Planung**-Aktivität ermöglicht die Festlegung des Starts der Kompositionsausführung. Sie **müssen** diese als erste Aktivität der Komposition verwenden.
+Mit der Aktivität **Planung** können Sie planen, wann die Ausführung der Komposition starten soll. Sie **müssen** diese als erste Aktivität der Komposition verwenden.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie die Aktivität **Planung** zu Ihrer Komposition hinzugefügt haben, können Sie die **Ausführungsfrequenz** für die Komposition festlegen. Die Optionen umfassen **einmal**, **täglich**, **Mehrmals am Tag**, **Wöchentlich** und **Monatlich**.
+Nachdem Sie die Aktivität **Planung** zu Ihrer Komposition hinzugefügt haben, können Sie die **Ausführungshäufigkeit** für die Komposition festlegen. Die Optionen sind **Einmal**, **Täglich**, **Mehrmals täglich**, **Wöchentlich** und **Monatlich**.
 
 >[!BEGINTABS]
 
@@ -578,65 +578,65 @@ Nachdem Sie die Aktivität **Planung** zu Ihrer Komposition hinzugefügt haben, 
 
 >[!NOTE]
 >
->Die Zeit ist auf UTC festgelegt.
+>Die Zeit ist auf „UTC“ festgelegt.
 
-Wenn Sie **Einmal** auswählen, wird die Komposition nur einmal ausgeführt. Sie können Datum und Uhrzeit der Ausführung der Komposition auswählen.
+Wenn Sie **Einmal** auswählen, wird die Komposition nur einmal ausgeführt. Sie können das Datum und die Uhrzeit der Ausführung der Komposition auswählen.
 
 >[!TAB Täglich]
 
-Wenn Sie **Täglich** auswählen, wird die Komposition einmal täglich ausgeführt. Sie können jedoch im Abschnitt „Tag des Monats“ festlegen, an welchem Tag **Monats** Komposition ausgeführt wird. Mögliche Werte sind **Jeden Tag**, **An Wochentagen**, **Über einen ausgewählten Zeitraum** und **Ausgewählte Wochentage**.
+Wenn Sie **Täglich** auswählen, wird die Komposition einmal täglich ausgeführt. Sie können im Abschnitt **Tag des Monats** jedoch auswählen, an welchem Tag des Monats die Komposition ausgeführt wird. Mögliche Werte sind **Jeden Tag**, **An Wochentagen**, **Über einen ausgewählten Zeitraum** und **Ausgewählte Wochentage**.
 
 | Tag des Monats | Beschreibung |
 | ---------------- | ----------- |
-| Täglich | Die Komposition wird jeden Tag ausgeführt. |
+| Jeden Tag | Die Komposition wird jeden Tag ausgeführt. |
 | An Wochentagen | Die Komposition wird an jedem Wochentag ausgeführt. |
-| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums täglich ausgeführt. Sie können die Länge des Wiederholungszeitraums sowie das Datum festlegen, an dem der Zeitraum beginnt. |
+| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums jeden Tag ausgeführt. Sie können die Länge des Wiederholungszeitraums sowie das Datum festlegen, an dem der Zeitraum beginnt. |
 | Ausgewählte Wochentage | Die Komposition wird an jedem ausgewählten Wochentag ausgeführt. |
 
-Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Vorschau der Startzeiten** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
+Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Startzeiten in der Vorschau** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
 
 >[!TAB Mehrmals täglich]
 
-Wenn Sie **Mehrmals am Tag** auswählen, wird die Komposition mehrmals am Tag ausgeführt. Sie können auswählen, ob die Komposition zu bestimmten Zeiten pro Tag oder regelmäßig zu bestimmten Zeiten ausgeführt wird.
+Wenn Sie **Mehrmals täglich** auswählen, wird die Komposition mehrmals am Tag ausgeführt. Sie können auswählen, ob die Komposition zu bestimmten Zeiten am Tag oder regelmäßig in festgelegten Zeitabständen ausgeführt wird.
 
-Wenn Sie **Ausgewählte Stunden** auswählen, können Sie die spezifischen Zeiten für die Ausführung der Komposition auswählen. Wenn Sie **Periodisch** auswählen, können Sie festlegen, wie oft die Komposition in Stunden oder Minuten und zu welchen Zeiten sie ausgeführt wird. Alle Zeiten sind in UTC.
+Wenn Sie **Ausgewählte Stunden** auswählen, können Sie die bestimmten Zeiten für die Ausführung der Komposition auswählen. Wenn Sie **Periodisch** auswählen, können Sie festlegen, wie oft die Komposition in Stunden oder Minuten und innerhalb welcher Zeiten sie ausgeführt wird. Alle Zeiten sind in der Zeitzone „UTC“ angegeben.
 
-Nachdem Sie die Stunden ausgewählt haben, können Sie im Abschnitt **Tag des Monats** auswählen, wie oft die Ausführung ausgeführt wird.
+Nachdem Sie die Stunden ausgewählt haben, können Sie im Abschnitt **Tag des Monats** auswählen, wie oft die Ausführung stattfindet.
 
 | Tag des Monats | Beschreibung |
 | ---------------- | ----------- |
-| An jedem Wochentag | Die Komposition wird jeden Tag ausgeführt. |
+| Jeder Wochentag | Die Komposition wird jeden Tag ausgeführt. |
 | An bestimmten Wochentagen | Die Komposition wird an jedem ausgewählten Wochentag ausgeführt. |
 
-Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Vorschau der Startzeiten** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
+Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Startzeiten in der Vorschau** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
 
 >[!TAB Wöchentlich]
 
 Wenn Sie **Wöchentlich** auswählen, wird die Komposition mit der festgelegten wöchentlichen Häufigkeit ausgeführt. Wenn Sie die wöchentliche Häufigkeit als eine Zahl größer als 1 festlegen, können Sie auch das Datum auswählen, ab dem die Ausführung beginnt.
 
-Nachdem Sie die Auswertungshäufigkeit ausgewählt haben, können Sie im Abschnitt **Tag des Monats“**, wie oft die Ausführung ausgeführt wird.
+Nachdem Sie die Auswertungshäufigkeit ausgewählt haben, können Sie im Abschnitt **Tag des Monats** auswählen, wie oft die Ausführung stattfindet.
 
 | Tag des Monats | Beschreibung |
 | ---------------- | ----------- |
-| An jedem Wochentag | Die Komposition wird jeden Tag ausgeführt. |
+| Jeder Wochentag | Die Komposition wird jeden Tag ausgeführt. |
 | An bestimmten Wochentagen | Die Komposition wird an jedem ausgewählten Wochentag ausgeführt. |
 
-Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Vorschau der Startzeiten** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
+Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Startzeiten in der Vorschau** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
 
 >[!TAB Monatlich]
 
 Wenn Sie **Monatlich** auswählen, wird die Komposition mit der festgelegten monatlichen Häufigkeit ausgeführt. Sie können sie entweder auf jeden Monat oder auf bestimmte Monate festlegen.
 
-Nachdem Sie die monatliche Häufigkeit ausgewählt haben, können Sie den **Tag des Monats)** Ausführung auswählen.
+Nachdem Sie die monatliche Häufigkeit ausgewählt haben, können Sie den **Tag des Monats** auswählen, an dem die Ausführung stattfindet.
 
 | Tag des Monats | Beschreibung |
 | ---------------- | ----------- |
-| Täglich | Die Komposition wird jeden Tag ausgeführt. |
+| Jeden Tag | Die Komposition wird jeden Tag ausgeführt. |
 | An Wochentagen | Die Komposition wird an jedem Wochentag ausgeführt. |
-| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums täglich ausgeführt. Sie können die Länge des Wiederholungszeitraums sowie das Datum festlegen, an dem der Zeitraum beginnt. |
+| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums jeden Tag ausgeführt. Sie können die Länge des Wiederholungszeitraums sowie das Datum festlegen, an dem der Zeitraum beginnt. |
 | Ausgewählte Wochentage | Die Komposition wird an jedem ausgewählten Wochentag ausgeführt. |
 
-Nachdem Sie den **Tag des Monats** festgelegt haben, können Sie die Startzeit auswählen. Alle Zeiten sind in UTC.
+Nachdem Sie den **Tag des Monats** festgelegt haben, können Sie die Startzeit auswählen. Alle Zeiten sind in der Zeitzone „UTC“ angegeben.
 
 >[!ENDTABS]
 
@@ -645,7 +645,7 @@ Nach Auswahl der Ausführungshäufigkeit können Sie den **Gültigkeitszeitraum*
 | Gültigkeitszeitraum | Beschreibung |
 | --------------- | ----------- |
 | **Dauerhaft (läuft nie ab)** | Die Komposition läuft nie ab. |
-| **Gültigkeitszeitraum** | Die Komposition wird zwischen den angegebenen Datumsangaben ausgeführt. |
+| **Gültigkeitszeitraum** | Die Komposition wird im angegebenen Datumsbereich ausgeführt. |
 
 +++
 
@@ -656,29 +656,29 @@ Nach Auswahl der Ausführungshäufigkeit können Sie den **Gültigkeitszeitraum*
 >title="Aktivität „Warten“"
 >abstract="Die Aktivität **Warten** wird verwendet, um die Transition von einer Aktivität zu einer anderen zu verzögern."
 
-Die **Warten**-Aktivität hält die Ausführung der Komposition für die angegebene Zeitdauer an.
+Die Aktivität **Warten** hält die Ausführung der Komposition für die angegebene Zeitdauer an.
 
 +++ Konfigurationsdetails
 
-Nachdem Sie die Aktivität **Warten** zu Ihrer Komposition hinzugefügt haben, können Sie sie entweder zu einer **Dauer** oder einer **Festen Zeit** Wartezeit machen.
+Nachdem Sie die Aktivität **Warten** zu Ihrer Komposition hinzugefügt haben, können Sie die Wartezeit entweder als **Dauer** oder bis zu einem **festen Zeitpunkt** festlegen.
 
 ![](./assets/activities/wait.png)
 
-Wenn Sie Dauer auswählen, können Sie den Zeitraum für die Wartezeit festlegen. Dieser Zeitraum kann in Sekunden, Minuten, Stunden oder Tagen angegeben werden.
+Wenn Sie eine Dauer auswählen, können Sie den Zeitraum für die Wartezeit festlegen. Dieser Zeitraum kann in Sekunden, Minuten, Stunden oder Tagen angegeben werden.
 
-Wenn Sie Feste Zeit auswählen, können Sie die Komposition so einstellen, dass bis zum angegebenen Datum und zur angegebenen Uhrzeit gewartet wird. Die Uhrzeit wird auf Ihre **lokale Zeitzone)**.
+Wenn Sie einen festen Zeitpunkt auswählen, können Sie festlegen, dass die Komposition bis zum angegebenen Datum und zur angegebenen Uhrzeit wartet. Die Uhrzeit wird in Ihrer **lokalen Zeitzone** angegeben.
 
 +++
 
 ## Transitionen {#transitions}
 
-In Kompositionen zeigen Transitionen, wie Daten von einer Aktivität zur anderen transportiert werden. Die Transitionen speichern die Daten in einer temporären Arbeitstabelle. Wenn Sie die Transition auswählen, können Sie die folgenden Informationen anzeigen:
+Transitionen zeigen in Kompositionen, wie Daten von einer Aktivität zu einer anderen übertragen werden. Die Transitionen speichern die Daten in einer temporären Arbeitstabelle. Wenn Sie die Transition auswählen, können Sie folgende Informationen anzeigen:
 
-- **Vorschau des Schemas**: Sie können dies auswählen, um das Schema für die Arbeitstabelle anzuzeigen.
-- **Vorschau der Ergebnisse**: Sie können diese Option auswählen, um die Daten zu visualisieren, die in der ausgewählten Transition übertragen werden. Diese Option ist nur verfügbar, wenn **Zwischen zwei Ausführungen die ermittelte Population beibehalten** aktiviert ist.
+- **Vorschau des Schemas**: Sie können diese Option auswählen, um das Schema für die Arbeitstabelle anzuzeigen.
+- **Vorschau der Ergebnisse**: Sie können diese Option auswählen, um die Daten zu visualisieren, die in der ausgewählten Transition übertragen werden. Diese Option ist nur verfügbar, wenn die Option **Zwischen zwei Ausführungen die ermittelte Population festhalten** aktiviert ist. 
 
 ![](assets/transition-preview.png)
 
 ## Nächste Schritte {#next-steps}
 
-Nach dem Lesen dieses Handbuchs werden Sie ein besseres Verständnis der Aktivitäten und Übergänge haben, die Sie in einer Komposition verwenden können. Weitere Informationen zu Kompositionen im Allgemeinen finden Sie im Abschnitt [Komposition - Übersicht](./create-composition.md).
+Nach dem Lesen dieses Handbuchs verfügen Sie über umfangreichere Kenntnisse im Hinblick auf Aktivitäten und Transitionen, die Sie in einer Komposition verwenden können. Weitere Informationen zu Kompositionen im Allgemeinen finden Sie unter [Überblick über Kompositionen](./create-composition.md).

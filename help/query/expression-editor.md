@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Übersicht über den Ausdruckseditor
-description: Erfahren Sie, wie Sie mit den Funktionen im Ausdruckseditor eine Abfrage im Abfrage-Modellierer erstellen können.
+title: Überblick über den Ausdruckseditor
+description: Erfahren Sie, wie Sie mit den Funktionen im Ausdruckseditor eine Abfrage im Abfrage-Modeler erstellen können.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
 source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4108'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Übersicht über den Ausdruckseditor {#expression}
+# Überblick über den Ausdruckseditor {#expression}
 
 Die Bearbeitung von Ausdrücken erfolgt durch die manuelle Eingabe von Bedingungen, die in ihrer Gesamtheit eine Regel bilden. Dieser Modus bietet erweiterte Funktionen, mit denen Sie die Werte zur Durchführung bestimmter Abfragen ändern können, z. B. Bearbeitung von Daten, Zeichenfolgen, Nummernfeldern, Sortierungen, usw.
 
@@ -28,11 +28,11 @@ Der Ausdruckseditor bietet Folgendes:
 * Die Liste der verfügbaren **Felder (2)**, die im Ausdruck verwendet werden können und dem Schema, auch bekannt als Zielgruppendimension, der Abfrage entsprechen.
 * **Hilfsfunktionen (3)**, sortiert nach Kategorie.
 
-Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor in den Ausdruck, in dem Sie sie hinzufügen möchten, und wählen Sie die Schaltfläche &quot;+&quot; aus.
+Bearbeiten Sie den Ausdruck, indem Sie ihn direkt in das Eingabefeld eingeben. Um ein Feld oder eine Hilfsfunktion hinzuzufügen, platzieren Sie den Cursor im Ausdruck, zu dem Sie es/sie hinzufügen möchten, und wählen Sie die Schaltfläche „+“ aus.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Wenn Ihr Ausdruck fertig ist, wählen Sie **[!UICONTROL Bestätigen]** aus. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
+Wenn der Ausdruck fertig ist, wählen Sie **[!UICONTROL Bestätigen]** aus. Der Ausdruck wird im ausgewählten Feld angezeigt. Öffnen Sie zum Bearbeiten den Ausdruckseditor und nehmen Sie die gewünschten Änderungen vor.
 
 Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurierten Ausdruck. Um ihn zu bearbeiten, müssen Sie den Ausdruckseditor über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** öffnen.
 

@@ -4,9 +4,9 @@ title: Arbeiten mit Zielgruppen
 description: Erfahren Sie, wie Sie mit Zielgruppen arbeiten
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Zielgruppen, die mithilfe der Komposition föderierter Daten von Adobe erstellt 
 
 Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platorm und/oder Adobe Journey Optimizer zur Verfügung gestellt. 
 
-Sie können diese Zielgruppen für jedes von Adobe Experience Platform unterstützte Ziel aktivieren. Erfahren Sie, wie Sie in [Adobe Experience Platform mit Zielen arbeiten](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
+Sie können diese Zielgruppen für jedes von Adobe Experience Platform unterstützte Ziel aktivieren. Informationen zum Arbeiten mit Zielen in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ Auf der Registerkarte **[!UICONTROL Durchsuchen]** werden alle in Adobe Experien
 
 ![](assets/audiences-list.png)
 
-Weitere Informationen zum Arbeiten mit Zielgruppen in Adobe Experience Platform finden Sie in der [Dokumentation zum Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"} .
+Weitere Informationen zum Arbeiten mit Zielgruppen in Adobe Experience Platform finden Sie in der [Dokumentation zum Zielgruppenportal](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->
