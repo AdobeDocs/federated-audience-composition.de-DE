@@ -2,10 +2,10 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
+source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 84%
+source-wordcount: '927'
+ht-degree: 83%
 
 ---
 
@@ -106,7 +106,7 @@ Die resultierenden Zielgruppendaten werden nicht unbegrenzt in Adobe Experience 
 
 +++ Antwort
 
-Nein, in der aktuellen Version können Sie keine Zielgruppen der Komposition föderierter Zielgruppen löschen.
+Ja, Sie können in Audience Portal Zielgruppenkomposition-Zielgruppen löschen.
 
 +++
 

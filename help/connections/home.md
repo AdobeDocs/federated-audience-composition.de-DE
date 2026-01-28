@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+workflow-type: tm+mt
+source-wordcount: '2616'
+ht-degree: 88%
 
 ---
 
@@ -27,14 +27,14 @@ Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es I
 
 Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, müssen Sie zunächst eine Verbindung zwischen den beiden Quellen herstellen. Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den folgenden Datenbanken herstellen.
 
-* Amazon Redshift
-* Azure Synapse Analytics
-* Databricks
-* Google BigQuery
-* Microsoft Fabric
-* Oracle
-* Snowflake
-* Vertica Analytics
+- Amazon Redshift
+- Azure Synapse Analytics
+- Databricks
+- Google BigQuery
+- Microsoft Fabric
+- Oracle
+- Snowflake
+- Vertica Analytics
 
 ## Erstellen einer Verbindung {#create}
 
@@ -83,10 +83,50 @@ Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzu
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Die URL des Azure Synapse-Servers. |
-| Konto | Der Benutzername für das Azure Synapse-Konto. |
-| Passwort | Das Passwort für das Azure Synapse-Konto. |
+| Konto | Die Anwendungs-ID **Client-ID** der Azure-App-Registrierung. |
+| Passwort | Der **Client-Geheimnis**-Wert des Azure-Programms. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Für Azure Synapse Analytics können Sie den Authentifizierungstyp angeben, der vom Connector unterstützt wird. Derzeit unterstützt die Komposition föderierter Zielgruppen `ActiveDirectoryMSI`. Weitere Informationen zu Verbindungszeichenfolgen finden Sie im Abschnitt zu [Beispiel-Verbindungszeichenfolgen in der Dokumentation von Microsoft](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
+
+Alternativ können Sie Ihre Azure Synapse Analytics-Verbindung sicher konfigurieren, indem Sie die Authentifizierung des Service-Prinzipals verwenden. Sie sollten die Service-Prinzipalauthentifizierung sowohl für produktionsfähige Integrationen als auch für Automatisierungsszenarien verwenden.
+
++++ Voraussetzungen
+
+Beachten Sie vor dem Einrichten der Authentifizierung für den Service-Prinzipal die folgenden Voraussetzungen:
+
+- Ein Azure-Abonnement mit Zugriff auf die Microsoft Entra ID
+- Ein Azure Synapse-Arbeitsbereich und eine -Datenbank
+- Berechtigung zum Erstellen der App-Registrierung
+- Berechtigung zum Verwalten von Azure Synapse-Datenbankrollen
+- Berechtigung zum Aktualisieren von Federated Database-Konfigurationen
+
++++
+
+Im Azure-Portal müssen Sie zunächst eine neue App-Registrierung erstellen. Wählen Sie **Registrieren** aus, nachdem Sie der Anwendung einen eindeutigen Namen gegeben haben. Die **„Übersicht** wird angezeigt. Notieren Sie sich die Werte **Anwendungs-(Client-)** und **Verzeichnis-(Mandanten-)ID**.
+
+![Die Anwendungs (Client)-ID auf der Übersichtsseite ist hervorgehoben.](/help/connections/assets/home/azure-client-id.png)
+
+Wählen Sie in der neu registrierten Anwendung **Zertifikate und Geheimnisse** aus. Wählen Sie von hier aus **Neuer geheimer Client-Schlüssel** im Abschnitt **Client-**) aus, um einen neuen geheimen Client-Schlüssel zu erstellen. Nachdem Sie eine Beschreibung und einen Ablaufzeitpunkt angegeben haben, wählen Sie **Hinzufügen** aus, um das Client-Geheimnis zu generieren.
+
+>[!IMPORTANT]
+>
+>Kopieren Sie nach dem Generieren Ihres Client-Geheimnisses Ihren **Wert des Client-Geheimnisses** und speichern Sie ihn sicher. Dieser Wert **nicht** wieder sichtbar.
+
+Nachdem Sie Ihr Client-Geheimnis generiert haben, müssen Sie sicherstellen, dass Sie der Ressource die **Service-Prinzipal**-Identität gewährt haben.
+
+Weitere Informationen zum Zuweisen von Identitäten zu Ressourcen finden Sie im [Handbuch zu verwalteten Identitäten für Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
+
+Da Sie alle Ihre Azure-seitigen Konfigurationen abgeschlossen haben, können Sie jetzt Ihre Konfigurationen für die Seite „Federated-Audience-Komposition“ einrichten.
+
+Legen Sie in Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsdetails fest:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Server | Die URL des Azure Synapse-Servers. |
+| Konto | Die Anwendungs-ID **Client-ID** der Azure-App-Registrierung. |
+| Passwort | Der **Client-Geheimnis**-Wert des Azure-Programms. |
+| Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
+| Optionen | Zusätzliche Optionen für die Verbindung. Um die Authentifizierung für den Service-Prinzipal verwenden zu können, müssen Sie `Authentication="ActiveDirectoryServicePrincipal"` festlegen. |
 
 >[!TAB Databricks]
 

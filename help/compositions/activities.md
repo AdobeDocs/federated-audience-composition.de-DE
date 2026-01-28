@@ -2,10 +2,10 @@
 audience: end-user
 title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: ht
-source-wordcount: '4619'
-ht-degree: 100%
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+workflow-type: tm+mt
+source-wordcount: '4662'
+ht-degree: 99%
 
 ---
 
@@ -420,6 +420,8 @@ Nachdem Sie die Aktivität **Zielgruppe speichern** zu Ihrer Komposition hinzuge
 Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an die neu erstellte Zielgruppe übertragen möchten. Wählen Sie **Zielgruppenzuordnung hinzufügen** und anschließend das Quellzielgruppenfeld und das Zielgruppenfeld aus. Wiederholen Sie dies so oft wie nötig.
 
 Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die Zielgruppenprofile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
+
+Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der Ablauf von Daten bestimmt die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Der Ablauf der Daten kann 1 bis 90 Tage betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
 
 +++
 
