@@ -1,7 +1,8 @@
 ---
 title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
-source-git-commit: a7476931e8cbae7cef226fee249999b7a1f30c89
+exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -25,7 +26,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 
@@ -36,3 +37,4 @@ Diese Version umfasst die folgende Verbesserung.
   Sie können jetzt eine Datengültigkeit festlegen, wenn Sie die Aktivität **Zielgruppe speichern** in einer Komposition verwenden.
 
   Weitere Informationen zur Datengültigkeit in der Federated-Audience-Komposition finden Sie im [Aktivitätshandbuch](../compositions/activities.md#save-audience).
+
