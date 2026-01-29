@@ -2,7 +2,7 @@
 audience: end-user
 title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 99%
@@ -23,7 +23,7 @@ Es gibt **zwei** verschiedene Arten von Aktivitäten, die innerhalb einer Kompos
 
 Mit Targeting-Aktivitäten können Sie definieren, woraus die Zielgruppe für die Komposition besteht.
 
-#### Erstellen einer Zielgruppe
+#### Erstellen einer Zielgruppe {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ Nachdem Sie Ihre Optionen ausgewählt haben, können Sie **Ausgehende Transition
 
 +++
 
-#### Datenquelle ändern
+#### Datenquelle ändern {#change-data-source}
 
 Mit der Aktivität **Datenquelle ändern** können Sie die von Ihrer Komposition verwendete Datenquelle ändern.
 
@@ -80,7 +80,7 @@ Nach Auswahl des **[!UICONTROL externen FDA-Kontos]** können Sie auswählen, mi
 
 +++
 
-#### Dimensionsänderung
+#### Dimensionsänderung {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 
 +++
 
-#### Kombinieren
+#### Kombinieren {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Optio
 
 +++
 
-#### Deduplizierung
+#### Deduplizierung {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim 
 
 +++
 
-#### Anreicherung
+#### Anreicherung {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ Nachdem Sie die Aktivität **Anreicherung** zu Ihrer Komposition hinzugefügt ha
 
 +++
 
-#### Abstimmung
+#### Abstimmung {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ Sie können die abgestimmten Daten auch filtern. Wählen Sie **Filter erstellen*
 
 +++
 
-#### Speichern einer Zielgruppe
+#### Speichern einer Zielgruppe {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ Mit der Aktivität **Zielgruppe speichern** können Sie eine Zielgruppe basieren
 
 Nachdem Sie die Aktivität **Zielgruppe speichern** zu Ihrer Komposition hinzugefügt haben, können Sie den Namen der neu erstellten Zielgruppe angeben.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an die neu erstellte Zielgruppe übertragen möchten. Wählen Sie **Zielgruppenzuordnung hinzufügen** und anschließend das Quellzielgruppenfeld und das Zielgruppenfeld aus. Wiederholen Sie dies so oft wie nötig.
 
@@ -425,7 +425,7 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 
 +++
 
-#### Aufspaltung
+#### Aufspaltung {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ Nach der Konfiguration der Teilmengen können Sie einige weitere Optionen festle
 
 Mit Aktivitäten zur Flusssteuerung können Sie die Organisation und Koordinierung Ihrer Komposition definieren.
 
-#### Und-Verknüpfung
+#### Und-Verknüpfung {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ Im Abschnitt **Zusammenführungsoptionen** können Sie alle Aktivitäten auswäh
 
 +++
 
-#### Ende
+#### Ende {#end}
 
 Die Aktivität **Ende** kennzeichnet das Ende der Komposition grafisch und hat keine funktionalen Auswirkungen.
 
-#### Verzweigung
+#### Verzweigung {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ Nachdem Sie die Aktivität **Verzweigung** zu Ihrer Komposition hinzugefügt hab
 
 +++
 
-#### Planung
+#### Planung {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ Nach Auswahl der Ausführungshäufigkeit können Sie den **Gültigkeitszeitraum*
 
 +++
 
-#### Warten
+#### Warten {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
