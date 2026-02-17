@@ -2,10 +2,11 @@
 audience: end-user
 title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 99%
+source-wordcount: '5001'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +21,81 @@ Mit Aktivitäten können Sie die Komponenten in der Zielgruppe definieren.
 Es gibt **zwei** verschiedene Arten von Aktivitäten, die innerhalb einer Komposition föderierter Zielgruppen verwendet werden können: Targeting-Aktivitäten und Aktivitäten zur Flusssteuerung.
 
 ### Targeting-Aktivitäten {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Felder anreichern"
+>abstract="Die Aktivität Felder anreichern ermöglicht die Anreicherung von Experience Platform-Schemata durch die Verknüpfung von Daten aus externen Warehouses, wodurch Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern können. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Primäres Namespace-Identitätsfeld"
+>abstract="Der Namespace für die primäre Identität. Der Namespace hilft bei der Bereitstellung von Kontext zur Beschreibung der Klassifizierung der primären Identität."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Experience Platform-Schema auswählen"
+>abstract="Wählen Sie das Experience Platform-Schema aus, das Sie anreichern möchten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Aktualisierungsmodus der Anreicherungsfelder"
+>abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität Felder anreichern umfassen eine vollständige Aktualisierung und inkrementelle Aktualisierung."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Vollständige Aktualisierung"
+>abstract="Der Modus Vollständige Aktualisierung aktualisiert den vollständigen Satz von Attributen in den ausgewählten Schemata."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Inkrementelle Aktualisierung"
+>abstract="Der inkrementelle Aktualisierungsmodus aktualisiert die Felder, die seit der letzten Anreicherungsausführung geändert wurden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Feld „Primäre Identität“"
+>abstract="Das primäre Identitätsfeld gibt die Wissensquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Kriterien erforderlicher Felder"
+>abstract="Ein erforderliches Feld ist ein Attribut, das beim Exportieren von Daten für jedes Profil oder jeden Eintrag ausgefüllt werden muss. Wenn ein erforderliches Feld fehlt, ist der Export weder vollständig noch gültig."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Kriterien primärer Identitätsfelder"
+>abstract="Die eindeutige Kennung für jedes Profil oder jeden Eintrag. Dadurch wird sichergestellt, dass jeder Eintrag eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Liste der Schemata"
+>abstract="Eine Liste der in Ihrer Sandbox verfügbaren Schemata. Sie können entweder standardmäßige oder relationale Schemata auswählen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Attribut auswählen"
+>abstract="Sie können eine Quell-/Zielzuordnung für die Felder erstellen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Datensatz auswählen"
+>abstract="Eine Liste der Datensätze, die zum Schema gehören. Sie können auswählen, in welchem Datensatz die angereicherten Daten gespeichert werden sollen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Primärschlüssel"
+>abstract="Der Primärschlüssel für das relationale Schema. Dieser Wert stellt die Eindeutigkeit innerhalb der Datensätze sicher, indem er verhindert, dass doppelte Datensätze aufgenommen werden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Versionsdeskriptor"
+>abstract="Der Versionsdeskriptor für das relationale Schema. Dieser Wert hilft bei der Bestimmung, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen, um sicherzustellen, dass die neueste Aktualisierung angewendet wird."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Zeitstempeldeskriptor"
+>abstract="Der Zeitstempeldeskriptor für das relationale Schema. Dieser Wert hilft beim Festlegen der Ereigniszeit für die Sortierung und ist nur vorhanden, wenn Sie mit Zeitreihendaten arbeiten."
 
 Mit Targeting-Aktivitäten können Sie definieren, woraus die Zielgruppe für die Komposition besteht.
 
