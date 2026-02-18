@@ -1,15 +1,15 @@
 ---
-title: Übersicht über die zusammengeführte Zielgruppenkomposition
+title: Überblick über die Komposition föderierter Zielgruppen
 description: Erfahren Sie mehr über die Adobe Federated Audience-Komposition und deren Verwendung in nachgelagerten Services wie Adobe Experience Platform und Adobe Journey Optimizer
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
-# Übersicht über die zusammengeführte Zielgruppenkomposition
+# Überblick über die Komposition föderierter Zielgruppen
 
 Mit der Federated Audience-Komposition können Sie Zielgruppen aus Data Warehouses von Drittanbietern erstellen und anreichern sowie die Zielgruppen in Adobe Experience Platform importieren. Dies bietet eine einfache und leistungsstarke Lösung, um Ihr Unternehmens-Data Warehouse direkt mit nachgelagerten Services wie Adobe Real-Time Customer Data Platform oder Adobe Journey Optimizer zu verbinden und Abfragen für die Tabellen Ihres Data Warehouse durchzuführen. Auf diese Weise können Sie auf Kundendaten zugreifen, die in Data Warehouses und Cloud-Speicherplattformen wie Amazon Redshift und Azure Synapse Analytics gespeichert sind.
 
@@ -86,7 +86,7 @@ Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische A
 
 Auf [dieser Seite](./start/access-prerequisites.md) erfahren Sie, wie Sie auf die Funktion „Komposition föderierter Zielgruppen“, Leitlinien und Einschränkungen zugreifen können.
 
-Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience &#x200B;](./faq.md).
+Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience ](./faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"

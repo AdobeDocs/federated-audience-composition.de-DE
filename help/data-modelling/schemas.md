@@ -10,7 +10,7 @@ ht-degree: 98%
 
 ---
 
-# Übersicht über Schemata {#schemas}
+# Überblick über Schemata {#schemas}
 
 >[!AVAILABILITY]
 >
