@@ -3,10 +3,10 @@ audience: end-user
 title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '5001'
-ht-degree: 94%
+source-wordcount: '5477'
+ht-degree: 86%
 
 ---
 
@@ -21,81 +21,6 @@ Mit Aktivitäten können Sie die Komponenten in der Zielgruppe definieren.
 Es gibt **zwei** verschiedene Arten von Aktivitäten, die innerhalb einer Komposition föderierter Zielgruppen verwendet werden können: Targeting-Aktivitäten und Aktivitäten zur Flusssteuerung.
 
 ### Targeting-Aktivitäten {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="Felder anreichern"
->abstract="Die Aktivität Felder anreichern ermöglicht die Anreicherung von Experience Platform-Schemata durch die Verknüpfung von Daten aus externen Warehouses, wodurch Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern können. "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Primäres Namespace-Identitätsfeld"
->abstract="Der Namespace für die primäre Identität. Der Namespace hilft bei der Bereitstellung von Kontext zur Beschreibung der Klassifizierung der primären Identität."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="Experience Platform-Schema auswählen"
->abstract="Wählen Sie das Experience Platform-Schema aus, das Sie anreichern möchten."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="Aktualisierungsmodus der Anreicherungsfelder"
->abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität Felder anreichern umfassen eine vollständige Aktualisierung und inkrementelle Aktualisierung."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="Vollständige Aktualisierung"
->abstract="Der Modus Vollständige Aktualisierung aktualisiert den vollständigen Satz von Attributen in den ausgewählten Schemata."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="Inkrementelle Aktualisierung"
->abstract="Der inkrementelle Aktualisierungsmodus aktualisiert die Felder, die seit der letzten Anreicherungsausführung geändert wurden."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="Feld „Primäre Identität“"
->abstract="Das primäre Identitätsfeld gibt die Wissensquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="Kriterien erforderlicher Felder"
->abstract="Ein erforderliches Feld ist ein Attribut, das beim Exportieren von Daten für jedes Profil oder jeden Eintrag ausgefüllt werden muss. Wenn ein erforderliches Feld fehlt, ist der Export weder vollständig noch gültig."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Kriterien primärer Identitätsfelder"
->abstract="Die eindeutige Kennung für jedes Profil oder jeden Eintrag. Dadurch wird sichergestellt, dass jeder Eintrag eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="Liste der Schemata"
->abstract="Eine Liste der in Ihrer Sandbox verfügbaren Schemata. Sie können entweder standardmäßige oder relationale Schemata auswählen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="Attribut auswählen"
->abstract="Sie können eine Quell-/Zielzuordnung für die Felder erstellen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="Datensatz auswählen"
->abstract="Eine Liste der Datensätze, die zum Schema gehören. Sie können auswählen, in welchem Datensatz die angereicherten Daten gespeichert werden sollen."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="Primärschlüssel"
->abstract="Der Primärschlüssel für das relationale Schema. Dieser Wert stellt die Eindeutigkeit innerhalb der Datensätze sicher, indem er verhindert, dass doppelte Datensätze aufgenommen werden."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="Versionsdeskriptor"
->abstract="Der Versionsdeskriptor für das relationale Schema. Dieser Wert hilft bei der Bestimmung, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen, um sicherzustellen, dass die neueste Aktualisierung angewendet wird."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="Zeitstempeldeskriptor"
->abstract="Der Zeitstempeldeskriptor für das relationale Schema. Dieser Wert hilft beim Festlegen der Ereigniszeit für die Sortierung und ist nur vorhanden, wenn Sie mit Zeitreihendaten arbeiten."
 
 Mit Targeting-Aktivitäten können Sie definieren, woraus die Zielgruppe für die Komposition besteht.
 
@@ -116,7 +41,7 @@ Nachdem Sie die Aktivität **Zielgruppe erstellen** zur Arbeitsfläche der Kompo
 
 >[!TAB Erstellen einer neuen Zielgruppe]
 
-Wählen Sie nach Auswahl von **Zielgruppe erstellen** das **Schema** für Ihre Zielgruppe aus. Mit dem Schema können Sie die vom Vorgang betroffene Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende definieren. Standardmäßig wird das Schema aus den Empfängerinnen und Empfängern ausgewählt. 
+Wählen Sie nach Auswahl von **Zielgruppe erstellen** das **Schema** für Ihre Zielgruppe aus. Mit dem Schema können Sie die vom Vorgang betroffene Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende definieren. Standardmäßig wird das Schema aus den Empfängerinnen und Empfängern ausgewählt.
 
 ![](./assets/activities/build-audience-create.png)
 
@@ -166,7 +91,7 @@ Nach Auswahl des **[!UICONTROL externen FDA-Kontos]** können Sie auswählen, mi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Aktivität „Dimensionsänderung“"
->abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema.  Beispielsweise können Sie vom Schema „Verträge“ zum Schema „Kundinnen und Kunden“ wechseln."
+>abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema. Beispielsweise können Sie vom Schema „Verträge“ zum Schema „Kundinnen und Kunden“ wechseln."
 
 Mit der Aktivität **Dimensionsänderung** können Sie das Schema (auch als Zielgruppendimension bezeichnet) Ihrer Komposition ändern.
 
@@ -287,7 +212,7 @@ Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Optio
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Felder zum Identifizieren von Duplikaten"
->abstract="Wählen Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Duplikaten]** die Schaltfläche **[!UICONTROL Attribut hinzufügen]** aus, um die Felder anzugeben, für die die Identifizierung von Duplikaten aufgrund identischer Werte ermöglicht werden soll, wie z. B. E-Mail-Adresse, Vorname, Nachname usw. Durch die Reihenfolge der Felder können Sie angeben, welche Felder zuerst verarbeitet werden sollen."
+>abstract="Klicken Sie im Abschnitt **[!UICONTROL Felder zum Identifizieren von Duplikaten]** auf die Schaltfläche **[!UICONTROL Attribut hinzufügen]**, um die Felder anzugeben, bei denen die Identifizierung von Duplikaten aufgrund identischer Werte möglich ist, wie z. B. E-Mail-Adresse, Vor-und Nachname usw. Die Reihenfolge der Felder legt fest, welche Felder zuerst verarbeitet werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -356,7 +281,7 @@ Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim 
 
 Mit der Aktivität **Anreicherung** können Sie Ihre Komposition durch Hinzufügen zusätzlicher Daten aus der föderierten Datenbank erweitern.
 
-Wenn Sie eine Verbindung zum Ziel „Komposition föderierter Zielgruppen“ konfiguriert haben, können Sie mit der Aktivität „Anreicherung“ Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anreichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../connections/destinations.md)
+Wenn Sie eine Verbindung zum Ziel „Federated Audience Composition“ konfiguriert haben, können Sie mit der Aktivität Anreicherung Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anreichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../connections/destinations.md)
 
 +++ Konfigurationsdetails
 
@@ -395,7 +320,7 @@ Nachdem Sie die Aktivität **Anreicherung** zu Ihrer Komposition hinzugefügt ha
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, auch bekannt als Zielgruppendimension, können Sie die Zielpopulation definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig ist das aktuelle Schema der Komposition ausgewählt. "
+>abstract="Wählen Sie das neue Schema aus, das auf die Daten angewendet werden soll. Mit einem Schema, auch bekannt als Zielgruppendimension, können Sie die Zielpopulation definieren: Empfängerinnen und Empfänger, Abonnentinnen und Abonnenten der App, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig ist das aktuelle Schema der Komposition ausgewählt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -498,6 +423,138 @@ Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an
 Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die Zielgruppenprofile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
 
 Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der Ablauf von Daten bestimmt die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Der Ablauf der Daten kann 1 bis 90 Tage betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
+
++++
+
+#### Felder speichern {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Felder speichern"
+>abstract="Die Aktivität Felder speichern ermöglicht es Ihnen, Experience Platform-Schemata anzureichern, indem Sie Daten aus externen Warehouses zusammenführen, wodurch Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern können. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Primäres Namespace-Identitätsfeld"
+>abstract="Der Namespace für die primäre Identität. Der Namespace hilft bei der Bereitstellung von Kontext zur Beschreibung der Klassifizierung der primären Identität."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Experience Platform-Schema auswählen"
+>abstract="Wählen Sie das Experience Platform-Schema aus, das Sie anreichern möchten."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Aktualisierungsmodus der Felder speichern"
+>abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität Felder speichern umfassen die vollständige Aktualisierung und inkrementelle Aktualisierung."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Vollständige Aktualisierung"
+>abstract="Der Modus Vollständige Aktualisierung aktualisiert den vollständigen Satz von Attributen in den ausgewählten Schemata."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Inkrementelle Aktualisierung"
+>abstract="Der inkrementelle Aktualisierungsmodus aktualisiert die Felder, die seit der letzten Anreicherungsausführung geändert wurden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Feld „Primäre Identität“"
+>abstract="Das primäre Identitätsfeld gibt die Wissensquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Kriterien erforderlicher Felder"
+>abstract="Ein erforderliches Feld ist ein Attribut, das beim Exportieren von Daten für jedes Profil oder jeden Eintrag ausgefüllt werden muss. Wenn ein erforderliches Feld fehlt, ist der Export weder vollständig noch gültig."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Kriterien primärer Identitätsfelder"
+>abstract="Die eindeutige Kennung für jedes Profil oder jeden Eintrag. Dadurch wird sichergestellt, dass jeder Eintrag eindeutig erkannt und abgeglichen werden kann, was eine Duplizierung der Daten verhindert."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Liste der Schemata"
+>abstract="Eine Liste der in Ihrer Sandbox verfügbaren Schemata. Sie können entweder standardmäßige oder relationale Schemata auswählen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Attribut auswählen"
+>abstract="Sie können eine Quell-/Zielzuordnung für die Felder erstellen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Datensatz auswählen"
+>abstract="Eine Liste der Datensätze, die zum Schema gehören. Sie können auswählen, in welchem Datensatz die angereicherten Daten gespeichert werden sollen."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Primärschlüssel"
+>abstract="Der Primärschlüssel für das relationale Schema. Dieser Wert stellt die Eindeutigkeit innerhalb der Datensätze sicher, indem er verhindert, dass doppelte Datensätze aufgenommen werden."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Versionsdeskriptor"
+>abstract="Der Versionsdeskriptor für das relationale Schema. Dieser Wert hilft bei der Bestimmung, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen, um sicherzustellen, dass die neueste Aktualisierung angewendet wird."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Zeitstempeldeskriptor"
+>abstract="Der Zeitstempeldeskriptor für das relationale Schema. Dieser Wert hilft beim Festlegen der Ereigniszeit für die Sortierung und ist nur vorhanden, wenn Sie mit Zeitreihendaten arbeiten."
+
+Die Aktivität **[!UICONTROL Felder speichern]** ermöglicht es Ihnen, Experience Platform-Schemata durch die Verknüpfung von Daten aus externen Warehouses anzureichern, sodass Sie Experience Platform-Schemata mit zusätzlichen Attributen anreichern können.
+
+Diese Aktivität wird verwendet, um Schemata anzureichern, indem zusätzliche Attribute und Einblicke eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
+
++++ Konfigurationsdetails
+
+>[!IMPORTANT]
+>
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+
+Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Komposition hinzugefügt haben, können Sie der Aktivität einen Titel geben und das Adobe Experience Platform-Schema auswählen, das Sie verwenden möchten. Das Schema kann entweder ein Standardschema oder ein relationales Schema sein.
+
+![Die verfügbaren Schemata werden angezeigt.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB Standardschema]
+
+Wenn Sie ein Standardschema auswählen, müssen Sie den Datensatz auswählen, in dem die Anreicherung gespeichert wird.
+
+![Der Abschnitt „Datensatz auswählen“ ist hervorgehoben.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+Nach Auswahl des Datensatzes können Sie das Feld für die primäre Identität sehen, das zur Identifizierung von Profilen in der Datenbank verwendet wird. Sie müssen jedoch die primären und die erforderlichen Felder zuordnen. Wählen Sie **[!UICONTROL Felder hinzufügen]** und geben Sie das Feld **[!UICONTROL Source]** (externe Daten) und das Feld **[!UICONTROL Ziel]** (Schemafeld) für jedes Attribut an, das Sie zuordnen möchten.
+
+![Die Schaltfläche zum Hinzufügen von Feldern und der Abschnitt zur Feldzuordnung sind hervorgehoben.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+Sie können auch den Aktualisierungsmodus für die Anreicherung angeben.
+
+![Die Aktualisierungsmodustypen werden angezeigt.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| Aktualisierungsmodus | Beschreibung |
+| ----------- | ----------- |
+| Vollständige Aktualisierungen | Der vollständige Satz von Attributen in den ausgewählten Schemata wird zur Anreicherung aktualisiert. |
+| Inkrementelle Aktualisierungen | Nur Felder, die seit der letzten Anreicherung geändert wurden, werden für die Anreicherung aktualisiert. |
+
+Wenn Sie [!UICONTROL Inkrementelle Aktualisierungen] auswählen, müssen Sie auch das Datum der letzten Änderung auswählen, um zu bestimmen, welche Daten gesendet werden.
+
+>[!TAB Relationales Schema]
+
+Wenn Sie ein relationales Schema auswählen, müssen Sie den Datensatz auswählen, in dem die Anreicherung gespeichert wird.
+
+![Der Abschnitt „Datensatz auswählen“ ist hervorgehoben.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+Nach Auswahl des Datensatzes können Sie den Primärschlüssel und den Versionsdeskriptor für die Datenbank sehen.  Sie müssen jedoch den Primärschlüssel und die erforderlichen Felder zuordnen. Wählen Sie **[!UICONTROL Feld(])** und geben Sie das Feld **[!UICONTROL Source]** (externe Daten) und das Feld **[!UICONTROL Ziel]** (Schemafeld) für jedes Attribut an, das Sie zuordnen möchten.
+
+![Die Schaltfläche zum Hinzufügen von Feldern und der Abschnitt zur Feldzuordnung sind hervorgehoben.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+Da relationale Schemata nur inkrementelle Aktualisierungen unterstützen, müssen Sie das Datum der letzten Änderung auswählen, um zu bestimmen, welche Daten gesendet werden. Inkrementelle Aktualisierungen aktualisieren nur die Felder, die seit der letzten Anreicherungsausführung geändert wurden.
+
+![Der Aktualisierungsmodus, inkrementelle Aktualisierungen, wird angezeigt.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
 
 +++
 
@@ -753,7 +810,7 @@ Wenn Sie einen festen Zeitpunkt auswählen, können Sie festlegen, dass die Komp
 Transitionen zeigen in Kompositionen, wie Daten von einer Aktivität zu einer anderen übertragen werden. Die Transitionen speichern die Daten in einer temporären Arbeitstabelle. Wenn Sie die Transition auswählen, können Sie folgende Informationen anzeigen:
 
 - **Vorschau des Schemas**: Sie können diese Option auswählen, um das Schema für die Arbeitstabelle anzuzeigen.
-- **Vorschau der Ergebnisse**: Sie können diese Option auswählen, um die Daten zu visualisieren, die in der ausgewählten Transition übertragen werden. Diese Option ist nur verfügbar, wenn die Option **Zwischen zwei Ausführungen die ermittelte Population festhalten** aktiviert ist. 
+- **Vorschau der Ergebnisse**: Sie können diese Option auswählen, um die Daten zu visualisieren, die in der ausgewählten Transition übertragen werden. Diese Option ist nur verfügbar, wenn die Option **Zwischen zwei Ausführungen die ermittelte Population festhalten** aktiviert ist.
 
 ![](assets/transition-preview.png)
 

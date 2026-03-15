@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '2616'
-ht-degree: 88%
+source-wordcount: '2970'
+ht-degree: 75%
 
 ---
 
@@ -70,7 +70,7 @@ Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 | Konto | Der Benutzername des Kontos. |
 | Passwort | Das Passwort des Kontos. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen zu dieser Funktion finden Sie in der [Dokumentation zu Amazon-Schemata](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Hinweis**: Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation zu [Amazon-Schemata](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Hinweis:** Sie können jedes beliebige Schema aus der Datenbank verwenden, einschließlich der Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -83,8 +83,8 @@ Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzu
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Die URL des Azure Synapse-Servers. |
-| Konto | Die Anwendungs-ID **Client-ID** der Azure-App-Registrierung. |
-| Passwort | Der **Client-Geheimnis**-Wert des Azure-Programms. |
+| Konto | Die Anwendungs-ID (**Client-ID**) der Registrierung der Azure-App. |
+| Passwort | Der **Client-**) des Azure-Programms. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Für Azure Synapse Analytics können Sie den Authentifizierungstyp angeben, der vom Connector unterstützt wird. Derzeit unterstützt die Komposition föderierter Zielgruppen `ActiveDirectoryMSI`. Weitere Informationen zu Verbindungszeichenfolgen finden Sie im Abschnitt zu [Beispiel-Verbindungszeichenfolgen in der Dokumentation von Microsoft](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
 
@@ -116,15 +116,15 @@ Nachdem Sie Ihr Client-Geheimnis generiert haben, müssen Sie sicherstellen, das
 
 Weitere Informationen zum Zuweisen von Identitäten zu Ressourcen finden Sie im [Handbuch zu verwalteten Identitäten für Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
 
-Da Sie alle Ihre Azure-seitigen Konfigurationen abgeschlossen haben, können Sie jetzt Ihre Konfigurationen für die Seite „Federated-Audience-Komposition“ einrichten.
+Da Sie alle Azure-seitigen Konfigurationen abgeschlossen haben, können Sie jetzt Ihre Konfigurationen für die Seite „Federated-Audience-Komposition“ einrichten.
 
 Legen Sie in Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsdetails fest:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Die URL des Azure Synapse-Servers. |
-| Konto | Die Anwendungs-ID **Client-ID** der Azure-App-Registrierung. |
-| Passwort | Der **Client-Geheimnis**-Wert des Azure-Programms. |
+| Konto | Die Anwendungs-ID (**Client-ID**) der Registrierung der Azure-App. |
+| Passwort | Der **Client-**) des Azure-Programms. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Um die Authentifizierung für den Service-Prinzipal verwenden zu können, müssen Sie `Authentication="ActiveDirectoryServicePrincipal"` festlegen. |
 
@@ -134,15 +134,39 @@ Legen Sie in Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsdetails 
 >
 >Sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
 
-Nach Auswahl von Databricks können Sie die folgenden Details hinzufügen:
+Nach Auswahl von Datenblöcken können Sie mit der Authentifizierungsmethode auswählen, die Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+
+Wenn Sie **Konto-/Kennwortauthentifizierung** auswählen, können Sie die folgenden Anmeldedetails hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Databricks-Servers. |
-| HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Databricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Passwort | Das Zugriffstoken für den Databricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [Databricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+
+Wenn Sie **Service-Prinzipalauthentifizierung** auswählen, können Sie die folgenden Details hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Server | Der Name des Databricks-Servers. |
+| Client-ID | Die Client-ID von Ihrem Databricks-Server. Dieses Feld dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis von Ihrem Databricks-Server. Dieses Feld dient als Passwort für Ihr Projekt. |
+
+Wenn Sie **OAuth 2.0** auswählen, können Sie die folgenden Details hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Server | Der Name des Databricks-Servers. |
+| Client-ID | Die Client-ID von Ihrem Databricks-Server. Dieses Feld wird verwendet, um die Anwendung während der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis von Ihrem Databricks-Server. Diese vertrauliche Berechtigung wird mit der Client-ID ausgestellt und dient als Kennwort für Ihr Projekt. |
+| Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihrem Databricks-Server autorisiert ist. |
+
+Nachdem Sie Ihre Anmeldedaten eingegeben haben, können Sie die folgenden Informationen hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Databricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalog | Der Name des Databricks-Katalogs. Weitere Informationen zu Katalogen in Databricks finden Sie in der [Databricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des für die Arbeitstabellen zu verwendenden Datenbankschemas. <br/><br/>**Hinweis:** Sie können **beliebige** Schema aus der Datenbank verwenden, einschließlich Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen verfügen, um eine Verbindung zu diesem Schema herzustellen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -196,10 +220,10 @@ Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
 | ProxyHost | Der Host-Name oder die IP-Adresse, um den Proxy zu erreichen. |
 | ProxyUid | Die Port-Nummer, auf der der Proxy ausgeführt wird. |
 | ProxyPwd | Das Passwort für den Proxy. |
-| bgpath | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK). <br/><br/> Der Pfad zum Cloud SDK-Klassenverzeichnis am Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
-| GCloudConfigName | **Hinweis:** Dies gilt nur für das **Tool für Massenladung** (Cloud SDK) ab Version 7.3.4. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
-| GCloudDefaultConfigName | **Hinweis:** Dies gilt nur für das **Tool für Massenladung** (Cloud SDK) ab Version 7.3.4. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
-| GCloudRecreateConfig | **Hinweis:** Dies gilt nur für das **Tool für Massenladung** (Cloud SDK) ab Version 7.3.4. <br/><br/> Ein boolescher Wert, mit dem Sie entscheiden können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
+| bgpath | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK). <br/><br/> Der Pfad zum Ordner „bin“ von Cloud SDK auf dem Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
+| GCloudConfigName | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK) über Version 7.3.4. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
+| GCloudDefaultConfigName | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK) über Version 7.3.4. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
+| GCloudRecreateConfig | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK) über Version 7.3.4. <br/><br/> Ein boolescher Wert, mit dem Sie entscheiden können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
 
 >[!TAB Microsoft Fabric]
 
@@ -267,7 +291,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des für die Arbeitstabellen zu verwendenden Datenbankschemas. <br/><br/>**Hinweis:** Sie können **beliebige** Schema aus der Datenbank verwenden, einschließlich Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen verfügen, um eine Verbindung zu diesem Schema herzustellen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Privater Schlüssel | Der private Schlüssel für Ihre Datenbankverbindung. Sie können eine `.pem`-Datei von Ihrem lokalen System hochladen. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
@@ -275,7 +299,7 @@ Für Snowflake können Sie die folgenden zusätzlichen Optionen festlegen:
 
 | Optionen | Beschreibung |
 | ------- | ----------- |
-| workschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll.  |
+| workschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. |
 | TimeZoneName | Der Name der zu verwendenden Zeitzone. Dieser Wert stellt den Sitzungsparameter `TIMEZONE` dar. Standardmäßig wird die Zeitzone des Systems verwendet. Weitere Informationen zu Zeitzonen finden Sie in der [Snowflake-Dokumentation zu Zeitzonen](https://docs.snowflake.com/de/sql-reference/parameters#timezone){target="_blank"}. |
 | WeekStart | Der Tag, an dem die Woche beginnen soll. Dieser Wert stellt den Sitzungsparameter `WEEK_START` dar. Weitere Informationen zum Wochenstart finden Sie in der [Snowflake-Dokumentation zum Wochenstartparameter](https://docs.snowflake.com/de/sql-reference/parameters#week-start){target="_blank"} |
 | UseCachedResult | Ein boolescher Wert, der bestimmt, ob die zwischengespeicherten Ergebnisse von Snowflake verwendet werden. Dieser Wert stellt den Sitzungsparameter `USE_CACHED_RESULTS` dar. Standardmäßig ist dieser Wert auf „wahr“ festgelegt. Weitere Informationen zu diesem Parameter finden Sie in der [Snowflake-Dokumentation zu gespeicherten Ergebnissen](https://docs.snowflake.com/de/user-guide/querying-persisted-results){target="_blank"}. |
@@ -293,7 +317,7 @@ Nach Auswahl von Vertica Analytics können Sie die folgenden Details hinzufügen
 | Konto | Der Benutzername des Kontos. |
 | Passwort | Das Passwort des Kontos. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des für die Arbeitstabellen zu verwendenden Datenbankschemas. <br/><br/>**Hinweis:** Sie können **beliebige** Schema aus der Datenbank verwenden, einschließlich Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen verfügen, um eine Verbindung zu diesem Schema herzustellen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Vertica Analytics können Sie die folgenden zusätzlichen Optionen festlegen:
