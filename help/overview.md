@@ -4,8 +4,8 @@ description: Erfahren Sie mehr über die Adobe Federated Audience-Komposition un
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 52%
+source-wordcount: '1280'
+ht-degree: 54%
 
 ---
 
@@ -60,7 +60,7 @@ Mit der Komposition föderierter Zielgruppen von Adobe können Sie Adobe Experie
 
 >[!NOTE]
 >
->Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Der Zugriff erfolgt über das Menü **Zielgruppen** . [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Verwaltung, Datenschutz und Sicherheit {#governance-privacy-security}
 
@@ -86,12 +86,12 @@ Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische A
 
 Auf [dieser Seite](./start/access-prerequisites.md) erfahren Sie, wie Sie auf die Funktion „Komposition föderierter Zielgruppen“, Leitlinien und Einschränkungen zugreifen können.
 
-Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience &#x200B;](./faq.md).
+Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience ](./faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Ausführungseinstellungen"
->abstract="In diesem Abschnitt können Sie Einstellungen für die Ausführung des Workflows konfigurieren, z. B. die Anzahl der Tage, die der Kompositionsverlauf gespeichert wird."
+>abstract="In diesem Abschnitt können Sie Einstellungen für die Ausführung des Workflows konfigurieren, z. B. für wie viele Tage der Kompositionsverlauf gespeichert wird."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
@@ -136,5 +136,5 @@ Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Frage
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="Auswählen der Zielgruppendimension"
->abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird die Zielgruppe für E-Mails und SMS in der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
+>abstract="Die Zielgruppendimension ermöglicht die Bestimmung der vom Vorgang betroffenen Population: Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer, Abonnentinnen und Abonnenten usw. Standardmäßig wird für E-Mails und SMS die Zielgruppe aus der integrierten Tabelle der Empfängerinnen und Empfänger ausgewählt. Bei Push-Benachrichtigungen ist die Standard-Zielgruppendimension „Abonnierte Anwendungen“."
 

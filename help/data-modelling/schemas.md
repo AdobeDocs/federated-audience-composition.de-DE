@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Beschreibung des Schemas"
->abstract="Die Beschreibung des Schemas listet Spalten, Typen und Bezeichnungen auf. Man kann auch den Abstimmschlüssel für das Schema überprüfen. Um die Schemadefinition zu aktualisieren, klicken Sie auf das Stiftsymbol."
+>abstract="Die Beschreibung des Schemas listet Spalten, Typen und Bezeichnungen auf. Man kann auch den Abstimmschlüssel für das Schema überprüfen. Um die Definition des Schemas zu aktualisieren, wählen Sie das Stiftsymbol aus."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
