@@ -2,10 +2,10 @@
 title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 7d12773b36cb963f3d4251a9b88486864056a0fb
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 8%
 
 ---
 
@@ -13,6 +13,20 @@ ht-degree: 11%
 # Versionshinweise
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in diesen Versionshinweisen zusammengefasst. [!DNL Federated Audience Composition] basiert nativ auf [!DNL Adobe Experience Platform] und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version vom 26. März {#fac-26-03}
+
+Die März-Version für Federated Audience Komposition unterstützt die folgenden Funktionen:
+
+### Neue Funktionen {#fac-26-03-feature}
+
+| KI-gestützte Segmentierung |
+| --- |
+| Sie können jetzt im KI-Assistenten eigenständig zusammengeführte Zielgruppenkompositionen erstellen. Wenn Sie die Zielgruppe mit dem KI-Assistenten erstellen, generiert der KI-Assistent einen Plan, der nach der Genehmigung in Ihrem Browser ausgeführt wird. Weitere Informationen zur Verwendung des KI-Assistenten zum Erstellen von Zielgruppen finden Sie im Abschnitt [Übersicht über den KI-Assistenten](/help/start/ai-assistant.md). |
+
+| KI-Assistent für operative Erkenntnisse |
+| --- |
+| Sie können jetzt dem KI-Assistenten Fragen zu operativen Einblicken in die Federated Audience-Komposition stellen. Zu den unterstützten Bereichen gehören Verbindungen, Schemata und Datenmodelle. Verknüpfte Kompositionen werden **dieser Version** unterstützt. Weitere Informationen zum KI-Assistenten in der Federated-Audience-Komposition finden Sie in der [Übersicht zum KI-Assistenten](/help/start/ai-assistant.md). |
 
 ## Version Februar &#39;26 {#fac-26-02}
 
@@ -40,7 +54,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 
