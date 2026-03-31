@@ -21,7 +21,7 @@ Bei der Komposition föderierter Zielgruppen können Sie auf Produktwissen zugre
 
 ## Zugriff {#access}
 
-Um auf den KI-Assistenten zuzugreifen![ wählen Sie in der oberen Leiste ](/help/start/assets/ai-assistant/icon.png)das Symbol KI-Assistent“ aus. Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für das Tauchbild](assets/do-not-localize/Smock_FullScreen_18_N.svg "Symbol „Erweitern“ "), um das Fenster des KI-Assistenten zu erweitern.
+Um auf den KI-Assistenten zuzugreifen![&#x200B; wählen Sie in der oberen Leiste &#x200B;](/help/start/assets/ai-assistant/icon.png)das Symbol KI-Assistent“ aus. Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für das Tauchbild](assets/do-not-localize/Smock_FullScreen_18_N.svg "Symbol „Erweitern“ "), um das Fenster des KI-Assistenten zu erweitern.
 
 ![Das Symbol für den KI-Assistenten ist hervorgehoben und zeigt an, wie auf den KI-Assistenten zugegriffen werden kann.](/help/start/assets/ai-assistant/access.png)
 
