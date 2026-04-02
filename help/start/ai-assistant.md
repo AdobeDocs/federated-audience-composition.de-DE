@@ -67,4 +67,4 @@ Derzeit unterstützt die Fähigkeit zur Zielgruppenerstellung die folgenden zus�
 
 Weitere Informationen zum KI-Assistenten, einschließlich Beispielzielen, die Sie mit dem KI-Assistenten erreichen können, und Informationen zur Funktionsweise des KI-Assistenten finden Sie unter [KI-Assistent - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Eine vollständige Liste der Fragen zur operativen Insight-Komposition, die Sie bei der Federated Audience-Komposition stellen können, finden Sie im [Abschnitt zu operativen Einblicken](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Eine vollständige Liste der Fragen zur operativen Insight-Komposition, die Sie bei der Federated Audience-Komposition stellen können, finden Sie im [Abschnitt zu operativen Einblicken](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
