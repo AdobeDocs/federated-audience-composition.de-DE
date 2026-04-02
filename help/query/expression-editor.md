@@ -3,10 +3,10 @@ audience: end-user
 title: Überblick über den Ausdruckseditor
 description: Erfahren Sie, wie Sie mit den Funktionen im Ausdruckseditor eine Abfrage im Abfrage-Modeler erstellen können.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
-workflow-type: ht
-source-wordcount: '4108'
-ht-degree: 100%
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+workflow-type: tm+mt
+source-wordcount: '4215'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,8 @@ Das folgende Beispiel zeigt einen für das Feld **[!UICONTROL Wert]** konfigurie
 
 Der Abfrageeditor bietet fortgeschrittene Funktionen zur Erstellung komplexer Filter, je nach den gewünschten Ergebnissen und der Art der bearbeiteten Daten. Folgende Funktionen stehen zur Verfügung:
 
-<!-- ### Aggregate
+<!-- 
+### Aggregate
 
 The aggregate functions are used to perform calculations on a set of values.
 
@@ -52,7 +53,8 @@ The aggregate functions are used to perform calculations on a set of values.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | -->
+| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | 
+-->
 
 <!-- 
 
@@ -68,7 +70,8 @@ Aggregate functions are not available.
 
 >[!TAB Redshift]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 
@@ -76,12 +79,14 @@ Aggregate functions are not available. -->
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | 
+-->
 
 <!-- 
 >[!TAB Vertica]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 >[!ENDTABS] 
@@ -134,19 +139,21 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | **Oldest** | Gibt das älteste Datum unter den beiden angegebenen zurück. | Oldest(&lt;DATUM/UHRZEIT>, &lt;DATUM/UHRZEIT>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. Andernfalls wird auf die nächste Sekunde gekürzt. | TruncDate(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert, und wandelt „Datum/Uhrzeit“ in die angegebene Zeitzone um. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. | TruncDateTZ(&lt;DATUM/UHRZEIT>, &lt;ZAHL>, &lt;ZEITZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;Amerika/Los_Angeles&quot;) |
-| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Setzt den Datum/Uhrzeit-Wert auf den 1. Januar 2000 und rundet den Rest des Datums/Uhrzeit-Werts auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert.Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Quartal. | TruncQuarter(&lt;DATUM/UHRZEIT>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Jahr. | TruncYear(&lt;DATUM/UHRZEIT>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Kürzt „Datum/Uhrzeit“ auf den Sonntag der nächsten Woche. | TruncWeek(&lt;DATUM/UHRZEIT>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
-<!-- | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+<!-- 
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | -->
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+-->
 
 
 <!-- 
@@ -245,7 +252,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | ---- | ----------- | ------ | ------- |
 | **ConvertTimezone** | Converts the datetime from its timezone to the timezone of the external account. | ConvertTimezone(&lt;DATETIME&gt;) | ConvertTimezone("2019-12-25 15:30:00") |
 
- -->
+-->
 
 >[!TAB Snowflake]
 
@@ -287,21 +294,21 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | **Oldest** | Gibt das älteste Datum unter den beiden angegebenen zurück. | Oldest(&lt;DATUM/UHRZEIT>, &lt;DATUM/UHRZEIT>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. Andernfalls wird auf die nächste Sekunde gekürzt. | TruncDate(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert, und wandelt „Datum/Uhrzeit“ in die angegebene Zeitzone um. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. | TruncDateTZ(&lt;DATUM/UHRZEIT>, &lt;ZAHL>, &lt;ZEITZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;Amerika/Los_Angeles&quot;) |
-| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Setzt den Datum/Uhrzeit-Wert auf den 1. Januar 2000 und rundet den Rest des Datums/Uhrzeit-Werts auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert.Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Quartal. | TruncQuarter(&lt;DATUM/UHRZEIT>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Jahr. | TruncYear(&lt;DATUM/UHRZEIT>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Kürzt „Datum/Uhrzeit“ auf den Sonntag der nächsten Woche. | TruncWeek(&lt;DATUM/UHRZEIT>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 | **ConvertNTZ** | Konvertiert einen Zeitstempel ohne Zeitzone in einen Zeitstempel mit Zeitzone. Die angehängte Zeitzone ist die Zeitzone des externen Kontos. | ConvertNTZ(&lt;DATUM/UHRZEIT>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
 <!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
 -->
 
 <!-- 
@@ -436,7 +443,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 | **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
 | **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
 | **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
- -->
+-->
 
 <!-- 
 
@@ -468,7 +475,7 @@ Die numerischen Funktionen dienen der Konversion von Text in Zahlen.
 
 Numeric functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -496,7 +503,7 @@ Numeric functions are not available.
 | **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
 | **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
 
---->
+-->
 
 >[!ENDTABS]
 
@@ -515,7 +522,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 | **Else** | Wird als Teil der Case-Funktion verwendet. Wird verwendet, um die andere Option auszuwählen, wenn der When-Ausdruck falsch ist. | Else(&lt;VALUE>) | Else (&quot;nein&quot;) |
 | **Coalesce** | Gibt den ersten Nicht-Null-Wert zurück. | Coalesce(&lt;WERT>, &lt;WERT>) | Coalesce (&quot;&quot;, &quot;String&quot;) |
 | **Decode** | Gibt die erste Option zurück, wenn die Werte gleich sind. Gibt die zweite Option zurück, wenn die Werte nicht gleich sind. | Decode(&lt;WERT>, &lt;WERT>, &lt;WERT>, &lt;WERT>) | Decode(1, 2, &quot;wahr&quot;, &quot;falsch&quot;) |
-| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;beispiel@beispiel.com&quot;) |
+| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(“`sample@example.com`„) |
 | **Iif** | Gibt die erste Option zurück, wenn die Bedingung wahr ist, und gibt die zweite Option zurück, wenn die Bedingung falsch ist. | Iif(&lt;BEDINGUNG>, &lt;WERT>, &lt;WERT>) | Iif(10 &lt; 20, &quot;wahr&quot;, &quot;falsch&quot;) |
 | **IsEmptyString** | Gibt die erste Option zurück, wenn der String leer ist. Andernfalls wird die zweite Option zurückgegeben. | IsEmptyString( &lt;STRING> ,&lt;WERT>, &lt;WERT>) | IsEmptyString(&quot;String&quot;, &quot;ja&quot;, &quot;nein&quot;) |
 | **NewUUID** | Generiert eine neue eindeutige UUID. | NewUUID() | NewUUID() |
@@ -565,7 +572,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 
 Other functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -574,7 +581,7 @@ Other functions are not available.
 | **Case** | Gibt ersten Wert zurück, wenn der Ausdruck wahr ist. Andernfalls wird der zweite Wert zurückgegeben. | Case(When(&lt;AUSDRUCK> &lt;WERT>), Else(&lt;WERT>)) | Case(When(a > b, &quot;ja&quot;), Else(&quot;nein&quot;)) |
 | **When** | Wird als Teil der Case-Funktion verwendet. Wird verwendet, um den Ausdruck in der Case-Funktion zu überprüfen. | When(&lt;AUSDRUCK> &lt;WERT>) | When(a > b, &quot;ja&quot;) |
 | **Else** | Wird als Teil der Case-Funktion verwendet. Wird verwendet, um die andere Option auszuwählen, wenn der When-Ausdruck falsch ist. | Else(&lt;VALUE>) | Else (&quot;nein&quot;) |
-| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;beispiel@beispiel.com&quot;) |
+| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(“`sample@example.com`„) |
 | **Iif** | Gibt die erste Option zurück, wenn die Bedingung wahr ist, und gibt die zweite Option zurück, wenn die Bedingung falsch ist. | Iif(&lt;BEDINGUNG>, &lt;WERT>, &lt;WERT>) | Iif(10 &lt; 20, &quot;wahr&quot;, &quot;falsch&quot;) |
 | **IsEmptyString** | Gibt die erste Option zurück, wenn der String leer ist. Andernfalls wird die zweite Option zurückgegeben. | IsEmptyString( &lt;STRING> ,&lt;WERT>, &lt;WERT>) | IsEmptyString(&quot;String&quot;, &quot;ja&quot;, &quot;nein&quot;) |
 | **ToBoolean** | Gibt „1“ zurück, wenn der Wert wahr ist. Gibt „0“ zurück, wenn der Wert falsch ist. | ToBoolean(&lt;WERT>) | ToBoolean(a=b) |
@@ -613,7 +620,7 @@ Other functions are not available.
 
 >[!ENDTABS]
 
-### String
+### Zeichenfolge
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
@@ -651,7 +658,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -671,7 +678,7 @@ Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -729,7 +736,7 @@ String functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -790,7 +797,7 @@ String functions are not available.
 
 Window functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 

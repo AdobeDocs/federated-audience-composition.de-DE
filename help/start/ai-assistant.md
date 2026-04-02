@@ -2,7 +2,7 @@
 title: KI-Assistent - Übersicht
 description: Erfahren Sie, wie Sie den KI-Assistenten verwenden, einschließlich Produktkenntnissen, betrieblicher Einblicke und der Erstellung von zusammengeführten Zielgruppenkompositionen.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 16%
@@ -21,7 +21,7 @@ Bei der Komposition föderierter Zielgruppen können Sie auf Produktwissen zugre
 
 ## Zugriff {#access}
 
-Um auf den KI-Assistenten zuzugreifen![&#x200B; wählen Sie in der oberen Leiste &#x200B;](/help/start/assets/ai-assistant/icon.png)das Symbol KI-Assistent“ aus. Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für das Tauchbild](assets/do-not-localize/Smock_FullScreen_18_N.svg "Symbol „Erweitern“ "), um das Fenster des KI-Assistenten zu erweitern.
+Um auf den KI-Assistenten zuzugreifen![ wählen Sie in der oberen Leiste ](/help/start/assets/ai-assistant/icon.png)das Symbol KI-Assistent“ aus. Der KI-Assistent wird rechts am Bildschirm angezeigt. Sie können ![ALT-Text für das Tauchbild](assets/do-not-localize/Smock_FullScreen_18_N.svg "Symbol „Erweitern“ "), um das Fenster des KI-Assistenten zu erweitern.
 
 ![Das Symbol für den KI-Assistenten ist hervorgehoben und zeigt an, wie auf den KI-Assistenten zugegriffen werden kann.](/help/start/assets/ai-assistant/access.png)
 
@@ -67,4 +67,4 @@ Derzeit unterstützt die Fähigkeit zur Zielgruppenerstellung die folgenden zus�
 
 Weitere Informationen zum KI-Assistenten, einschließlich Beispielzielen, die Sie mit dem KI-Assistenten erreichen können, und Informationen zur Funktionsweise des KI-Assistenten finden Sie unter [KI-Assistent - Übersicht](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Eine vollständige Liste der Fragen zur operativen Insight-Komposition, die Sie bei der Federated Audience-Komposition stellen können, finden Sie im [Abschnitt zu operativen Einblicken](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Eine vollständige Liste der Fragen zur operativen Insight-Komposition, die Sie bei der Federated Audience-Komposition stellen können, finden Sie im [Abschnitt zu operativen Einblicken](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.

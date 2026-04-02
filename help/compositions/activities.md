@@ -3,10 +3,10 @@ audience: end-user
 title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '5477'
-ht-degree: 86%
+source-wordcount: '5478'
+ht-degree: 87%
 
 ---
 
@@ -281,7 +281,7 @@ Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim 
 
 Mit der Aktivität **Anreicherung** können Sie Ihre Komposition durch Hinzufügen zusätzlicher Daten aus der föderierten Datenbank erweitern.
 
-Wenn Sie eine Verbindung zum Ziel „Federated Audience Composition“ konfiguriert haben, können Sie mit der Aktivität Anreicherung Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anreichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../connections/destinations.md)
+Wenn Sie eine Verbindung zum Ziel „Komposition föderierter Zielgruppen“ konfiguriert haben, können Sie mit der Aktivität „Anreicherung“ Daten aus Adobe Experience Platform mit Attributen aus Ihrer externen Datenbank anreichern. [Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mit externen Daten anreichern](../connections/destinations.md)
 
 +++ Konfigurationsdetails
 
@@ -511,7 +511,7 @@ Diese Aktivität wird verwendet, um Schemata anzureichern, indem zusätzliche At
 
 >[!IMPORTANT]
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Komposition hinzugefügt haben, können Sie der Aktivität einen Titel geben und das Adobe Experience Platform-Schema auswählen, das Sie verwenden möchten. Das Schema kann entweder ein Standardschema oder ein relationales Schema sein.
 

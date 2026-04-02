@@ -3,10 +3,10 @@ audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '2970'
-ht-degree: 75%
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 >
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Föderierte Datenbank verwalten**
+>-**Federated Database verwalten**
 >-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
@@ -166,7 +166,7 @@ Nachdem Sie Ihre Anmeldedaten eingegeben haben, können Sie die folgenden Inform
 | ----- | ----------- |
 | HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Databricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalog | Der Name des Databricks-Katalogs. Weitere Informationen zu Katalogen in Databricks finden Sie in der [Databricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Arbeitsschema | Der Name des für die Arbeitstabellen zu verwendenden Datenbankschemas. <br/><br/>**Hinweis:** Sie können **beliebige** Schema aus der Datenbank verwenden, einschließlich Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen verfügen, um eine Verbindung zu diesem Schema herzustellen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -291,7 +291,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des für die Arbeitstabellen zu verwendenden Datenbankschemas. <br/><br/>**Hinweis:** Sie können **beliebige** Schema aus der Datenbank verwenden, einschließlich Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen verfügen, um eine Verbindung zu diesem Schema herzustellen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Privater Schlüssel | Der private Schlüssel für Ihre Datenbankverbindung. Sie können eine `.pem`-Datei von Ihrem lokalen System hochladen. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
@@ -317,7 +317,7 @@ Nach Auswahl von Vertica Analytics können Sie die folgenden Details hinzufügen
 | Konto | Der Benutzername des Kontos. |
 | Passwort | Das Passwort des Kontos. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des für die Arbeitstabellen zu verwendenden Datenbankschemas. <br/><br/>**Hinweis:** Sie können **beliebige** Schema aus der Datenbank verwenden, einschließlich Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen verfügen, um eine Verbindung zu diesem Schema herzustellen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Vertica Analytics können Sie die folgenden zusätzlichen Optionen festlegen:
