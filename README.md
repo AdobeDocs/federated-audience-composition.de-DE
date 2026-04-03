@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 # Artikel beitragen
@@ -47,18 +47,18 @@ Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://ex
 
 ## Interne Mitwirkende
 
-Wenn Sie in der technischen Redaktion, im Programm-Management oder in der Produktentwicklung für eine Adobe Experience Cloud-Lösung arbeiten und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken bzw. diese zu verfassen, verwenden Sie das [private Repository](https://git.corp.adobe.com/AdobeDocs). 
+Wenn Sie in der technischen Redaktion, im Programm-Management oder in der Produktentwicklung für eine Adobe Experience Cloud-Lösung arbeiten und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken bzw. diese zu verfassen, verwenden Sie das [private Repository](https://git.corp.adobe.com/AdobeDocs).
 
 ## Formatieren Ihres Artikels
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, finden Sie weitere Informationen dazu unter:
 
 * [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Druckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Druckbare Markdown-Anleitung](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Labels
+## Beschriftungen
 
-Im öffentlichen Repository werden automatisierte Labels Pull-Anfragen zugewiesen, damit wir den Workflow für Pull-Anfragen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anfrage passiert:
+Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anforderungen zugewiesen, damit wir den Arbeitsablauf für Pull-Anforderungen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anforderung passiert:
 
 * **Change sent to author**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
 * **ready-to-merge**: Bereit zur Überprüfung durch unser Pull-Anforderung-Überprüfungsteam.
