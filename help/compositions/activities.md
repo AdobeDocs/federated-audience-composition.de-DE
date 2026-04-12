@@ -511,7 +511,7 @@ Diese Aktivität wird verwendet, um Schemata anzureichern, indem zusätzliche At
 
 >[!IMPORTANT]
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Komposition hinzugefügt haben, können Sie der Aktivität einen Titel geben und das Adobe Experience Platform-Schema auswählen, das Sie verwenden möchten. Das Schema kann entweder ein Standardschema oder ein relationales Schema sein.
 

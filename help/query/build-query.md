@@ -5,8 +5,8 @@ description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstell
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 89%
+source-wordcount: '2084'
+ht-degree: 93%
 
 ---
 
@@ -16,15 +16,15 @@ Um mit der Erstellung einer Abfrage zu beginnen, greifen Sie je nach der Aktion,
 
 Sie können zwei Elementtypen hinzufügen:
 
-* **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen) ermöglicht es Ihnen, eigene Regeln zu erstellen oder eine Zielgruppe auszuwählen, um Ihre Abfrage zu verfeinern. Sie werden am Anfang Ihrer Abfrage und in gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten](#filtering)
+* **Komponenten filtern** (Benutzerdefinierte Bedingung, Zielgruppe auswählen) ermöglicht es Ihnen, eigene Regeln zu erstellen oder eine Zielgruppe auszuwählen, um Ihre Abfrage zu verfeinern. Sie werden zu Beginn Ihrer Abfrage und bei gepunkteten Transitionen hinzugefügt. [Erfahren Sie, wie Sie mit Filterkomponenten arbeiten können](#filtering)
 
-  Beispiel: *Empfänger, die den Newsletter „Sport“ abonniert haben*. *Empfänger, die in New* leben, *Empfänger, die in San Francisco leben*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben*. *Empfängerinnen und Empfänger mit Wohnsitz in New York*, *Empfängerinnen und Empfänger mit Wohnsitz in San Francisco*
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
-* **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, die Filterkomponenten im Diagramm zu gruppieren. Sie werden vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie Sie mit Benutzern arbeiten können](#filtering)
+* **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, die Filterkomponenten im Diagramm zu gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**&#x200B;in New York **ODER**&#x200B;San Francisco leben*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    >[!NOTE]
    >
-   >Mit der Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** können Sie den Ausdruckseditor nutzen, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+   >Über die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** können Sie den Ausdruckseditor starten, um einen Ausdruck manuell mithilfe von Feldern aus der Datenbank und Hilfsfunktionen zu definieren. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
 3. Wählen Sie in der Dropdown-Liste den anzuwendenden Operator aus. Es stehen verschiedene Operatoren zur Verfügung. Beachten Sie, dass die in der Dropdown-Liste verfügbaren Operatoren vom Datentyp des Attributs abhängen.
 
@@ -79,7 +79,7 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    +++
 
-4. Legen Sie im Feld **[!UICONTROL Wert]** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell einen Ausdruck zu definieren. Klicken Sie dazu auf die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]**. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
+4. Legen Sie im Feld **[!UICONTROL Wert]** den erwarteten Wert fest. Sie können auch den Ausdruckseditor verwenden, um mithilfe von Feldern aus der Datenbank und Hilfsfunktionen manuell einen Ausdruck zu definieren. Wählen Sie dazu die Schaltfläche **[!UICONTROL Ausdruck bearbeiten]** aus. [Erfahren Sie, wie Sie Ausdrücke bearbeiten](expression-editor.md)
 
    *Abfragebeispiel, in dem alle Profile im Alter von 21 Jahren oder älter zurückgegeben werden:*
 
@@ -237,7 +237,7 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Regeleigenschaften"
->abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieleinträge überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Inhalt der Arbeitsfläche durch einen vorhandenen Filter ersetzen."
+>abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieleinträge überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
 
 Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese im Bereich **[!UICONTROL Regeleigenschaften]** auf der rechten Seite überprüfen. Dieser Bereich wird angezeigt, wenn Sie eine Abfrage zum Erstellen einer Zielgruppe erstellen. Verfügbare Vorgänge sind:
 

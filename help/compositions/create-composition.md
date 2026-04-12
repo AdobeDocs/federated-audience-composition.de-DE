@@ -4,15 +4,15 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
-workflow-type: ht
-source-wordcount: '1596'
+workflow-type: tm+mt
+source-wordcount: '1603'
 ht-degree: 100%
 
 ---
 
 # Erstellen einer Komposition
 
-Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden in Adobe Experience Platform gespeichert und können in Experience Platform-Zielen und Adobe Journey Optimizer zum Ansprechen von Kundschaft genutzt werden. 
+Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden in Adobe Experience Platform gespeichert und können in Experience Platform-Zielen und Adobe Journey Optimizer zum Ansprechen von Kundschaft genutzt werden.
 
 ## Definieren der Komposition {#create}
 
@@ -45,7 +45,7 @@ Sie können oben auf der Arbeitsfläche auf eine Symbolleiste zugreifen, die Opt
 
 Verfügbare Optionen sind:
 
-* **[!UICONTROL Mehrfachauswahl]**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren und einzufügen. 
+* **[!UICONTROL Mehrfachauswahl]**: Wählen Sie mehrere Aktivitäten aus, um sie alle gleichzeitig zu löschen oder zu kopieren und einzufügen.
 * **[!UICONTROL Drehen]**: Dreht die Arbeitsfläche, sodass sie vertikal angezeigt wird.
 * **[!UICONTROL An Bildschirm anpassen]**: Passt die Vergrößerung der Arbeitsfläche an Ihren Bildschirm an.
 * **[!UICONTROL Vergrößern]**/**[!UICONTROL Verkleinern]**: Vergrößert oder verkleinert die Arbeitsfläche.
@@ -82,14 +82,14 @@ Die Optionen sind:
 
   Im Abschnitt **[!UICONTROL Umgang mit Fehlern]** können Sie die Aktion angeben, die ausgeführt werden soll, wenn bei der Aktivität ein Fehler auftritt.
 
-  Im Abschnitt **[!UICONTROL Initialisierungsscript]** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Wählen Sie die Schaltfläche **[!UICONTROL Code bearbeiten]** aus und geben Sie den auszuführenden Code-Ausschnitt ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird. 
+  Im Abschnitt **[!UICONTROL Initialisierungsscript]** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Wählen Sie die Schaltfläche **[!UICONTROL Code bearbeiten]** aus und geben Sie den auszuführenden Code-Ausschnitt ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird.
 
   +++
 * **Protokolle und Aufgaben**: Zeigt die Protokolle und Aufgaben für die ausgewählte Aktivität an.
 
 ## Starten und Überwachen der Komposition {#start-and-monitor}
 
-Nachdem Sie Ihre Aktivitäten zur Komposition hinzugefügt haben, können Sie die Ausführung der Komposition starten. Um eine Komposition zu starten, wählen Sie oben rechts auf dem Bildschirm die Schaltfläche **[!UICONTROL Starten]** aus. 
+Nachdem Sie Ihre Aktivitäten zur Komposition hinzugefügt haben, können Sie die Ausführung der Komposition starten. Um eine Komposition zu starten, wählen Sie oben rechts auf dem Bildschirm die Schaltfläche **[!UICONTROL Starten]** aus.
 
 ![](assets/execution-actions.png)
 
@@ -165,7 +165,7 @@ Nun, da **[!UICONTROL In-App]** ausgewählt ist, werden Sie über Erfolge und Fe
 >title="Einstellungen für den Umgang mit Fehlern"
 >abstract="In diesem Abschnitt können Sie definieren, wie Fehler während der Ausführung behandelt werden sollen. Sie können festlegen, dass der Prozess angehalten werden soll, dass eine bestimmte Anzahl von Fehlern ignoriert werden soll oder dass die Ausführung der Komposition gestoppt werden soll."
 
-Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll. 
+Beim Zugriff auf eine Komposition können Sie auf erweiterte Einstellungen zugreifen, mit denen Sie beispielsweise festlegen können, wie sich die Komposition im Falle eines Fehlers verhalten soll.
 
 Um auf diese zusätzlichen Optionen zuzugreifen, wählen Sie im oberen Abschnitt des Bildschirms zur Kompositionserstellung **[!UICONTROL Einstellungen]** aus.
 
