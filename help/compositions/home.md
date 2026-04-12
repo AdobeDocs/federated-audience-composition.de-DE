@@ -4,9 +4,9 @@ title: Erste Schritte mit Kompositionen
 description: Erfahren Sie, wie Sie mit Kompositionen beginnen
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 99%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 100%
 >
 >Um auf Kompositionen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Föderierte Kompositionen verwalten**
+>-**Verwalten von zusammengesetzten Kompositionen**
 >-**Föderierte Kompositionen anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
-Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden in Adobe Experience Platform gespeichert und können in Experience Platform-Zielen und Adobe Journey Optimizer zum Ansprechen von Kundschaft genutzt werden. 
+Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden in Adobe Experience Platform gespeichert und können in Experience Platform-Zielen und Adobe Journey Optimizer zum Ansprechen von Kundschaft genutzt werden.
 
 ![In der Komposition föderierter Zielgruppen wird ein beispielhafter Kompositions-Workflow angezeigt.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
 

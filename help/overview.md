@@ -5,7 +5,7 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -60,7 +60,7 @@ Mit der Komposition föderierter Zielgruppen von Adobe können Sie Adobe Experie
 
 >[!NOTE]
 >
->Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Der Zugriff erfolgt über das Menü **Zielgruppen** . [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platform und/oder Adobe Journey Optimizer zur Verfügung gestellt. Sie wird im Menü **Zielgruppen** zur Verfügung gestellt. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Verwaltung, Datenschutz und Sicherheit {#governance-privacy-security}
 
