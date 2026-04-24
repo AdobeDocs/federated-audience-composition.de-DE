@@ -2,17 +2,19 @@
 title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 8%
+source-wordcount: 442
+ht-degree: 13%
 
 ---
 
-
 # Versionshinweise
 
-[!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen werden in diesen Versionshinweisen zusammengefasst. [!DNL Federated Audience Composition] basiert nativ auf [!DNL Adobe Experience Platform] und profitiert von den neuesten Innovationen und Verbesserungen von Platform. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+[!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
 ## Version vom 26. März {#fac-26-03}
 
