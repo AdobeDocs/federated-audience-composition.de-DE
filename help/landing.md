@@ -2,10 +2,13 @@
 title: Adobe Experience Platform – Startseite der Dokumentation zur Komposition föderierter Zielgruppen
 description: Dokumentation zur Komposition föderierter Zielgruppen
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+TQID: https://experienceleague.adobe.com/LV-FlDaa90Z0V1dRxZV8452xrf6FsscjndNpIEjHeIY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: 275
+ht-degree: 94%
 
 ---
 
@@ -31,7 +34,7 @@ Erstellen, konfigurieren, testen und speichern Sie die Verbindung zu Ihrer exter
 
 >[!TAB Zusammenstellen einer Zielgruppe]
 
-Fügen Sie Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) hinzu und konfigurieren Sie diese, um Kompositionen und Ihre Zielgruppe zu erstellen.
+Hinzufügen und Konfigurieren von Aktivitäten (Aufspaltung, Anreicherung, Abfrage usw.) um Kompositionen zu erstellen und Ihre Audience zu erstellen.
 
 [![Bild](assets/learn-more-button.svg)](compositions/home.md)
 

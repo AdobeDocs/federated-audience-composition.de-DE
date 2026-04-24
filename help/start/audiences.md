@@ -3,9 +3,11 @@ audience: end-user
 title: Arbeiten mit Zielgruppen
 description: Erfahren Sie, wie Sie mit Zielgruppen arbeiten
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: ht
-source-wordcount: '309'
+TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+workflow-type: tm+mt
+source-wordcount: 326
 ht-degree: 100%
 
 ---
@@ -20,9 +22,9 @@ Anschließend können Sie können diese Zielgruppe in Journey Optimizer als Ziel
 
 Um Zielgruppen mithilfe der Komposition föderierter Zielgruppen zu erstellen, müssen Sie eine Komposition einschließlich einer Aktivität **[!UICONTROL Zielgruppe speichern]** erstellen. Mit dieser Aktivität können Sie die Zielgruppe in Audience Portal speichern und Felder aus Ihren externen Datenbanken auswählen, die in die Zielgruppe aufgenommen werden sollen. [Erfahren Sie, wie Sie eine Aktivität „Zielgruppe speichern“ konfigurieren können](../compositions/activities.md#save-audience)
 
-Zielgruppen, die mithilfe der Komposition föderierter Daten von Adobe erstellt wurden, enthalten alle in der Aktivität **[!UICONTROL Zielgruppe speichern]** ausgewählten Felder und werden im Zielgruppenportal zusammen mit allen Adobe Experience Platform-Zielgruppen gespeichert. 
+Zielgruppen, die mithilfe der Komposition föderierter Daten von Adobe erstellt wurden, enthalten alle in der Aktivität **[!UICONTROL Zielgruppe speichern]** ausgewählten Felder und werden im Zielgruppenportal zusammen mit allen Adobe Experience Platform-Zielgruppen gespeichert.
 
-Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platorm und/oder Adobe Journey Optimizer zur Verfügung gestellt. 
+Nach der Ausführung der Komposition wird die resultierende Zielgruppe in Adobe Experience Platform als externe Zielgruppe gespeichert und in Adobe Real-Time Customer Data Platorm und/oder Adobe Journey Optimizer zur Verfügung gestellt.
 
 Sie können diese Zielgruppen für jedes von Adobe Experience Platform unterstützte Ziel aktivieren. Informationen zum Arbeiten mit Zielen in [Adobe Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/home){target="_blank"}
 

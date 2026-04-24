@@ -2,10 +2,13 @@
 title: Häufig gestellte Fragen
 description: Häufig gestellte Fragen zur Komposition föderierter Zielgruppen in Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
+TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 83%
+source-wordcount: 975
+ht-degree: 75%
 
 ---
 
@@ -46,7 +49,7 @@ Weitere Informationen zum Verbinden mit einem Data Warehouse finden Sie unter [V
 
 +++ Antwort
 
-Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten aus mehreren Quellen kombiniert werden. In der Regel führt jede [Kompositionsaktivität](./compositions/activities.md) (Abfrage, Anreicherung, Aufspaltung usw.) eine oder mehrere SQL-Anweisungen je nach Konfiguration der Aktivität und je nach Zieldatenbanken aus (es kann mehrere Fälle von föderiertem Datenzugriff geben) und gibt eine oder mehrere Arbeitstabellen mit dem Ergebnis der Ausführung aus. Diese Arbeitstabellen werden als Eingabe für aufeinander folgende Aktivitäten verwendet.
+Ja, es können mehrere Warehouses in derselben Komposition abgefragt und Daten aus mehreren Quellen kombiniert werden.  Normalerweise jede [Kompositionsaktivität](./compositions/activities.md) (Abfrage, Anreicherung, Aufteilung usw.) Führt je nach Aktivitätskonfiguration, Zieldatenbanken (es kann mehrere Fälle von Federated Data Access geben) und Ausgaben einer oder mehrerer Arbeitstabellen mit dem Ergebnis der Ausführung eine oder mehrere SQL-Anweisungen aus. Diese Arbeitstabellen werden als Eingabe für aufeinander folgende Aktivitäten verwendet.
 
 +++
 
@@ -114,7 +117,7 @@ Ja, Sie können in Audience Portal Zielgruppenkomposition-Zielgruppen löschen.
 
 +++ Antwort
 
-Nein, Identity Service wird während einer Komposition nicht genutzt. Die Daten zwischen den verschiedenen in der Komposition verwendeten Quellen werden durch eine benutzerdefinierte Logik verbunden (wie im zugrunde liegenden Modell ausgedrückt), z. B. CRM-ID, Benutzerkontonummer usw. Sie müssen die Identität, die als Kennung in der Zielgruppe verwendet wird, für die Auswahl in Ihrem Data Warehouse auswählen. Bei einer aus der Komposition föderierter Zielgruppen resultierenden Zielgruppe müssen Sie den Identity-Namespace für die Identität im resultierenden Datensatz identifizieren.
+Nein, Identity Service wird während einer Komposition nicht genutzt. Die Daten zwischen den verschiedenen Quellen, die in der Komposition verwendet werden, werden durch eine benutzerdefinierte Logik (wie im zugrunde liegenden Modell ausgedrückt) verbunden, z. B. CRM-ID, Benutzerkontonummer usw. Sie müssen die Identität auswählen, die als Kennung in der Zielgruppe zur Auswahl in Ihrem Data Warehouse verwendet wird. Bei einer aus der Komposition föderierter Zielgruppen resultierenden Zielgruppe müssen Sie den Identity-Namespace für die Identität im resultierenden Datensatz identifizieren.
 
 +++
 

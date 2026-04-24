@@ -3,9 +3,11 @@ audience: end-user
 title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: 2084
 ht-degree: 93%
 
 ---
@@ -24,7 +26,7 @@ Sie können zwei Elementtypen hinzufügen:
 
 * **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, die Filterkomponenten im Diagramm zu gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**&#x200B;in New York **ODER**&#x200B;San Francisco leben*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
