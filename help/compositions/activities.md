@@ -4,9 +4,8 @@ title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
 ht-degree: 87%
@@ -207,6 +206,8 @@ Bei Auswahl von **Ausschluss** müssen Sie die **Hauptmenge** aus den eingehende
 Nachdem Sie die Hauptmenge ausgewählt haben, können Sie Ihre **Ausschlussregeln** einrichten. Sie können entweder **Übereinstimmung mit Attribut** oder **Join** auswählen.
 
 Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Option **Komplement erzeugen** auswählen. Beim Erzeugen eines Komplements wird die verbleibende Population verarbeitet. Die Daten, die **nicht** Teil des Ausschlusses sind, sind dabei enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
+
+>[!ENDTABS]
 
 +++
 
@@ -514,7 +515,7 @@ Diese Aktivität wird verwendet, um Schemata anzureichern, indem zusätzliche At
 
 >[!IMPORTANT]
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Komposition hinzugefügt haben, können Sie der Aktivität einen Titel geben und das Adobe Experience Platform-Schema auswählen, das Sie verwenden möchten. Das Schema kann entweder ein Standardschema oder ein relationales Schema sein.
 
