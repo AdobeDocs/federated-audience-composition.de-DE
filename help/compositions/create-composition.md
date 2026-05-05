@@ -4,9 +4,8 @@ title: Erstellen von Kompositionen
 description: Erfahren Sie, wie Sie Kompositionen erstellen.
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 100%
@@ -73,6 +72,7 @@ Die Optionen sind:
 * **[!UICONTROL Anhalten]/[!UICONTROL Fortsetzen]**: Pausiert die Aktivität oder setzt sie wieder fort. Wenn die Komposition ausgeführt wird, wird sie mit der Aktivität „Ahalten“ angehalten. Die entsprechende Aufgabe und alle ihr im gleichen Pfad folgenden Aufgaben werden nicht ausgeführt.
 * **[!UICONTROL Kopieren]**: Kopiert die Aktivität, um sie an einer anderen Stelle in der Komposition einzufügen. Wählen Sie dazu die Schaltfläche **+** in einer Transition und anschließend **[!UICONTROL Aktivität X einfügen]** aus. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Konfigurieren Sie die **[!UICONTROL Ausführungsoptionen]** für die ausgewählte Aktivität. Folgende Ausführungsoptionen sind verfügbar:
+
   +++Verfügbare Ausführungsoptionen
 
   Im Abschnitt **[!UICONTROL Eigenschaften]** können Sie allgemeine Einstellungen für die Ausführung der Aktivität konfigurieren:
@@ -88,6 +88,7 @@ Die Optionen sind:
   Im Abschnitt **[!UICONTROL Initialisierungsscript]** können Sie Variablen initialisieren oder Aktivitätseigenschaften ändern. Wählen Sie die Schaltfläche **[!UICONTROL Code bearbeiten]** aus und geben Sie den auszuführenden Code-Ausschnitt ein. Das Skript wird aufgerufen, wenn die Aktivität ausgeführt wird.
 
   +++
+
 * **Protokolle und Aufgaben**: Zeigt die Protokolle und Aufgaben für die ausgewählte Aktivität an.
 
 ## Starten und Überwachen der Komposition {#start-and-monitor}

@@ -4,16 +4,12 @@ title: Erste Schritte mit Datenmodellen
 description: Erfahren Sie, wie Sie mit der Arbeit mit Datenmodellen beginnen.
 exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
 TQID: https://experienceleague.adobe.com/iUpEJiNCYHzeDyGr6DYCKmb3jLEBwnbpN2dakLnf68k
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 97%
+source-wordcount: 778
+ht-degree: 93%
 
 ---
 
@@ -32,11 +28,11 @@ Ein Datenmodell ist ein Satz von Schemata, Zielgruppen und den Verknüpfungen zw
 
 Bei der Komposition föderierter Zielgruppen können Sie Datenmodelle direkt in der Arbeitsflächenansicht erstellen und verwalten. Dazu gehört das Hinzufügen von Schemata und Zielgruppen sowie das Definieren der Verknüpfungen zwischen ihnen auf Grundlage Ihres Anwendungsfalls.
 
-Weitere Informationen zu [Schemata](../data-modelling/schemas.md#schema-start) und [Zielgruppen](../start/audiences.md).
+Weitere Informationen zu Schemata finden Sie unter [Schemata - Übersicht](../data-modelling/schemas.md). Weitere Informationen zu Zielgruppen finden Sie im [Handbuch zum Arbeiten mit Zielgruppen](../start/audiences.md).
 
 Unten sehen Sie beispielsweise die Darstellung eines Datenmodells: die Tabellen mit ihrem Namen und die Verknüpfungen zwischen ihnen.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![Beispieldarstellung eines Datenmodells mit den angezeigten Tabellen und Links zwischen den Tabellen.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Erstellen eines Datenmodells {#data-model-create}
 
