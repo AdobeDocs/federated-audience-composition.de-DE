@@ -9,10 +9,10 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
 workflow-type: tm+mt
-source-wordcount: 658
-ht-degree: 100%
+source-wordcount: 773
+ht-degree: 56%
 
 ---
 
@@ -29,66 +29,62 @@ Dazu müssen Sie in Adobe Experience Platform eine neue Verbindung zum Ziel „K
 
 Wenn Sie beispielsweise Kaufinformationen in Ihrem Data Warehouse speichern und über eine Adobe Experience Platform-Zielgruppe für die Kundinnen und Kunden verfügen, die sich in den letzten beiden Monaten für ein bestimmtes Produkt interessiert haben, können Sie mithilfe des Ziels „Komposition föderierter Zielgruppen“ Folgendes tun:
 
-* Verfeinern der Zielgruppe auf Grundlage der Kaufinformationen. Beispielsweise können Sie die Zielgruppe filtern, um nur Kundinnen und Kunden auszuwählen, die einen Kauf von mehr als 150 US-Dollar getätigt haben.
+* Verfeinern der Zielgruppe auf Grundlage der Kaufinformationen. Sie können die Zielgruppe beispielsweise so filtern, dass nur Kunden angesprochen werden, die einen Kauf im Wert von mehr als 150 USD getätigt haben.
 * Reichern Sie die Zielgruppe mit Feldern an, die sich auf Käufe beziehen, wie beispielsweise den Produktnamen und die gekaufte Menge.
 
-Die wichtigsten Schritte zum Senden von Adobe Experience Platform-Zielgruppen an die Komposition föderierter Zielgruppen von Adobe lauten wie folgt:
+## Zielgruppe für Ziel aktivieren {#activate}
 
-1. Rufen Sie den Adobe Experience Platform-Zielkatalog auf und wählen Sie das Ziel „Komposition föderierter Zielgruppen“ aus.
+Wählen Sie im Adobe Experience Platform-Zielkatalog das Ziel Federated Audience Composition aus. Wählen Sie im rechten Bereich die Option **[!UICONTROL Neues Ziel konfigurieren]** aus.
 
-   Wählen Sie im rechten Bereich die Option **[!UICONTROL Neues Ziel konfigurieren]** aus.
+![Die Schaltfläche „Neues Ziel konfigurieren“ ist im Zielkatalog hervorgehoben.](assets/destinations/new.png)
 
-   ![](assets/destination-new.png)
+Die **[!UICONTROL Neues Ziel konfigurieren]** wird angezeigt. Auf dieser Seite können Sie Details zu Ihrem Ziel konfigurieren, einschließlich Name, Beschreibung, Verbindungstyp und Federated Database.
 
-1. Geben Sie einen Namen für die neue Verbindung ein und wählen Sie den **[!UICONTROL Verbindungstyp]** aus den folgenden verfügbaren Verbindungen aus:
+![Die Seite Neues Ziel konfigurieren wird angezeigt und zeigt an, welche Details hinzugefügt werden müssen, um das Ziel zu erstellen.](assets/destinations/configure.png)
 
-   * Amazon Redshift
-   * Azure Synapse Analytics
-   * Google BigQuery
-   * Snowflake
-   * Vertica Analytics
-   * Databricks
-   * Microsoft Fabric
+Über den Abschnitt **[!UICONTROL Warnungen]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten. Dazu gehören Warnhinweise für Verzögerungen bei der Ausführung von Datenflüssen, Ausführungsfehler, Ausführungserfolge, Ausführungsstarts und Aktivierungsüberspringungen.
 
-1. Wählen Sie die **[!UICONTROL föderierte Datenbank]** aus, mit der Sie eine Verbindung herstellen möchten, und klicken Sie anschließend auf **[!UICONTROL Weiter]**.
+Weitere Informationen zu Warnhinweisen finden Sie in der Adobe Experience Platform-Dokumentation unter [Abonnieren von Warnhinweisen zu Zielen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
-   ![](assets/destination-configure.png)
+![Die verfügbaren Warnhinweise für das Ziel werden angezeigt.](assets/destinations/alerts.png)
 
-1. Über den Abschnitt **[!UICONTROL Warnungen]** können Sie Warnhinweise aktivieren, um Benachrichtigungen zum Status des Datenflusses zu Ihrem Ziel zu erhalten.
+Nachdem Sie die Details Ihres Ziels konfiguriert haben, klicken Sie auf **[!UICONTROL Weiter]**. Der **[!UICONTROL „Governance-Richtlinie und Durchsetzungsaktionen]** wird angezeigt. Auf dieser Seite können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden aktiver Zielgruppen den Richtlinien entsprechen.
 
-   Weitere Informationen zu Warnhinweisen finden Sie in der Dokumentation zu Adobe Experience Platform zum [Abonnieren von Zielwarnhinweisen über die Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Wenn Sie die gewünschten Marketing-Aktionen für das Ziel ausgewählt haben, klicken Sie auf **[!UICONTROL Erstellen]**.
 
-1. Im Schritt **[!UICONTROL Governance-Richtlinie und Umsetzungsmaßnahmen]** können Sie Ihre Data-Governance-Richtlinien definieren und sicherstellen, dass die verwendeten Daten beim Senden und Aktivieren von Zielgruppen konform sind.
+Die neue Verbindung zum Ziel wird erstellt. Sie können nun Zielgruppen aktivieren, um sie an das Ziel zu senden. Wählen Sie das Ziel aus, für das Sie die Zielgruppen aktivieren möchten, gefolgt von **[!UICONTROL Weiter]**.
 
-   Wenn Sie die gewünschten Marketing-Aktionen für das Ziel ausgewählt haben, klicken Sie auf **[!UICONTROL Erstellen]**.
+![Die Schaltfläche „Aktivieren“ ist hervorgehoben.](assets/destinations/activate.png)
 
-1. Die neue Verbindung zum Ziel wird erstellt. Sie können nun Zielgruppen aktivieren, um sie an das Ziel zu senden. Wählen Sie sie hierzu aus der Liste aus und klicken Sie anschließend auf **[!UICONTROL Weiter]**.
+Der **[!UICONTROL Zeitplan]** wird angezeigt. Sie können die gewünschten Zielgruppen auswählen, die Sie für das Ziel aktivieren möchten. Um einen Zeitplan einzurichten, klicken Sie auf ![Bleistiftsymbol](assets/do-not-localize/Smock_Edit_18_N.svg), um Ihren Exportzeitplan zu bearbeiten.
 
-   ![](assets/destination-activate.png)
+![Die Seite „Ziel aktivieren“ wird angezeigt.](assets/destinations/schedule.png)
 
-1. Wählen Sie die gewünschten Zielgruppen aus, die gesendet werden sollen.
+Das **[!UICONTROL Planung]**-Popup wird angezeigt. In diesem Pop-up können Sie die Dateiexportoptionen und die Häufigkeit festlegen und Ihren Zeitplan einrichten.
 
-1. Wählen Sie das Symbol ![](assets/do-not-localize/Smock_Edit_18_N.svg) aus, um Ihren Exportzeitplan zu bearbeiten.
+![Das Popup-Fenster „Zeitplan“ wird angezeigt.](assets/destinations/schedule-2.png)
 
-   ![](assets/destination-schedule.png)
+>[!NOTE]
+>
+>Um die Zielgruppen schneller zu aktivieren, wählen Sie die Option **[!UICONTROL Nach der Segmentauswertung]** aus, um den Aktivierungsauftrag unmittelbar nach Abschluss des täglichen Platform-Batch-Segmentierungsauftrag auszulösen.
+>
+>Detaillierte Informationen zum Konfigurieren des Zeitplans und der Dateinamen finden Sie in den folgenden Abschnitten der Dokumentation zu Adobe Experience Platform:
+>
+>* [Planen eines Zielgruppenexports](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Konfigurieren von Dateinamen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Definieren Sie Ihre Exportdateioptionen. Um die Zielgruppen schneller zu aktivieren, wählen Sie die Option **[!UICONTROL Nach der Segmentauswertung]** aus, um den Aktivierungsauftrag unmittelbar nach Abschluss des täglichen Platform-Batch-Segmentierungsauftrag auszulösen.
+Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Identitätsfelder für Ihre Zielgruppe(n) exportiert werden sollen.
 
-   ![](assets/destination-schedule-2.png)
+>[!IMPORTANT]
+>
+>Sie **können** beim Aktivieren Ihres Ziels systemgenerierte Spalten verwenden. Die Auswahl einer systemgenerierten Spalte führt dazu, dass die Aktivierung fehlschlägt.
 
-   >[!NOTE]
-   >
-   >Detaillierte Informationen zum Konfigurieren von Zeitplänen und Dateinamen finden Sie in den folgenden Abschnitten der Dokumentation zu Adobe Experience Platform:
-   >
-   >* [Planen eines Zielgruppenexports](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Konfigurieren von Dateinamen](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+Weitere Informationen finden Sie im [Abschnitt Zuordnung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Dokumentation zu Adobe Experience Platform.
 
-1. Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Identitätsfelder für Ihre Zielgruppe(n) exportiert werden sollen. Weitere Informationen finden Sie in der Dokumentation zu Adobe Experience Platform unter [Zuordnungsschritt](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"}.
+![Die Seite mit den Zuordnungsattributen wird angezeigt.](assets/destinations/attributes.png)
 
-   ![](assets/destination-attributes.png)
+Überprüfen Sie die Zielkonfiguration und die Zielgruppeneinstellungen und klicken Sie dann auf **[!UICONTROL Beenden]**.
 
-1. Überprüfen Sie die Zielkonfiguration und die Zielgruppeneinstellungen und klicken Sie dann auf **[!UICONTROL Beenden]**.
-
-   ![](assets/destination-review.png)
+![Die Zielseite für die Überprüfung wird angezeigt.](assets/destinations/review.png)
 
 Die ausgewählten Zielgruppen werden nun für die neue Verbindung aktiviert. Sie können weitere mit dieser Verbindung zu sendende Zielgruppen hinzufügen, indem Sie zur Seite **[!UICONTROL Zielgruppen aktivieren]** zurückkehren. Zielgruppen können nach ihrer Aktivierung nicht entfernt werden.

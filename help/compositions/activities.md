@@ -6,10 +6,10 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -207,6 +207,8 @@ Bei Auswahl von **Ausschluss** müssen Sie die **Hauptmenge** aus den eingehende
 Nachdem Sie die Hauptmenge ausgewählt haben, können Sie Ihre **Ausschlussregeln** einrichten. Sie können entweder **Übereinstimmung mit Attribut** oder **Join** auswählen.
 
 Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Option **Komplement erzeugen** auswählen. Beim Erzeugen eines Komplements wird die verbleibende Population verarbeitet. Die Daten, die **nicht** Teil des Ausschlusses sind, sind dabei enthalten. Der Aktivität wird eine zusätzliche ausgehende Transition hinzugefügt.
+
+>[!ENDTABS]
 
 +++
 
@@ -438,12 +440,12 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Primäres Namespace-Identitätsfeld"
+>title="Feld „Namespace für primäre Identität“"
 >abstract="Der Namespace für die primäre Identität. Der Namespace hilft bei der Bereitstellung von Kontext zur Beschreibung der Klassifizierung der primären Identität."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
->title="Experience Platform-Schema auswählen"
+>title="Auswählen des Experience Platform-Schemas"
 >abstract="Wählen Sie das Experience Platform-Schema aus, das Sie anreichern möchten."
 
 >[!CONTEXTUALHELP]
@@ -454,12 +456,12 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
 >title="Vollständige Aktualisierung"
->abstract="Der Modus Vollständige Aktualisierung aktualisiert den vollständigen Satz von Attributen in den ausgewählten Schemata."
+>abstract="Im Modus „Vollständige Aktualisierung“ wird der vollständige Satz der Attribute in den ausgewählten Schemata aktualisiert."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="Inkrementelle Aktualisierung"
->abstract="Der inkrementelle Aktualisierungsmodus aktualisiert die Felder, die seit der letzten Anreicherungsausführung geändert wurden."
+>abstract="Im Modus „Inkrementelle Aktualisierung“ werden die Felder aktualisiert, die seit der letzten Anreicherungsausführung geändert wurden."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
@@ -499,12 +501,12 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="Versionsdeskriptor"
->abstract="Der Versionsdeskriptor für das relationale Schema. Dieser Wert hilft bei der Bestimmung, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen, um sicherzustellen, dass die neueste Aktualisierung angewendet wird."
+>abstract="Der Versions-Deskriptor für das relationale Schema. Dieser Wert hilft zu ermitteln, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen, um sicherzustellen, dass die neueste Aktualisierung angewendet wird."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="Zeitstempeldeskriptor"
->abstract="Der Zeitstempeldeskriptor für das relationale Schema. Dieser Wert hilft beim Festlegen der Ereigniszeit für die Sortierung und ist nur vorhanden, wenn Sie mit Zeitreihendaten arbeiten."
+>abstract="Der Zeitstempel-Deskriptor für das relationale Schema. Dieser Wert hilft beim Festlegen der Ereigniszeit für die Sortierung und ist nur vorhanden, wenn Sie mit Zeitreihendaten arbeiten."
 
 Die Aktivität **[!UICONTROL Felder speichern]** ermöglicht es Ihnen, Experience Platform-Schemata durch die Verknüpfung von Daten aus externen Warehouses anzureichern, sodass Sie Experience Platform-Schemata mit zusätzlichen Attributen anreichern können.
 

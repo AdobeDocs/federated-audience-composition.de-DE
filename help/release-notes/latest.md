@@ -5,16 +5,36 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 13%
+source-wordcount: 545
+ht-degree: 11%
 
 ---
 
 # Versionshinweise
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version April &#39;26 {#fac-26-04}
+
+Die April-Version für Federated Audience Komposition unterstützt die folgenden Funktionen und Verbesserungen:
+
+### Neue Funktionen {#fac=26-04-feature}
+
+| Neuer Connector - Teradata |
+| --- |
+| Der Teradata-Connector ist jetzt für die Verwendung mit der Federated Audience-Komposition verfügbar. Sie können den Teradata-Connector für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwenden. Weitere Informationen zum Teradata-Connector finden Sie unter [Verbindungen - Übersicht](/help/connections/home.md). |
+
+### Verbesserungen {#fac-26-04-improvements}
+
+Diese Version umfasst die folgende Verbesserung.
+
+- **Unterstützung von unverschlüsselten Schlüsseln für Snowflake**
+
+  Sie können jetzt unverschlüsselte Schlüssel verwenden, wenn Sie die Schlüsselpaar-Authentifizierung verwenden, um eine Verbindung mit Snowflake Data Warehouses herzustellen.
+
+  Um mehr über die Verwendung unverschlüsselter Schlüssel mit Snowflake zu erfahren, lesen Sie bitte die [Verbindungen - Übersicht](/help/connections/home.md).
 
 ## Version vom 26. März {#fac-26-03}
 
