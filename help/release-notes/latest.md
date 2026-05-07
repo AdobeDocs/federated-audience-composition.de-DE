@@ -3,12 +3,11 @@ title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
 source-wordcount: 545
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +35,7 @@ Diese Version umfasst die folgende Verbesserung.
 
   Um mehr über die Verwendung unverschlüsselter Schlüssel mit Snowflake zu erfahren, lesen Sie bitte die [Verbindungen - Übersicht](/help/connections/home.md).
 
-## Version vom 26. März {#fac-26-03}
+## Version März 2026 {#fac-26-03}
 
 Die März-Version für Federated Audience Komposition unterstützt die folgenden Funktionen:
 
@@ -50,7 +49,7 @@ Die März-Version für Federated Audience Komposition unterstützt die folgenden
 | --- |
 | Sie können jetzt dem KI-Assistenten Fragen zu operativen Einblicken in die Federated Audience-Komposition stellen. Zu den unterstützten Bereichen gehören Verbindungen, Schemata und Datenmodelle. Verknüpfte Kompositionen werden **dieser Version** unterstützt. Weitere Informationen zum KI-Assistenten in der Federated-Audience-Komposition finden Sie in der [Übersicht zum KI-Assistenten](/help/start/ai-assistant.md). |
 
-## Version Februar &#39;26 {#fac-26-02}
+## Version Februar 2026 {#fac-26-02}
 
 Die Februarversion für Federated Audience Komposition unterstützt die folgenden Funktionen:
 
@@ -64,7 +63,7 @@ Die Februarversion für Federated Audience Komposition unterstützt die folgende
 | --- |
 | Sie können jetzt mithilfe der Service-Prinzipalauthentifizierung oder mit OAuth 2.0 eine Verbindung zu Federated Audience Composition mit Databricks herstellen. Weiterführende Informationen zum Erstellen einer Verbindung finden Sie in der [Verbindungen - Übersicht](../connections/home.md#create). |
 
-## Version Januar &#39;26 {#fac-26-01}
+## Version Januar 2026 {#fac-26-01}
 
 Die Version vom Januar für Federated Audience Composition unterstützt die folgenden neuen Funktionen und Verbesserungen:
 
@@ -76,7 +75,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 
