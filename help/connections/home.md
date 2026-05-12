@@ -15,7 +15,7 @@ topic_v2:
 source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
 workflow-type: tm+mt
 source-wordcount: 3189
-ht-degree: 75%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 75%
 >
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Federated Database verwalten**
+>-**Föderierte Datenbank verwalten**
 >-**Föderierte Datenbank anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
@@ -84,7 +84,7 @@ Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 | Konto | Der Benutzername des Kontos. |
 | Passwort | Das Passwort des Kontos. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen zu dieser Funktion finden Sie in der Dokumentation zu [Amazon-Schemata](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Hinweis:** Sie können jedes beliebige Schema aus der Datenbank verwenden, einschließlich der Schemata für die temporäre Datenverarbeitung, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. Weitere Informationen zu dieser Funktion finden Sie in der [Dokumentation zu Amazon-Schemata](https://docs.aws.amazon.com/de_de/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Hinweis:** Sie können jedes Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -98,49 +98,49 @@ Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzu
 | ----- | ----------- |
 | Server | Die URL des Azure Synapse-Servers. |
 | Konto | Die Anwendungs-ID (**Client-ID**) der Registrierung der Azure-App. |
-| Passwort | Der **Client-**) des Azure-Programms. |
+| Passwort | Der **Client-Geheimnis**-Wert der Azure-App. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Für Azure Synapse Analytics können Sie den Authentifizierungstyp angeben, der vom Connector unterstützt wird. Derzeit unterstützt die Komposition föderierter Zielgruppen `ActiveDirectoryMSI`. Weitere Informationen zu Verbindungszeichenfolgen finden Sie im Abschnitt zu [Beispiel-Verbindungszeichenfolgen in der Dokumentation von Microsoft](https://learn.microsoft.com/de-de/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"}. |
 
-Alternativ können Sie Ihre Azure Synapse Analytics-Verbindung sicher konfigurieren, indem Sie die Authentifizierung des Service-Prinzipals verwenden. Sie sollten die Service-Prinzipalauthentifizierung sowohl für produktionsfähige Integrationen als auch für Automatisierungsszenarien verwenden.
+Alternativ können Sie Ihre Azure Synapse Analytics-Verbindung sicher konfigurieren, indem Sie die Service-Prinzipal-Authentifizierung verwenden. Sie sollten die Service-Prinzipal-Authentifizierung sowohl für produktionsfähige Integrationen als auch für Automatisierungsszenarien nutzen.
 
 +++ Voraussetzungen
 
-Beachten Sie vor dem Einrichten der Authentifizierung für den Service-Prinzipal die folgenden Voraussetzungen:
+Beachten Sie vor dem Einrichten der Service-Prinzipal-Authentifizierung die folgenden Voraussetzungen:
 
-- Ein Azure-Abonnement mit Zugriff auf die Microsoft Entra ID
-- Ein Azure Synapse-Arbeitsbereich und eine -Datenbank
+- Azure-Abonnement mit Zugriff auf Microsoft Entra ID
+- Azure Synapse-Arbeitsbereich und -Datenbank
 - Berechtigung zum Erstellen der App-Registrierung
 - Berechtigung zum Verwalten von Azure Synapse-Datenbankrollen
-- Berechtigung zum Aktualisieren von Federated Database-Konfigurationen
+- Berechtigung zum Aktualisieren von Konfigurationen föderierter Datenbanken
 
 +++
 
-Im Azure-Portal müssen Sie zunächst eine neue App-Registrierung erstellen. Wählen Sie **Registrieren** aus, nachdem Sie der Anwendung einen eindeutigen Namen gegeben haben. Die **„Übersicht** wird angezeigt. Notieren Sie sich die Werte **Anwendungs-(Client-)** und **Verzeichnis-(Mandanten-)ID**.
+Im Azure-Portal müssen Sie zunächst eine neue App-Registrierung erstellen. Wählen Sie **Registrieren** aus, nachdem Sie der Anwendung einen eindeutigen Namen gegeben haben. Die Seite **Überblick** wird angezeigt. Notieren Sie sich die Werte **Application (Client) ID** (Anwendungs-(Client-)ID) und **Directory (Tenant) ID** (Verzeichnis-(Mandanten-)ID).
 
-![Die Anwendungs (Client)-ID auf der Übersichtsseite ist hervorgehoben.](/help/connections/assets/home/azure-client-id.png)
+![Die Anwendungs-(Client-)ID auf der Überblicksseite ist hervorgehoben.](/help/connections/assets/home/azure-client-id.png)
 
-Wählen Sie in der neu registrierten Anwendung **Zertifikate und Geheimnisse** aus. Wählen Sie von hier aus **Neuer geheimer Client-Schlüssel** im Abschnitt **Client-**) aus, um einen neuen geheimen Client-Schlüssel zu erstellen. Nachdem Sie eine Beschreibung und einen Ablaufzeitpunkt angegeben haben, wählen Sie **Hinzufügen** aus, um das Client-Geheimnis zu generieren.
+Wählen Sie in der neu registrierten Anwendung **Zertifikate und Geheimnisse** aus. Wählen Sie von hier aus **Neues Client-Geheimnis** im Abschnitt **Client-Geheimnisse** aus, um ein neues Client-Geheimnis zu erstellen. Nachdem Sie eine Beschreibung und eine Gültigkeit angegeben haben, wählen Sie **Hinzufügen** aus, um das Client-Geheimnis zu generieren.
 
 >[!IMPORTANT]
 >
->Kopieren Sie nach dem Generieren Ihres Client-Geheimnisses Ihren **Wert des Client-Geheimnisses** und speichern Sie ihn sicher. Dieser Wert **nicht** wieder sichtbar.
+>Kopieren Sie nach dem Generieren Ihres Client-Geheimnisses den **Wert des Client-Geheimnisses** und speichern Sie ihn sicher. Dieser Wert wird **nicht** wieder angezeigt.
 
-Nachdem Sie Ihr Client-Geheimnis generiert haben, müssen Sie sicherstellen, dass Sie der Ressource die **Service-Prinzipal**-Identität gewährt haben.
+Nachdem Sie Ihr Client-Geheimnis generiert haben, müssen Sie prüfen, ob Sie der Ressource die Identität **Service-Prinzipal** gewährt haben.
 
-Weitere Informationen zum Zuweisen von Identitäten zu Ressourcen finden Sie im [Handbuch zu verwalteten Identitäten für Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
+Weitere Informationen zum Zuweisen von Identitäten zu Ressourcen finden Sie im [Handbuch zu verwalteten Identitäten für Azure Synapse Analytics](https://learn.microsoft.com/de-de/azure/synapse-analytics/synapse-service-identity).
 
-Da Sie alle Azure-seitigen Konfigurationen abgeschlossen haben, können Sie jetzt Ihre Konfigurationen für die Seite „Federated-Audience-Komposition“ einrichten.
+Da Sie nun alle Azure-seitigen Konfigurationen abgeschlossen haben, können Sie jetzt Ihre Konfigurationen für die Komposition föderierter Zielgruppen einrichten.
 
-Legen Sie in Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsdetails fest:
+Legen Sie innerhalb Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsdetails fest:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Die URL des Azure Synapse-Servers. |
 | Konto | Die Anwendungs-ID (**Client-ID**) der Registrierung der Azure-App. |
-| Passwort | Der **Client-**) des Azure-Programms. |
+| Passwort | Der **Client-Geheimnis**-Wert der Azure-App. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Optionen | Zusätzliche Optionen für die Verbindung. Um die Authentifizierung für den Service-Prinzipal verwenden zu können, müssen Sie `Authentication="ActiveDirectoryServicePrincipal"` festlegen. |
+| Optionen | Zusätzliche Optionen für die Verbindung. Um die Service-Prinzipal-Authentifizierung verwenden zu können, müssen Sie `Authentication="ActiveDirectoryServicePrincipal"` festlegen. |
 
 >[!TAB Databricks]
 
@@ -148,33 +148,33 @@ Legen Sie in Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsdetails 
 >
 >Sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
 
-Nach Auswahl von Datenblöcken können Sie mit der Authentifizierungsmethode auswählen, die Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+Nach der Auswahl von Databricks können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **Konto-/Kennwortauthentifizierung** auswählen, können Sie die folgenden Anmeldedetails hinzufügen:
+Wenn Sie **Authentifizierung per Konto/Passwort** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Databricks-Servers. |
 | Passwort | Das Zugriffstoken für den Databricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [Databricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 
-Wenn Sie **Service-Prinzipalauthentifizierung** auswählen, können Sie die folgenden Details hinzufügen:
+Wenn Sie **Service-Prinzipal-Authentifizierung** auswählen, können Sie die folgenden Informationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Databricks-Servers. |
-| Client-ID | Die Client-ID von Ihrem Databricks-Server. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis von Ihrem Databricks-Server. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-ID | Die Client-ID Ihres Databricks-Servers. Dieses Feld dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis Ihres Databricks-Servers. Dieses Feld dient als Passwort für Ihr Projekt. |
 
-Wenn Sie **OAuth 2.0** auswählen, können Sie die folgenden Details hinzufügen:
+Wenn Sie **OAuth 2.0** auswählen, können Sie die folgenden Informationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Databricks-Servers. |
-| Client-ID | Die Client-ID von Ihrem Databricks-Server. Dieses Feld wird verwendet, um die Anwendung während der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis von Ihrem Databricks-Server. Diese vertrauliche Berechtigung wird mit der Client-ID ausgestellt und dient als Kennwort für Ihr Projekt. |
+| Client-ID | Die Client-ID Ihres Databricks-Servers. Dieses Feld wird verwendet, um die Anwendung bei der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis Ihres Databricks-Servers. Diese vertraulichen Anmeldedaten werden mit der Client-ID ausgestellt und dienen als Passwort für Ihr Projekt. |
 | Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihrem Databricks-Server autorisiert ist. |
 
-Nachdem Sie Ihre Anmeldedaten eingegeben haben, können Sie die folgenden Informationen hinzufügen:
+Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
@@ -234,10 +234,10 @@ Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
 | ProxyHost | Der Host-Name oder die IP-Adresse, um den Proxy zu erreichen. |
 | ProxyUid | Die Port-Nummer, auf der der Proxy ausgeführt wird. |
 | ProxyPwd | Das Passwort für den Proxy. |
-| bgpath | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK). <br/><br/> Der Pfad zum Ordner „bin“ von Cloud SDK auf dem Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
-| GCloudConfigName | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK) über Version 7.3.4. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
-| GCloudDefaultConfigName | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK) über Version 7.3.4. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
-| GCloudRecreateConfig | **Hinweis:** Dies gilt nur für das Tool **Bulk-Load** (Cloud SDK) über Version 7.3.4. <br/><br/> Ein boolescher Wert, mit dem Sie entscheiden können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
+| bgpath | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK). <br/><br/> Der Pfad zum Cloud SDK-Klassenverzeichnis am Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
+| GCloudConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 oder höher. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
+| GCloudDefaultConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
+| GCloudRecreateConfig | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Ein boolescher Wert, mit dem Sie festlegen können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
 
 >[!TAB Microsoft Fabric]
 
