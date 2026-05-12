@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2084
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können zwei Elementtypen hinzufügen:
 
 * **Gruppenoperatoren** (UND, ODER, AUSSER) ermöglichen es Ihnen, die Filterkomponenten im Diagramm zu gruppieren. Sie werden bei vorhandenen Transitionen vor einer Filterkomponente hinzugefügt. [Erfahren Sie, wie man mit Operatoren arbeitet](#filtering)
 
-  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**&#x200B;in New York **ODER**&#x200B;San Francisco leben*
+  Beispiel: *Empfängerinnen und Empfänger, die den Newsletter „Sport“ abonniert haben **UND**in New York **ODER**San Francisco leben*
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -69,16 +69,16 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    | Kleiner als | Der ausgegebene Wert unterschreitet den eingegebenen Wert. | Erstellungsdatum (@created) weniger als &#39;DaysAgo(100)&#39;</strong> gibt alle Kontakte zurück, die vor weniger als 100 Tagen angelegt wurden. |
    | Größer oder gleich | Die ausgegebenen Daten sind identisch mit oder übersteigen den angegebenen Wert. | Alter (@age) größer oder gleich &#39;30&#39;</strong> gibt alle Empfängerinnen und Empfänger ab 30 Jahre zurück. |
    | Kleiner oder gleich | Die ausgegebenen Daten sind identisch mit oder unterschreiten den angegebenen Wert. | Alter (@age) kleiner oder gleich &#39;60&#39;</strong> gibt alle Empfängerinnen und Empfänger unter 60 Jahren zurück. |
-   | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Diese Werte müssen durch ein Komma getrennt werden. | Geburtsdatum (@birthDate) ist enthalten in &#39;12/10/1979,12/10/1984&#39; gibt die Empfängerinnen und Empfänger zurück, die zwischen diesen beiden Daten geboren wurden. |
-   | Nicht enthalten | Negative Form des Operators „ist enthalten in“. Hier möchten wir Empfänger anhand der eingegebenen Werte ausschließen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Im Gegensatz zum vorherigen Beispiel werden zwischen diesen beiden Daten geborene Empfängerinnen und Empfänger nicht zurückgegeben. |
+   | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte werden durch Kommata getrennt. | Geburtsdatum (@birthDate) ist enthalten in &#39;12/10/1979,12/10/1984&#39; gibt die Empfängerinnen und Empfänger zurück, die zwischen diesen beiden Daten geboren wurden. |
+   | Nicht enthalten | Negative Form des Operators „ist enthalten in“. Die den angegebenen Werten entsprechenden Daten werden aus dem Ergebnis ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Im Gegensatz zum vorherigen Beispiel werden zwischen diesen beiden Daten geborene Empfängerinnen und Empfänger nicht zurückgegeben. |
    | Ist leer | Die ausgegebenen Daten enthalten keinen Wert in der entsprechenden Spalte. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
-   | Ist nicht leer | Funktioniert umgekehrt zum Operator Ist leer . Es ist nicht erforderlich, Daten in die zweite Spalte Wert einzugeben. | E-Mail (@email) ist nicht leer. |
+   | Ist nicht leer | Negative Form des Operators „Ist leer“.Auch hier wird in der Spalte „Wert“ nichts angegeben. | E-Mail (@email) ist nicht leer. |
    | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
    | Beginnt nicht mit | Die ausgegebenen Daten beginnen nicht mit dem angegebenen Wert. | Kundennummer (@account) beginnt nicht mit &#39;20&#39; |
-   | Enthält | Die zurückgegebenen Daten enthalten den angegebenen Wert. | E-Mail-Domain (@domain) enthält &#39;Mail&#39;</strong>, gibt alle Domain-Namen zurück, die &#39;Mail&#39; enthalten. Daher wird auch die Domain „gmail.com“ zurückgegeben. |
-   | Enthält nicht | Die ausgegebenen Daten enthalten den angegebenen Wert nicht. | E-Mail-Domain (@domain) enthält nicht „vo</strong>. In diesem Fall werden Domain-Namen, die „vo“ enthalten, nicht zurückgegeben. Der Domain-Name „voila.fr“ wird nicht in den Ergebnissen angezeigt. |
-   | Ist wie | „like“ ist dem „Contains“-Operator sehr ähnlich. Damit können Sie ein %-Platzhalterzeichen in den Wert einfügen. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Der Platzhalter wird hier wie ein „Joker“ verwendet. In diesem Fall werden alle Empfängerinnen und Empfänger ausgegeben, deren Nachname z. B. „Meyer“ oder „Meier“ lautet. |
-   | Ist nicht wie | „like“ ist dem „Contains“-Operator sehr ähnlich. Damit können Sie ein %-Platzhalterzeichen in den Wert einfügen. | Nachname (@lastName) nicht wie „Schmi%t“. Hier werden die Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, nicht zurückgegeben. |
+   | Enthält | Die zurückgegebenen Daten enthalten den angegebenen Wert. | E-Mail-Domain (@domain) enthält „mail“</strong>. Nur E-Mail-Domains, die den Wert „mail“ enthalten, werden ausgegeben.Die Domain „gmail.com“ wird also ebenfalls zurückgegeben. |
+   | Enthält nicht | Die ausgegebenen Daten enthalten den angegebenen Wert nicht. | E-Mail-Domain (@domain) enthält nicht „vo“</strong>. In diesem Fall werden Domain-Namen, die „vo“ enthalten, nicht zurückgegeben. Die Domain „voila.fr“ erscheint nicht in den Ergebnissen. |
+   | Ist wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Der Platzhalter wird hier wie ein „Joker“ verwendet. In diesem Fall werden alle Empfängerinnen und Empfänger ausgegeben, deren Nachname z. B. „Meyer“ oder „Meier“ lautet. |
+   | Ist nicht wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) nicht wie „Schmi%t“. Hier werden die Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, nicht zurückgegeben. |
 
    +++
 

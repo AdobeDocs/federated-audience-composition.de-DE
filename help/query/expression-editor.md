@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 4215
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,7 +142,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | **Oldest** | Gibt das älteste Datum unter den beiden angegebenen zurück. | Oldest(&lt;DATUM/UHRZEIT>, &lt;DATUM/UHRZEIT>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. Andernfalls wird auf die nächste Sekunde gekürzt. | TruncDate(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert, und wandelt „Datum/Uhrzeit“ in die angegebene Zeitzone um. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. | TruncDateTZ(&lt;DATUM/UHRZEIT>, &lt;ZAHL>, &lt;ZEITZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;Amerika/Los_Angeles&quot;) |
-| **TruncTime** | Setzt den Datum/Uhrzeit-Wert auf den 1. Januar 2000 und rundet den Rest des Datums/Uhrzeit-Werts auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert.Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Quartal. | TruncQuarter(&lt;DATUM/UHRZEIT>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Jahr. | TruncYear(&lt;DATUM/UHRZEIT>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Kürzt „Datum/Uhrzeit“ auf den Sonntag der nächsten Woche. | TruncWeek(&lt;DATUM/UHRZEIT>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -297,7 +297,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | **Oldest** | Gibt das älteste Datum unter den beiden angegebenen zurück. | Oldest(&lt;DATUM/UHRZEIT>, &lt;DATUM/UHRZEIT>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. Andernfalls wird auf die nächste Sekunde gekürzt. | TruncDate(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert, und wandelt „Datum/Uhrzeit“ in die angegebene Zeitzone um. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. | TruncDateTZ(&lt;DATUM/UHRZEIT>, &lt;ZAHL>, &lt;ZEITZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;Amerika/Los_Angeles&quot;) |
-| **TruncTime** | Setzt den Datum/Uhrzeit-Wert auf den 1. Januar 2000 und rundet den Rest des Datums/Uhrzeit-Werts auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert.Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Quartal. | TruncQuarter(&lt;DATUM/UHRZEIT>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Jahr. | TruncYear(&lt;DATUM/UHRZEIT>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Kürzt „Datum/Uhrzeit“ auf den Sonntag der nächsten Woche. | TruncWeek(&lt;DATUM/UHRZEIT>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -525,7 +525,7 @@ In dieser Tabelle sind die restlichen verfügbaren Funktionen enthalten.
 | **Else** | Wird als Teil der Case-Funktion verwendet. Wird verwendet, um die andere Option auszuwählen, wenn der When-Ausdruck falsch ist. | Else(&lt;VALUE>) | Else (&quot;nein&quot;) |
 | **Coalesce** | Gibt den ersten Nicht-Null-Wert zurück. | Coalesce(&lt;WERT>, &lt;WERT>) | Coalesce (&quot;&quot;, &quot;String&quot;) |
 | **Decode** | Gibt die erste Option zurück, wenn die Werte gleich sind. Gibt die zweite Option zurück, wenn die Werte nicht gleich sind. | Decode(&lt;WERT>, &lt;WERT>, &lt;WERT>, &lt;WERT>) | Decode(1, 2, &quot;wahr&quot;, &quot;falsch&quot;) |
-| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(“`sample@example.com`„) |
+| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Gibt die erste Option zurück, wenn die Bedingung wahr ist, und gibt die zweite Option zurück, wenn die Bedingung falsch ist. | Iif(&lt;BEDINGUNG>, &lt;WERT>, &lt;WERT>) | Iif(10 &lt; 20, &quot;wahr&quot;, &quot;falsch&quot;) |
 | **IsEmptyString** | Gibt die erste Option zurück, wenn der String leer ist. Andernfalls wird die zweite Option zurückgegeben. | IsEmptyString( &lt;STRING> ,&lt;WERT>, &lt;WERT>) | IsEmptyString(&quot;String&quot;, &quot;ja&quot;, &quot;nein&quot;) |
 | **NewUUID** | Generiert eine neue eindeutige UUID. | NewUUID() | NewUUID() |
@@ -584,7 +584,7 @@ Other functions are not available.
 | **Case** | Gibt ersten Wert zurück, wenn der Ausdruck wahr ist. Andernfalls wird der zweite Wert zurückgegeben. | Case(When(&lt;AUSDRUCK> &lt;WERT>), Else(&lt;WERT>)) | Case(When(a > b, &quot;ja&quot;), Else(&quot;nein&quot;)) |
 | **When** | Wird als Teil der Case-Funktion verwendet. Wird verwendet, um den Ausdruck in der Case-Funktion zu überprüfen. | When(&lt;AUSDRUCK> &lt;WERT>) | When(a > b, &quot;ja&quot;) |
 | **Else** | Wird als Teil der Case-Funktion verwendet. Wird verwendet, um die andere Option auszuwählen, wenn der When-Ausdruck falsch ist. | Else(&lt;VALUE>) | Else (&quot;nein&quot;) |
-| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(“`sample@example.com`„) |
+| **GetEmailDomain** | Extrahiert die Domain der angegebenen E-Mail-Adresse. | GetEmailDomain(&lt;STRING>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Gibt die erste Option zurück, wenn die Bedingung wahr ist, und gibt die zweite Option zurück, wenn die Bedingung falsch ist. | Iif(&lt;BEDINGUNG>, &lt;WERT>, &lt;WERT>) | Iif(10 &lt; 20, &quot;wahr&quot;, &quot;falsch&quot;) |
 | **IsEmptyString** | Gibt die erste Option zurück, wenn der String leer ist. Andernfalls wird die zweite Option zurückgegeben. | IsEmptyString( &lt;STRING> ,&lt;WERT>, &lt;WERT>) | IsEmptyString(&quot;String&quot;, &quot;ja&quot;, &quot;nein&quot;) |
 | **ToBoolean** | Gibt „1“ zurück, wenn der Wert wahr ist. Gibt „0“ zurück, wenn der Wert falsch ist. | ToBoolean(&lt;WERT>) | ToBoolean(a=b) |
