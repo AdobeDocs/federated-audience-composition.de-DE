@@ -4,12 +4,11 @@ title: Überblick über Aktivitäten
 description: Erfahren Sie mehr über die verschiedenen Aktivitäten und Transitionen, die in Kompositionen föderierter Zielgruppen verfügbar sind.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -427,7 +426,7 @@ Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an
 
 Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die Zielgruppenprofile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
 
-Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der Ablauf von Daten bestimmt die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Der Ablauf der Daten kann 1 bis 90 Tage betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
+Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festlegen. Die Ablaufzeit der Daten bestimmt über die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Die Ablaufzeit von Daten kann 1 bis 90 Tage betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
 
 +++
 
@@ -436,11 +435,11 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="Felder speichern"
->abstract="Die Aktivität Felder speichern ermöglicht es Ihnen, Experience Platform-Schemata anzureichern, indem Sie Daten aus externen Warehouses zusammenführen, wodurch Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern können. "
+>abstract="Die Aktivität „Felder speichern“ ermöglicht es Ihnen, Experience Platform-Schemata anzureichern, indem Sie Daten aus externen Warehouses föderieren. So können Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Feld „Namespace für primäre Identität“"
+>title="Feld „Primärer Identity-Namespace“"
 >abstract="Der Namespace für die primäre Identität. Der Namespace hilft bei der Bereitstellung von Kontext zur Beschreibung der Klassifizierung der primären Identität."
 
 >[!CONTEXTUALHELP]
@@ -450,18 +449,18 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Aktualisierungsmodus der Felder speichern"
->abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität Felder speichern umfassen die vollständige Aktualisierung und inkrementelle Aktualisierung."
+>title="Aktualisierungsmodus vom Typ „Felder speichern“"
+>abstract="Die verfügbaren Aktualisierungsmodi für die Aktivität „Felder speichern“ umfassen vollständige Aktualisierung und inkrementelle Aktualisierung."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
 >title="Vollständige Aktualisierung"
->abstract="Im Modus „Vollständige Aktualisierung“ wird der vollständige Satz der Attribute in den ausgewählten Schemata aktualisiert."
+>abstract="Der Modus „Vollständige Aktualisierung“ aktualisiert den vollständigen Satz von Attributen in den ausgewählten Schemata."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
 >title="Inkrementelle Aktualisierung"
->abstract="Im Modus „Inkrementelle Aktualisierung“ werden die Felder aktualisiert, die seit der letzten Anreicherungsausführung geändert wurden."
+>abstract="Der Modus „Inkrementelle Aktualisierung“ aktualisiert die Felder, die seit der letzten ausgeführten Anreicherung geändert wurden."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
@@ -496,29 +495,29 @@ Darüber hinaus können Sie den Datenablauf für die Zielgruppe festlegen. Der A
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primarykeycheck"
 >title="Primärschlüssel"
->abstract="Der Primärschlüssel für das relationale Schema. Dieser Wert stellt die Eindeutigkeit innerhalb der Datensätze sicher, indem er verhindert, dass doppelte Datensätze aufgenommen werden."
+>abstract="Der Primärschlüssel für das relationale Schema. Dieser Wert sorgt für Eindeutigkeit innerhalb der Datensätze, indem er verhindert, dass doppelte Einträge aufgenommen werden."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="Versionsdeskriptor"
->abstract="Der Versions-Deskriptor für das relationale Schema. Dieser Wert hilft zu ermitteln, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen, um sicherzustellen, dass die neueste Aktualisierung angewendet wird."
+>abstract="Der Versions-Deskriptor für das relationale Schema. Dieser Wert hilft bei der Bestimmung, welche Eigenschaft Vorrang hat, wenn mehrere Werte denselben Primärschlüssel teilen. Damit wird sichergestellt, dass die neueste Aktualisierung Anwendung findet."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="Zeitstempeldeskriptor"
 >abstract="Der Zeitstempel-Deskriptor für das relationale Schema. Dieser Wert hilft beim Festlegen der Ereigniszeit für die Sortierung und ist nur vorhanden, wenn Sie mit Zeitreihendaten arbeiten."
 
-Die Aktivität **[!UICONTROL Felder speichern]** ermöglicht es Ihnen, Experience Platform-Schemata durch die Verknüpfung von Daten aus externen Warehouses anzureichern, sodass Sie Experience Platform-Schemata mit zusätzlichen Attributen anreichern können.
+Die Aktivität **[!UICONTROL Felder speichern]** erlaubt es Ihnen, Experience Platform-Schemata durch das Verknüpfen von Daten aus externen Warehouses anzureichern, sodass Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern können.
 
-Diese Aktivität wird verwendet, um Schemata anzureichern, indem zusätzliche Attribute und Einblicke eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
+Diese Aktivität dient dazu, Schemata anzureichern, indem zusätzliche Attribute und Erkenntnisse eingebracht werden, ohne die Daten physisch in die Plattform zu verschieben oder zu duplizieren.
 
 +++ Konfigurationsdetails
 
 >[!IMPORTANT]
 >
->Wenn für den ausgewählten Datensatz **nicht** upsert aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
+>Wenn Upsert für den ausgewählten Datensatz **nicht** aktiviert ist, werden die Daten **ersetzt**. Informationen zum Aktivieren von Upsert für Ihre Datensätze finden Sie im [Handbuch zur Aktivierung von Upsert](https://experienceleague.adobe.com/de/docs/experience-platform/catalog/datasets/enable-upsert).
 
-Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Komposition hinzugefügt haben, können Sie der Aktivität einen Titel geben und das Adobe Experience Platform-Schema auswählen, das Sie verwenden möchten. Das Schema kann entweder ein Standardschema oder ein relationales Schema sein.
+Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Komposition hinzugefügt haben, können Sie der Aktivität ein Label hinzufügen und das gewünschte Adobe Experience Platform-Schema auswählen. Das Schema kann entweder ein Standardschema oder ein relationales Schema sein.
 
 ![Die verfügbaren Schemata werden angezeigt.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
 
@@ -526,38 +525,38 @@ Nachdem Sie die Aktivität **[!UICONTROL Felder speichern]** zu Ihrer Kompositio
 
 >[!TAB Standardschema]
 
-Wenn Sie ein Standardschema auswählen, müssen Sie den Datensatz auswählen, in dem die Anreicherung gespeichert wird.
+Wenn Sie ein Standardschema auswählen, müssen Sie den Datensatz auswählen, in dem die Anreicherung gespeichert werden soll.
 
 ![Der Abschnitt „Datensatz auswählen“ ist hervorgehoben.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
 
-Nach Auswahl des Datensatzes können Sie das Feld für die primäre Identität sehen, das zur Identifizierung von Profilen in der Datenbank verwendet wird. Sie müssen jedoch die primären und die erforderlichen Felder zuordnen. Wählen Sie **[!UICONTROL Felder hinzufügen]** und geben Sie das Feld **[!UICONTROL Source]** (externe Daten) und das Feld **[!UICONTROL Ziel]** (Schemafeld) für jedes Attribut an, das Sie zuordnen möchten.
+Nach dem Auswählen des Datensatzes können Sie das Feld für die primäre Identität sehen, das zur Identifizierung von Profilen in der Datenbank verwendet wird. Sie müssen jedoch die primären und die erforderlichen Felder zuordnen. Wählen Sie **[!UICONTROL Felder hinzufügen]** und geben Sie für jedes Attribut, das Sie zuordnen möchten, das Feld **[!UICONTROL Quelle]** (externe Daten) und das Feld **[!UICONTROL Ziel]** (Schemafeld) an.
 
 ![Die Schaltfläche zum Hinzufügen von Feldern und der Abschnitt zur Feldzuordnung sind hervorgehoben.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
 
-Sie können auch den Aktualisierungsmodus für die Anreicherung angeben.
+Außerdem können Sie den Aktualisierungsmodus für die Anreicherung angeben.
 
-![Die Aktualisierungsmodustypen werden angezeigt.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+![Die Arten von Aktualisierungsmodi werden angezeigt.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
 
 | Aktualisierungsmodus | Beschreibung |
 | ----------- | ----------- |
 | Vollständige Aktualisierungen | Der vollständige Satz von Attributen in den ausgewählten Schemata wird zur Anreicherung aktualisiert. |
 | Inkrementelle Aktualisierungen | Nur Felder, die seit der letzten Anreicherung geändert wurden, werden für die Anreicherung aktualisiert. |
 
-Wenn Sie [!UICONTROL Inkrementelle Aktualisierungen] auswählen, müssen Sie auch das Datum der letzten Änderung auswählen, um zu bestimmen, welche Daten gesendet werden.
+Wenn Sie [!UICONTROL Inkrementelle Aktualisierungen] auswählen, müssen Sie auch das Datum der letzten Änderung auswählen, um festzulegen, welche Daten gesendet werden.
 
 >[!TAB Relationales Schema]
 
-Wenn Sie ein relationales Schema auswählen, müssen Sie den Datensatz auswählen, in dem die Anreicherung gespeichert wird.
+Wenn Sie ein relationales Schema auswählen, müssen Sie den Datensatz auswählen, in dem die Anreicherung gespeichert werden soll.
 
 ![Der Abschnitt „Datensatz auswählen“ ist hervorgehoben.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
 
-Nach Auswahl des Datensatzes können Sie den Primärschlüssel und den Versionsdeskriptor für die Datenbank sehen.  Sie müssen jedoch den Primärschlüssel und die erforderlichen Felder zuordnen. Wählen Sie **[!UICONTROL Feld(])** und geben Sie das Feld **[!UICONTROL Source]** (externe Daten) und das Feld **[!UICONTROL Ziel]** (Schemafeld) für jedes Attribut an, das Sie zuordnen möchten.
+Nach dem Auswählen des Datensatzes können Sie den Primärschlüssel und den Versionsdeskriptor für die Datenbank sehen.  Sie müssen jedoch den Primärschlüssel und die erforderlichen Felder zuordnen. Wählen Sie **[!UICONTROL Felder hinzufügen]** und geben Sie für jedes Attribut, das Sie zuordnen möchten, das Feld **[!UICONTROL Quelle]** (externe Daten) und das Feld **[!UICONTROL Ziel]** (Schemafeld) an.
 
 ![Die Schaltfläche zum Hinzufügen von Feldern und der Abschnitt zur Feldzuordnung sind hervorgehoben.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
 
-Da relationale Schemata nur inkrementelle Aktualisierungen unterstützen, müssen Sie das Datum der letzten Änderung auswählen, um zu bestimmen, welche Daten gesendet werden. Inkrementelle Aktualisierungen aktualisieren nur die Felder, die seit der letzten Anreicherungsausführung geändert wurden.
+Da relationale Schemata nur inkrementelle Aktualisierungen unterstützen, müssen Sie das Datum der letzten Änderung auswählen, um festzulegen, welche Daten gesendet werden. Bei inkrementellen Aktualisierungen werden nur die Felder aktualisiert, die seit der letzten ausgeführten Anreicherung geändert wurden.
 
-![Der Aktualisierungsmodus, inkrementelle Aktualisierungen, wird angezeigt.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+![Der Aktualisierungsmodus (inkrementelle Aktualisierungen) wird angezeigt.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
 
 >[!ENDTABS]
 
