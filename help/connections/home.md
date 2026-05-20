@@ -12,10 +12,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 94%
+source-wordcount: 3543
+ht-degree: 85%
 
 ---
 
@@ -217,6 +217,8 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
 
+Wenn Sie **[!UICONTROL WIF]** auswählen, **Sie** Anmeldeinformationen angeben. Sie **müssen** die Client-Bibliothekskonfiguration jedoch als **[!UICONTROL Schlüsseldateipfad]** hinzufügen. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im Konfigurationsabschnitt [Google BigQuery (Workload Identity Federation)](#wif-configuration).
+
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
@@ -387,3 +389,46 @@ Nachdem Sie die Details der Verbindung hinzugefügt haben, beachten Sie die folg
 | Testen der Verbindung | Ermöglicht die Überprüfung Ihrer Konfigurationsdetails. |
 
 Sie können jetzt **[!UICONTROL Funktionen freigeben]** und anschließend **[!UICONTROL Hinzufügen]** auswählen, um die Verbindung zwischen der föderierten Datenbank und Experience Platform fertigzustellen.
+
+## Anhang {#appendix}
+
+Im folgenden Anhang wird beschrieben, wie Sie die Verbindungen auf der Seite des externen Kontos einrichten.
+
+### Konfiguration von Google BigQuery (Workload Identity Federation) {#wif-configuration}
+
+Bevor Sie die Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
+
+- AWS-Konto-ID
+   - Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um diesen Wert zu erhalten.
+- AWS IAM-Rollenname
+   - Der Name der AWS IAM-Rolle folgt dem folgenden Format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+Erstellen Sie in der Google Cloud Console einen **Workload-Identitätspool** im Abschnitt **IAM und Admin**. Auf diese Weise können Sie externe Identitäten organisieren und verwalten.
+
+Wählen Sie **Anbieter hinzufügen**, um einen Identitätsanbieter zu erstellen. Dadurch wird eine unidirektionale Vertrauensstellung zwischen dem Identitätsanbieter in Google Cloud und dem Worker-Identitätspool konfiguriert, indem die relevanten Metadaten zum Anbieter bereitgestellt werden.
+
+![Die Schaltfläche „Anbieter hinzufügen“ ist in Google Cloud hervorgehoben.](/help/connections/assets/home/select-add-provider.png)
+
+Wenn Sie einen Anbieter erstellen, müssen Sie die folgenden Informationen angeben:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Name | Der Name des Workload Identity Pool-Anbieters. |
+| ID | Die ID für den Provider wird automatisch generiert. |
+| AWS-Konto-ID | Die zuvor angegebene AWS-Konto-ID. |
+| Anbieter aktiviert | Ein boolescher Wert, der bestimmt, ob der Anbieter aktiviert oder deaktiviert ist. |
+| Attributzuordnung | Die Zuordnungen, die mit den Rollen abgeglichen werden sollen. Diese Informationen sind bereits vorhanden. |
+
+Nachdem Sie den Anbieter erstellt haben, müssen Sie eine IAM-Richtlinie erstellen, damit die Workload Identity Pool-Identitäten die Identität des Service-Kontos annehmen können. Wählen Sie **Zugriff gewähren** aus, um das Dialogfeld Zugriff auf Service-Konto gewähren zu öffnen.
+
+Wählen Sie im Dialogfeld die Option **Zugriff durch Identitätswechsel für Service-Konten gewähren** aus. Im Abschnitt **Prinzipale auswählen** müssen Sie Ihre Attributzuordnungen erstellen.
+
+Wählen Sie **aws_role** aus und fügen Sie `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` als Wert hinzu, indem Sie `AWSAccountID` und `AWSRoleName` durch die zuvor angegebenen Werte ersetzen.
+
+![Das Dialogfeld Zugriff gewähren wird angezeigt.](/help/connections/assets/home/aws_role.png)
+
+Nachdem Sie Zugriff auf das Service-Konto gewährt haben, laden Sie die Client-Bibliothekskonfiguration herunter.
+
+![Der Speicherort, an den die Bibliothekskonfiguration heruntergeladen werden soll, wird angezeigt.](/help/connections/assets/home/download-config.png)
+
+Nach dem Herunterladen der Client-Bibliothekskonfiguration können Sie jetzt eine WiFi-Verbindung mit der Federated Audience-Konfiguration einrichten.
