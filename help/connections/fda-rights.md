@@ -3,15 +3,12 @@ title: Berechtigungen für den Zugriff auf externe Datenbanken
 description: Erfahren Sie, welche Berechtigungen Sie für den Zugriff auf jede Datenbank-Engine sowie das Durchführen von Aufgaben auf diesen benötigen
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 93%
+source-wordcount: 445
+ht-degree: 88%
 
 ---
 
@@ -30,8 +27,8 @@ In der folgenden Tabelle sind die erforderlichen Datenbankberechtigungen für je
 | **Monitoring von Ausführungen** | `MONITOR`-Berechtigung für das erforderliche Objekt | Keine Berechtigung erforderlich für die Verwendung des `EXPLAIN`-Befehls | `monitoring.viewer`-Rolle | `CAN_VIEW`-Berechtigung |
 | **Schreiben von Daten** | `INSERT`- und/oder `UPDATE`-Berechtigung (abhängig vom Schreibvorgang) | `INSERT`- und `UPDATE`-Berechtigung | Die dem Dienstkonto zugewiesene Rolle muss Folgendes enthalten: `bigquery.jobs.create` und `bigquery.tables.updateData` | `MODIFY`-Berechtigung |
 | **Laden von Daten in Tabellen** | `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` und `INSERT` für die Zieltabellen-Berechtigungen | `SELECT`- und `INSERT`-Berechtigung | Die dem Dienstkonto zugewiesene Rolle muss Folgendes enthalten: `bigquery.jobs.create`, `bigquery.tables.getData` und `bigquery.tables.updateData` | `SELECT`- und `MODIFY`-Berechtigung |
-| **Zugreifen auf Client-Daten** | `SELECT on (FUTURE) TABLE(S)`- oder `VIEW(S)`-Berechtigung | `SELECT`-Berechtigung | Die dem Dienstkonto zugewiesene Rolle muss Folgendes enthalten: `bigquery.jobs.create` und `bigquery.tables.getData` für Tabellen oder die `bigquery.dataViewer`-Rolle | `SELECT`-Berechtigung |
-| **Zugreifen auf Metadaten** | `SELECT on INFORMATION_SCHEMA SCHEMA`-Berechtigung | `SELECT`-Berechtigung | `bigquery.metadataViewer`-Rolle |  `SELECT on INFORMATION_SCHEMA SCHEMA`-Berechtigung |
+| **Zugreifen auf Client-Daten** | `SELECT on (FUTURE) TABLE(S)`- oder `VIEW(S)`-Berechtigung | `SELECT`-Berechtigung | Die dem Dienstkonto zugewiesene Rolle muss Folgendes enthalten: `bigquery.jobs.create`, `bigquery.readsessions.create` und `bigquery.tables.getData` für Tabellen oder die `bigquery.dataViewer` Rolle | `SELECT`-Berechtigung |
+| **Zugriff auf Metadaten** | `SELECT on INFORMATION_SCHEMA SCHEMA`-Berechtigung | `SELECT`-Berechtigung | `bigquery.metadataViewer`-Rolle |  `SELECT on INFORMATION_SCHEMA SCHEMA`-Berechtigung |
 
 
 |   | Microsoft Fabric | Azure Synapse Analytics | Vertica | Teradata |
