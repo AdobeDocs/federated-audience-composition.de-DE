@@ -3,9 +3,8 @@ title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
 workflow-type: tm+mt
 source-wordcount: 671
 ht-degree: 12%
@@ -24,16 +23,6 @@ Die Version vom Mai für Federated Audience Composition unterstützt die folgend
 | --- |
 | Sie können jetzt mit Google Big Query über die WIF-Authentifizierung verbinden. Weitere Informationen zur Verbindung mit der WIF-Authentifizierung finden Sie unter [Verbindungen - Übersicht](/help/connections/home.md#wif-configuration). |
 
-## Version April &#39;26 {#fac-26-04}
-
-Die April-Version für Federated Audience Komposition unterstützt die folgenden Funktionen und Verbesserungen:
-
-### Neue Funktionen {#fac=26-04-feature}
-
-| Neuer Connector - Teradata |
-| --- |
-| Der Teradata-Connector ist jetzt für die Verwendung mit der Federated Audience-Komposition verfügbar. Sie können den Teradata-Connector für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwenden. Weitere Informationen zum Teradata-Connector finden Sie unter [Verbindungen - Übersicht](/help/connections/home.md). |
-
 ### Verbesserungen {#fac-26-05-improvements}
 
 Diese Version umfasst die folgende Verbesserung.
@@ -43,6 +32,16 @@ Diese Version umfasst die folgende Verbesserung.
   Sie können jetzt FAC-Zielgruppenattribute als zusätzliche Kennungen in Journey Optimizer-Journey lesen. Auf diese Weise können Sie die Zielgruppen auf mehreren Entitäten aktivieren, z. B. auf Konto- oder Abonnementebene.
 
   Weitere Informationen finden Sie im Handbuch [Verwendung zusätzlicher Kennungen in Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
+## Version April &#39;26 {#fac-26-04}
+
+Die April-Version für Federated Audience Komposition unterstützt die folgenden Funktionen und Verbesserungen:
+
+### Neue Funktionen {#fac=26-04-feature}
+
+| Neuer Connector - Teradata |
+| --- |
+| Der Teradata-Connector ist jetzt für die Verwendung mit der Federated Audience-Komposition verfügbar. Sie können den Teradata-Connector für Anwendungsfälle zur Erstellung und Anreicherung von Zielgruppen verwenden. Weitere Informationen zum Teradata-Connector finden Sie unter [Verbindungen - Übersicht](/help/connections/home.md). |
 
 ### Verbesserungen {#fac-26-04-improvements}
 
@@ -94,7 +93,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 
