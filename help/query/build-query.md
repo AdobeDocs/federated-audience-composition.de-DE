@@ -4,10 +4,9 @@ title: Erstellen Ihrer ersten Abfrage mithilfe des Abfrage-Modelers
 description: Erfahren Sie, wie Sie Ihre erste Abfrage im Abfrage-Modeler erstellen.
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 TQID: https://experienceleague.adobe.com/SJSO3icKYWUUDUZJsQhZfjjw6QjITphRIuRZpv-5394
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 100%
 
@@ -72,10 +71,10 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
    | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte werden durch Kommata getrennt. | Geburtsdatum (@birthDate) ist enthalten in &#39;12/10/1979,12/10/1984&#39; gibt die Empfängerinnen und Empfänger zurück, die zwischen diesen beiden Daten geboren wurden. |
    | Nicht enthalten | Negative Form des Operators „ist enthalten in“. Die den angegebenen Werten entsprechenden Daten werden aus dem Ergebnis ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Im Gegensatz zum vorherigen Beispiel werden zwischen diesen beiden Daten geborene Empfängerinnen und Empfänger nicht zurückgegeben. |
    | Ist leer | Die ausgegebenen Daten enthalten keinen Wert in der entsprechenden Spalte. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
-   | Ist nicht leer | Negative Form des Operators „Ist leer“.Auch hier wird in der Spalte „Wert“ nichts angegeben. | E-Mail (@email) ist nicht leer. |
+   | Ist nicht leer | Negative Form des Operators „Ist leer“. Auch hier wird in der Spalte „Wert“ nichts angegeben. | E-Mail (@email) ist nicht leer. |
    | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
    | Beginnt nicht mit | Die ausgegebenen Daten beginnen nicht mit dem angegebenen Wert. | Kundennummer (@account) beginnt nicht mit &#39;20&#39; |
-   | Enthält | Die zurückgegebenen Daten enthalten den angegebenen Wert. | E-Mail-Domain (@domain) enthält „mail“</strong>. Nur E-Mail-Domains, die den Wert „mail“ enthalten, werden ausgegeben.Die Domain „gmail.com“ wird also ebenfalls zurückgegeben. |
+   | Enthält | Die zurückgegebenen Daten enthalten den angegebenen Wert. | E-Mail-Domain (@domain) enthält „mail“</strong>. Nur E-Mail-Domains, die den Wert „mail“ enthalten, werden ausgegeben. Die Domain „gmail.com“ wird also ebenfalls zurückgegeben. |
    | Enthält nicht | Die ausgegebenen Daten enthalten den angegebenen Wert nicht. | E-Mail-Domain (@domain) enthält nicht „vo“</strong>. In diesem Fall werden Domain-Namen, die „vo“ enthalten, nicht zurückgegeben. Die Domain „voila.fr“ erscheint nicht in den Ergebnissen. |
    | Ist wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Der Platzhalter wird hier wie ein „Joker“ verwendet. In diesem Fall werden alle Empfängerinnen und Empfänger ausgegeben, deren Nachname z. B. „Meyer“ oder „Meier“ lautet. |
    | Ist nicht wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) nicht wie „Schmi%t“. Hier werden die Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, nicht zurückgegeben. |
