@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/CEu72QK6dqP1LCl8Ip1JSdZpZtubK0nyDJvj3QM
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 4215
 ht-degree: 100%
 
@@ -142,7 +142,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | **Oldest** | Gibt das älteste Datum unter den beiden angegebenen zurück. | Oldest(&lt;DATUM/UHRZEIT>, &lt;DATUM/UHRZEIT>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. Andernfalls wird auf die nächste Sekunde gekürzt. | TruncDate(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert, und wandelt „Datum/Uhrzeit“ in die angegebene Zeitzone um. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. | TruncDateTZ(&lt;DATUM/UHRZEIT>, &lt;ZAHL>, &lt;ZEITZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;Amerika/Los_Angeles&quot;) |
-| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert.Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Quartal. | TruncQuarter(&lt;DATUM/UHRZEIT>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Jahr. | TruncYear(&lt;DATUM/UHRZEIT>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Kürzt „Datum/Uhrzeit“ auf den Sonntag der nächsten Woche. | TruncWeek(&lt;DATUM/UHRZEIT>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -297,7 +297,7 @@ Die Datumsfunktionen dienen der Manipulation von Datums- oder Uhrzeitwerten.
 | **Oldest** | Gibt das älteste Datum unter den beiden angegebenen zurück. | Oldest(&lt;DATUM/UHRZEIT>, &lt;DATUM/UHRZEIT>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. Andernfalls wird auf die nächste Sekunde gekürzt. | TruncDate(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Kürzt „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert, und wandelt „Datum/Uhrzeit“ in die angegebene Zeitzone um. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. Wenn der numerische Wert gleich 86.400 ist, wird auf den nächsten Tag gekürzt. | TruncDateTZ(&lt;DATUM/UHRZEIT>, &lt;ZAHL>, &lt;ZEITZONE>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;Amerika/Los_Angeles&quot;) |
-| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert. Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Legt „Datum/Uhrzeit“ auf den 1. Januar 2000 fest und rundet den Rest von „Datum/Uhrzeit“ auf die nächste Einheit, basierend auf dem angegebenen numerischen Wert.Wenn der numerische Wert gleich 60 ist, wird auf die nächste Minute gekürzt. Wenn der numerische Wert gleich 3.600 ist, wird auf die nächste Stunde gekürzt. | TruncTime(&lt;DATUM/UHRZEIT>, &lt;ZAHL>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Quartal. | TruncQuarter(&lt;DATUM/UHRZEIT>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Kürzt „Datum/Uhrzeit“ auf das erste Datum im nächsten Jahr. | TruncYear(&lt;DATUM/UHRZEIT>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Kürzt „Datum/Uhrzeit“ auf den Sonntag der nächsten Woche. | TruncWeek(&lt;DATUM/UHRZEIT>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
@@ -623,7 +623,7 @@ Other functions are not available.
 
 >[!ENDTABS]
 
-### Zeichenfolge
+### String
 
 Die String-Funktionen dienen der Manipulation einer Reihe von Strings.
 
