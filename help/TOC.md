@@ -2,10 +2,10 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 100%
    - [Überblick über Verbindungen](connections/home.md)
    - [Matrix der Zugriffsberechtigungen auf Daten](connections/fda-rights.md)
    - [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
+   - [Targeting mehrerer Entitäten](connections/multi-entity-targeting.md)
 - Datenmodelle und Schemata {#models}
    - [Überblick über Schemata](data-modelling/schemas.md)
    - [Überblick über Datenmodelle](data-modelling/models.md)
