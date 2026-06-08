@@ -4,14 +4,11 @@ title: Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten
 description: Erfahren Sie, wie Sie Adobe Experience Platform-Zielgruppen mithilfe des Ziels „Komposition föderierter Zielgruppen“ mit Daten aus föderierten Datenbanken verfeinern und anreichern können.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 56%
 
 ---
@@ -77,7 +74,7 @@ Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Ident
 
 >[!IMPORTANT]
 >
->Sie **können** beim Aktivieren Ihres Ziels systemgenerierte Spalten verwenden. Die Auswahl einer systemgenerierten Spalte führt dazu, dass die Aktivierung fehlschlägt.
+>Sie **können** beim Aktivieren für Ziele systemgenerierte Spalten verwenden. Bei Auswahl einer systemgenerierten Spalte tritt ein Fehler auf.
 
 Weitere Informationen finden Sie im [Abschnitt Zuordnung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Dokumentation zu Adobe Experience Platform.
 
