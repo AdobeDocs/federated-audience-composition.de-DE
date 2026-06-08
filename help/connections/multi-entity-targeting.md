@@ -2,7 +2,7 @@
 audience: end-user
 title: Zielgruppenbestimmung durch mehrere Entitäten mit Zielgruppenkomposition in Adobe Journey Optimizer
 description: Erfahren Sie, wie Sie in Adobe Journey Optimizer Journey Profile aus Zielgruppen mit zusammengeführter Zielgruppenkomposition ansprechen.
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Sie können jetzt eine zusätzliche Kennung auswählen. Wählen Sie im Auswahlbi
 
 ## Konfigurieren von Journey-Bedingungen {#configure-journey}
 
-Nachdem Sie nun Ihre Zielgruppeneinstellungen aktiviert und konfiguriert haben, können Sie mit der Konfiguration der übrigen Bedingungen auf Ihrer Journey fortfahren. Für diesen Anwendungsfall sollten Sie nach dem Knoten **Zielgruppe lesen** **&#x200B;**&#x200B;einen Knoten **Optimizer** hinzufügen.
+Nachdem Sie nun Ihre Zielgruppeneinstellungen aktiviert und konfiguriert haben, können Sie mit der Konfiguration der übrigen Bedingungen auf Ihrer Journey fortfahren. Für diesen Anwendungsfall sollten Sie nach dem Knoten **Zielgruppe lesen** **** einen Knoten **Optimizer** hinzufügen.
 
 Wählen Sie nach dem Konfigurieren der verbleibenden Knoten **Veröffentlichen** aus, um die Erstellung der Journey abzuschließen.
 
@@ -57,3 +57,4 @@ Ihr Journey richtet sich nun bei den Zielgruppenprofilen nach der **zusätzliche
 ## Nächste Schritte {#next-steps}
 
 Nach dem Lesen dieses Handbuchs wissen Sie jetzt, wie Sie zusätzliche Kennungen aus Ihren Zielgruppen mit Federated-Audience-Komposition in Journey Optimizer Journey verwenden können. Weitere Informationen zur Verwendung zusätzlicher Journey finden Sie im Handbuch [Verwendung zusätzlicher IDs in Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
