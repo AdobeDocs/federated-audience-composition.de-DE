@@ -46,7 +46,7 @@ Sie können jetzt eine zusätzliche Kennung auswählen. Wählen Sie im Auswahlbi
 
 ## Konfigurieren von Journey-Bedingungen {#configure-journey}
 
-Nachdem Sie nun Ihre Zielgruppeneinstellungen aktiviert und konfiguriert haben, können Sie mit der Konfiguration der übrigen Bedingungen auf Ihrer Journey fortfahren. Für diesen Anwendungsfall sollten Sie nach dem Knoten **Zielgruppe lesen** **** einen Knoten **Optimizer** hinzufügen.
+Nachdem Sie nun Ihre Zielgruppeneinstellungen aktiviert und konfiguriert haben, können Sie mit der Konfiguration der übrigen Bedingungen auf Ihrer Journey fortfahren. Für diesen Anwendungsfall sollten Sie nach dem Knoten **Zielgruppe lesen** **&#x200B;**&#x200B;einen Knoten **Optimizer** hinzufügen.
 
 Wählen Sie nach dem Konfigurieren der verbleibenden Knoten **Veröffentlichen** aus, um die Erstellung der Journey abzuschließen.
 
