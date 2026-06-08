@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 56%
 
 ---
@@ -77,7 +77,7 @@ Legen Sie im Schritt **[!UICONTROL Zuordnung]** fest, welche Attribute und Ident
 
 >[!IMPORTANT]
 >
->Sie **können** beim Aktivieren Ihres Ziels systemgenerierte Spalten verwenden. Die Auswahl einer systemgenerierten Spalte führt dazu, dass die Aktivierung fehlschlägt.
+>Sie **können** beim Aktivieren für Ziele systemgenerierte Spalten verwenden. Bei Auswahl einer systemgenerierten Spalte tritt ein Fehler auf.
 
 Weitere Informationen finden Sie im [Abschnitt Zuordnung](https://experienceleague.adobe.com/de/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} in der Dokumentation zu Adobe Experience Platform.
 
