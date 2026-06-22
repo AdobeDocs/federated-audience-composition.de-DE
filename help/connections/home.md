@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
-workflow-type: tm+mt
-source-wordcount: 3543
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: 3540
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Der Abschnitt „Föderierte Datenbanken“ wird angezeigt. Wählen Sie **[!UICO
 
 >[!NOTE]
 >
->Um eine sichere Konnektivität über einen privaten Link oder ein VPN anzufordern, **müssen** entweder Privacy and Security Shield oder Healthcare Shield lizenziert haben.
+>Um eine sichere Verbindung über einen privaten Link oder VPN anzufordern, **muss** entweder Privacy and Security Shield oder Healthcare Shield lizenziert sein.
 
 Das Popup-Fenster mit den Verbindungseinstellungen wird angezeigt. Sie können Ihre Verbindung benennen und auswählen, welchen Datenbanktyp Sie erstellen möchten.
 
@@ -217,7 +217,7 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
 
-Wenn Sie **[!UICONTROL WIF]** auswählen, **Sie** Anmeldeinformationen angeben. Sie **müssen** die Client-Bibliothekskonfiguration jedoch als **[!UICONTROL Schlüsseldateipfad]** hinzufügen. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im Konfigurationsabschnitt [Google BigQuery (Workload Identity Federation)](#wif-configuration).
+Wenn Sie **[!UICONTROL WIF]** auswählen, müssen Sie **keine** Anmeldeinformationen hinzufügen. Sie **müssen** jedoch die Konfiguration der Client-Bibliothek als **[!UICONTROL Schlüsseldateipfad]** hinzufügen. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im [Abschnitt zur Konfiguration für Google BigQuery (Workload Identity Federation)](#wif-configuration).
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
@@ -288,14 +288,14 @@ Wenn Sie **[!UICONTROL Authentifizierung per Konto/Passwort]** auswählen, könn
 | Benutzerin bzw. Benutzer | Der Benutzername für das Konto. |
 | Passwort | Das Passwort für das Konto. |
 
-Alternativ können Sie auch einen privaten Schlüssel angeben, anstatt ein Kennwort anzugeben. Wenn Sie einen privaten Schlüssel hinzufügen, müssen Sie die folgenden Informationen angeben:
+Alternativ können Sie auch anstelle eines Passworts einen privaten Schlüssel hinzufügen. Wenn Sie einen privaten Schlüssel hinzufügen, müssen Sie die folgenden Informationen angeben:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des Servers. |
 | Benutzerin bzw. Benutzer | Der Benutzername für das Konto. |
 | Privater Schlüssel | Der private Schlüssel für das Konto. Es werden nur `.pem`-Dateien unterstützt. |
-| Passwort | (Optional) Das Kennwort für das Konto. |
+| Passwort | (Optional) Das Passwort für das Konto. |
 
 Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
@@ -336,24 +336,24 @@ Für Snowflake können Sie die folgenden zusätzlichen Optionen festlegen:
 
 >[!NOTE]
 >
->Um eine Verbindung mit Teradata herzustellen **müssen Sie** Voraussetzungen erfüllen, einschließlich der Installation von Datenbanktreibern. Weitere Informationen erhalten Sie von Ihrem Adobe-Kundenbetreuer.
+>Um eine Verbindung mit Teradata herzustellen, **müssen** verschiedene Voraussetzungen erfüllt sein, einschließlich der Installation von Datenbanktreibern. Bitte wenden Sie sich an die Adobe-Kundenunterstützung, um weitere Informationen zu erhalten.
 
 Nach Auswahl von Teradata können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| Server | Die URL des Teradata-Servers |
+| Server | Die URL des Teradata-Servers. |
 | Konto | Der Benutzername, den die Datenbank für die Open Database Connectivity-Sitzung (ODBC) verwendet. |
-| Passwort | Das Kennwort, mit dem Sie eine Verbindung zur ODBC-Sitzung herstellen. |
+| Passwort | Das Passwort, mit dem Sie eine Verbindung zur ODBC-Sitzung herstellen. |
 | Datenbank | Der Name der Datenbank. |
-| Optionen | Zusätzliche Optionen für die Verbindung. Für Teradata sind beide aufgelisteten Optionen **obligatorisch** um hinzuzufügen. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
+| Optionen | Zusätzliche Optionen für die Verbindung. Für Teradata ist das Hinzufügen beider aufgelisteter Optionen **zwingend erforderlich**. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Teradata können Sie die folgenden zusätzlichen Optionen festlegen:
 
 | Optionen | Beschreibung |
 | ------- | ----------- |
-| `workTableSchema` | Der Name des Schemas für die Arbeitstabellen. |
-| `ODBCLib` | Der Speicherort der ODBC-Bibliothek des Systems, den Sie verwenden können, wenn Sie Teradata mit einem anderen ODBC mischen. |
+| `workTableSchema` | Der Name des Schemas für Arbeitstabellen. |
+| `ODBCLib` | Der Speicherort der ODBC-Bibliothek des Systems, den Sie verwenden können, wenn Sie Teradata mit einer anderen ODBC-Verbindung kombinieren. |
 
 >[!TAB Vertica Analytics]
 
@@ -392,20 +392,20 @@ Sie können jetzt **[!UICONTROL Funktionen freigeben]** und anschließend **[!UI
 
 ## Anhang {#appendix}
 
-Im folgenden Anhang wird beschrieben, wie Sie die Verbindungen auf der Seite des externen Kontos einrichten.
+Im folgenden Anhang wird beschrieben, wie Sie die Verbindungen aufseiten des externen Kontos einrichten.
 
 ### Konfiguration von Google BigQuery (Workload Identity Federation) {#wif-configuration}
 
-Bevor Sie die Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
+Bevor Sie Ihre Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
 
 - AWS-Konto-ID
-   - Wenden Sie sich an Ihren Adobe-Support-Mitarbeiter, um diesen Wert zu erhalten.
+   - Wenden Sie sich an die Adobe-Kundenunterstützung, um diesen Wert zu erhalten.
 - AWS IAM-Rollenname
-   - Der Name der AWS IAM-Rolle folgt dem folgenden Format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+   - Der AWS IAM-Rollenname folgt dem folgenden Format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
-Erstellen Sie in der Google Cloud Console einen **Workload-Identitätspool** im Abschnitt **IAM und Admin**. Auf diese Weise können Sie externe Identitäten organisieren und verwalten.
+Erstellen Sie in der Google Cloud Console einen **Workload Identity-Pool** im **Abschnitt für IAM und Administration**. Auf diese Weise können Sie externe Identitäten organisieren und verwalten.
 
-Wählen Sie **Anbieter hinzufügen**, um einen Identitätsanbieter zu erstellen. Dadurch wird eine unidirektionale Vertrauensstellung zwischen dem Identitätsanbieter in Google Cloud und dem Worker-Identitätspool konfiguriert, indem die relevanten Metadaten zum Anbieter bereitgestellt werden.
+Wählen Sie **Anbieter hinzufügen** aus, um einen Identitätsanbieter zu erstellen. Hierdurch wird ein einseitiges Vertrauensverhältnis zwischen dem Identitätsanbieter in Google Cloud und dem Workload Identity-Pool konfiguriert, indem die relevanten Metadaten über den Anbieter bereitgestellt werden.
 
 ![Die Schaltfläche „Anbieter hinzufügen“ ist in Google Cloud hervorgehoben.](/help/connections/assets/home/select-add-provider.png)
 
@@ -413,22 +413,22 @@ Wenn Sie einen Anbieter erstellen, müssen Sie die folgenden Informationen angeb
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| Name | Der Name des Workload Identity Pool-Anbieters. |
-| ID | Die ID für den Provider wird automatisch generiert. |
+| Name | Der Name des Anbieters für den Workload Identity-Pool. |
+| ID | Die ID für den Anbieter wird automatisch generiert. |
 | AWS-Konto-ID | Die zuvor angegebene AWS-Konto-ID. |
-| Anbieter aktiviert | Ein boolescher Wert, der bestimmt, ob der Anbieter aktiviert oder deaktiviert ist. |
-| Attributzuordnung | Die Zuordnungen, die mit den Rollen abgeglichen werden sollen. Diese Informationen sind bereits vorhanden. |
+| Aktivierter Anbieter | Ein boolescher Wert, der bestimmt, ob der Anbieter aktiviert oder deaktiviert ist. |
+| Attributzuordnung | Die Zuordnungen, die mit den Rollen übereinstimmen müssen. Diese Informationen sind bereits vorhanden. |
 
-Nachdem Sie den Anbieter erstellt haben, müssen Sie eine IAM-Richtlinie erstellen, damit die Workload Identity Pool-Identitäten die Identität des Service-Kontos annehmen können. Wählen Sie **Zugriff gewähren** aus, um das Dialogfeld Zugriff auf Service-Konto gewähren zu öffnen.
+Nachdem Sie den Anbieter erstellt haben, müssen Sie eine IAM-Richtlinie erstellen, damit die Identitäten des Workload Identity-Pools die Identität des Dienstkontos annehmen können. Wählen Sie **Zugriff gewähren** aus, um das Dialogfeld „Zugriff auf Dienstkonto gewähren“ zu öffnen.
 
-Wählen Sie im Dialogfeld die Option **Zugriff durch Identitätswechsel für Service-Konten gewähren** aus. Im Abschnitt **Prinzipale auswählen** müssen Sie Ihre Attributzuordnungen erstellen.
+Wählen Sie im Dialogfeld die Option für **Zugriff über Dienstkontosimulation gewähren** aus. Im Abschnitt **Prinzipale auswählen** müssen Sie Ihre Attributzuordnungen erstellen.
 
-Wählen Sie **aws_role** aus und fügen Sie `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` als Wert hinzu, indem Sie `AWSAccountID` und `AWSRoleName` durch die zuvor angegebenen Werte ersetzen.
+Wählen Sie **aws_role** aus und fügen Sie `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` als Wert hinzu, wobei Sie `AWSAccountID` und `AWSRoleName` durch die zuvor bereitgestellten Werte ersetzen.
 
-![Das Dialogfeld Zugriff gewähren wird angezeigt.](/help/connections/assets/home/aws_role.png)
+![Das Dialogfeld „Zugriff gewähren“ wird angezeigt.](/help/connections/assets/home/aws_role.png)
 
-Nachdem Sie Zugriff auf das Service-Konto gewährt haben, laden Sie die Client-Bibliothekskonfiguration herunter.
+Laden Sie nach der Gewährung des Zugriffs auf das Dienstkonto die Konfiguration der Client-Bibliothek herunter.
 
-![Der Speicherort, an den die Bibliothekskonfiguration heruntergeladen werden soll, wird angezeigt.](/help/connections/assets/home/download-config.png)
+![Der Speicherort für das Herunterladen der Bibliothekskonfiguration wird angezeigt.](/help/connections/assets/home/download-config.png)
 
-Nach dem Herunterladen der Client-Bibliothekskonfiguration können Sie jetzt eine WiFi-Verbindung mit der Federated Audience-Konfiguration einrichten.
+Nach dem Herunterladen der Konfiguration der Client-Bibliothek können Sie nun eine WIF-Verbindung mit der Konfiguration föderierter Zielgruppen einrichten.
