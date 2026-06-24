@@ -3,11 +3,10 @@ title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 02d8690a6e20c22ddd67afc4899830ccd2f03da9
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 671
+source-wordcount: 726
 ht-degree: 12%
 
 ---
@@ -16,13 +15,21 @@ ht-degree: 12%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
+## Version Juni 2026 {#fac-26-06}
+
+Die Juni-Version für Federated Audience Komposition unterstützt die folgenden Funktionen:
+
+| REST API-Connector mit [!DNL Apigee] Gateway-Unterstützung für Google [!DNL BigQuery] |
+| --- |
+| Sie können jetzt über einen REST-API-Connector eine Verbindung zu Google [!DNL BigQuery] herstellen und Ihre Verbindung über ein [!DNL Apigee]-Gateway weiterleiten, wenn Sie die Authentifizierung für ein Service-Konto verwenden. Weitere Informationen zum Verbinden mit [!DNL Apigee] finden Sie in der [Verbindungen - Übersicht](/help/connections/home.md#apigee). |
+
 ## Version Mai &#39;26 {#fac-26-05}
 
 Die Version vom Mai für Federated Audience Composition unterstützt die folgenden Funktionen:
 
-| Authentifizierung des Workload Identity Federation (WIF) für Google Big Query |
+| Authentifizierung des Workload Identity Federation (WIF) für Google [!DNL BigQuery] |
 | --- |
-| Sie können jetzt mit Google Big Query über die WIF-Authentifizierung verbinden. Weitere Informationen zur Verbindung mit der WIF-Authentifizierung finden Sie unter [Verbindungen - Übersicht](/help/connections/home.md#wif-configuration). |
+| Sie können jetzt mithilfe der WIF-Authentifizierung eine Verbindung zu Google [!DNL BigQuery] herstellen. Weitere Informationen zur Verbindung mit der WIF-Authentifizierung finden Sie unter [Verbindungen - Übersicht](/help/connections/home.md#wif-configuration). |
 
 ### Verbesserungen {#fac-26-05-improvements}
 
@@ -34,7 +41,7 @@ Diese Version umfasst die folgende Verbesserung.
 
   Weitere Informationen finden Sie im Handbuch [Verwendung zusätzlicher Kennungen in Journey](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
 
-## Version April &#39;26 {#fac-26-04}
+## Version April 2026 {#fac-26-04}
 
 Die April-Version für Federated Audience Komposition unterstützt die folgenden Funktionen und Verbesserungen:
 
@@ -94,7 +101,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 
