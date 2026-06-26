@@ -4,17 +4,12 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
 workflow-type: tm+mt
-source-wordcount: 3947
+source-wordcount: 3976
 ht-degree: 89%
 
 ---
@@ -25,8 +20,7 @@ ht-degree: 89%
 >
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
->-**Föderierte Datenbank verwalten**
->-**Föderierte Datenbank anzeigen**
+>-**Föderierte Datenbank verwalten-** Föderierte Datenbank anzeigen **
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
 
@@ -225,8 +219,9 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Speicherort des Google-Buckets | Der Speicherort Ihres Google-Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der Dokumentation zu [Google Cloud Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Schlüsseldateipfad | Die Schlüsseldatei zum Server. Es werden nur `json`-Dateien unterstützt. |
+| Speicherort des Google-Buckets | Der Speicherort Ihres Google-Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der Dokumentation zu [Google Cloud Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Verwenden des REST-API-Connectors | Ein Umschalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Konto-/Kennwortauthentifizierung verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
