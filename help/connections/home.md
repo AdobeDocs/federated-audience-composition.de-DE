@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3976
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -225,8 +225,8 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Schlüsseldateipfad | Die Schlüsseldatei zum Server. Es werden nur `json`-Dateien unterstützt. |
-| Speicherort des Google-Buckets | Der Speicherort Ihres Google-Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der Dokumentation zu [Google Cloud Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
-| Verwenden des REST-API-Connectors | Ein Umschalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Konto-/Kennwortauthentifizierung verwenden. |
+| Speicherort für den Google-Bucket | Der Speicherort Ihres Google Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der [Dokumentation zu den Google Cloud-Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Authentifizierung mit Konto und Passwort verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -241,7 +241,7 @@ Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
 | GCloudConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 oder höher. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
 | GCloudDefaultConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
 | GCloudRecreateConfig | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Ein boolescher Wert, mit dem Sie festlegen können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
-| **restEndpoint** | Der Endpunkt für Ihren Apigee-Proxy. Sie müssen dies nur verwenden, wenn Sie den REST-API-Connector mit dem Apigee-Proxy verwenden. Wenn Sie den Apigee-Proxy verwenden, aktivieren Sie die Einstellung **Verwenden des REST-API-Connectors**. Weitere Informationen zum Setup finden Sie im Abschnitt [Google BigQuery Apigee Gateway Support](#apigee). |
+| **restEndpoint** | Der Endpunkt für Ihren Apigee-Proxy. Sie müssen diesen Endpunkt nur verwenden, wenn Sie den REST-API-Connector mit dem Apigee-Proxy nutzen. Wenn Sie den Apigee-Proxy verwenden, aktivieren Sie die Einstellung **REST-API-Connector verwenden**. Weitere Informationen zum Setup finden Sie im Abschnitt [Unterstützung für das Google BigQuery Apigee-Gateway](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -435,31 +435,31 @@ Laden Sie nach der Gewährung des Zugriffs auf das Dienstkonto die Konfiguration
 
 Nach dem Herunterladen der Konfiguration der Client-Bibliothek können Sie nun eine WIF-Verbindung mit der Konfiguration föderierter Zielgruppen einrichten.
 
-### Google BigQuery [!DNL Apigee] Gateway-Unterstützung {#apigee}
+### Unterstützung für das Google BigQuery [!DNL Apigee]-Gateway {#apigee}
 
-Sie können [!DNL Apigee], die native API-Verwaltungsplattform von Google Cloud, verwenden, um Ihre API-Aufrufe an Google BigQuery weiterzuleiten.
+Sie können [!DNL Apigee] verwenden, die native API-Verwaltungsplattform von Google Cloud, um API-Aufrufe an Google BigQuery weiterzuleiten.
 
-Sie müssen zunächst einen Proxy in der [!DNL Apigee]-Benutzeroberfläche erstellen. Wechseln Sie in Google Cloud zu **Apigee** gefolgt von **Proxy-**, **API-** und **Erstellen**, um das Bedienfeld **Proxy erstellen** aufzurufen. Im Bedienfeld können Sie die folgenden Details ausfüllen:
+Zunächst müssen Sie einen Proxy in der [!DNL Apigee]-Benutzeroberfläche erstellen. Navigieren Sie in Google Cloud zu **Apigee** und wählen Sie **Proxy-Entwicklung**, **API-Proxys** und **Erstellen** aus, um das Panel **Proxy erstellen** aufzurufen. Im Panel können Sie die folgenden Details eingeben:
 
-![Der Bildschirm zur Erstellung des Apigee-Proxys wird angezeigt.](/help/connections/assets/home/create-proxy-apigee.png)
+![Der Bildschirm für die Erstellung des Apigee-Proxys wird angezeigt.](/help/connections/assets/home/create-proxy-apigee.png)
 
 | Details | Beschreibung |
 | ------- | ----------- |
-| Proxy-Vorlage | Der Proxy-Typ, den Sie erstellen möchten. In diesem Anwendungsfall sollten Sie „Reverse **Proxy (am häufigsten)“**. |
-| Proxy-Name | Der Name Ihres Proxys. Dieser Wert kann **nur** alphanumerische Zeichen, Bindestriche (`-`) oder Unterstriche (`_`) enthalten. |
+| Proxy-Vorlage | Der Typ des Proxys, den Sie erstellen möchten. In diesem Anwendungsfall sollten Sie **Reverse Proxy (Am häufigsten)** auswählen. |
+| Proxy-Name | Der Name Ihres Proxys. Dieser Wert darf **nur** alphanumerische Zeichen, Bindestriche (`-`) oder Unterstriche (`_`) enthalten. |
 | Basispfad | Das URI-Fragment, das die Host-Adresse für Ihren API-Proxy anzeigt. Dieser Basispfad basiert auf dem Proxy-Namen und **muss** eindeutig sein. |
 | Beschreibung | Eine optionale Beschreibung für den API-Proxy. |
-| Target | Die URL (die entweder HTTP oder HTTPS enthält) des Backend-Service, den der API-Proxy aufruft. |
+| Ziel | Die URL (die entweder HTTP oder HTTPS enthält) des Backend-Dienstes, den der API-Proxy aufruft. |
 
-Erstellen Sie für die Federated Audience-Komposition eine Proxy-Endpunktregel für **jeden**-Endpunkt, den der Google BigQuery-Connector verwendet, wie unten aufgeführt:
+Erstellen Sie zur Komposition föderierter Zielgruppen eine Proxy-Endpunktregel für **jeden** Endpunkt, den der Google BigQuery-Connector verwendet, wie unten aufgeführt:
 
-| Basispfad | Target-Endpunkt | Beschreibung |
+| Basispfad | Ziel-Endpunkt | Beschreibung |
 | --------- | --------------- | ----------- |
-| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Der wichtigste Endpunkt für Google BigQuery. Dieser Endpunkt wird verwendet, um Daten wie Abfragen und Listentabellen abzurufen. |
-| `/token` | `https://oauth2.googleapis.com/token` | Dieser Endpunkt wird für die Authentifizierung von Service-Konten verwendet. |
-| `/storage` | `https://storage.googleapis.com/storage` | Dieser Speicherendpunkt wird zum Löschen temporärer Massenladedateien verwendet. |
-| `/upload` | `https://storage.googleapis.com/upload` | Dieser Speicherendpunkt wird für das Massenladen von Dateien verwendet. |
-| `/v1/token` | `https://sts.googleapis.com/v1/token` | Dieser Endpunkt wird für den Workload Identity Federation (WIF)-Fluss verwendet, um das Token abzurufen. |
-| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | Dieser Endpunkt wird verwendet, um die Identität eines Dienstkontos im Workflow Workload Identity Federation (WIF) anzunehmen. |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Der Hauptendpunkt für Google BigQuery. Dieser Endpunkt wird verwendet, um Daten wie Abfragen und Tabellenlisten abzurufen. |
+| `/token` | `https://oauth2.googleapis.com/token` | Dieser Endpunkt wird für die Authentifizierung von Dienstkonten verwendet. |
+| `/storage` | `https://storage.googleapis.com/storage` | Dieser Speicherendpunkt dient zum Löschen temporärer Massenladedateien. |
+| `/upload` | `https://storage.googleapis.com/upload` | Dieser Speicherendpunkt wird zum Massenladen von Dateien verwendet. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | Dieser Endpunkt wird für den Fluss „Workload Identity Federation“ (WIF) zum Abrufen des Tokens verwendet. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | Dieser Endpunkt wird verwendet, um die Identität als Dienstkonto im Fluss „Workload Identity Federation“ (WIF) anzunehmen. |
 
-Nachdem Sie Ihren Proxy erstellt haben, können Sie ihn verwenden, um eine Verbindung mit Federated Audience Composition herzustellen. Nach der Bereitstellung des Proxys finden Sie die vollständige URL für Ihren Proxy unter **Hostnamen**, wenn Sie **Umgebungen** gefolgt von **Gruppen** im Abschnitt **Admin** auswählen.
+Sobald Sie Ihren Proxy erstellt haben, können Sie ihn für die Verbindung mit der Komposition föderierter Zielgruppen verwenden. Nachdem Sie den Proxy bereitgestellt haben, finden Sie die vollständige URL für Ihren Proxy unter **Host-Namen**, wenn Sie im Abschnitt **Admin** erst **Umgebungen** und dann **Gruppen** auswählen.
