@@ -30,7 +30,7 @@ Diese Version umfasst die folgende Verbesserung.
 
 - **Unterstützung für Zielgruppenkomposition-Zielgruppen beim Journey**
 
-  Mit der Journey-Simulation können Sie jetzt Ihre mit Zielgruppenkomposition erstellten Journey-Zielgruppen testen, bevor Sie sie mit simulierten Benutzenden veröffentlichen. Weitere Informationen finden Sie im [Erste Schritte mit dem Journey-Simulationshandbuch](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  Mit der Journey-Simulation können Sie jetzt Ihre mit Zielgruppenkomposition erstellten Journey-Zielgruppen testen, bevor Sie sie mit simulierten Benutzenden veröffentlichen. Weitere Informationen finden Sie im [Erste Schritte mit dem Journey-Simulationshandbuch](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Version Juni 2026 {#fac-26-06}
 
@@ -118,7 +118,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 
