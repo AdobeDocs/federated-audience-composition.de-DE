@@ -3,12 +3,11 @@ title: Versionshinweise zur Federated Audience-Komposition
 description: Aktuelle Updates und Versionshinweise für Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8da27489f6767e837828456b2b11c8238ea6a0a4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 12%
+source-wordcount: 825
+ht-degree: 11%
 
 ---
 
@@ -16,7 +15,23 @@ ht-degree: 12%
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
 
-## Version Juni 2026 {#fac-26-06}
+## Version Juli &#39;26 {#fac-26-07}
+
+Die Juli-Version für Federated Audience Komposition unterstützt die folgenden Funktionen:
+
+| Allgemeine Verfügbarkeit für CHE2 (Schweiz) Region |
+| --- |
+| Jetzt kann Ihre Federated Audience Composition-Instanz in der Region CHE2 (Schweiz) bereitgestellt werden. |
+
+### Verbesserungen {#fac-26-07-improvements}
+
+Diese Version umfasst die folgende Verbesserung.
+
+- **Unterstützung für Zielgruppenkomposition-Zielgruppen beim Journey**
+
+  Mit der Journey-Simulation können Sie jetzt Ihre mit Zielgruppenkomposition erstellten Journey-Zielgruppen testen, bevor Sie sie mit simulierten Benutzenden veröffentlichen. Weitere Informationen finden Sie im [Erste Schritte mit dem Journey-Simulationshandbuch](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+
+## Version Juni 2026 {#fac-26-06}
 
 Die Juni-Version für Federated Audience Komposition unterstützt die folgenden Funktionen:
 
@@ -102,7 +117,7 @@ Die Version vom Januar für Federated Audience Composition unterstützt die folg
 
 | Verfügbarkeit für Adobe Experience Platform-Kunden in Amazon Web Services (AWS) |
 | --- |
-| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/de/docs/experience-platform/landing/multi-cloud). |
+| Sie können jetzt die Federated Audience-Komposition verwenden, wenn sich Ihre Experience Platform-Instanz in AWS befindet. Weitere Informationen zu Experience Platform in AWS finden Sie unter [Übersicht über Multi-Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Verbesserungen {#fac-26-01-improvements}
 

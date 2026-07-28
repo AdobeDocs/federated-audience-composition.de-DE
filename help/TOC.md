@@ -2,8 +2,8 @@
 user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
-source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
-workflow-type: ht
+source-git-commit: f31a9799fecd72b0fccf84f5656b0ee8a6e7df92
+workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 100%
 
@@ -15,32 +15,32 @@ ht-degree: 100%
 - [Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform](landing.md)
 - [Überblick über die Komposition föderierter Zielgruppen](./overview.md)
 - Erste Schritte mit der Komposition föderierter Zielgruppen {#start}
-   - [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
-   - [Arbeiten mit Zielgruppen](start/audiences.md)
-   - [Arbeiten mit dem KI-Assistenten](start/ai-assistant.md)
+  - [Voraussetzungen und Leitlinien](start/access-prerequisites.md)
+  - [Arbeiten mit Zielgruppen](start/audiences.md)
+  - [Arbeiten mit dem KI-Assistenten](start/ai-assistant.md)
 - Governance, Datenschutz, Sicherheit {#governance-privacy-security}
-   - [Überblick](./governance-privacy-security/home.md)
-   - [Zugriffssteuerung](governance-privacy-security/access-control.md)
+  - [Überblick](./governance-privacy-security/home.md)
+  - [Zugriffssteuerung](governance-privacy-security/access-control.md)
 - Verbindungen {#connections}
-   - [Überblick über Verbindungen](connections/home.md)
-   - [Matrix der Zugriffsberechtigungen auf Daten](connections/fda-rights.md)
-   - [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
-   - [Zielgruppenbestimmung für mehrere Entitäten](connections/multi-entity-targeting.md)
+  - [Überblick über Verbindungen](connections/home.md)
+  - [Matrix der Zugriffsberechtigungen auf Daten](connections/fda-rights.md)
+  - [Anreichern von Adobe Experience Platform-Zielgruppen mit externen Daten](connections/destinations.md)
+  - [Zielgruppenbestimmung für mehrere Entitäten](connections/multi-entity-targeting.md)
 - Datenmodelle und Schemata {#models}
-   - [Überblick über Schemata](data-modelling/schemas.md)
-   - [Überblick über Datenmodelle](data-modelling/models.md)
+  - [Überblick über Schemata](data-modelling/schemas.md)
+  - [Überblick über Datenmodelle](data-modelling/models.md)
 - Kompositionen {#compositions}
-   - [Überblick über Kompositionen](compositions/home.md)
-   - [Erstellen einer Komposition](compositions/create-composition.md)
-   - [Überblick über Aktivitäten](compositions/activities.md)
+  - [Überblick über Kompositionen](compositions/home.md)
+  - [Erstellen einer Komposition](compositions/create-composition.md)
+  - [Überblick über Aktivitäten](compositions/activities.md)
 - Abfrage-Modeler {#query-database}
-   - [Überblick über den Abfrage-Modeler](query/home.md)
-   - [Erstellen einer Abfrage](query/build-query.md)
-   - [Bearbeiten von Ausdrücken](query/expression-editor.md)
+  - [Überblick über den Abfrage-Modeler](query/home.md)
+  - [Erstellen einer Abfrage](query/build-query.md)
+  - [Bearbeiten von Ausdrücken](query/expression-editor.md)
 - [Audit-Protokoll](admin/audit-trail.md)
 - [Häufig gestellte Fragen](./faq.md)
 - Versionshinweise {#release-notes}
-   - [Neueste Versionshinweise](./release-notes/latest.md)
-   - [2024](./release-notes/2024.md)
-   - [2025](./release-notes/2025.md)
-   - {hide-from-toc}[Vorab veröffentlichte Versionshinweise](./release-notes/e-release-notes.md)
+  - [Neueste Versionshinweise](./release-notes/latest.md)
+  - [2025](./release-notes/2025.md)
+  - [2024](./release-notes/2024.md)
+  - {hide-from-toc}[Vorab veröffentlichte Versionshinweise](./release-notes/e-release-notes.md)
