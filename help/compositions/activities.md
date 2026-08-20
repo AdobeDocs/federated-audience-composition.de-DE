@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 5478
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ Darüber hinaus können Sie die Option **Komplement erzeugen** auswählen. Beim 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Aktivität „Anreicherung“"
->abstract="Die Aktivität **Anreicherung** ermöglicht es Ihnen, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet."
+>abstract="Die Aktivität **Anreicherung** ermöglicht es, die Zielgruppendaten um zusätzliche Informationen aus der Datenbank zu erweitern. Sie wird in einer Komposition häufig nach den Segmentierungsaktivitäten verwendet."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -627,7 +627,7 @@ Sie können jetzt Details für jeden dieser Teilpfade angeben. Sie können dem T
 Nachdem Sie Ihre Filterbedingung erstellt haben, können Sie die folgenden zusätzlichen Regeln anwenden:
 
 - **Grenzwert aktivieren**: Begrenzt die Anzahl der Profile, die in die Teilmenge aufgespaltet werden dürfen. Sie können dies als eine Zahl oder einen Prozentsatz der Population festlegen.
-   - Wenn Sie einen Grenzwert aktivieren, können Sie die ausgewählten Profile auch nach einem bestimmten Profilattribut ordnen. Aktivieren Sie **Sortierung aktivieren**, um die Attribute in aufsteigender oder absteigender Reihenfolge zu sortieren.
+  - Wenn Sie einen Grenzwert aktivieren, können Sie die ausgewählten Profile auch nach einem bestimmten Profilattribut ordnen. Aktivieren Sie **Sortierung aktivieren**, um die Attribute in aufsteigender oder absteigender Reihenfolge zu sortieren.
 - **Leere Transition überspringen**: Deaktiviert die Transition, wenn die eingehende Population leer ist.
 
 Nach der Konfiguration der Teilmengen können Sie einige weitere Optionen festlegen.
