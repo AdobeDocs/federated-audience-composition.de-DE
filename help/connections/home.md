@@ -4,18 +4,13 @@ title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 99%
+source-wordcount: 3987
+ht-degree: 97%
 
 ---
 
@@ -74,7 +69,7 @@ Der Abschnitt „Föderierte Datenbanken“ wird angezeigt. Wählen Sie **[!UICO
 
 >[!NOTE]
 >
->Um eine sichere Verbindung über einen privaten Link oder VPN anzufordern, **muss** entweder Privacy and Security Shield oder Healthcare Shield lizenziert sein.
+>Um eine sichere Konnektivität mit PrivateLink oder VPN anzufordern, **müssen** entweder Privacy and Security Shield oder Healthcare Shield lizenziert haben.
 
 Das Popup-Fenster mit den Verbindungseinstellungen wird angezeigt. Sie können Ihre Verbindung benennen und auswählen, welchen Datenbanktyp Sie erstellen möchten.
 
@@ -90,7 +85,7 @@ Nach Auswahl eines Typs wird der Abschnitt **[!UICONTROL Details]** angezeigt. D
 >
 >Es werden nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless unterstützt.
 >
->Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift-Data-Warehouse über einen privaten Link unterstützt.
+>Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift Data Warehouse über PrivateLink unterstützt.
 
 Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
@@ -162,7 +157,7 @@ Legen Sie innerhalb Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsd
 
 >[!NOTE]
 >
->Sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
+>Der sichere Zugriff auf Ihr externes Data Warehouse von Databricks über PrivateLink wird unterstützt. Dazu gehören sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Datenbanken von Databricks, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
 
 Nach der Auswahl von Databricks können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
@@ -295,7 +290,7 @@ Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
 >[!NOTE]
 >
->Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
+>Der sichere Zugriff auf Ihr externes Snowflake Data Warehouse über PrivateLink wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 
 Nach der Auswahl von Snowflake können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
