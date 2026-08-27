@@ -13,10 +13,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 97%
+source-wordcount: 1191
+ht-degree: 90%
 
 ---
 
@@ -82,7 +82,7 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Amazon Redshift-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#amazon-redshift)
+  Mit dieser neuen Version unterstützt Federated Audience Composition sichere PrivateLink-Verbindungen zu Amazon Redshift-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#amazon-redshift)
 
 ## Version März 2025 {#fac-25-3}
 
@@ -113,8 +113,8 @@ Diese Version enthält die unten aufgeführten Verbesserungen.
 
 * **Databricks-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen jetzt die Konnektivität privater Links für Verbindungen zu Databricks-Datenbanken.
-Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/home.md#databricks)
+  Mit dieser neuen Version unterstützt die Federated Audience Composition jetzt die PrivateLink-Konnektivität für Datenbankverbindungen von Databricks.
+  Dazu gehören sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Datenbanken von Databricks, die auf Microsoft Azure über VPN gehostet werden. [Weitere Informationen](../connections/home.md#databricks)
 
 * **Unterstützung für CDP-B2B-Kundschaft**
 
@@ -122,7 +122,7 @@ Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web
 
 * **Sichere Snowflake-Verbindung**
 
-  Mit dieser neuen Version unterstützt die Komposition föderierter Zielgruppen sichere Verbindungen über private Links zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#snowflake)
+  Mit dieser neuen Version unterstützt Federated Audience Composition sichere PrivateLink-Verbindungen zu Snowflake-Datenbanken, die auf Microsoft Azure gehostet werden. [Weitere Informationen](../connections/home.md#snowflake)
 
 ## Version Februar 2025 {#fac-25-2}
 
@@ -171,7 +171,7 @@ Mit dieser neuen Version ist die Komposition föderierter Zielgruppen nun mit de
 
 * **Unterstützung für sicheren Zugriff auf Snowflake über AWS PrivateLink**
 
-  Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird nun unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/home.md#snowflake)
+  Der sichere Zugriff auf Ihr externes Snowflake Data Warehouse über PrivateLink wird jetzt unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um einen sicheren Zugriff auf Ihr Snowflake-Konto einzurichten. [Weitere Informationen](../connections/home.md#snowflake)
 
 * **Unterstützung für Amazon Redshift Serverless**
 
