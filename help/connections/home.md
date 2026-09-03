@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3987
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Der Abschnitt „Föderierte Datenbanken“ wird angezeigt. Wählen Sie **[!UICO
 
 >[!NOTE]
 >
->Um eine sichere Konnektivität mit PrivateLink oder VPN anzufordern, **müssen** entweder Privacy and Security Shield oder Healthcare Shield lizenziert haben.
+>Um eine sichere Verbindung über PrivateLink oder VPN anzufordern, **müssen** Sie über eine Lizenz für Privacy and Security Shield oder Healthcare Shield verfügen.
 
 Das Popup-Fenster mit den Verbindungseinstellungen wird angezeigt. Sie können Ihre Verbindung benennen und auswählen, welchen Datenbanktyp Sie erstellen möchten.
 
@@ -90,7 +90,7 @@ Nach Auswahl eines Typs wird der Abschnitt **[!UICONTROL Details]** angezeigt. D
 >
 >Es werden nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless unterstützt.
 >
->Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift Data Warehouse über PrivateLink unterstützt.
+>Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift-Data-Warehouse über PrivateLink unterstützt.
 
 Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
@@ -162,7 +162,7 @@ Legen Sie innerhalb Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsd
 
 >[!NOTE]
 >
->Der sichere Zugriff auf Ihr externes Data Warehouse von Databricks über PrivateLink wird unterstützt. Dazu gehören sichere Verbindungen zu Datenbanken von Databricks, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Datenbanken von Databricks, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
+>Es wird sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über PrivateLink unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
 
 Nach der Auswahl von Databricks können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
@@ -295,7 +295,7 @@ Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
 >[!NOTE]
 >
->Der sichere Zugriff auf Ihr externes Snowflake Data Warehouse über PrivateLink wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
+>Es wird sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über PrivateLink unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 
 Nach der Auswahl von Snowflake können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 

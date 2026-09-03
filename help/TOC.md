@@ -3,9 +3,9 @@ user-guide-title: Komposition föderierter Zielgruppen in Experience Platform
 title: Dokumentation zur Komposition föderierter Zielgruppen in Experience Platform
 breadcrumb-title: Komposition föderierter Zielgruppen in Experience Platform
 source-git-commit: e114b7cce6f9add45e82aa4e485b358bc3f85321
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
