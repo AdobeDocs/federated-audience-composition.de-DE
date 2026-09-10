@@ -14,10 +14,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: b418b8ef242ef9b9f7dfaa601d4a9a505b7c6f8d
 workflow-type: tm+mt
-source-wordcount: 386
-ht-degree: 100%
+source-wordcount: 406
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,8 @@ Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Kompositi
 1. Informationen über Ihre Sandbox werden im Popup-Fenster „Eigenschaften“ angezeigt.
 
    ![](assets/sandbox_2.png)
+
+Wenn Sie die Federated-Audience-Komposition in einer anderen Sandbox verwenden möchten, wenden Sie sich an die Adobe-Kundenunterstützung, um einen Sandbox-Wechsel anzufordern.
 
 ## Berechtigungen {#permissions}
 
