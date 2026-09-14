@@ -6,13 +6,12 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
-source-wordcount: 5478
+source-wordcount: '5478'
 ht-degree: 100%
-
 ---
-
 # Überblick über Aktivitäten
 
 Sie können der Komposition föderierter Zielgruppen Aktivitäten und Transitionen hinzufügen, mit denen Sie Ihre Zielgruppe definieren können.
@@ -232,7 +231,7 @@ Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Optio
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="Deduplizierungseinstellungen"
->abstract="Um Duplikate in den eingehenden Daten zu löschen, definieren Sie die Deduplizierungsmethode in den folgenden Feldern. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der von den Duplikaten ausgenommen sein soll, zufällig ausgewählt."
+>abstract="Um Duplikate in den eingehenden Daten zu löschen, die Deduplizierungsmethode in den folgenden Feldern definieren. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der von den Duplikaten ausgenommen sein soll, zufällig ausgewählt."
 
 Die Aktivität **Deduplizierung** entfernt alle doppelten Ergebnisse innerhalb der Zielgruppe.
 
@@ -593,7 +592,7 @@ Da relationale Schemata nur inkrementelle Aktualisierungen unterstützen, müsse
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
 >title="Aufspaltung – Komplement erzeugen"
->abstract="Nachdem Sie alle Teilmengen konfiguriert haben, kann die verbleibende Population ausgewählt werden, die keiner der Teilmengen entspricht, und in eine zusätzliche ausgehende Transition eingeschlossen werden. Schalten Sie dazu die Option **Komplement erzeugen** ein."
+>abstract="Nachdem Sie alle Teilmengen konfiguriert haben, kann die verbleibende Population ausgewählt werden, die keiner der Teilmengen entspricht, und in eine zusätzliche ausgehende Transition eingeschlossen werden. Dazu die Option **Komplement generieren** einschalten."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_generatesubsets"
