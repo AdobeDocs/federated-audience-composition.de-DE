@@ -1,8 +1,7 @@
 ---
 audience: end-user
-title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
-description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
-exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
+title: Erstellen und Verwalten von Verbindungen mit Federated Database in der Experience Platform-Benutzeroberfläche
+description: Erfahren Sie, wie Sie in der Experience Platform-Benutzeroberfläche Verbindungen mit Federated Database erstellen und verwalten.
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -17,15 +16,18 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-touch: edit
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
-source-wordcount: '3969'
-ht-degree: 98%
+source-wordcount: '4385'
+ht-degree: 78%
 ---
-# Erstellen von Verbindungen {#connections-fdb}
+# Erstellen von Verbindungen in der Experience Platform-Benutzeroberfläche
 
 >[!AVAILABILITY]
+>
+>Die neue einheitliche Verbindungserfahrung steht nur ausgewählten Kunden zur Verfügung. Weitere Informationen erhalten Sie bei der Adobe-Kundenunterstützung.
+>
+>Wenn Sie keinen Zugriff auf das neue Verbindungserlebnis haben, lesen Sie „Verbindungen - [Übersicht](./home.md).
 >
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
@@ -38,11 +40,21 @@ Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es I
 
 ## Unterstützte Datenbanken {#supported-databases}
 
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Privater Schlüssel"
+>abstract="Temporärer leerer Inhalt."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Schlüsseldateipfad"
+>abstract="Temporärer leerer Inhalt."
+
 Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, müssen Sie zunächst eine Verbindung zwischen den beiden Quellen herstellen. Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den folgenden Datenbanken herstellen.
 
 - Amazon Redshift
 - Azure Synapse Analytics
-- Databricks
+- DataBricks
 - Google BigQuery
 - Microsoft Fabric
 - Oracle
@@ -52,23 +64,34 @@ Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, m
 
 ## Erstellen einer Verbindung {#create}
 
-Um eine Verbindung zu erstellen, wählen Sie im Abschnitt „Föderierte Daten“ die Option **[!UICONTROL Föderierte Datenbanken]** aus.
+>[!CONTEXTUALHELP]
+>id="platform_sources_serverip"
+>title="Server-IP"
+>abstract="Die IP-Adressen, die für die Verbindung mit der Datenbank auf die Zulassungsliste gesetzt werden müssen."
 
-![Die Schaltfläche „Föderierte Datenbanken“ ist im linken Navigationsbereich hervorgehoben.](assets/home/select-federated.png){zoomable="yes" width="70%" align="center"}
+Um eine Verbindung zu erstellen, wählen Sie **[!UICONTROL Quellen]** im Abschnitt **[!UICONTROL Verbindungen]** aus.
 
-Der Abschnitt „Föderierte Datenbanken“ wird angezeigt. Wählen Sie **[!UICONTROL Föderierte Datenbank hinzufügen]** aus, um eine Verbindung zu erstellen.
+Der Quellkatalog wird angezeigt. Wählen Sie **[!UICONTROL Federated Data]** aus, um die Liste der für Ihre Organisation verfügbaren Federated-Datenbanken anzuzeigen.
 
-![Die Schaltfläche „Föderierte Datenbank hinzufügen“ ist auf der Anzeigeseite „Föderierte Datenbank“ hervorgehoben.](assets/home/add-federated.png){zoomable="yes" width="70%" align="center"}
+![Der Abschnitt „Federated Data“ im Quellkatalog ist hervorgehoben.](/help/connections/assets/integrated/federated-data-sources.png)
+
+Nachdem Sie den Federated Database-Typ ausgewählt haben, wählen Sie **[!UICONTROL Einrichten]**, wenn Sie eine neue Verbindung herstellen, oder **[!UICONTROL Daten hinzufügen]** wenn Sie eine vorhandene Verbindung verwenden.
+
+Die Seite Konto verbinden wird angezeigt. Sie können entweder ein **vorhandenes** Konto verwenden oder ein **neues** Konto erstellen.
+
+### Vorhandenes Konto {#existing-account}
+
+Wenn Sie **[!UICONTROL Vorhandenes Konto]** auswählen, können Sie eine der zuvor erstellten Quellverbindungen auswählen.
+
+![Ein Beispiel für den Abschnitt „Vorhandene Konten“ wird angezeigt.](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->Um eine sichere Verbindung über PrivateLink oder VPN anzufordern, **müssen** Sie über eine Lizenz für Privacy and Security Shield oder Healthcare Shield verfügen.
+>Um eine sichere Konnektivität über einen privaten Link oder ein VPN anzufordern, **müssen** entweder Privacy and Security Shield oder Healthcare Shield lizenziert haben.
 
-Das Popup-Fenster mit den Verbindungseinstellungen wird angezeigt. Sie können Ihre Verbindung benennen und auswählen, welchen Datenbanktyp Sie erstellen möchten.
+### Neues Konto {#new-account}
 
-![Die Typen der föderierten Datenbanken werden angezeigt.](assets/home/select-type.png){zoomable="yes" width="70%" align="center"}
-
-Nach Auswahl eines Typs wird der Abschnitt **[!UICONTROL Details]** angezeigt. Dieser Abschnitt unterscheidet sich je nach dem zuvor ausgewählten Datenbanktyp.
+Wenn Sie **[!UICONTROL Neues Konto]** auswählen, wird die Seite mit den Verbindungsdetails angezeigt. Auf dieser Seite können Sie Details zu Ihrer Verbindung festlegen, einschließlich Kontoname, Beschreibung und Details zur Kontoauthentifizierung. Der Abschnitt zur Kontoauthentifizierung unterscheidet sich je nach dem zuvor ausgewählten Datenbanktyp.
 
 >[!BEGINTABS]
 
@@ -78,7 +101,7 @@ Nach Auswahl eines Typs wird der Abschnitt **[!UICONTROL Details]** angezeigt. D
 >
 >Es werden nur Amazon Redshift AWS, Amazon Redshift Spectrum und Amazon Redshift Serverless unterstützt.
 >
->Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift-Data-Warehouse über PrivateLink unterstützt.
+>Darüber hinaus wird der sichere Zugriff auf Ihr externes Amazon Redshift-Data-Warehouse über einen privaten Link unterstützt.
 
 Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
@@ -146,52 +169,52 @@ Legen Sie innerhalb Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsd
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Um die Service-Prinzipal-Authentifizierung verwenden zu können, müssen Sie `Authentication="ActiveDirectoryServicePrincipal"` festlegen. |
 
->[!TAB Databricks]
+>[!TAB DataBricks]
 
 >[!NOTE]
 >
->Es wird sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über PrivateLink unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
+>Der sichere Zugriff auf Ihr externes Data Warehouse von Data Bricks über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu DataBricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und DataBricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
 
-Nach der Auswahl von Databricks können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
+Nach Auswahl von DataBricks können Sie mit der Authentifizierungsmethode auswählen, die Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
 
-Wenn Sie **Authentifizierung per Konto/Passwort** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
-
-| Feld | Beschreibung |
-| ----- | ----------- |
-| Server | Der Name des Databricks-Servers. |
-| Passwort | Das Zugriffstoken für den Databricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [Databricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
-
-Wenn Sie **Service-Prinzipal-Authentifizierung** auswählen, können Sie die folgenden Informationen hinzufügen:
+Wenn Sie **[!UICONTROL Standardauthentifizierung]** auswählen, können Sie die folgenden Anmeldedetails hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| Server | Der Name des Databricks-Servers. |
-| Client-ID | Die Client-ID Ihres Databricks-Servers. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis Ihres Databricks-Servers. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Server | Der Name des DataBricks-Servers. |
+| Passwort | Das Zugriffstoken für den DataBricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [DataBricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 
-Wenn Sie **OAuth 2.0** auswählen, können Sie die folgenden Informationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth2-Authentifizierungs-Code]** auswählen, können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| Server | Der Name des Databricks-Servers. |
-| Client-ID | Die Client-ID Ihres Databricks-Servers. Dieses Feld wird verwendet, um die Anwendung bei der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis Ihres Databricks-Servers. Diese vertraulichen Anmeldedaten werden mit der Client-ID ausgestellt und dienen als Passwort für Ihr Projekt. |
-| Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihrem Databricks-Server autorisiert ist. |
+| Server | Der Name des DataBricks-Servers. |
+| Client-ID | Die Client-ID von Ihrem DataBricks-Server. Dieses Feld wird verwendet, um die Anwendung bei der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem DataBricks-Server. Diese vertraulichen Anmeldedaten werden mit der Client-ID ausgestellt und dienen als Passwort für Ihr Projekt. |
+| Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token auf Ihrem DataBricks-Server autorisiert ist. |
+
+Wenn Sie **[!UICONTROL Service-Prinzipal-Authentifizierung]** auswählen, können Sie die folgenden Informationen hinzufügen:
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| Server | Der Name des DataBricks-Servers. |
+| Client-ID | Die Client-ID von Ihrem DataBricks-Server. Dieses Feld dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem DataBricks-Server. Dieses Feld dient als Passwort für Ihr Projekt. |
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Databricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Catalog | Der Name des Databricks-Katalogs. Weitere Informationen zu Katalogen in Databricks finden Sie in der [Databricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
+| HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Dokumentation zu DataBricks unter Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
+| Catalog | Der Name des DataBricks-Katalogs. Weitere Informationen zu Katalogen in DataBricks finden Sie in der [DataBricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
-Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
+Für DataBricks können Sie die folgenden zusätzlichen Optionen festlegen:
 
 | Optionen | Beschreibung |
 | ------- | ----------- |
-| TimeZoneName | Der Name der zu verwendenden Zeitzone. Dieser Wert stellt den Sitzungsparameter `TIMEZONE` dar. Weitere Informationen zu Zeitzonen finden Sie in der [Databricks-Dokumentation zu Zeitzonen](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
+| TimeZoneName | Der Name der zu verwendenden Zeitzone. Dieser Wert stellt den Sitzungsparameter `TIMEZONE` dar. Weitere Informationen zu Zeitzonen finden Sie in der [DataBricks-Dokumentation zu Zeitzonen](https://docs.databricks.com/aws/en/sql/language-manual/parameters/timezone#:~:text=The%20system%20default%20is%20UTC%20.){target="_blank"}. |
 
 >[!TAB Google BigQuery]
 
@@ -201,13 +224,13 @@ Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
 
 Nach der Auswahl von Google BigQuery können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Authentifizierung per Konto/Passwort]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL Standardauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Service-Konto | Die E-Mail-Adresse Ihres Service-Kontos. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Service-Konten](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
-Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth2-Autorisierungs]** Code auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 >[!NOTE]
 >
@@ -221,7 +244,7 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
 
-Wenn Sie **[!UICONTROL WIF]** auswählen, müssen Sie **keine** Anmeldeinformationen hinzufügen. Sie **müssen** jedoch die Konfiguration der Client-Bibliothek als **[!UICONTROL Schlüsseldateipfad]** hinzufügen. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im [Abschnitt zur Konfiguration für Google BigQuery (Workload Identity Federation)](#wif-configuration).
+Wenn Sie **[!UICONTROL WIF]** auswählen, müssen Sie **keine** Anmeldeinformationen hinzufügen. Sie **müssen** die Client-Bibliothekskonfiguration jedoch als &quot;**[!UICONTROL -Dateipfad“]**. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im [Abschnitt zur Konfiguration für Google BigQuery (Workload Identity Federation)](#wif-configuration).
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
@@ -229,9 +252,9 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Schlüsseldateipfad | Die Schlüsseldatei zum Server. Es werden nur `json`-Dateien unterstützt. |
+| Pfad der Konfigurationsdatei | Die Konfigurationsdatei auf dem Server. Es werden nur `json`-Dateien unterstützt. |
 | Speicherort für den Google-Bucket | Der Speicherort Ihres Google Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der [Dokumentation zu den Google Cloud-Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
-| REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Authentifizierung mit Konto und Passwort verwenden. |
+| REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Standardauthentifizierung verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -283,11 +306,11 @@ Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
 >[!NOTE]
 >
->Es wird sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über PrivateLink unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
+>Sicherer Zugriff auf Ihr externes Snowflake-Data-Warehouse über einen privaten Link wird unterstützt. Ihr Snowflake-Konto muss auf Amazon Web Services (AWS) oder Azure gehostet werden und sich in derselben Region wie Ihre Umgebung mit der Funktion „Komposition föderierter Zielgruppen“ befinden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff auf Ihr Snowflake-Konto einzurichten.
 
 Nach der Auswahl von Snowflake können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Authentifizierung per Konto/Passwort]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL Standardauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
@@ -295,7 +318,7 @@ Wenn Sie **[!UICONTROL Authentifizierung per Konto/Passwort]** auswählen, könn
 | Benutzerin bzw. Benutzer | Der Benutzername für das Konto. |
 | Passwort | Das Passwort für das Konto. |
 
-Alternativ können Sie auch anstelle eines Passworts einen privaten Schlüssel hinzufügen. Wenn Sie einen privaten Schlüssel hinzufügen, müssen Sie die folgenden Informationen angeben:
+Wenn Sie **[!UICONTROL Schlüsselpaar-Authentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
@@ -304,7 +327,7 @@ Alternativ können Sie auch anstelle eines Passworts einen privaten Schlüssel h
 | Privater Schlüssel | Der private Schlüssel für das Konto. Es werden nur `.pem`-Dateien unterstützt. |
 | Passwort | (Optional) Das Passwort für das Konto. |
 
-Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth2-Autorisierungs]** Code auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 >[!NOTE]
 >
@@ -324,7 +347,8 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
-| Privater Schlüssel | Der private Schlüssel für Ihre Datenbankverbindung. Sie können eine `.pem`-Datei von Ihrem lokalen System hochladen. |
+| Privater Schlüssel | Der Base64-kodierte private Schlüssel Ihres Snowflake-Kontos. Sie können entweder verschlüsselte oder unverschlüsselte private Schlüssel generieren. Wenn Sie einen verschlüsselten privaten Schlüssel verwenden, müssen Sie auch eine Passphrase für den privaten Schlüssel angeben, wenn Sie sich bei Experience Platform authentifizieren. Weitere Informationen finden Sie im Handbuch unter [Abrufen des privaten Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)Schlüssels). |
+| Passphrase für privaten Schlüssel | Die Passphrase für den privaten Schlüssel ist eine zusätzliche Sicherheitsebene, die Sie bei der Authentifizierung mit einem verschlüsselten privaten Schlüssel verwenden müssen. Sie müssen die Passphrase nicht angeben, wenn Sie einen unverschlüsselten privaten Schlüssel verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Snowflake können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -395,7 +419,39 @@ Nachdem Sie die Details der Verbindung hinzugefügt haben, beachten Sie die folg
 | Server-IPs | Ein Popup-Fenster, das anzeigt, welche IP-Adressen für die Verbindung mit der Datenbank auf die Zulassungsliste gesetzt werden müssen. |
 | Testen der Verbindung | Ermöglicht die Überprüfung Ihrer Konfigurationsdetails. |
 
-Sie können jetzt **[!UICONTROL Funktionen freigeben]** und anschließend **[!UICONTROL Hinzufügen]** auswählen, um die Verbindung zwischen der föderierten Datenbank und Experience Platform fertigzustellen.
+Sie können jetzt auf **[!UICONTROL Mit Quelle verbinden]** klicken, um die Schemadetails für die Datenbankverbindung einzurichten.
+
+## Schemaauswahl {#schema-selection}
+
+Die **[!UICONTROL Schemaauswahl]** wird angezeigt. Auf dieser Seite können Sie das Schema für Ihre Federated Database-Verbindung definieren.
+
+![Die Schaltfläche „Tabelle hinzufügen“ ist im Bildschirm „Daten hinzufügen“ hervorgehoben.](/help/data-modelling/assets/integrated/select-add-table.png)
+
+Weitere Informationen zum Einrichten von Schemadetails finden Sie im [Schemahandbuch](/help/data-modelling/schemas-integrated.md).
+
+Nachdem Sie Ihre Schemata ausgewählt haben, wählen Sie **[!UICONTROL Weiter]**, um fortzufahren.
+
+## Überprüfung {#review}
+
+Die **[!UICONTROL &quot;]**&quot; wird angezeigt. Auf dieser Seite können Sie die Details Ihrer Federated Database Connection überprüfen. Wenn die Details korrekt aussehen, wählen Sie **[!UICONTROL Beenden]** aus, um die Verbindung zu erstellen.
+
+![Die Überprüfungsseite wird angezeigt. Auf dieser Seite werden die Verbindungsdetails und Schemainformationen angezeigt.](/help/connections/assets/integrated/review.png)
+
+Die Verbindung wird erstellt. Es wird ein Popup angezeigt, in dem Sie aufgefordert werden, entweder **[!UICONTROL Schema anzeigen]** oder **[!UICONTROL Beziehungen erstellen]**. Wenn Sie **[!UICONTROL Schema anzeigen]** auswählen, wird die Seite [Schema durchsuchen](/help/data-modelling/schemas-integrated.md#edit-a-schema) angezeigt. Wenn Sie **[!UICONTROL Beziehungen erstellen]** auswählen, wird die Seite [Entitätsdiagramm](/help/data-modelling/schemas-integrated.md#edit-relationships) angezeigt.
+
+## Verbindung bearbeiten {#edit-connection}
+
+Wenn Sie die Anmeldedetails für die Quellverbindung bearbeiten müssen, wählen Sie **[!UICONTROL Quellen]** gefolgt von **[!UICONTROL Konten]** aus.
+
+![Die Schaltfläche Konten ist hervorgehoben und zeigt die Seite zum Durchsuchen der Quellkonten an.](/help/connections/assets/integrated/select-accounts.png)
+
+Die Seite zum Durchsuchen der Quell-Connectoren wird angezeigt. Suchen Sie den Quell-Connector, den Sie aktualisieren möchten, und wählen Sie ![die drei Punkte](/help/assets/icons/more.png) gefolgt von **[!UICONTROL Details bearbeiten]** aus.
+
+![Die Schaltfläche „Details bearbeiten“ ist hervorgehoben.](/help/connections/assets/integrated/select-edit-details.png)
+
+Das **[!UICONTROL Kontodetails bearbeiten]** wird angezeigt. In diesem Popover können Sie die Details der Federated Database Source-Verbindung aktualisieren.
+
+![Das Pop-up Kontodetails bearbeiten wird angezeigt.](/help/connections/assets/integrated/edit-account-details.png)
 
 ## Anhang {#appendix}
 
