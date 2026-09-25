@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 401985f058e47cf4970065ec06c9b9cfba7d71a1
+source-git-commit: ded8d299cabcdc0a5bd387db64e895ae65cd3b55
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 95%
+source-wordcount: '580'
+ht-degree: 99%
 ---
 # Überblick über Schemata {#schemas}
 
@@ -29,11 +29,6 @@ ht-degree: 95%
 >-**Föderiertes Schema anzeigen**
 >
 >Weitere Informationen zu den erforderlichen Berechtigungen finden Sie im [Handbuch zur Zugriffssteuerung](/help/governance-privacy-security/access-control.md).
-
->[!CONTEXTUALHELP]
->id="platform_schemas_manageconfiguration"
->title="Konfiguration verwalten"
->abstract="Temporärer leerer Inhalt."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -73,11 +68,6 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 >Wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden, müssen Sie unterschiedliche Arbeitsschemata verwenden.
 
 ## Erstellen eines Schemas {#schema-create}
-
->[!CONTEXTUALHELP]
->id="platform_schemas_primarycompositekey"
->title="Zusammengesetzter Schlüssel"
->abstract="Ein Schemaschlüssel, der aus mehreren Schemaspalten besteht. Markieren Sie die Spalten, die Sie als zusammengesetzten Schlüssel verwenden möchten."
 
 Um in Komposition föderierter Zielgruppen ein Schema zu erstellen, wählen Sie im Abschnitt **[!UICONTROL Föderierte Daten]** die Option **[!UICONTROL Modelle]** aus. Wählen Sie auf der Registerkarte **[!UICONTROL Schema]** die Option **[!UICONTROL Schema erstellen]** aus.
 
