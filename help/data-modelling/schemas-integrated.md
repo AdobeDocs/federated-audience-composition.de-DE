@@ -99,7 +99,7 @@ Um ein Schema zu bearbeiten, klicken Sie auf das ![Auslassungssymbol](/help/asse
 
 ![Die Schaltfläche „Schema bearbeiten“ ist hervorgehoben.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Im Fenster **[!UICONTROL Schema bearbeiten]** wird der Schema-Editor angezeigt. Weitere Informationen zur Verwendung des Schema-Editors finden Sie im [Handbuch zur Schema-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Im Fenster **[!UICONTROL Schema bearbeiten]** wird der Schema-Editor angezeigt. Weitere Informationen zur Verwendung des Schema-Editors finden Sie im [Handbuch zur Schema-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![Der Schema-Editor wird angezeigt.](/help/data-modelling/assets/integrated/schema-editor.png)
 
