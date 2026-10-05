@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 35%
+ht-degree: 38%
 ---
 # Überblick über Schemata {#schemas}
 
@@ -45,7 +45,7 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 >
 >Wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden, müssen Sie unterschiedliche Arbeitsschemata verwenden.
 
-## Erstellen eines Schemas {#create}
+## Schema erstellen {#create}
 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_manageconfiguration"
@@ -99,7 +99,7 @@ Um ein Schema zu bearbeiten, klicken Sie auf das ![Auslassungssymbol](/help/asse
 
 ![Die Schaltfläche „Schema bearbeiten“ ist hervorgehoben.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Im Fenster **[!UICONTROL Schema bearbeiten]** wird der Schema-Editor angezeigt. Weitere Informationen zur Verwendung des Schema-Editors finden Sie im [Handbuch zur Schema-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Im Fenster **[!UICONTROL Schema bearbeiten]** wird der Schema-Editor angezeigt. Weitere Informationen zur Verwendung des Schema-Editors finden Sie im [Handbuch zur Schema-Benutzeroberfläche](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![Der Schema-Editor wird angezeigt.](/help/data-modelling/assets/integrated/schema-editor.png)
 

@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '4385'
-ht-degree: 78%
+ht-degree: 79%
 ---
 # Erstellen von Verbindungen in der Experience Platform-Benutzeroberfläche
 
@@ -67,7 +67,7 @@ Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, m
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="Server-IP"
->abstract="Die IP-Adressen, die für die Verbindung mit der Datenbank auf die Zulassungsliste gesetzt werden müssen."
+>abstract="Die IP-Adressen, die zur Zulassungsliste hinzugefügt werden müssen, um eine Verbindung zur Datenbank herzustellen."
 
 Um eine Verbindung zu erstellen, wählen Sie **[!UICONTROL Quellen]** im Abschnitt **[!UICONTROL Verbindungen]** aus.
 
@@ -347,7 +347,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
 | Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
-| Privater Schlüssel | Der Base64-kodierte private Schlüssel Ihres Snowflake-Kontos. Sie können entweder verschlüsselte oder unverschlüsselte private Schlüssel generieren. Wenn Sie einen verschlüsselten privaten Schlüssel verwenden, müssen Sie auch eine Passphrase für den privaten Schlüssel angeben, wenn Sie sich bei Experience Platform authentifizieren. Weitere Informationen finden Sie im Handbuch unter [Abrufen des privaten Snowflake](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/databases/snowflake)Schlüssels). |
+| Privater Schlüssel | Der Base64-kodierte private Schlüssel Ihres Snowflake-Kontos. Sie können entweder verschlüsselte oder unverschlüsselte private Schlüssel generieren. Wenn Sie einen verschlüsselten privaten Schlüssel verwenden, müssen Sie auch eine Passphrase für den privaten Schlüssel angeben, wenn Sie sich bei Experience Platform authentifizieren. Weitere Informationen finden Sie im Handbuch unter [Abrufen des privaten Snowflake](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/databases/snowflake)Schlüssels). |
 | Passphrase für privaten Schlüssel | Die Passphrase für den privaten Schlüssel ist eine zusätzliche Sicherheitsebene, die Sie bei der Authentifizierung mit einem verschlüsselten privaten Schlüssel verwenden müssen. Sie müssen die Passphrase nicht angeben, wenn Sie einen unverschlüsselten privaten Schlüssel verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
