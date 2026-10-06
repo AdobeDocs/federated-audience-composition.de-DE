@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 35%
+ht-degree: 38%
 ---
 # Überblick über Schemata {#schemas}
 
@@ -45,7 +45,7 @@ Durch Erstellung eines Schemas können Sie eine Darstellung Ihrer Tabelle in der
 >
 >Wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden, müssen Sie unterschiedliche Arbeitsschemata verwenden.
 
-## Erstellen eines Schemas {#create}
+## Schema erstellen {#create}
 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_manageconfiguration"

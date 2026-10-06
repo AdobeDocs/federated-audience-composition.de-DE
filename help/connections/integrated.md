@@ -19,7 +19,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '4385'
-ht-degree: 78%
+ht-degree: 79%
 ---
 # Erstellen von Verbindungen in der Experience Platform-Benutzeroberfläche
 
@@ -67,7 +67,7 @@ Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, m
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="Server-IP"
->abstract="Die IP-Adressen, die für die Verbindung mit der Datenbank auf die Zulassungsliste gesetzt werden müssen."
+>abstract="Die IP-Adressen, die zur Zulassungsliste hinzugefügt werden müssen, um eine Verbindung zur Datenbank herzustellen."
 
 Um eine Verbindung zu erstellen, wählen Sie **[!UICONTROL Quellen]** im Abschnitt **[!UICONTROL Verbindungen]** aus.
 
