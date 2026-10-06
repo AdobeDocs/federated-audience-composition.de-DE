@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
-workflow-type: ht
-source-wordcount: 1603
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '1603'
 ht-degree: 100%
-
 ---
-
 # Erstellen einer Komposition
 
 Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden in Adobe Experience Platform gespeichert und können in Experience Platform-Zielen und Adobe Journey Optimizer zum Ansprechen von Kundschaft genutzt werden.
@@ -78,11 +77,11 @@ Die Optionen sind:
 
   Im Abschnitt **[!UICONTROL Eigenschaften]** können Sie allgemeine Einstellungen für die Ausführung der Aktivität konfigurieren:
 
-   * **[!UICONTROL Ausführung]**: Definieren Sie die Aktion, die beim Start ausgeführt werden soll.
-   * **[!UICONTROL Maximale Ausführungsdauer]**: Geben Sie eine Dauer an, z. B. 30 Sekunden oder 1 Stunde. Wenn die Aktivität nach Ablauf der angegebenen Dauer nicht abgeschlossen ist, wird ein Warnhinweis ausgelöst. Dies hat keine Auswirkungen auf die Funktionsweise der Komposition.
-   * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone der Aktivität aus. Mit Kompositionen föderierter Zielgruppen können Sie die Zeitzonen mehreren Ländern in derselben Instanz verwalten. Die angewendete Einstellung wird beim Erstellen der Instanz konfiguriert.
-   * **[!UICONTROL Affinität]**: Erzwingt die Ausführung einer Kompositionsaktivität auf einem bestimmten Computer. Dazu müssen Sie eine oder mehrere Affinitäten für die betreffende Aktivität angeben.
-   * **[!UICONTROL Verhalten]**: Legt das Vorgehen bei der Verwendung asynchroner Aufgaben fest.
+  * **[!UICONTROL Ausführung]**: Definieren Sie die Aktion, die beim Start ausgeführt werden soll.
+  * **[!UICONTROL Maximale Ausführungsdauer]**: Geben Sie eine Dauer an, z. B. 30 Sekunden oder 1 Stunde. Wenn die Aktivität nach Ablauf der angegebenen Dauer nicht abgeschlossen ist, wird ein Warnhinweis ausgelöst. Dies hat keine Auswirkungen auf die Funktionsweise der Komposition.
+  * **[!UICONTROL Zeitzone]**: Wählen Sie die Zeitzone der Aktivität aus. Mit Kompositionen föderierter Zielgruppen können Sie die Zeitzonen mehreren Ländern in derselben Instanz verwalten. Die angewendete Einstellung wird beim Erstellen der Instanz konfiguriert.
+  * **[!UICONTROL Affinität]**: Erzwingt die Ausführung einer Kompositionsaktivität auf einem bestimmten Computer. Dazu müssen Sie eine oder mehrere Affinitäten für die betreffende Aktivität angeben.
+  * **[!UICONTROL Verhalten]**: Legt das Vorgehen bei der Verwendung asynchroner Aufgaben fest.
 
   Im Abschnitt **[!UICONTROL Umgang mit Fehlern]** können Sie die Aktion angeben, die ausgeführt werden soll, wenn bei der Aktivität ein Fehler auftritt.
 

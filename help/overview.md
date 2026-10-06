@@ -5,19 +5,23 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1280
+source-wordcount: '1280'
 ht-degree: 55%
-
 ---
-
 # Überblick über die Komposition föderierter Zielgruppen
 
 Mit der Federated Audience-Komposition können Sie Zielgruppen aus Data Warehouses von Drittanbietern erstellen und anreichern sowie die Zielgruppen in Adobe Experience Platform importieren. Dies bietet eine einfache und leistungsstarke Lösung, um Ihr Unternehmens-Data Warehouse direkt mit nachgelagerten Services wie Adobe Real-Time Customer Data Platform oder Adobe Journey Optimizer zu verbinden und Abfragen für die Tabellen Ihres Data Warehouse durchzuführen. Auf diese Weise können Sie auf Kundendaten zugreifen, die in Data Warehouses und Cloud-Speicherplattformen wie Amazon Redshift und Azure Synapse Analytics gespeichert sind.
@@ -41,13 +45,13 @@ Die Komposition föderierter Zielgruppen steigert den Wert von Real-Time CDP und
 Die Komposition föderierter Zielgruppen unterstützt **drei** Kategorien von Anwendungsfällen: Zielgruppenerstellung, Zielgruppenanreicherung und Kundenprofilanreicherung.
 
 * **Zielgruppenerstellung**: Sie können Zielgruppen aus einem Data Warehouse erstellen und diese Zielgruppen zur Verwendung in Real-Time CDP oder Journey Optimizer über eine marketerfreundliche Drag-and-Drop-Benutzeroberfläche in Experience Platform zusammenführen. Infolgedessen können Sie Ihre Data Warehouses abfragen, ohne vertrauliche zugrunde liegende Daten zu kopieren oder vorhandene Daten zu duplizieren.
-   * **Beispiel:** Erstellen Sie eine Zielgruppe mit Personen, die in der Vergangenheit zu hohen Beträgen eingekauft haben, indem Sie historische Transaktionsdaten im Warehouse verwenden, ohne diese Transaktionen nach Experience Platform zu kopieren.
+  * **Beispiel:** Erstellen Sie eine Zielgruppe mit Personen, die in der Vergangenheit zu hohen Beträgen eingekauft haben, indem Sie historische Transaktionsdaten im Warehouse verwenden, ohne diese Transaktionen nach Experience Platform zu kopieren.
 
 * **Zielgruppenanreicherung**: Sie können Ihren bestehenden Zielgruppen in Experience Platform weitere Details hinzufügen, indem Sie zusätzliche Datensätze aus Ihren Data Warehouses verwenden und Ihre Zielgruppen mit diesen Informationen überlagern - und das alles, ohne die zugrunde liegenden Daten in Experience Platform zu kopieren. Über die Zielgruppenanreicherung können Sie mit der angereicherten Zielgruppe verbesserte Personalisierung bereitstellen.
-   * **Beispiel:** Eine Experience Platform-Zielgruppe mit Personen mit abgebrochenem Warenkorb können Sie mit der Zielgruppe aus der Komposition föderierter Zielgruppen mit Personen anreichern, die in der Vergangenheit zu hohen Beträgen eingekauft haben, um ein zielgerichtetes Angebot zu unterbreiten.
+  * **Beispiel:** Eine Experience Platform-Zielgruppe mit Personen mit abgebrochenem Warenkorb können Sie mit der Zielgruppe aus der Komposition föderierter Zielgruppen mit Personen anreichern, die in der Vergangenheit zu hohen Beträgen eingekauft haben, um ein zielgerichtetes Angebot zu unterbreiten.
 
 * **Profilanreicherung**: Sie können einzelne Kundenattribute aus Ihrem Data Warehouse auswählen, um Experience Platform-Profile zu verbessern. Durch das Hinzufügen von föderierten Daten zu diesen Profilen können Sie aktuelle Erlebnisse optimieren, die durch eingehende Kundensignale ausgelöst werden.
-   * **Beispiel:** Reichern Sie ein Experience Platform-Profil mit Informationen aus der föderierten Zielgruppe an. Sie können jetzt Site-Besuchende anwerben, die zu der Zielgruppe mit Personen gehören, die in der Vergangenheit zu hohen Beträgen einkauft haben. Sie können diesen ein zielgerichtetes Angebot unterbreiten, das durch ihr Verhalten auf der Site ausgelöst wird.
+  * **Beispiel:** Reichern Sie ein Experience Platform-Profil mit Informationen aus der föderierten Zielgruppe an. Sie können jetzt Site-Besuchende anwerben, die zu der Zielgruppe mit Personen gehören, die in der Vergangenheit zu hohen Beträgen einkauft haben. Sie können diesen ein zielgerichtetes Angebot unterbreiten, das durch ihr Verhalten auf der Site ausgelöst wird.
 
 ![Diagramm](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -95,7 +99,7 @@ Die Funktion „Audit-Protokoll“ bietet eine detaillierte und chronologische A
 
 Auf [dieser Seite](./start/access-prerequisites.md) erfahren Sie, wie Sie auf die Funktion „Komposition föderierter Zielgruppen“, Leitlinien und Einschränkungen zugreifen können.
 
-Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience &#x200B;](./faq.md).
+Antworten auf häufig gestellte Fragen finden Sie unter [Häufig gestellte Fragen zur Federated Audience ](./faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
