@@ -5,18 +5,21 @@ exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 651
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
-
 ---
-
 # Überblick über den KI-Assistenten {#ai-assistant}
 
 Der KI-Assistent ist eine Funktion der Benutzeroberfläche, mit der Sie durch Adobe-Konzepte navigieren und diese verstehen können. Sie können den KI-Assistenten nutzen, um Anwendungsfälle zum Erwerb von Produktwissen in verschiedenen Produkten von Adobe Experience Cloud besser zu verstehen – inklusive der Funktion „Komposition föderierter Zielgruppen“.
@@ -67,9 +70,9 @@ Wenn der Plan korrekt aussieht, können Sie **[!UICONTROL Ausführen]** wählen,
 Derzeit unterstützt die Fähigkeit zur Zielgruppenerstellung die folgenden zusätzlichen Funktionen:
 
 - Planung
-   - Sie können föderierte Kompositionen erstellen, die nach einem wiederkehrenden Zeitplan ausgeführt werden. Zu den unterstützten Werten gehören **Einmal** und **Täglich**.
+  - Sie können föderierte Kompositionen erstellen, die nach einem wiederkehrenden Zeitplan ausgeführt werden. Zu den unterstützten Werten gehören **Einmal** und **Täglich**.
 - Deduplizierung
-   - Sie können die föderierten Dateneinträge während der Datenabstimmung deduplizieren
+  - Sie können die föderierten Dateneinträge während der Datenabstimmung deduplizieren
 
 ## Nächste Schritte
 
