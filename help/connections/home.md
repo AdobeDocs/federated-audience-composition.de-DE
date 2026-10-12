@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
-description: Erfahren Sie, wie Sie Verbindungen mit föderierten Datenbanken erstellen und verwalten.
+description: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
@@ -21,7 +21,7 @@ touch: edit
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '3969'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # Erstellen von Verbindungen {#connections-fdb}
 
@@ -94,7 +94,7 @@ Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
 >[!NOTE]
 >
->Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics einrichten möchten, wenden Sie sich an die Adobe-Kundenunterstützung.
+>Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics einrichten möchten, wenden Sie sich an Ihre Ansprechperson bei der Adobe-Kundenunterstützung.
 
 Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzufügen:
 
@@ -150,7 +150,7 @@ Legen Sie innerhalb Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsd
 
 >[!NOTE]
 >
->Es wird sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über PrivateLink unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
+>Es wird sicherer Zugriff auf Ihr externes Databricks-Data-Warehouse über PrivateLink unterstützt. Dazu gehören sichere Verbindungen zu Databricks-Datenbanken, die auf Amazon Web Services (AWS) über PrivateLink gehostet werden, und Databricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Unterstützung beim Einrichten von sicherem Zugriff benötigen.
 
 Nach der Auswahl von Databricks können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
@@ -184,7 +184,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Databricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalog | Der Name des Databricks-Katalogs. Weitere Informationen zu Katalogen in Databricks finden Sie in der [Databricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Databricks können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -219,7 +219,7 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 | Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
 | Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
 
-Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 
 Wenn Sie **[!UICONTROL WIF]** auswählen, müssen Sie **keine** Anmeldeinformationen hinzufügen. Sie **müssen** jedoch die Konfiguration der Client-Bibliothek als **[!UICONTROL Schlüsseldateipfad]** hinzufügen. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im [Abschnitt zur Konfiguration für Google BigQuery (Workload Identity Federation)](#wif-configuration).
 
@@ -229,7 +229,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Schlüsseldateipfad | Die Schlüsseldatei zum Server. Es werden nur `json`-Dateien unterstützt. |
+| Pfad der Schlüsseldatei | Die Schlüsseldatei für den Server. Es werden nur `json`-Dateien unterstützt. |
 | Speicherort für den Google-Bucket | Der Speicherort Ihres Google Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der [Dokumentation zu den Google Cloud-Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Authentifizierung mit Konto und Passwort verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
@@ -239,10 +239,10 @@ Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
 | Optionen | Beschreibung |
 | ------- | ----------- |
 | ProxyType | Der Proxy-Typ, mit dem die Verbindung zu BigQuery hergestellt wird. Zu den unterstützten Werten gehören `HTTP`, `http_no_tunnel`, `socks4` und `socks5`. |
-| ProxyHost | Der Host-Name oder die IP-Adresse, um den Proxy zu erreichen. |
+| ProxyHost | Der Host-Name oder die IP-Adresse, unter der der Proxy erreichbar ist. |
 | ProxyUid | Die Port-Nummer, auf der der Proxy ausgeführt wird. |
 | ProxyPwd | Das Passwort für den Proxy. |
-| bgpath | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK). <br/><br/> Der Pfad zum Cloud SDK-Klassenverzeichnis am Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
+| bgpath | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK). <br/><br/> Der Pfad zum Ablageverzeichnis des Cloud SDK auf dem Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
 | GCloudConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 oder höher. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
 | GCloudDefaultConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
 | GCloudRecreateConfig | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Ein boolescher Wert, mit dem Sie festlegen können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
@@ -259,7 +259,7 @@ Nach Auswahl von Microsoft Fabric können Sie die folgenden Details hinzufügen:
 | Client-Geheimnis | Das Client-Geheimnis für die Anwendung. Weitere Informationen zum Client-Geheimnis finden Sie in der [Microsoft Fabric-Dokumentation zum Einrichten der Anwendung](https://learn.microsoft.com/de-de/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
-Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
+Für Microsoft Fabric können Sie die folgenden zusätzlichen Optionen festlegen:
 
 | Option | Beschreibung |
 | ------ | ----------- |
@@ -269,7 +269,7 @@ Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
 
 >[!NOTE]
 >
->Die Komposition föderierter Zielgruppen unterstützt die Einrichtung von föderierten Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern Zugriff über ein externes Netzwerk besteht). Wenn Sie weitere Fragen zur Oracle-Datenbankeinrichtung haben oder eine sichere Verbindung mit Oracle herstellen müssen, wenden Sie sich bitte an die Adobe-Kundenunterstützung.
+>Die Komposition föderierter Zielgruppen unterstützt die Einrichtung von föderierten Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern Zugriff über ein externes Netzwerk besteht). Wenn Sie weitere Fragen zur Oracle-Datenbankeinrichtung haben oder eine sichere Verbindung mit Oracle herstellen müssen, wenden Sie sich bitte an Ihre Ansprechperson bei der Adobe-Kundenunterstützung.
 
 Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
@@ -316,14 +316,14 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 | Client-ID | Die Client-ID aus Ihrem Snowflake-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
 | Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
 
-Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Privater Schlüssel | Der private Schlüssel für Ihre Datenbankverbindung. Sie können eine `.pem`-Datei von Ihrem lokalen System hochladen. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
@@ -337,7 +337,7 @@ Für Snowflake können Sie die folgenden zusätzlichen Optionen festlegen:
 | UseCachedResult | Ein boolescher Wert, der bestimmt, ob die zwischengespeicherten Ergebnisse von Snowflake verwendet werden. Dieser Wert stellt den Sitzungsparameter `USE_CACHED_RESULTS` dar. Standardmäßig ist dieser Wert auf „wahr“ festgelegt. Weitere Informationen zu diesem Parameter finden Sie in der [Snowflake-Dokumentation zu gespeicherten Ergebnissen](https://docs.snowflake.com/de/user-guide/querying-persisted-results){target="_blank"}. |
 | bulkThreads | Die Anzahl der Threads, die für den Massenlader von Snowflake verwendet werden sollen. Je mehr Threads hinzugefügt werden, desto besser ist die Leistung bei größeren Massenladevorgängen. Standardmäßig ist dieser Wert auf 1 festgelegt. |
 | chunkSize | Die Dateigröße jedes Blocks des Massenladers. Bei gleichzeitiger Verwendung mit mehreren Threads können Sie die Leistung Ihrer Massenladevorgänge verbessern. Standardmäßig ist dieser Wert auf 128 MB festgelegt. Weitere Informationen zu Blockgrößen finden Sie in der [Snowflake-Dokumentation zum Vorbereiten von Datendateien](https://docs.snowflake.com/de/user-guide/data-load-considerations-prepare){target="_blank"}. |
-| StageName | Der Name einer vorab bereitgestellten internen Staging-Umgebung. Dieser kann bei Massenladevorgängen verwendet werden, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
+| StageName | Der Name einer vorab bereitgestellten internen Staging-Umgebung. Dies kann bei Massenladevorgängen verwendet werden, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
 
 >[!TAB Teradata]
 
@@ -372,7 +372,7 @@ Nach Auswahl von Vertica Analytics können Sie die folgenden Details hinzufügen
 | Konto | Der Benutzername des Kontos. |
 | Passwort | Das Passwort des Kontos. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Vertica Analytics können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -395,7 +395,7 @@ Nachdem Sie die Details der Verbindung hinzugefügt haben, beachten Sie die folg
 | Server-IPs | Ein Popup-Fenster, das anzeigt, welche IP-Adressen für die Verbindung mit der Datenbank auf die Zulassungsliste gesetzt werden müssen. |
 | Testen der Verbindung | Ermöglicht die Überprüfung Ihrer Konfigurationsdetails. |
 
-Sie können jetzt **[!UICONTROL Funktionen freigeben]** und anschließend **[!UICONTROL Hinzufügen]** auswählen, um die Verbindung zwischen der föderierten Datenbank und Experience Platform fertigzustellen.
+Sie können jetzt **[!UICONTROL Funktionen bereitstellen]** und anschließend **[!UICONTROL Hinzufügen]** auswählen, um die Verbindung zwischen der föderierten Datenbank und Experience Platform fertigzustellen.
 
 ## Anhang {#appendix}
 
@@ -403,12 +403,12 @@ Im folgenden Anhang wird beschrieben, wie Sie die Verbindungen aufseiten des ext
 
 ### Konfiguration von Google BigQuery (Workload Identity Federation) {#wif-configuration}
 
-Bevor Sie die Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
+Bevor Sie Ihre Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
 
 - AWS-Konto-ID
   - Wenden Sie sich an die Adobe-Kundenunterstützung, um diesen Wert zu erhalten.
 - AWS IAM-Rollenname
-  - Der Name der AWS IAM-Rolle folgt dem folgenden Format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - Der AWS-IAM-Rollenname weist das folgende Format auf: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 Erstellen Sie in der Google Cloud Console einen **Workload Identity-Pool** im **Abschnitt für IAM und Administration**. Auf diese Weise können Sie externe Identitäten organisieren und verwalten.
 

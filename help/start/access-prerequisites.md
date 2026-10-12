@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Voraussetzungen und Leitlinien {#fac-access}
 
@@ -64,7 +64,7 @@ Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Kompositi
 
    ![](assets/sandbox_2.png)
 
-Wenn Sie die Federated-Audience-Komposition in einer anderen Sandbox verwenden möchten, wenden Sie sich an die Adobe-Kundenunterstützung, um einen Sandbox-Wechsel anzufordern.
+Wenn Sie die Komposition föderierter Zielgruppen in einer anderen Sandbox verwenden möchten, wenden Sie sich an die Adobe-Kundenunterstützung, um einen Sandbox-Wechsel anzufordern.
 
 ## Berechtigungen {#permissions}
 
