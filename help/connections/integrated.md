@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Erstellen und Verwalten von Verbindungen mit Federated Database in der Experience Platform-Benutzeroberfläche
-description: Erfahren Sie, wie Sie in der Experience Platform-Benutzeroberfläche Verbindungen mit Federated Database erstellen und verwalten.
+title: Erstellen und Verwalten von Verbindungen mit föderierten Datenbanken in der Benutzeroberfläche von Experience Platform
+description: Erfahren Sie, wie Sie in der Benutzeroberfläche von Experience Platform Verbindungen mit föderierten Datenbanken erstellen und verwalten.
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
@@ -19,15 +19,15 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '4385'
-ht-degree: 79%
+ht-degree: 100%
 ---
-# Erstellen von Verbindungen in der Experience Platform-Benutzeroberfläche
+# Erstellen von Verbindungen in der Benutzeroberfläche von Experience Platform
 
 >[!AVAILABILITY]
 >
->Die neue einheitliche Verbindungserfahrung steht nur ausgewählten Kunden zur Verfügung. Weitere Informationen erhalten Sie bei der Adobe-Kundenunterstützung.
+>Die neue einheitliche Verbindungsfunktion steht nur ausgewählten Kundinnen und Kunden zur Verfügung. Weitere Informationen erhalten Sie von der Adobe-Kundenunterstützung.
 >
->Wenn Sie keinen Zugriff auf das neue Verbindungserlebnis haben, lesen Sie „Verbindungen - [Übersicht](./home.md).
+>Wenn Sie keinen Zugriff auf die neue Verbindungsfunktion haben, lesen Sie [Überblick über Verbindungen](./home.md).
 >
 >Um auf Verbindungen zugreifen zu können, benötigen Sie eine der folgenden Berechtigungen:
 >
@@ -47,7 +47,7 @@ Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es I
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_keyfilepath"
->title="Schlüsseldateipfad"
+>title="Pfad der Schlüsseldatei"
 >abstract="Temporärer leerer Inhalt."
 
 Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, müssen Sie zunächst eine Verbindung zwischen den beiden Quellen herstellen. Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den folgenden Datenbanken herstellen.
@@ -67,31 +67,31 @@ Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, m
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="Server-IP"
->abstract="Die IP-Adressen, die zur Zulassungsliste hinzugefügt werden müssen, um eine Verbindung zur Datenbank herzustellen."
+>abstract="Die IP-Adressen für die Verbindung mit der Datenbank, die auf die Zulassungsliste gesetzt werden müssen."
 
 Um eine Verbindung zu erstellen, wählen Sie **[!UICONTROL Quellen]** im Abschnitt **[!UICONTROL Verbindungen]** aus.
 
-Der Quellkatalog wird angezeigt. Wählen Sie **[!UICONTROL Federated Data]** aus, um die Liste der für Ihre Organisation verfügbaren Federated-Datenbanken anzuzeigen.
+Der Quellkatalog wird angezeigt. Wählen Sie **[!UICONTROL Föderierte Daten]** aus, um die Liste der für Ihre Organisation verfügbaren föderierten Datenbanken anzuzeigen.
 
-![Der Abschnitt „Federated Data“ im Quellkatalog ist hervorgehoben.](/help/connections/assets/integrated/federated-data-sources.png)
+![Der Abschnitt „Föderierte Daten“ im Quellkatalog ist hervorgehoben.](/help/connections/assets/integrated/federated-data-sources.png)
 
-Nachdem Sie den Federated Database-Typ ausgewählt haben, wählen Sie **[!UICONTROL Einrichten]**, wenn Sie eine neue Verbindung herstellen, oder **[!UICONTROL Daten hinzufügen]** wenn Sie eine vorhandene Verbindung verwenden.
+Nachdem Sie den Typ der föderierten Datenbank ausgewählt haben, wählen Sie **[!UICONTROL Einrichten]**, wenn Sie eine neue Verbindung herstellen, oder **[!UICONTROL Daten hinzufügen]**, wenn Sie eine vorhandene Verbindung verwenden.
 
-Die Seite Konto verbinden wird angezeigt. Sie können entweder ein **vorhandenes** Konto verwenden oder ein **neues** Konto erstellen.
+Die Seite „Konto verbinden“ wird angezeigt. Sie können entweder ein **vorhandenes** Konto verwenden oder ein **neues** Konto erstellen.
 
 ### Vorhandenes Konto {#existing-account}
 
 Wenn Sie **[!UICONTROL Vorhandenes Konto]** auswählen, können Sie eine der zuvor erstellten Quellverbindungen auswählen.
 
-![Ein Beispiel für den Abschnitt „Vorhandene Konten“ wird angezeigt.](/help/connections/assets/integrated/existing-account.png)
+![Ein Beispiel für den Abschnitt „Vorhandenes Konto“ wird angezeigt.](/help/connections/assets/integrated/existing-account.png)
 
 >[!NOTE]
 >
->Um eine sichere Konnektivität über einen privaten Link oder ein VPN anzufordern, **müssen** entweder Privacy and Security Shield oder Healthcare Shield lizenziert haben.
+>Um eine sichere Verbindung über einen privaten Link oder VPN anzufordern, **müssen** Sie entweder über eine Lizenz für Privacy and Security Shield oder Healthcare Shield verfügen.
 
 ### Neues Konto {#new-account}
 
-Wenn Sie **[!UICONTROL Neues Konto]** auswählen, wird die Seite mit den Verbindungsdetails angezeigt. Auf dieser Seite können Sie Details zu Ihrer Verbindung festlegen, einschließlich Kontoname, Beschreibung und Details zur Kontoauthentifizierung. Der Abschnitt zur Kontoauthentifizierung unterscheidet sich je nach dem zuvor ausgewählten Datenbanktyp.
+Wenn Sie **[!UICONTROL Neues Konto]** auswählen, wird die Seite mit den Verbindungsdetails angezeigt. Auf dieser Seite können Sie Details zu Ihrer Verbindung festlegen, einschließlich Kontoname, Beschreibung und Details zur Kontoauthentifizierung. Der Abschnitt „Kontoauthentifizierung“ unterscheidet sich je nach dem zuvor ausgewählten Datenbanktyp.
 
 >[!BEGINTABS]
 
@@ -117,7 +117,7 @@ Nach Auswahl von Amazon Redshift können Sie die folgenden Details hinzufügen:
 
 >[!NOTE]
 >
->Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics einrichten möchten, wenden Sie sich an die Adobe-Kundenunterstützung.
+>Wenn Sie eine sichere Verbindung mit Azure Synapse Analytics einrichten möchten, wenden Sie sich an Ihre Ansprechperson bei der Adobe-Kundenunterstützung.
 
 Nach Auswahl von Azure Synapse Analytics können Sie die folgenden Details hinzufügen:
 
@@ -173,41 +173,41 @@ Legen Sie innerhalb Ihrer Azure Synapse-Verbindung die folgenden Konfigurationsd
 
 >[!NOTE]
 >
->Der sichere Zugriff auf Ihr externes Data Warehouse von Data Bricks über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu DataBricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und DataBricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Hilfe benötigen, um sicheren Zugriff einzurichten.
+>Sicherer Zugriff auf Ihr externes DataBricks-Data-Warehouse über einen privaten Link wird unterstützt. Dazu gehören sichere Verbindungen zu DataBricks-Datenbanken, die auf Amazon Web Services (AWS) über einen privaten Link gehostet werden, und DataBricks-Datenbanken, die auf Microsoft Azure über VPN gehostet werden. Wenden Sie sich an den Adobe-Support, wenn Sie Unterstützung beim Einrichten von sicherem Zugriff benötigen.
 
-Nach Auswahl von DataBricks können Sie mit der Authentifizierungsmethode auswählen, die Sie beim Herstellen einer Verbindung mit Federated Audience Composition verwenden möchten.
+Nach der Auswahl von DataBricks können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Standardauthentifizierung]** auswählen, können Sie die folgenden Anmeldedetails hinzufügen:
+Wenn Sie **[!UICONTROL Einfache Authentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des DataBricks-Servers. |
 | Kennwort | Das Zugriffstoken für den DataBricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [DataBricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 
-Wenn Sie **[!UICONTROL OAuth2-Authentifizierungs-Code]** auswählen, können Sie die folgenden Details hinzufügen:
+Wenn Sie **[!UICONTROL OAuth2-Authentifizierungs-Code]** auswählen, können Sie die folgenden Informationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des DataBricks-Servers. |
-| Client-ID | Die Client-ID von Ihrem DataBricks-Server. Dieses Feld wird verwendet, um die Anwendung bei der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem DataBricks-Server. Diese vertraulichen Anmeldedaten werden mit der Client-ID ausgestellt und dienen als Passwort für Ihr Projekt. |
-| Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token auf Ihrem DataBricks-Server autorisiert ist. |
+| Client-ID | Die Client-ID Ihres DataBricks-Servers. Dieses Feld wird verwendet, um die Anwendung bei der OAuth 2.0-Authentifizierung zu identifizieren, und dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis Ihres DataBricks-Servers. Diese vertraulichen Anmeldedaten werden mit der Client-ID ausgestellt und dienen als Passwort für Ihr Projekt. |
+| Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihrem DataBricks-Server autorisiert ist. |
 
 Wenn Sie **[!UICONTROL Service-Prinzipal-Authentifizierung]** auswählen, können Sie die folgenden Informationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des DataBricks-Servers. |
-| Client-ID | Die Client-ID von Ihrem DataBricks-Server. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem DataBricks-Server. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-ID | Die Client-ID Ihres DataBricks-Servers. Dieses Feld dient als Benutzername für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis Ihres DataBricks-Servers. Dieses Feld dient als Passwort für Ihr Projekt. |
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Dokumentation zu DataBricks unter Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Catalog | Der Name des DataBricks-Katalogs. Weitere Informationen zu Katalogen in DataBricks finden Sie in der [DataBricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [DataBricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
+| Katalog | Der Name des DataBricks-Katalogs. Weitere Informationen zu Katalogen in DataBricks finden Sie in der [DataBricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"}. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für DataBricks können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -224,13 +224,13 @@ Für DataBricks können Sie die folgenden zusätzlichen Optionen festlegen:
 
 Nach der Auswahl von Google BigQuery können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Standardauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL Einfache Authentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Service-Konto | Die E-Mail-Adresse Ihres Service-Kontos. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Service-Konten](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
-Wenn Sie **[!UICONTROL OAuth2-Autorisierungs]** Code auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth2-Autorisierungs-Code]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 >[!NOTE]
 >
@@ -242,9 +242,9 @@ Wenn Sie **[!UICONTROL OAuth2-Autorisierungs]** Code auswählen, können Sie die
 | Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
 | Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
 
-Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 
-Wenn Sie **[!UICONTROL WIF]** auswählen, müssen Sie **keine** Anmeldeinformationen hinzufügen. Sie **müssen** die Client-Bibliothekskonfiguration jedoch als &quot;**[!UICONTROL -Dateipfad“]**. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im [Abschnitt zur Konfiguration für Google BigQuery (Workload Identity Federation)](#wif-configuration).
+Wenn Sie **[!UICONTROL WIF]** auswählen, müssen Sie **keine** Anmeldeinformationen hinzufügen. Sie **müssen** jedoch die Konfiguration der Client-Bibliothek als **[!UICONTROL Konfigurationsdateipfad]** hinzufügen. Weitere Informationen zur Konfiguration der Client-Bibliothek finden Sie im [Abschnitt zur Konfiguration für Google BigQuery (Workload Identity Federation)](#wif-configuration).
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
@@ -252,9 +252,9 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Pfad der Konfigurationsdatei | Die Konfigurationsdatei auf dem Server. Es werden nur `json`-Dateien unterstützt. |
+| Konfigurationsdateipfad | Die Konfigurationsdatei für den Server. Es werden nur `json`-Dateien unterstützt. |
 | Speicherort für den Google-Bucket | Der Speicherort Ihres Google Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der [Dokumentation zu den Google Cloud-Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
-| REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Standardauthentifizierung verwenden. |
+| REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die einfache Authentifizierung verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -262,10 +262,10 @@ Für Google BigQuery können Sie die folgenden zusätzlichen Optionen festlegen:
 | Optionen | Beschreibung |
 | ------- | ----------- |
 | ProxyType | Der Proxy-Typ, mit dem die Verbindung zu BigQuery hergestellt wird. Zu den unterstützten Werten gehören `HTTP`, `http_no_tunnel`, `socks4` und `socks5`. |
-| ProxyHost | Der Host-Name oder die IP-Adresse, um den Proxy zu erreichen. |
+| ProxyHost | Der Host-Name oder die IP-Adresse, unter der der Proxy erreichbar ist. |
 | ProxyUid | Die Port-Nummer, auf der der Proxy ausgeführt wird. |
 | ProxyPwd | Das Passwort für den Proxy. |
-| bgpath | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK). <br/><br/> Der Pfad zum Cloud SDK-Klassenverzeichnis am Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
+| bgpath | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK). <br/><br/> Der Pfad zum Ablageverzeichnis des Cloud SDK auf dem Server. Sie müssen dies nur festlegen, wenn Sie das Verzeichnis `google-cloud-sdk` an einen anderen Speicherort verschoben haben oder wenn Sie die Verwendung der Variable „PATH“ vermeiden möchten. |
 | GCloudConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 oder höher. <br/><br/> Der Name der Konfiguration, die die Parameter zum Laden der Daten speichert. Standardmäßig ist dieser Wert `accfda`. |
 | GCloudDefaultConfigName | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Der Name der temporären Konfiguration, um die Hauptkonfiguration zum Laden von Daten neu zu erstellen. Standardmäßig ist dieser Wert `default`. |
 | GCloudRecreateConfig | **Hinweis**: Dies gilt nur für das **Tool für Massenladung** (Cloud SDK), Version 7.3.4 und höher. <br/><br/> Ein boolescher Wert, mit dem Sie festlegen können, ob der Massenlademechanismus die Google Cloud SDK-Konfigurationen automatisch neu erstellen, löschen oder ändern soll. Wenn dieser Wert auf `false` festgelegt ist, lädt der Massenlademechanismus Daten mit einer vorhandenen Konfiguration am Computer. Wenn dieser Wert auf `true` festgelegt ist, stellen Sie sicher, dass Ihre Konfiguration ordnungsgemäß eingerichtet ist. Andernfalls wird der Fehler `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` angezeigt und der Lademechanismus wird auf den standardmäßigen Lademechanismus zurückgesetzt. |
@@ -282,7 +282,7 @@ Nach Auswahl von Microsoft Fabric können Sie die folgenden Details hinzufügen:
 | Client-Geheimnis | Das Client-Geheimnis für die Anwendung. Weitere Informationen zum Client-Geheimnis finden Sie in der [Microsoft Fabric-Dokumentation zum Einrichten der Anwendung](https://learn.microsoft.com/de-de/fabric/workload-development-kit/create-entra-id-app#step-8-generate-a-secret-for-your-application){target="_blank"}. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
-Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
+Für Microsoft Fabric können Sie die folgenden zusätzlichen Optionen festlegen:
 
 | Option | Beschreibung |
 | ------ | ----------- |
@@ -292,7 +292,7 @@ Für Microsoft Fabric können die folgenden zusätzlichen Optionen festlegen:
 
 >[!NOTE]
 >
->Die Komposition föderierter Zielgruppen unterstützt die Einrichtung von föderierten Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern Zugriff über ein externes Netzwerk besteht). Wenn Sie weitere Fragen zur Oracle-Datenbankeinrichtung haben oder eine sichere Verbindung mit Oracle herstellen müssen, wenden Sie sich bitte an die Adobe-Kundenunterstützung.
+>Die Komposition föderierter Zielgruppen unterstützt die Einrichtung von föderierten Verbindungen mit Oracle-Datenbanken der Version 11g oder höher, die auf AWS, Azure, Exadata oder einer privaten Cloud gehostet werden (sofern Zugriff über ein externes Netzwerk besteht). Wenn Sie weitere Fragen zur Oracle-Datenbankeinrichtung haben oder eine sichere Verbindung mit Oracle herstellen müssen, wenden Sie sich bitte an Ihre Ansprechperson bei der Adobe-Kundenunterstützung.
 
 Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
@@ -310,7 +310,7 @@ Nach Auswahl von Oracle können Sie die folgenden Details hinzufügen:
 
 Nach der Auswahl von Snowflake können Sie festlegen, welche Authentifizierungsmethode Sie beim Herstellen einer Verbindung mit der Komposition föderierter Zielgruppen verwenden möchten.
 
-Wenn Sie **[!UICONTROL Standardauthentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL Einfache Authentifizierung]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
@@ -327,7 +327,7 @@ Wenn Sie **[!UICONTROL Schlüsselpaar-Authentifizierung]** auswählen, können S
 | Privater Schlüssel | Der private Schlüssel für das Konto. Es werden nur `.pem`-Dateien unterstützt. |
 | Passwort | (Optional) Das Passwort für das Konto. |
 
-Wenn Sie **[!UICONTROL OAuth2-Autorisierungs]** Code auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
+Wenn Sie **[!UICONTROL OAuth2-Autorisierungs-Code]** auswählen, können Sie die folgenden Anmeldeinformationen hinzufügen:
 
 >[!NOTE]
 >
@@ -339,15 +339,15 @@ Wenn Sie **[!UICONTROL OAuth2-Autorisierungs]** Code auswählen, können Sie die
 | Client-ID | Die Client-ID aus Ihrem Snowflake-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
 | Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
 
-Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung zu beenden.
+Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
-| Privater Schlüssel | Der Base64-kodierte private Schlüssel Ihres Snowflake-Kontos. Sie können entweder verschlüsselte oder unverschlüsselte private Schlüssel generieren. Wenn Sie einen verschlüsselten privaten Schlüssel verwenden, müssen Sie auch eine Passphrase für den privaten Schlüssel angeben, wenn Sie sich bei Experience Platform authentifizieren. Weitere Informationen finden Sie im Handbuch unter [Abrufen des privaten Snowflake](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/databases/snowflake)Schlüssels). |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Privater Schlüssel | Der Base64-codierte private Schlüssel Ihres Snowflake-Kontos. Sie können entweder verschlüsselte oder unverschlüsselte private Schlüssel generieren. Wenn Sie einen verschlüsselten privaten Schlüssel verwenden, müssen Sie bei der Authentifizierung bei Experience Platform auch eine Passphrase für den privaten Schlüssel angeben. Weitere Informationen finden Sie im Handbuch über das [Abrufen des privaten Snowflake-Schlüssels](https://experienceleague.adobe.com/de/docs/experience-platform/sources/connectors/databases/snowflake). |
 | Passphrase für privaten Schlüssel | Die Passphrase für den privaten Schlüssel ist eine zusätzliche Sicherheitsebene, die Sie bei der Authentifizierung mit einem verschlüsselten privaten Schlüssel verwenden müssen. Sie müssen die Passphrase nicht angeben, wenn Sie einen unverschlüsselten privaten Schlüssel verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
@@ -361,7 +361,7 @@ Für Snowflake können Sie die folgenden zusätzlichen Optionen festlegen:
 | UseCachedResult | Ein boolescher Wert, der bestimmt, ob die zwischengespeicherten Ergebnisse von Snowflake verwendet werden. Dieser Wert stellt den Sitzungsparameter `USE_CACHED_RESULTS` dar. Standardmäßig ist dieser Wert auf „wahr“ festgelegt. Weitere Informationen zu diesem Parameter finden Sie in der [Snowflake-Dokumentation zu gespeicherten Ergebnissen](https://docs.snowflake.com/de/user-guide/querying-persisted-results){target="_blank"}. |
 | bulkThreads | Die Anzahl der Threads, die für den Massenlader von Snowflake verwendet werden sollen. Je mehr Threads hinzugefügt werden, desto besser ist die Leistung bei größeren Massenladevorgängen. Standardmäßig ist dieser Wert auf 1 festgelegt. |
 | chunkSize | Die Dateigröße jedes Blocks des Massenladers. Bei gleichzeitiger Verwendung mit mehreren Threads können Sie die Leistung Ihrer Massenladevorgänge verbessern. Standardmäßig ist dieser Wert auf 128 MB festgelegt. Weitere Informationen zu Blockgrößen finden Sie in der [Snowflake-Dokumentation zum Vorbereiten von Datendateien](https://docs.snowflake.com/de/user-guide/data-load-considerations-prepare){target="_blank"}. |
-| StageName | Der Name einer vorab bereitgestellten internen Staging-Umgebung. Dieser kann bei Massenladevorgängen verwendet werden, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
+| StageName | Der Name einer vorab bereitgestellten internen Staging-Umgebung. Dies kann bei Massenladevorgängen verwendet werden, anstatt einen neuen temporären Staging-Bereich zu erstellen. |
 
 >[!TAB Teradata]
 
@@ -396,7 +396,7 @@ Nach Auswahl von Vertica Analytics können Sie die folgenden Details hinzufügen
 | Konto | Der Benutzername des Kontos. |
 | Passwort | Das Passwort des Kontos. |
 | Datenbank | Der Name der Datenbank. Wenn dies im Server-Namen angegeben ist, kann dieses Feld leer gelassen werden. |
-| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis**: Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderliche Berechtigung zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
+| Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
 Für Vertica Analytics können Sie die folgenden zusätzlichen Optionen festlegen:
@@ -419,39 +419,39 @@ Nachdem Sie die Details der Verbindung hinzugefügt haben, beachten Sie die folg
 | Server-IPs | Ein Popup-Fenster, das anzeigt, welche IP-Adressen für die Verbindung mit der Datenbank auf die Zulassungsliste gesetzt werden müssen. |
 | Testen der Verbindung | Ermöglicht die Überprüfung Ihrer Konfigurationsdetails. |
 
-Sie können jetzt auf **[!UICONTROL Mit Quelle verbinden]** klicken, um die Schemadetails für die Datenbankverbindung einzurichten.
+Sie können jetzt auf **[!UICONTROL Mit der Quelle verbinden]** klicken, um die Schemadetails für die Datenbankverbindung einzurichten.
 
 ## Schemaauswahl {#schema-selection}
 
-Die **[!UICONTROL Schemaauswahl]** wird angezeigt. Auf dieser Seite können Sie das Schema für Ihre Federated Database-Verbindung definieren.
+Die Seite **[!UICONTROL Schemaauswahl]** wird angezeigt. Auf dieser Seite können Sie das Schema für Ihre Verbindung mit der föderierten Datenbank definieren.
 
 ![Die Schaltfläche „Tabelle hinzufügen“ ist im Bildschirm „Daten hinzufügen“ hervorgehoben.](/help/data-modelling/assets/integrated/select-add-table.png)
 
 Weitere Informationen zum Einrichten von Schemadetails finden Sie im [Schemahandbuch](/help/data-modelling/schemas-integrated.md).
 
-Nachdem Sie Ihre Schemata ausgewählt haben, wählen Sie **[!UICONTROL Weiter]**, um fortzufahren.
+Nachdem Sie Ihre Schemata ausgewählt haben, wählen Sie zum Fortfahren **[!UICONTROL Weiter]** aus.
 
 ## Überprüfen {#review}
 
-Die **[!UICONTROL &quot;]**&quot; wird angezeigt. Auf dieser Seite können Sie die Details Ihrer Federated Database Connection überprüfen. Wenn die Details korrekt aussehen, wählen Sie **[!UICONTROL Beenden]** aus, um die Verbindung zu erstellen.
+Die Seite **[!UICONTROL Überprüfen]** wird angezeigt. Auf dieser Seite können Sie die Details Ihrer Verbindung mit der föderierten Datenbank überprüfen. Wenn die Details korrekt aussehen, wählen Sie **[!UICONTROL Beenden]** aus, um die Verbindung zu erstellen.
 
 ![Die Überprüfungsseite wird angezeigt. Auf dieser Seite werden die Verbindungsdetails und Schemainformationen angezeigt.](/help/connections/assets/integrated/review.png)
 
-Die Verbindung wird erstellt. Es wird ein Popup angezeigt, in dem Sie aufgefordert werden, entweder **[!UICONTROL Schema anzeigen]** oder **[!UICONTROL Beziehungen erstellen]**. Wenn Sie **[!UICONTROL Schema anzeigen]** auswählen, wird die Seite [Schema durchsuchen](/help/data-modelling/schemas-integrated.md#edit-a-schema) angezeigt. Wenn Sie **[!UICONTROL Beziehungen erstellen]** auswählen, wird die Seite [Entitätsdiagramm](/help/data-modelling/schemas-integrated.md#edit-relationships) angezeigt.
+Die Verbindung wird erstellt. Es wird ein Popup angezeigt, in dem Sie aufgefordert werden, entweder **[!UICONTROL Schema anzeigen]** oder **[!UICONTROL Beziehungen erstellen]** auszuwählen. Wenn Sie **[!UICONTROL Schema anzeigen]** auswählen, wird die Seite [Schema durchsuchen](/help/data-modelling/schemas-integrated.md#edit-a-schema) angezeigt. Wenn Sie **[!UICONTROL Beziehungen erstellen]** auswählen, wird die Seite [Entitätsdiagramm](/help/data-modelling/schemas-integrated.md#edit-relationships) angezeigt.
 
 ## Verbindung bearbeiten {#edit-connection}
 
-Wenn Sie die Anmeldedetails für die Quellverbindung bearbeiten müssen, wählen Sie **[!UICONTROL Quellen]** gefolgt von **[!UICONTROL Konten]** aus.
+Wenn Sie die Anmeldedetails für die Quellverbindung bearbeiten müssen, wählen Sie **[!UICONTROL Quellen]** und danach **[!UICONTROL Konten]** aus.
 
-![Die Schaltfläche Konten ist hervorgehoben und zeigt die Seite zum Durchsuchen der Quellkonten an.](/help/connections/assets/integrated/select-accounts.png)
+![Die Schaltfläche „Konten“ ist hervorgehoben und zeigt die Seite zum Durchsuchen der Quellkonten an.](/help/connections/assets/integrated/select-accounts.png)
 
-Die Seite zum Durchsuchen der Quell-Connectoren wird angezeigt. Suchen Sie den Quell-Connector, den Sie aktualisieren möchten, und wählen Sie ![die drei Punkte](/help/assets/icons/more.png) gefolgt von **[!UICONTROL Details bearbeiten]** aus.
+Die Seite zum Durchsuchen der Quell-Connectoren wird angezeigt. Suchen Sie den Quell-Connector, den Sie aktualisieren möchten, und wählen Sie ![die drei Punkte](/help/assets/icons/more.png) und danach **[!UICONTROL Details bearbeiten]** aus.
 
 ![Die Schaltfläche „Details bearbeiten“ ist hervorgehoben.](/help/connections/assets/integrated/select-edit-details.png)
 
-Das **[!UICONTROL Kontodetails bearbeiten]** wird angezeigt. In diesem Popover können Sie die Details der Federated Database Source-Verbindung aktualisieren.
+Das **[!UICONTROL Kontodetails bearbeiten]** wird angezeigt. In diesem Popover können Sie die Details der Quellverbindung mit der föderierten Datenbank aktualisieren.
 
-![Das Pop-up Kontodetails bearbeiten wird angezeigt.](/help/connections/assets/integrated/edit-account-details.png)
+![Das Popover „Kontodetails bearbeiten“ wird angezeigt.](/help/connections/assets/integrated/edit-account-details.png)
 
 ## Anhang {#appendix}
 
@@ -459,12 +459,12 @@ Im folgenden Anhang wird beschrieben, wie Sie die Verbindungen aufseiten des ext
 
 ### Konfiguration von Google BigQuery (Workload Identity Federation) {#wif-configuration}
 
-Bevor Sie die Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
+Bevor Sie Ihre Google Cloud Platform-Einrichtung konfigurieren, benötigen Sie die folgenden Werte:
 
 - AWS-Konto-ID
   - Wenden Sie sich an die Adobe-Kundenunterstützung, um diesen Wert zu erhalten.
 - AWS IAM-Rollenname
-  - Der Name der AWS IAM-Rolle folgt dem folgenden Format: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - Der AWS-IAM-Rollenname weist das folgende Format auf: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 Erstellen Sie in der Google Cloud Console einen **Workload Identity-Pool** im **Abschnitt für IAM und Administration**. Auf diese Weise können Sie externe Identitäten organisieren und verwalten.
 
