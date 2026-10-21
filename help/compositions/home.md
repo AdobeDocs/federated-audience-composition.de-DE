@@ -69,7 +69,7 @@ Sie können auch Schnellaktionen für die Kompositionen durchführen, indem Sie 
 | ------ | ----------- |
 | **[!UICONTROL Duplikat]** | Dupliziert die ausgewählte Komposition. |
 | **[!UICONTROL Löschen]** | Löscht die ausgewählte Komposition. |
-| **[!UICONTROL Zu Paket hinzufügen]** | Verschiebt die Komposition zwischen Sandboxes. Weitere Informationen zu dieser Funktion finden Sie im [Handbuch zu Sandbox-Tools](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| **[!UICONTROL Zu Paket hinzufügen]** | Verschiebt die Komposition zwischen Sandboxes. Weitere Informationen zu dieser Funktion finden Sie im [Handbuch zu Sandbox-Tools](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Um die Liste einzugrenzen und die gesuchte Komposition zu finden, können Sie die Liste durchsuchen und Kompositionen nach ihrem Status oder dem letzten Verarbeitungsdatum filtern.
 
