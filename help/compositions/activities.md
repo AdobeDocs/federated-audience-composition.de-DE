@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
-ht-degree: 100%
+source-wordcount: '5480'
+ht-degree: 99%
 ---
 # Überblick über Aktivitäten
 
@@ -43,11 +43,11 @@ Nachdem Sie die Aktivität **Zielgruppe erstellen** zur Arbeitsfläche der Kompo
 
 >[!TAB Erstellen einer neuen Zielgruppe]
 
-Wählen Sie nach Auswahl von **Zielgruppe erstellen** das **Schema** für Ihre Zielgruppe aus. Mit dem Schema können Sie die vom Vorgang betroffene Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende definieren. Standardmäßig wird das Schema aus den Empfängerinnen und Empfängern ausgewählt.
+Wählen Sie nach Auswahl von **Zielgruppe erstellen** das **Schema** für Ihre Zielgruppe aus. Mit dem Schema können Sie die vom Vorgang betroffene Population wie Empfängerinnen und Empfänger, Vertragsbegünstigte, Benutzerinnen und Benutzer oder Abonnierende definieren. Standardmäßig wird das Schema der Empfängerinnen und Empfänger ausgewählt.
 
 ![](./assets/activities/build-audience-create.png)
 
-Wählen Sie nach Auswahl eines Schemas **Weiter** aus. Sie können jetzt die Definition Ihrer Zielgruppe im Abfrage-Modeler definieren. Weitere Informationen zur Verwendung des Abfrage-Modelers finden Sie unter [Überblick über den Abfrage-Modeler](../query/home.md).
+Wählen Sie nach Auswahl eines Schemas **Weiter** aus. Sie können jetzt die Definition Ihrer Zielgruppe im Abfrage-Modeler festlegen. Weitere Informationen zur Verwendung des Abfrage-Modelers finden Sie unter [Überblick über den Abfrage-Modeler](../query/home.md).
 
 >[!TAB Verwenden einer bestehenden Zielgruppe]
 
@@ -93,7 +93,7 @@ Nach Auswahl des **[!UICONTROL externen FDA-Kontos]** können Sie auswählen, mi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Aktivität „Dimensionsänderung“"
->abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema. Beispielsweise können Sie vom Schema „Verträge“ zum Schema „Kundinnen und Kunden“ wechseln."
+>abstract="Mithilfe dieser Aktivität können Sie das Schema, auch bekannt als Zielgruppendimension, beim Erstellen einer Zielgruppe ändern. Die Aktivität verschiebt die Achse je nach Datenvorlage und Eingabeschema. Beispielsweise können Sie vom Schema „contracts“ zum Schema „clients“ wechseln."
 
 Mit der Aktivität **Dimensionsänderung** können Sie das Schema (auch als Zielgruppendimension bezeichnet) Ihrer Komposition ändern.
 
@@ -132,7 +132,7 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
 >title="Abstimmoptionen für Schnittmengen"
->abstract="Wählen Sie den Abstimmtyp aus, um den Umgang mit Duplikaten zu definieren."
+>abstract="Wählen Sie den Abstimmungstyp aus, um den Umgang mit Duplikaten zu definieren."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_reconciliation"
@@ -142,7 +142,7 @@ Nachdem Sie die Komposition ausgeführt haben, werden Ihre Ergebnisse aktualisie
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Ausschlussregeln"
->abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema, auch bekannt als Zielgruppendimension, auszuschließen, muss diese Zielgruppe tatsächlich auf dasselbe Schema wie die Hauptzielgruppe zurückgesetzt werden. Wählen Sie dazu im Abschnitt **Ausschlussregeln** die Option **Regel hinzufügen** aus und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
+>abstract="Bei Bedarf können Sie die eingehenden Tabellen anpassen. Um eine Zielgruppe aus einem anderen Schema auszuschließen, auch bekannt als Zielgruppendimension, muss diese Zielgruppe in dasselbe Schema wie die Hauptzielgruppe zurückgeführt werden. Wählen Sie dazu im Abschnitt **Ausschlussregeln** die Option **Regel hinzufügen** aus und geben Sie die Bedingungen für die Schemaänderung an. Die Datenabstimmung wird entweder über ein Attribut oder über einen Join durchgeführt."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -181,7 +181,7 @@ Fügen Sie nach dem Hinzufügen mehrerer Aktivitäten zum Erstellen von mindeste
 
 ![](./assets/activities/combine-union.png)
 
-Bei Auswahl von **Vereinigung** müssen Sie den **Abstimmtyp** für die Aktivität „Kombinieren“ auswählen. Mit dem Abstimmtyp können Sie definieren, wie doppelte Einträge verarbeitet werden.
+Bei Auswahl von **Vereinigung** müssen Sie den **Abstimmtyp** für die Aktivität „Kombinieren“ auswählen. Mit dem Abstimmungstyp können Sie definieren, wie doppelte Einträge verarbeitet werden.
 
 - **Nur die Schlüssel**: Wenn Sie **Nur die Schlüssel** auswählen, wird **ein** Element beibehalten, wenn mehrere Elemente denselben Schlüssel haben. Sie können diese Option nur verwenden, wenn die eingehenden Populationen homogen sind.
 - **Auswahl an Spalten**: Wenn Sie **Auswahl an Spalten** auswählen, können Sie eine Liste an Spalten definieren, auf die die Datenabstimmung angewendet wird. Sie können den primären Datensatz auswählen, der die Quelldaten enthält, gefolgt von den für den Join zu verwendenden Spalten.
@@ -231,7 +231,7 @@ Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Optio
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="Deduplizierungseinstellungen"
->abstract="Um Duplikate in den eingehenden Daten zu löschen, die Deduplizierungsmethode in den folgenden Feldern definieren. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der von den Duplikaten ausgenommen sein soll, zufällig ausgewählt."
+>abstract="Um Duplikate in den eingehenden Daten zu löschen, die Deduplizierungsmethode in den folgenden Feldern definieren. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der aus den Duplikaten beibehalten werden soll, zufällig ausgewählt."
 
 Die Aktivität **Deduplizierung** entfernt alle doppelten Ergebnisse innerhalb der Zielgruppe.
 
@@ -424,9 +424,9 @@ Nachdem Sie die Aktivität **Zielgruppe speichern** zu Ihrer Komposition hinzuge
 
 Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an die neu erstellte Zielgruppe übertragen möchten. Wählen Sie **Zielgruppenzuordnung hinzufügen** und anschließend das Quellzielgruppenfeld und das Zielgruppenfeld aus. Wiederholen Sie dies so oft wie nötig.
 
-Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die Zielgruppenprofile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
+Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die anvisierten Profile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
 
-Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festlegen. Die Ablaufzeit der Daten bestimmt über die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Die Ablaufzeit von Daten kann 1 bis 90 Tage betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
+Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festlegen. Die Ablaufzeit der Daten bestimmt über die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Der Ablauf der Daten kann 1 bis 3.650 Tage (10 Jahre) betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
 
 +++
 
@@ -435,7 +435,7 @@ Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festleg
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
 >title="Felder speichern"
->abstract="Die Aktivität „Felder speichern“ ermöglicht es Ihnen, Experience Platform-Schemata anzureichern, indem Sie Daten aus externen Warehouses föderieren. So können Sie Experience Platform-Schemata mit zusätzlichen Attributen erweitern. "
+>abstract="Die Aktivität „Felder anreichern“ ermöglicht es, Experience Platform-Schemata anzureichern, indem Daten aus externen Warehouses föderiert werden. So können Experience Platform-Schemata mit zusätzlichen Attributen erweitert werden. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -445,7 +445,7 @@ Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festleg
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
 >title="Auswählen des Experience Platform-Schemas"
->abstract="Wählen Sie das Experience Platform-Schema aus, das Sie anreichern möchten."
+>abstract="Das Experience Platform-Schema auswählen, das angereichert werden soll."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
@@ -465,7 +465,7 @@ Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festleg
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
 >title="Feld „Primäre Identität“"
->abstract="Das primäre Identitätsfeld gibt die Wissensquelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
+>abstract="Das primäre Identitätsfeld gibt die maßgebliche Quelle an, die beim Zusammenführen von Profilen für die Anreicherung verwendet wird."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
@@ -490,7 +490,7 @@ Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festleg
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
 >title="Datensatz auswählen"
->abstract="Eine Liste der Datensätze, die zum Schema gehören. Sie können auswählen, in welchem Datensatz die angereicherten Daten gespeichert werden sollen."
+>abstract="Eine Liste der Datensätze, die zum Schema gehören. Es kann ausgewählt werden, in welchem Datensatz die angereicherten Daten gespeichert werden sollen."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primarykeycheck"
@@ -626,7 +626,7 @@ Sie können jetzt Details für jeden dieser Teilpfade angeben. Sie können dem T
 Nachdem Sie Ihre Filterbedingung erstellt haben, können Sie die folgenden zusätzlichen Regeln anwenden:
 
 - **Grenzwert aktivieren**: Begrenzt die Anzahl der Profile, die in die Teilmenge aufgespaltet werden dürfen. Sie können dies als eine Zahl oder einen Prozentsatz der Population festlegen.
-  - Wenn Sie einen Grenzwert aktivieren, können Sie die ausgewählten Profile auch nach einem bestimmten Profilattribut ordnen. Aktivieren Sie **Sortierung aktivieren**, um die Attribute in aufsteigender oder absteigender Reihenfolge zu sortieren.
+  - Wenn Sie einen Grenzwert aktivieren, können Sie den ausgewählten Profilen auch anhand eines bestimmten Profilattributs einen Rang zuweisen. Aktivieren Sie **Sortierung aktivieren**, um die Attribute in aufsteigender oder absteigender Reihenfolge zu sortieren.
 - **Leere Transition überspringen**: Deaktiviert die Transition, wenn die eingehende Population leer ist.
 
 Nach der Konfiguration der Teilmengen können Sie einige weitere Optionen festlegen.
@@ -717,7 +717,7 @@ Nachdem Sie die Aktivität **Planung** zu Ihrer Komposition hinzugefügt haben, 
 
 >[!NOTE]
 >
->Die Zeit ist auf „UTC“ festgelegt.
+>Die Zeit ist auf UTC festgelegt.
 
 Wenn Sie **Einmal** auswählen, wird die Komposition nur einmal ausgeführt. Sie können das Datum und die Uhrzeit der Ausführung der Komposition auswählen.
 
@@ -729,7 +729,7 @@ Wenn Sie **Täglich** auswählen, wird die Komposition einmal täglich ausgefüh
 | ---------------- | ----------- |
 | Jeden Tag | Die Komposition wird jeden Tag ausgeführt. |
 | An Wochentagen | Die Komposition wird an jedem Wochentag ausgeführt. |
-| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums jeden Tag ausgeführt. Sie können die Länge des Wiederholungszeitraums sowie das Datum festlegen, an dem der Zeitraum beginnt. |
+| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums jeden Tag ausgeführt. Sie können die Länge des Intervalls sowie das Datum festlegen, an dem der Zeitraum beginnt. |
 | Ausgewählte Wochentage | Die Komposition wird an jedem ausgewählten Wochentag ausgeführt. |
 
 Nachdem Sie ausgewählt haben, an welchem Tag des Monats der Zeitplan ausgeführt wird, können Sie **Startzeiten in der Vorschau** auswählen, um den Zeitplan der nächsten zehn Ausführungen Ihrer Komposition zu überprüfen.
@@ -772,7 +772,7 @@ Nachdem Sie die monatliche Häufigkeit ausgewählt haben, können Sie den **Tag 
 | ---------------- | ----------- |
 | Jeden Tag | Die Komposition wird jeden Tag ausgeführt. |
 | An Wochentagen | Die Komposition wird an jedem Wochentag ausgeführt. |
-| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums jeden Tag ausgeführt. Sie können die Länge des Wiederholungszeitraums sowie das Datum festlegen, an dem der Zeitraum beginnt. |
+| Über einen ausgewählten Zeitraum | Die Komposition wird während des ausgewählten Zeitraums jeden Tag ausgeführt. Sie können die Länge des Intervalls sowie das Datum festlegen, an dem der Zeitraum beginnt. |
 | Ausgewählte Wochentage | Die Komposition wird an jedem ausgewählten Wochentag ausgeführt. |
 
 Nachdem Sie den **Tag des Monats** festgelegt haben, können Sie die Startzeit auswählen. Alle Zeiten sind in der Zeitzone „UTC“ angegeben.

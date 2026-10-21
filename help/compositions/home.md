@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Erste Schritte mit Kompositionen
-description: Erfahren Sie, wie Sie mit Kompositionen beginnen
+description: Erste Schritte mit Kompositionen
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 TQID: https://experienceleague.adobe.com/-SzMG0wJnEcqFJPJZqBWKD8y22d4Z525Obe5CnyhcfE
 product_v2:
@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '765'
+ht-degree: 71%
 ---
 # Überblick über Kompositionen
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 Mit der Komposition föderierter Zielgruppen können Sie Kompositionen erstellen. Dabei können Sie verschiedene Aktivitäten in einer visuellen Arbeitsfläche nutzen, um Zielgruppen zu erstellen. Die so erstellten Zielgruppen werden in Adobe Experience Platform gespeichert und können in Experience Platform-Zielen und Adobe Journey Optimizer zum Ansprechen von Kundschaft genutzt werden.
 
-![In der Komposition föderierter Zielgruppen wird ein beispielhafter Kompositions-Workflow angezeigt.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![In der Komposition föderierter Zielgruppen wird ein beispielhafter Kompositions-Workflow angezeigt.](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Komponenten von Kompositionen {#components}
 
@@ -50,44 +50,49 @@ Eine Komposition innerhalb der Komposition föderierter Zielgruppen besteht aus 
 
 Der Zugriff auf Kompositionen erfolgt über das Menü **[!UICONTROL Zielgruppen]** in Adobe Experience Platform auf der Registerkarte **[!UICONTROL Föderierte Kompositionen]** im Abschnitt **[!UICONTROL Kundinnen und Kunden]**.
 
-Auf diesem Bildschirm können Sie neue Kompositionen erstellen und auf bestehende Kompositionen zugreifen. Sie können eine bestehende Komposition auch duplizieren oder löschen, indem Sie auf die Schaltfläche mit den ![Auslassungspunkten](/help/assets/icons/more.png) neben ihrem Namen klicken.
+![Die Schaltflächen „Federated Compositions“ und „Audiences“ sind hervorgehoben und zeigen, wie Sie auf den Abschnitt „Federated Compositions“ zugreifen können.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-Sie können auch Informationen zu den Kompositionen anzeigen, einschließlich Name, Status, Erstellerin bzw. Ersteller und Datum der letzten Änderung.
+Auf diesem Bildschirm können Sie Informationen über die Kompositionen anzeigen und neue Kompositionen erstellen.
 
-| Status | Beschreibung |
+![Die Liste der Verbundkompositionen wird angezeigt.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| Feld | Beschreibung |
+| ----- | ----------- |
+| **[!UICONTROL Name]** | Der Name der Komposition. Wenn Sie die Komposition auswählen, können Sie die Komposition bearbeiten. Weitere Informationen zum Erstellen und Bearbeiten von Kompositionen finden Sie im [Handbuch zum Erstellen einer Komposition](/help/compositions/create-composition.md). |
+| **[!UICONTROL Status]** | Der Status der Komposition. Mögliche Werte sind [!UICONTROL Entwurf], [!UICONTROL In Bearbeitung], [!UICONTROL Angehalten], [!UICONTROL Paused] und [!UICONTROL ERRORONG]. <ul><li>**[!UICONTROL Entwurf]**: Die Komposition wurde erstellt und gespeichert.</li><li>**[!UICONTROL In]**: Die Komposition wurde ausgeführt und wird derzeit ausgeführt.</li><li>**[!UICONTROL Gestoppt]**: Die Ausführung der Komposition ist abgeschlossen und wurde gestoppt.</li><li>**[!UICONTROL Paused]**: Die Ausführung der Komposition wurde angehalten.</li><li>**[!UICONTROL Fehlerhaft]**: Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Um weitere Informationen zum Fehler anzuzeigen, öffnen Sie die Komposition und greifen Sie auf die Protokolle zu.</li></ul> Um zu erfahren, wie man eine Komposition startet oder stoppt, lesen Sie das [Handbuch zur Komposition erstellen](./create-composition.md#monitor-logs). |
+| **[!UICONTROL Erstellt von]** | Name und E-Mail-Adresse der Person, die die Komposition erstellt hat. |
+| **[!UICONTROL Geändert]** | Datum und Uhrzeit der letzten Aktualisierung der Komposition. |
+
+Sie können auch Schnellaktionen für die Kompositionen durchführen, indem Sie auf die Schaltfläche ![Ellipsen](/help/assets/icons/more.png) neben dem Namen klicken.
+
+| Aktion | Beschreibung |
 | ------ | ----------- |
-| **[!UICONTROL Entwurf]** | Die Komposition wurde erstellt und gespeichert. |
-| **[!UICONTROL In Bearbeitung]** | Die Ausführung der Komposition wurde gestartet und läuft derzeit. |
-| **[!UICONTROL Gestoppt]** | Die Ausführung der Komposition ist abgeschlossen und wurde gestoppt. |
-| **[!UICONTROL Ausgesetzt]** | Die Ausführung der Komposition wurde angehalten. |
-| **[!UICONTROL Fehlerhaft]** | Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Um weitere Informationen zum Fehler anzuzeigen, öffnen Sie die Komposition und greifen Sie auf die Protokolle zu. |
-
-Weitere Informationen zum Starten oder Stoppen einer Komposition finden Sie im [Handbuch zum Erstellen einer Komposition](./create-composition.md#monitor-logs).
-
-![Eine Liste der verfügbaren Kompositionen wird angezeigt.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL Duplikat]** | Dupliziert die ausgewählte Komposition. |
+| **[!UICONTROL Löschen]** | Löscht die ausgewählte Komposition. |
+| **[!UICONTROL Zu Paket hinzufügen]** | Verschiebt die Komposition zwischen Sandboxes. Weitere Informationen zu dieser Funktion finden Sie im [Handbuch zu Sandbox-Tools](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Um die Liste einzugrenzen und die gesuchte Komposition zu finden, können Sie die Liste durchsuchen und Kompositionen nach ihrem Status oder dem letzten Verarbeitungsdatum filtern.
 
 Sie können die Liste auch anpassen, indem Sie Spalten hinzufügen oder entfernen. Wählen Sie dazu die Schaltfläche **[!UICONTROL Spalten konfigurieren]** aus und fügen Sie die gewünschten Ausgabespalten hinzu oder entfernen Sie sie.
 
-![Eine Liste der verfügbaren Spalten wird angezeigt, die Sie der Seite zum Durchsuchen von Kompositionen hinzufügen können.](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![Eine Liste der verfügbaren Spalten wird angezeigt, die Sie der Seite zum Durchsuchen von Kompositionen hinzufügen können.](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Anwenden von Zugriffs-Labels {#access-labels}
 
 Um Zugriffs-Labels auf eine bestimmte Komposition anzuwenden, wählen Sie die Komposition und dann **[!UICONTROL Zugriff verwalten]** aus.
 
-![Die Schaltfläche „Zugriff verwalten“ wird auf der Arbeitsfläche der Komposition hervorgehoben.](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![Die Schaltfläche „Zugriff verwalten“ wird auf der Arbeitsfläche der Komposition hervorgehoben.](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 Das Popup-Fenster **[!UICONTROL Zugriff verwalten]** wird angezeigt. Auf dieser Seite können Sie die entsprechenden Zugriffs- und Data-Governance-Labels auf Ihre Komposition anwenden.
 
-![Das Popup-Fenster „Zugriff verwalten“ wird angezeigt. Hier wird eine Liste aller verfügbaren Labels angezeigt, die Sie auf die Komposition anwenden können.](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![Das Popup-Fenster „Zugriff verwalten“ wird angezeigt. Hier wird eine Liste aller verfügbaren Labels angezeigt, die Sie auf die Komposition anwenden können.](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Label-Typ | Beschreibung |
 | ---------- | ----------- |
 | Vertrags-Labels | Vertrags-Labels (Contract Labels, C-Labels) dienen der Kategorisierung von Daten, die vertragliche Bestimmungen aufweisen oder mit Data-Governance-Richtlinien Ihrer Organisation in Zusammenhang stehen. |
 | Identitäts-Labels | Identitäts-Labels (I-Labels) dienen der Kategorisierung von Daten, mit denen eine bestimmte Person identifiziert oder kontaktiert werden kann. |
-| Labels für sensible Daten | Labels für sensible Daten (Sensitive Labels, S-Labels) dienen dazu, Sie und/oder Ihr Unternehmen als sensibel zu kategorisieren. |
-| Partner-Ökosystem-Labels | Partner-Ökosystem-Labels dienen der Kategorisierung von Daten aus externen Quellen für Ihr Unternehmen. |
+| Labels für sensible Daten | Labels für sensible Daten (Sensitive Labels, S-Labels) dienen der Kategorisierung von Daten, die Sie und/oder Ihre Organisation als sensibel betrachten. |
+| Partner-Ökosystem-Labels | Partner-Ökosystem-Labels dienen der Kategorisierung von Daten aus Quellen außerhalb Ihrer Organisation. |
 
 Weitere Informationen zu Zugriff und Data-Governance-Labels finden Sie im [Glossar zu Datennutzungs-Labels](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/labels/reference).
 
