@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # Versionshinweise
 
 [!DNL Federated Audience Composition] bietet kontinuierlich neue Funktionen, Verbesserungen vorhandener Funktionen und Fehlerbehebungen. Alle Änderungen sind in diesen Versionshinweisen konsolidiert. [!DNL Federated Audience Composition] setzt nativ auf [!DNL Adobe Experience Platform] auf und profitiert von den neuesten Innovationen und Verbesserungen. Weitere Informationen zu diesen Änderungen finden Sie in den [Versionshinweisen zu Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=de){target="_blank"}.
+
+## Version September &#39;26 {#fac-26-09}
+
+Die September-Version für Federated Audience Komposition unterstützt die folgenden Funktionen:
+
+| Neues einheitliches Erlebnis für Federated Connections und Schemas |
+| --- |
+| Sie können jetzt direkt in der Adobe Experience Platform-Benutzeroberfläche auf Federated Connections und Schemas zugreifen. Um zu erfahren, wie Sie Federated Connections erstellen, lesen Sie [Erstellen von Verbindungen im Handbuch zur Experience Platform-Benutzeroberfläche](/help/connections/integrated.md). Informationen zum Erstellen von Schemata finden Sie unter [Schemata - Übersicht](/help/data-modelling/schemas-integrated.md). |
+
+| Unterstützung von Sandbox-Tools für Zielgruppen mit zusammengeführter Zielgruppenkomposition |
+| --- |
+| Sie können jetzt die Sandbox-Tooling-Funktion von Experience Platform verwenden, um Zielgruppen mit Federated Audience Composition von einer Sandbox in eine andere zu verschieben. Weitere Informationen zur Verwendung des Sandbox-Tools finden Sie im [Handbuch zum Sandbox-Tool](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+
+### Verbesserungen {#fac-26-09-improvements}
+
+Diese Version umfasst die folgende Verbesserung.
+
+- **Zunahme des Datenablaufs für Zielgruppen mit zusammengeführter Zielgruppenkomposition**
+
+  Der Datenablauf für Zielgruppen mit zusammengeführter Zielgruppenkomposition wurde jetzt auf 3.650 Tage (10 Jahre) erhöht.
 
 ## Version Juli 2026 {#fac-26-07}
 
