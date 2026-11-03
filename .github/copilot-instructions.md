@@ -22,7 +22,7 @@ Die Arbeit, sagen Sie genau, was und was rückgängig gemacht wird, und stoppen.
 
 ### Benutzerfokussiertes Schreiben
 
-Zentrieren Sie den Benutzer, nicht die Funktion. Schreiben Sie, was der Benutzer tun ****, nicht, was die Funktion tut.
+Zentrieren Sie den Benutzer, nicht die Funktion. Schreiben Sie, was der Benutzer tun **&#x200B;**, nicht, was die Funktion tut.
 
 - Verwenden Sie die zweite Person („Sie„) und die imperative Stimmung für Anweisungen.
 - Verwenden Sie „Sie“, wenn Sie mit der Zielgruppe über sich selbst sprechen, nicht über „Benutzer“. „Benutzer“ ist
@@ -110,7 +110,7 @@ Navigationselemente, Seitennamen, Optionen, Felder und Registerkarten, wie in de
 
 - Fett in Schritten und Navigation: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Kursiv kann aus Gründen der Klarheit im konzeptionellen Text (ohne Schritt) verwendet werden.
-- In HTML-Tabellen: `<span class="uicontrol">term</span>` anstelle von `` verwenden.
+- In HTML-Tabellen: `<span class="uicontrol">term</span>` anstelle von &grave;&grave; verwenden.
 - Im Link-Text: Entfernen Sie die Tag-Klammern.
 - Die Groß-/Kleinschreibung muss exakt mit der Schnittstelle übereinstimmen.
 - Wenden Sie sich NICHT auf konzeptionell verwendete allgemeine Begriffe („Segment“, „Metrik“, „Kampagne„) an, es sei denn,
@@ -131,7 +131,7 @@ Wird nicht in Code-Blöcken benötigt; diese sind standardmäßig nicht lokalisi
 
 - Kann verwendet werden in: Absätzen, Listen, Überschriften, Tabellen, Abzeichen, Alternativtext und Metadaten.
 - Kann nicht verwendet werden in: Codeblöcken, Akronymen.
-- Wenn ein Metadatenfeld mit einem `[!DNL]`- oder `` beginnt, schließen Sie das gesamte Feld ein
+- Wenn ein Metadatenfeld mit einem `[!DNL]`- oder &grave;&grave; beginnt, schließen Sie das gesamte Feld ein
 Wert in Anführungszeichen gesetzt oder Validierung schlägt fehl.
 
 ## &#x200B;3. Terminologie und Branding
@@ -438,10 +438,10 @@ von Suchmaschinen mit `hide: true` in frontmatter.
 - Amerikanisch Englisch Rechtschreibung: Farbe, erkennen, Lizenz, während, Gültigkeit, Meter, unter
 (Nicht farbig, erkennen, lizenzieren, während, Ablauf, Meter, unter).
 - Anführungszeichen für Anführungszeichen für Personen reservieren; UI-Zeichenfolgen nicht zitieren (fett + verwenden)
-  ``).
+  &grave;&grave;).
 - Begriffe, die als Begriffe verwendet werden (*profile*, nicht „profile„) kursiv formatieren. Backticks für Code verwenden,
 Parameter, Dateinamen und eingegebenen Text.
-- Fett nur für Benutzeroberflächenelemente in Prozeduren (mit ``) und Schlüsselbegriffen am Anfang
+- Fett nur für Benutzeroberflächenelemente in Prozeduren (mit &grave;&grave;) und Schlüsselbegriffen am Anfang
 Einführung.
 - Keine Semikolons, keine Aem/en-Bindestriche/Bindestriche in der Prosa, keine horizontalen Regeln (siehe Abschnitt 1).
 
@@ -453,7 +453,7 @@ Bevor Sie eine Bearbeitung abschließen, überprüfen Sie:
 - Sätze ≤20 Worte, Absätze ≤125 Worte
 - Überschriften: Groß-/Kleinschreibung des Satzes, ≤5 Wörter/69 Zeichen, gefolgt von Textkörper, keine übersprungenen Ebenen
 - Korrekte Produktnamen und Formulare; keine veralteten, schreibgeschützten oder nicht-integrativen Begriffe
-- `` für jedes Benutzeroberflächenelement in Schritten; `[!DNL]` für jeden Produkt-/Drittanbieternamen
+- &grave;&grave; für jedes Benutzeroberflächenelement in Schritten; `[!DNL]` für jeden Produkt-/Drittanbieternamen
 - Keine Tags in Code-Blöcken; gekennzeichnete Metadatenfelder werden in Anführungszeichen eingeschlossen
 - Korrekte Ermahnungssyntax, konsistente Listenmarkierungen, keine Aufgabenlisten, keine horizontalen Regeln
 - Alternativtext ist beschreibend und vollständig; kein „hier klicken“; keine räumliche/gerichtete Sprache
