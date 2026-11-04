@@ -42,7 +42,7 @@ Filterkomponenten ermöglichen es Ihnen, eine Abfrage mithilfe von folgenden Fil
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_customcondition"
 >title="Benutzerdefinierte Bedingung"
->abstract="Bei benutzerdefinierten Bedingungen handelt es sich um Filterkomponenten zum Filtern einer Abfrage, mit der Sie Ihre eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellen."
+>abstract="Bei benutzerdefinierten Bedingungen handelt es sich um Filterkomponenten zum Filtern einer Abfrage, mit der eine eigene Bedingung mit Attributen aus der Datenbank und erweiterten Ausdrücken erstellt wird."
 
 Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung zu filtern:
 
@@ -62,22 +62,22 @@ Gehen Sie wie folgt vor, um Ihre Abfrage mit einer benutzerdefinierten Bedingung
 
    | Operator | Zweck | Beispiel |
    |  ---  |  ---  |  ---  |
-   | Gleich | Die zurückgegebenen Daten stimmen vollständig mit dem in der zweiten Spalte angegebenen Wert überein. | Nachname (@lastName) gleich &#39;Müller&#39; gibt nur die Empfängerinnen und Empfänger mit dem Nachnamen „Müller“ unter Beachtung der genauen Schreibung zurück. |
-   | Ungleich | Die ausgegebenen Daten unterscheiden sich vom angegebenen Wert. | Sprache (@language) ungleich &#39;Englisch&#39; |
-   | Größer als | Die ausgegebenen Daten übersteigen den angegebenen Wert. | Alter (@age) größer als &#39;50&#39;</strong> gibt nur die Werte von mehr als &#39;50&#39; Jahren zurück (also &#39;51&#39;, &#39;52&#39; usw.). |
+   | Gleich | Die zurückgegebenen Daten stimmen vollständig mit dem in der zweiten Spalte angegebenen Wert überein. | „Nachname (@lastName) gleich ‚Jones‘“ gibt nur die Empfängerinnen und Empfänger mit dem Nachnamen „Jones“ zurück. |
+   | Ungleich | Es werden alle Werte zurückgegeben, die nicht mit dem eingegebenen Wert identisch sind. | Sprache (@language) gleich „Englisch“ |
+   | Größer als | Es wird ein Wert zurückgegeben, der größer ist als der eingegebene Wert. | Alter (@age) größer als &#39;50&#39;</strong> gibt nur die Werte von mehr als &#39;50&#39; Jahren zurück (also &#39;51&#39;, &#39;52&#39; usw.). |
    | Kleiner als | Der ausgegebene Wert unterschreitet den eingegebenen Wert. | Erstellungsdatum (@created) weniger als &#39;DaysAgo(100)&#39;</strong> gibt alle Kontakte zurück, die vor weniger als 100 Tagen angelegt wurden. |
    | Größer oder gleich | Die ausgegebenen Daten sind identisch mit oder übersteigen den angegebenen Wert. | Alter (@age) größer oder gleich &#39;30&#39;</strong> gibt alle Empfängerinnen und Empfänger ab 30 Jahre zurück. |
    | Kleiner oder gleich | Die ausgegebenen Daten sind identisch mit oder unterschreiten den angegebenen Wert. | Alter (@age) kleiner oder gleich &#39;60&#39;</strong> gibt alle Empfängerinnen und Empfänger unter 60 Jahren zurück. |
-   | Eingeschlossen in | Die ausgegebenen Daten sind in den angegebenen Werten enthalten. Die Werte werden durch Kommata getrennt. | Geburtsdatum (@birthDate) ist enthalten in &#39;12/10/1979,12/10/1984&#39; gibt die Empfängerinnen und Empfänger zurück, die zwischen diesen beiden Daten geboren wurden. |
-   | Nicht enthalten | Negative Form des Operators „ist enthalten in“. Die den angegebenen Werten entsprechenden Daten werden aus dem Ergebnis ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Im Gegensatz zum vorherigen Beispiel werden zwischen diesen beiden Daten geborene Empfängerinnen und Empfänger nicht zurückgegeben. |
-   | Ist leer | Die ausgegebenen Daten enthalten keinen Wert in der entsprechenden Spalte. | „Mobiltelefon (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
+   | Eingeschlossen in | Gibt Ergebnisse zurück, die in den angegebenen Werten enthalten sind. Die Werte werden durch Kommata getrennt. | Geburtsdatum (@birthDate) ist enthalten in „12/10/1979,12/10/1984“, gibt die Empfängerinnen und Empfänger zurück, die zwischen diesen beiden Daten geboren wurden. |
+   | Nicht enthalten | Funktioniert wie der Operator „ist enthalten in“. Die den angegebenen Werten entsprechenden Daten werden aus dem Ergebnis ausgeschlossen. | Das Geburtsdatum (@birthDate) ist nicht in &#39;12/10/1979,12/10/1984&#39; enthalten. Im Gegensatz zum vorherigen Beispiel werden zwischen diesen beiden Daten geborene Empfängerinnen und Empfänger nicht zurückgegeben. |
+   | Ist leer | In diesem Fall entspricht das gesuchte Ergebnis einem leeren Wert in der zweiten Spalte „Wert“. | „Mobile (@mobilePhone) ist leer“ gibt alle Empfängerinnen und Empfänger zurück, die keine Mobiltelefonnummer haben. |
    | Ist nicht leer | Negative Form des Operators „Ist leer“. Auch hier wird in der Spalte „Wert“ nichts angegeben. | E-Mail (@email) ist nicht leer. |
-   | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Kundennummer (@account) beginnt mit &#39;32010&#39;. |
-   | Beginnt nicht mit | Die ausgegebenen Daten beginnen nicht mit dem angegebenen Wert. | Kundennummer (@account) beginnt nicht mit &#39;20&#39; |
+   | Beginnt mit | Die ausgegebenen Daten beginnen mit dem angegebenen Wert. | Konto-Nr. (@account) beginnt mit „32010“. |
+   | Beginnt nicht mit | Die ausgegebenen Daten beginnen nicht mit dem angegebenen Wert. | Account-Nr. (@account) beginnt nicht mit „20“ |
    | Enthält | Die zurückgegebenen Daten enthalten den angegebenen Wert. | E-Mail-Domain (@domain) enthält „mail“</strong>. Nur E-Mail-Domains, die den Wert „mail“ enthalten, werden ausgegeben. Die Domain „gmail.com“ wird also ebenfalls zurückgegeben. |
    | Enthält nicht | Die ausgegebenen Daten enthalten den angegebenen Wert nicht. | E-Mail-Domain (@domain) enthält nicht „vo“</strong>. In diesem Fall werden Domain-Namen, die „vo“ enthalten, nicht zurückgegeben. Die Domain „voila.fr“ erscheint nicht in den Ergebnissen. |
-   | Ist wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) ist wie &#39;Me%er&#39;. Der Platzhalter wird hier wie ein „Joker“ verwendet. In diesem Fall werden alle Empfängerinnen und Empfänger ausgegeben, deren Nachname z. B. „Meyer“ oder „Meier“ lautet. |
-   | Ist nicht wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) nicht wie „Schmi%t“. Hier werden die Empfängerinnen und Empfänger, deren Nachname „Schmi%t“ lautet, also etwa „Schmidt“ oder „Schmitt“, nicht zurückgegeben. |
+   | Ist wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) entspricht „Jon%s“. Der Platzhalter wird hier wie ein „Joker“ verwendet. In diesem Fall werden alle Empfängerinnen und Empfänger ausgegeben, deren Nachname z. B. „Meyer“ oder „Meier“ lautet. |
+   | Ist nicht wie | „Ist wie“ erzielt ähnliche Ergebnisse wie der Operator „Enthält“. Sie können ein Platzhalterzeichen (%) in den Wert einfügen. | Nachname (@lastName) entspricht nicht „Smi%h“. Hier werden die Empfängerinnen und Empfänger, deren Nachname „Smi%h“ lautet, nicht zurückgegeben. |
 
    +++
 
@@ -93,11 +93,11 @@ Mit benutzerdefinierten Bedingungen können Sie Tabellen abfragen, die mit der a
 
 Navigieren Sie bei einer **1:1-Relation** zur verknüpften Tabelle, wählen Sie das gewünschte Attribut aus und definieren Sie den erwarteten Wert.
 
-Sie können auch direkt eine Tabellenverknüpfung in der Auswahl **[!UICONTROL Wert]** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mit einer speziellen Auswahl ausgewählt werden, wie im folgenden Beispiel gezeigt.
+Sie können auch direkt eine Tabellenverknüpfung in der Auswahl **[!UICONTROL Wert]** auswählen und bestätigen. In diesem Fall müssen die für die ausgewählte Tabelle verfügbaren Werte mit einem speziellen Auswahlfeld ausgewählt werden, wie im folgenden Beispiel gezeigt.
 
 +++Abfragebeispiel
 
-Hier geht es bei der Abfrage um Marken mit der Bezeichnung „Laufen“.
+Hier zielt die Abfrage auf Marken ab, deren Label „running“ ist.
 
 1. Navigieren Sie durch die Tabelle **[!UICONTROL Marke]** und wählen Sie das Attribut **[!UICONTROL Titel]**.
 
@@ -117,7 +117,7 @@ Für eine **1:n-Relation** können Sie Unterbedingungen definieren, um Ihre Abfr
 
 +++Abfragebeispiel
 
-In unserem Beispiel zielt die Abfrage auf Empfängerinnen und Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe getätigt haben, und zwar für einen Gesamtbetrag von mindestens 100 USD.
+Hier zielt die Abfrage auf Empfängerinnen und Empfänger ab, die im Zusammenhang mit dem BrewMaster-Produkt Einkäufe für einen Gesamtbetrag von mindestens 100 US-Dollar getätigt haben.
 
 1. Wählen Sie die Tabelle **[!UICONTROL Käufe]** und bestätigen Sie.
 
@@ -239,7 +239,7 @@ Im folgenden Beispiel haben wir eine Zwischengruppe erstellt, um Ergebnisse aus 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Regeleigenschaften"
->abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der Zieleinträge überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
+>abstract="Nachdem Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie sie rechts im Bereich **[!UICONTROL Regeleigenschaften]** überprüfen.<br/>In diesem Bereich können Sie die resultierenden Daten anzeigen, eine SQL-Code-Version der Abfrage abrufen und die Anzahl der als Ziel ausgewählten Einträge überprüfen.<br/>Über die Schaltfläche **[!UICONTROL Filter auswählen oder speichern]** können Sie Ihre Abfrage als vordefinierten Filter speichern oder den Arbeitsflächeninhalt durch einen vorhandenen Filter ersetzen."
 
 Sobald Sie Ihre Abfrage auf der Arbeitsfläche erstellt haben, können Sie diese im Bereich **[!UICONTROL Regeleigenschaften]** auf der rechten Seite überprüfen. Dieser Bereich wird angezeigt, wenn Sie eine Abfrage zum Erstellen einer Zielgruppe erstellen. Verfügbare Vorgänge sind:
 
