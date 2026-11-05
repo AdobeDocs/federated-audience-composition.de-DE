@@ -14,7 +14,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1286'
 ht-degree: 100%
 ---
@@ -34,7 +34,7 @@ Diese Dienste lassen sich in drei Kategorien einteilen:
 
 ## Data Governance {#data-governance}
 
-Sie können Data Governance nutzen, um die Daten Ihrer Kundinnen und Kunden zu verwalten und zu identifizieren. So können sie sicherstellen, dass die Daten ordnungsgemäß gekennzeichnet sind, damit sie die von Ihrem Unternehmen oder gesetzlichen Vorschriften festgelegten Einschränkungen erfüllen.
+Sie können Data Governance nutzen, um die Daten Ihrer Kundinnen und Kunden zu verwalten und zu identifizieren und sicherzustellen, dass sie ordnungsgemäß mit Labels versehen sind, damit die von Ihrem Unternehmen oder durch gesetzliche Vorschriften festgelegten Einschränkungen eingehalten werden.
 
 ### Datennutzungs-Labels {#data-usage-labels}
 
@@ -44,13 +44,13 @@ Weitere Informationen zur Verwendung von Daten-Labels in Kompositionen föderier
 
 ## Datenschutz
 
-Die Komposition föderierter Zielgruppen stellt die föderierten Daten für Adobe Experience Platform und Adobe Journey Optimizer bereit und stellt sicher, dass der Schutz der Benutzerdaten gewahrt bleibt.
+Die Komposition föderierter Zielgruppen stellt die föderierten Daten für Adobe Experience Platform und Adobe Journey Optimizer bereit und stellt sicher, dass der Datenschutz der Benutzerdaten gewahrt bleibt.
 
 ### Privacy Service {#privacy-service}
 
 Da die Komposition föderierter Zielgruppen **keine** Kundendaten aus einem der Data Warehouses speichert, können Sie Adobe Experience Platform Privacy Service für die Bearbeitung von Anfragen betroffener Personen sowie von Anfragen zum Löschen von Daten verwenden.
 
-Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock „Speichern“ auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Diese externe Zielgruppe ist mit ihrem Identitätsfeld und Identity-Namespace gekennzeichnet. Daher können Sie Privacy Service verwenden, um mit einer externen Zielgruppe auf diese Profile zuzugreifen und sie zu entfernen.
+Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock „Speichern“ auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Diese externe Zielgruppe ist mit ihrem Identitätsfeld und Identity-Namespace gekennzeichnet. Daher können Sie Privacy Service verwenden, um auf die Profile einer externen Zielgruppe zuzugreifen und sie zu entfernen.
 
 Alternativ wird nach dem Erstellen einer Profilanreicherung mithilfe der Aktivität „Profil speichern“ auf der Arbeitsfläche für die Komposition die resultierende Anreicherung in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Diese Anreicherungsdaten werden mit einem Identitätsfeld und einem Identity-Namespace gekennzeichnet. Daher können Sie mit Privacy Service auf diese Profile zugreifen und sie bereinigen.
 
@@ -58,7 +58,7 @@ Weiterführende Informationen zu Privacy Service finden Sie in der [Übersicht z
 
 ### Datenschutzanfragen {#privacy-requests}
 
-In Privacy Service können Sie individuelle Datenschutzanfragen für den Zugriff auf und die Löschung von Kundendaten aus der Komposition föderierter Zielgruppen von Adobe erstellen und verwalten. Privacy Service bietet sowohl eine [Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"} als auch ein [RESTful-API](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/overview){target="_blank"}, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen.
+In Privacy Service können Sie individuelle Datenschutzanfragen für den Zugriff auf und die Löschung von Kundendaten aus der Komposition föderierter Zielgruppen erstellen und verwalten. Privacy Service bietet sowohl eine [Benutzeroberfläche](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=de){target="_blank"} als auch ein [RESTful-API](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/api/overview){target="_blank"}, die Sie bei der Verwaltung von Kundendatenanfragen unterstützen.
 
 Weiterführende Informationen zum Erstellen und Verwalten von Datenschutzanfragen finden Sie unter [„Datenschutzaufträge“ im Handbuch zur Privacy Service-Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
@@ -68,7 +68,7 @@ Die Komposition föderierter Zielgruppen bietet über Experience Platform Tools,
 
 Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock „Speichern“ auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Experience Platform unterstützt bei der Aktivierung automatisch die Validierung des Einverständnisses. Weiterführende Informationen finden Sie unter [Häufig gestellte Fragen zum Segmentierungs-Service](https://experienceleague.adobe.com/de/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
 
-Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung erstellt haben, mithilfe der Aktivität „Profil speichern“ auf der Arbeitsfläche für die Komposition in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Bei vorhandenen Profilen werden verfügbare Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Bei neuen Profilen werden die während der Profilaufnahme bereitgestellten Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Weiterführende Informationen zur Anwendung von Einverständnissen auf Profile finden Sie im [Handbuch zu den Einverständnis- und Voreinstellungsfeldergruppen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
+Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung erstellt haben, mithilfe der Aktivität „Profil speichern“ auf der Arbeitsfläche für die Komposition in Experience Platform als profilaktiviertes Schema und profilaktivierten Datensatz gespeichert. Bei vorhandenen Profilen werden verfügbare Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Bei neuen Profilen werden die während der Profilaufnahme bereitgestellten Einverständnisattribute bei der Aktivierung automatisch berücksichtigt. Weiterführende Informationen zur Anwendung von Einverständnissen auf Profile finden Sie im [Handbuch zu den Einverständnis- und Voreinstellungsfeldergruppen](https://experienceleague.adobe.com/de/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
 
 Weiterführende Informationen zur Anwendung von Einverständnissen finden Sie im [UI-Handbuch zur Verwaltung von Einverständnissen](https://experienceleague.adobe.com/de/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
 
@@ -78,7 +78,7 @@ Da die Komposition föderierter Zielgruppen **keine** Kundendaten aus einem der 
 
 Wenn Sie beispielsweise eine Zielgruppe mit dem Aktivitätsblock „Speichern“ auf der Arbeitsfläche für die Komposition erstellen, wird die resultierende Zielgruppe im Data Lake in Experience Platform als externe Zielgruppe gespeichert. Da diese Daten **nicht** in der Komposition föderierter Zielgruppen gespeichert werden, werden die Zielgruppendaten und die entsprechenden Datensätze automatisch gelöscht, wenn die Zielgruppe im Zielgruppenportal gelöscht wird.
 
-Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung erstellt haben, mithilfe der Aktivität „Profil speichern“ auf der Arbeitsfläche für die Komposition in Experience Platform als profilaktiviertes Schema und profilaktivierter Datensatz gespeichert. Dadurch können Sie über den Datenlebenszyklus auf die Profile zugreifen und sie bereinigen.
+Alternativ wird die resultierende Anreicherung, nachdem Sie eine Profilanreicherung erstellt haben, mithilfe der Aktivität „Profil speichern“ auf der Arbeitsfläche für die Komposition in Experience Platform als profilaktiviertes Schema und profilaktivierten Datensatz gespeichert. Dadurch können Sie über den Datenlebenszyklus auf die Profile zugreifen und sie bereinigen.
 
 Weiterführende Informationen zur Verwendung des Datenlebenszyklus finden Sie im [Überblick über den Datenlebenszyklus](https://experienceleague.adobe.com/de/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
