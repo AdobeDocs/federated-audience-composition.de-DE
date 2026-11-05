@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Privacy
 touch: edit
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3969'
 ht-degree: 100%
 ---
@@ -167,7 +167,7 @@ Wenn Sie **Service-Prinzipal-Authentifizierung** auswählen, können Sie die fol
 | ----- | ----------- |
 | Server | Der Name des Databricks-Servers. |
 | Client-ID | Die Client-ID Ihres Databricks-Servers. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis Ihres Databricks-Servers. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis Ihres Databricks-Servers. Dieses Feld dient als Passwort für das Projekt. |
 
 Wenn Sie **OAuth 2.0** auswählen, können Sie die folgenden Informationen hinzufügen:
 
@@ -183,7 +183,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | Feld | Beschreibung |
 | ----- | ----------- |
 | HTTP-Pfad | Der Pfad zu Ihrem Cluster oder Warehouse. Weitere Informationen zum Pfad finden Sie in der [Databricks-Dokumentation zu Verbindungsdetails](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
-| Catalog | Der Name des Databricks-Katalogs. Weitere Informationen zu Katalogen in Databricks finden Sie in der [Databricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
+| Katalog | Der Name des Databricks-Katalogs. Weitere Informationen zu Katalogen in Databricks finden Sie in der [Databricks-Dokumentation zu Katalogen](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
 | Arbeitsschema | Der Name des Datenbankschemas, das für Arbeitstabellen verwendet werden soll. <br/><br/>**Hinweis:** Sie können **jedes** Schema aus der Datenbank verwenden, einschließlich Schemata, die für die temporäre Datenverarbeitung verwendet werden, sofern Sie über die erforderlichen Berechtigungen zum Herstellen einer Verbindung mit diesem Schema verfügen. Sie **müssen** jedoch unterschiedliche Arbeitsschemata verwenden, wenn Sie mehrere Sandboxes mit derselben Datenbank verbinden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
 
@@ -216,7 +216,7 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Client-ID | Die Client-ID aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für das Projekt. |
 | Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
@@ -229,7 +229,7 @@ Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hi
 | ----- | ----------- |
 | Projekt | Die ID Ihres Projekts. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Projekten](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Datensatz | Der Name des Datensatzes. Weitere Informationen finden Sie unter [Dokumentation zu Google Cloud-Datensätzen](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
-| Pfad der Schlüsseldatei | Die Schlüsseldatei für den Server. Es werden nur `json`-Dateien unterstützt. |
+| Schlüsseldateipfad | Die Schlüsseldatei für den Server. Es werden nur `json`-Dateien unterstützt. |
 | Speicherort für den Google-Bucket | Der Speicherort Ihres Google Buckets. Sie müssen dieses Feld nur hinzufügen, wenn Sie die Aktivität **Dimension ändern** in Ihrer Komposition verwenden. Weitere Informationen finden Sie in der [Dokumentation zu den Google Cloud-Bucket-Speicherorten](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | REST-API-Connector verwenden | Ein Schalter, mit dem der REST-API-Connector verwendet werden kann. Diese Option ist **nur** verfügbar, wenn Sie die Authentifizierung mit Konto und Passwort verwenden. |
 | Optionen | Zusätzliche Optionen für die Verbindung. Die verfügbaren Optionen sind in der folgenden Tabelle aufgeführt. |
@@ -314,7 +314,7 @@ Wenn Sie **[!UICONTROL OAuth 2.0]** auswählen, können Sie die folgenden Anmel
 | ----- | ----------- |
 | Server | Der Name des Servers. |
 | Client-ID | Die Client-ID aus Ihrem Snowflake-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für das Projekt. |
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 

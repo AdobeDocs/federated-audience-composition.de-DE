@@ -17,7 +17,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4385'
 ht-degree: 100%
 ---
@@ -47,7 +47,7 @@ Die Komposition föderierter Zielgruppen in Experience Platform ermöglicht es I
 
 >[!CONTEXTUALHELP]
 >id="platform_sources_snowflake_keyfilepath"
->title="Pfad der Schlüsseldatei"
+>title="Schlüsseldateipfad"
 >abstract="Temporärer leerer Inhalt."
 
 Um mit Ihrer föderierten Datenbank und Adobe Experience Platform zu arbeiten, müssen Sie zunächst eine Verbindung zwischen den beiden Quellen herstellen. Mit der Komposition föderierter Zielgruppen können Sie eine Verbindung zu den folgenden Datenbanken herstellen.
@@ -182,7 +182,7 @@ Wenn Sie **[!UICONTROL Einfache Authentifizierung]** auswählen, können Sie die
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Server | Der Name des DataBricks-Servers. |
-| Kennwort | Das Zugriffstoken für den DataBricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [DataBricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+| Passwort | Das Zugriffstoken für den DataBricks-Server. Weitere Informationen zu diesem Wert finden Sie in der [DataBricks-Dokumentation zu persönlichen Zugriffstoken](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
 
 Wenn Sie **[!UICONTROL OAuth2-Authentifizierungs-Code]** auswählen, können Sie die folgenden Informationen hinzufügen:
 
@@ -199,7 +199,7 @@ Wenn Sie **[!UICONTROL Service-Prinzipal-Authentifizierung]** auswählen, könne
 | ----- | ----------- |
 | Server | Der Name des DataBricks-Servers. |
 | Client-ID | Die Client-ID Ihres DataBricks-Servers. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis Ihres DataBricks-Servers. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis Ihres DataBricks-Servers. Dieses Feld dient als Passwort für das Projekt. |
 
 Nach der Eingabe Ihrer Anmeldeinformationen können Sie die folgenden Details hinzufügen:
 
@@ -239,7 +239,7 @@ Wenn Sie **[!UICONTROL OAuth2-Autorisierungs-Code]** auswählen, können Sie die
 | Feld | Beschreibung |
 | ----- | ----------- |
 | Client-ID | Die Client-ID aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Google BigQuery-Projekt. Dieses Feld dient als Passwort für das Projekt. |
 | Zugriffsumfang | Vorausgefüllte Informationen, die die Bereiche auflisten, für die Ihr OAuth-Token in Ihren Google Cloud-Ressourcen autorisiert ist. |
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
@@ -337,7 +337,7 @@ Wenn Sie **[!UICONTROL OAuth2-Autorisierungs-Code]** auswählen, können Sie die
 | ----- | ----------- |
 | Server | Der Name des Servers. |
 | Client-ID | Die Client-ID aus Ihrem Snowflake-Projekt. Dieses Feld dient als Benutzername für Ihr Projekt. |
-| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für Ihr Projekt. |
+| Client-Geheimnis | Das Client-Geheimnis aus Ihrem Snowflake-Projekt. Dieses Feld dient als Passwort für das Projekt. |
 
 Wählen Sie **[!UICONTROL Anmelden]** aus, um Ihre Authentifizierung abzuschließen.
 

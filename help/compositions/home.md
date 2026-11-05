@@ -15,9 +15,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 71%
+ht-degree: 100%
 ---
 # Überblick über Kompositionen
 
@@ -50,24 +50,24 @@ Eine Komposition innerhalb der Komposition föderierter Zielgruppen besteht aus 
 
 Der Zugriff auf Kompositionen erfolgt über das Menü **[!UICONTROL Zielgruppen]** in Adobe Experience Platform auf der Registerkarte **[!UICONTROL Föderierte Kompositionen]** im Abschnitt **[!UICONTROL Kundinnen und Kunden]**.
 
-![Die Schaltflächen „Federated Compositions“ und „Audiences“ sind hervorgehoben und zeigen, wie Sie auf den Abschnitt „Federated Compositions“ zugreifen können.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
+![Die Schaltflächen für föderierte Kompositionen und Zielgruppen sind hervorgehoben und zeigen, wie der Zugriff auf den Abschnitt „Föderierte Kompositionen“ erfolgt.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-Auf diesem Bildschirm können Sie Informationen über die Kompositionen anzeigen und neue Kompositionen erstellen.
+Über diesen Bildschirm können Sie Informationen zu den Kompositionen anzeigen und neue Kompositionen erstellen.
 
-![Die Liste der Verbundkompositionen wird angezeigt.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+![Die Liste der föderierten Kompositionen wird angezeigt.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
 
 | Feld | Beschreibung |
 | ----- | ----------- |
-| **[!UICONTROL Name]** | Der Name der Komposition. Wenn Sie die Komposition auswählen, können Sie die Komposition bearbeiten. Weitere Informationen zum Erstellen und Bearbeiten von Kompositionen finden Sie im [Handbuch zum Erstellen einer Komposition](/help/compositions/create-composition.md). |
-| **[!UICONTROL Status]** | Der Status der Komposition. Mögliche Werte sind [!UICONTROL Entwurf], [!UICONTROL In Bearbeitung], [!UICONTROL Angehalten], [!UICONTROL Paused] und [!UICONTROL ERRORONG]. <ul><li>**[!UICONTROL Entwurf]**: Die Komposition wurde erstellt und gespeichert.</li><li>**[!UICONTROL In]**: Die Komposition wurde ausgeführt und wird derzeit ausgeführt.</li><li>**[!UICONTROL Gestoppt]**: Die Ausführung der Komposition ist abgeschlossen und wurde gestoppt.</li><li>**[!UICONTROL Paused]**: Die Ausführung der Komposition wurde angehalten.</li><li>**[!UICONTROL Fehlerhaft]**: Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Um weitere Informationen zum Fehler anzuzeigen, öffnen Sie die Komposition und greifen Sie auf die Protokolle zu.</li></ul> Um zu erfahren, wie man eine Komposition startet oder stoppt, lesen Sie das [Handbuch zur Komposition erstellen](./create-composition.md#monitor-logs). |
+| **[!UICONTROL Name]** | Der Name der Komposition. Wenn Sie die Komposition auswählen, können Sie sie bearbeiten. Weitere Informationen zum Erstellen und Bearbeiten von Kompositionen finden Sie im [Handbuch zum Erstellen einer Komposition](/help/compositions/create-composition.md). |
+| **[!UICONTROL Status]** | Der Status der Komposition. Mögliche Werte umfassen [!UICONTROL Entwurf], [!UICONTROL In Bearbeitung], [!UICONTROL Angehalten], [!UICONTROL Pausiert] und [!UICONTROL Fehlerhaft]. <ul><li>**[!UICONTROL Entwurf]**: Die Komposition wurde erstellt und gespeichert.</li><li>**[!UICONTROL In Bearbeitung]**: Die Komposition wurde ausgeführt und läuft derzeit.</li><li>**[!UICONTROL Angehalten]**: Die Ausführung der Komposition ist abgeschlossen und wurde gestoppt.</li><li>**[!UICONTROL Pausiert]**: Die Ausführung der Komposition wurde pausiert.</li><li>**[!UICONTROL Fehlerhaft]**: Bei der Ausführung der Komposition ist ein Fehler aufgetreten. Um weitere Informationen zum Fehler anzuzeigen, öffnen Sie die Komposition und greifen Sie auf die Protokolle zu.</li></ul>Wenn Sie erfahren möchten, wie Sie eine Komposition starten oder anhalten, lesen Sie das [Handbuch zum Erstellen einer Komposition](./create-composition.md#monitor-logs). |
 | **[!UICONTROL Erstellt von]** | Name und E-Mail-Adresse der Person, die die Komposition erstellt hat. |
 | **[!UICONTROL Geändert]** | Datum und Uhrzeit der letzten Aktualisierung der Komposition. |
 
-Sie können auch Schnellaktionen für die Kompositionen durchführen, indem Sie auf die Schaltfläche ![Ellipsen](/help/assets/icons/more.png) neben dem Namen klicken.
+Sie können auch Schnellaktionen für die Kompositionen ausführen, indem Sie neben dem entsprechenden Namen die Schaltfläche mit den ![Auslassungspunkten](/help/assets/icons/more.png) auswählen.
 
 | Aktion | Beschreibung |
 | ------ | ----------- |
-| **[!UICONTROL Duplikat]** | Dupliziert die ausgewählte Komposition. |
+| **[!UICONTROL Duplizieren]** | Dupliziert die ausgewählte Komposition. |
 | **[!UICONTROL Löschen]** | Löscht die ausgewählte Komposition. |
 | **[!UICONTROL Zu Paket hinzufügen]** | Verschiebt die Komposition zwischen Sandboxes. Weitere Informationen zu dieser Funktion finden Sie im [Handbuch zu Sandbox-Tools](https://experienceleague.adobe.com/de/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 

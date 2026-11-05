@@ -8,9 +8,9 @@ product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
 source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5480'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Überblick über Aktivitäten
 
@@ -231,7 +231,7 @@ Nachdem Sie Ihre Ausschlussregeln konfiguriert haben, können Sie auch die Optio
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
 >title="Deduplizierungseinstellungen"
->abstract="Um Duplikate in den eingehenden Daten zu löschen, die Deduplizierungsmethode in den folgenden Feldern definieren. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem den Deduplizierungsmodus anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der aus den Duplikaten beibehalten werden soll, zufällig ausgewählt."
+>abstract="Um Duplikate in den eingehenden Daten zu löschen, die Deduplizierungsmethode in den folgenden Feldern definieren. Standardmäßig wird nur ein Eintrag beibehalten. Sie sollten außerdem die Deduplizierungsmethode anhand eines Ausdrucks oder Attributs auswählen. Standardmäßig wird der Eintrag, der aus den Duplikaten beibehalten werden soll, zufällig ausgewählt."
 
 Die Aktivität **Deduplizierung** entfernt alle doppelten Ergebnisse innerhalb der Zielgruppe.
 
@@ -426,7 +426,7 @@ Jetzt können Sie die Zuordnungen angeben, um auszuwählen, welche Felder Sie an
 
 Nachdem Sie die Zuordnungen hinzugefügt haben, können Sie die primäre Identität und den Namespace auswählen, um die anvisierten Profile in der Datenbank zu identifizieren. Das Feld für die primäre Identität wird zur Identifizierung der Profile verwendet, während der Identity-Namespace als Schlüssel zur Identifikation der Identität dient.
 
-Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festlegen. Die Ablaufzeit der Daten bestimmt über die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Der Ablauf der Daten kann 1 bis 3.650 Tage (10 Jahre) betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
+Darüber hinaus können Sie die Ablaufzeit der Daten für die Zielgruppe festlegen. Die Ablaufzeit der Daten bestimmt über die Anzahl der Tage, nach denen die Zielgruppenzugehörigkeit abläuft. Die Ablaufzeit von Daten kann 1 bis 3650 Tage (10 Jahre) betragen. Standardmäßig ist dieser Wert auf 30 festgelegt.
 
 +++
 
@@ -587,7 +587,7 @@ Da relationale Schemata nur inkrementelle Aktualisierungen unterstützen, müsse
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
 >title="Sortierung der Aufspaltungsaktivität"
->abstract="Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Dazu die Option **Sortierung aktivieren** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Kaufbetrag einbezogen werden."
+>abstract="Beim Festlegen einer Populationsbegrenzung für eine Teilmenge können die ausgewählten Profile anhand eines bestimmten Profilattributs in auf- oder absteigender Reihenfolge sortiert werden. Dazu die Option **Sortierung aktivieren** einschalten. Teilmengen können z. B. so eingeschränkt werden, dass nur die 50 Top-Profile mit dem höchsten Einkaufsbetrag einbezogen werden."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
@@ -606,8 +606,8 @@ Da relationale Schemata nur inkrementelle Aktualisierungen unterstützen, müsse
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
->title="Zulassen der Überschneidung von Ausgabepopulationen"
->abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind. Wenn das Kästchen nicht aktiviert ist, stellt die Aufspaltungsaktivität sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren Output-Transitionen vorhanden sein kann, selbst wenn sie bzw. er die Kriterien mehrerer Teilmengen erfüllt. Sie bzw. er befindet sich in der Zielgruppe der ersten Registerkarte mit entsprechenden Kriterien. Wenn das Kästchen aktiviert ist, können die Empfangenden in mehreren Teilmengen gefunden werden, falls sie ihren Filterkriterien entsprechen. "
+>title="Überschneidung der Ausgabepopulationen zulassen"
+>abstract="Die Option **[!UICONTROL Überschneidung der Ausgabepopulationen zulassen]** ermöglicht den Umgang mit Profilen, die in mehreren Teilmengen enthalten sind. Wenn das Kästchen nicht aktiviert ist, stellt die Aufspaltungsaktivität sicher, dass eine Empfängerin oder ein Empfänger nicht in mehreren Ausgangstransitionen vorhanden sein kann, selbst wenn sie bzw. er die Kriterien mehrerer Teilmengen erfüllt. Sie bzw. er befindet sich in der Zielgruppe der ersten Registerkarte mit entsprechenden Kriterien. Wenn das Kästchen aktiviert ist, können die Empfangenden in mehreren Teilmengen gefunden werden, falls sie ihren Filterkriterien entsprechen. "
 
 Die Aktivität **Aufspaltung** unterteilt die eingehende Population je nach den angegebenen Kriterien in mehrere Teile.
 
@@ -703,7 +703,7 @@ Nachdem Sie die Aktivität **Verzweigung** zu Ihrer Komposition hinzugefügt hab
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_schedule_options"
 >title="Planungsoptionen"
->abstract="Definieren Sie die Häufigkeit des Zeitplans. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
+>abstract="Definieren Sie die Häufigkeit der Planung. Er kann zu einem bestimmten Zeitpunkt, einmal oder mehrmals pro Tag, Woche oder Monat, ausgeführt werden."
 
 Mit der Aktivität **Planung** können Sie planen, wann die Ausführung der Komposition starten soll. Sie **müssen** diese als erste Aktivität der Komposition verwenden.
 
