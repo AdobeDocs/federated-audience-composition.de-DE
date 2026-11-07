@@ -143,4 +143,4 @@ Gehen Sie wie folgt vor, um über die Registerkarte „Arbeitsflächenansicht“
 
 In diesem Video erfahren Sie, wie Sie ein Datenmodell erstellen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507569?captions=ger)
