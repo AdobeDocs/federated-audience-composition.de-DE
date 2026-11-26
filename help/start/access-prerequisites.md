@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
-workflow-type: ht
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
+workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # Voraussetzungen und Leitlinien {#fac-access}
 
@@ -50,7 +50,7 @@ Weitere Informationen zum Herstellen einer Verbindung mit diesen Systemen finden
 
 ## Sandboxes
 
-Beim Erwerb der Komposition föderierter Zielgruppen haben Sie Anspruch auf zwei Sandboxes. Wenden Sie sich bei Anfragen für die Bereitstellung weiterer Sandboxes an Ihren Kontakt beim Adobe-Support.
+Beim Kauf einer Federated-Audience-Komposition haben Sie Anspruch auf fünf Sandboxes. Wenden Sie sich bei Anfragen für die Bereitstellung weiterer Sandboxes an Ihren Adobe-Support-Mitarbeitenden.
 
 Gehen Sie wie folgt vor, um die Liste Ihrer aktiven Sandboxes für die Komposition föderierter Zielgruppen anzuzeigen:
 
